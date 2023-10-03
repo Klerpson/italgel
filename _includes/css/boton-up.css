@@ -1,0 +1,19 @@
+.boton-up {
+  position: fixed;
+  right: 12px;
+  bottom: 80px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--oficial);
+  border-radius: var(--radius);
+  transition: all 300ms ease-in;
+  z-index: 5;
+}
+
+.boton-up:hover {
+  box-shadow: var(--shadow);
+  transform: scale(1.1);
+}

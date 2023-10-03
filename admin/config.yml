@@ -1,0 +1,50 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: 'img/blog'
+public_folder: 'blog'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'J-son', name: 'json-post', widget: 'hidden', default: 'true' }
+      - { label: 'Fecha', name: 'date', widget: 'datetime' }
+      - { label: 'Meta Title', name: 'title', widget: 'string' }
+      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'H1', name: 'h1', widget: 'string' }
+      - { label: 'jpg320x320', name: 'jpg', widget: 'image' }
+      - { label: 'webp320x320', name: 'webp', widget: 'image' }
+      - { label: 'Alt', name: 'alt', widget: 'string' }
+      - { label: 'URL', name: 'permalink', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - name: 'verticales'
+    label: 'Verticales'
+    folder: '/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'verticales' }
+      - { label: 'Vertical', name: 'vertical', widget: 'hidden', default: 'true' }
+      - { label: 'Enlace', name: 'boton_url', widget: 'hidden', default: 'enlace' }
+      - { label: 'Fecha', name: 'date', widget: 'datetime' }
+      - { label: 'Meta Title', name: 'title', widget: 'string' }
+      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'H1', name: 'h1', widget: 'string' }
+      - { label: 'jpg320x320', name: 'jpg', widget: 'image' }
+      - { label: 'webp320x320', name: 'webp', widget: 'image' }
+      - { label: 'Descripción imagen con KW', name: 'alt', widget: 'string' }
+      - { label: 'CTA botón', name: 'boton', widget: 'string' }
+      - { label: 'Introducción', name: 'excerpt', widget: 'string' }
+      - { label: 'URL', name: 'permalink', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }

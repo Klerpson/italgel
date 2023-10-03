@@ -1,0 +1,13 @@
+<nav>
+  <a href="{{site.baseurl}}/" title="Inicio" class="logo">📝 <span>Aprendamos inglés</span></a>
+  <ul>
+    <li><a href="{{site.baseurl}}/escuelas" {% if page.url contains '/escuelas' %}class="active"{% endif %}>🌎 <span>Cerca de Ti</span></a></li>
+    <li><a href="{{site.baseurl}}/blog" {% if page.url contains '/blog' %}class="active"{% endif %}>🅱️ <span>Nuestro Blog</span></a></li>
+    <li><a href="{{site.baseurl}}/clases-en-linea" {% if page.url contains '/clases-en-linea' %}class="active"{% endif %}>🌐 <span>Aprende en Grupo</span></a></li>
+  </ul>
+  <label for="nav-toggle" class="icono-nav">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </label>
+</nav>

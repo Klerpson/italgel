@@ -1,0 +1,80 @@
+---
+layout: compress
+title: "✨ Agradecimiento: un sentimiento que transforma vidas"
+h1: "Agradecimiento: un sentimiento que transforma vidas"
+description: "💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!"
+webp: blog-hero.webp
+---
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <header class="home">
+    <div>
+      <h1>{{page.h1}}</h1>
+      <p>{{page.intro}}</p>
+    </div>
+    <div class="flow">
+      <a href="{{site.baseurl}}{{page.url}}#{{page.boton1_url}}" title="{{page.boton1}}" class="boton boton_2">{{page.boton1 | capitalize}}</a>
+      <a href="{{site.baseurl}}{{page.url}}#{{page.boton2_url}}" title="{{page.boton2}}" class="boton boton_2">{{page.boton2 | capitalize}}</a>
+    </div>
+  </header>
+  <main class="wrapper flow">
+    <h2>Escuelas de inglés en {{page.ciudad | capitalize }}: Opiniones y comparativas</h2>
+    <p>¿Quieres <strong>aprender inglés en {{page.ciudad | capitalize }}</strong> pero no sabes por dónde empezar? Estás en el lugar correcto. Descubre las mejores escuelas, compara y elige la que se adapte a tus necesidades. ¡Vamos al grano!</p>
+    <div class="escuelas" id="escuelas">
+      {% assign ciudad = page.ciudad %}
+      {% for escuela in site.data[ciudad] %}
+      <hr>
+      <article>
+        <div class="escuela_datos">
+          <h3><span>{{escuela.numero}}</span>{{escuela.name}}</h3>
+          <span>☎️ {{escuela.telefono}}</span>
+          <span>🏫 {{escuela.direccion}}</span>
+        </div>
+        <div class="escuela_puntos">
+          <ul>
+            <li><span>▷</span> {{escuela.punto1}}</li>
+            <li><span>▷</span> {{escuela.punto2}}</li>
+            {% if escuela.punto3 %}
+            <li><span>▷</span> {{escuela.punto3}}</li>
+            {% endif %}
+            {% if escuela.punto4 %}
+            <li><span>▷</span> {{escuela.punto4}}</li>
+            {% endif %}
+            {% if escuela.punto5 %}
+            <li><span>▷</span> {{escuela.punto5}}</li>
+            {% endif %}
+          </ul>
+          {% if escuela.url1 %}
+          <a href="{{escuela.url1}}" title="{{escuela.title1}}" class="boton boton_1">{{escuela.cta1}}</a>
+          {% endif %}
+          {% if escuela.url2 %}
+          <a href="{{escuela.url2}}" title="{{escuela.title2}}" class="boton boton_1">{{escuela.cta2}}</a>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </main>
+  <section class="contenido wrapper flow">
+    {{content}}
+  </section>
+  {% include cta.html %}
+  {% include footer.html %}
+  <a href="#">{% include boton-up.html %}</a>
+  </body>
+  <script async>
+    const filterButtons = document.querySelectorAll(".estados button");
+    const filterPosts = document.querySelectorAll(".posts .post");
+  
+    const filter = e => {
+      filterButtons.forEach(button => button.classList.toggle("active", button === e.target));
+  
+      filterPosts.forEach(post => {
+        post.classList.toggle("hide", post.dataset.name !== e.target.dataset.name && e.target.dataset.name !== "all");
+      });
+    };
+  
+    filterButtons.forEach(button => button.addEventListener("click", filter));
+    </script>
+</html>

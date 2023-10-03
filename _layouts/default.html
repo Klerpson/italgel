@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+{% include head.html %}
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <!-- End Google Tag Manager (noscript) -->
+  {% include nav.html %}
+  {% include header.html %}
+  {% if page.vertical %}
+    {{ content }}
+  {% include cta.html %}
+  {% include footer.html %}
+  {% else %}
+  {{ content }}
+  {% include footer.html %}
+  {% endif %}
+  <a href="#">{% include boton-up.html %}</a>
+  
+</body>
+
+</html>

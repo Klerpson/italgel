@@ -1,0 +1,42 @@
+.escuelas{
+  display: grid;
+  gap: 2em;
+  padding: 4em 0 0;
+}
+
+.escuelas article{
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.escuelas article h3{
+  width: min(100%, 400px);
+  text-align: left;
+}
+
+.escuelas article .escuela_datos{
+  max-width: 100%;
+  flex: 1 0 320px;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.escuelas article .escuela_puntos{
+  max-width: 100%;
+  flex: 1 0 600px;
+}
+
+.escuelas article div:last-child {
+  background-color: var(--secundario);
+  padding: 16px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-evenly;
+}

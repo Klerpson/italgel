@@ -1,0 +1,25 @@
+{% if page.url != "/" %}
+<header class="flow wrapper hero">
+  {% if page.webp %}
+  <img src="{{site.baseurl}}/img/{{page.webp}}" alt="{{page.alt}}" width="320" height="240">
+  {% endif %}
+  <h1>{{ page.h1 }}</h1>
+</header>
+<hr>
+{% endif %}
+{% if page.url == "/" %}
+<header class="home">
+  <section class="flow">
+    <h1>{{page.h1 }}</h1>
+    <h2>{{ page.intro }}</h2>
+    <a href="{{site.telegram}}" class="boton" title="Escríbeme">{{page.cta}}</a>
+  </section>
+  <section class="ultimo">
+    <img src="{{site.baseurl}}/img/houston.webp" alt="Clases inglés Houston" width="120px" height="120px" loading="lazy">
+    <div>
+      <h3>Lo último de nuestras clases de inglés</h3>
+      <a href="{{'escuelas/houston'}}" title="Clases ingles Houston"><h4>Escuelas de inglés en Houston</h4></a>
+    </div>
+  </section>
+</header>
+{% endif %}

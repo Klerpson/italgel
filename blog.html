@@ -1,0 +1,38 @@
+---
+layout: compress
+title: "✨ El blog de que te guía en tu proceso de aprender inglés"
+h1: "El blog de que te guía en tu proceso de aprender inglés"
+description: "💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!"
+webp: blog-clases-ingles.webp
+---
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  {% include header.html %}
+  
+  <main class="entradas wrapper">
+    <div class="flow">
+    {% include buscador.html %}
+    <h2>Consejos, escuelas y más para aprender inglés en USA</h2>
+    {% for post in site.posts %}
+    <article class="flow">
+      <div>
+        <img src="{{site.baseurl}}/img/{{post.webp}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
+        <a href="{{ post.url }}" title="{{ post.title }}">
+          <h4>{{ post.title }}</h4>
+        </a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  </main>
+{% include cta.html %}
+{% include footer.html %}
+<a href="#">{% include boton-up.html %}</a>
+  
+  <!-- Script pointing to search-script.js -->
+  <script defer src="{{site.baseurl}}/js/search-script.js"></script>
+  <!-- Configuration -->
+  <script defer src="{{site.baseurl}}/js/buscador.js"></script>
+  </body>
+</html>

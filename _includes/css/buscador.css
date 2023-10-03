@@ -1,0 +1,32 @@
+.buscador div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  text-align: center;
+}
+
+.buscador p{
+  margin: 0;
+}
+
+.buscador div input,
+.buscador div ul{
+  width: min(100%, 720px);
+  height: min-content;
+}
+
+.buscador div ul{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buscador div ul li a{
+  text-align: left;
+}

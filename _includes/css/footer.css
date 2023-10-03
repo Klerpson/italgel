@@ -1,0 +1,49 @@
+footer {
+  display: grid;
+  gap: 2rem;
+  place-items: center;
+  font-size: 0.9rem;
+  padding: 4rem 16px 2rem;
+}
+
+footer h4{
+  font-size: var(--small);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+footer a{
+  color: var(--accion);
+  transition: all .2s ease-in;
+  text-decoration: none;
+  max-width: 300px;
+}
+
+footer a:hover{
+  color: var(--principal);
+  transform: scale(1.02);
+}
+
+footer section{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+footer div{
+  display: grid;
+  gap: .7rem;
+  max-width: 100%;
+}
+
+footer div img{
+  display: block;
+  width: min(100%, 160px);
+  justify-self: center;
+}
+
+footer section p{
+  max-width: 300px;
+  font-size: var(--small);
+}

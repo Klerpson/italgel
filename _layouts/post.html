@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<main>
+  <article class="wrapper flow contenido">
+    {{ content }}
+    {% include related.html %}
+  </article>
+</main>
+  <section class="wrapper share">
+    {% include share.html %}
+  </section>
+  <section class="wrapper flow">
+    {% include comentarios.html %}
+  </section>
+  {% include cta.html %}
+{% include follow-buttons.html %}

@@ -1,0 +1,32 @@
+baseurl: ''
+url: 'https://aprendamosingles.us'
+name: 'aprendamosingles.us'
+author: Julian Franco
+# email: contacto@trabajoescrito.com
+# facebook_url: 
+# twitter_url: https://twitter.com/bloglaterminal
+# linkedin_url: 
+# pinterest_url: https://co.pinterest.com/trabajoescrito/
+# instagram_url: https://www.instagram.com/terminaldetransporte/
+# rss_url:
+
+markdown: kramdown
+
+permalink: :slug
+
+keep_files: [/img]
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+    envs: []
+    blanklines: false
+    profile: false
+    startings: []
+
+collections:
+  ciudades:
+    output: true
+    permalink: /escuelas/:path

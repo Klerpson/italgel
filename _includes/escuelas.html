@@ -1,0 +1,21 @@
+<main class="ciudades wrapper">
+  <div class="estados">
+    <button data-name="all" class="active">Todos</button>
+    {% for escuela in site.data.{{include.estado}} %}
+    <button data-name="{{ escuela[0] }}">{{ escuela[0] | capitalize }}</button>
+    {% endfor %}
+  </div>
+</main>
+<section class="posts wrapper">
+  {% for escuela in site.data.{{include.estado}} %}
+  <div class="post" data-name="{{ escuela[0] }}">
+    <span>Frases para {{ escuela[0] | capitalize }}</span>
+    <div class="links">
+      {% for post in escuela[1] %}
+      <article><a href="{{ post.url }}"><h4>{{ post.h1 }}</h4></a></article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  <p>Las frases de agradecimiento son una herramienta poderosa para expresar gratitud. Nos permiten poner en palabras lo que sentimos en nuestro corazón. Una frase de agradecimiento puede ser un regalo para la persona que la recibe, un recordatorio de cuánto se aprecia su bondad.</p>
+</section>

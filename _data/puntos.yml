@@ -1,0 +1,20 @@
+- img: estudiar-ingles-en-casa.avif
+  alt: Estudia ingles en USA
+  title: Clases de inglés
+  url: "/escuelas"
+  h4: ¿Necesitas estudiar inglés cerca de casa?
+  p: Accede a nuestra página de <strong>Escuelas de Inglés por ciudades de Estados Unidos</strong>
+
+- img: estudia-ingles-online.avif
+  alt: Aprender ingles online
+  title: Cursos de inglés
+  url: "/blog"
+  h4: ¿No tienes tiempo para ir a una escuela de inglés?
+  p: Busca nuestros <strong>recursos en línea para aprender inglés</strong> sin salir de tu casa
+
+- img: clases-ingles-gratis.avif
+  alt: Aprender ingles gratis
+  title: Ingles Gratis
+  url: "#formulario"
+  h4: ¿Todavía no te alcanza para pagar una escuela de inglés?
+  p: Recibe información sobre <strong>nuestros grupos de práctica al alcance de tu bolsillo</strong>

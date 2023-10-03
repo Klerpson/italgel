@@ -1,0 +1,8 @@
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="32"
+  loop="true">
+  {% for frase in site.data.frases %}
+  <swiper-slide>
+    <a href="{{frase.url}}" title="{{frase.title}}">{{frase.p}}</a>
+  </swiper-slide>
+  {% endfor %}
+</swiper-container>

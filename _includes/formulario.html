@@ -1,0 +1,16 @@
+<h2>Únete a nuestro grupo en línea y eleva tu inglés 🚀</h2>
+<form class="form" name="contact" method="post" netlify onsubmit="submit" data-netlify-honeypot="bot-field" action="/gracias">
+  <input name="bot-field" class="d-none" style="display: none;">
+  <div class="form__group">
+    <label class="form__label" for="form-name">Escribe tu nombre</label>
+    <input class="form__input" id="form-name" type="text" placeholder="Fulano Sultano" required name="name">
+  </div>
+  <div class="form__group">
+    <label class="form__label" for="form-email">Escribe tu e-mail</label>
+    <input class="form__input" id="form-email" type="email" placeholder="ejemplo@ejemplo.com" required name="email">
+  </div>
+  <div class="form__group">
+    <button class="botones" type="submit">¡Quiero participar!</button>
+  </div>
+  <input type="hidden" value="{{ site.baseurl }}/clases-en-linea/bienvenid@/" />
+</form>

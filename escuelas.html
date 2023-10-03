@@ -1,0 +1,80 @@
+---
+layout: compress
+title: "Escuelas de inglés en Estados Unidos 🗽"
+h1: "🗽 Escuelas de inglés en Estados Unidos: Aprende con los nativos"
+description: "Aprende inglés en USA y abre puertas a nuevas oportunidades. ¡Haz clic y empieza tu viaje educativo hoy! Tu futuro empieza aquí 🌟"
+webp: "escuelas-ingles.webp"
+---
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  {% include header.html %}
+  <main class="ciudades wrapper">
+    <h2>Escoge el estado donde quieres estudiar inglés</h2>
+    <div class="estados">
+      <button data-name="all" class="active">Todos</button>
+      {% capture filtered_categories_array %}{% for item in site.ciudades %}{{ item.category }}|{% endfor %}{% endcapture %}
+    {% for item in site.ciudades %}
+        {% assign filtered_cat = item.category | append: '|' %}
+        {% if filtered_categories_array contains filtered_cat %}
+        <button data-name="{{ item.category}}">{{ item.category | upcase }}</button>
+        {% endif %}
+        {% assign filtered_categories_array = filtered_categories_array | remove: filtered_cat %}
+    {% endfor %}
+    </div>
+  </main>
+  <section class="posts wrapper">
+    {% capture filtered_categories_array %}{% for item in site.ciudades %}{{ item.category }}|{% endfor %}{% endcapture %}
+{% for item in site.ciudades %}
+{% assign filtered_cat = item.category | append: '|' %}
+  {% if filtered_categories_array contains filtered_cat %}
+  <div class="post" data-name="{{ item.category }}">
+    <span>Escuelas en {{ item.category | upcase }}</span>
+    <section class="links">
+      {% for destino in site.ciudades %}
+      {% if destino.category contains item.category %}
+      <article>
+        <a href="{{destino.url}}">
+          {% include img.html webpm=destino.webpm webps=destino.webps %}
+          <h4>{{destino.title}}</h4></a>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </section>
+  </div>
+  {% endif %}
+  {% assign filtered_categories_array = filtered_categories_array | remove: filtered_cat %}
+{% endfor %}
+    {% include buscador.html %}
+  </section>
+  <div class="wrapper flow">
+    <h2>Somos la solución a tu necesidad de aprender Inglés</h2>
+    <p>¿Cansado de buscar escuelas de inglés en Estados Unidos y sentirte abrumado con tantas opciones? ¿Te sientes estancado en tu carrera porque tu inglés no está al nivel que quisieras?</p>
+    <p>¡Estás en el lugar correcto! En "Aventuras en inglés," te quitamos el estrés de la elección y te guiamos directo a las soluciones que cambiarán tu vida. Aquí, no solo <strong>descubrirás las mejores escuelas y programas de inglés en USA</strong>, sino que también te daremos <strong>estrategias reales para aprovechar al máximo tu inversión en educación</strong>.</p>
+    <p>Olvídate de la confusión y la incertidumbre; estamos aquí para convertir tu sueño de hablar inglés fluido en una realidad palpable. 🚀</p>
+  </div>
+{% include cta.html %}
+{% include footer.html %}
+<a href="#">{% include boton-up.html %}</a>
+  
+
+ <script async>
+  const filterButtons = document.querySelectorAll(".estados button");
+  const filterPosts = document.querySelectorAll(".posts .post");
+
+  const filter = e => {
+    filterButtons.forEach(button => button.classList.toggle("active", button === e.target));
+
+    filterPosts.forEach(post => {
+      post.classList.toggle("hide", post.dataset.name !== e.target.dataset.name && e.target.dataset.name !== "all");
+    });
+  };
+
+  filterButtons.forEach(button => button.addEventListener("click", filter));
+  </script>
+  <!-- Script pointing to search-script.js -->
+<script defer src="{{site.baseurl}}/js/search-script.js"></script>
+<!-- Configuration -->
+<script defer src="{{site.baseurl}}/js/buscador.js"></script>
+</body>
+</html>
