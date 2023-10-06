@@ -51,6 +51,7 @@
 
 .doble_columna > div{
   flex: 1 0 400px;
+  max-width: 100%;
   margin: 2em 0;
 }
 
@@ -59,6 +60,7 @@
   place-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  text-align: center;
 }
 
 .doble_columna div div svg {
