@@ -27,9 +27,18 @@ webp: blog-hero.webp
       <hr>
       <article>
         <div class="escuela_datos">
-          <h3><span>{{escuela.numero}}</span>{{escuela.name}}</h3>
-          <span>☎️ {{escuela.telefono}}</span>
-          <span>🏫 {{escuela.direccion}}</span>
+          <h3>{{escuela.name}}</h3>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64c0 247.4 200.6 448 448 448 18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368c-70.4-33.3-127.4-90.3-160.7-160.7l49.3-40.3c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+            {{escuela.telefono}}</span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320.7 351.7C329 262.1 404.3 192 496 192c8.9 0 17.6.7 26.1 1.9L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24 0 18 14 32.1 32 32.1h32V480c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-96.3c0-17.7 14.3-32 32-32h64.7zM640 368c0-79.5-64.5-144-144-144s-144 64.5-144 144 64.5 144 144 144 144-64.5 144-144zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l28.7 28.7 60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z"/></svg>
+            {{escuela.direccion}}</span>
+            {% if escuela.horario %}
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M232 120c0-13.3 10.7-24 24-24s24 10.7 24 24v123.2l85.3 56.8c11 7.4 14 22.3 5.8 33.3-6.5 11-21.4 14-32.4 5.8l-96-64c-6.7-3.6-10.7-11.1-10.7-20V120zM256 0c141.4 0 256 114.6 256 256S397.4 512 256 512 0 397.4 0 256 114.6 0 256 0zM48 256c0 114.9 93.1 208 208 208s208-93.1 208-208S370.9 48 256 48 48 141.1 48 256z"/></svg>
+              {{escuela.horario}}</span>
+              {% endif %}
         </div>
         <div class="escuela_puntos">
           <ul>

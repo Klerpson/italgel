@@ -8,6 +8,13 @@
       } {% unless forloop.last %},{% endunless %}
   {% endfor %}
   ,
+  {% for ciudad in site.ciudades %}
+    {
+      "title"    : "{{ ciudad.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ ciudad.url }}"
+      } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
   {% for page in site.pages %}
    {
      {% if page.title != nil %}

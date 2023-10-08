@@ -1,14 +1,14 @@
-- name: Anaheim Public Library
+- name: Language On Boca Raton School
   telefono: +1 714-765-1880
   direccion: 500 W. Broadway, Anaheim, CA 92805
   horario: "Días martes, miércoles y jueves"
-  punto1: "<b>Tipo de Escuela</b>: Cursos Gratuitos"
+  punto1: "<b>Acceso</b>: fácil acceso al transporte público"
   punto2: "<b>Recursos en Línea</b>: La biblioteca ofrece recursos de aprendizaje de idiomas en línea para todas las edades"
   punto3: "<b>Clases de Ciudadanía</b>: También ofrecen clases de ciudadanía en persona en la Biblioteca Central de Anaheim"
   punto4: "<b>Empoderar Ciudadanos:</b>: En colaboración con OCCORD, la biblioteca participa en la campaña #EmpoderarCiudadanos para fortalecer la comunidad"
   url1: "#planes-de-la-biblioteca-anaheim-public-library"
   cta1: Haz esto y aprende gratis
-  title1: Anaheim Public Library
+  title1: Language On Boca Raton School
 
 - name: Anaheim Family YMCA
   telefono: +1 714-635-9622

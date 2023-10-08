@@ -1,70 +1,64 @@
-- numero: 1️⃣
-  name: Allentown School District Free English Classes for Adults
+- name: Allentown School District Free English Classes for Adults
   telefono: +1 484-765-4000
   direccion: 31 S. Penn Street, Allentown, PA 18102
+  horario: "Principiantes 5:30-6:30 p.m. e intermedios 6:30-7:30 p.m."
   punto1: "<b>Tipo de Escuela</b>: Virtuales"
   punto2: "<b>Público Objetivo</b>: Padres de estudiantes de ASD y miembros de la comunidad de Allentown"
   punto3: "<b>Niveles</b>: Principiante e Intermedio"
-  punto4: "<b>Horarios</b>: Principiantes 5:30-6:30 p.m. e intermedios: 6:30-7:30 p.m."
-  punto5: "<b>Días</b>: Martes, miércoles y jueves"
+  punto4: "<b>Días</b>: Martes, miércoles y jueves"
   url1: "#planes-de-allentown-school-district"
   cta1: Ver precios de las clases
   title1: Precios de Allentown School District
 
-- numero: 2️⃣
-  name: Global Learning USA
+- name: Global Learning USA
   telefono: +1 713-697-199​1
   direccion: 5900 North Freeway, suite 137, Houston, TX 77076
+  horario: "Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
   punto1: "<b>Tipo de Escuela</b>: Con más de 20 años de experiencia"
   punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
   punto3: "<b>Público objetivo</b>: Estudiantes internacionales"
   punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  punto5: "<b>Horario de oficina</b>: Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
   url1: "#planes-de-la-escuela-global-learning-usa"
   cta1: Ver precios de las clases
   title1: Precios de Global Learning USA
 
-- numero: 3️⃣
-  name: America Learning Center
+- name: America Learning Center
   telefono: +1 713-855-5900
   direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
+  horario: "Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
   punto1: "<b>Tipo de Escuela</b>: Sin fines de lucro"
   punto2: "<b>Cursos Ofrecidos</b>: inglés general (gratuito para estudiantes de bajos ingresos)"
   punto3: "<b>Servicios de apoyo</b>: Ayuda con la vivienda, ayuda con la alimentación"
   punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  punto5: "<b>Horario de oficina</b>: Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
   url1: "#planes-de-la-escuela-america-learning-center"
   cta1: Ver precios de las clases
   title1: Precios de America Learning Center
 
-- numero: 4️⃣
-  name: Papora
+- name: Papora
   telefono: +1 713-855-5900
   direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
+  horario: "Clases disponibles las 24 horas del día"
   punto1: "<b>Tipo de Escuela</b>: En línea"
   punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad"
   punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
   punto4: "<b>Certificados</b>: Al finalizar tus estudios, obtienes un certificado de valor internacional"
-  punto5: "<b>Horarios</b>: Clases disponibles las 24 horas del día"
   url1: "#planes-de-la-escuela-papora"
   cta1: Ver precios de las clases
   title1: Precios de Papora
 
-- numero: 5️⃣
-  name: Best Inglés
+- name: Best Inglés
   telefono: +1 281-509-2570
   direccion: "6111 Farm to Market 1960 Road West STE 110, Houston, Texas"
+  horario: "Están abiertos de 8:00 a.m. a 10:00 p.m. de lunes a viernes y de 10:00 a.m. a 3:00 p.m. los fines de semana"
   punto1: "<b>Tipo de Escuela</b>: más de 30 años de experiencia"
   punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
-  punto3: "<b>Horarios</b>: Están abiertos de 8:00 a.m. a 10:00 p.m. de lunes a viernes y de 10:00 a.m. a 3:00 p.m. los fines de semana"
-  punto4: "<b>Testimonios</b>: Se detaca la cercanía de los maestros y la atención personal"
-  punto5: "<b>Requisitos</b>: Solo solicitan la cancelación del primer pago"
+  punto3: "<b>Testimonios</b>: Se detaca la cercanía de los maestros y la atención personal"
+  punto4: "<b>Requisitos</b>: Solo solicitan la cancelación del primer pago"
   url1: "#planes-de-la-escuela-best-inglés"
   cta1: Ver precios de las clases
   title1: Precios de Best Inglés
 
-- numero: 6️⃣
-  name: Interactive College of Technology
+- name: Interactive College of Technology
   telefono: +1 800-375-1010
   direccion: "16801 Greenspoint Park Drive Houston, TX 77060"
   punto1: "<b>Enfoque en adultos</b>: El programa está diseñado para adaptarse al horario ocupado de los adultos trabajadores"

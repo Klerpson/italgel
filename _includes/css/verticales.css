@@ -25,6 +25,13 @@
   justify-content: flex-start;
 }
 
+.escuela_datos svg{
+  width: 20px;
+  height: 20px;
+  fill: var(--oficial);
+  margin-right: 8px;
+}
+
 .escuelas article .escuela_puntos{
   max-width: 100%;
   flex: 1 0 600px;

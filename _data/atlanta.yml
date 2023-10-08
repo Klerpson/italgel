@@ -1,5 +1,4 @@
-- numero: 1️⃣
-  name: TALK English Schools
+- name: TALK English Schools
   telefono: +1 404-249-9466
   direccion: "1447 W Peachtree St NW #100, Atlanta, GA 30309"
   punto1: "<b>Tipo de Escuela</b>: Ofrecen cursos de inglés en varios niveles"
@@ -11,8 +10,7 @@
   cta1: Mira los precios de tu inscripción
   title1: Precios de TALK English Schools
 
-- numero: 2️⃣
-  name: Georgia Tech Language Institute
+- name: Georgia Tech Language Institute
   telefono: +1 404-894-2425
   direccion: 151 6th St NW, Atlanta, GA 30332-0374
   punto1: "<b>Tipo de Escuela</b>: Gana habilidades de comunicación y académicas para iniciar un programa de grado en una universidad o colegio en los EE. UU"
@@ -22,8 +20,7 @@
   cta1: Ver precios de las clases
   title1: Precios de Georgia Tech Language Institute
 
-- numero: 3️⃣
-  name: Georgia Institute of Technology
+- name: Georgia Institute of Technology
   telefono: +1 404-894-2425
   direccion: "151 6th St NW, Atlanta, GA 30332-0374"
   punto1: "<b>Tipo de Escuela</b>: Programas intensivos de inglés"
@@ -33,8 +30,7 @@
   cta1: Ver precios de las clases
   title1: Precios de Georgia Institute of Technology
 
-- numero: 4️⃣
-  name: Atlanta Public Schools
+- name: Atlanta Public Schools
   telefono: +1 404-802-3560
   direccion: "Adult Education Center, 1757 Mary Dell Drive, Atlanta, Georgia 30316"
   punto1: "<b>Tipo de Escuela</b>: ofrece clases de inglés para adultos"

@@ -1,19 +1,16 @@
 ---
 layout: page-basic
 title: Únete a nuestro grupo en línea y eleva tu inglés 🚀
-h1: Únete a nuestro grupo en línea y lleva tu inglés al siguiente nivel 🚀
-description: Las clases tradicionales no te ofrecen la práctica que realmente necesitas. Pero, ¿y si te dijéramos que hay una forma más efectiva de mejorar tu inglés?
+h1: Estudia inglés con nuestro grupo en línea y despega en tu segundo idioma
+description: Las clases de inglés tradicionales no te ofrecen la práctica que realmente necesitas. Pero, ¿y si te dijéramos que hay una forma más efectiva de mejorar tu inglés?
 webp: clases-ingles-grupo.webp
 alt: Clase de inglés en línea
-boton: ¡Comienza Ahora!
-boton_url: "frases"
-excerpt: "¿Listo para un cambio radical? Descubre cómo la gratitud puede ser tu superpode# r."
 ---
+[Unirme al grupo ahora mismo]({{site.baseurl}}/#formulario){:class="boton boton_2"}
+
 ## ¿Te sientes atrapado en tu aprendizaje del inglés?
 
 Sabemos lo frustrante que es sentir que no avanzas, que las clases tradicionales no te ofrecen la práctica que realmente necesitas. Pero, ¿y si te dijéramos que hay una forma **más efectiva y divertida de mejorar tu inglés**?
-
-[Unirme al grupo ahora mismo]({{site.baseurl}}/#formulario){:class="boton boton_2"}
 
 ## ¿Por qué nuestro grupo en línea es diferente? 🌟
 
