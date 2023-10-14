@@ -1,11 +1,10 @@
-- name: LCI Language Centers - Houston
-  telefono: +1 832-571-1007
-  direccion: 3618 Mount Vernon St., Houston, TX 77006, USA
-  punto1: "<b>Tipo de Escuela</b>: Integral"
-  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
-  punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
-  punto4: "<b>Ambiente</b>: Profesional pero íntimo, con atención personalizada"
-  punto5: "<b>Ofertas especiales</b>: Cursos de inglés nocturnos asequibles, oferta 'trae un amigo gratis' para el programa de inmersión total en inglés"
+- name: The University of Texas at Arlington
+  telefono: +1 817-272-2730
+  direccion: 701 S Nedderman Dr, Arlington, TX 76019, Estados Unidos
+  horario: Lunes a viernes de 9:00 AM a 5:00 PM
+  punto1: "<b>Programas Intensivos</b>: cursos intensivos para prepararte para la universidad"
+  punto2: "<b>Actividades Extracurriculares</b>: actividades para que los estudiantes conozcan la ciudad y se diviertan"
+  punto3: "<b>Email</b>:  eliadmissions@uta.edu"
   url1: "#planes-de-lci-language-centers---houston"
   cta1: Ver precios de las clases
   title1: Precios de LCI Language Centers

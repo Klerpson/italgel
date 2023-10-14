@@ -17,6 +17,7 @@ webp: houston.webp
 ![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
 Estas escuelas ofrecen una variedad de cursos de inglés **para todos los niveles de habilidad**, desde principiantes hasta avanzados. También ofrecen una variedad de **opciones de alojamiento y servicios** para apoyar a los estudiantes internacionales.
+{:id="escuelas"}
 
 ### Planes y precios de las clases de inglés en Houston
 

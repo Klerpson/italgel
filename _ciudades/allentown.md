@@ -77,4 +77,3 @@ Si tienes un enfoque más específico, como la biomedicina o la ingeniería, [Pa
 ### Cursos gratuitos
 
 Para aquellos que buscan opciones más económicas, [Allentown School District](#planes-de-la-escuela-allentown-school-district) y [The Literacy Center](#planes-de-literacy-center-allentown) ofrecen clases de inglés gratuitas para adultos.
-
