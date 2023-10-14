@@ -1,0 +1,69 @@
+- name: "University of Texas at Arlington (UTA)"
+  telefono: "Información no disponible"
+  direccion: "Arlington, Texas, Estados Unidos"
+  horario: "Información no disponible"
+  punto1: "<b>Tipo de Escuela</b>: Universidad"
+  punto2: "<b>Público Objetivo</b>: Estudiantes internacionales"
+  punto3: "<b>Niveles</b>: Inglés intensivo"
+  punto4: "<b>Plataforma</b>: ApplyESL para aplicaciones"
+  url1: "https://www.applyesl.com/school.asp?sid=0107300&lid=1"
+  cta1: "Aplicar ahora"
+  title1: "Programa de inglés intensivo en UTA"
+
+- name: "Language International - Escuelas en Arlington"
+  telefono: "Información no disponible"
+  direccion: "Arlington, Virginia, Estados Unidos"
+  horario: "Información no disponible"
+  punto1: "<b>Tipo de Escuela</b>: Plataforma de búsqueda de escuelas"
+  punto2: "<b>Público Objetivo</b>: Estudiantes, profesionales y viajeros"
+  punto3: "<b>Niveles</b>: Todos los niveles de fluidez"
+  punto4: "<b>Precios</b>: Desde $167"
+  url1: "https://es.languageinternational.com/escuelas-ingles-arlington-63503"
+  cta1: "Buscar cursos"
+  title1: "Las mejores escuelas de inglés en Arlington para 2023"
+
+
+- name: America Learning Center
+  telefono: +1 713-855-5900
+  direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
+  horario: "Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
+  punto1: "<b>Tipo de Escuela</b>: Sin fines de lucro"
+  punto2: "<b>Cursos Ofrecidos</b>: inglés general (gratuito para estudiantes de bajos ingresos)"
+  punto3: "<b>Servicios de apoyo</b>: Ayuda con la vivienda, ayuda con la alimentación"
+  punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
+  url1: "#planes-de-la-escuela-america-learning-center"
+  cta1: Ver precios de las clases
+  title1: Precios de America Learning Center
+
+- name: Papora
+  telefono: +1 713-855-5900
+  direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
+  punto1: "<b>Tipo de Escuela</b>: En línea"
+  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad"
+  punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
+  punto4: "<b>Certificados</b>: Al finalizar tus estudios, obtienes un certificado de valor internacional"
+  horario: "Clases disponibles las 24 horas del día"
+  url1: "#planes-de-la-escuela-papora"
+  cta1: Ver precios de las clases
+  title1: Precios de Papora
+
+- name: Best Inglés
+  telefono: +1 281-509-2570
+  direccion: "6111 Farm to Market 1960 Road West STE 110, Houston, Texas"
+  horario: "Están abiertos de 8:00 a.m. a 10:00 p.m. de lunes a viernes y de 10:00 a.m. a 3:00 p.m. los fines de semana"
+  punto1: "<b>Tipo de Escuela</b>: más de 30 años de experiencia"
+  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
+  punto3: "<b>Testimonios</b>: Se detaca la cercanía de los maestros y la atención personal"
+  punto4: "<b>Requisitos</b>: Solo solicitan la cancelación del primer pago"
+  url1: "#planes-de-la-escuela-best-inglés"
+  cta1: Ver precios de las clases
+  title1: Precios de Best Inglés
+
+- name: Interactive College of Technology
+  telefono: +1 800-375-1010
+  direccion: "16801 Greenspoint Park Drive Houston, TX 77060"
+  punto1: "<b>Enfoque en adultos</b>: El programa está diseñado para adaptarse al horario ocupado de los adultos trabajadores"
+  punto2: "<b>Instrucción en vivo</b>: Ofrecen clases de inglés en línea en vivo"
+  punto3: "<b>Enfoque de habilidades</b>: Las clases se centran en habilidades específicas como vocabulario, escucha, lectura, escritura, habla, pronunciación y gramática"
+  punto4: "<b>Material incluido</b>: Los estudiantes reciben todos los materiales del programa VESL para conservarlos"
+  punto5: "<b>Asistencia para la colocación laboral</b>: Ofrecen asistencia para la redacción de currículums y la colocación laboral"

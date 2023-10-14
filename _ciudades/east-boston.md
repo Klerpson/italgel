@@ -1,8 +1,8 @@
 ---
 layout: ciudades
-title: "Clases de ingles en East Boston, Boston"
+title: "Latinos en East Boston: Todo Sobre Escuelas de Inglés 🎓"
 h1: "Clases de ingles en East Boston, Boston"
-description: ¿Confundido sobre qué escuela de inglés elegir en Houston? ¡Haz clic y aclara tus dudas ahora! 🤩
+description: 🚌 Transporte, 💰 Costos, 📚 Cursos. Todo lo que un latino necesita saber para aprender inglés en East Boston. ¡Entra ya!
 intro: "Aprende inglés en Houston con las mejores escuelas gratis y de pago."
 category: boston
 ciudad: east-boston
