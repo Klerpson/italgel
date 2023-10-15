@@ -6,8 +6,8 @@
   punto2: "<b>Público Objetivo</b>: Estudiantes internacionales"
   punto3: "<b>Niveles</b>: Inglés intensivo"
   punto4: "<b>Plataforma</b>: ApplyESL para aplicaciones"
-  url1: "https://www.applyesl.com/school.asp?sid=0107300&lid=1"
-  cta1: "Aplicar ahora"
+  url1: "#"
+  cta1: "Ver más"
   title1: "Programa de inglés intensivo en UTA"
 
 - name: "Language International - Escuelas en Arlington"
@@ -18,8 +18,8 @@
   punto2: "<b>Público Objetivo</b>: Estudiantes, profesionales y viajeros"
   punto3: "<b>Niveles</b>: Todos los niveles de fluidez"
   punto4: "<b>Precios</b>: Desde $167"
-  url1: "https://es.languageinternational.com/escuelas-ingles-arlington-63503"
-  cta1: "Buscar cursos"
+  url1: "#"
+  cta1: "Ver más"
   title1: "Las mejores escuelas de inglés en Arlington para 2023"
 
 
@@ -31,8 +31,8 @@
   punto2: "<b>Cursos Ofrecidos</b>: inglés general (gratuito para estudiantes de bajos ingresos)"
   punto3: "<b>Servicios de apoyo</b>: Ayuda con la vivienda, ayuda con la alimentación"
   punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  url1: "#planes-de-la-escuela-america-learning-center"
-  cta1: Ver precios de las clases
+  url1: "#"
+  cta1: "Ver más"
   title1: Precios de America Learning Center
 
 - name: Papora
@@ -43,8 +43,8 @@
   punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
   punto4: "<b>Certificados</b>: Al finalizar tus estudios, obtienes un certificado de valor internacional"
   horario: "Clases disponibles las 24 horas del día"
-  url1: "#planes-de-la-escuela-papora"
-  cta1: Ver precios de las clases
+  url1: "#"
+  cta1: "Ver más"
   title1: Precios de Papora
 
 - name: Best Inglés
@@ -55,8 +55,8 @@
   punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
   punto3: "<b>Testimonios</b>: Se detaca la cercanía de los maestros y la atención personal"
   punto4: "<b>Requisitos</b>: Solo solicitan la cancelación del primer pago"
-  url1: "#planes-de-la-escuela-best-inglés"
-  cta1: Ver precios de las clases
+  url1: "#"
+  cta1: "Ver más"
   title1: Precios de Best Inglés
 
 - name: Interactive College of Technology

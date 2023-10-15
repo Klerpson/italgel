@@ -4,8 +4,8 @@ title: "Escuelas de Inglés en Houston | Gratis y de Pago 🌉"
 h1: "Escuelas de Inglés en Houston: Clases y Cursos"
 description: ¿Confundido sobre qué escuela de inglés elegir en Houston? ¡Haz clic y aclara tus dudas ahora! 🤩
 intro: "Aprende inglés en Houston con las mejores escuelas gratis y de pago."
-category: texas
 ciudad: houston
+category: texas
 boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
@@ -59,7 +59,6 @@ Para elegir la escuela de inglés adecuada para usted, es importante considerar 
 4. También debe considerar la ubicación de la escuela
 5. Finalmente, mira las opciones de alojamiento y servicios que ofrece
 {:class="seccion"}
-
 
 Aquí hay algunos consejos para elegir una escuela de inglés:
 

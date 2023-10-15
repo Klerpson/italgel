@@ -12,9 +12,9 @@ boton2: Consejos para escoger
 boton2_url: "consejos"
 webp: atlanta.webp
 ---
-## Cursos y escuelas que te ayudarán a conversar en inglés con cualquier vecino de Atlanta
-
 ![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
+
+## Cursos y escuelas que te ayudarán a conversar en inglés con cualquier vecino de Atlanta
 
 Atlanta no es solo un centro de comercio y tecnología; es también un excelente lugar para aprender inglés.
 
