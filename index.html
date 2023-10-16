@@ -12,31 +12,29 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
 
 
     <h3>Escuelas para aprender inglés en Texas</h3>
-    {% for post in site.ciudades limit:3 %}
-    {% if post.category == "texas" %}
     <article class="flow">
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-      {% if image contains 'src' %}
-      {% if foundImage == 0 %}
-      {% assign html = image | split:">" | first %}
-      <img {{ html }} loading="lazy">
-      {% assign foundImage = 1 %}
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      <a href="{{site.baseurl}}{{ post.url }}" title="{{post.title}}">
-        <h4>{{ post.h1 }}</h4>
+      <img src="{{'img/arlington.avif'}}" alt="Escuelas ingles arlington" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/arlington'|relative_url}}" title="Aprende inglés en Arlington">
+        <h4>Clases de inglés en Arlington Texas</h4>
       </a>
     </article>
-    {% endif %}
-    {% endfor %}
+    <article class="flow">
+      <img src="{{'img/houston.webp'}}" alt="Escuelas ingles houston" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/houston'|relative_url}}" title="Aprende inglés en houston">
+        <h4>Escuelas de Inglés en Houston: Clases y Cursos</h4>
+      </a>
+    </article>
+    <article class="flow">
+      <img src="{{'img/forth-worth.avif'}}" alt="Escuelas ingles Forth Worth" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/forth-worth'|relative_url}}" title="Aprende inglés en Forth Worth">
+        <h4>Clases de inglés en Fort Worth Texas</h4>
+      </a>
+    </article>
 
 
-    <h3>Escuelas de inglés cerca de ti en Boston</h3>
+    <h3>Escuelas de inglés cerca de ti en Florida</h3>
     {% for post in site.ciudades limit:3 %}
-    {% if post.category == "boston" %}
+    {% if post.category == "florida" %}
     <article class="flow">
       {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
