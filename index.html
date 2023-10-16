@@ -33,26 +33,18 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
 
 
     <h3>Escuelas de inglés cerca de ti en Florida</h3>
-    {% for post in site.ciudades limit:3 %}
-    {% if post.category == "florida" %}
     <article class="flow">
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-      {% if image contains 'src' %}
-      {% if foundImage == 0 %}
-      {% assign html = image | split:">" | first %}
-      <img {{ html }} loading="lazy">
-      {% assign foundImage = 1 %}
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      <a href="{{site.baseurl}}{{ post.url }}" title="{{post.title}}">
-        <h4>{{ post.h1 }}</h4>
+      <img src="{{'img/altamonte.avif'}}" alt="Escuelas ingles Altamonte Springs" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/altamonte-springs'|relative_url}}" title="Aprende inglés en Altamonte Springs">
+        <h4>Clases de inglés en Altamonte Springs Florida</h4>
       </a>
     </article>
-    {% endif %}
-    {% endfor %}
+    <article class="flow">
+      <img src="{{'img/boca-raton.avif'}}" alt="Escuelas ingles Boca Ratón" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/boca-raton'|relative_url}}" title="Aprende inglés en Boca Ratón">
+        <h4>Cursos de inglés en Boca Ratón Florida</h4>
+      </a>
+    </article>
     
 
     <h3>Escuelas de inglés cerca de ti en Pensilvania</h3>
