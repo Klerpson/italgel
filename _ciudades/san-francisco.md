@@ -3,7 +3,7 @@ layout: ciudades
 title: "Aprenda inglés gratis en San Francisco, CA. Ven a las mejores escuelas"
 h1: "Escuelas de inglés en San Francisco California Gratis"
 description: Aprenda inglés gratis en San Francisco. aproveche esta oportunidad única para crecimiento personal y profesional. ¡Descúbralo ahora!
-intro: "Aprende inglés en Houston con las mejores escuelas gratis y de pago."
+intro: "Aprende Inglés en San Francisco Gratis: La Guía Esencial para Latinos"
 ciudad: san-francisco
 category: california
 boton1: Ver las escuelas
