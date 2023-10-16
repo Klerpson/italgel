@@ -48,26 +48,18 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
     
 
     <h3>Escuelas de inglés cerca de ti en Pensilvania</h3>
-    {% for post in site.ciudades limit:3 %}
-    {% if post.category == "pensilvania" %}
     <article class="flow">
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-      {% if image contains 'src' %}
-      {% if foundImage == 0 %}
-      {% assign html = image | split:">" | first %}
-      <img {{ html }} loading="lazy">
-      {% assign foundImage = 1 %}
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      <a href="{{site.baseurl}}{{ post.url }}" title="{{post.title}}">
-        <h4>{{ post.h1 }}</h4>
+      <img src="{{'img/allentown.webp'}}" alt="Escuelas ingles Allentown Pensilvania" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/allentown'|relative_url}}" title="Aprende inglés en Allentown Pensilvania">
+        <h4>Clases de Inglés en Allentown Pensilvania</h4>
       </a>
     </article>
-    {% endif %}
-    {% endfor %}
+    <article class="flow">
+      <img src="{{'img/filadelfia.avif'}}" alt="Escuelas ingles Filadelfia Pensilvania" loading="lazy" width="288" height="216">
+      <a href="{{'escuelas/filadelfia'|relative_url}}" title="Aprende inglés en Filadelfia Pensilvania">
+        <h4>Cursos de inglés en Filadelfia Estados Unidos</h4>
+      </a>
+    </article>
 
   </div>
   <a href="{{'escuelas'|relative_url}}" class="boton boton_2" title="Ciudades de Estados Unidos" style="margin-bottom: 2em;">Busca más escuelas</a>

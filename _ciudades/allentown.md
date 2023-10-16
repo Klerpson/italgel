@@ -1,7 +1,7 @@
 ---
 layout: ciudades
 title: "Clases de Inglés en Allentown: Lo que Necesitas Saber"
-h1: "Clases de Inglés en Allentown PA"
+h1: "Clases de Inglés en Allentown Pensilvania"
 description: 📚 Encuentra las mejores escuelas de inglés en Allentown. Desde clases gratuitas hasta cursos avanzados. ➡️ ¡Haz clic para saber más!
 intro: "¿Buscas clases de inglés en Allentown? Mira las mejores escuelas y cursos."
 category: pensilvania
