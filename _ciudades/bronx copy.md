@@ -1,7 +1,7 @@
 ---
 layout: ciudades
-title: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
-h1: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
+title: "Clases gratuitas de inglés para adultos en el Bronx"
+h1: "Clases gratuitas de inglés para adultos en el Bronx"
 description: Aprende inglés gratis en el Bronx y prepárate para nuevas oportunidades. ¡Inscríbete ahora y descubre cómo aprovechar esta oportunidad única!
 intro: "Aprende inglés gratis: Clases para adultos que viven en el Bronx"
 category: nueva york
@@ -52,14 +52,6 @@ Las clases de inglés de **Hostos Community College se centran en gramática, vo
 El programa combina instrucción estructurada en el aula con actividades prácticas diseñadas para mejorar las habilidades lingüísticas en general. *BronxWorks también brinda recursos adicionales, como talleres y tutorías personalizadas*, para satisfacer las diversas necesidades de sus estudiantes.
 
 ----
-
-## Utiliza los Centros Comunitarios del Bronx para aprender inglés gratis
-
-El Bronx cuenta con una variedad de centros comunitarios que ofrecen clases de inglés gratuitas para los residentes. Algunos ejemplos son **Hunts Point o Concourse Village**. Estos centros sirven como plataformas invaluables para el desarrollo del idioma.
-
-Organizaciones como **[BronxWorks](#4-bronxworks) y Catholic Charities** ofrecen clases adaptadas a todos los niveles de habilidad, asegurando que los estudiantes reciban atención y orientación personalizada.
-
->Estos centros comunitarios a menudo colaboran con colegios locales y voluntarios, creando una red de apoyo que ayuda a los estudiantes en su camino de aprendizaje del idioma.
 
 ## Cómo elegir las clases gratuitas de inglés adecuadas para ti
 
