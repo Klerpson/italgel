@@ -22,6 +22,7 @@ webp: blog-hero.webp
       <a href="{{site.baseurl}}{{page.url}}#{{page.boton2_url}}" title="{{page.boton2}}" class="boton boton_2">{{page.boton2 | capitalize}}</a>
     </div>
   </header>
+  {% if page.escuelas != "no" %}
   <main class="wrapper flow">
     <h2>Escuelas de inglés en {{page.ciudad | capitalize | escape  }}: Opiniones y comparativas</h2>
     <p>¿Quieres <strong>aprender inglés en {{page.ciudad | capitalize }}</strong> pero no sabes por dónde empezar? Estás en el lugar correcto. Descubre las mejores escuelas, compara y elige la que se adapte a tus necesidades. ¡Vamos al grano!</p>
@@ -69,6 +70,7 @@ webp: blog-hero.webp
       {% endfor %}
     </div>
   </main>
+  {% endif %}
   <section class="contenido wrapper flow" id="consejos">
     {{content}}
   </section>
