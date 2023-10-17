@@ -43,11 +43,6 @@
       } ,
   
     {
-      "title"    : "Escuelas de inglés gratuitas en Las Vegas",
-      "url"      : "/escuelas/bronx%20copy"
-      } ,
-  
-    {
       "title"    : "Clases gratuitas y cursos de inglés para adultos en el Bronx",
       "url"      : "/escuelas/bronx"
       } ,
@@ -83,8 +78,18 @@
       } ,
   
     {
+      "title"    : "Escuelas de inglés gratuitas en Las Vegas",
+      "url"      : "/escuelas/las-vegas"
+      } ,
+  
+    {
       "title"    : "Clases de Inglés Gratis en Lawrenceville GA",
       "url"      : "/escuelas/laurenceville"
+      } ,
+  
+    {
+      "title"    : "Clases de Inglés Gratis en Nashville Tennessee",
+      "url"      : "/escuelas/nashville"
       } ,
   
     {

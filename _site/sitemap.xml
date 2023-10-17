@@ -82,12 +82,6 @@
        </url>
   
       <url>
-        <loc>http://localhost:4000/escuelas/bronx%20copy</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
         <loc>http://localhost:4000/escuelas/bronx</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -130,7 +124,19 @@
        </url>
   
       <url>
+        <loc>http://localhost:4000/escuelas/las-vegas</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+      <url>
         <loc>http://localhost:4000/escuelas/laurenceville</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/nashville</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
