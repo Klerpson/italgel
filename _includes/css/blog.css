@@ -53,6 +53,7 @@
   background-color: var(--secundario);
   box-shadow: 0 0 0 100vmax var(--secundario);
   clip-path: inset(0 -100vmax);
+  padding: 4em 0 2em;
 }
 
 .ciudades h2 {

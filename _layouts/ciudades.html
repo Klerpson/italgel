@@ -14,13 +14,16 @@ webp: blog-hero.webp
   {% include nav.html %}
   <header class="home">
     <div>
+      
       <h1>{{page.h1}}</h1>
       <p>{{page.intro}}</p>
     </div>
+    {% if page.escuelas != "no" %}
     <div class="flow">
       <a href="{{site.baseurl}}{{page.url}}#{{page.boton1_url}}" title="{{page.boton1}}" class="boton boton_2">{{page.boton1 | capitalize}}</a>
       <a href="{{site.baseurl}}{{page.url}}#{{page.boton2_url}}" title="{{page.boton2}}" class="boton boton_2">{{page.boton2 | capitalize}}</a>
     </div>
+    {% endif %}
   </header>
   {% if page.escuelas != "no" %}
   <main class="wrapper flow">

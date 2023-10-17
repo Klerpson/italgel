@@ -13,7 +13,7 @@ boton2_url: "consejos"
 webp: bronx.avif
 escuelas: "no"
 ---
-![Cursos de inglés en Lawrenceville]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
+![Cursos de inglés en el Bronx New York]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
 El Bronx, conocido por su vibrante cultura y comunidad diversa, ofrece una amplia gama de recursos para personas que desean mejorar sus habilidades en el idioma inglés.
 
