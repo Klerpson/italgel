@@ -67,7 +67,7 @@ Para encontrar información detallada sobre los criterios de elegibilidad, horar
 
 >Te recomienda registrarte temprano, ya que las clases gratuitas de inglés suelen tener una alta demanda.
 
-# ¿Eres adulto? Estudia inglés en el Bronx gratis
+## ¿Eres adulto? Estudia inglés en el Bronx gratis
 
 Aprender inglés es una habilidad esencial que abre puertas a una multitud de oportunidades. En el Bronx, los adultos pueden aprovechar las clases gratuitas de inglés proporcionadas por diversas instituciones y organizaciones.
 
