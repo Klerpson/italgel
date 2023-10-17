@@ -4,5 +4,18 @@ layout: default
 <main class="wrapper flow contenido">
   {{ content }}
 </main>
-{% include cta.html %}
-{% include follow-buttons.html %}
+<script>
+  function checkAnswers() {
+    var score = 0;
+    var q1 = document.quiz.question1.value;
+    var q2 = document.quiz.question2.value;
+    var q3 = document.quiz.question3.value;
+
+    if (q1 == "London") { score++; }
+    if (q2 == "Apple") { score++; }
+    if (q3 == "Dog") { score++; }
+
+    var result = "Obtuviste " + score + " de 3 correctas.";
+    document.getElementById("quizResult").innerHTML = result;
+  }
+</script>

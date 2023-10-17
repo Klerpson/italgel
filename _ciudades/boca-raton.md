@@ -45,13 +45,12 @@ Si eres latino y estás buscando escuelas de inglés en Boca Ratón, Florida, es
 
 ### 📚 Blog: Consejos y Recursos
 
-- [Cómo Mejorar Tu Pronunciación en Inglés]({{'blog'|relative_url}}){:class="boton boton_2"}
+[Cómo Mejorar Tu Pronunciación en Inglés]({{'blog'|relative_url}}){:class="boton boton_2"}
 
-- [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
+[Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-- [Practica con nuestros grupos]({{'/#formulario'|relative_url}}){:class="boton boton_2"}
+[Practica con nuestros grupos]({{'/#formulario'|relative_url}}){:class="boton boton_2"}
 
 ---
 
 Espero que esta guía te sea de mucha ayuda. Si tienes más preguntas o necesitas más información, no dudes en [contactarnos](/#formulario).
-

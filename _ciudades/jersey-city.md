@@ -67,8 +67,8 @@ Finalmente, puedes utilizar el [PDF preparado por el consulado de México en Nue
 
 ### 📚 Blog: Consejos y Recursos de aprendamosingles.us
 
-- [Cómo Mejorar Tu Pronunciación en Inglés]({{'blog'|relative_url}}){:class="boton boton_2"}
+[Cómo Mejorar Tu Pronunciación en Inglés]({{'blog'|relative_url}}){:class="boton boton_2"}
 
-- [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
+[Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-- [Practica con nuestros grupos]({{'/#formulario'|relative_url}}){:class="boton boton_2"}
+[Practica con nuestros grupos]({{'/#formulario'|relative_url}}){:class="boton boton_2"}

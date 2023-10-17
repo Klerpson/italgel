@@ -60,7 +60,6 @@ Para elegir la escuela de inglés adecuada para usted, es importante considerar 
 5. Finalmente, mira las opciones de alojamiento y servicios que ofrece
 {:class="seccion"}
 
-
 Aquí hay algunos consejos para elegir una escuela de inglés:
 
 * **Investigue las diferentes escuelas que están disponibles.** Lea reseñas, compare precios y solicite información sobre los programas y servicios que ofrecen.
