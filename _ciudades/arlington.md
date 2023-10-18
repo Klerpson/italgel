@@ -1,9 +1,9 @@
 ---
 layout: ciudades
-title: "Escuelas de Inglés en Houston | Gratis y de Pago 🌉"
+title: "Clases y Escuelas de Inglés en Arlington Texas"
 h1: "Clases de inglés en Arlington Texas"
 description: ¿Confundido sobre qué escuela de inglés elegir en Houston? ¡Haz clic y aclara tus dudas ahora! 🤩
-intro: "Aprende inglés en Houston con las mejores escuelas gratis y de pago."
+intro: "Aprende inglés en Arlington. Te recomendamos las mejores escuelas gratis y de pago. ¿Ya estás aprendiendo inglés? Este es el momento"
 category: texas
 ciudad: arlington
 boton1: Ver las escuelas
