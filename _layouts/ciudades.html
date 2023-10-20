@@ -25,13 +25,15 @@ webp: blog-hero.webp
     </div>
     {% endif %}
   </header>
-  <main class="contenido wrapper flow" id="consejos">
+  <main class="contenido wrapper flow" id="escuelas">
     <h2>Escuelas de inglés en {{page.ciudad | capitalize | escape  }}</h2>
     {% if page.escuelas != "no" %}
     {% include escuelas.html %}
     {% endif %}
     <hr>
-    {{content}}
+    <div id="consejos" class="flow">
+      {{content}}
+    </div>
   </main>
   {% include footer.html %}
   <a href="#">{% include boton-up.html %}</a>
