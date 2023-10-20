@@ -79,3 +79,8 @@ Aquí hay algunos consejos para elegir una escuela de inglés:
 
 ## Las Escuelas de Inglés de Houston te Ayudarán a Lograr tu Meta de Hablar Inglés
 
+Tienes muchas opciones para aprender inglés en Houston. Aprovecha los beneficios de los cursos de inglés gratuitos, los cursos más intensivos y todas las instituciones que están a tu alcance.
+
+¿Te gustaría practicar junto a más personas que estamos haciendo el mismo esfuerzo? Envíanos tus datos de contacto haciendo clic en el siguiente botón para **unirte a nuestro grupo de práctica conversacional**. ¡Te esperamos
+
+[Envía tus datos](/#formulario){:class="boton boton_2"}
