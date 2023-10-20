@@ -1,6 +1,6 @@
 ---
 layout: ciudades
-title: "Clases de inglés en Anaheim: De principiante hasta avanzado"
+title: "Clases de inglés en Anaheim: Para Adultos y Niños"
 h1: "Clases de ingles en Anaheim California"
 description: 🗺️ ¿Quieres aprender inglés en Anaheim? Conoce los cursos que se adaptan a tus necesidades. ¡Haz clic y empieza ya! 🌟
 intro: "Inglés en Anaheim: Clases y Escuelas que te llevarán al siguiente nivel"
