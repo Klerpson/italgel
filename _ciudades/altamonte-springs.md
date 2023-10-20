@@ -1,7 +1,7 @@
 ---
 layout: ciudades
-title: "Estudia Inglés en Altamonte Springs: Encuentra la Escuela Ideal "
-h1: "Clases de inglés en Altamonte Springs Florida"
+title: "Estudia Inglés en Altamonte Springs: Escuelas y Cursos"
+h1: "Clases de Inglés en las Escuelas de Altamonte Springs Florida"
 description: Descubre las mejores escuelas para aprender inglés en Altamonte Springs. ¡Sé bilingüe y disfruta de la magia de Florida! 👩‍🏫🌴
 intro: "Altamonte Springs la Ciudad del Inglés: Mejores Escuelas para Latinos"
 ciudad: altamonte
