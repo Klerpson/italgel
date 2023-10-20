@@ -22,7 +22,6 @@
   display: flex;
   gap: 1em;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .escuela_datos svg{
@@ -34,7 +33,8 @@
 
 .escuelas article .escuela_puntos{
   max-width: 100%;
-  flex: 1 0 600px;
+  flex: 1 0 580px;
+  justify-self: left;
 }
 
 .escuelas article div:last-child {
@@ -45,6 +45,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
-  justify-content: space-evenly;
+  justify-content: left;
   align-items: flex-start;
 }
