@@ -12,7 +12,7 @@ Estás a un paso de transformar tu forma de aprender inglés. **¡Gracias por es
 
 ### Confirma tu correo electrónico
 
-Hemos enviado un correo de confirmación a tu dirección de email. Haz clic en el enlace para validar tu cuenta y acceder a todos los beneficios de nuestro grupo.
+Hemos enviado un correo de confirmación a tu dirección de email. **Haz clic en el enlace para validar tu cuenta y acceder** a todos los beneficios de nuestro grupo.
 
 <!-- ### Descarga nuestra app
 
@@ -23,10 +23,6 @@ Para que no te pierdas ninguna sesión, descarga nuestra app. Así, recibirás n
 ### Ahora únete a nuestra comunidad
 
 Ahora te enviaremos toda la información para que puedas decidir en qué nivel de inglés deseas unirte. Después que lo elijas, podrás realizar tu suscripción.
-
-## ¿Tienes preguntas? 🤔
-
-Si tienes alguna duda o necesitas ayuda, nuestro equipo de soporte está aquí para ti. Contáctanos en soporte@gmail.com o a través de nuestras redes sociales.
 
 ### ¡Estamos emocionados de tenerte a bordo y no podemos esperar para ver tu progreso!
 
