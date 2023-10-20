@@ -12,7 +12,7 @@ boton2: Consejos para escoger
 boton2_url: "consejos"
 webp: anaheim.webp
 ---
-## Aprende inglés en Anaheim con nuestra guía detallada
+## Clases de Inglés para Adultos y Niños en Anaheim
 
 ![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
@@ -45,7 +45,7 @@ Anaheim University se centra en ofrecer una educación de alta calidad con un en
 * Los programas son flexibles, con nuevos **cursos que comienzan el primer lunes de cada mes**, y están diseñados para ser asequibles.
 {:class="seccion" id="consejos"}
 
-### Orange Coast College: aprende inglés en Anaheim gratis
+### Orange Coast College: Clases de inglés gratis en Anaheim
 
 Las clases son sin crédito y se pueden repetir. También ofrecen preparación para la ciudadanía y habilidades en inglés para la preparación y avance de la carrera.
 
