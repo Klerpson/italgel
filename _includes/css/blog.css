@@ -115,9 +115,10 @@
   width: 100%;
 }
 
-.contenido ul li{
+.contenido ul li:not(.escuela_puntos ul li){
   list-style: disc;
 }
+
 @media screen and (width <= 500px) {
   .contenido img{
     float: none;
