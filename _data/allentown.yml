@@ -6,63 +6,27 @@
   punto2: "<b>Público Objetivo</b>: Padres de estudiantes de ASD y miembros de la comunidad de Allentown"
   punto3: "<b>Niveles</b>: Principiante e Intermedio"
   punto4: "<b>Días</b>: Martes, miércoles y jueves"
-  url1: "#planes-de-allentown-school-district"
+  url1: "#clases-de-inglés-gratis-en-allentown-school-district"
   cta1: Ver precios de las clases
   title1: Precios de Allentown School District
 
-- name: Global Learning USA
-  telefono: +1 713-697-199​1
-  direccion: 5900 North Freeway, suite 137, Houston, TX 77076
-  horario: "Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
-  punto1: "<b>Tipo de Escuela</b>: Con más de 20 años de experiencia"
-  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
-  punto3: "<b>Público objetivo</b>: Estudiantes internacionales"
-  punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  url1: "#planes-de-la-escuela-global-learning-usa"
-  cta1: Ver precios de las clases
-  title1: Precios de Global Learning USA
+- name: Colonial Intermediate Unit 20
+  telefono: (610) 252-5550
+  direccion: 6 Danforth Drive, Easton, PA 18045
+  punto1: "<b>Tipo de Escuela</b>: Agencia de Servicios Educativos"
+  punto2: "<b>Público Objetivo</b>: Distritos escolares, centros técnicos y de carrera"
+  punto3: "<b>Niveles</b>: Varios niveles educativos"
+  url1: "#organización-colonial-intermediate-unit-20"
+  cta1: Más información
+  title1: Acerca de CIU 20
 
-- name: America Learning Center
-  telefono: +1 713-855-5900
-  direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
-  horario: "Lunes a jueves de 9:00 am a 10:00 pm, viernes de 10:00 am a 4:00 pm, y fines de semana de 8:00 am a 3:30 pm."
-  punto1: "<b>Tipo de Escuela</b>: Sin fines de lucro"
-  punto2: "<b>Cursos Ofrecidos</b>: inglés general (gratuito para estudiantes de bajos ingresos)"
-  punto3: "<b>Servicios de apoyo</b>: Ayuda con la vivienda, ayuda con la alimentación"
-  punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  url1: "#planes-de-la-escuela-america-learning-center"
-  cta1: Ver precios de las clases
-  title1: Precios de America Learning Center
-
-- name: Papora
-  telefono: +1 713-855-5900
-  direccion: "6633 Hillcroft St #112, Houston, TX 77081, United States"
-  horario: "Clases disponibles las 24 horas del día"
-  punto1: "<b>Tipo de Escuela</b>: En línea"
-  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad"
-  punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
-  punto4: "<b>Certificados</b>: Al finalizar tus estudios, obtienes un certificado de valor internacional"
-  url1: "#planes-de-la-escuela-papora"
-  cta1: Ver precios de las clases
-  title1: Precios de Papora
-
-- name: Best Inglés
-  telefono: +1 281-509-2570
-  direccion: "6111 Farm to Market 1960 Road West STE 110, Houston, Texas"
-  horario: "Están abiertos de 8:00 a.m. a 10:00 p.m. de lunes a viernes y de 10:00 a.m. a 3:00 p.m. los fines de semana"
-  punto1: "<b>Tipo de Escuela</b>: más de 30 años de experiencia"
-  punto2: "<b>Cursos Ofrecidos</b>: Inglés general, inglés para negocios, inglés para la universidad, preparación para exámenes"
-  punto3: "<b>Testimonios</b>: Se detaca la cercanía de los maestros y la atención personal"
-  punto4: "<b>Requisitos</b>: Solo solicitan la cancelación del primer pago"
-  url1: "#planes-de-la-escuela-best-inglés"
-  cta1: Ver precios de las clases
-  title1: Precios de Best Inglés
-
-- name: Interactive College of Technology
-  telefono: +1 800-375-1010
-  direccion: "16801 Greenspoint Park Drive Houston, TX 77060"
-  punto1: "<b>Enfoque en adultos</b>: El programa está diseñado para adaptarse al horario ocupado de los adultos trabajadores"
-  punto2: "<b>Instrucción en vivo</b>: Ofrecen clases de inglés en línea en vivo"
-  punto3: "<b>Enfoque de habilidades</b>: Las clases se centran en habilidades específicas como vocabulario, escucha, lectura, escritura, habla, pronunciación y gramática"
-  punto4: "<b>Material incluido</b>: Los estudiantes reciben todos los materiales del programa VESL para conservarlos"
-  punto5: "<b>Asistencia para la colocación laboral</b>: Ofrecen asistencia para la redacción de currículums y la colocación laboral"
+- name: Parkland School District
+  telefono: 610.351.5503
+  direccion: 1210 Springhouse Road, Allentown, PA 18104
+  punto1: "<b>Programa de Inglés</b>: Ofrecen un programa de inglés como segundo idioma (ESL) para ayudar a los estudiantes a ganar fluidez en inglés."
+  punto2: "<b>Enfoque Integral</b>: El programa se centra en el éxito académico, social y emocional de cada estudiante."
+  punto3: "<b>Diversidad Cultural</b>: Buscan acostumbrar a los estudiantes a la nueva cultura mientras mantienen el orgullo por su propia cultura."
+  punto4: "<b>Recursos para Padres</b>: Ofrecen talleres para padres en diferentes momentos del año."
+  url1: "#clases-de-inglés-para-adultos-en-parkland-school-district"
+  cta1: "Más información"
+  title1: "Programa ESL en Parkland School District"
