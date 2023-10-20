@@ -5,7 +5,7 @@
   punto1: "<b>Programas Intensivos</b>: cursos intensivos para prepararte para la universidad"
   punto2: "<b>Actividades Extracurriculares</b>: actividades para que los estudiantes conozcan la ciudad y se diviertan"
   punto3: "<b>Email</b>:  eliadmissions@uta.edu"
-  url1: "#planes-de-lci-language-centers---houston"
+  url1: "#información-de-la-escuela-lci-language-centers---houston"
   cta1: Ver precios de las clases
   title1: Precios de LCI Language Centers
 
@@ -29,7 +29,7 @@
   punto2: "<b>Cursos Ofrecidos</b>: inglés general (gratuito para estudiantes de bajos ingresos)"
   punto3: "<b>Servicios de apoyo</b>: Ayuda con la vivienda, ayuda con la alimentación"
   punto4: "<b>Promoción</b>: Clase de prueba gratuita de 2 horas."
-  url1: "#planes-de-la-escuela-america-learning-center"
+  url1: "#america-learning-center-aprenda-inglés-en-houston-gratis"
   cta1: Ver precios de las clases
   title1: Precios de America Learning Center
 
@@ -41,7 +41,7 @@
   punto3: "<b>Programas especiales</b>: Programas de inmersión en inglés, oportunidades de prácticas para estudiantes internacionales"
   punto4: "<b>Certificados</b>: Al finalizar tus estudios, obtienes un certificado de valor internacional"
   horario: "Clases disponibles las 24 horas del día"
-  url1: "#planes-de-la-escuela-papora"
+  url1: "#precios-de-la-escuela-online-papora"
   cta1: Ver precios de las clases
   title1: Precios de Papora
 
@@ -65,3 +65,15 @@
   punto3: "<b>Enfoque de habilidades</b>: Las clases se centran en habilidades específicas como vocabulario, escucha, lectura, escritura, habla, pronunciación y gramática"
   punto4: "<b>Material incluido</b>: Los estudiantes reciben todos los materiales del programa VESL para conservarlos"
   punto5: "<b>Asistencia para la colocación laboral</b>: Ofrecen asistencia para la redacción de currículums y la colocación laboral"
+
+- name: Interactive College of Technology
+  telefono: +1 800-375-1010
+  direccion: "16801 Greenspoint Park Drive Houston, TX 77060"
+  punto1: "<b>Enfoque en adultos</b>: El programa está diseñado para adaptarse al horario ocupado de los adultos trabajadores"
+  punto2: "<b>Instrucción en vivo</b>: Ofrecen clases de inglés en línea en vivo"
+  punto3: "<b>Enfoque de habilidades</b>: Las clases se centran en habilidades específicas como vocabulario, escucha, lectura, escritura, habla, pronunciación y gramática"
+  punto4: "<b>Material incluido</b>: Los estudiantes reciben todos los materiales del programa VESL para conservarlos"
+  punto5: "<b>Asistencia para la colocación laboral</b>: Ofrecen asistencia para la redacción de currículums y la colocación laboral"
+  url1: "#curso-intensivo-de-inglés-en-houston-de-els-language-center"
+  cta1: Conoce el curso Intensivo
+  title1: Curso Intensivo Houston
