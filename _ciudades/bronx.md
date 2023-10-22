@@ -2,7 +2,7 @@
 layout: ciudades
 title: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
 h1: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
-description: Aprende inglés gratis en el Bronx y prepárate para nuevas oportunidades. ¡Inscríbete ahora y descubre cómo aprovechar esta oportunidad única!
+description: Aprende inglés gratis en el Bronx y prepárate para nuevas oportunidades. ¡Infórmate y descubre cómo aprovechar esta oportunidad única!
 intro: "Aprende inglés gratis: Clases para adultos que viven en el Bronx"
 category: nueva york
 ciudad: bronx
@@ -11,7 +11,6 @@ boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
 webp: bronx.avif
-escuelas: "no"
 ---
 ![Cursos de inglés en el Bronx New York]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
