@@ -1,6 +1,6 @@
 ---
 layout: ciudades
-title: "Latinos en East Boston: Todo Sobre Escuelas de Inglés 🎓"
+title: "Latinos en East Boston: Todo Sobre Escuelas de Inglés"
 h1: "Clases de ingles en East Boston, Boston"
 description: 🚌 Transporte, 💰 Costos, 📚 Cursos. Todo lo que un latino necesita saber para aprender inglés en East Boston. ¡Entra ya!
 intro: "Aprende inglés en Houston con las mejores escuelas gratis y de pago."
@@ -12,7 +12,7 @@ boton2: Consejos para escoger
 boton2_url: "consejos"
 webp: east-boston.avif
 ---
-## Guía para Latinos en Busca de Escuelas de Inglés en East Boston
+## Guía para Latinos en Busca de Escuelas con Cursos de Inglés en East Boston
 
 ![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 

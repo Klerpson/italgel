@@ -6,10 +6,6 @@ description: Buscas clases de inglés gratis en Chandler, AZ? 📍 Descubre dón
 intro: "Clases De Inglés Gratis en Chandler Arizona: Desbloqueando la fluidez del idioma"
 category: arizona
 ciudad: chandler
-boton1: Ver las escuelas
-boton1_url: "escuelas"
-boton2: Consejos para escoger
-boton2_url: "consejos"
 webp: chandler.avif
 escuelas: "no"
 ---
