@@ -1,9 +1,9 @@
 ---
 layout: ciudades
 title: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
-h1: "Clases gratuitas y cursos de inglés para adultos en el Bronx"
+h1: "Clases y cursos de inglés gratis para adultos en el Bronx New York"
 description: Aprende inglés gratis en el Bronx y prepárate para nuevas oportunidades. ¡Infórmate y descubre cómo aprovechar esta oportunidad única!
-intro: "Aprende inglés gratis: Clases para adultos que viven en el Bronx"
+intro: "Aprende inglés gratis: Clases para adultos en las escuelas del Bronx Nueva York"
 category: nueva york
 ciudad: bronx
 boton1: Ver las escuelas
@@ -38,7 +38,7 @@ Muchas sucursales en el Bronx cuentan con centros de idiomas dedicados que dicta
 
 >La biblioteca organiza con frecuencia círculos de conversación, donde los estudiantes pueden participar en discusiones informales y practicar sus habilidades lingüísticas.
 
-### 3. Hostos Community College
+### 3. Instituto de Inglés en el Bronx: Hostos Community College
 
 **Hostos Community College**, otra institución dentro del sistema CUNY, es conocido por sus programas de educación continua. *Ofrece clases de inglés para principiantes, intermedios y avanzados para adultos en el Bronx.*
 
