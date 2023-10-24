@@ -11,6 +11,7 @@ boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
 webp: jersey-city.avif
+escuelas: "no"
 ---
 ## Clases gratuitas de inglés en Jersey City
 
