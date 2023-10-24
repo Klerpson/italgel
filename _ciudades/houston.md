@@ -20,7 +20,7 @@ Estas escuelas ofrecen una variedad de cursos de inglés **para todos los nivele
 
 También ofrecen una variedad de **opciones de alojamiento y servicios** para apoyar a los estudiantes internacionales.
 
-### Más Información de los Institutos de Inglés en Houston Texas
+### Más Información de los Institutos de Inglés para Decidir Dónde Estudiar en Houston Texas
 
 #### Información de la escuela LCI Language Centers - Houston
 
