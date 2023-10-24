@@ -34,7 +34,7 @@ Las instituciones en Filadelfia ofrecen una amplia gama de cursos de inglés par
 
 Hay cursos especializados disponibles, como **inglés para negocios, preparación para exámenes (TOEFL, IELTS, etc.) y [clases de pronunciación](/#formulario)**.
 
-## Beneficios de Estudiar inglés en Filadelfia
+## Beneficios de las Clases de Inglés en Filadelfia
 
 ### Inmersión en un ambiente angloparlante para aprender el idioma
 
@@ -44,7 +44,7 @@ Hay cursos especializados disponibles, como **inglés para negocios, preparació
 
 ----
 
-## Vida estudiantil en Filadelfia 
+## Vivir cerca a las Escuelas de Inglés en Filadelfia
 
 ### Opciones de alojamiento cerca a las escuelas de inglés
 
