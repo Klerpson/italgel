@@ -1,6 +1,6 @@
 ---
 layout: ciudades
-title: "¿Eres Latino y Quieres Aprender Inglés en Jersey City? Lee Esto!"
+title: "¿Eres Latino y Buscas Clases de Inglés en Jersey City? Entra"
 h1: "Clases de inglés gratis en Jersey City NJ"
 description: "Aprende inglés gratis en Jersey City, NJ: ¡Clases para todos! Mejora tu fluidez y confianza en el idioma, sin costo alguno. ¡No te lo pierdas!"
 intro: "Clases de Inglés Gratis en Jersey City: Lo que Todo Latino Debe Saber"
