@@ -1,9 +1,9 @@
 ---
 layout: ciudades
 title: "Habla Inglés con los Cursos y Escuelas de Filadelfia"
-h1: "Cursos de inglés en Filadelfia Estados Unidos"
+h1: "Cursos de Inglés en las Escuelas de Filadelfia Estados Unidos"
 description: Cursos de inglés en Filadelfia para mejorar habilidades y sumergirte en la cultura angloparlante ¡Inscríbete hoy y expande tus horizontes!🗽
-intro: "En Filadelfia puedes aprender inglés con una gran comunidad. Conócela."
+intro: "En Filadelfia puedes aprender inglés en una variedad de escuelas. ¡Conócelas!"
 category: pensilvania
 ciudad: filadelfia
 boton1: Ver las escuelas
