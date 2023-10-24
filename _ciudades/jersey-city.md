@@ -18,7 +18,7 @@ webp: jersey-city.avif
 
 Existen **numerosas opciones gratuitas para aprender inglés en Jersey City**, gracias a los programas gubernamentales y organizaciones sin ánimo de lucro.
 
-### Programas de educación gubernamentales
+### Programas de educación gubernamentales de Jersey City
 
 El Departamento de Educación de Jersey City es uno de los principales impulsores de la educación en inglés en la ciudad.
 
