@@ -48,7 +48,7 @@ Con Papora tienes a tu mano contenido divertido generado por expertos, **desde $
 
 Lo que sí mencionan es que ofrecen **clases de inglés tanto para adultos como para niños de Houston Texas**, a "precios asequibles y con horarios flexibles". Así que si quieres saber más sobre los costos, tendrás que contactarlos directamente.
 
-## Clases intensivas de Inglés en Houston de ELS Language Centers
+## Curso intensivo de Inglés en Houston de ELS Language Centers
 
 A veces la búsqueda de un curso en inglés puede estar motivada por la necesidad de **aprender muy pronto el idioma**. Una buena opción son *los cursos de inglés intensivo de Houston*. Estas son algunas ventajas de este tipo de curso de inglés:
 
