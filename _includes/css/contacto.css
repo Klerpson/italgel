@@ -19,10 +19,14 @@ form div{
   flex-wrap: wrap;
 }
 
+form label{
+  font-weight: bolder;
+}
+
 form p input:not([type="checkbox"]) {
   width: 100%;
   padding: 15px;
-  border: 1px solid darken(var(--gris3), 5%);
+  border: 1px solid darken(var(--gris1), 5%);
   border-bottom: 2px solid var(--complemento1);
   transition: transform 0.3s;
 }

@@ -108,32 +108,15 @@ input {
   padding: 0.7rem;
   border-radius: var(--radius);
   border: none;
-  box-shadow: var(--shadow);
-  font-size: clamp(1.25rem, 0.8vw + 1rem, 1.5rem);
+  font-size: clamp(1rem, 0.8vw + 1rem, 1.2rem);
+  transition: all .1s ease-in;
 }
 
-input::-webkit-input-placeholder {
-  font-family: var(--fuenteTitulos);
-}
-
-input::-moz-placeholder {
-  font-family: var(--fuenteTitulos);
-}
-
-input:-ms-input-placeholder {
-  font-family: var(--fuenteTitulos);
-}
-
-input::-ms-input-placeholder {
-  font-family: var(--fuenteTitulos);
-}
-
-input::placeholder {
-  font-family: var(--fuenteTitulos);
-}
-
-input:active {
+input:active,
+input:hover,
+input::target-text {
   border: none;
+  box-shadow: var(--shadow);
 }
 
 ul li {
