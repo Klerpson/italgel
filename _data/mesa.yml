@@ -1,12 +1,12 @@
 - name: English Tutor Academy Mesa
-  Teléfono: No disponible
-  Dirección: 144 S Mesa Dr ste f, Mesa, AZ 85210 (según una fuente externa)
-  Horario: No especificado
-  Punto1: Utiliza un sistema conversacional fácil, flexible, creativo y eficaz.
-  Punto2: "Enfocada en desarrollar las cuatro habilidades básicas del idioma: escuchar, hablar, leer y escribir."
-  Punto3: Orientada al desarrollo personal, profesional y laboral de los estudiantes.
-  Punto4: Reconocida como una institución de alto nivel profesional, transparente y responsable.
-  Punto5: No hay información sobre la edad promedio de los estudiantes.
+  telefono: No disponible
+  direccion: 144 S Mesa Dr ste f, Mesa, AZ 85210 (según una fuente externa)
+  horario: No especificado
+  punto1: Utiliza un sistema conversacional fácil, flexible, creativo y eficaz.
+  punto2: "Enfocada en desarrollar las cuatro habilidades básicas del idioma: escuchar, hablar, leer y escribir."
+  punto3: Orientada al desarrollo personal, profesional y laboral de los estudiantes.
+  punto4: Reconocida como una institución de alto nivel profesional, transparente y responsable.
+  punto5: No hay información sobre la edad promedio de los estudiantes.
 
 - name: "English Tutor Academy Mesa"
   telefono: "+1 480-457-9973"
