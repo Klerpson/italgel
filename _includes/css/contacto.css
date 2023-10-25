@@ -2,22 +2,24 @@
 .contacto h2{
   margin-bottom: 2rem;
 }
-.form{
-  width: 90%;
-  margin: 2rem auto;
-  padding: 2rem;
-}
-.form__group {
-  margin-bottom: 20px;
+
+#formulario > p{
+  text-align: center;
 }
 
-.form__label {
-  display: inline-block;
-  margin-bottom: 5px;
-  font-weight: 600;
+form{
+  display: grid;
+  place-items: center;
 }
 
-.form__input {
+form div{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+form p input:not([type="checkbox"]) {
   width: 100%;
   padding: 15px;
   border: 1px solid darken(var(--gris3), 5%);
@@ -25,34 +27,8 @@
   transition: transform 0.3s;
 }
 
-.form__input:focus {
-    box-shadow: 0 2px 5px var(--gris4);
-  }
-
-textarea.form__input {
+textarea form input {
   resize: none;
-}
-
-.form-container ul li{
-  list-style: none;
-  margin: 0 0 0.7rem 0;
-}
-
-.form button {
-  color: aliceblue;
-  border: none;
-  font-weight: 700;
-  background-color: var(--accion);
-  padding: 1rem;
-  border-radius: var(--radius);
-  box-shadow: var(--radius);
-  transition: all .2s ease-in;
-}
-
-.form button:hover {
-  background-color: white;
-  cursor: pointer;
-  color: var(--accion);
 }
 
 @media screen and (min-width: 768px) {
