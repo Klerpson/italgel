@@ -2,7 +2,7 @@
 layout: post
 json-post: "true"
 date: 2023-10-27T01:12:21.991Z
-title: Becas para estudiar en Canadá | sin saber ingles
+title: Becas para estudiar en Canadá | Y sin saber ingles
 description: Descubre las oportunidades para obtener becas para estudiar inglés
   en Canadá. No tienes que saber el idioma. Consíguela desde cualquier país
 h1: "Obtén tu beca para estudiar en Canadá: Logra tu sueño académico en el
