@@ -166,7 +166,12 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
     {% for post in site.posts %}
     <article class="flow">
       <div>
-        <img src="{{site.baseurl}}/img/{{post.webp}}" alt="{{post.alt}}" title="{{post.title}}" width="320px" height="240px" loading="lazy">
+        {% if post.webp %}
+        <img src="{{site.baseurl}}/img/{{post.webp}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
+        {% endif %}
+        {% if post.avif %}
+        <img src="{{site.baseurl}}/img/{{post.avif}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
+        {% endif %}
         <a href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           <h4>{{ post.title }}</h4>
         </a>
