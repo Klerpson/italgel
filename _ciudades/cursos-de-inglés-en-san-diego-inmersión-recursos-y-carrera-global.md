@@ -11,7 +11,7 @@ description: Nuestros cursos de inglés en San Diego te ayudarán a avanzar tant
 h1: "Cursos de inglés San Diego: Tu escenario para el aprendizaje del Inglés"
 category: california
 ciudad: san diego
-avif: blog/agencias-cursos-ingles-extranjero.webp
+avif: blog/duotone-san-diego.png
 intro: ¿Quieres encontrar cursos de inglés en San Diego que te ayuden a avanzar
   tanto en tu carrera como en tu vida personal?
 ---
