@@ -4,7 +4,7 @@ boton1: Ver las escuelas
 boton1_url: escuelas
 boton2: Consejos para escoger
 boton2_url: consejos
-title: Cursos de inglés en san diego | inmersión, recursos y carrera global
+title: Cursos de inglés en San Diego | inmersión, recursos y carrera global
 description: Nuestros cursos de inglés en San Diego te ayudarán a avanzar tanto
   en tu carrera como en tu vida personal. Desde principiantes hasta avanzados,
   perfecciona tus habilidades con profesores expertos y métodos innovadores
