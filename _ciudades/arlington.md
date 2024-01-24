@@ -61,21 +61,7 @@ Para inscribirte en clases de inglés en Arlington, generalmente **necesitarás 
 
 La inscripción suele ser un proceso sencillo. Para las clases públicas, puedes inscribirte en línea o en persona. Para las clases privadas, generalmente se requiere una consulta inicial para determinar tu nivel y objetivos.
 
-----
-
-## Únete a nuestra comunidad de aprendices en Arlington, TX
-
-### ¿Por qué deberías unirte?
-
-Al unirte a nuestra comunidad, recibirás actualizaciones sobre nuevas clases, recursos gratuitos y eventos relacionados con el aprendizaje del inglés.
-
-### Cómo funciona el proceso de inscripción
-
-Es muy sencillo, solo tienes que ingresar tu correo electrónico y te enviaremos toda la información que necesitas para empezar.
-
-[Enviar mi correo](/#formulario){:class="boton boton_2"}
-
-----
+{% include audios-cta.html %}
 
 ## Preguntas frecuentes sobre los cursos y las clases de inglés en Arlington
 
@@ -93,4 +79,4 @@ Sí, especialmente en instituciones privadas como el Lado International Institut
 
 ## ¿Listo para dar el siguiente paso?
 
-Si te ha gustado este artículo y quieres saber más sobre cómo aprender inglés en Arlington, TX, **no dudes en [contactarnos para más información](/#formulario)**. Estamos aquí para ayudarte a tomar la mejor decisión en tu camino hacia el dominio del inglés.
+Si te ha gustado este artículo y quieres saber más sobre cómo aprender inglés en Arlington, TX, **no dudes en [contactarnos para más información]({{'clases-en-linea'|relative_url}})**. Estamos aquí para ayudarte a tomar la mejor decisión en tu camino hacia el dominio del inglés.
