@@ -1,12 +1,12 @@
 ---
 layout: page-basic
 title: Únete a nuestro grupo en línea y eleva tu inglés 🚀
-h1: Estudia inglés con nuestro grupo en línea y despega en tu segundo idioma
+h1: Aprende a hablar inglés más fácilmente en línea y despega en tu segundo idioma
 description: Las clases de inglés tradicionales no te ofrecen la práctica que realmente necesitas. Pero, ¿y si te dijéramos que hay una forma más efectiva de mejorar tu inglés?
 webp: clases-ingles-grupo.webp
 alt: Clase de inglés en línea
 ---
-[Unirme al grupo ahora mismo]({{site.baseurl}}/#formulario){:class="boton boton_2"}
+[✓ Aprovecha la oferta]({{site.baseurl}}/#formulario){:class="boton boton_2"}
 
 ## ¿Te sientes atrapado en tu aprendizaje del inglés?
 

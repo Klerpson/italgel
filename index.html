@@ -13,7 +13,7 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
 
     <h3>Escuelas para aprender inglés en Texas</h3>
     <article class="flow">
-      <img src="{{'img/arlington.avif'}}" alt="Escuelas ingles arlington" loading="lazy" width="288" height="216">
+      <img src="{{'img/arlington.webp'}}" alt="Escuelas ingles arlington" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/arlington'|relative_url}}" title="Aprende inglés en Arlington">
         <h4>Clases de inglés en Arlington Texas</h4>
       </a>
@@ -25,7 +25,7 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
       </a>
     </article>
     <article class="flow">
-      <img src="{{'img/forth-worth.avif'}}" alt="Escuelas ingles Forth Worth" loading="lazy" width="288" height="216">
+      <img src="{{'img/forth-worth.webp'}}" alt="Escuelas ingles Forth Worth" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/forth-worth'|relative_url}}" title="Aprende inglés en Forth Worth">
         <h4>Clases de inglés en Fort Worth Texas</h4>
       </a>
@@ -34,19 +34,19 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
 
     <h3>Escuelas de inglés cerca de ti en Florida</h3>
     <article class="flow">
-      <img src="{{'img/altamonte.avif'}}" alt="Escuelas ingles Altamonte Springs" loading="lazy" width="288" height="216">
+      <img src="{{'img/altamonte.webp'}}" alt="Escuelas ingles Altamonte Springs" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/altamonte-springs'|relative_url}}" title="Aprende inglés en Altamonte Springs">
         <h4>Clases de inglés en Altamonte Springs Florida</h4>
       </a>
     </article>
     <article class="flow">
-      <img src="{{'img/boca-raton.avif'}}" alt="Escuelas ingles Boca Ratón" loading="lazy" width="288" height="216">
+      <img src="{{'img/boca-raton.webp'}}" alt="Escuelas ingles Boca Ratón" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/boca-raton'|relative_url}}" title="Aprende inglés en Boca Ratón">
         <h4>Cursos de inglés en Boca Ratón Florida</h4>
       </a>
     </article>
     <article class="flow">
-      <img src="{{'img/west-palm.avif'}}" alt="Escuelas ingles West Palm Beach" loading="lazy" width="288" height="216">
+      <img src="{{'img/west-palm.webp'}}" alt="Escuelas ingles West Palm Beach" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/west-palm-beach'|relative_url}}" title="Aprende inglés en West Palm Beach">
         <h4>Clases de inglés gratuitas en West Palm Beach</h4>
       </a>
@@ -61,13 +61,13 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
       </a>
     </article>
     <article class="flow">
-      <img src="{{'img/filadelfia.avif'}}" alt="Escuelas ingles Filadelfia Pensilvania" loading="lazy" width="288" height="216">
+      <img src="{{'img/filadelfia.webp'}}" alt="Escuelas ingles Filadelfia Pensilvania" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/filadelfia'|relative_url}}" title="Aprende inglés en Filadelfia Pensilvania">
         <h4>Cursos de inglés en Filadelfia Estados Unidos</h4>
       </a>
     </article>
     <article class="flow">
-      <img src="{{'img/harrisburg.avif'}}" alt="Escuelas ingles Harrisburg Pensilvania" loading="lazy" width="288" height="216">
+      <img src="{{'img/harrisburg.webp'}}" alt="Escuelas ingles Harrisburg Pensilvania" loading="lazy" width="288" height="216">
       <a href="{{'escuelas/harrisburg'|relative_url}}" title="Aprende inglés en Harrisburg Pensilvania">
         <h4>Clases de Inglés en Harrisburg Pensilvania</h4>
       </a>
@@ -166,12 +166,7 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
     {% for post in site.posts %}
     <article class="flow">
       <div>
-        {% if post.webp %}
         <img src="{{site.baseurl}}/img/{{post.webp}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
-        {% endif %}
-        {% if post.avif %}
-        <img src="{{site.baseurl}}/img/{{post.avif}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
-        {% endif %}
         <a href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           <h4>{{ post.title }}</h4>
         </a>
@@ -182,11 +177,15 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
   </div>
   <a href="{{'blog'|relative_url}}" class="boton boton_2" title="Blog de gratitud" style="margin-bottom: 2em;">Mejora tu aprendizaje del inglés</a>
 </section>
-<div class="seccion wrapper flow" id="formulario">
+<!-- <div class="seccion wrapper flow" id="formulario">
   <h2>Suscríbete a las Clases Conversacionales de Inglés</h2>
   <p>Tan pronto podamos, te enviaremos más información para que puedas practicar tu inglés con nosotros. Son grupos reducidos con ganas de mejorar juntos y lograr la meta de hablar inglés. <b>¡Suscríbete y mejoremos juntos nuestro inglés!</b> </p>
-  {% include formulario.html %}
-</div>
+</div> -->
+<section class="seccion wrapper flow" id="formulario">
+  <h2>Suscríbete a las Clases Conversacionales de Inglés</h2>
+  <p>Tan pronto podamos, te enviaremos más información para que puedas practicar tu inglés con nosotros. Son grupos reducidos con ganas de mejorar juntos y lograr la meta de hablar inglés. <b>¡Suscríbete y mejoremos juntos nuestro inglés!</b> </p>
+  <a href="https://ccdecgtz3b5e0u5iwmm9iaap88.hop.clickbank.net/?tid=aprendamosingles" class="boton boton_2" title="Aprende inglés conversacional" style="margin-bottom: 2em;">Aprende inglés conversacional</a>
+</section>
 
 {% include follow-buttons.html %}
 <script src="https://sendfox.com/js/form.js" defer></script>
