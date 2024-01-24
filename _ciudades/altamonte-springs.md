@@ -20,7 +20,7 @@ A continuación, te ofrecemos algunos consejos adicionales para que tu experienc
 
 ### 1. Explora la Comunidad Latina de Altamonte Springs
 
-Altamonte Springs tiene una comunidad latina vibrante. [Únete a grupos de práctica](/#formulario) o eventos locales para practicar tu inglés y conocer a nuevas personas.
+Altamonte Springs tiene una comunidad latina vibrante. [Únete a grupos de práctica]({{'clases-en-linea'|relative_url}}) o eventos locales para practicar tu inglés y conocer a nuevas personas.
 
 ### 2. Aprovecha las Atracciones de Altamonte
 
@@ -32,7 +32,7 @@ Descarga aplicaciones como Duolingo o Memrise para practicar inglés en tu tiemp
 
 ### 4. Practica Conversaciones en el Idioma Inglés
 
-[Intenta hablar en inglés](/#formulario) tanto como puedas. Cuanto más practiques, más rápido mejorarás.
+[Intenta hablar en inglés]({{'clases-en-linea'|relative_url}}) tanto como puedas. Cuanto más practiques, más rápido mejorarás.
 
 ### 5. Establece Metas Claras
 

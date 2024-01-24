@@ -62,7 +62,7 @@ No pierdas más tiempo y aprovecha las oportunidades que el aprendizaje del ingl
 ### Preguntas Frecuentes (FAQ) para Latinos en Fort Worth que Quieren Aprender Inglés
 
 - **¿Qué Métodos de Aprendizaje Han Sido Más Efectivos En Fort Worth?**  
-Las clases en línea, las aplicaciones móviles y los grupos de intercambio de idiomas son excelentes métodos adaptados a la cultura latina. [Tambíen puedes preguntar por nuestros grupos de práctica](/#formulario).
+Las clases en línea, las aplicaciones móviles y los grupos de intercambio de idiomas son excelentes métodos adaptados a la cultura latina. [Tambíen puedes preguntar por nuestros grupos de práctica]({{'clases-en-linea'|relative_url}}).
 - **¿Existen Becas o Ayudas Financieras para Cursos de Inglés en Forth Worth?**  
 Sí, muchas instituciones ofrecen becas o descuentos para estudiantes latinos. Investiga en tu comunidad o en línea.
 - **¿Cómo Puedo Mejorar Mi Pronunciación y Acento?**  
@@ -78,4 +78,4 @@ Esperamos que esta sección de preguntas frecuentes te sea de ayuda en tu camino
 
 [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-[Practica con nuestros grupos]({{'/#formulario'|relative_url}}){:class="boton boton_2"}
+[Practica con nuestros grupos]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}

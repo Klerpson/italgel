@@ -18,7 +18,7 @@ webp: anaheim.webp
 
 Anaheim no solo es famoso por Disneyland, sino también por sus excelentes oportunidades para aprender inglés.
 
-Anaheim es una ciudad multicultural, lo que significa que tendrás la oportunidad de [practicar inglés con personas de todo el mundo]({{site.baseurl}}/#formulario). Además, **muchas empresas internacionales tienen sedes aquí**, lo que te abre puertas laborales si dominas el idioma.
+Anaheim es una ciudad multicultural, lo que significa que tendrás la oportunidad de [practicar inglés con personas de todo el mundo]({{'clases-en-linea'|relative_url}}). Además, **muchas empresas internacionales tienen sedes aquí**, lo que te abre puertas laborales si dominas el idioma.
 
 ### Planes y precios de las clases de inglés en Houston
 
@@ -59,7 +59,7 @@ Ok, vamos al grano. Hay varias opciones donde puedes encontrar **clases de ingl�
 4. **Centros Comunitarios Locales**: Muchos centros comunitarios en Anaheim tienen programas de inglés gratuitos, especialmente diseñados para inmigrantes y refugiados.
 5. **Programas en Línea**: Sitios web como Duolingo y Coursera ofrecen cursos de inglés que puedes tomar desde la comodidad de tu hogar. Algunos son gratuitos o tienen una versión gratuita.
 6. **Anaheim Union High School District Adult Education**: Ofrecen clases de inglés para adultos con diferentes niveles de habilidad, y tienen opciones gratuitas.
-7. **Clases grupales de práctica**: Hay grupos que se reúnen para practicar inglés. **Nosotros te ofrecemos una de las mejores opciones y más asequibles**. Solo [llena nuestro formulario]({{site.baseurl}}/#formulario) para recibir más información.
+7. **Clases grupales de práctica**: Hay grupos que se reúnen para practicar inglés. **Nosotros te ofrecemos una de las mejores opciones y más asequibles**. Solo [llena nuestro formulario]({{'clases-en-linea'|relative_url}}) para recibir más información.
 {:class="seccion"}
 
 ### Escuelas y academias
@@ -74,7 +74,7 @@ El costo de las clases puede variar mucho dependiendo del lugar y el tipo de cur
 
 Los precios en escuelas y academias **pueden variar desde $200 hasta $1000 por mes**, dependiendo del tipo de curso y la duración.
 
-Sin embargo, te recomendamos **aprovechar los recursos en línea gratis**. Y para practicar, sólo únete a [nuestras sesiones grupales]({{site.baseurl}}/#formulario).
+Sin embargo, te recomendamos **aprovechar los recursos en línea gratis**. Y para practicar, sólo únete a [nuestras sesiones grupales]({{'clases-en-linea'|relative_url}}).
 
 ## Tipos de certificaciones disponibles en las escuelas de inglés de Anaheim
 
