@@ -85,4 +85,4 @@ Tienes muchas opciones para aprender inglés en Houston. Aprovecha los beneficio
 
 ¿Te gustaría practicar junto a más personas que estamos haciendo el mismo esfuerzo? Envíanos tus datos de contacto haciendo clic en el siguiente botón para **unirte a nuestro grupo de práctica conversacional**. ¡Te esperamos
 
-[Envía tus datos](/#formulario){:class="boton boton_2"}
+[Envía tus datos]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}

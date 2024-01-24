@@ -32,7 +32,7 @@ Algunas de las instituciones más prestigiosas **incluyen la Universidad de Pens
 
 Las instituciones en Filadelfia ofrecen una amplia gama de cursos de inglés para satisfacer las necesidades de diferentes estudiantes, y en estos tienes las oportunidad de sumergirse completamente en el idioma y acelerar su aprendizaje.
 
-Hay cursos especializados disponibles, como **inglés para negocios, preparación para exámenes (TOEFL, IELTS, etc.) y [clases de pronunciación](/#formulario)**.
+Hay cursos especializados disponibles, como **inglés para negocios, preparación para exámenes (TOEFL, IELTS, etc.) y [clases de pronunciación]({{'clases-en-linea'|relative_url}})**.
 
 ## Beneficios de las Clases de Inglés en Filadelfia
 

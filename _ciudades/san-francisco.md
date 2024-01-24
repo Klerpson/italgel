@@ -29,7 +29,7 @@ La UCSF es conocida por su prestigio académico y sus cursos de inglés están d
 
 Los cursos de inglés en SFSU están disponibles en diferentes niveles y se centran en las habilidades de escucha, habla, lectura y escritura.
 
-Además de los cursos, la SFSU ofrece actividades y programas culturales para mejorar la experiencia de aprendizaje de los estudiantes. **Esto incluye eventos sociales, excursiones y [clubs de conversación](/#formulario)** donde los estudiantes pueden practicar el inglés en un entorno informal y divertido.
+Además de los cursos, la SFSU ofrece actividades y programas culturales para mejorar la experiencia de aprendizaje de los estudiantes. **Esto incluye eventos sociales, excursiones y [clubs de conversación]({{'clases-en-linea'|relative_url}})** donde los estudiantes pueden practicar el inglés en un entorno informal y divertido.
 
 ### Cursos Gratuitos en la Biblioteca Pública de San Francisco
 
