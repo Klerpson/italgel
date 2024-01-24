@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: arlington.avif
+webp: arlington.webp
 escuelas: no
 ---
 ## Aprende Inglés en las Escuelas de Arlington Texas

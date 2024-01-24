@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: east-boston.avif
+webp: east-boston.webp
 ---
 ## Guía para Latinos en Busca de Escuelas con Cursos de Inglés en East Boston
 

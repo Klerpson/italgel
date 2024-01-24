@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: boca-raton.avif
+webp: boca-raton.webp
 ---
 ## Los Cursos de Inglés en las Escuelas de Boca Ratón Florida
 
