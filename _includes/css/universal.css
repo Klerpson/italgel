@@ -137,9 +137,9 @@ ol li {
 blockquote {
   position: relative;
   padding-left: 2em;
-  border-left: var(--complemento1);
-  border-left-width: 1em;
-  border-left-style: double;
+  border-left: var(--accion);
+  border-left-width: 4px;
+  border-left-style: solid;
   padding: 1em 2em;
 }
 
