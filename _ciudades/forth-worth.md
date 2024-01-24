@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: forth-worth.avif
+webp: forth-worth.webp
 ---
 
 ## Recursos Adicionales para Estudiar Inglés en Fort Worth Texas

@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: filadelfia.avif
+webp: filadelfia.webp
 ---
 ![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Comunidad angloparlante, Filadelfia, Estados Unidos"){:width="320" height="240" loading="lazy"}
 
