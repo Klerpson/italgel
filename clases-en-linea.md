@@ -6,7 +6,7 @@ description: Las clases de inglés tradicionales no funcionan. ¡Está comprobad
 webp: clases-ingles-grupo.webp
 alt: Clase de inglés en línea
 ---
-[✓ Aprovecha la oferta]({{site.baseurl}}/#formulario){:class="boton boton_2"}
+[✓ Aprovecha la oferta](https://ccdecgtz3b5e0u5iwmm9iaap88.hop.clickbank.net/?tid=aprendamosingles){:class="boton boton_2" rel="nofollow sponsored noopener"}
 
 ## ¿Te sientes atrapado en tu aprendizaje del inglés?
 
@@ -57,4 +57,4 @@ Deja de perder tiempo y oportunidades por no hablar inglés como siempre has que
 
 ### ¡Haz clic aquí y empieza tu viaje hacia el inglés fluido hoy mismo!
 
-[✓ Aprovecha la oferta]({{site.baseurl}}/#formulario){:class="boton boton_2"}
+[✓ Aprovecha la oferta](https://ccdecgtz3b5e0u5iwmm9iaap88.hop.clickbank.net/?tid=aprendamosingles){:class="boton boton_2" rel="nofollow sponsored noopener"}
