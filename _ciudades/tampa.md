@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: tampa.avif
+webp: tampa.webp
 escuelas: "no"
 ---
 Si eres un adulto residente en Tampa y siempre has querido aprender inglés, ¡estás de suerte! Hoy te enseñaremos la disponibilidad y oportunidades de **clases de inglés gratuitas para adultos en Tampa**.
