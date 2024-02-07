@@ -14,7 +14,7 @@ intro: Clases de inglés para adultos y niños en las escuelas de San José CA
 ---
 ## Aprende Inglés en San José, California: Tu Guía para Escoger la Mejor Escuela
 
-![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.avif}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
+![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
 ### ¿Por qué San José es el Lugar Ideal para Aprender Inglés?
 

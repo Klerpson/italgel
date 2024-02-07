@@ -9,7 +9,7 @@ description: Mejora tu inglés en San Antonio, TX. Aprende de forma efectiva, di
 h1: Clases de ingles en escuelas de San Antonio Texas
 category: texas
 ciudad: san-antonio
-avif: san-antonio.avif
+webp: san-antonio.webp
 intro: Estudia Inglés con Clases de las Escuelas más Divertidas de Estados Unidos, las de San Antonio
 ---
 ## San Antonio, TX: Clases de Inglés Que Son Toda Una Aventura
@@ -18,7 +18,7 @@ Encontrar escuelas para aprender inglés que no sean del típico aula aburrida, 
 
 ## San Antonio: Cursos de Inglés por Donde Vayas
 
-![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.avif}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
+![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
 ### 1. Un Ambiente Bilingüe Único
 
