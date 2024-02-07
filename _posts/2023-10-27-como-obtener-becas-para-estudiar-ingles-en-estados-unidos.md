@@ -5,7 +5,7 @@ date: 2023-10-27T02:11:41.004Z
 title: Cómo obtener tu beca para estudiar inglés en Estados Unidos
 description: Aprende las estrategias y recursos clave para asegurarte una beca que te permita estudiar inglés en los Estados Unidos
 h1: "Becas para Estudiar Inglés en Estados Unidos: Tu Llave hacia la Educación Internacional"
-avif: blog/becas-estudiar-ingles-estados-unidos.avif
+webp: blog/becas-estudiar-ingles-estados-unidos.webp
 alt: Estudiar inglés en Estados Unidos becas
 permalink: /blog/becas-estudiar-ingles-estados-unidos
 ---
