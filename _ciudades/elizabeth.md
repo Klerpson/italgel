@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: elizabeth.avif
+webp: elizabeth.webp
 escuelas: "no"
 ---
 Encontrar clases de inglés asequibles y de alta calidad puede ser todo un desafío. Afortunadamente, **en Elizabeth NJ puedes acceder a numerosas clases de inglés gratuitas** que se adaptan a diversos estudiantes de idiomas.
