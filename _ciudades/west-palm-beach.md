@@ -70,4 +70,4 @@ Aprovecha estos recursos, establece tus metas y aprovecha al máximo tu experien
 
 [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-[Practica con nuestros grupos]({{'cursos-en-linea'|relative_url}}){:class="boton boton_2"}
+[Practica con nuestros grupos]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}
