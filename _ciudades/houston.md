@@ -79,6 +79,30 @@ Aquí hay algunos consejos para elegir una escuela de inglés:
 - **Visite la escuela si es posible.** Esto le dará una buena idea de la atmósfera de la escuela y de los recursos que ofrece.
 - **Hable con los estudiantes actuales.** Pídales su opinión sobre la escuela y los cursos que ofrecen.
 
+## Escuelas privadas de inglés en Houston
+
+Independientemente de que seas principiante o alumno avanzado, Houston cuenta con una variedad de escuelas privadas de inglés entre las que elegir. 
+
+### Escuelas privadas de inglés más populares de Houston
+
+#### Centro Intensivo de Inglés
+
+El **Intensive English Center de la Universidad de Houston** ofrece una formación integral en inglés para estudiantes internacionales. Además de clases de inglés, los estudiantes pueden participar en actividades culturales y excursiones.
+
+#### Cloud 9 English
+
+El Cloud 9 English es una escuela privada de prestigio especializada en la enseñanza del inglés. La escuela ofrece una variedad de cursos, incluyendo niveles principiante, intermedio y avanzado. Los estudiantes pueden elegir entre clases particulares o en grupo.
+
+#### Language Center of America
+
+El Centro de Idiomas de América es otra gran opción para el aprendizaje del inglés en Houston. El centro está situado en la zona de Galleria y ofrece clases tanto en grupo como particulares para estudiantes de todas las edades y niveles de competencia.
+
+#### Inlingua Houston
+
+El centro de idiomas Inlingua Houston ofrece una variedad de cursos de inglés, así como opciones de aprendizaje en línea.
+
+Los experimentados profesores de Inlingua utilizan la tecnología más moderna para el aprendizaje de idiomas, lo que lo convierte en una excelente opción tanto para principiantes como para estudiantes avanzados.
+
 ## Las Escuelas de Inglés de Houston te Ayudarán a Lograr tu Meta de Hablar Inglés
 
 Tienes muchas opciones para aprender inglés en Houston. Aprovecha los beneficios de los cursos de inglés gratuitos, los cursos más intensivos y todas las instituciones que están a tu alcance.

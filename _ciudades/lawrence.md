@@ -9,14 +9,14 @@ description: Aprende inglés rápido en Lawrence, MA. Clases y cursos efectivos 
 h1: Clases y cursos de inglés en Lawrence Massachusetts
 category: massachusetts
 ciudad: lawrence
-avif: lawrence.avif
+webp: lawrence.webp
 intro: "Aprender Inglés en Lawrence, MA: Más Que Un Curso, Una Experiencia"
 ---
 Oye, no es ningún secreto que el inglés se ha convertido en el idioma universal. Ya sea que quieras cerrar un negocio internacional o simplemente entender tu serie favorita sin subtítulos, **el inglés es tu mejor amigo**.
 
 ## Lawrence, MA: Un Lugar Único para Hacer un Curso de Inglés
 
-![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.avif}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
+![Escuelas Ingles {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
 
 Si te encuentras en Lawrence, MA, tienes una oportunidad de oro. Imagina, estás a solo 30 minutos de Boston y rodeado de una rica diversidad cultural.
 

@@ -18,7 +18,7 @@ Pero, ¿y si te dijéramos que hay una forma **más efectiva y divertida de mejo
 
 ### Práctica real con hablantes nativos
 
-Deja de aprender frases que nunca usarás. Con los audios vas a practic**ar en conversaciones reales** que mejorarán tu fluidez y confianza.
+Deja de aprender frases que nunca usarás. Con los audios vas a **practicar en conversaciones reales** que mejorarán tu fluidez y confianza.
 
 ### Clasificación por niveles
 
