@@ -71,7 +71,7 @@ La Agencia de Aprendizaje de Idiomas en el extranjero cuenta con una amplia gama
 
 ### 3.3 Agencia Speak English Now
 
-La Agencia Speak English Now se especializa en proporcionar cu**rsos de inglés** para profesionales y organizaciones.
+La Agencia Speak English Now se especializa en proporcionar **cursos de inglés** para profesionales y organizaciones.
 
 Cuentan con una amplia red de escuelas de idiomas y ofrecen programas personalizados para satisfacer las necesidades específicas de los trabajadores.
 
