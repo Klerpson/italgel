@@ -5,7 +5,7 @@ date: 2023-11-03
 title: ¡Busca Aquí las Agencias de Cursos de Inglés en el Extranjero!
 description: Encuentra las mejores agencias de cursos de inglés en el extranjero y elige la experiencia educativa perfecta para ti
 h1: "Agencias de Cursos de Inglés en el Extranjero: Tu Puerta al Aprendizaje Internacional"
-avif: blog/agencias-cursos-ingles-extranjero.webp
+webp: blog/agencias-cursos-ingles-extranjero.webp
 alt: Agencias para estudiar inglés en el extranjero
 permalink: /blog/agencias-cursos-ingles-extranjero
 ---

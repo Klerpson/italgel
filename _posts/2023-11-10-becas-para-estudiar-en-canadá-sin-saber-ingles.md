@@ -5,7 +5,7 @@ date: 2023-11-10
 title: Becas para estudiar en Canadá | Y sin saber ingles
 description: Descubre las oportunidades para obtener becas para estudiar inglés en Canadá. No tienes que saber el idioma. Consíguela desde cualquier país
 h1: "Obtén tu beca para estudiar en Canadá: Logra tu sueño académico en el extranjero"
-avif: blog/beca-estudiar-ingles-canada.webp
+webp: blog/beca-estudiar-ingles-canada.webp
 alt: Obtener una beca para estudiar inglés en Canadá
 permalink: /blog/beca-estudiar-ingles-canada
 ---
