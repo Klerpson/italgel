@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: harrisburg.avif
+webp: harrisburg.webp
 ---
 Aprender inglés en **Harrisburg, Pennsylvania**, no es solo una habilidad; es una inversión en tu futuro. Desde abrirte puertas en el mundo laboral hasta facilitar tu integración en la comunidad, el inglés es la llave maestra que necesitas.
 

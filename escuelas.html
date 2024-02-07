@@ -26,26 +26,26 @@ webp: background.webp
   </main>
   <section class="posts wrapper">
     {% capture filtered_categories_array %}{% for item in site.ciudades %}{{ item.category }}|{% endfor %}{% endcapture %}
-{% for item in site.ciudades %}
-{% assign filtered_cat = item.category | append: '|' %}
-  {% if filtered_categories_array contains filtered_cat %}
-  <div class="post" data-name="{{ item.category }}">
-    <span>Escuelas en {{ item.category | upcase }}</span>
-    <section class="links">
-      {% for destino in site.ciudades %}
-      {% if destino.category contains item.category %}
-      <article>
-        <a href="{{destino.url}}">
-          {% include img.html webpm=destino.webpm webps=destino.webps %}
-          <h4>{{destino.title}}</h4></a>
-      </article>
-      {% endif %}
-      {% endfor %}
-    </section>
-  </div>
-  {% endif %}
-  {% assign filtered_categories_array = filtered_categories_array | remove: filtered_cat %}
-{% endfor %}
+    {% for item in site.ciudades %}
+    {% assign filtered_cat = item.category | append: '|' %}
+    {% if filtered_categories_array contains filtered_cat %}
+    <div class="post" data-name="{{ item.category }}">
+      <span>Escuelas en {{ item.category | upcase }}</span>
+      <section class="links">
+        {% for destino in site.ciudades %}
+        {% if destino.category contains item.category %}
+        <article>
+          <img src="{{site.baseurl}}/img/{{destino.webp}}" alt="{{destino.ciudad|capitalize}} {{destino.category|capitalize}}">
+          <a href="{{destino.url}}">
+            <h4>{{destino.title}}</h4></a>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </section>
+    </div>
+    {% endif %}
+    {% assign filtered_categories_array = filtered_categories_array | remove: filtered_cat %}
+    {% endfor %}
     {% include buscador.html %}
   </section>
   <div class="wrapper flow">

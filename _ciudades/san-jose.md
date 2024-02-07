@@ -9,7 +9,7 @@ description: Clases de inglés en San José, CA. Aprende rápido y efectivamente
 h1: Escuelas de Inglés en San José California
 category: california
 ciudad: san-jose
-avif: san-jose.avif
+webp: san-jose.webp
 intro: Clases de inglés para adultos y niños en las escuelas de San José CA
 ---
 ## Aprende Inglés en San José, California: Tu Guía para Escoger la Mejor Escuela

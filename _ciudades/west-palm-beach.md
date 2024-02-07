@@ -10,7 +10,7 @@ boton1: Ver las escuelas
 boton1_url: "escuelas"
 boton2: Consejos para escoger
 boton2_url: "consejos"
-webp: west-palm.avif
+webp: west-palm.webp
 escuelas: "no"
 ---
 ![Aprende inglés gratis en {{page.ciudad}}]({{site.baseurl}}/img/{{page.webp}} "Clases inglés {{page.ciudad|capitalize}}"){:width="320" height="240" loading="lazy"}
