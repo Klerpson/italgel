@@ -19,7 +19,7 @@ Arlington, Texas, es más que solo un suburbio de Dallas. Es un **centro educati
 
 Aquí te explicamos por qué deberías considerar Arlington, TX, como tu destino para mejorar tus habilidades en inglés.
 
-Arlington está convenientemente ubicado entre Dallas y [Fort Worth]({{'forth-worth'|relative_url}}), lo que facilita el acceso a recursos educativos adicionales y oportunidades de empleo.
+Arlington está convenientemente ubicado entre Dallas y [Fort Worth]({{'escuelas/forth-worth'|relative_url}}), lo que facilita el acceso a recursos educativos adicionales y oportunidades de empleo.
 
 ## Tipos de cursos y clases de inglés disponibles en Arlington
 
