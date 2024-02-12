@@ -9,9 +9,8 @@
     <title>{{ page.title}}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160}}{% else %}{{ site.description}}{% endif %}" >
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" >
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
-    href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"> <link
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" >
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml" >
     <meta name="language" content="es" >
     <meta name="country" content="US" >
     <meta name="theme-color" content="#454546" >
