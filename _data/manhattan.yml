@@ -1,0 +1,54 @@
+- name: La Universidad de la Ciudad de Nueva York (CUNY)
+  telefono: No disponible
+  direccion: Varias ubicaciones en la ciudad de Nueva York
+  punto1: "<b>Cursos Gratuitos</b>: Incluyen inglés y preparación para el GED."
+  punto2: "<b>Varias Temporadas</b>: Cursos disponibles durante otoño, primavera, verano e invierno."
+  punto3: "<b>Inscripción en Línea</b>: Requiere información básica para el registro."
+  punto4: "<b>Accesible a Adultos</b>: Dirigido a mayores de edad interesados en aprender inglés."
+  url1: "https://www.cuny.edu"
+  cta1: "Más información"
+  title1: "Cursos de inglés en CUNY"
+
+- name: Universidad de Columbia
+  telefono: No disponible
+  direccion: Manhattan, New York, NY
+  punto1: "<b>Clases Gratuitas</b>: Para residentes de los cinco condados de NYC."
+  punto2: "<b>Varios Niveles</b>: Desde principiantes hasta avanzados, incluyendo mejoras de pronunciación."
+  punto3: "<b>Tres Temporadas al Año</b>: Cada sesión dura 12 semanas."
+  punto4: "<b>Inscripción en Línea</b>: Necesario llenar un formulario con datos personales."
+  url1: "https://www.columbia.edu"
+  cta1: "Más información"
+  title1: "Programa de inglés en la Universidad de Columbia"
+
+- name: Departamento de Educación de la Ciudad de Nueva York
+  telefono: (646) 481-8227
+  direccion: Varias ubicaciones en la ciudad de Nueva York
+  punto1: "<b>Amplia Gama de Cursos</b>: Incluye inglés, educación básica y preparación para el GED."
+  punto2: "<b>Disponible para Adultos</b>: Mayores de 21 años sin diploma de secundaria o GED."
+  punto3: "<b>Inscripción mediante Formulario</b>: Requiere información personal para el registro."
+  punto4: "<b>Diversas Ubicaciones</b>: En los cinco condados de NYC."
+  url1: "https://www.schools.nyc.gov"
+  cta1: "Más información"
+  title1: "Educación para adultos por el Departamento de Educación de NYC"
+
+- name: La Biblioteca Pública de Nueva York (NYPL)
+  telefono: No disponible
+  direccion: Más de 40 ubicaciones en Manhattan, Staten Island y El Bronx
+  punto1: "<b>Clases para Principiantes y Avanzados</b>: Sesiones de 10 semanas."
+  punto2: "<b>Clases de ESOL</b>: Mejora de comprensión auditiva, habla, lectura y escritura."
+  punto3: "<b>Inscripción Necesaria</b>: Para aplicar a los cursos."
+  punto4: "<b>Cursos de Preparación para la Ciudadanía</b>: También disponibles."
+  url1: "https://www.nypl.org"
+  cta1: "Más información"
+  title1: "Cursos de inglés en la NYPL"
+
+- name: Programa de Idiomas de Riverside
+  telefono: No disponible
+  direccion: Manhattan, New York, NY
+  punto1: "<b>Clases Gratuitas de Tiempo Completo</b>: Para inmigrantes, refugiados y solicitantes de asilo."
+  punto2: "<b>Sin Fines de Lucro</b>: Focused on helping new arrivals."
+  punto3: "<b>Residentes de Todos los Condados</b>: Son elegibles para los cursos."
+  punto4: "<b>Contacto vía Email</b>: Para más información."
+  url1: "http://www.riversidelanguage.org"
+  cta1: "Más información"
+  title1: "Programa de idiomas de Riverside"
