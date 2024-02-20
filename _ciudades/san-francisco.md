@@ -57,4 +57,4 @@ Durante las clases de inglés gratuitas, es esencial participar activamente. Est
 
 El aprendizaje de un idioma no se limita al aula. Se alienta a los estudiantes a practicar el inglés en situaciones reales, como conversaciones con hablantes nativos o la lectura y escritura de contenido en inglés.
 
-[Únete a nuestros grupos de práctica]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}
+[Aprende inglés sin salir de casa]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}

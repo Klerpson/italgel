@@ -50,4 +50,4 @@ Aquí no se trata solo de memorizar reglas gramaticales. La idea es que puedas u
 
 Si estás en Lawrence, MA, tienes todo lo que necesitas para sumergirte en el inglés. Y no solo aprenderás un idioma, vivirás una experiencia que te abrirá puertas en todo sentido.
 
-Y te informamos de una opción más práctica: [unirte a nuestros grupos de práctica de inglés conversacional]({{'clases-en-linea'|relative_url}}). Envía tus datos para saber más.
+Y te informamos de una opción más práctica: [aprender inglés sin salir de tu casa]({{'clases-en-linea'|relative_url}}). Haz clic en este enlace para ver cómo lograrlo.
