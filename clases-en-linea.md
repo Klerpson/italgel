@@ -39,10 +39,11 @@ Sabemos que la vida es impredecible. Por eso, al tener los audios a tu disposici
 
 #### ¡No es magia! Hay una ciencia detrás...
 
-La mente lógica no está desarrollada en el cerebro de los niños, por lo que **absorben todo lo que escuchan sin filtrar**. Es por eso que son tan buenos para captar acentos y aprender idiomas.  
-Todo lo que escuchan va directamente a su mente subconsciente y por lo tanto se convierte en una segunda naturaleza para ellos.  
+La mente lógica no está desarrollada en el cerebro de los niños, por lo que **absorben todo lo que escuchan sin filtrar**. Es por eso que son tan buenos para captar acentos y aprender idiomas.
 
-La buena noticia es que puedes aprender idiomas exactamente como los niños, cuando **usas este método para apagar tu mente lógica y acceder a tu mente subconsciente**.
+Todo lo que escuchan va directamente a su mente subconsciente y por lo tanto se convierte en una segunda naturaleza para ellos. La buena noticia es que puedes aprender idiomas exactamente como los niños, cuando **usas este método para apagar tu mente lógica y acceder a tu mente subconsciente**.
+
+[✓ Aprovecha la oferta]({{site.afiliado1}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
 
 {% include formulario.html %}
 
@@ -53,8 +54,6 @@ La buena noticia es que puedes aprender idiomas exactamente como los niños, cua
 
 > "Me encanta cómo la neurolingüística me ayudó y me está ayudando a reducir mi acento. Los audios no son como el método tradicional para aprender inglés, pero se dirigen al subconsciente... ¡Vale la pena cada centavo!"  
 > — Vanessa, nivel avanzado, Filipinas
-
-[✓ Aprovecha la oferta]({{site.afiliado1}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
 
 ## ¿Estás listo para transformar tu inglés? 🎯
 
