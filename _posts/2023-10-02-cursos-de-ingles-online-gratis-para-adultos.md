@@ -50,4 +50,4 @@ Nuestras clases grupales de práctica conversacional son la clave para perder el
 
 Si llegaste hasta aquí, es porque estás listo para llevar tu inglés al siguiente nivel.
 
-👉 **[¡Inscríbete Ahora en Nuestros Cursos y Clases de Práctica Conversacional!]({{site.baseurl}}/#formulario)**
+👉 **[Estudia desde tu casa con nuestro material de neuroaprendizaje]({{site.baseurl}}/clases-en-linea)**
