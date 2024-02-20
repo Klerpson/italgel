@@ -62,6 +62,7 @@ h2 {
 
 h3 {
   font-size: clamp(1.4rem, 1.233rem + 0.84vw, 1.86rem);
+  text-align: center;
 }
 
 h4 {

@@ -3,11 +3,13 @@ layout: page-basic
 title: Términos y Codiciones de Uso | aprendamosingles.us
 description: Condiciones de uso de la página aprendamosingles.us
 h1: Término y condiciones, privacidad y aspectos legales del uso de aprendamosingles.us
+webp: logo.webp
+alt: Logo de aprendamosingles.us
 noindex: true
 ---
 ## Aviso legal para sitio web de aprendamosingles.us
 
-En esta página se detallan las instrucciones legales que se aplican a todos los usuarios de Internet que visiten este Sitio (aprendamosingles.us) propiedad de Andres Bedoya, con domicilio San Agustín Huila, carrera 18 5 - 30. Al acceder y navegar por este sitio, usted se compromete a respetar estas instrucciones sin ningún tipo de excepción. Es por ello que le aconsejamos que consulte estas instrucciones cada cierto tiempo, ya que podrían modificarse de forma periódica y sin previo aviso por parte de Andres Bedoya. **Si usted no desea aceptar o cumplir las condiciones aquí descritas, deberá abandonar este sitio web inmediatamente.**
+En esta página se detallan las instrucciones legales que se aplican a todos los usuarios de Internet que visiten este Sitio (aprendamosingles.us) propiedad de Andres Bedoya, con domicilio San Agustín Huila Colombia. Al acceder y navegar por este sitio, usted se compromete a respetar estas instrucciones sin ningún tipo de excepción. Es por ello que le aconsejamos que consulte estas instrucciones cada cierto tiempo, ya que podrían modificarse de forma periódica y sin previo aviso por parte de Andres Bedoya. **Si usted no desea aceptar o cumplir las condiciones aquí descritas, deberá abandonar este sitio web inmediatamente.**
 
 ## Información y propiedad intelectual
 

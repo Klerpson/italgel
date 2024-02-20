@@ -66,4 +66,4 @@ No te dejes llevar solo por el marketing. Lee las reseñas y calificaciones para
 
 Si has llegado hasta aquí, es porque estás listo para tomar acción.
 
-👉 **[Empieza Tu Viaje al Dominio del Inglés Ahora]({{site.baseurl}}/#formulario)**
+👉 **[Empieza Tu Viaje al Dominio del Inglés Ahora]({{site.baseurl}}/clases-en-linea)**
