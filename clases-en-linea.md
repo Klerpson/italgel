@@ -6,7 +6,7 @@ description: Las clases de inglés tradicionales no funcionan. ¡Está comprobad
 webp: clases-ingles-grupo.webp
 alt: Clase de inglés en línea
 ---
-[✓ Aprovecha la oferta]({{site.afiliado}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
+[✓ Aprovecha la oferta]({{site.afiliado1}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
 
 ## ¿Te sientes atrapado en tu aprendizaje del inglés?
 
@@ -38,7 +38,7 @@ Sabemos que la vida es impredecible. Por eso, al tener los audios a tu disposici
 > "Me encanta cómo la neurolingüística me ayudó y me está ayudando a reducir mi acento. Los audios no son como el método tradicional para aprender inglés, pero se dirigen al subconsciente... ¡Vale la pena cada centavo!"  
 > — Vanessa, nivel avanzado, Filipinas
 
-[✓ Aprovecha la oferta]({{site.afiliado}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
+[✓ Aprovecha la oferta]({{site.afiliado1}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
 
 ## ¿Cuál es el secreto?
 
@@ -57,4 +57,4 @@ Deja de perder tiempo y oportunidades por no hablar inglés como siempre has que
 
 ### ¡Haz clic aquí y empieza tu viaje hacia el inglés fluido hoy mismo!
 
-[✓ Aprovecha la oferta]({{site.afiliado}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
+[✓ Aprovecha la oferta]({{site.afiliado1}}){:class="boton boton_2" rel="nofollow sponsored noopener"}
