@@ -1,0 +1,21 @@
+- name: Dallas College - Inglés como Segundo Idioma (ESL)
+  telefono: "972-669-6400"
+  direccion: "1601 Botham Jean Blvd., Dallas, TX 75215"
+  punto1: "<b>Mejora de habilidades</b>: Clases diseñadas para mejorar lectura, escritura, gramática, comprensión y conversación."
+  punto2: "<b>Versatilidad</b>: Clases disponibles en una variedad de horarios y ubicaciones para tu conveniencia."
+  punto3: "<b>Orientado a la carrera</b>: Ayuda con la reducción de acento y desarrollo de comunicación en el trabajo."
+  punto4: "<b>Accesibilidad</b>: Clases diseñadas para cumplir con tu horario y metas educativas."
+  url1: "https://www.dallascollege.edu"
+  cta1: "Más información"
+  title1: "Cursos de ESL en Dallas College"
+
+- name: Excel English Institute
+  telefono: "+1 214-363-1700"
+  direccion: "1101 E Arapaho Rd #150, Richardson, TX 75081, Estados Unidos"
+  punto1: "<b>Programa de ESL completo</b>: Diseñado por maestras veteranas para dominar el inglés."
+  punto2: "<b>Inscripción continua</b>: Acepta estudiantes en cualquier momento con evaluación de nivel."
+  punto3: "<b>Metodología efectiva</b>: Instructores experimentados dedicados al éxito del estudiante."
+  punto4: "<b>Ubicación conveniente</b>: Fácil acceso y oportunidad de observar una clase antes de inscribirse."
+  url1: "https://excelenglishinstitute.com"
+  cta1: "Más información"
+  title1: "Programa de ESL en Excel English Institute"
