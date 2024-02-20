@@ -47,4 +47,4 @@ Estos institutos ofrecen programas completos que cubren todas las bases: **habla
 
 Escoge el instituto que mejor se adapte a tus necesidades y sumérgete en la rica experiencia educativa que San José tiene para ofrecer.
 
-O una mejor opción es [practicar desde tu casa junto a nuestro grupo de inglés conversacional]({{'clases-en-linea'|relative_url}}). Anímate a enviarnos tus datos para recibir más info.
+O una mejor opción es [aprender inglés desde tu propia casa en línea]({{'clases-en-linea'|relative_url}}). Anímate a conocer cómo lograrlo.

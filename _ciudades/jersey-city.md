@@ -72,4 +72,4 @@ Finalmente, puedes utilizar el [PDF preparado por el consulado de México en Nue
 
 [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-[Practica con nuestros grupos]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}
+[Aprende inglés sin salir de casa]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}

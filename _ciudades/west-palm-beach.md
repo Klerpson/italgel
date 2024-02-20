@@ -63,11 +63,10 @@ Aprender inglés no debería ser un obstáculo debido a limitaciones económicas
 
 Aprovecha estos recursos, establece tus metas y aprovecha al máximo tu experiencia de aprendizaje. En poco tiempo, hablarás inglés con fluidez y confianza, disfrutando de los innumerables beneficios que conlleva.
 
-
 ### 📚 Blog: Consejos y Recursos de aprendamosingles.us
 
 [Mejora Tu Pronunciación]({{'blog'|relative_url}}){:class="boton boton_2"}
 
 [Más ciudades en Estados Unidos]({{'escuelas'|relative_url}}){:class="boton boton_2"}
 
-[Practica con nuestros grupos]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}
+[Aprende inglés sin salir de casa]({{'clases-en-linea'|relative_url}}){:class="boton boton_2"}
