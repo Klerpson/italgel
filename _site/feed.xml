@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title></title>
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Aug 2024 11:26:57 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Aug 2024 11:26:57 -0500</lastBuildDate>
+    <pubDate>Fri, 16 Aug 2024 11:45:38 -0500</pubDate>
+    <lastBuildDate>Fri, 16 Aug 2024 11:45:38 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+
     
       <item>
         <title>Becas para estudiar en Canadá | Y sin saber ingles</title>
-        <description>&lt;p&gt;Cuando se trata de cursar estudios superiores en el extranjero, Canadá es una opción líder para muchos estudiantes internacionales del idioma inglés.&lt;/p&gt;
+        <description><![CDATA[&lt;p&gt;Cuando se trata de cursar estudios superiores en el extranjero, Canadá es una opción líder para muchos estudiantes internacionales del idioma inglés.&lt;/p&gt;
+
+]]></description>
+        <pubDate>Fri, 10 Nov 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/beca-estudiar-ingles-canada</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/beca-estudiar-ingles-canada</guid>
+        
+        
+          <content:encoded><![CDATA[&lt;p&gt;Cuando se trata de cursar estudios superiores en el extranjero, Canadá es una opción líder para muchos estudiantes internacionales del idioma inglés.&lt;/p&gt;
 
 &lt;p&gt;Renombrado por sus excelentes instituciones educativas y su cultura diversa, Canadá ofrece numerosas oportunidades para aquellos que buscan ampliar sus horizontes.&lt;/p&gt;
 
@@ -92,19 +101,34 @@
 &lt;p&gt;Ya sea a través de programas de preparación en idiomas, exenciones o programas bilingües, &lt;em&gt;los estudiantes internacionales pueden estudiar en Canadá y mejorar gradualmente su competencia en inglés&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Con la amplia gama de oportunidades de becas ofrecidas por universidades canadienses, agencias gubernamentales y fundaciones privadas, &lt;strong&gt;los estudiantes pueden recibir el apoyo financiero necesario para embarcarse en su viaje educativo en Canadá.&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Nov 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/beca-estudiar-ingles-canada</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/beca-estudiar-ingles-canada</guid>
+]]></content:encoded>
         
         
+        
+          
+        
+        
+        
+          
+        
+        
+        
+          <enclosure url="http://localhost:4000/blog/beca-estudiar-ingles-canada.webp" type="image/webp" />
         
         
       </item>
     
       <item>
         <title>¡Busca Aquí las Agencias de Cursos de Inglés en el Extranjero!</title>
-        <description>&lt;h2 id=&quot;necesitas-una-agencias-para-estudiar-inglés-en-estados-unidos&quot;&gt;¿Necesitas una agencias para estudiar inglés en Estados Unidos?&lt;/h2&gt;
+        <description><![CDATA[&lt;h2 id=&quot;necesitas-una-agencias-para-estudiar-inglés-en-estados-unidos&quot;&gt;¿Necesitas una agencias para estudiar inglés en Estados Unidos?&lt;/h2&gt;
+
+]]></description>
+        <pubDate>Fri, 03 Nov 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/agencias-cursos-ingles-extranjero</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/agencias-cursos-ingles-extranjero</guid>
+        
+        
+          <content:encoded><![CDATA[&lt;h2 id=&quot;necesitas-una-agencias-para-estudiar-inglés-en-estados-unidos&quot;&gt;¿Necesitas una agencias para estudiar inglés en Estados Unidos?&lt;/h2&gt;
 
 &lt;p&gt;Aquí te proporcionare información esencial sobre agencias que ofrecen cursos de inglés en Estados Unidos.&lt;/p&gt;
 
@@ -193,19 +217,34 @@
 &lt;p&gt;Estas agencias brindan orientación personalizada, ofrecen variedad de opciones de cursos, asisten con los procesos de visa e incluso ayudan a encontrar alojamiento adecuado.&lt;/p&gt;
 
 &lt;p&gt;Al seleccionar una agencia, considera su reputación, los servicios ofrecidos, las instituciones asociadas y el costo para asegurarte de elegir la adecuada para tus necesidades. Con la agencia correcta a tu lado, podrás embarcarte en una experiencia enriquecedora de aprendizaje del inglés en Estados Unidos y ampliar tus horizontes.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 03 Nov 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/agencias-cursos-ingles-extranjero</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/agencias-cursos-ingles-extranjero</guid>
+]]></content:encoded>
         
         
+        
+          
+        
+        
+        
+          
+        
+        
+        
+          <enclosure url="http://localhost:4000/blog/agencias-cursos-ingles-extranjero.webp" type="image/webp" />
         
         
       </item>
     
       <item>
         <title>Cómo obtener tu beca para estudiar inglés en Estados Unidos</title>
-        <description>&lt;p&gt;Cuando se trata de &lt;strong&gt;estudiar inglés en Estados Unidos&lt;/strong&gt;, muchas personas encuentran un obstáculo significativo: el costo.&lt;/p&gt;
+        <description><![CDATA[&lt;p&gt;Cuando se trata de &lt;strong&gt;estudiar inglés en Estados Unidos&lt;/strong&gt;, muchas personas encuentran un obstáculo significativo: el costo.&lt;/p&gt;
+
+]]></description>
+        <pubDate>Thu, 26 Oct 2023 21:11:41 -0500</pubDate>
+        <link>http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</guid>
+        
+        
+          <content:encoded><![CDATA[&lt;p&gt;Cuando se trata de &lt;strong&gt;estudiar inglés en Estados Unidos&lt;/strong&gt;, muchas personas encuentran un obstáculo significativo: el costo.&lt;/p&gt;
 
 &lt;p&gt;¡Pero hay buenas noticias! Hay numerosas becas disponibles para estudiantes internacionales que deseen &lt;strong&gt;realizar sus estudios de inglés en Estados Unidos.&lt;/strong&gt;&lt;/p&gt;
 
@@ -281,19 +320,32 @@
 &lt;p&gt;Con dedicación y perseverancia, &lt;strong&gt;puedes obtener becas para tus estudios de inglés en Estados Unidos&lt;/strong&gt;. Utiliza los recursos mencionados y explora las oportunidades en los estados y ciudades que deseas, para hacer realidad tu sueño de estudiar inglés en Estados Unidos.&lt;/p&gt;
 
 &lt;p&gt;¡Buena suerte en tu búsqueda de becas y tus futuros estudios!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Oct 2023 21:11:41 -0500</pubDate>
-        <link>http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</guid>
+]]></content:encoded>
         
         
+        
+          
+        
+        
+        
+          
+        
+        
+        
+          <enclosure url="http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos.webp" type="image/webp" />
         
         
       </item>
     
       <item>
         <title>Cursos de inglés online para adultos y GRATIS!!!</title>
-        <description>&lt;h2 id=&quot;necesitas-aprender-inglés-y-eres-latino-en-ee-uu-esto-es-para-ti&quot;&gt;¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? Esto es para Ti&lt;/h2&gt;
+        <description><![CDATA[¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? La solución: **cursos de inglés online gratis para adultos**]]></description>
+        <pubDate>Mon, 02 Oct 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</guid>
+        
+        
+          <content:encoded><![CDATA[&lt;h2 id=&quot;necesitas-aprender-inglés-y-eres-latino-en-ee-uu-esto-es-para-ti&quot;&gt;¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? Esto es para Ti&lt;/h2&gt;
 
 &lt;p&gt;Si estás en Estados Unidos y quieres abrirte puertas, tanto en el trabajo como en la vida diaria, hablar inglés es clave. Y aquí te traigo la solución: &lt;strong&gt;cursos de inglés online gratis para adultos&lt;/strong&gt;, diseñados especialmente para la comunidad latina.&lt;/p&gt;
 
@@ -334,21 +386,34 @@
 &lt;p&gt;Si llegaste hasta aquí, es porque estás listo para llevar tu inglés al siguiente nivel.&lt;/p&gt;
 
 &lt;p&gt;👉 &lt;strong&gt;&lt;a href=&quot;/clases-en-linea&quot;&gt;Estudia desde tu casa con nuestro material de neuroaprendizaje&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Oct 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</guid>
+]]></content:encoded>
         
         
         
+          
         
-        <category>online</category>
+        
+        
+          
+            <category>online</category>
+          
+        
+        
+        
+          <enclosure url="http://localhost:4000/blog/clases-ingles-adultos-online.webp" type="image/webp" />
+        
         
       </item>
     
       <item>
         <title>Los mejores cursos de ingles online | Apps y Webs</title>
-        <description>&lt;h2 id=&quot;quieres-hablar-inglés-como-un-nativo-aquí-están-tus-mejores-opciones&quot;&gt;¿Quieres Hablar Inglés Como un Nativo? Aquí Están Tus Mejores Opciones&lt;/h2&gt;
+        <description><![CDATA[Te presento los mejores cursos de inglés online que te llevarán de cero a héroe en la fluidez.]]></description>
+        <pubDate>Sun, 01 Oct 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/mejores-cursos-ingles-online</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/mejores-cursos-ingles-online</guid>
+        
+        
+          <content:encoded><![CDATA[&lt;h2 id=&quot;quieres-hablar-inglés-como-un-nativo-aquí-están-tus-mejores-opciones&quot;&gt;¿Quieres Hablar Inglés Como un Nativo? Aquí Están Tus Mejores Opciones&lt;/h2&gt;
 
 &lt;p&gt;Si estás buscando dominar el inglés, estás de suerte. Te presento los mejores cursos de inglés online que te llevarán de cero a héroe en la fluidez.&lt;/p&gt;
 
@@ -466,15 +531,22 @@
 &lt;p&gt;Si has llegado hasta aquí, es porque estás listo para tomar acción.&lt;/p&gt;
 
 &lt;p&gt;👉 &lt;strong&gt;&lt;a href=&quot;/clases-en-linea&quot;&gt;Empieza Tu Viaje al Dominio del Inglés Ahora&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Oct 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/mejores-cursos-ingles-online</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/mejores-cursos-ingles-online</guid>
+]]></content:encoded>
         
         
         
+          
         
-        <category>amigos</category>
+        
+        
+          
+            <category>amigos</category>
+          
+        
+        
+        
+          <enclosure url="http://localhost:4000/blog/mejores-cursos-ingles-online.webp" type="image/webp" />
+        
         
       </item>
     
