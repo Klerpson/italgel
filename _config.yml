@@ -33,3 +33,6 @@ collections:
   ciudades:
     output: true
     permalink: /escuelas/:path
+  posts:
+    output: true
+    permalink: /blog/:path
