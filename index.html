@@ -163,7 +163,7 @@ intro: "Aprende Inglés en Estados Unidos con Clases, Escuelas y Cursos en líne
   <h3>Últimos artículos del blog</h3>
   <div class="entradas">
     <div class="flow">
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 5 %}
     <article class="flow">
       <div>
         <img src="{{site.baseurl}}/img/{{post.webp}}" alt="{{post.alt}}" title="{{post.title}}" width="320" height="240" loading="lazy">
