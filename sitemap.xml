@@ -1,34 +1,122 @@
 ---
-layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' or page.url contains '.json' or page.noindex %}{% else %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endif %}{% endfor %}
-  {% for page in site.posts %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {% comment %}
+    Loop through all pages and include only those that should be indexed.
+    Exclude pages with `.xml`, `assets`, `.json`, or `noindex`.
+  {% endcomment %}
+  {% for page in site.pages %}
+    {% if page.url contains '.xml' or page.url contains 'assets' or page.url contains '.json' or page.noindex %}
+    {% else %}
       <url>
         <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        <changefreq>{% if page.layout == "ciudades" %}monthly{% else %}weekly{% endif %}</changefreq>
+        <priority>{% if page.layout == "ciudades" %}0.7{% else %}0.6{% endif %}</priority>
+        {% if page.description %}
+          <description>{{ page.description | escape }}</description>
+        {% endif %}
+        {% if page.webp %}
+          <image:image>
+            <image:loc>{{ site.url }}/{{ page.webp }}</image:loc>
+            <image:caption>{{ page.title | escape }}</image:caption>
+          </image:image>
+        {% endif %}
+      </url>
+    {% endif %}
   {% endfor %}
-  {% for ciudad in site.ciudades %}
+
+  {% comment %}
+    Loop through all posts and include their URLs.
+  {% endcomment %}
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | replace: 'index.html', '' }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      {% if post.description %}
+        <description>{{ post.description | escape }}</description>
+      {% endif %}
+      {% if post.webp %}
+        <image:image>
+          <image:loc>{{ site.url }}/img/{{ post.webp }}</image:loc>
+          <image:caption>{{ post.title | escape }}</image:caption>
+        </image:image>
+      {% endif %}
+    </url>
+  {% endfor %}
+
+  {% comment %}
+    Handle pages with layout "ciudades" specifically for city-related content.
+  {% endcomment %}
+  {% for page in site.pages %}
+    {% if page.layout == "ciudades" %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        {% if page.description %}
+          <description>{{ page.description | escape }}</description>
+        {% endif %}
+        {% if page.webp %}
+          <image:image>
+            <image:loc>{{ site.url }}/img/{{ page.webp }}</image:loc>
+            <image:caption>{{ page.h1 | escape }}</image:caption>
+          </image:image>
+        {% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+    Handle pages with layout "compress" and "default" with appropriate priorities.
+  {% endcomment %}
+  {% for page in site.pages %}
+    {% if page.layout == "compress" or page.layout == "default" %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        {% if page.description %}
+          <description>{{ page.description | escape }}</description>
+        {% endif %}
+        {% if page.webp %}
+          <image:image>
+            <image:loc>{{ site.url }}/{{ page.webp }}</image:loc>
+            <image:caption>{{ page.h1 | escape }}</image:caption>
+          </image:image>
+        {% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+    Include city pages with priority adjustments based on specific categories.
+  {% endcomment %}
+  {% for ciudad in site.pages %}
+    {% if ciudad.ciudad %}
       <url>
         <loc>{{ site.url }}{{ ciudad.url | replace: 'index.html', '' }}</loc>
+        <lastmod>{{ ciudad.date | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <priority>0.7</priority>
+        {% if ciudad.description %}
+          <description>{{ ciudad.description | escape }}</description>
+        {% endif %}
+        {% if ciudad.webp %}
+          <image:image>
+            <image:loc>{{ site.url }}/{{ ciudad.webp }}</image:loc>
+            <image:caption>{{ ciudad.h1 | escape }}</image:caption>
+          </image:image>
+        {% endif %}
+      </url>
+    {% endif %}
   {% endfor %}
-  {% for page in site.without-plugin %}
-      <url>
-        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  {% endfor %}
+
 </urlset>

@@ -1,259 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   
+  
+    
+    
+  
+    
       <url>
         <loc>http://localhost:4000/blog</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!</description>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/blog-clases-ingles.webp</image:loc>
+            <image:caption>✨ El blog de que te guía en tu proceso de aprender inglés</image:caption>
+          </image:image>
+        
+      </url>
+    
   
+    
       <url>
         <loc>http://localhost:4000/clases-en-linea</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>Las clases de inglés tradicionales no funcionan. ¡Está comprobado! Pero, ¿y si te dijéramos que hay una forma más efectiva de mejorar tu inglés? Descúbrelo!</description>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/clases-ingles-grupo.webp</image:loc>
+            <image:caption>Aprende a hablar inglés con audios y eleva tu nivel 🚀</image:caption>
+          </image:image>
+        
+      </url>
+    
   
+    
       <url>
         <loc>http://localhost:4000/escuelas</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>En Estados Unidos siempre hay una escuela de inglés cerca de ti. ¡Haz clic y encuentra una hoy! Tu futuro empieza aquí 🌟</description>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/background.webp</image:loc>
+            <image:caption>Siempre hay una escuela de inglés cerca en Estados Unidos</image:caption>
+          </image:image>
+        
+      </url>
+    
   
+    
+    
+  
+    
       <url>
         <loc>http://localhost:4000/gracias</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>Estás a un paso de transformar tu forma de aprender inglés. ¡Gracias por unirte a nuestro exclusivo grupo en línea!</description>
+        
+        
+      </url>
+    
   
+    
       <url>
         <loc>http://localhost:4000/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>¿Quieres aprender inglés en Estados Unidos o desde la comodidad de tu hogar? Descubre cursos presenciales, clases en línea gratuitas, y tips para estudiar y trabajar en EE. UU. Haz clic ahora!</description>
+        
+        
+      </url>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
   
   
+    <url>
+      <loc>http://localhost:4000/blog/beca-estudiar-ingles-canada</loc>
+      <lastmod>2023-11-10T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      
+        <description>Descubre las oportunidades para obtener becas para estudiar inglés en Canadá. No tienes que saber el idioma. Consíguela desde cualquier país</description>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/blog/beca-estudiar-ingles-canada.webp</image:loc>
+          <image:caption>Becas para estudiar en Canadá | Y sin saber ingles</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/agencias-cursos-ingles-extranjero</loc>
+      <lastmod>2023-11-03T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      
+        <description>Encuentra las mejores agencias de cursos de inglés en el extranjero y elige la experiencia educativa perfecta para ti</description>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/blog/agencias-cursos-ingles-extranjero.webp</image:loc>
+          <image:caption>¡Busca Aquí las Agencias de Cursos de Inglés en el Extranjero!</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</loc>
+      <lastmod>2023-10-26T21:11:41-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      
+        <description>Aprende las estrategias y recursos clave para asegurarte una beca que te permita estudiar inglés en los Estados Unidos</description>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/blog/becas-estudiar-ingles-estados-unidos.webp</image:loc>
+          <image:caption>Cómo obtener tu beca para estudiar inglés en Estados Unidos</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</loc>
+      <lastmod>2023-10-02T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      
+        <description>Aprende inglés gratis estudiando con adultos. Y no necesitas salir de casa. ¡Haz tu curso online! Entra y lee cómo hacerlo</description>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/blog/clases-ingles-adultos-online.webp</image:loc>
+          <image:caption>Cursos de inglés online para adultos y GRATIS!!!</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/mejores-cursos-ingles-online</loc>
+      <lastmod>2023-10-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      
+        <description>¿Quieres hablar inglés como un nativo? Conoce los cursos online más valorados y da el primer paso. ¡Clic aquí!</description>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/blog/mejores-cursos-ingles-online.webp</image:loc>
+          <image:caption>Los mejores cursos de ingles online | Apps y Webs</image:caption>
+        </image:image>
+      
+    </url>
+  
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+    
+  
+    
       <url>
-        <loc>http://localhost:4000/blog/beca-estudiar-ingles-canada</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <loc>http://localhost:4000/blog</loc>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!</description>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/blog-clases-ingles.webp</image:loc>
+            <image:caption>El Mejor Blog con Trucos Para Aprender Inglés Más Rápido</image:caption>
+          </image:image>
+        
+      </url>
+    
   
+    
+  
+    
       <url>
-        <loc>http://localhost:4000/blog/agencias-cursos-ingles-extranjero</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <loc>http://localhost:4000/escuelas</loc>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>En Estados Unidos siempre hay una escuela de inglés cerca de ti. ¡Haz clic y encuentra una hoy! Tu futuro empieza aquí 🌟</description>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/background.webp</image:loc>
+            <image:caption>&#39;Escuelas de inglés cerca de mi en Estados Unidos&#39; &lt;br&gt; ¡Nosotros te la mostramos!</image:caption>
+          </image:image>
+        
+      </url>
+    
   
+    
+  
+    
+  
+    
       <url>
-        <loc>http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <loc>http://localhost:4000/</loc>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+          <description>¿Quieres aprender inglés en Estados Unidos o desde la comodidad de tu hogar? Descubre cursos presenciales, clases en línea gratuitas, y tips para estudiar y trabajar en EE. UU. Haz clic ahora!</description>
+        
+        
+      </url>
+    
   
+    
+  
+    
+  
+    
+  
+    
       <url>
-        <loc>http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+        <loc>http://localhost:4000/css/style.css</loc>
+        <lastmod></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        
+        
+      </url>
+    
   
-      <url>
-        <loc>http://localhost:4000/blog/mejores-cursos-ingles-online</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/allentown</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/altamonte-springs</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/anaheim</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/arlington</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/atlanta</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/boca-raton</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/bronx</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/chandler</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/chicago</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/coral-springs</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/dallas</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/denver</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/east-boston</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/elizabeth</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/filadelfia</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/forth-worth</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/harrisburg</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/hialeah</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/houston</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/jersey-city</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/las-vegas</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/laurenceville</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/lawrence</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/manhattan</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/mesa</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/nashville</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/queens</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/san-antonio</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/san-francisco</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/san-jose</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/tampa</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-      <url>
-        <loc>http://localhost:4000/escuelas/west-palm-beach</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
+
   
   
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
 </urlset>
