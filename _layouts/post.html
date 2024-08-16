@@ -4,8 +4,25 @@ layout: default
 <main>
   <article class="wrapper flow contenido">
     {{ content }}
+    {% if page.referencias %}
+  <section id="fuentes">
+    <h4>Créditos y referencias</h4>
+    <div>
+      <ol>
+      {% for link_hash in page.referencias %}
+      {% for link in link_hash %}
+        <li>
+          📑 <a href="{{ link[1] }}" rel="nofollow noopener noreferrer" target="_blank">{{ link[0] }}</a>
+        </li>
+        {% endfor %}
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+  {% endif %}
     {% include related.html %}
   </article>
+  
 </main>
   <section class="wrapper share">
     {% include share.html %}

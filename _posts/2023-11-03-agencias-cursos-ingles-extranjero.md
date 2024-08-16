@@ -23,8 +23,6 @@ Estas *agencias ayudan a las personas a encontrar el curso de inglés* más adec
 
 Su experiencia radica en *brindar asistencia y orientación personalizadas* durante todo el proceso de inscripción, facilitándote así el inicio de tu viaje de aprendizaje del idioma inglés.
 
-- - -
-
 ## 2. Ventajas de Elegir Agencias de Inglés en Estados Unidos
 
 ### 2.1 Orientación Profesional para estudiar ingles
@@ -52,8 +50,6 @@ Estudiar en el extranjero (Estados Unidos) puede requerir una visa de estudiante
 Muchas agencias para estudiar el idioma inglés, brindan ayuda para encontrar alojamiento adecuado durante tu estadía en Estados Unidos.
 
 Ya sea en residencias estudiantiles, estancias en casas de familias o apartamentos compartidos, pueden *ayudarte a encontrar un lugar cómodo y seguro para vivir*, lo que te permitirá concentrarte mejor en tus estudios.
-
-- - -
 
 ## 3. Agencias de Idioma Inglés Populares en Estados Unidos
 

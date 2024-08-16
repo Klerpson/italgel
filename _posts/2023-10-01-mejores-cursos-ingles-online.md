@@ -14,8 +14,6 @@ permalink: /blog/mejores-cursos-ingles-online
 
 Si estás buscando dominar el inglés, estás de suerte. Te presento los mejores cursos de inglés online que te llevarán de cero a héroe en la fluidez.
 
----
-
 ## Top 5 Plataformas para Aprender Inglés Online
 
 ### 1. Rosetta Stone: Inmersión Total
@@ -61,8 +59,6 @@ Antes de elegir uno de los mejores cursos de inglés online, pregúntate: ¿Qué
 ### 2. Revisa las Reseñas
 
 No te dejes llevar solo por el marketing. Lee las reseñas y calificaciones para saber qué curso se adapta mejor a tus necesidades.
-
----
 
 Si has llegado hasta aquí, es porque estás listo para tomar acción.
 

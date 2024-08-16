@@ -48,8 +48,6 @@ Asiste a ferias y exposiciones educativas organizadas por instituciones educativ
 
 Estos eventos a menudo **proporcionan información de primera mano sobre las becas disponibles** para estudiar inglés en Estados Unidos.
 
-- - -
-
 ## Becas por estados y ciudades estadounidenses
 
 Ahora, vamos a explorar algunas becas disponibles en varios estados y ciudades de Estados Unidos:
