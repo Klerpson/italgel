@@ -7,7 +7,6 @@ description: Aprende las estrategias y recursos clave para asegurarte una beca q
 h1: "Becas para Estudiar Inglés en Estados Unidos: Tu Llave hacia la Educación Internacional"
 webp: blog/becas-estudiar-ingles-estados-unidos.webp
 alt: Estudiar inglés en Estados Unidos becas
-permalink: /blog/becas-estudiar-ingles-estados-unidos
 ---
 Cuando se trata de **estudiar inglés en Estados Unidos**, muchas personas encuentran un obstáculo significativo: el costo.
 

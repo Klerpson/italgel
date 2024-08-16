@@ -7,7 +7,6 @@ description: Descubre las oportunidades para obtener becas para estudiar inglés
 h1: "Obtén tu beca para estudiar en Canadá: Logra tu sueño académico en el extranjero"
 webp: blog/beca-estudiar-ingles-canada.webp
 alt: Obtener una beca para estudiar inglés en Canadá
-permalink: /blog/beca-estudiar-ingles-canada
 ---
 Cuando se trata de cursar estudios superiores en el extranjero, Canadá es una opción líder para muchos estudiantes internacionales del idioma inglés.
 

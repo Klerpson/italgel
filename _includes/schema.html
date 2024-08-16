@@ -47,8 +47,8 @@
   "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | escape }}",
-  "url": "{{ page.permalink | prepend: site.url | escape }}",
-  "mainEntityOfPage": "{{ page.permalink | prepend: site.url | escape }}",
+  "url": "{{ page.url | prepend: site.url | escape }}",
+  "mainEntityOfPage": "{{ page.url | prepend: site.url | escape }}",
   "image": {
     "@type": "ImageObject",
     "url": "{{ page.webp | prepend: site.url | escape }}",
