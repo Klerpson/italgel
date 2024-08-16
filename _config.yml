@@ -35,4 +35,4 @@ collections:
     permalink: /escuelas/:path
   posts:
     output: true
-    permalink: /blog/:path
+    permalink: /blog/:slug
