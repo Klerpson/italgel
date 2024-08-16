@@ -3,7 +3,7 @@
 <div class="contenido-blog">
 
   {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
-  {% for post in site.posts | limit: 3 %}
+  {% for post in site.posts limit: 3 offset: 1 %}
 <article class="flow">
   <div>
     {% if post.webp %}

@@ -14,8 +14,6 @@ excerpt: "¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? La solución: *
 
 Si estás en Estados Unidos y quieres abrirte puertas, tanto en el trabajo como en la vida diaria, hablar inglés es clave. Y aquí te traigo la solución: **cursos de inglés online gratis para adultos**, diseñados especialmente para la comunidad latina.
 
----
-
 ## Ventajas Que No Querrás Perder
 
 ### 1. A Tu Ritmo, Como la Salsa
@@ -34,8 +32,6 @@ Desde lecciones que incluyen jerga hasta explicaciones en español, estos cursos
 
 Cada latino es único, y estos cursos lo entienden. Prepárate para ejercicios y retroalimentación que se adaptan a tus necesidades específicas.
 
----
-
 ## Estrategias Infalibles para Dominar el Inglés
 
 ### 1. Objetivos Claros, Como el Tequila
@@ -45,8 +41,6 @@ Antes de sumergirte en estos cursos de inglés online gratis para adultos, defin
 ### 2. No Solo Mires, Participa
 
 Nuestras clases grupales de práctica conversacional son la clave para perder el miedo. Habla, escucha, repite.
-
----
 
 Si llegaste hasta aquí, es porque estás listo para llevar tu inglés al siguiente nivel.
 

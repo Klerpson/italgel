@@ -49,8 +49,6 @@ Muchas fundaciones y organizaciones privadas en Canadá, como el Programa de Bec
 
  Estas becas a menudo se centran en campos de estudio específicos o tienen criterios de elegibilidad adicionales, como la participación comunitaria o las iniciativas de impacto social.
 
-- - -
-
 ## Programas de exención de idioma para estudiar inglés en Canadá
 
 En ciertos casos, los estudiantes que solicitan admisión **en universidades canadienses pueden estar exentos** de los requisitos de idioma inglés *según sus calificaciones académicas*.
