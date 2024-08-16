@@ -20,12 +20,12 @@
       {
         "@type": "EducationalOrganization",
         "name": "Cursos de inglés en {{ page.ciudad | capitalize }}",
-        "url": "{{ page.boton1_url | prepend: site.url | escape }}",
+        "url": "{{site.url}}{{page.url}}#{{ page.boton1_url | escape }}",
         "description": "{{ page.description | escape }}",
         "offers": {
           "@type": "EducationalOrganization",
           "name": "Más opciones",
-          "url": "{{ page.boton2_url | prepend: site.url | escape }}",
+          "url": "{{site.url}}{{page.url}}#{{ page.boton2_url | escape }}",
           "description": "Encuentra más opciones de escuelas de inglés en {{ page.ciudad | capitalize }}."
         }
       }
@@ -33,7 +33,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ page.webp | prepend: site.url | escape }}",
+    "url": "{{ site.url }}/img/{{ page.webp | escape }}",
     "height": 240,
     "width": 320
   }
