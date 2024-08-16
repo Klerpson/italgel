@@ -8,7 +8,6 @@ h1: "Los Mejores Cursos de Inglés Online: Tu Pasaporte a la Fluidez"
 boton: Cómo aplicarlo hoy
 excerpt: "Te presento los mejores cursos de inglés online que te llevarán de cero a héroe en la fluidez."
 boton_url: "aplicación-práctica-en-el-mundo-de-la-amistad-en-la-docencia"
-permalink: /blog/mejores-cursos-ingles-online
 ---
 ## ¿Quieres Hablar Inglés Como un Nativo? Aquí Están Tus Mejores Opciones
 

@@ -7,7 +7,6 @@ h1: "Cursos de Inglés Online Gratis para Adultos: La Ruta de Oro para Latinos e
 webp: blog/clases-ingles-adultos-online.webp
 boton: Encuentra un curso conversacional
 boton_url: "no-solo-mires-participa"
-permalink: /blog/cursos-de-ingles-online-gratis-para-adultos
 excerpt: "¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? La solución: **cursos de inglés online gratis para adultos**"
 ---
 ## ¿Necesitas Aprender Inglés y Eres Latino en EE. UU.? Esto es para Ti
