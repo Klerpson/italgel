@@ -51,7 +51,7 @@
   "mainEntityOfPage": "{{ page.url | prepend: site.url | escape }}",
   "image": {
     "@type": "ImageObject",
-    "url": "{{ page.webp | prepend: site.url | escape }}",
+    "url": "{{ site.url }}/img/{{ page.webp | escape }}",
     "height": 240,
     "width": 320
   },
