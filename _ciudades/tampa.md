@@ -77,6 +77,8 @@ Adquiere el hábito de asistir regularmente a las clases y completar las tareas 
 
 ### 2. Participa y comprométete con tu curso
 
+Si nos has encontrado con la frase *"lugares para estudiar ingles cerca de mi"*, es porque estás comprometido a visitar esos lugares.
+
 Participa activamente en las actividades y discusiones de clase. Hablar inglés en un entorno de aula de apoyo ayuda a fortalecer tus habilidades lingüísticas y aumenta la confianza.
 
 ### 3. Utiliza recursos adicionales para estudiar el idioma
@@ -85,7 +87,7 @@ Complementa tu aprendizaje en el aula utilizando recursos en línea, aplicacione
 
 ### 4. La práctica hace al maestro
 
-Practica hablar inglés con hablantes nativos o compañeros de intercambio de idiomas. [Conversar en escenarios de la vida real]({{'clases-en-linea'|relative_url}}) mejorará tu fluidez y te ayudará a aplicar lo que has aprendido en clase.
+Practica hablar inglés con hablantes nativos o compañeros de intercambio de idiomas. [Conversar en escenarios de la vida real]({{'clases-en-linea'|relative_url}} "Aprende inglés desde casa") mejorará tu fluidez y te ayudará a aplicar lo que has aprendido en clase.
 
 ## Estudia Inglés en Tampa Florida Sin Pagar Un Dólar
 
