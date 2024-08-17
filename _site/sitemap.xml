@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   
     
     
@@ -10,16 +11,15 @@
     
       <url>
         <loc>http://localhost:4000/blog</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!</description>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
         
         
           <image:image>
             <image:loc>http://localhost:4000/blog-clases-ingles.webp</image:loc>
-            <image:caption>✨ El blog de que te guía en tu proceso de aprender inglés</image:caption>
+            <image:title>✨ El blog de que te guía en tu proceso de aprender inglés</image:title>
+            <image:caption></image:caption>
           </image:image>
         
       </url>
@@ -28,16 +28,15 @@
     
       <url>
         <loc>http://localhost:4000/clases-en-linea</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>Las clases de inglés tradicionales no funcionan. ¡Está comprobado! Pero, ¿y si te dijéramos que hay una forma más efectiva de mejorar tu inglés? Descúbrelo!</description>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
         
         
           <image:image>
             <image:loc>http://localhost:4000/clases-ingles-grupo.webp</image:loc>
-            <image:caption>Aprende a hablar inglés con audios y eleva tu nivel 🚀</image:caption>
+            <image:title>Aprende a hablar inglés con audios y eleva tu nivel 🚀</image:title>
+            <image:caption>Clase de inglés en línea</image:caption>
           </image:image>
         
       </url>
@@ -46,16 +45,15 @@
     
       <url>
         <loc>http://localhost:4000/escuelas</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>En Estados Unidos siempre hay una escuela de inglés cerca de ti. ¡Haz clic y encuentra una hoy! Tu futuro empieza aquí 🌟</description>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
         
         
           <image:image>
             <image:loc>http://localhost:4000/background.webp</image:loc>
-            <image:caption>Siempre hay una escuela de inglés cerca en Estados Unidos</image:caption>
+            <image:title>Siempre hay una escuela de inglés cerca en Estados Unidos</image:title>
+            <image:caption></image:caption>
           </image:image>
         
       </url>
@@ -67,11 +65,9 @@
     
       <url>
         <loc>http://localhost:4000/gracias</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>Estás a un paso de transformar tu forma de aprender inglés. ¡Gracias por unirte a nuestro exclusivo grupo en línea!</description>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
         
         
       </url>
@@ -80,11 +76,9 @@
     
       <url>
         <loc>http://localhost:4000/</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>¿Quieres aprender inglés en Estados Unidos o desde la comodidad de tu hogar? Descubre cursos presenciales, clases en línea gratuitas, y tips para estudiar y trabajar en EE. UU. Haz clic ahora!</description>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
         
         
       </url>
@@ -104,19 +98,499 @@
   
 
   
+      <url>
+        <loc>http://localhost:4000/escuelas/allentown</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/allentown.webp</image:loc>
+            <image:title>Clases de Inglés en Allentown: Lo que Necesitas Saber</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/altamonte-springs</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/altamonte.webp</image:loc>
+            <image:title>Estudia Inglés en Altamonte Springs: Escuelas y Cursos</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/anaheim</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/anaheim.webp</image:loc>
+            <image:title>Clases de inglés en Anaheim: Para Adultos y Niños</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/arlington</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/arlington.webp</image:loc>
+            <image:title>Clases de Inglés en Arlington: Transforma tu Futuro Hoy 🌟</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/atlanta</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/atlanta.webp</image:loc>
+            <image:title>Cursos de Inglés en Atlanta Georgia: Clases en las mejores escuelas</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/boca-raton</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/boca-raton.webp</image:loc>
+            <image:title>Aprovecha los Mejores Cursos de Inglés en Boca Ratón</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/bronx</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/bronx.webp</image:loc>
+            <image:title>Clases gratuitas y cursos de inglés para adultos en el Bronx</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/chandler</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/chandler.webp</image:loc>
+            <image:title>Clases de Ingles Gratis en Chandler Arizona</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/chicago</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/chicago.webp</image:loc>
+            <image:title>Escuelas de Inglés en Chicago: Opciones para Cada Presupuesto</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/coral-springs</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/coral.webp</image:loc>
+            <image:title>Descubre Escuelas de Inglés Líderes en Coral Springs, Florida</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/dallas</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/dallas.webp</image:loc>
+            <image:title>Escuelas y Clases de Inglés en Dallas Texas: Encuentra la Mejor</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/denver</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/denver.webp</image:loc>
+            <image:title>Escuelas de Inglés en Denver Colorado: Aprende hoy!</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/east-boston</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/east-boston.webp</image:loc>
+            <image:title>Latinos en East Boston: Todo Sobre Escuelas de Inglés</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/elizabeth</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/elizabeth.webp</image:loc>
+            <image:title>Clases de inglés gratuitas en Elizabeth, New Jersey</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/filadelfia</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/filadelfia.webp</image:loc>
+            <image:title>Estudia Inglés con los Cursos y Escuelas de Filadelfia</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/forth-worth</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/forth-worth.webp</image:loc>
+            <image:title>Fort Worth: Clases y Escuelas de Inglés para Latinos</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/harrisburg</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/harrisburg.webp</image:loc>
+            <image:title>Aprende Inglés en Harrisburg, PA: Clases para todo nivel</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/hialeah</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/hialeah.webp</image:loc>
+            <image:title>Escuelas Para Estudiar Inglés en Hialeah Gratis</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/houston</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/houston.webp</image:loc>
+            <image:title>Clases de Inglés en Houston Texas: Escuelas Dónde Aprender</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/jersey-city</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/jersey-city.webp</image:loc>
+            <image:title>¿Eres Latino y Buscas Clases de Inglés Gratis en Jersey City?</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/las-vegas</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/las-vegas.webp</image:loc>
+            <image:title>Escuelas con Clases de Inglés Gratis en Las Vegas ¡Aprovecha!</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/laurenceville</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/lawrenceville.webp</image:loc>
+            <image:title>Cursos y clases de Inglés Gratis en Lawrenceville GA</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/lawrence</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/lawrence.webp</image:loc>
+            <image:title>¡Domina el inglés en Lawrence, MA con cursos efectivos y rápidos!</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/manhattan</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/manhattan.webp</image:loc>
+            <image:title>Clases y Escuelas de Inglés Gratis en Manhattan New York</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/mesa</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/mesa.webp</image:loc>
+            <image:title>¡Aprende inglés en Mesa AZ! Encuentra las mejores clases disponibles</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/nashville</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/nashville.webp</image:loc>
+            <image:title>Clases de Inglés Gratis en Nashville Tennessee</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/queens</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/queens.webp</image:loc>
+            <image:title>Clases de Inglés Gratis en Queens, Nueva York</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/san-antonio</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/san-antonio.webp</image:loc>
+            <image:title>Estudia Inglés con Cursos y Clases de Escuelas de San Antonio TX</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/san-francisco</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/san-francisco.webp</image:loc>
+            <image:title>Aprenda inglés gratis en San Francisco, CA. Ven a las mejores escuelas</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/san-jose</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/san-jose.webp</image:loc>
+            <image:title>Escuelas con clases y cursos de Inglés en San José California</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/tampa</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/tampa.webp</image:loc>
+            <image:title>Clases de Inglés Gratuitas las Escuelas de Tampa Florida</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+      <url>
+        <loc>http://localhost:4000/escuelas/west-palm-beach</loc>
+        <lastmod>2024-08-17T10:16:03-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/west-palm.webp</image:loc>
+            <image:title>Clases de Inglés Gratuitas en West Palm Beach</image:title>
+            <image:caption></image:caption>
+          </image:image>
+        
+      </url>
+  
+  
   
     <url>
       <loc>http://localhost:4000/blog/entrar-al-army-sin-saber-ingles</loc>
       <lastmod>2024-08-16T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>Descubre las oportunidades para obtener becas para estudiar inglés en Canadá. No tienes que saber el idioma. Consíguela desde cualquier país</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/ingresar-army-sin-ingles.webp</image:loc>
-          <image:caption>Alistarse en el Ejército de EE.UU. Sin Hablar Inglés</image:caption>
+          <image:loc>http://localhost:4000/blog/ingresar-army-sin-ingles.webp</image:loc>
+          <image:title>Alistarse en el Ejército de EE.UU. Sin Hablar Inglés</image:title>
+          <image:caption>Foto de reclutas en el ejército de de estados unidos</image:caption>
         </image:image>
       
     </url>
@@ -125,14 +599,13 @@
       <loc>http://localhost:4000/blog/becas-para-estudiar-en-canad%C3%A1-sin-saber-ingles</loc>
       <lastmod>2023-11-10T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>Descubre las oportunidades para obtener becas para estudiar inglés en Canadá. No tienes que saber el idioma. Consíguela desde cualquier país</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/beca-estudiar-ingles-canada.webp</image:loc>
-          <image:caption>Becas para estudiar en Canadá | Y sin saber ingles</image:caption>
+          <image:loc>http://localhost:4000/blog/beca-estudiar-ingles-canada.webp</image:loc>
+          <image:title>Becas para estudiar en Canadá | Y sin saber ingles</image:title>
+          <image:caption>Obtener una beca para estudiar inglés en Canadá</image:caption>
         </image:image>
       
     </url>
@@ -141,14 +614,13 @@
       <loc>http://localhost:4000/blog/agencias-cursos-ingles-extranjero</loc>
       <lastmod>2023-11-03T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>Encuentra las mejores agencias de cursos de inglés en el extranjero y elige la experiencia educativa perfecta para ti</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/agencias-cursos-ingles-extranjero.webp</image:loc>
-          <image:caption>¡Busca Aquí las Agencias de Cursos de Inglés en el Extranjero!</image:caption>
+          <image:loc>http://localhost:4000/blog/agencias-cursos-ingles-extranjero.webp</image:loc>
+          <image:title>¡Busca Aquí las Agencias de Cursos de Inglés en el Extranjero!</image:title>
+          <image:caption>Agencias para estudiar inglés en el extranjero</image:caption>
         </image:image>
       
     </url>
@@ -157,14 +629,13 @@
       <loc>http://localhost:4000/blog/como-obtener-becas-para-estudiar-ingles-en-estados-unidos</loc>
       <lastmod>2023-10-26T21:11:41-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>Aprende las estrategias y recursos clave para asegurarte una beca que te permita estudiar inglés en los Estados Unidos</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/becas-estudiar-ingles-estados-unidos.webp</image:loc>
-          <image:caption>Cómo obtener tu beca para estudiar inglés en Estados Unidos</image:caption>
+          <image:loc>http://localhost:4000/blog/becas-estudiar-ingles-estados-unidos.webp</image:loc>
+          <image:title>Cómo obtener tu beca para estudiar inglés en Estados Unidos</image:title>
+          <image:caption>Estudiar inglés en Estados Unidos becas</image:caption>
         </image:image>
       
     </url>
@@ -173,14 +644,13 @@
       <loc>http://localhost:4000/blog/cursos-de-ingles-online-gratis-para-adultos</loc>
       <lastmod>2023-10-02T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>Aprende inglés gratis estudiando con adultos. Y no necesitas salir de casa. ¡Haz tu curso online! Entra y lee cómo hacerlo</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/clases-ingles-adultos-online.webp</image:loc>
-          <image:caption>Cursos de inglés online para adultos y GRATIS!!!</image:caption>
+          <image:loc>http://localhost:4000/blog/clases-ingles-adultos-online.webp</image:loc>
+          <image:title>Cursos de inglés online para adultos y GRATIS!!!</image:title>
+          <image:caption></image:caption>
         </image:image>
       
     </url>
@@ -189,144 +659,17 @@
       <loc>http://localhost:4000/blog/mejores-cursos-ingles-online</loc>
       <lastmod>2023-10-01T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      
-        <description>¿Quieres hablar inglés como un nativo? Conoce los cursos online más valorados y da el primer paso. ¡Clic aquí!</description>
+      <priority>1.0</priority>
       
       
         <image:image>
-          <image:loc>http://localhost:4000/img/blog/mejores-cursos-ingles-online.webp</image:loc>
-          <image:caption>Los mejores cursos de ingles online | Apps y Webs</image:caption>
+          <image:loc>http://localhost:4000/blog/mejores-cursos-ingles-online.webp</image:loc>
+          <image:title>Los mejores cursos de ingles online | Apps y Webs</image:title>
+          <image:caption></image:caption>
         </image:image>
       
     </url>
   
-
   
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-  
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/blog</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>💌 Aprende sobre la gratitud y cómo puede cambiar tu vida. Encuentra mensajes de agradecimiento que expresan lo que sientes. ¡Haz clic y comienza a agradecer hoy!</description>
-        
-        
-          <image:image>
-            <image:loc>http://localhost:4000/blog-clases-ingles.webp</image:loc>
-            <image:caption>El Mejor Blog con Trucos Para Aprender Inglés Más Rápido</image:caption>
-          </image:image>
-        
-      </url>
-    
-  
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/escuelas</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>En Estados Unidos siempre hay una escuela de inglés cerca de ti. ¡Haz clic y encuentra una hoy! Tu futuro empieza aquí 🌟</description>
-        
-        
-          <image:image>
-            <image:loc>http://localhost:4000/background.webp</image:loc>
-            <image:caption>&#39;Escuelas de inglés cerca de mi en Estados Unidos&#39; &lt;br&gt; ¡Nosotros te la mostramos!</image:caption>
-          </image:image>
-        
-      </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-          <description>¿Quieres aprender inglés en Estados Unidos o desde la comodidad de tu hogar? Descubre cursos presenciales, clases en línea gratuitas, y tips para estudiar y trabajar en EE. UU. Haz clic ahora!</description>
-        
-        
-      </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/css/style.css</loc>
-        <lastmod></lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-        
-        
-      </url>
-    
-  
-
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 </urlset>
