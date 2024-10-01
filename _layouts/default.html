@@ -3,6 +3,10 @@ layout: compress
 ---
 {% include head.html %}
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWZNCRZZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   {% include nav.html %}
   {% include header.html %}
   {% if page.vertical %}
@@ -13,11 +17,22 @@ layout: compress
   {{ content }}
   {% include footer.html %}
   {% endif %}
+  <a href="#" class="boton-whatsapp" id="lead_whatsapp" title="WhatsApp Natural One Life" target="_blank" rel="nofollow noopener noreferrer">
+    <img src="{{'img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp" title="WhatsApp Natural One Life">
+  </a>
   <a href="#">{% include boton-up.html %}</a>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWZNCRZZ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <script defer src="/js/whatsapp.js"></script>
+
+  <script src="{{site.baseurl}}/js/search-script.js" type="text/javascript"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      noResultsText: 'No tenemos este texto aún',
+      fuzzy: false
+    });
+  </script>
 </body>
 
 </html>

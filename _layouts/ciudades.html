@@ -37,7 +37,22 @@ webp: blog-hero.webp
   {% include cta.html %}
   {% include footer.html %}
   <a href="#">{% include boton-up.html %}</a>
-  </body>
+  <a href="#" class="boton-whatsapp" id="lead_whatsapp" title="WhatsApp Natural One Life" target="_blank" rel="nofollow noopener noreferrer">
+    <img src="{{'img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp" title="WhatsApp Natural One Life">
+  </a>
+  <a href="#">{% include boton-up.html %}</a>
+  <script defer src="/js/whatsapp.js"></script>
+
+  <script src="{{site.baseurl}}/js/search-script.js" type="text/javascript"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      noResultsText: 'No tenemos este texto aún',
+      fuzzy: false
+    });
+  </script>
   <script async>
     const filterButtons = document.querySelectorAll(".estados button");
     const filterPosts = document.querySelectorAll(".posts .post");
@@ -52,4 +67,5 @@ webp: blog-hero.webp
   
     filterButtons.forEach(button => button.addEventListener("click", filter));
     </script>
+  </body>
 </html>
