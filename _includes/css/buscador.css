@@ -1,32 +1,56 @@
-.buscador div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.buscador{
+  position: relative;
+  background-color: var(--complemento1);
+  box-shadow: 0 0 0 100vmax var(--complemento1);
+  clip-path: inset(0 -100vmax);
+  padding: 2em 0;
+  display: none;
   gap: 1em;
-  text-align: center;
+  place-items: center;
+  z-index: 2;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .8s;
 }
 
-.buscador p{
-  margin: 0;
+.buscador input{
+  display: block;
+  width: min(100%, 800px);
+  margin-inline: auto;
+  border: none;
+  outline-color: var(--accion);
+  box-shadow: var(--shadow);
 }
 
-.buscador div input,
 .buscador div ul{
-  width: min(100%, 720px);
-  height: min-content;
-}
-
-.buscador div ul{
-  padding: 0;
+  padding: 1em 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1em;
 }
 
-.buscador div ul li a{
+.buscador div ul a{
   text-align: left;
+}
+
+.buscador div h3 {
+  margin: 0 0 1em;
+  text-align: center;
+  font-size: clamp(1.125rem, 1.034rem + 0.45vw, 1.375rem);
+}
+
+.buscador > a{
+  position: absolute;
+  right: 1em;
+  top: 2em;
+  padding: 8px;
+  line-height: 1;
+  font-weight: 900;
+  font-size: 1.2em;
+  color: var(--principal);
+  border: 1.6px solid var(--principal);
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  text-decoration: none;
 }
