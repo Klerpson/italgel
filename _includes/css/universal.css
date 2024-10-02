@@ -255,7 +255,7 @@ hr {
 }
 
 .wrapper {
-  width: min((100% - 2rem), 1024px);
+  width: min((100% - 2rem), 1200px);
   margin-inline: auto;
   padding: 6rem 0;
 }
