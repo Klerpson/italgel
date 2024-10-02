@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Obtener la URL actual de la página
     var currentURL = window.location.href;
-
+    
     // Obtener todos los enlaces de WhatsApp en la página
     var whatsappLinks = document.querySelectorAll("a#lead_whatsapp");
 
@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         var message = "Hola! Me gustaría recibir más asesoría sobre esta información: " + encodeURIComponent(currentURL);
 
         // Enlaces de WhatsApp para móvil y escritorio con el mensaje dinámico
-        var mobileLink = "https://wa.me/573123278881?text=" + message;
-        var desktopLink = "https://web.whatsapp.com/send?phone=573123278881&text=" + message;
+        var mobileLink = "https://wa.me/573186455181?text=" + message;
+        var desktopLink = "https://web.whatsapp.com/send?phone=573186455181&text=" + message;
         
         // Asignar el enlace adecuado según el dispositivo
         if (isMobile) {
@@ -25,3 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
