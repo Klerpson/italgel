@@ -36,8 +36,10 @@ webp: background.webp
         {% if destino.category contains item.category %}
         <article>
           <img src="{{site.baseurl}}/img/{{destino.webp}}" alt="{{destino.ciudad|capitalize}} {{destino.category|capitalize}}">
-          <a href="{{destino.url}}">
-            <h4>{{destino.title}}</h4></a>
+          <div>
+            <h4>{{destino.title}}</h4>
+            <a href="{{destino.url}}">Ver más</a>
+          </div>
         </article>
         {% endif %}
         {% endfor %}

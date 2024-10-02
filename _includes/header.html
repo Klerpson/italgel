@@ -2,6 +2,9 @@
 <header class="flow wrapper hero">
   <img src="{{site.baseurl}}/img/{{page.webp}}" alt="{{page.alt}}" width="320" height="240">
   <h1>{{ page.h1 }}</h1>
+  {% if page.url contains "/blog/" %}
+    <a href="#cta" title="Aprende inglés rápido" class="boton boton_2">Aprende inglés más rápido</a>
+  {% endif %}
 </header>
 <hr>
 {% endif %}

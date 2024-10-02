@@ -2,7 +2,8 @@ baseurl: ''
 url: 'https://aprendamosingles.us'
 name: 'aprendamosingles.us'
 logo: img/logo.webp
-author: Julian Franco
+author: Daniel Monroy
+telefono: 3186455181
 
 markdown: kramdown
 

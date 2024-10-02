@@ -16,13 +16,8 @@ webp: blog-hero.webp
     <div>
       <h1>{{page.h1}}</h1>
       <p>{{page.intro}}</p>
+      <a href="#cta" title="Aprende inglés rápido" class="boton boton_1">Aprende inglés más rápido</a>
     </div>
-    {% if page.escuelas != "no" %}
-    <div class="flow">
-      <a href="{{site.baseurl}}{{page.url}}#{{page.boton1_url}}" title="{{page.boton1}}" class="boton boton_2">{{page.boton1 | capitalize}}</a>
-      <a href="{{site.baseurl}}{{page.url}}#{{page.boton2_url}}" title="{{page.boton2}}" class="boton boton_2">{{page.boton2 | capitalize}}</a>
-    </div>
-    {% endif %}
   </header>
   <main class="contenido wrapper flow" id="escuelas">
     <h2>Escuelas de inglés en {{page.ciudad | capitalize | escape  }}</h2>

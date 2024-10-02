@@ -155,7 +155,6 @@
 
 .post .links article {
   flex: 1 0 320px;
-  
   max-width: max-content;
   padding: 12px 16px;
   max-width: 400px;
@@ -164,10 +163,28 @@
   display: flex;
   gap: 16px;
   align-items: center;
-}
+  
+  &:hover{
+    box-shadow: var(--shadow-2);
+  }
 
-.links article img{
-  width: 112px;
-  height: 112px;
-  border-radius: var(--radius);
+  img{
+    width: 112px;
+    height: 112px;
+    border-radius: var(--radius);
+  }
+
+  div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    a{
+      text-decoration: none;
+      color: var(--accion);
+      align-self: flex-end;
+    }
+  }
+
 }

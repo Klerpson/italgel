@@ -8,6 +8,10 @@
   margin-inline: auto;
   padding: 6em 16px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/bg.webp');
+  
+    & .boton{
+      margin: 1em 0 0;
+    }
 }
 
 header section {
@@ -45,22 +49,6 @@ header .ultimo a svg{
   fill: white;
   margin-right: 8px;
 }
-
-/* header .ultimo div {
-  flex: 1 0 400px;
-  max-width: 100%;
-  display: flex;
-  gap: 1em;
-} */
-
-/* header .ultimo div h3{
-  text-align: left;
-}
-
-header .ultimo a {
-  color: var(--accion);
-  justify-self: left;
-} */
 
 .home div:first-child{
   flex: 0 1 720px;
