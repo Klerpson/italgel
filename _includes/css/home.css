@@ -32,6 +32,10 @@
   &:hover{
     box-shadow: var(--shadow-2);
   }
+
+  img{
+    object-fit: cover;
+  }
 }
 
 .entradas > div article h4 {
