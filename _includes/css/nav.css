@@ -5,7 +5,7 @@ nav {
   gap: 12px;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 20px;
+  padding: 16px 20px;
   background-color: var(--blanco);
   box-shadow: var(--shadow);
   z-index: 100;
@@ -16,7 +16,7 @@ nav {
   gap: 8px;
   align-items: center;
   text-decoration: none;
-  color: var(--oficial);
+  color: var(--accion);
   font-weight: 900;
 }
 
@@ -76,7 +76,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 32px;
+  top: 28px;
   left: 0;
   background-color: #f9f9f9;
   width: max-content;
