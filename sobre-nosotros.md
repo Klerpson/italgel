@@ -3,6 +3,8 @@ layout: page-basic
 title: "Somos aprendamosingles.us: la web para aprender inglés"
 h1: Conoce quiénes somos en aprendamosingles.us y aprovecha esta oportunidad
 description: Te presentamos el proyecto aprendamoingles.us, un recurso para aprender a hablar inglés hecho por latinos para latinos que viven en USA. ¡Aprovecha!
+webp: about.avif
+alt: Foto de página "Sobre nosotros" de aprendamoingles.us
 ---
 ## Nos encanta que nos estés visitando en aprendamosingles.us
 
