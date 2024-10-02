@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-US">
 <head>
   {% if page.noindex %}
   <meta name="robots" content="noindex, nofollow">
@@ -15,7 +15,7 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.baseurl }}/sitemap.xml">
 
   <!-- OpenGraph Metadata -->
-  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale" content="es_US">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ page.title | escape }}">
   <meta property="og:description" content="{{ page.description | escape }}">
@@ -48,7 +48,7 @@
 
   <!-- Critical Path -->
   <style>
-    body { color: var(--grisFuentes); }
+    body { color: var(--colorTexto); }
   </style>
 
   <!-- DNS Prefetch -->
@@ -56,10 +56,10 @@
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
 
   <!-- Preloads and Stylesheets -->
-  <link rel="preload" href="{{ site.baseurl }}/css/style.css" as="style">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-  <link rel="preload" href="{{ site.baseurl }}/css/fonts/styles.css" as="style">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts/styles.css">
+  <link rel="preload" href="{{ 'css/style.css' | relative_url }}" as="style">
+  <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
+  <link rel="preload" href="{{ 'css/fonts/styles.css' | relative_url }}" as="style">
+  <link rel="stylesheet" href="{{ 'css/fonts/styles.css' | relative_url }}">
   {% assign font_files = 'josefin-sans-v17-latin-700.woff,josefin-sans-v17-latin-700.woff2,josefin-sans-v17-latin-700italic.woff,josefin-sans-v17-latin-700italic.woff2,lato-v20-latin-regular.woff,lato-v20-latin-regular.woff2,lato-v20-latin-700.woff,lato-v20-latin-700.woff2' | split: ',' %}
   {% for font_file in font_files %}
     <link rel="preload" as="font" href="{{ site.baseurl }}/css/fonts/{{ font_file }}" type="font/{{ font_file | split: '.' | last }}" crossorigin>

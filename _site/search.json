@@ -59,8 +59,30 @@
   
     {
     
-    "title"    : "Aprende a hablar inglés con audios y eleva tu nivel 🚀",
+    "title"    : "Grupos en vivo para aprender a hablar inglés. ¡Conéctate!",
     "url"      : "/clases-en-linea"
+    
+    } ,
+
+  
+  
+  
+    
+    {
+      
+      "title"    : "No tenemos este resultado. Mejor mira nuestra carta",
+      "url"      : ""
+      
+      } ,
+  
+  
+  
+  
+  
+    {
+    
+    "title"    : "Aprende a hablar inglés con audios y eleva tu nivel 🚀",
+    "url"      : "/cursos-ingles"
     
     } ,
 
@@ -122,6 +144,9 @@
   
     {
     
+    "title"    : "Recursos gratis para aprender inglés | aprendamosingles.us",
+    "url"      : "/recursos-gratis"
+    
     } ,
 
   
@@ -129,6 +154,25 @@
   
   
     {
+    
+    } ,
+
+  
+  
+  
+  
+    {
+    
+    } ,
+
+  
+  
+  
+  
+    {
+    
+    "title"    : "Somo aprendamosingles.us: la web para aprender inglés",
+    "url"      : "/sobre-nosotros"
     
     } ,
 

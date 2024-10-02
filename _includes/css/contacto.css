@@ -1,60 +1,75 @@
-.contacto p,
-.contacto h2{
-  margin-bottom: 2rem;
+.contacto{
+  display: grid;
+  place-content: center;
+  gap: 4em;
 }
 
-#formulario > p{
+.contact-info {
+  background-color: var(--secundario);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.contact-form {
+  background-color: var(--blanco);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow-2);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--principal);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--gris3);
+  border-radius: var(--radius);
+  font-family: var(--fuenteTexto);
+}
+
+.social-links {
+  margin-top: 2rem;
   text-align: center;
 }
 
-form{
-  display: grid;
-  place-items: center;
+.social-links a {
+  color: var(--oficial);
+  text-decoration: none;
+  margin-right: 1rem;
 }
 
-form div{
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  flex-wrap: wrap;
+.social-links a:hover {
+  color: var(--accion);
 }
 
-form label{
-  font-weight: bolder;
+.faq-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--oficial);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-form p input:not([type="checkbox"]) {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid darken(var(--gris1), 5%);
-  border-bottom: 2px solid var(--complemento1);
-  transition: transform 0.3s;
-}
-
-textarea form input {
-  resize: none;
-}
-
-@media screen and (min-width: 768px) {
-
-  figure.img-contacto-1 {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    float: right;
-  }
-
-  figure.img-contacto-2 {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    float: left;
-  }
-
-  figure.img-contacto-1,
-  figure.img-contacto-2 {
-    margin: 3em;
-  }
+.faq-link:hover {
+  color: var(--accion);
 }
