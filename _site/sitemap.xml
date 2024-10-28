@@ -11,7 +11,7 @@
     
       <url>
         <loc>http://localhost:4000/blog</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -28,7 +28,7 @@
     
       <url>
         <loc>http://localhost:4000/clases-en-linea</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -48,7 +48,7 @@
     
       <url>
         <loc>http://localhost:4000/cursos-ingles</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -65,7 +65,7 @@
     
       <url>
         <loc>http://localhost:4000/escuelas</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -85,7 +85,7 @@
     
       <url>
         <loc>http://localhost:4000/gracias</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -96,7 +96,7 @@
     
       <url>
         <loc>http://localhost:4000/</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -110,7 +110,7 @@
     
       <url>
         <loc>http://localhost:4000/preguntas-frecuentes</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -127,7 +127,7 @@
     
       <url>
         <loc>http://localhost:4000/recursos-gratis</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -150,7 +150,7 @@
     
       <url>
         <loc>http://localhost:4000/sobre-nosotros</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -171,7 +171,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/allentown</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -186,7 +186,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/altamonte-springs</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -201,7 +201,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/anaheim</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -216,7 +216,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/arlington</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -231,7 +231,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/atlanta</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -246,7 +246,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/boca-raton</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -261,7 +261,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/bronx</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -276,7 +276,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/chandler</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -291,7 +291,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/chicago</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -306,7 +306,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/coral-springs</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -321,7 +321,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/dallas</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -336,7 +336,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/denver</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -351,7 +351,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/east-boston</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -366,7 +366,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/elizabeth</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -381,7 +381,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/filadelfia</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -396,7 +396,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/forth-worth</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -411,7 +411,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/harrisburg</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -426,7 +426,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/hialeah</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -441,7 +441,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/houston</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -456,7 +456,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/jersey-city</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -471,7 +471,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/las-vegas</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -486,7 +486,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/laurenceville</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -501,7 +501,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/lawrence</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -516,7 +516,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/manhattan</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -531,7 +531,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/mesa</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -546,7 +546,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/nashville</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -561,7 +561,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/queens</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -576,7 +576,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/san-antonio</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -591,7 +591,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/san-francisco</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -606,7 +606,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/san-jose</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -621,7 +621,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/tampa</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -636,7 +636,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/tulsa</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -651,7 +651,7 @@
   
       <url>
         <loc>http://localhost:4000/escuelas/west-palm-beach</loc>
-        <lastmod>2024-10-06T22:24:18-05:00</lastmod>
+        <lastmod>2024-10-28T13:14:09-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -682,7 +682,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/blog/becas-para-estudiar-en-canad%C3%A1-sin-saber-ingles</loc>
+      <loc>http://localhost:4000/blog/becas-para-estudiar-en-canada-sin-saber-ingles</loc>
       <lastmod>2023-11-10T00:00:00-05:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>

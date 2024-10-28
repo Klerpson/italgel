@@ -19,6 +19,7 @@ webp: blog-hero.webp
       <a href="#cta" title="Aprende inglés rápido" class="boton boton_1">Aprende inglés más rápido</a>
     </div>
   </header>
+  {% include daniel.html %}
   <main class="contenido wrapper flow" id="escuelas">
     <h2>Escuelas de inglés en {{page.ciudad | capitalize | escape  }}</h2>
     {% if page.escuelas != "no" %}

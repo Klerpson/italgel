@@ -6,4 +6,4 @@ description: Te ofrecemos novedosos cursos de inglés con técnicas de aprendiza
 webp: clases-ingles-grupo.webp
 alt: Clase de inglés en línea
 ---
-## Próximamente te traeremos recursos geniales para aprender con nuevas técnicas. Regresa pronto!
+{% include daniel.html %}

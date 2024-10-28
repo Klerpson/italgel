@@ -9,6 +9,7 @@ noindex: true
 {% include css/buscador.css %}
 {% include css/follow.css %}
 {% include css/footer.css %}
+{% include css/daniel.css %}
 {% include css/boton-up.css %}
 {% include css/blog.css %}
 {% include css/contacto.css %}
