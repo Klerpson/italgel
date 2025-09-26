@@ -1,9 +1,9 @@
 baseurl: ''
-url: 'https://aprendamosingles.us'
-name: 'aprendamosingles.us'
+url: 'https://italgel.com.co'
+name: 'italgel.com.co'
 logo: img/logo.webp
-author: Daniel Monroy
-telefono: 3186455181
+author: Sebastián Rios
+telefono: 3166926111
 
 markdown: kramdown
 
@@ -24,7 +24,7 @@ compress_html:
 collections:
   ciudades:
     output: true
-    permalink: /escuelas/:path
+    permalink: /productos/:path
   posts:
     output: true
     permalink: /blog/:slug
