@@ -1,85 +1,53 @@
-.home {
-  width: 100%;
+
+/* Hero Section */
+.hero {
+  background-image: url('{{ "img/itagel-colombia.avif" | relative_url }}');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: clamp(50vh, 70vh, 90vh);
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-inline: auto;
-  padding: 6em 16px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/bg.webp');
-  
-    & .boton{
-      margin: 1em 0 0;
-    }
+  padding-top: 80px;
+  container-type: inline-size;
+  position: relative;
 }
 
-header section {
-  flex: 0 1 640px;
-  max-width: 100%;
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
-.home h1 {
-  width: min(100%, 600px);
-  color: var(--blanco);
-  font-size: clamp(1.125rem, 0.5vw + 1rem, 1.25rem);
-  font-family: var(--fuenteTexto);
-  margin: 1em 0;
-}
-
-header .flow h2 {
-  margin: 0;
-  text-align: left;
-  color: white;
-}
-
-header .ultimo {
-  border-radius: var(--radius);
-  padding: 8px;
-  display: flex;
-  gap: 1em;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-header .ultimo a svg{
-  width: 16px;
-  height: 16px;
-  fill: white;
-  margin-right: 8px;
-}
-
-.home div:first-child{
-  flex: 0 1 720px;
-}
-
-.home div:last-child{
+.hero-content {
   display: grid;
-}
-
-.home div p{
-  font-size: clamp(2.5rem, 3.5vw + 1rem, 3.25rem);
-  color: white;
-  width: min(100%, 600px);
-  font-family: var(--fuenteTitulos);
-  line-height: 1.1;
-}
-
-.home a{
-  text-align: center;
-}
-
-.hero{
-  display: flex;
-  gap: 2em;
+  grid-template-columns: 1fr;
+  gap: 3rem;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
-.hero h1{
-  flex: 1 0 640px;
-  max-width: 100%;
-  margin: 0;
+@container (min-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
+.hero-text h1 {
+  font-size: clamp(2.5rem, 3vw, 4rem);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.hero-text .highlight {
+  display: block;
+  font-weight: 700;
+  color: var(--color-accion);
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: var(--color-gris3);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+

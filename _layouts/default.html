@@ -9,19 +9,10 @@ layout: compress
   <!-- End Google Tag Manager (noscript) -->
   {% include nav.html %}
   {% include header.html %}
-  {% if page.vertical %}
     {{ content }}
-  {% include cta.html %}
+  {% include buscador.html %}
   {% include footer.html %}
-  {% else %}
-  {{ content }}
-  {% include footer.html %}
-  {% endif %}
-  <a href="#" class="boton-whatsapp" id="lead_whatsapp" title="WhatsApp Clases Inglés" target="_blank" rel="nofollow noopener noreferrer">
-    <img src="{{'img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp" title="WhatsApp Clases Inglés">
-  </a>
-  <a href="#">{% include boton-up.html %}</a>
-  <script defer src="/js/whatsapp.js"></script>
+
 
   <script src="{{site.baseurl}}/js/search-script.js" type="text/javascript"></script>
   <script>
@@ -31,6 +22,20 @@ layout: compress
       json: '/search.json',
       noResultsText: 'No tenemos este texto aún',
       fuzzy: false
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.getElementById('hamburger');
+      const navegacion = document.querySelector('.navegacion');
+      console.log('Hamburger:', hamburger);
+      console.log('Navegacion:', navegacion);
+      hamburger.addEventListener('click', function() {
+        console.log('Hamburger clicked');
+        navegacion.classList.toggle('open');
+        hamburger.classList.toggle('open');
+        console.log('Navegacion classes:', navegacion.classList);
+      });
     });
   </script>
 </body>

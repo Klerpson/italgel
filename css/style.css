@@ -3,14 +3,10 @@ layout: compress
 noindex: true
 ---
 {% include css/universal.css %}
-{% include css/header.css %}
-{% include css/home.css %}
 {% include css/nav.css %}
-{% include css/buscador.css %}
-{% include css/follow.css %}
+{% include css/boton.css %}
+{% include css/header.css %}
+{% include css/best-sellers.css %}
+{% include css/follow-me.css %}
+{% include css/media-queries.css %}
 {% include css/footer.css %}
-{% include css/daniel.css %}
-{% include css/boton-up.css %}
-{% include css/blog.css %}
-{% include css/contacto.css %}
-{% include css/verticales.css %}

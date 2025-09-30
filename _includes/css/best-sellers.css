@@ -1,0 +1,40 @@
+.product-card {
+  background: var(--color-blanco);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.product-card:hover {
+  transform: var(--transform-translate-up);
+  box-shadow: var(--shadow-hover-large);
+}
+
+.product-image {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image.mint { background: url('{{ "img/maquina-helado-itagel.avif" | relative_url }}') no-repeat center center; background-size: cover; }
+.product-image.pink { background: url('{{ "img/maquina-helado-itagel-colombia.avif" | relative_url }}') no-repeat center center; background-size: cover; }
+.product-image.lavender { background: url('{{ "img/maquina-helado-colombia.avif" | relative_url }}') no-repeat center center; background-size: cover; }
+
+.product-badge {
+  position: absolute;
+  inset: 1rem 1rem auto auto;
+  background: var(--color-accion);
+  color: var(--color-blanco);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-small);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-accion);
+  margin-bottom: 1rem;
+}

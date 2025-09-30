@@ -1,50 +1,31 @@
-<nav>
-  <a href="{{site.baseurl}}/" title="Inicio de aprendamosingles.us" class="logo_nav">
-    <img src="{{'logo-mini.avif'|relative_url}}" alt="Logotipo de aprendamosingles.us" width="28" height="28"> <span>{{site.name | upcase}}</span>
-  </a>
-  <div class="navegacion">
-    <div class="dropdown">
-      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="var(--titulos)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15.5h1m-1 3h1m10 0h1m-1-3h1M10 22v-4a2 2 0 1 1 4 0v4M12 5h4.84c.056 0 .084 0 .105-.01a.1.1 0 0 0 .044-.045C17 4.924 17 4.896 17 4.84V2.16c0-.056 0-.084-.01-.105a.1.1 0 0 0-.045-.044C16.924 2 16.896 2 16.84 2h-4.68c-.056 0-.084 0-.105.01a.1.1 0 0 0-.044.045C12 2.076 12 2.104 12 2.16V5Zm0 0v2.69m.03 4.56h.008M12 7.69a2 2 0 0 1 .578.086c.428.13.806.47 1.563 1.15L17 11.5l1.576.394c.867.217 1.3.325 1.623.567.284.213.507.498.645.826C21 13.66 21 14.105 21 15V18.8c0 1.12 0 1.68-.218 2.108a2 2 0 0 1-.874.874C19.48 22 18.92 22 17.8 22H6.2c-1.12 0-1.68 0-2.108-.218a2 2 0 0 1-.874-.874C3 20.48 3 19.92 3 18.8V15c0-.894 0-1.34.156-1.712a2 2 0 0 1 .645-.826c.323-.242.756-.35 1.623-.567L7 11.5l2.86-2.573c.756-.681 1.134-1.022 1.562-1.15A2 2 0 0 1 12 7.69Zm.03 5.31a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"/></svg>
-      <span>Escuelas</span>
-      <div class="dropdown-content">
-        <a href="{{'escuelas/elizabeth'|relative_url}}" title="Escuelas de inglés en Elizabeth NJ">Elizabeth NJ</a>
-        <a href="{{'escuelas/tampa'|relative_url}}" title="Escuelas de inglés en Tampa FL">Tampa FL</a>
-        <a href="{{'escuelas/bronx'|relative_url}}" title="Escuelas de inglés en Bronx NY">Bronx NY</a>
-        <a href="{{'escuelas/west-palm-beach'|relative_url}}" title="Escuelas de inglés en West Palm Beach FL">West Palm Beach FL</a>
-        <a href="{{'escuelas/allentown'|relative_url}}" title="Escuelas de inglés en Allentown PE">Allentown PE</a>
-        <a href="{{'escuelas/lawrenceville'|relative_url}}" title="Escuelas de inglés en Lawrenceville GA">Lawrenceville GA</a>
-        <a href="{{'escuelas'|relative_url}}" title="Principales escuelas de inglés en aprendamosingles.us">→ Ver más...</a>
-      </div>
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-wrapper">
+        <ul class="navegacion">
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><span>INSTAGRAM</span></li>
+            <li><span>FACEBOOK</span></li>
+            <li><span>YOUTUBE</span></li>
+        </ul>
+
+        <a href="#" class="logo_nav"><img src="{{ site.baseurl }}{{ 'img/logo.avif' | relative_url }}" alt="Deina's Bites"></a>
+
+        <div class="nav-icons">
+            <span>INSTAGRAM</span>
+            <span>FACEBOOK</span>
+            <span>YOUTUBE</span>
+            <a href="#buscador">
+                <svg class="search-icon" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
-    <div class="dropdown">
-      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="var(--titulos)" viewBox="0 0 32 32"><path d="M30.639 26.361 24.428 3.178A3.257 3.257 0 0 0 20.425.886l.023-.005-2.896.776c-.23.065-.429.145-.618.243l.018-.008A3.225 3.225 0 0 0 14.499.749H11.5c-.76.003-1.457.27-2.006.713l.006-.005A3.198 3.198 0 0 0 7.501.749H4.5a3.254 3.254 0 0 0-3.25 3.25v24a3.254 3.254 0 0 0 3.25 3.25h3a3.203 3.203 0 0 0 2.006-.712l-.006.005c.543.438 1.24.704 1.999.708h2.999a3.254 3.254 0 0 0 3.25-3.25V14.947l3.717 13.873a3.252 3.252 0 0 0 4.002 2.291l-.023.005 2.898-.775a3.26 3.26 0 0 0 2.292-4.003l.005.023zm-11.613-16.3 4.346-1.165 3.494 13.042-4.345 1.164zm-.827-5.989 2.895-.775a.762.762 0 0 1 .919.524l.001.005.712 2.656-4.346 1.165-.632-2.357v-.848a.748.748 0 0 1 .446-.37l.005-.001zM11.5 3.25h2.998a.76.76 0 0 1 .75.749v2.75l-4.498.001V4a.76.76 0 0 1 .749-.75h.001zm-3.25 19.5h-4.5V9.25l4.5-.001zm2.5-13.5 4.498-.001V22.75H10.75zm-6.25-6h3a.76.76 0 0 1 .75.749v2.75l-4.5.001V4a.76.76 0 0 1 .749-.75H4.5zm3 25.5h-3a.76.76 0 0 1-.75-.749V25.25h4.5V28a.76.76 0 0 1-.749.75H7.5zm6.998 0H11.5a.76.76 0 0 1-.75-.749V25.25h4.498V28a.76.76 0 0 1-.749.75h-.001zm13.195-.822-2.896.775a.752.752 0 0 1-.57-.078l.004.002a.748.748 0 0 1-.35-.45l-.001-.005-.711-2.655 4.345-1.164.712 2.657a.76.76 0 0 1-.526.916l-.005.001z"/></svg>
-      <span>Recursos</span>
-      <div class="dropdown-content">
-        <a href="{{'blog'|relative_url}}" title="Blog de aprendamosingles.us">Blog de inglés</a>
-        <a href="{{'cursos-ingles'|relative_url}}" title="Cursos de aprendamosingles.us">Cursos de inglés</a>
-        <a href="{{'clases-en-linea'|relative_url}}" title="Clases de aprendamosingles.us">Clases en vivo</a>
-        <a href="{{'recursos-gratis'|relative_url}}" title="Regalos de aprendamosingles.us">Recursos gratis</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="var(--titulos)" stroke-linecap="round" stroke-width="2" d="M4 4a1 1 0 0 1 1-1h9.586a1 1 0 0 1 .707.293l4.414 4.414a1 1 0 0 1 .293.707V20a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4Z"/><path stroke="var(--titulos)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 8h-5V3"/><path stroke="var(--titulos)" stroke-linecap="round" stroke-width="2" d="M12 12v4"/><circle cx="12" cy="9" r="1" fill="var(--titulos)"/></svg>
-      <span>Nosotros</span>
-      <div class="dropdown-content">
-        <a href="{{'contacto'|relative_url}}" title="Contacto aprendamosingles.us">Contacto</a>
-        <a href="{{'sobre-nosotros'|relative_url}}" title="aprendamosingles.us">Sobre nosotros</a>
-        <a href="{{'preguntas-frecuentes'|relative_url}}" title="aprendamosingles.us">Preguntas</a>
-      </div>
-    </div>
-    <a href="#buscador" title="Buscar">
-      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="var(--titulos)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.796 15.811 21 21m-3-10.5a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
-    </a>
-  </div>
 </nav>
-<section class="buscador" id="buscador">
-  <a href="#" class="cerrar">✕</a>
-  <div id="search-container" class="wrapper flow">
-    <h4>¿Qué necesitas saber para aprender inglés? Busca aquí</h4>
-    <input type="text" id="search-input" placeholder="↪ Ej. Escuela en Tampa, Curso de ingles...">
-    <ul id="results-container"></ul>
-  </div>
-</section>
