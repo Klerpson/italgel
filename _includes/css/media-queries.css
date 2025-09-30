@@ -1,7 +1,7 @@
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .nav {
-    padding: 2rem;
+    padding: 2rem 0;
   }
 
   .nav-wrapper {

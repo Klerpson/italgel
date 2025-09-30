@@ -1,11 +1,43 @@
 <header class="hero" role="banner">
-    <div class="wrapper">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 id="hero-title">Lorem Ipsum <span class="highlight" aria-label="dolor">Dolor</span> Sit Amet.</h1>
-                <p id="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                {% include boton.html %}
-            </div>
-        </div>
+  <picture class="hero-bg">
+    <!-- Desktop (1920px+) -->
+    <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
+
+    <!-- Desktop (1440px - 1919px) -->
+    <source media="(min-width: 1440px)" srcset="{{ 'img/itagel-colombia-1440.avif' | relative_url }}" type="image/avif">
+
+    <!-- Tablet landscape (1024px - 1439px) -->
+    <source media="(min-width: 1024px)" srcset="{{ 'img/itagel-colombia-1024.avif' | relative_url }}" type="image/avif">
+
+    <!-- Tablet portrait (768px - 1023px) -->
+    <source media="(min-width: 768px)" srcset="{{ 'img/itagel-colombia-768.avif' | relative_url }}" type="image/avif">
+
+    <!-- Mobile (hasta 767px) -->
+    <source media="(max-width: 767px)" srcset="{{ 'img/itagel-colombia-480.avif' | relative_url }}" type="image/avif">
+
+    <!-- Fallback para navegadores que no soportan AVIF -->
+    <img src="{{ 'img/itagel-colombia-1440.jpg' | relative_url }}"
+      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
+  </picture>
+
+  <div class="hero-overlay"></div>
+
+  <div class="wrapper">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 id="hero-title">
+          Helados Artesanales
+          <span class="highlight" aria-label="Premium">Premium</span>
+          100% Naturales
+        </h1>
+        <p id="hero-description">
+          Descubre el sabor auténtico de Colombia en cada cucharada.
+          Elaborados con ingredientes frescos de origen local y recetas
+          tradicionales que despiertan tus sentidos.
+        </p>
+        {% include boton.html %}
+      </div>
     </div>
+  </div>
 </header>
