@@ -156,9 +156,10 @@ img {
 
 .three_columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem;
-  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 350px));
+  gap: 1rem;
+  align-items: center;
+  place-content: center;
 }
 
 .tex_center{   
