@@ -3,7 +3,6 @@
   background-color: var(--color-blanco);
   color: var(--color-texto);
   padding: 1rem 2rem;
-  border-radius: var(--radius-small);
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -33,4 +32,9 @@
   background: var(--color-accion);
   color: var(--color-blanco);
   transform: var(--transform-translate-small);
+}
+.boton-border{
+  border: solid var(--color-gris3);
+  top: 30%;
+  position: relative;
 }

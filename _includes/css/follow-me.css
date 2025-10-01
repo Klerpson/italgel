@@ -1,9 +1,7 @@
 .gallery-item {
-  aspect-ratio: 1;
-  border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: var(--shadow);
-  transition: var(--transition);
+  place-content: center;
+  place-items: center;
 }
 
 .gallery-item:hover {

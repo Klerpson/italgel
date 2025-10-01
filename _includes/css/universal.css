@@ -1,6 +1,6 @@
 
 :root {
-  --color-accion: #f35af8;
+  --color-accion: #f376ed;
   --color-principal: #4cf8f0;
   --color-secundario: #feffff;
   --color-acento: #1113134d;
@@ -8,7 +8,7 @@
   --color-gris1: #EDEDED;
   --color-gris2: #D0D0D0;
   --color-gris3: #5A5A65;
-  --color-blanco: #fbfbfb;
+  --color-blanco: #ffffff;
   --color-texto: #0A2126;
   --transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
@@ -76,9 +76,10 @@ h4 {
 
 h1 {
   font-size: clamp(2.5rem, 2rem + 2.5vw, 4rem);
-  color: var(--color-texto);
+  color: var(--color-blanco);
   font-weight: 400;
   letter-spacing: -0.02em;
+  max-width: 18ch;
 }
 
 h2 {
@@ -155,7 +156,7 @@ img {
 
 .three_columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 3rem;
   align-items: start;
 }
@@ -201,4 +202,8 @@ img {
 .boton-up:hover {
   transform: var(--transform-scale);
   box-shadow: var(--shadow-hover);
+}
+
+.boder-left {
+  border-left: solid var(--color-gris3);
 }
