@@ -1,6 +1,8 @@
 .product-card {
   background: var(--color-blanco);
   overflow: hidden;
+  place-items: center;
+  place-content: center;
 }
 
 .product-card:hover {
@@ -10,17 +12,29 @@
 
 .product-image {
   height: clamp(250px, 50vh, 450px);
+  width: clamp(100%, 50vh, 450px);
   position: relative;
-  overflow: hidden;
 }
 
-.product-image.mint { background: url('{{ "img/maquina-helado-itagel.avif" | relative_url }}') no-repeat center center; background-size: cover; }
-.product-image.pink { background: url('{{ "img/maquina-helado-itagel-colombia.avif" | relative_url }}') no-repeat center center; background-size: cover; }
-.product-image.lavender { background: url('{{ "img/maquina-helado-colombia.avif" | relative_url }}') no-repeat center center; background-size: cover; }
+.product-image.mint {
+  background: url('{{ "img/maquina-helado-itagel.avif" | relative_url }}')
+    no-repeat center center;
+  background-size: cover;
+}
+.product-image.pink {
+  background: url('{{ "img/maquina-helado-itagel-colombia.avif" | relative_url }}')
+    no-repeat center center;
+  background-size: cover;
+}
+.product-image.lavender {
+  background: url('{{ "img/maquina-helado-colombia.avif" | relative_url }}')
+    no-repeat center center;
+  background-size: cover;
+}
 
 .product-badge {
   position: absolute;
-  inset: 1rem 1rem auto auto;
+  inset: 1rem 3rem auto auto;
   background: var(--color-accion);
   color: var(--color-blanco);
   padding: 0.5rem 1rem;
