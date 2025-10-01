@@ -10,15 +10,20 @@
 }
 
 .nav-wrapper {
-  width: min(calc(100% - 1.5em), 1320px);
+  width: min(calc(100% - 1.5em), 1220px);
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   gap: 12px;
-  justify-content: space-between;
   align-items: center;
 }
 
+.nav-left {
+  justify-self: start;
+}
+
 .logo_nav {
+  justify-self: center;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -27,6 +32,10 @@
   font-weight: 900;
   font-family: var(--fuenteTitulos);
   font-size: 1.5rem;
+}
+
+.nav-right {
+  justify-self: end;
 }
 
 .navegacion {
@@ -100,6 +109,10 @@
 
 .search-icon:hover {
   fill: var(--color-texto);
+}
+
+.hamburger {
+  display: none;
 }
 
 .modal-overlay {

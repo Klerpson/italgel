@@ -1,5 +1,6 @@
-<header class="hero" role="banner">
+<header class="hero wrapper" role="banner">
   <picture class="hero-bg">
+
     <!-- Desktop (1920px+) -->
     <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
 
@@ -21,23 +22,14 @@
       width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
   </picture>
 
-  <div class="hero-overlay"></div>
-
-  <div class="wrapper">
     <div class="hero-content">
-      <div class="hero-text">
-        <h1 id="hero-title">
+        <h1>
           Helados Artesanales
-          <span class="highlight" aria-label="Premium">Premium</span>
+          Premium
           100% Naturales
         </h1>
-        <p id="hero-description">
-          Descubre el sabor auténtico de Colombia en cada cucharada.
-          Elaborados con ingredientes frescos de origen local y recetas
-          tradicionales que despiertan tus sentidos.
-        </p>
+    <div>
         {% include boton.html %}
-      </div>
     </div>
-  </div>
+    </div>
 </header>

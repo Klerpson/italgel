@@ -1,13 +1,14 @@
 <!-- Gallery -->
 <div class="wrapper">
-        <div class="center">
-            <h2>/ Lorem Ipsum</h2>
+    <div class="center">
+        <h2>/ Lorem Ipsum</h2>
+    </div>
+    <div class="three_columns">
+        {% for item in page.follow_me_items %}
+        <div class="gallery-item">
+            <a href="https://wa.me/57{{ site.telefono }}?text={{ site.whatsapp_message | url_encode }}" target="_blank"
+                style="  height: clamp(250px, 50vh, 450px);  width: clamp(250px, 50vh, 450px); display: block; background-image: url('{{ item.image | relative_url }}'); background-size: cover; background-position: center; border-radius: 8px;"></a>
         </div>
-        <div class="three_columns">
-            {% for item in page.follow_me_items %}
-            <div class="gallery-item">
-                <a href="https://wa.me/57{{ site.telefono }}?text={{ site.whatsapp_message | url_encode }}" target="_blank" style="width: 100%; height: 100%; display: block; background-image: url('{{ item.image | relative_url }}'); background-size: cover; background-position: center; border-radius: 8px;"></a>
-            </div>
-            {% endfor %}
-        </div>
+        {% endfor %}
+    </div>
 </div>

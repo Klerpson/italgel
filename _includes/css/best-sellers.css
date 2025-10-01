@@ -1,9 +1,6 @@
 .product-card {
   background: var(--color-blanco);
-  border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: var(--shadow);
-  transition: var(--transition);
 }
 
 .product-card:hover {
@@ -12,7 +9,7 @@
 }
 
 .product-image {
-  height: 250px;
+  height: clamp(250px, 50vh, 450px);
   position: relative;
   overflow: hidden;
 }
@@ -37,4 +34,7 @@
   font-weight: 700;
   color: var(--color-accion);
   margin-bottom: 1rem;
+}
+.border {
+  border-bottom: solid var(--color-gris3);
 }
