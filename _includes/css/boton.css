@@ -8,7 +8,6 @@
   font-size: clamp(0.875rem, 1.5vw, 1rem);
   letter-spacing: 0.02em;
   transition: var(--transition);
-  box-shadow: var(--shadow);
   width: clamp(150px, 15vw, 200px);
 }
 
