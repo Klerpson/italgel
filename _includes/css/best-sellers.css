@@ -12,7 +12,7 @@
 
 .product-image {
   height: clamp(250px, 50vh, 450px);
-  width: clamp(100%, 50vh, 450px);
+  width: clamp(80%, 50vh, 350px);
   position: relative;
 }
 
