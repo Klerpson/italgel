@@ -1,7 +1,5 @@
 /* Hero Section */
 .hero {
-  width: min(calc(100% - 1.5em), 1440px);
-  margin-inline: auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;

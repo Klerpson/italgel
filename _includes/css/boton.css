@@ -14,6 +14,7 @@
 .boton:hover {
   transform: var(--transform-translate-small);
   box-shadow: var(--shadow-hover);
+  transform: scale(1.015);
 }
 
 .btn-comprar {

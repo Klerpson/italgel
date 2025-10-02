@@ -127,14 +127,10 @@ img {
   line-height: 1;
 }
 
-.padding {
-  padding: 4em 3em;
-}
-
 .wrapper {
   width: min(calc(100% - 1.5em), 1440px);
   margin-inline: auto;
-  padding: 4em 0;
+  padding: 4em 3em;
 }
 
 .flow > * + * {

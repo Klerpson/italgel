@@ -1,4 +1,8 @@
-<header class="hero padding" role="banner">
+{% assign layout = page.layout %}
+{% case layout %}
+{% when "main" %}
+
+<header class="hero wrapper" role="banner">
   <!-- <picture class="hero-bg">
     <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
     <source media="(min-width: 1440px)" srcset="{{ 'img/itagel-colombia-1440.avif' | relative_url }}" type="image/avif">
@@ -16,3 +20,8 @@
   <img src="{{page.hero}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">
 
 </header>
+{% else %}
+<header>
+  <h1>{{page.h1}}</h1>
+</header>
+{% endcase %}
