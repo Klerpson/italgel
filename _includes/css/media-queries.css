@@ -1,5 +1,8 @@
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .hero{
+    width: 100%;
+  }
   .nav {
     padding: 2rem 0;
   }
@@ -95,7 +98,7 @@
   }
 
   .hero-content {
-    margin-left: 0;
+    margin-left: 1rem;
   }
 
 

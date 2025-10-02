@@ -2,12 +2,11 @@
 /* Hero Section */
 .hero {
   position: relative;
-  min-height: clamp(50vh, 70vh, 90vh);
   display: grid;
   padding-top: 80px;
   container-type: inline-size;
   overflow: hidden;
-  isolation: isolate; /* Crea nuevo contexto de apilamiento */
+  isolation: isolate;
 }
 
 /* Imagen de fondo */
