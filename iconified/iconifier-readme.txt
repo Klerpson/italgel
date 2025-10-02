@@ -18,7 +18,7 @@ Most browsers will find the favicon file in the root folder of your website but 
 
   1. On Joomla websites, copy the favicon.ico to your active template folder at: /templates/[your_template_name].
 
-  2. On WordPress websites you may need to upload the favicon.ico file to your current theme's main folder as well as your website root folder. For more details, see http://codex.wordpress.org/Creating_a_Favicon.
+  2. On WordPress websites you may need to upload the favicon.ico file to your current theme's main folder as well as your website root folder. For more details, see https://wordpress.org/documentation/article/create-a-favicon.
 
   3. On Drupal websites, navigate to the admin/build/themes/settings/[your_theme_name] page in the admin area of the site and choose the favicon.ico file in the 'Shortcut icon settings' section of the theme configuration page and upload the file. For more details, see the official Drupal favicon changing instructions at: http://drupal.org/node/362265
 
@@ -28,5 +28,5 @@ I'm very grateful to Chris Jean for sharing his excellent PHP-ICO tool which can
 
 If you find this tool useful, please Tweet, Share, Like, +1 and if you are really keen, include attribution in your humans.txt file! Thanks.
 
-iconifier.net is provided for free by Webilicious® Web Design and Development Services - Joomla!® website creation, maintainance and security specialists - http://webilicious.com.au.
+iconifier.net is provided for free by Webilicious® Web Design and Development Services - Joomla!® website creation, maintenance and security specialists - http://webilicious.com.au.
 

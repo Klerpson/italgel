@@ -1,35 +1,18 @@
-<header class="hero wrapper" role="banner">
-  <picture class="hero-bg">
-
-    <!-- Desktop (1920px+) -->
+<header class="hero padding" role="banner">
+  <!-- <picture class="hero-bg">
     <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
-
-    <!-- Desktop (1440px - 1919px) -->
     <source media="(min-width: 1440px)" srcset="{{ 'img/itagel-colombia-1440.avif' | relative_url }}" type="image/avif">
-
-    <!-- Tablet landscape (1024px - 1439px) -->
     <source media="(min-width: 1024px)" srcset="{{ 'img/itagel-colombia-1024.avif' | relative_url }}" type="image/avif">
-
-    <!-- Tablet portrait (768px - 1023px) -->
     <source media="(min-width: 768px)" srcset="{{ 'img/itagel-colombia-768.avif' | relative_url }}" type="image/avif">
-
-    <!-- Mobile (hasta 767px) -->
     <source media="(max-width: 767px)" srcset="{{ 'img/itagel-colombia-480.avif' | relative_url }}" type="image/avif">
-
-    <!-- Fallback para navegadores que no soportan AVIF -->
-    <img src="{{ 'img/itagel-colombia-1440.jpg' | relative_url }}"
+    <img src="{{ 'img/bases-helado-italgel.jpg' | relative_url }}"
       alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
       width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
-  </picture>
+  </picture> -->
+  <div class="hero_content flow">
+    <h1>{{page.h1}}</h1>
+    {% include boton.html %}
+  </div>
+  <img src="{{page.hero}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">
 
-    <div class="hero-content flow">
-        <h1>
-          Helados Artesanales
-          Premium
-          100% Naturales
-        </h1>
-    <div>
-        {% include boton.html %}
-    </div>
-    </div>
 </header>

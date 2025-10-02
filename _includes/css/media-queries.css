@@ -1,8 +1,5 @@
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .hero{
-    width: 100%;
-  }
   .nav {
     padding: 2rem 0;
   }
@@ -96,11 +93,6 @@
   .hamburger.open span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
   }
-
-  .hero-content {
-    margin-left: 1rem;
-  }
-
 
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);

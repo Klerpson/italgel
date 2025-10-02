@@ -21,8 +21,8 @@
   --color-cream: #FFF8E7;
   
   /*** FUENTES ***/
-  --fuenteTexto: 'DM Sans', sans-serif;
-  --fuenteTitulos: "Playfair Display", serif;
+  --fuenteTexto: "Inter", sans-serif;
+  --fuenteTitulos: "Inter", sans-serif;
   --sizeTexto: 16px;
 
   /*** TRANSFORMACIONES Y EFECTOS ***/
@@ -52,6 +52,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: var(--fuenteTexto);
   font-size: var(--sizeTexto);
   background-color: var(--color-blanco);
@@ -77,7 +78,7 @@ h4 {
 h1 {
   font-size: clamp(1.5rem, 1.8rem + 2.5vw, 4rem);
   color: var(--color-blanco);
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: -0.02em;
   max-width: 18ch;
 }
@@ -85,7 +86,7 @@ h1 {
 h2 {
   font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
   max-width: 732px;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 1em;
   color: var(--color-texto);
 }
@@ -126,13 +127,12 @@ img {
   line-height: 1;
 }
 
-.images {
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+.padding {
+  padding: 4em 3em;
 }
 
 .wrapper {
-  width: min(calc(100% - 1.5em), 1320px);
+  width: min(calc(100% - 1.5em), 1440px);
   margin-inline: auto;
   padding: 4em 0;
 }
