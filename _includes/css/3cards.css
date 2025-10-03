@@ -47,12 +47,19 @@
 
 .product-content {
   margin-bottom: 1rem;
+  padding: 1rem;
   
   h3, p{
     color: var(--color-texto);
     text-align: center;
   }
-
-  h3{font-weight: 400;}
-  p{font-weight: 700;}
+  
+  h3{
+    font-weight: 300;
+  }
+  p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+  }
 }

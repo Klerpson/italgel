@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Recorrer los enlaces y cambiar el href según el dispositivo
     whatsappLinks.forEach(function(link) {
         // Mensaje con la URL actual
-        var message = "Hola! Me gustaría recibir más asesoría sobre esta información: " + encodeURIComponent(currentURL);
+        var message = "Hola! Me regalas más info sobre esto que vi en tu web: " + encodeURIComponent(currentURL);
 
         // Enlaces de WhatsApp para móvil y escritorio con el mensaje dinámico
         var mobileLink = "https://wa.me/573186455181?text=" + message;

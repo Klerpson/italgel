@@ -7,6 +7,5 @@ noindex: true
 {% include css/boton.css %}
 {% include css/header.css %}
 {% include css/3cards.css %}
-{% include css/follow-me.css %}
 {% include css/media-queries.css %}
 {% include css/footer.css %}
