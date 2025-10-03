@@ -1,10 +1,11 @@
 ---
 layout: main
-title: "Lorem Ipsum Dolor Sit Amet"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Insumos y Equipos para Heladería Profesional en Colombia | Italgel"
+description: "Bases MEC3, pastas concentradas, máquinas profesionales y coberturas para heladería. Distribuidor autorizado en Colombia. Asesoría técnica incluida."
 hero: img/bases-helado-italgel.avif
 alt: Muestra de bases de helado, toppings, insumos y más para la preparación de helados a nivel comercial e industrial. Todo con la distribuidora para helados Italgel Colombia.
-h1: Italgel Colombia | Bases de helado, insumos y máquinas para heladerías
+h1: Italgel Colombia | Insumos profesionales para heladería que aumentan tu rentabilidad
+intro: Bases de helado, pastas concentradas y equipos de última generación para heladerías
 follow_me_items:
   - image: img/bases-para-helado.avif
   - image: img/bases-para-helado-colombia.avif
@@ -13,8 +14,30 @@ follow_me_items:
   - image: img/bases-stevia-helado-colombia.avif
   - image: img/bases-stevia-helado.avif
 ---
-{% include best-sellers.html %}
-{% include follow-me.html %}
+<section class="wrapper flow">
+  <div class="tex_center center">
+    <h2>Los suministros más pedidos para las heladerías en Colombia</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  {% include 3_cards.html data="destacados_home" %}
+  <div class="center border">
+  <a href="#" class="boton boton_2">Conoce los demás insumos 📒</a>
+  </div>
+</section>
+<!-- Gallery -->
+<div class="wrapper gallery">
+    <div class="center">
+        <h2>/ Lorem Ipsum</h2>
+    </div>
+    <div class="three_columns">
+        {% for item in page.follow_me_items %}
+        <div class="gallery-item">
+            <a href="https://wa.me/57{{ site.telefono }}?text={{ site.whatsapp_message | url_encode }}" target="_blank"
+                style="  height: clamp(250px, 50vh, 450px);  width: clamp(250px, 50vh, 450px); display: block; background-image: url('{{ item.image | relative_url }}'); background-size: cover; background-position: center; border-radius: 8px;"></a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 <!-- Services -->
 <div class="center">
     <img src="{{ 'img/helados.svg' | relative_url }}" width="40" height="40" alt="Helados">

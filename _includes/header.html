@@ -15,7 +15,11 @@
   </picture> -->
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
-    {% include boton.html %}
+    <p  class="hero_title">{{page.intro}}</p>
+    <div class="three_columns">
+      {% include boton.html num="1" text="Cotizar insumos por WhatsApp 💬" %}
+      <a href="#" class="boton boton_2">Ver catálogo 🍧</a>
+    </div>
   </div>
   <img src="{{page.hero}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">
 

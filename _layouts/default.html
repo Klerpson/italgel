@@ -24,17 +24,61 @@ layout: compress
       fuzzy: false
     });
   </script>
+ <!-- Navigation Mobile Menu -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', () => {
       const hamburger = document.getElementById('hamburger');
-      const navegacion = document.querySelector('.navegacion');
-      console.log('Hamburger:', hamburger);
-      console.log('Navegacion:', navegacion);
-      hamburger.addEventListener('click', function() {
-        console.log('Hamburger clicked');
-        navegacion.classList.toggle('open');
-        hamburger.classList.toggle('open');
-        console.log('Navegacion classes:', navegacion.classList);
+      const mobileMenu = document.getElementById('mobileMenu');
+      const mobileClose = document.getElementById('mobileClose');
+      const accordionBtns = document.querySelectorAll('.mobile-accordion-btn');
+      
+      hamburger?.addEventListener('click', () => {
+        mobileMenu?.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+      
+      mobileClose?.addEventListener('click', () => {
+        mobileMenu?.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+      
+      mobileMenu?.addEventListener('click', (e) => {
+        if (e.target === mobileMenu) {
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+      
+      accordionBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const content = btn.nextElementSibling;
+          const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+          
+          accordionBtns.forEach(otherBtn => {
+            if (otherBtn !== btn) {
+              otherBtn.setAttribute('aria-expanded', 'false');
+              otherBtn.nextElementSibling?.classList.remove('active');
+            }
+          });
+          
+          btn.setAttribute('aria-expanded', !isExpanded);
+          content?.classList.toggle('active');
+        });
+      });
+      
+      const mobileLinks = mobileMenu?.querySelectorAll('a');
+      mobileLinks?.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+      
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileMenu?.classList.contains('active')) {
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        }
       });
     });
   </script>

@@ -1,0 +1,18 @@
+{% assign colors = "pink,principal,secundario" | split: "," %}
+<div class="flex">
+  {% for product in site.data[include.data] %}
+  {% assign color = colors[forloop.index0] %}
+  <article class="product-card">
+    <div class="product-img {{ color }}">
+      {% if product.highlight %}
+      <div class="product-badge">🍦 ¡Destacado!</div>
+      {% endif %}
+      <img src="{{product.img | realtive_url}}" alt="{{product.alt}}" width="280" height="280" loading="lazy" decoding="async" title="{{product.title}}">
+    </div>
+    <div class="text_center product-content">
+      <h3>{{ product.title }}</h3>
+      <p class="">{{ product.text }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>

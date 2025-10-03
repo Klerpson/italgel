@@ -11,6 +11,16 @@
   .hero_content{
     flex: 1 0 200px;
     max-width: 100%;
+    color: #ffffff;
+
+    .hero_title {
+      font-size: clamp(2rem, 1.5rem + 4vw, 4.5rem); 
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      max-width: 18ch;
+      color: var(--color-blanco);
+      margin: 0.2em 0 0.5em 0;}
   }
 
 }
