@@ -6,6 +6,6 @@ noindex: true
 {% include css/nav.css %}
 {% include css/boton.css %}
 {% include css/header.css %}
-{% include css/3cards.css %}
+{% include css/cards.css %}
 {% include css/media-queries.css %}
 {% include css/footer.css %}

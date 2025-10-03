@@ -4,6 +4,7 @@
   --color-pink: #f891a1;
   --color-principal: #6BB1BA;
   --color-secundario: #C37134;
+  --color-terciario: #e1ce7a;
   --color-acento: #e1ce7ab2;
   --color-gris: #F9F9F9;
   --color-gris1: #EDEDED;
@@ -146,7 +147,7 @@ img {
 .wrapper {
   width: min(calc(100% - 1.5em), 1440px);
   margin-inline: auto;
-  padding: 4em 3em;
+  padding: 3em 1rem;
 }
 
 .flow > * + * {
@@ -171,11 +172,18 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 1rem;
   align-items: start;
-  place-content: space-between;
+  place-content: center ;
   width: 100%;
   margin-block: 2em;
 
   p{font-size: 16px;}
+
+  .borders{
+    border-top: 2px solid var(--color-gris1);
+    border-bottom: 2px solid var(--color-gris1);
+    border-left: none;
+    border-right: none;
+  }
 }
 
 .bg_grey{
@@ -186,12 +194,12 @@ img {
 .gallery_items{
   display: flex;
   gap: 8px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 
   img{
-    flex: 1 0 440px;
     transition: var(--transition);
+    width: min(432px, 100%);
 
     &:hover{
       transform: scale(1.024);
@@ -208,6 +216,25 @@ img {
   border-radius: 50%;
   display: grid;
   place-items: center;
+}
+
+.datos{
+  flex: 1 0 160px;
+  display: grid;
+  gap: 16px;
+  padding: 2em 1rem;
+
+  span{
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--color-gris1);
+  }
+
+  p{
+    color: var(--color-blanco);
+    font-weight: 700;
+    font-size: 16px;
+  }
 }
 
 .boton-up {

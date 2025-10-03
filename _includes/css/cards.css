@@ -10,14 +10,17 @@
   box-shadow: var(--shadow-hover-large);
 }
 
-.product-img.pink {
+.pink {
   background: var(--color-pink);
 }
-.product-img.principal {
+.principal {
   background: var(--color-principal);
 }
-.product-img.secundario {
+.secundario {
   background: var(--color-secundario);
+}
+.gris{
+  background: var(--color-gris3);
 }
 
 .product-img {
