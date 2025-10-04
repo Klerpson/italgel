@@ -1,6 +1,19 @@
-/* Hero Section */
-.hero {
-   position: relative;
-   padding: 2rem 1rem;
-   min-height: 400px;
+.hero_home {
+  background: linear-gradient(
+    29deg,
+    rgba(107, 177, 186, 1) 0%,
+    rgba(211, 102, 119, 1) 100%
+  );
+}
+
+.hero_picture {
+  filter: 
+    drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1)) /* Sombra pequeña y cercana */
+    drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15)) /* Sombra media con más difusión */
+    drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.2)); /* Sombra grande y suave */
+}
+
+.hero_categories h1,
+.hero_categories p{
+  color: var(--color-principal);
 }

@@ -1,8 +1,7 @@
 {% assign layout = page.layout %}
 {% case layout %}
 {% when "main" %}
-
-<header class="hero wrapper" role="banner">
+<header class="hero hero_home wrapper" role="banner">
   <!-- <picture class="hero-bg">
     <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
     <source media="(min-width: 1440px)" srcset="{{ 'img/itagel-colombia-1440.avif' | relative_url }}" type="image/avif">
@@ -10,19 +9,32 @@
     <source media="(min-width: 768px)" srcset="{{ 'img/itagel-colombia-768.avif' | relative_url }}" type="image/avif">
     <source media="(max-width: 767px)" srcset="{{ 'img/itagel-colombia-480.avif' | relative_url }}" type="image/avif">
     <img src="{{ 'img/bases-helado-italgel.jpg' | relative_url }}"
-      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
-      width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
+    alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+    width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
   </picture> -->
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
     <p  class="hero_title">{{page.intro}}</p>
     <div class="three_columns">
-      {% include boton.html num="1" text="Cotizar insumos por WhatsApp 💬" %}
+      {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
       <a href="#" class="boton boton_2">Ver catálogo 🍧</a>
     </div>
   </div>
-  <img src="{{page.hero}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">
-
+  <img src="{{page.hero|relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">
+</header>
+{% when "categories" %}
+<header class="hero hero_categories wrapper" role="banner">
+  <div class="hero_content flow">
+    <h1>{{page.h1}}</h1>
+    <p  class="hero_title">{{page.intro}}</p>
+    {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
+  </div>
+  <picture class="hero_picture">
+    <source media="(min-width: 992px)" srcset="{{ page.hero | relative_url }}" type="image/avif">
+    <source media="(max-width: 991px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
+    <img src="{{ page.hero | relative_url }}" alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+    width="584" height="584" loading="eager" fetchpriority="high" decoding="async">
+  </picture>
 </header>
 {% else %}
 <header>

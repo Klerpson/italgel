@@ -11,17 +11,22 @@
 }
 
 .pink {
-  background: var(--color-pink);
+  /* Combina el color original con una versión más clara */
+  background: linear-gradient(to bottom, var(--color-pink), rgba(255, 192, 203, 0.7)); 
 }
 .principal {
-  background: var(--color-principal);
+  /* Combina el color original con una versión más oscura */
+  background: linear-gradient(to top, var(--color-principal), rgba(0, 0, 0, 0.2));
 }
 .secundario {
-  background: var(--color-secundario);
+  /* Gradiente radial para un efecto de "foco" */
+  background: radial-gradient(circle, var(--color-secundario), rgba(255, 255, 255, 0.3));
 }
 .gris{
-  background: var(--color-gris3);
+  /* Gradiente sutil que va hacia un gris más claro */
+  background: linear-gradient(to right, var(--color-gris3), rgba(220, 220, 220, 0.5));
 }
+
 
 .product-img {
   position: relative;
