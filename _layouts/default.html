@@ -3,58 +3,71 @@ layout: compress
 ---
 {% include head.html %}
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2H9V3XD"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   {% include nav.html %}
   {% include header.html %}
-    {{ content }}
+  
+  {{ content }}
+  
   {% include footer.html %}
   {% include floating-buttons.html %}
 
-  <script src="{{site.baseurl}}/js/search-script.js" type="text/javascript"></script>
-  <script src="{{site.baseurl}}/js/whatsapp.js" type="text/javascript"></script>
+  <!-- JavaScript - SOLO LOS NUEVOS ARCHIVOS -->
+  <script src="{{site.baseurl}}/js/search.js" defer></script>
+  <script src="{{site.baseurl}}/js/whatsapp.js" defer></script>
+  
+  <!-- Navigation Mobile Menu -->
   <script>
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      noResultsText: 'No tenemos este texto aún',
-      fuzzy: false
-    });
-  </script>
- <!-- Navigation Mobile Menu -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const hamburger = document.getElementById('hamburger');
-      const mobileMenu = document.getElementById('mobileMenu');
-      const mobileClose = document.getElementById('mobileClose');
-      const accordionBtns = document.querySelectorAll('.mobile-accordion-btn');
+    (function() {
+      'use strict';
       
-      hamburger?.addEventListener('click', () => {
-        mobileMenu?.classList.add('active');
-        document.body.style.overflow = 'hidden';
-      });
-      
-      mobileClose?.addEventListener('click', () => {
-        mobileMenu?.classList.remove('active');
-        document.body.style.overflow = '';
-      });
-      
-      mobileMenu?.addEventListener('click', (e) => {
-        if (e.target === mobileMenu) {
-          mobileMenu.classList.remove('active');
+      const MobileNav = {
+        init() {
+          this.hamburger = document.getElementById('hamburger');
+          this.mobileMenu = document.getElementById('mobileMenu');
+          this.mobileClose = document.getElementById('mobileClose');
+          this.accordionBtns = document.querySelectorAll('.mobile-accordion-btn');
+          
+          if (!this.hamburger || !this.mobileMenu) return;
+          
+          this.attachEvents();
+        },
+        
+        attachEvents() {
+          this.hamburger.addEventListener('click', () => this.open());
+          this.mobileClose?.addEventListener('click', () => this.close());
+          this.mobileMenu.addEventListener('click', (e) => {
+            if (e.target === this.mobileMenu) this.close();
+          });
+          this.accordionBtns.forEach(btn => {
+            btn.addEventListener('click', () => this.toggleAccordion(btn));
+          });
+          this.mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => this.close());
+          });
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && this.mobileMenu.classList.contains('active')) {
+              this.close();
+            }
+          });
+        },
+        
+        open() {
+          this.mobileMenu.classList.add('active');
+          document.body.style.overflow = 'hidden';
+          this.hamburger.setAttribute('aria-expanded', 'true');
+        },
+        
+        close() {
+          this.mobileMenu.classList.remove('active');
           document.body.style.overflow = '';
-        }
-      });
-      
-      accordionBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
+          this.hamburger.setAttribute('aria-expanded', 'false');
+        },
+        
+        toggleAccordion(btn) {
           const content = btn.nextElementSibling;
           const isExpanded = btn.getAttribute('aria-expanded') === 'true';
           
-          accordionBtns.forEach(otherBtn => {
+          this.accordionBtns.forEach(otherBtn => {
             if (otherBtn !== btn) {
               otherBtn.setAttribute('aria-expanded', 'false');
               otherBtn.nextElementSibling?.classList.remove('active');
@@ -63,25 +76,15 @@ layout: compress
           
           btn.setAttribute('aria-expanded', !isExpanded);
           content?.classList.toggle('active');
-        });
-      });
-      
-      const mobileLinks = mobileMenu?.querySelectorAll('a');
-      mobileLinks?.forEach(link => {
-        link.addEventListener('click', () => {
-          mobileMenu.classList.remove('active');
-          document.body.style.overflow = '';
-        });
-      });
-      
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && mobileMenu?.classList.contains('active')) {
-          mobileMenu.classList.remove('active');
-          document.body.style.overflow = '';
         }
-      });
-    });
+      };
+      
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => MobileNav.init());
+      } else {
+        MobileNav.init();
+      }
+    })();
   </script>
 </body>
-
 </html>

@@ -1,5 +1,5 @@
-baseurl: ''
-url: 'https://italgel.com.co'
+baseurl: '/italgel'
+url: ''
 name: 'italgel.com.co'
 logo: img/logo.webp
 author: Sebastián Rios

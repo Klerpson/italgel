@@ -7,8 +7,30 @@
   
     
       <url>
-        <loc>http://localhost:4000/404/</loc>
-        <lastmod>2025-10-04T07:42:56-05:00</lastmod>
+        <loc>http://localhost:4000/italgel/404/</loc>
+        <lastmod>2025-10-04T09:56:43-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/bases-helado-colombia/</loc>
+        <lastmod>2025-10-04T09:56:43-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/blog/</loc>
+        <lastmod>2025-10-04T09:56:43-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -21,8 +43,19 @@
   
     
       <url>
-        <loc>http://localhost:4000/</loc>
-        <lastmod>2025-10-04T07:42:56-05:00</lastmod>
+        <loc>http://localhost:4000/italgel/</loc>
+        <lastmod>2025-10-04T09:56:43-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/maquinas-helado-soft/</loc>
+        <lastmod>2025-10-04T09:56:43-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         

@@ -9,7 +9,6 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <meta name="theme-color" content="#25D366">
-  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="application-name" content="{{ site.name }}">
   <title>{{ page.title | escape }}</title>
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
@@ -50,28 +49,32 @@
   <meta name="twitter:image" content="{{ og_image | prepend: site.url }}">
 
   <!-- Favicon & Apple Touch Icons -->
-  <link rel="shortcut icon" href="/iconified/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{'/iconified/favicon.ico'|relative_url}}" type="image/x-icon">
   {% assign apple_touch_icons = '57x57,72x72,76x76,114x114,120x120,144x144,152x152,180x180' | split: ',' %}
   {% for size in apple_touch_icons %}
-    <link rel="apple-touch-icon" sizes="{{ size }}" href="/iconified/apple-touch-icon-{{ size }}.png">
+    <link rel="apple-touch-icon" sizes="{{ size }}" href="{{site.baseurl}}/iconified/apple-touch-icon-{{ size }}.png">
   {% endfor %}
 
-  <!-- Critical Path -->
+  <!-- Critical CSS Inline -->
   <style>
-    body { color: var(--colorTexto); }
+    {% include css/critical.css %}
   </style>
 
   <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="//maps.googleapis.com">
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-  <!-- Preloads and Stylesheets -->
-  <link rel="preload" href="{{ 'css/style.css' | relative_url }}" as="style">
-  <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
-  
+  <!-- Preload Critical Assets -->
+  <link rel="preload" href="{{ '/css/style.css' | relative_url }}" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
   {% include schema.html %}
   
   <!-- Google Tag Manager -->

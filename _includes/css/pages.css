@@ -135,3 +135,55 @@
 
   h2{margin: 0;}
 }
+
+/* ===== MEJORAS PARA DETAILS (FAQ) ===== */
+details {
+  background: var(--color-gris);
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+}
+
+details summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+details p {
+  margin-top: 1em;
+}
+
+/* ===== FORM DE NEWSLETTER/EMAIL ===== */
+form.center input[type="email"] {
+  width: min(100%, 500px);
+  padding: 1em;
+  border: 2px solid var(--color-gris2);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+form.center input[type="email"]:focus {
+  outline: none;
+  border-color: var(--color-accion);
+}
+
+form.center button {
+  width: auto;
+}
+
+/* ===== RESPONSIVE TABLES ===== */
+@media (width < 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 0.875rem;
+  }
+  
+  table th,
+  table td {
+    padding: 0.75em 0.5em;
+  }
+}

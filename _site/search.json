@@ -1,60 +1,64 @@
 [
   
-  ,
-  
-  
-  
-  
-    {
-    
-    "title"    : "Página no encontrada",
-    "url"      : "/404/"
-    
-    } ,
-
-  
-  
-  
-  
-    {
-    
-    } ,
-
-  
-  
-  
-  
-    {
-    
-    "title"    : "Insumos y Equipos para Heladería Profesional en Colombia | Italgel",
-    "url"      : "/"
-    
-    } ,
-
-  
-  
-  
-  
-    {
-    
-    } ,
-
-  
-  
-  
-  
-    {
-    
-    } ,
-
-  
   
   
     
-    {
       
-      } 
+        {
+          "title": "Página no encontrada",
+          "url": "/italgel/404/"
+        },
+      
+    
   
+    
+      
+        {
+          "title": "Bases para Helado Artesanal | MEC3 Colombia - Italgel",
+          "url": "/italgel/bases-helado-colombia/"
+        },
+      
+    
   
+    
+      
+        {
+          "title": "Blog de Heladería Profesional | Guías, Técnicas y Negocio - Italgel",
+          "url": "/italgel/blog/"
+        },
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        {
+          "title": "Insumos y Equipos para Heladería Profesional en Colombia | Italgel",
+          "url": "/italgel/"
+        },
+      
+    
+  
+    
+      
+        {
+          "title": "Máquinas de Helado Soft Profesionales | Coldelite Colombia - Italgel",
+          "url": "/italgel/maquinas-helado-soft/"
+        },
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
   
 ]

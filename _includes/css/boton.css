@@ -1,27 +1,6 @@
-.boton {
-  display: inline-block;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: clamp(0.875rem, 1.5vw, 1rem);
-  letter-spacing: 0.02em;
-  transition: var(--transition);
-  width: max-content;
-  cursor: pointer;
-}
 
 .boton:hover {
   transform: var(--transform-translate-small);
   box-shadow: var(--shadow-hover);
   transform: scale(1.015);
-}
-
-.boton_1 {
-  background: var(--color-accion);
-  color: var(--color-blanco);
-}
-
-.boton_2{
-  color: var(--color-blanco);
-  background: var(--color-principal);
 }

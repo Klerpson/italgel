@@ -1,8 +1,5 @@
-
 :root {
-  --color-accion: #D36677;
   --color-pink: #f891a1;
-  --color-principal: #6BB1BA;
   --color-secundario: #C37134;
   --color-terciario: #e1ce7a;
   --color-acento: #e1ce7ab2;
@@ -10,20 +7,16 @@
   --color-gris1: #EDEDED;
   --color-gris2: #D0D0D0;
   --color-gris3: #5A5A65;
-  --color-blanco: #ffffff;
-  --color-texto: #424B54;
   --transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
   --radius: 24px;
-  
+
   /* Colores adicionales para helados */
   --color-mint: #E8F5F3;
   --color-lavender: #E6E1F0;
   --color-cream: #FFF8E7;
-  
+
   /*** FUENTES ***/
-  --fuenteTexto: "Inter", sans-serif;
-  --fuenteTitulos: "Inter", sans-serif;
   --sizeTexto: 16px;
 
   /*** TRANSFORMACIONES Y EFECTOS ***/
@@ -53,13 +46,9 @@ html {
 }
 
 body {
-  position: relative;
-  font-family: var(--fuenteTexto);
-  font-size: var(--sizeTexto);
-  background-color: var(--color-blanco);
-  line-height: 1.6;
-  -webkit-text-size-adjust: 100%;
-  color: var(--color-texto);
+   position: relative;
+   font-size: var(--sizeTexto);
+   -webkit-text-size-adjust: 100%;
 }
 
 h1,
@@ -139,29 +128,13 @@ img {
   line-height: 1;
 }
 
-.text_center{   
-  text-align: center;
-  padding: 0 1.2em;
-}
 
-.center {
-  display: grid;
-  place-items: center;
-}
 
 .padding_block{
   padding-block: 3em;
 }
 
-.wrapper {
-  width: min(calc(100% - 1.5em), 1440px);
-  margin-inline: auto;
-  padding: 3em 1rem;
-}
 
-.flow > * + * {
-  margin-top: 1.2em;
-}
 
 .flex {
   display: flex;
