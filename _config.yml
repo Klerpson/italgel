@@ -4,6 +4,8 @@ name: 'italgel.com.co'
 logo: img/logo.webp
 author: Sebastián Rios
 telefono: 573192346788
+email: info@mec3.co
+direccion: "Calle 68 No 68B - 74, Bogotá, Colombia"
 
 markdown: kramdown
 
@@ -24,7 +26,7 @@ compress_html:
 collections:
   ciudades:
     output: true
-    permalink: /productos/:path/
+    permalink: /productos/:slug/
   posts:
     output: true
     permalink: /blog/:slug/

@@ -1,116 +1,42 @@
-{% if page.layout == "ciudades" %}
+{% if page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "url": "{{ page.url | prepend: site.url | escape }}",
-  "mainEntity": {
-    "@type": "EducationalOrganization",
-    "name": "Escuelas de Inglés en {{ page.ciudad | capitalize }}",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "{{ page.ciudad | capitalize }}",
-      "addressRegion": "{{ page.category | capitalize }}",
-      "addressCountry": "US"
-    },
-    "description": "{{ page.intro | escape }}",
-    "offers": [
+  "@type": "LocalBusiness",
+  "name": "Italgel Colombia",
+  "description": "Distribuidor de insumos y equipos para heladería profesional en Colombia",
+  "url": "https://italgel.com.co",
+  "telephone": "{{site.telefono}}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CO"
+  },
+  "areaServed": [
+    "Bogotá",
+    "Medellín",
+    "Cali",
+    "Barranquilla",
+    "Bucaramanga"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Insumos para Heladería",
+    "itemListElement": [
       {
-        "@type": "EducationalOrganization",
-        "name": "Cursos de inglés en {{ page.ciudad | capitalize }}",
-        "url": "{{site.url}}{{page.url}}#{{ page.boton1_url | escape }}",
-        "description": "{{ page.description | escape }}",
-        "offers": {
-          "@type": "EducationalOrganization",
-          "name": "Más opciones",
-          "url": "{{site.url}}{{page.url}}#{{ page.boton2_url | escape }}",
-          "description": "Encuentra más opciones de escuelas de inglés en {{ page.ciudad | capitalize }}."
-        }
-      }
-    ]
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}/img/{{ page.webp | escape }}",
-    "height": 240,
-    "width": 320
-  }
-}
-</script>
-
-{% elsif page.layout == "post" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "url": "{{ page.url | prepend: site.url | escape }}",
-  "mainEntityOfPage": "{{ page.url | prepend: site.url | escape }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}/img/{{ page.webp | escape }}",
-    "height": 240,
-    "width": 320
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Autor del Blog"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.name | escape }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.logo | prepend: site.url | escape }}"
-    }
-  },
-  "datePublished": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}",
-  "dateModified": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}"
-}
-</script>
-
-{% elsif page.layout == "compress" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "url": "{{ page.url | prepend: site.url | escape }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ page.webp | prepend: site.url | escape }}",
-    "height": 240,
-    "width": 320
-  }
-}
-</script>
-
-{% elsif page.layout == "default" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "url": "{{ page.url | prepend: site.url | escape }}",
-  "mainEntity": {
-    "@type": "EducationalOrganization",
-    "name": "{{ page.h1 | escape }}",
-    "description": "{{ page.intro | escape }}",
-    "offers": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "Clases de inglés en EE.UU.",
-        "url": "{{ page.url | prepend: site.url | escape }}",
-        "description": "{{ page.description | escape }}"
+        "@type": "OfferCatalog",
+        "name": "Bases para Helado",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Base 50 MEC3"
+            }
+          }
+        ]
       }
     ]
   }
 }
 </script>
-
 {% endif %}

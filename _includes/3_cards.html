@@ -7,7 +7,7 @@
       {% if product.highlight %}
       <div class="product-badge">🍦 ¡Destacado!</div>
       {% endif %}
-      <img src="{{product.img | realtive_url}}" alt="{{product.alt}}" width="280" height="280" loading="lazy" decoding="async" title="{{product.title}}">
+      <img src="{{product.img | relative_url}}" alt="{{product.alt}}" width="280" height="280" loading="lazy" decoding="async" title="{{product.title}}">
     </div>
     <div class="text_center product-content flow">
       <h3>{{ product.title }}</h3>
