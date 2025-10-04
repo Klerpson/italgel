@@ -1,12 +1,12 @@
 /* Footer */
 .footer {
-  background: var(--color-pink);
+  background: var(--color-principal);
 }
 
 .footer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(226px, 1fr));
+  gap: 2em;
   margin-bottom: 2rem;
   place-content: center;
 }
@@ -15,8 +15,8 @@
   list-style: none;
 }
 
-.footer-section ul li a {
-  color: var(--color-gris3);
+.footer-section ul li a:not(.boton) {
+  color: var(--color-blanco);
   text-decoration: none;
   font-size: 0.95rem;
   transition: var(--transition);
@@ -34,6 +34,13 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+
+  small a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: 400;
+  }
 }
 
 .social-links {

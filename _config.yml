@@ -3,12 +3,11 @@ url: 'https://italgel.com.co'
 name: 'italgel.com.co'
 logo: img/logo.webp
 author: Sebastián Rios
-telefono: 3166926111
-whatsapp_message: "Hola, quiero más información sobre los helados artesanales"
+telefono: 573192346788
 
 markdown: kramdown
 
-permalink: :slug
+permalink: :slug/
 
 keep_files: [/img]
 
@@ -25,7 +24,7 @@ compress_html:
 collections:
   ciudades:
     output: true
-    permalink: /productos/:path
+    permalink: /productos/:path/
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:slug/

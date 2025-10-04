@@ -4,8 +4,10 @@ noindex: true
 ---
 {% include css/universal.css %}
 {% include css/nav.css %}
+{% include css/floating-buttons.css %}
 {% include css/boton.css %}
 {% include css/header.css %}
 {% include css/cards.css %}
+{% include css/pages.css %}
 {% include css/media-queries.css %}
 {% include css/footer.css %}

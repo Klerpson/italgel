@@ -239,7 +239,7 @@
 }
 
 .nav-cta .boton::before {
-  content: '💬';
+  content: '👉';
 }
 
 .nav-cta .boton:hover {

@@ -15,7 +15,7 @@ gallery:
   - lorem ipsum image: img/pistacho-para-helado-italgel.avif
 ---
 <main class="wrapper">
-  <div class="tex_center center flow">
+  <div class="text_center center flow">
     <h2>Los suministros más pedidos para las heladerías en Colombia</h2>
     <p>
       <strong>Cada kilo de base</strong> que usas determina tu margen de
@@ -29,7 +29,7 @@ gallery:
   {% include 3_cards.html data="suministros_home" %}
   <h3>Maquinas para helados de Italgel</h3>
   {% include 3_cards.html data="maquinas_home" %}
-  <div class="center tex_center flow">
+  <div class="center text_center flow">
     <p>
       Distribuimos las marcas que los maestros heladeros italianos han
       perfeccionado durante décadas: MEC3, Coldelite y Carpigiani. Pero más
@@ -42,7 +42,7 @@ gallery:
 </main>
 <!-- Gallery -->
 <section class="wrapper bg_grey center">
-  <h2 class="tex_center">
+  <h2 class="text_center">
     Suministros de Italgel más pedidos por los heladeros Colombianos
   </h2>
   {% include gallery.html %}
@@ -52,9 +52,9 @@ gallery:
   <a href="#" class="boton boton_2">+ Conoce el catálogo completo</a>
 </aside>
 <section class="wrapper flow center">
-  <h3 class="tex_center">Los 3 pilares que diferencian a Italgel</h3>
+  <h3 class="text_center">Los 3 pilares que diferencian a Italgel</h3>
   <div class="three_columns">
-    <div class="tex_center flow center">
+    <div class="text_center flow center">
       <div class="icons">
         <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
           <path
@@ -65,7 +65,7 @@ gallery:
       <h4>Composición de helados optimizada para overrun ideal</h4>
       <p>Las bases MEC3 están formuladas para lograr el overrun óptimo según tu tipo de helado (25-100%). Esto significa <strong>más volumen de producto terminado por cada kilo de base</strong>, reduciendo tu costo por porción hasta en 40% vs bases genéricas.</p>
     </div>
-    <div class="tex_center borders flow center">
+    <div class="text_center borders flow center">
       <div class="icons">
         <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
           <path
@@ -76,7 +76,7 @@ gallery:
       <h4>Asesoría técnica a nuestros clientes sin costo adicional</h4>
       <p>No solo te vendemos insumos. Te enseñamos a <strong>calcular rendimientos, optimizar recetas y resolver problemas de producción</strong>. Cada cliente tiene acceso directo a nuestro equipo técnico con más de 15 años en el gremio heladero.</p>
     </div>
-    <div class="tex_center flow center">
+    <div class="text_center flow center">
       <div class="icons">
         <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
           <path
@@ -90,20 +90,158 @@ gallery:
   </div>
 </section>
 <section class="wrapper flex">
-  <article class="pink datos center tex_center">
+  <article class="pink datos center text_center">
     <span>+200 heladerías</span>
     <p>Confían en nuestros insumos y maquinas para su producción diaria en Colombia</p>
   </article>
-  <article class="principal datos center tex_center">
+  <article class="principal datos center text_center">
     <span>Más rendimiento</span>
     <p>25-40% logran nuestros clientes vs bases genéricas gracias a la formulación MEC3</p>
   </article>
-  <article class="secundario datos center tex_center">
+  <article class="secundario datos center text_center">
     <span>15 años</span>
     <p>De experiencia asesorando maestros heladeros y emprendedores del sector</p>
   </article>
-  <article class="gris datos center tex_center">
+  <article class="gris datos center text_center">
     <span>72 horas</span>
     <p>Tiempo máximo de entrega en las principales ciudades de Colombia a contraentrega</p>
   </article>
+</section>
+
+<section class="wrapper center">
+  <h2 class="text_center">¿Qué tipo de heladería tienes? Lo que necesites para preparar helados</h2>
+  <p>Cada modelo de negocio requiere insumos específicos. Identifica el tuyo:</p>
+
+  <article class="flex bg_grey_light">
+    <div class="flow">
+      <h3>Heladería Artesanal (Gelato italiano)</h3>
+      <p>Producción diaria en batch pequeños, enfoque en calidad premium, variedad rotativa de sabores, overrun 25-50%.</p>
+      <h4>Tu heladería Gelato necesita</h4>
+      <ul>
+        <li>Bases neutras (Base 50, Neutralin)</li>
+        <li>Pastas concentradas premium</li>
+        <li>Mantecadora profesional o vitrinas</li>
+      </ul>
+      {% include boton.html num="1" text="Pide el paquete artesanal 🍨" %}
+    </div>
+    <img src="{{'img/proveedor-heladeria-gelato-artesanal.avif'|realtive_url}}" alt="Productos para helado artesanal o gelato distribuidos por Italgel Colombia" title="Suministros Helados Gelato" loading="lazy" decoding="async" width="584" height="396">
+  </article>
+  
+  <article class="flex flex_left bg_grey_light">
+    <div class="flow">
+      <h3>Punto de Helado Soft</h3>
+      <p>Servicio rápido, 2-3 sabores fijos, máquina automática, overrun 60-80%, alto volumen.</p>
+      <h4>Tu heladería Gelato necesita</h4>
+      <ul>
+        <li>Bases para soft (Supergelmix)</li>
+        <li>Máquina de helado soft de mesa o piso</li>
+        <li>Coberturas y toppings variados</li>
+      </ul>
+      {% include boton.html num="1" text="Pide el paquete soft 🍦" %}
+    </div>
+    <img src="{{'img/proveedor-helado-soft.avif'|realtive_url}}" alt="Productos para helado artesanal o gelato distribuidos por Italgel Colombia" title="Suministros Helados Gelato" loading="lazy" decoding="async" width="584" height="396">
+  </article>
+
+  <article class="flex bg_grey_light">
+    <div class="flow">
+      <h3>Producción Industrial</h3>
+      <p>Fabricación para distribución mayorista, línea de varios sabores, empaque para reventa, overrun 80-100%.</p>
+      <h4>Tu heladería Gelato necesita</h4>
+      <ul>
+        <li>Bases industriales en presentación mayor</li>
+        <li>Pasteurizador y mantecadora industrial</li>
+        <li>Pastas y variegatos en cubeta</li>
+      </ul>
+      {% include boton.html num="1" text="Cotizar producción industrial 🍧" %}
+    </div>
+    <img src="{{'img/proveedor-industrial-heladerias.avif'|realtive_url}}" alt="Productos para helado artesanal o gelato distribuidos por Italgel Colombia" title="Suministros Helados Gelato" loading="lazy" decoding="async" width="584" height="396">
+  </article>
+</section>
+<section class="wrapper center">
+  <h2 class="text_center">
+    Lo que dicen los clientes de Italgel Colombia
+  </h2>
+  <div class="testimonios">
+    <blockquote>
+      <p>Por más de 2 años perdimos mucho dinero tratando de encontrar un proveedor de máquinas soft serio y responsable. Desde Italgel siempre nos han asesorado y acompañado para el buen uso de nuestro equipo. Fue una gran necesidad que por fin resolvimos.</p>
+      <cite>Julian Franco - Heladería GurCoff, San Agustín Huila</cite>
+    </blockquote>
+    <blockquote>
+      <p>La asesoría técnica de Italgel fue clave para optimizar nuestras recetas. Nos enseñaron a calcular el overrun correctamente y ahora producimos 40% más helado con la misma cantidad de base.</p>
+      <cite>Carlos Mendoza - Gelato di Napoli, Bogotá</cite>
+    </blockquote>
+    <blockquote>
+      <p>Montamos nuestra heladería desde cero con el paquete de inicio de Italgel. La máquina Coldelite que nos recomendaron tiene 2 años funcionando sin problemas y la inversión se pagó en 7 meses.</p>
+      <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
+    </blockquote>
+    <blockquote>
+      <p>Montamos nuestra heladería desde cero con el paquete de inicio de Italgel. La máquina Coldelite que nos recomendaron tiene 2 años funcionando sin problemas y la inversión se pagó en 7 meses.</p>
+      <cite>Roberto Gómez - La Cremería, Cali</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="wrapper flex">
+  <div class="flow">
+    <h2 style="margin-top: 0;">Somos distribuidores para heladerías en todo Colombia</h2>
+    <p>Tenemos cobertura en las principales ciudades de Colombia con entregas en 24-72 horas según tu ubicación. Para pedidos en otras ciudades, consulta tiempos de envío.</p>
+    {% include boton.html num="1" text="Consulta cobertura en tu ciudad 🚚" %}
+  </div>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <!-- Primer set de imágenes -->
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-cali.avif" alt="Productos para helado artesanal distribuidos por Italgel Colombia" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-manizales.avif" alt="Heladería profesional de Manizales que trabaja con Italgel Colombia" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-neiva.avif" alt="Bases y toppings para helado soft" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-bogota.avif" alt="Insumos para heladería en Bogotá" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-medellin.avif" alt="Variegatos y coberturas para helado en Medellín" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-barranquilla.avif" alt="Productos para gelato en Barranquilla con Italgel" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item">
+        <img src="img/proveedor-heladerias-bucaramanga.avif" alt="Distribuidora de insumos para helado en Bucaramanga" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      
+      <!-- Duplicado para efecto infinito -->
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-cali.avif" alt="Italgel proveedor para heladerías de Cali" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-manizales.avif" alt="Productos de heladería profesional de Manizales fabricados con suministros de Italgel Colombia" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-neiva.avif" alt="Bases de helado soft en Neiva" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-bogota.avif" alt="Vitrina para helados en Bogotá" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-medellin.avif" alt="Toppings y coberturas de helado en Medellín" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-barranquilla.avif" alt="Italgel proveedor de productos para heladería también en Barranquilla" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+      <div class="carousel-item" aria-hidden="true">
+        <img src="img/proveedor-heladerias-bucaramanga.avif" alt="Heladería de Bucaramanga con productos de Italgel" width="584" height="396" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper center text_center flow cta">
+  <h2>Comienza a producir helado más rentable esta semana</h2>
+  <p>Cotiza tus insumos por WhatsApp y recibe asesoría técnica personalizada sin compromiso. Descubre cuánto puedes reducir tus costos de producción con los insumos correctos.</p>
+  {% include boton.html num="1" text="Cotizar por WhatsApp ahora 👉🍨" %}
+  <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar a asesoría técnica</a>
+  <small><i>Horario de atención: Lunes a Viernes 8:00 AM - 6:00 PM | Sábados 9:00 AM - 1:00 PM</i></small>
 </section>
