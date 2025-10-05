@@ -40,3 +40,74 @@
 }
 </script>
 {% endif %}
+{% if page.layout == "/bases-helado-colombia/" %}
+
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Bases para Helado Profesional MEC3",
+  "description": "Catálogo de bases para helado artesanal, soft e industrial. Distribuidor autorizado MEC3 en Colombia.",
+  "url": "{{ page.url | prepend: site.url }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "Italgel Colombia"
+  },
+  "hasPart": [
+    {
+      "@type": "Product",
+      "name": "Base 50 MEC3",
+      "description": "Base para helado artesanal con overrun 50-60%",
+      "brand": {
+        "@type": "Brand",
+        "name": "MEC3"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Neutralin Plus",
+      "description": "Base para gelato italiano ultra cremoso",
+      "brand": {
+        "@type": "Brand",
+        "name": "MEC3"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Supergelmix",
+      "description": "Base para helado soft profesional",
+      "brand": {
+        "@type": "Brand",
+        "name": "MEC3"
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre Base 50 y Neutralin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde comprar bases para helado al por mayor en Colombia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
