@@ -276,32 +276,88 @@ form.center button {
    ================================= */
 table {
   font-size: 0.95rem;
-  
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--surface, var(--color-blanco));
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 4px 10px rgba(0,0,0,0.06);
+  transition: box-shadow 200ms cubic-bezier(.4,0,.2,1), transform 200ms;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+
+  th, td {
+    padding: 1rem 1.25rem;
+    white-space: nowrap;
+  }
+
   th {
     font-weight: 700;
     text-align: start;
-    
+    background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.86));
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(6px);
+    color: var(--color-texto);
+    font-size: 0.95rem;
+
     &:not(:first-child) {
       text-align: center;
     }
   }
-  
+
   td {
     vertical-align: middle;
+    color: var(--color-texto);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    background-clip: padding-box;
   }
-  
-  tr:hover {
-    background: color-mix(in srgb, var(--color-accion) 5%, transparent);
+
+  tbody tr {
+    transition: transform 180ms cubic-bezier(.4,0,.2,1), box-shadow 180ms, background 120ms;
+    will-change: transform;
+  }
+
+  tbody tr:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    background: color-mix(in srgb, var(--color-accion) 6%, transparent);
+  }
+
+  /* keyboard / focus visible */
+  tbody tr:focus-within,
+  tbody tr:focus {
+    outline: 2px solid color-mix(in srgb, var(--color-accion) 24%, transparent);
+    outline-offset: -2px;
+  }
+
+  /* subtle zebra on larger screens for readability */
+  @media (min-width: 920px) {
+    tbody tr:nth-child(even) td {
+      background: rgba(0,0,0,0.01);
+    }
   }
 }
 
-/* Responsive table wrapper */
-@media (width < 768px) {
+/* Responsive table wrapper: allow horizontal scroll and compact spacing on small screens */
+@media (max-width: 767.98px) {
   table {
+    display: block;
     font-size: 0.85rem;
-    
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+
     th, td {
       padding: 0.75rem !important;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
     }
   }
 }
