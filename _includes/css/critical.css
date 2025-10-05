@@ -125,6 +125,12 @@ body{
   padding:3em 1rem;
 }
 
+.section{
+  width:min(calc(100% - 1.5em),1440px);
+  margin-inline:auto;
+  padding:1rem;
+}
+
 .center{
   display:grid;
   place-items:center;

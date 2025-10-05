@@ -2,6 +2,9 @@
   .wrapper{
     padding: 4em 3em;
   }
+  .section{
+    padding: 1rem 3em;
+  }
   
   .three_columns .borders{
     border-left: 2px solid var(--color-gris1);

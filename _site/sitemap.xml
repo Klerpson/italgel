@@ -8,7 +8,7 @@
     
       <url>
         <loc>http://localhost:4000/italgel/404/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -18,11 +18,23 @@
   
     
       <url>
-        <loc>http://localhost:4000/italgel/bases-helado-colombia/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <loc>http://localhost:4000/italgel/bases-helado-colombia/base-50-mec3/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/base-50-mec3-2kg-italgel.jpg</image:loc>
+            <image:title>Base 50 MEC3 2kg | Base para Helado Artesanal Profesional - Italgel</image:title>
+            <image:caption>Base 50 MEC3 presentación 2kg para helado artesanal profesional distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/base-50-mec3-2kg-italgel.webp</image:loc>
+            <image:title>Base 50 MEC3 2kg | Base para Helado Artesanal Profesional - Italgel</image:title>
+            <image:caption>Base 50 MEC3 presentación 2kg para helado artesanal profesional distribuida por Italgel Colombia</image:caption>
+          </image:image>
         
       </url>
     
@@ -30,18 +42,7 @@
     
       <url>
         <loc>http://localhost:4000/italgel/blog/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/italgel/coberturas-salsas-helado/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -52,7 +53,7 @@
     
       <url>
         <loc>http://localhost:4000/italgel/equipos/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -61,45 +62,46 @@
     
   
     
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/mantecadora-helado-artesanal/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/maquinas-helado-industrial/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/maquina-industrial-helado.jpg</image:loc>
+            <image:title>Máquinas de Helado Industrial | Líneas de Producción - Italgel Colombia</image:title>
+            <image:caption>Línea de producción industrial de helado Carpigiani para fabricación a gran escala distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/maquina-industrial-helado.webp</image:loc>
+            <image:title>Máquinas de Helado Industrial | Líneas de Producción - Italgel Colombia</image:title>
+            <image:caption>Línea de producción industrial de helado Carpigiani para fabricación a gran escala distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+      </url>
     
   
     
       <url>
         <loc>http://localhost:4000/italgel/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/italgel/insumos-heladeria-medellin/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/italgel/insumos/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/italgel/maquinas-helado-soft/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
@@ -110,10 +112,161 @@
     
       <url>
         <loc>http://localhost:4000/italgel/pastas-sabores-helado/</loc>
-        <lastmod>2025-10-05T07:55:53-05:00</lastmod>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/granelas-decoracion/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/coberturas-salsas-helado/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/productos-quella/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/quella-family-variegatos.jpg</image:loc>
+            <image:title>Quella Family Colombia | Variegatos y Toppings Premium - Italgel</image:title>
+            <image:caption>Productos Quella Family - variegatos y toppings italianos para helado artesanal distribuidos por Italgel Colombia</image:caption>
+          </image:image>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/quella-family-variegatos.webp</image:loc>
+            <image:title>Quella Family Colombia | Variegatos y Toppings Premium - Italgel</image:title>
+            <image:caption>Productos Quella Family - variegatos y toppings italianos para helado artesanal distribuidos por Italgel Colombia</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/variegatos-helado/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/vitrinas-exhibicion-helado/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/bases-helado-colombia/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/maquinas-helados-soft/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/insumos-heladeria-medellin/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/insumos/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/bases-helado-colombia/neutralin-plus/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/neutralin-plus-mec3-gelato.jpg</image:loc>
+            <image:title>Neutralin Plus MEC3 | Base para Gelato Italiano Ultra-Cremoso - Italgel</image:title>
+            <image:caption>Neutralin Plus MEC3 base premium para gelato italiano auténtico distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/italgel/pastas-sabores-helado/pasta-pistacho/</loc>
+        <lastmod>2025-10-05T16:22:44-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/pasta-pistacho-siciliano-mec3.jpg</image:loc>
+            <image:title>Pasta de Pistacho Siciliano | Pasta para Helado Profesional - Italgel</image:title>
+            <image:caption>Pasta de pistacho siciliano MEC3 con concentración real de fruto seco distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/italgel/img/pasta-pistacho-siciliano-mec3.webp</image:loc>
+            <image:title>Pasta de Pistacho Siciliano | Pasta para Helado Profesional - Italgel</image:title>
+            <image:caption>Pasta de pistacho siciliano MEC3 con concentración real de fruto seco distribuida por Italgel Colombia</image:caption>
+          </image:image>
         
       </url>
     

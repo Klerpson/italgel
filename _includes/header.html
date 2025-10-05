@@ -36,6 +36,20 @@
     width="584" height="584" loading="eager" fetchpriority="high" decoding="async">
   </picture>
 </header>
+{% when "products" %}
+<header class="wrapper flex hero_products" role="banner">
+  <picture class="hero_picture">
+    <source media="(min-width: 992px)" srcset="{{ page.hero | relative_url }}" type="image/avif">
+    <source media="(max-width: 991px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
+    <img src="{{ page.hero | relative_url }}" alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+    width="584" height="584" loading="eager" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="flow">
+    <h1 class="hero_title">{{page.h1}}</h1>
+    <p>{{page.intro}}</p>
+    {% include boton.html num="1" text="Pídelo por WhatsApp 🛒" %}
+  </div>
+</header>
 {% else %}
 <header>
   <h1>{{page.h1}}</h1>
