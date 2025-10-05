@@ -111,3 +111,92 @@
 }
 </script>
 {% endif %}
+{% if page.layout == "/pastas-sabores-helado/" %}
+
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Pastas Concentradas para Helado Artesanal",
+  "description": "Catálogo de pastas MEC3 para helado: frutos secos, clásicas, frutas. Concentración real del ingrediente.",
+  "url": "{{ page.url | prepend: site.url }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "Italgel Colombia"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre pasta y extracto de vainilla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde comprar pasta de pistacho para helado en Colombia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+{% if page.layout == "/insumos-heladeria-medellin/" %}
+
+<!-- Schema Markup Local Business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Italgel Colombia - Medellín",
+  "description": "Distribuidor de insumos y equipos para heladería profesional en Medellín",
+  "image": "{{ 'img/italgel-medellin-distribuidor.avif' | prepend: site.url }}",
+  "telephone": "{{ site.telefono }}",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "City",
+    "name": "Medellín",
+    "addressCountry": "CO"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Insumos para Heladería",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Bases MEC3 para helado"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Pastas concentradas para helado"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Máquinas para heladería"
+        }
+      }
+    ]
+  }
+}
+</script>
+{% endif %}
