@@ -17,7 +17,7 @@
     <p  class="hero_title">{{page.intro}}</p>
     <div class="three_columns">
       {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
-      <a href="#" class="boton boton_2">Ver catálogo 🍧</a>
+      <a href="{{'/insumos/'|relative_url}}" class="boton boton_2">Ver catálogo 🍧</a>
     </div>
   </div>
   <img src="{{page.hero|relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520">

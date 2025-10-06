@@ -14,7 +14,7 @@ gallery:
   - Salsas, veteados y sembrados para helado: img/bases-de-helado-colombia-italgel.avif
   - Productos para repostería y helados Italgel: img/pistacho-para-helado-italgel.avif
 ---
-<main class="wrapper">
+<main class="wrapper flow">
   <div class="text_center center flow">
     <h2>Insumos para heladería profesional con rendimiento garantizado</h2>
     <p>
@@ -26,13 +26,13 @@ gallery:
     </p>
   </div>
   <h3>Suministro para preparar helados de Italgel</h3>
+  <p>Distribuimos las marcas que los maestros heladeros italianos han perfeccionado durante décadas: MEC3, Coldelite y Carpigiani. Pero más importante aún, entendemos el mercado colombiano y te asesoramos para que cada inversión en insumos se traduzca en mayor rentabilidad por litro producido.</p>
+  <a href="{{'/insumos/'|relative_url}}" class="boton boton_2">Conoce los demás insumos 📒</a>
   {% include 3_cards.html data="suministros_home" %}
   <h3>Maquinas para helados de Italgel</h3>
+  <p>Como distribuidores oficiales de Coldelite y Carpigiani en Colombia, ofrecemos una gama completa de máquinas para heladería que se adaptan a tus necesidades de producción y presupuesto. Desde mantecadoras compactas para emprendimientos hasta equipos industriales para fábricas, cada máquina está diseñada para maximizar la eficiencia y la calidad del helado.</p>
+  <a href="{{'/equipos/'|relative_url}}" class="boton boton_2">Ver catálogo de máquinas </a>
   {% include 3_cards.html data="maquinas_home" %}
-  <div class="center text_center flow">
-    <p>Distribuimos las marcas que los maestros heladeros italianos han perfeccionado durante décadas: MEC3, Coldelite y Carpigiani. Pero más importante aún, entendemos el mercado colombiano y te asesoramos para que cada inversión en insumos se traduzca en mayor rentabilidad por litro producido.</p>
-    <a href="#" class="boton boton_2">Conoce los demás insumos 📒</a>
-  </div>
 </main>
 <!-- Gallery -->
 <section class="wrapper bg_grey center">
@@ -43,7 +43,7 @@ gallery:
 </section>
 <!-- Services -->
 <aside class="center">
-  <a href="#" class="boton boton_2">+ Conoce el catálogo completo</a>
+  {% include boton.html num="1" text="¿Necesitas asesoría? Escríbenos" %}
 </aside>
 <section class="wrapper flow center">
   <h3 class="text_center">Los 3 pilares que diferencian a Italgel</h3>
