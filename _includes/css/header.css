@@ -22,3 +22,12 @@
   background: #C37134;
   background: linear-gradient(83deg, rgba(195, 113, 52, 1) 11%, rgba(107, 177, 186, 1) 32%, rgba(107, 177, 186, 1) 77%, rgba(211, 102, 119, 1) 92%);
 }
+
+.hero_general{
+  padding-block: 4em;
+
+  h1{
+    font-size: 2.4rem;
+    color: var(--color-principal);
+  }
+}

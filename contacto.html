@@ -1,0 +1,113 @@
+---
+layout: general
+title: "Contacto Italgel | Insumos y Equipos para Heladería en Colombia"
+description: "Contáctanos para asesoría técnica, cotizaciones de insumos y equipos para heladería. Distribuidor autorizado en Bogotá, Medellín, Cali y más ciudades de Colombia."
+h1: "Contacto Italgel"
+intro: "¿Necesitas insumos para tu heladería? ¿Quieres asesoría técnica o cotizar equipos? Estamos aquí para ayudarte. Contáctanos y recibe atención personalizada para tu negocio de helados."
+hero: "img/contacto-italgel-colombia.avif"
+alt: "Contacto Italgel Colombia - Asesoría técnica y cotizaciones de insumos y equipos para heladería"
+---
+
+<main class="wrapper">
+
+  <section class="center flow">
+    <h2 class="text_center">Información de contacto</h2>
+
+    <div class="three_columns">
+      <article class="product-card center text_center">
+        <div class="icons">
+          <lord-icon
+              src="https://cdn.lordicon.com/wmwqvixz.json"
+              trigger="loop"
+              delay="2000"
+              colors="primary:#6bb1ba,secondary:#c37134"
+              style="width:60px;height:60px">
+          </lord-icon>
+        </div>
+        <div class="product-content flow">
+          <h3>Dirección</h3>
+          <p>{{ site.direccion }}</p>
+        </div>
+      </article>
+
+      <article class="product-card center text_center">
+        <div class="icons">
+          <lord-icon
+              src="https://cdn.lordicon.com/hrjifpbq.json"
+              trigger="loop"
+              delay="2000"
+              colors="primary:#6bb1ba,secondary:#c37134"
+              style="width:60px;height:60px">
+          </lord-icon>
+        </div>
+        <div class="product-content flow">
+          <h3>Teléfono</h3>
+          <p><a href="tel:+57{{ site.telefono }}">+57 {{ site.telefono }}</a></p>
+          {% include boton.html num="1" text="Escríbenos por WhatsApp 📱" %}
+        </div>
+      </article>
+
+      <article class="product-card center text_center">
+        <div class="icons">
+          <lord-icon
+              src="https://cdn.lordicon.com/aycieyht.json"
+              trigger="loop"
+              delay="2000"
+              colors="primary:#6bb1ba,secondary:#c37134"
+              style="width:60px;height:60px">
+          </lord-icon>
+        </div>
+        <div class="product-content flow">
+          <h3>Email</h3>
+          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrapper flex">
+    <article class="pink datos center text_center">
+      <span>Lunes - Viernes</span>
+      <p>8:00 AM - 5:00 PM</p>
+    </article>
+    <article class="principal datos center text_center">
+      <span>Sábado</span>
+      <p>9:00 AM - 12:00 PM</p>
+    </article>
+    <article class="secundario datos center text_center">
+      <span>Domingo</span>
+      <p>Cerrado</p>
+    </article>
+    <article class="gris datos center text_center">
+      <span>Emergencias</span>
+      <p>24/7 disponible</p>
+    </article>
+  </section>
+
+  <section class="center flow">
+    <h2 class="text_center">Cobertura en Colombia</h2>
+    <p>Entregamos en las principales ciudades de Colombia con tiempos de 24-72 horas. Consulta disponibilidad en tu ciudad.</p>
+
+    <div class="three_columns">
+      <div class="text_center flow center">
+        <h4>Bogotá y Cundinamarca</h4>
+        <p>Entrega en 24 horas</p>
+      </div>
+      <div class="text_center borders flow center">
+        <h4>Medellín y Antioquia</h4>
+        <p>Entrega en 48 horas</p>
+      </div>
+      <div class="text_center flow center">
+        <h4>Cali, Barranquilla, Bucaramanga</h4>
+        <p>Entrega en 72 horas</p>
+      </div>
+    </div>
+  </section>
+
+  <aside class="wrapper center text_center flow cta">
+    <h2>¿Listo para empezar tu proyecto de heladería?</h2>
+    <p>Contacta a nuestro equipo técnico. Te ayudamos a seleccionar los insumos y equipos ideales para tu negocio, con asesoría gratuita y sin compromiso.</p>
+    {% include boton.html num="1" text="Solicitar cotización 📋" %}
+  </aside>
+
+</main>
