@@ -24,9 +24,6 @@ compress_html:
     startings: []
 
 collections:
-  ciudades:
-    output: true
-    permalink: /productos/:slug/
   posts:
     output: true
     permalink: /blog/:slug/

@@ -7,12 +7,11 @@ date: 2025-01-22
 last_modified_at: 2025-01-22
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
-hero: /assets/img/blog/diferencia-gelato-helado-artesanal.jpg
-hero_webp: /assets/img/blog/diferencia-gelato-helado-artesanal.webp
-hero_alt: "Comparación visual entre gelato italiano denso y helado artesanal en vitrinas profesionales"
+hero: /img/blog/diferencia-gelato-helado-artesanal.avif
+jpg: /img/blog/diferencia-gelato-helado-artesanal.jpg
+alt: "Comparación visual entre gelato italiano denso y helado artesanal en vitrinas profesionales"
 h1: "Qué es el gelato italiano y en qué se diferencia del helado artesanal"
 schema_type: Article
-featured: true
 ---
 
 "¿Cuál es la diferencia entre gelato y helado?" es la pregunta que más escuchamos de heladeros que quieren posicionar su negocio. La respuesta no es solo semántica: son diferencias técnicas de producción que afectan directamente tu margen de ganancia, el perfil de tus clientes y la inversión en equipos.

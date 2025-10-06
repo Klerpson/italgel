@@ -1,6 +1,7 @@
 /* Footer */
 .footer {
   background: var(--color-principal);
+  padding: 2rem 0;
 }
 
 .footer-content {
@@ -9,6 +10,13 @@
   gap: 2em;
   margin-bottom: 2rem;
   place-content: center;
+}
+
+.footer-section h4 {
+  color: var(--color-blanco);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .footer-section ul {
@@ -22,7 +30,8 @@
   transition: var(--transition);
 }
 
-.footer-section ul li a:hover {
+.footer-section ul li a:hover,
+.footer-bottom small a:hover {
   color: var(--color-texto);
 }
 

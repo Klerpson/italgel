@@ -7,9 +7,9 @@ date: 2025-01-29
 last_modified_at: 2025-01-29
 author: Equipo Técnico Italgel
 categories: [gestion-heladeria, rentabilidad]
-hero: /assets/img/blog/toppings-coberturas-helado-rentables.jpg
-hero_webp: /assets/img/blog/toppings-coberturas-helado-rentables.webp
-hero_alt: "Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas"
+hero: /img/blog/toppings-coberturas-helado-rentables.avif
+jpg: /img/blog/toppings-coberturas-helado-rentables.jpg
+alt: "Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas"
 h1: "Qué toppings para helado son más rentables y cómo presentarlos para aumentar ventas"
 schema_type: Article
 featured: true

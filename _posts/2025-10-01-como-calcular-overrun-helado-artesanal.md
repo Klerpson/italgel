@@ -7,12 +7,14 @@ date: 2025-01-15
 last_modified_at: 2025-01-15
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
-hero: /assets/img/blog/calcular-overrun-helado-artesanal.jpg
-hero_webp: /assets/img/blog/calcular-overrun-helado-artesanal.webp
-hero_alt: "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad"
+hero: /img/blog/calcular-overrun-helado-artesanal.avif
+jpg: /img/blog/calcular-overrun-helado-artesanal.jpg
+alt: "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad"
 h1: "Cómo calcular el overrun del helado artesanal y aumentar tu rentabilidad"
 schema_type: Article
 featured: true
+referencias:
+  - Emprendiendo con pasión: https://gurcoff.com/tu-puedes-emprender
 ---
 
 El overrun es **el número que separa una heladería rentable de una que apenas sobrevive**. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión. 
