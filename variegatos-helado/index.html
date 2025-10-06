@@ -13,11 +13,11 @@ breadcrumb:
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
+      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/coberturas-salsas-helado/"><span itemprop="name">Coberturas y salsas</span></a>
+      <a itemprop="item" href="{{'/coberturas-salsas-helado//'|relative_url}}"><span itemprop="name">Coberturas y salsas</span></a>
       <meta itemprop="position" content="2" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -34,7 +34,7 @@ breadcrumb:
     <h2>¿Qué es un variegato y por qué diferencia tu helado de la competencia?</h2>
     <p>Un variegato (del italiano "variegare" = variar, diversificar) es una salsa diseñada específicamente para <strong>incorporarse como veteado interno en el helado</strong>. No es una simple salsa de repostería adaptada. Los variegatos profesionales tienen una característica única: <strong>permanecen suaves y maleables a -18°C</strong>, creando vetas de sabor que no se congelan como piedra.</p>
 
-    <blockquote style="border-left: 4px solid var(--color-principal); padding-left: 1.5rem; font-style: italic; margin-block: 2rem;">
+    <blockquote>
       <p>"Nuestro helado de vainilla era el menos vendido. Cuando empezamos a ofrecer 'Vainilla Veteada con Caramelo Salado' usando variegato Quella, se convirtió en el más pedido. El mismo helado base, diferente percepción de valor."</p>
       <cite>Felipe Cortés - Gelato Lab, Bogotá</cite>
     </blockquote>
@@ -72,7 +72,7 @@ breadcrumb:
     <h2>Catálogo de variegatos según perfil de sabor</h2>
 
     <!-- Dulce/Caramelo -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia dulce: caramelos y dulce de leche</h3>
         
@@ -91,7 +91,7 @@ breadcrumb:
     </article>
 
     <!-- Chocolate -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia chocolate: del fondente al gianduja</h3>
         
@@ -110,7 +110,7 @@ breadcrumb:
     </article>
 
     <!-- Frutales -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia frutal: frutos rojos y cítricos</h3>
         
@@ -182,14 +182,14 @@ breadcrumb:
       </tbody>
     </table>
 
-    <p style="margin-block-start: 2rem;"><small><i>* Rendimiento basado en dosificación de 100g/L. Una cubeta de 3kg rinde aproximadamente 30 litros de helado veteado.</i></small></p>
+    <p><small><i>* Rendimiento basado en dosificación de 100g/L. Una cubeta de 3kg rinde aproximadamente 30 litros de helado veteado.</i></small></p>
   </section>
 
   <!-- Recetas de aplicación -->
   <section class="wrapper center">
     <h2>3 recetas rentables con variegatos que puedes lanzar esta semana</h2>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>1. Stracciatella de autor con caramelo salado</h3>
         <p><strong>Base:</strong> Helado de vainilla | <strong>Variegato:</strong> Caramelo salado (100g/L) | <strong>Extra:</strong> Escamas de chocolate al final</p>
@@ -198,7 +198,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>2. Yogurt griego con frutos rojos</h3>
         <p><strong>Base:</strong> Helado de yogurt griego | <strong>Variegato:</strong> Frutti di Bosco (120g/L) | <strong>Extra:</strong> Opcional granola encima al servir</p>
@@ -207,7 +207,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>3. Crema catalana con dulce de leche</h3>
         <p><strong>Base:</strong> Helado de crema catalana | <strong>Variegato:</strong> Dulce de leche (90g/L) | <strong>Extra:</strong> Azúcar caramelizada encima</p>
@@ -244,7 +244,7 @@ breadcrumb:
 
     <div class="three_columns">
       {% include boton.html num="1" text="Solicitar muestras por WhatsApp 🍨" %}
-      <a href="{{ site.baseurl }}/coberturas-salsas-helado/" class="boton boton_2">Ver todas las coberturas</a>
+      <a href="{{'/coberturas-salsas-helado//'|relative_url}}" class="boton boton_2">Ver todas las coberturas</a>
     </div>
 
     <small><i>Muestras sujetas a disponibilidad. Envío incluido en pedidos posteriores mayores de $400.000 COP.</i></small>

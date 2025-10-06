@@ -28,7 +28,7 @@
                   <li><a href="{{ '/bases-helado-colombia/neuralin-plus/'|relative_url}}">Neuralin Plus</a></li>
                   <li><a href="{{ '/bases-helado-colombia/bases-stevia/'|relative_url}}">Bases con Stevia</a></li>
                 </ul>
-                <a href="{{ site.baseurl }}/bases-helado-colombia/" class="megamenu-cta">Ver todas →</a>
+                <a href="{{'/bases-helado-colombia/'|relative_url}}" class="megamenu-cta">Ver todas →</a>
               </div>
               
               <div class="megamenu-column">
@@ -65,7 +65,7 @@
                   <li><a href="{{ '/cookies-original/'|relative_url}}">Cookies</a></li>
                 </ul>
                 
-                <h3 class="megamenu-title" style="margin-top: 1rem;">
+                <h3 class="megamenu-title">
                   <a href="{{ '/quella-family/'|relative_url}}">Quella Family</a>
                 </h3>
               </div>
@@ -127,8 +127,8 @@
     </div>
 
     <!-- Logo central -->
-    <a href="{{ site.baseurl }}/" class="logo_nav" aria-label="Italgel - Inicio">
-      <img src="{{ site.baseurl }}/img/logo.avif" width="60" height="60" alt="Italgel Colombia" loading="eager">
+    <a href="{{'/'|relative_url}}" class="logo_nav" aria-label="Italgel - Inicio">
+      <img src="{{'/img/logo.avif/'|relative_url}}" width="60" height="60" alt="Italgel Colombia" loading="eager">
     </a>
 
     <!-- Navegación derecha + CTAs -->
@@ -179,11 +179,11 @@
           </svg>
         </button>
         <div class="mobile-accordion-content">
-          <a href="{{ site.baseurl }}/bases-helado-colombia/">Bases para Helado</a>
-          <a href="{{ site.baseurl }}/pastas-sabores-helado/">Pastas y Sabores</a>
-          <a href="{{ site.baseurl }}/coberturas-salsas-helado/">Coberturas y Salsas</a>
-          <a href="{{ site.baseurl }}/granelas-decoracion/">Toppings</a>
-          <a href="{{ site.baseurl }}/quella-family/">Quella Family</a>
+          <a href="{{'/bases-helado-colombia/'|relative_url}}">Bases para Helado</a>
+          <a href="{{'/pastas-sabores-helado/'|relative_url}}">Pastas y Sabores</a>
+          <a href="{{'/coberturas-salsas-helado/'|relative_url}}">Coberturas y Salsas</a>
+          <a href="{{'/granelas-decoracion/'|relative_url}}">Toppings</a>
+          <a href="{{'/quella-family/'|relative_url}}">Quella Family</a>
         </div>
       </div>
       
@@ -196,14 +196,14 @@
           </svg>
         </button>
         <div class="mobile-accordion-content">
-          <a href="{{ site.baseurl }}/maquinas-helado-artesanal/">Máquinas Artesanales</a>
-          <a href="{{ site.baseurl }}/maquinas-helado-soft/">Máquinas Soft</a>
-          <a href="{{ site.baseurl }}/maquinas-helado-industrial/">Máquinas Industriales</a>
-          <a href="{{ site.baseurl }}/vitrinas-congeladores/">Vitrinas</a>
+          <a href="{{'/maquinas-helado-artesanal/'|relative_url}}">Máquinas Artesanales</a>
+          <a href="{{'/maquinas-helado-soft/'|relative_url}}">Máquinas Soft</a>
+          <a href="{{'/maquinas-helado-industrial/'|relative_url}}">Máquinas Industriales</a>
+          <a href="{{'/vitrinas-congeladores/'|relative_url}}">Vitrinas</a>
         </div>
       </div>
       
-      <a href="{{ site.baseurl }}/blog/" class="mobile-link">Blog</a>
+      <a href="{{'/blog/'|relative_url}}" class="mobile-link">Blog</a>
       
       <div class="mobile-cta">
         {% include boton.html text="WhatsApp" %}
@@ -213,7 +213,7 @@
 </nav>
 
 <!-- Modal búsqueda -->
-<div class="modal-overlay" id="buscador" role="dialog" aria-labelledby="search-title" aria-modal="true" data-search-json="{{site.baseurl}}/search.json">
+<div class="modal-overlay" id="buscador" role="dialog" aria-labelledby="search-title" aria-modal="true" data-search-json="{{'/search.json/'|relative_url}}">
   <div class="modal-content">
     <a href="#" class="cerrar" aria-label="Cerrar">&times;</a>
     <h2 id="search-title" class="visually-hidden">Buscar</h2>

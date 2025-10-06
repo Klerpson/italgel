@@ -12,7 +12,7 @@ breadcrumb:
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
+      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -29,7 +29,7 @@ breadcrumb:
     <h2>¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?</h2>
     <p>Puedes tener la mejor base del mundo, pero <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao), no saborizantes artificiales. Esto significa que <strong>50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho tostado molido</strong>.</p>
 
-    <blockquote style="border-left: 4px solid var(--color-principal); padding-left: 1.5rem; font-style: italic; margin-block: 2rem;">
+    <blockquote>
       <p>"Cambié de proveedor de pastas cuando probé la diferencia. Con pastas MEC3, mis clientes me dicen que es el mejor helado de pistacho que han probado en Colombia. El secreto es la concentración real del fruto seco."</p>
       <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
     </blockquote>
@@ -41,7 +41,7 @@ breadcrumb:
     <p>Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces:</p>
 
     <!-- PASTAS PREMIUM (Frutos secos) -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Pastas premium de frutos secos - Las más pedidas</h3>
         <p>Estas pastas contienen <strong>concentración real del fruto seco</strong> (pistacho, avellana, almendras). Son las que marcan la diferencia en una heladería artesanal de calidad.</p>
@@ -56,15 +56,15 @@ breadcrumb:
 
         <p><strong>¿Por qué cuesta más?</strong> El pistacho siciliano es uno de los frutos secos más caros del mundo (US$25-35/kg). Una pasta concentrada al 40% requiere casi medio kilo de pistacho puro.</p>
 
-        <div class="three_columns" style="margin-block-start: 2rem;">
+        <div class="three_columns">
           {% include boton.html num="1" text="Cotizar Pasta Pistacho 🥜" %}
-          <a href="{{ site.baseurl }}/pastas-sabores-helado/pasta-pistacho/" class="boton boton_2">Ver ficha técnica</a>
+          <a href="{{'/pastas-sabores-helado/pasta-pistacho//'|relative_url}}" class="boton boton_2">Ver ficha técnica</a>
         </div>
       </div>
       <img src="{{ 'img/pasta-pistacho-mec3-helado.avif' | relative_url }}" alt="Pasta concentrada de pistacho siciliano para gelato" width="584" height="396" loading="lazy" decoding="async">
     </article>
 
-    <article class="flex flex_left bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h4>Pasta de Avellana Selection - Sabor Piemonte auténtico</h4>
         <ul>
@@ -81,7 +81,7 @@ breadcrumb:
       <img src="{{ 'img/pasta-avellana-selection-helado.avif' | relative_url }}" alt="Pasta de avellana Piemonte para helado artesanal" width="584" height="396" loading="lazy" decoding="async">
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Pasta de Almendras (Almonds) - Versatilidad máxima</h4>
         <ul>
@@ -99,38 +99,38 @@ breadcrumb:
 
     <!-- Tabla comparativa frutos secos -->
     <h3>Comparativa de pastas de frutos secos</h3>
-    <div style="overflow-x: auto; margin-block: 2rem;">
-      <table style="width: 100%; border-collapse: collapse;">
+    <div>
+      <table>
         <thead>
-          <tr style="background: var(--color-principal); color: white;">
-            <th style="padding: 1em; text-align: left;">Pasta</th>
-            <th style="padding: 1em;">Concentración</th>
-            <th style="padding: 1em;">Dosificación</th>
-            <th style="padding: 1em;">Rendimiento</th>
-            <th style="padding: 1em;">Nivel de precio</th>
+          <tr>
+            <th>Pasta</th>
+            <th>Concentración</th>
+            <th>Dosificación</th>
+            <th>Rendimiento</th>
+            <th>Nivel de precio</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Pistacho</strong></td>
-            <td style="padding: 1em; text-align: center;">40%</td>
-            <td style="padding: 1em; text-align: center;">80-100g/L</td>
-            <td style="padding: 1em; text-align: center;">1kg = 10-12L</td>
-            <td style="padding: 1em; text-align: center;">Alto</td>
+          <tr>
+            <td><strong>Pistacho</strong></td>
+            <td>40%</td>
+            <td>80-100g/L</td>
+            <td>1kg = 10-12L</td>
+            <td>Alto</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Avellana</strong></td>
-            <td style="padding: 1em; text-align: center;">35%</td>
-            <td style="padding: 1em; text-align: center;">70-90g/L</td>
-            <td style="padding: 1em; text-align: center;">1kg = 11-14L</td>
-            <td style="padding: 1em; text-align: center;">Medio-Alto</td>
+          <tr>
+            <td><strong>Avellana</strong></td>
+            <td>35%</td>
+            <td>70-90g/L</td>
+            <td>1kg = 11-14L</td>
+            <td>Medio-Alto</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Almendras</strong></td>
-            <td style="padding: 1em; text-align: center;">30%</td>
-            <td style="padding: 1em; text-align: center;">60-80g/L</td>
-            <td style="padding: 1em; text-align: center;">1kg = 12-16L</td>
-            <td style="padding: 1em; text-align: center;">Medio</td>
+          <tr>
+            <td><strong>Almendras</strong></td>
+            <td>30%</td>
+            <td>60-80g/L</td>
+            <td>1kg = 12-16L</td>
+            <td>Medio</td>
           </tr>
         </tbody>
       </table>
@@ -210,7 +210,7 @@ breadcrumb:
       </article>
     </div>
 
-    <a href="{{ site.baseurl }}/pastas-sabores-helado/pastas-clasicas/" class="boton boton_2" style="display: block; width: fit-content; margin-inline: auto; margin-block-start: 2rem;">Ver todas las pastas clásicas →</a>
+    <a href="{{'/pastas-sabores-helado/pastas-clasicas//'|relative_url}}" class="boton boton_2" style="display: block; width: fit-content; margin-inline: auto; margin-block-start: 2rem;">Ver todas las pastas clásicas →</a>
   </section>
 
   <!-- PASTAS DE FRUTA -->
@@ -288,55 +288,55 @@ breadcrumb:
   </section>
 
   <!-- Sección de dosificación -->
-  <section class="wrapper center flow" style="margin-block: 4rem;">
+  <section class="wrapper center flow">
     <h2>Guía de dosificación de pastas para helado</h2>
     <p>La dosis correcta marca la diferencia entre un sabor insípido y uno demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu preferencia:</p>
 
-    <div style="overflow-x: auto;">
-      <table style="width: 100%; border-collapse: collapse;">
+    <div>
+      <table>
         <thead>
-          <tr style="background: var(--color-secundario); color: white;">
-            <th style="padding: 1em; text-align: left;">Tipo de pasta</th>
-            <th style="padding: 1em;">Dosis baja (g/L)</th>
-            <th style="padding: 1em;">Dosis media (g/L)</th>
-            <th style="padding: 1em;">Dosis alta (g/L)</th>
-            <th style="padding: 1em;">Nota</th>
+          <tr>
+            <th>Tipo de pasta</th>
+            <th>Dosis baja (g/L)</th>
+            <th>Dosis media (g/L)</th>
+            <th>Dosis alta (g/L)</th>
+            <th>Nota</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;">Frutos secos</td>
-            <td style="padding: 1em; text-align: center;">60g</td>
-            <td style="padding: 1em; text-align: center;">80g</td>
-            <td style="padding: 1em; text-align: center;">100g</td>
-            <td style="padding: 1em;">Ajusta según intensidad deseada</td>
+          <tr>
+            <td>Frutos secos</td>
+            <td>60g</td>
+            <td>80g</td>
+            <td>100g</td>
+            <td>Ajusta según intensidad deseada</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;">Vainilla</td>
-            <td style="padding: 1em; text-align: center;">40g</td>
-            <td style="padding: 1em; text-align: center;">50g</td>
-            <td style="padding: 1em; text-align: center;">60g</td>
-            <td style="padding: 1em;">Más de 60g puede amargar</td>
+          <tr>
+            <td>Vainilla</td>
+            <td>40g</td>
+            <td>50g</td>
+            <td>60g</td>
+            <td>Más de 60g puede amargar</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;">Chocolate</td>
-            <td style="padding: 1em; text-align: center;">70g</td>
-            <td style="padding: 1em; text-align: center;">90g</td>
-            <td style="padding: 1em; text-align: center;">110g</td>
-            <td style="padding: 1em;">Chocolate oscuro usa dosis alta</td>
+          <tr>
+            <td>Chocolate</td>
+            <td>70g</td>
+            <td>90g</td>
+            <td>110g</td>
+            <td>Chocolate oscuro usa dosis alta</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;">Frutas</td>
-            <td style="padding: 1em; text-align: center;">50g</td>
-            <td style="padding: 1em; text-align: center;">65g</td>
-            <td style="padding: 1em; text-align: center;">80g</td>
-            <td style="padding: 1em;">Frutas ácidas: dosis media</td>
+          <tr>
+            <td>Frutas</td>
+            <td>50g</td>
+            <td>65g</td>
+            <td>80g</td>
+            <td>Frutas ácidas: dosis media</td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <p style="font-size: 0.9rem; color: var(--color-gris3); margin-block-start: 1rem;"><strong>Pro tip:</strong> Siempre empieza con dosis baja, prueba, y aumenta gradualmente. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
+    <p><strong>Pro tip:</strong> Siempre empieza con dosis baja, prueba, y aumenta gradualmente. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
   </section>
 
   <!-- FAQ -->
@@ -376,10 +376,11 @@ breadcrumb:
 
     <div class="three_columns">
       {% include boton.html num="1" text="Solicitar muestras de pastas 🍨" %}
-      <a href="{{ site.baseurl }}/bases-helado-colombia/" class="boton boton_2">Ver bases compatibles</a>
+      <a href="{{'/bases-helado-colombia//'|relative_url}}" class="boton boton_2">Ver bases compatibles</a>
     </div>
 
     <small><i>Muestras disponibles de Pistacho, Vainilla, Avellana y Chocolate. Envío incluido en pedidos mayores de $300,000 COP.</i></small>
   </section>
 
 </main>
+

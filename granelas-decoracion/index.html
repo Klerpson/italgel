@@ -13,11 +13,11 @@ breadcrumb:
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
+      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/coberturas-salsas-helado/"><span itemprop="name">Coberturas y salsas</span></a>
+      <a itemprop="item" href="{{'/coberturas-salsas-helado//'|relative_url}}"><span itemprop="name">Coberturas y salsas</span></a>
       <meta itemprop="position" content="2" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -34,7 +34,7 @@ breadcrumb:
     <h2>Por qué el cerebro humano prefiere helado con topping crujiente</h2>
     <p>Neurociencia aplicada a helado: el contraste de texturas (cremoso + crujiente) <strong>activa más receptores de placer que una textura única</strong>. Un helado cremoso solo es placentero. Un helado cremoso con granela crujiente es memorable. La diferencia entre "está bueno" y "debes probarlo" son 15 gramos de granela que cuestan $180 COP y puedes cobrar $1.200 COP adicionales.</p>
 
-    <blockquote style="border-left: 4px solid var(--color-principal); padding-left: 1.5rem; font-style: italic; margin-block: 2rem;">
+    <blockquote>
       <p>"Implementamos granelas Quella en nuestra barra de toppings hace 4 meses. El 63% de nuestros clientes ahora pide topping crujiente. Son $800-$1.200 adicionales por copa con costo de $150-$200. Literalmente dinero que estábamos dejando de ganar."</p>
       <cite>Patricia Ruiz - Gelateria Luna, Cali</cite>
     </blockquote>
@@ -65,7 +65,7 @@ breadcrumb:
     <h2>Catálogo de granelas según perfil de sabor</h2>
 
     <!-- CHOCOLATE -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia chocolate - Las más versátiles</h3>
         
@@ -78,7 +78,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Granela de chocolate con leche</h4>
         <p><strong>Descripción:</strong> Más dulce y suave que chocolate negro. Ideal para público infantil o helados frutales donde chocolate negro sería muy intenso.</p>
@@ -89,7 +89,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Croccantino (chocolate crujiente tipo crocanti)</h4>
         <p><strong>Descripción:</strong> Chocolate combinado con almendra caramelizada triturada. Textura extra crujiente, dulzor balanceado con toque amargo del cacao.</p>
@@ -101,7 +101,7 @@ breadcrumb:
     </article>
 
     <!-- FRUTOS SECOS -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia frutos secos - Posicionamiento premium</h3>
         
@@ -114,7 +114,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Granela de avellana picada</h4>
         <p><strong>Descripción:</strong> Avellanas italianas (Piamonte) tostadas y picadas grosor 3-5mm. Sabor intenso, tostado medio-alto.</p>
@@ -125,7 +125,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Granela de pistacho</h4>
         <p><strong>Descripción:</strong> Pistachos sicilianos picados grosor 2-4mm. Color verde natural intenso (sin colorantes). El más costoso pero también el de mayor percepción de lujo.</p>
@@ -137,7 +137,7 @@ breadcrumb:
     </article>
 
     <!-- COOKIES -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Familia cookies - Los que generan más fotos en Instagram</h3>
         
@@ -150,7 +150,7 @@ breadcrumb:
       </div>
     </article>
 
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Wafer troceado</h4>
         <p><strong>Descripción:</strong> Barquillos de vainilla troceados tamaño 10-15mm. Ultra livianos, textura aireada que se deshace en boca sin ser dura.</p>
@@ -215,7 +215,7 @@ breadcrumb:
       </tbody>
     </table>
 
-    <p style="margin-block-start: 2rem;"><small><i>* Precios sugeridos asumen heladerías en ciudades principales. Ajustar según ubicación y posicionamiento.</i></small></p>
+    <p><small><i>* Precios sugeridos asumen heladerías en ciudades principales. Ajustar según ubicación y posicionamiento.</i></small></p>
   </section>
 
   <!-- Kit recomendado -->
@@ -242,8 +242,8 @@ breadcrumb:
 
         <h3>Proyección de recuperación de inversión:</h3>
         <p>Si vendes <strong>15 copas con topping por día</strong> (solo 15% de conversión de toppings en 100 clientes/día):</p>
-        <p>15 copas × $1.000 margen promedio = <strong>$15.000/día utilidad neta de toppings</strong></p>
-        <p>$15.000 × 26 días operativos = <strong>$390.000/mes solo en granelas</strong></p>
+        <p>15 copas x $1.000 margen promedio = <strong>$15.000/día utilidad neta de toppings</strong></p>
+        <p>$15.000 x 26 días operativos = <strong>$390.000/mes solo en granelas</strong></p>
         <p><strong>Inversión recuperada en:</strong> ~12-15 días operativos</p>
 
         <a href="#" id="lead_whatsapp" class="boton boton_1">Solicitar kit inicial de granelas →</a>
@@ -292,7 +292,7 @@ breadcrumb:
 
     <div class="three_columns">
       {% include boton.html num="1" text="Solicitar muestras por WhatsApp 🍪" %}
-      <a href="{{ site.baseurl }}/coberturas-salsas-helado/" class="boton boton_2">Ver todas las coberturas</a>
+      <a href="{{'/coberturas-salsas-helado//'|relative_url}}" class="boton boton_2">Ver todas las coberturas</a>
     </div>
 
     <small><i>Muestras sujetas a disponibilidad. Costo de muestras descontado en pedidos posteriores mayores de $300.000 COP.</i></small>

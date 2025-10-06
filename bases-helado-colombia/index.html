@@ -12,7 +12,7 @@ breadcrumb:
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
+      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -82,7 +82,7 @@ breadcrumb:
         <p><strong>Precio por litro de helado producido:</strong> Consulta según volumen de compra.</p>
         
         {% include boton.html num="1" text="Cotizar Base 50 por WhatsApp 💬" %}
-        <a href="{{ site.baseurl }}/bases-helado-colombia/base-50-mec3/" class="boton boton_2">Ver ficha técnica completa</a>
+        <a href="{{'/bases-helado-colombia/base-50-mec3//'|relative_url}}" class="boton boton_2">Ver ficha técnica completa</a>
       </div>
       <img src="{{ 'img/base-50-mec3-helado-profesional.avif' | relative_url }}" alt="Base 50 MEC3 para helado artesanal en bolsa de 2kg" width="584" height="396" loading="lazy" decoding="async">
     </div>
@@ -102,7 +102,7 @@ breadcrumb:
         <p><strong>Diferencia clave vs Base 50:</strong> Neutralin produce menos volumen pero con textura más densa y sabor más concentrado. Es la elección de maestros heladeros que venden por calidad, no por precio.</p>
         
         {% include boton.html num="1" text="Consultar disponibilidad Neutralin 📞" %}
-        <a href="{{ site.baseurl }}/blog/diferencia-base-50-neutralin-helado/" class="boton boton_2">Leer comparativa completa</a>
+        <a href="{{'/blog/diferencia-base-50-neutralin-helado//'|relative_url}}" class="boton boton_2">Leer comparativa completa</a>
       </div>
       <img src="{{ 'img/neutralin-plus-helado-cremoso.avif' | relative_url }}" alt="Neutralin Plus para gelato italiano ultra cremoso" width="584" height="396" loading="lazy" decoding="async">
     </div>
@@ -186,7 +186,7 @@ breadcrumb:
       </article>
     </div>
 
-    <a href="{{ site.baseurl }}/bases-helado-colombia/bases-stevia/" class="boton boton_2">Ver todas las bases Stevia →</a>
+    <a href="{{'/bases-helado-colombia/bases-stevia//'|relative_url}}" class="boton boton_2">Ver todas las bases Stevia →</a>
   </section>
 
   <!-- Tabla comparativa -->
@@ -194,45 +194,45 @@ breadcrumb:
     <h2>¿Cuál es la mejor base para helado según tu negocio?</h2>
     <p>Usa esta tabla para identificar rápidamente cuál base se adapta a tu modelo de heladería:</p>
 
-    <div style="overflow-x: auto;">
-      <table style="width: 100%; border-collapse: collapse; margin: 2em 0;">
+    <div>
+      <table>
         <thead>
-          <tr style="background: var(--color-principal); color: white;">
-            <th style="padding: 1em; text-align: left;">Base MEC3</th>
-            <th style="padding: 1em;">Overrun</th>
-            <th style="padding: 1em;">Rendimiento</th>
-            <th style="padding: 1em;">Ideal para</th>
-            <th style="padding: 1em;">Precio/Litro</th>
+          <tr>
+            <th>Base MEC3</th>
+            <th>Overrun</th>
+            <th>Rendimiento</th>
+            <th>Ideal para</th>
+            <th>Precio/Litro</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Base 50</strong></td>
-            <td style="padding: 1em; text-align: center;">50-60%</td>
-            <td style="padding: 1em; text-align: center;">1kg = 4-5L</td>
-            <td style="padding: 1em;">Gelato artesanal</td>
-            <td style="padding: 1em; text-align: center;">Medio</td>
+          <tr>
+            <td><strong>Base 50</strong></td>
+            <td>50-60%</td>
+            <td>1kg = 4-5L</td>
+            <td>Gelato artesanal</td>
+            <td>Medio</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Neutralin Plus</strong></td>
-            <td style="padding: 1em; text-align: center;">25-40%</td>
-            <td style="padding: 1em; text-align: center;">1kg = 3-4L</td>
-            <td style="padding: 1em;">Gelato premium</td>
-            <td style="padding: 1em; text-align: center;">Alto</td>
+          <tr>
+            <td><strong>Neutralin Plus</strong></td>
+            <td>25-40%</td>
+            <td>1kg = 3-4L</td>
+            <td>Gelato premium</td>
+            <td>Alto</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Supergelmix</strong></td>
-            <td style="padding: 1em; text-align: center;">60-80%</td>
-            <td style="padding: 1em; text-align: center;">1kg = 6-8L</td>
-            <td style="padding: 1em;">Helado soft</td>
-            <td style="padding: 1em; text-align: center;">Bajo</td>
+          <tr>
+            <td><strong>Supergelmix</strong></td>
+            <td>60-80%</td>
+            <td>1kg = 6-8L</td>
+            <td>Helado soft</td>
+            <td>Bajo</td>
           </tr>
-          <tr style="border-bottom: 1px solid var(--color-gris1);">
-            <td style="padding: 1em;"><strong>Base Divina</strong></td>
-            <td style="padding: 1em; text-align: center;">30-45%</td>
-            <td style="padding: 1em; text-align: center;">1kg = 3.5-4.5L</td>
-            <td style="padding: 1em;">Heladería gourmet</td>
-            <td style="padding: 1em; text-align: center;">Premium</td>
+          <tr>
+            <td><strong>Base Divina</strong></td>
+            <td>30-45%</td>
+            <td>1kg = 3.5-4.5L</td>
+            <td>Heladería gourmet</td>
+            <td>Premium</td>
           </tr>
         </tbody>
       </table>
@@ -247,7 +247,7 @@ breadcrumb:
     
     <details class="faq-item">
       <summary><strong>¿Cuál es la diferencia entre Base 50 y Neutralin?</strong></summary>
-      <p>Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin. <a href="{{ site.baseurl }}/blog/diferencia-base-50-neutralin-helado/">Lee la comparativa completa aquí</a>.</p>
+      <p>Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin. <a href="{{'/blog/diferencia-base-50-neutralin-helado//'|relative_url}}">Lee la comparativa completa aquí</a>.</p>
     </details>
 
     <details class="faq-item">
@@ -285,3 +285,4 @@ breadcrumb:
   </section>
 
 </main>
+

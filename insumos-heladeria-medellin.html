@@ -9,7 +9,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
+      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -22,11 +22,11 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 <main class="wrapper">
 
   <!-- Hero con propuesta de valor local -->
-  <section class="center text_center flow" style="padding-block: 3rem;">
+  <section class="center text_center flow">
     <h2>¿Buscas proveedor de insumos para heladería en Medellín?</h2>
-    <p class="intro-text" style="max-width: 732px; margin-inline: auto; font-size: 1.25rem; line-height: 1.6;">Italgel te surte con <strong>entrega en 24-48 horas</strong> en El Poblado, Laureles, Envigado, Sabaneta, Bello y toda el área metropolitana. Stock permanente de bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional.</p>
+    <p class="intro-text">Italgel te surte con <strong>entrega en 24-48 horas</strong> en El Poblado, Laureles, Envigado, Sabaneta, Bello y toda el área metropolitana. Stock permanente de bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional.</p>
 
-    <div class="three_columns" style="margin-block: 2rem;">
+    <div class="three_columns">
       <article class="text_center flow">
         <span class="stat-number">24-48h</span>
         <p><strong>Tiempo de entrega</strong> en toda la zona metro de Medellín</p>
@@ -45,14 +45,14 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
   </section>
 
   <!-- Zonas de entrega -->
-  <section class="wrapper center bg_grey_light" style="padding: 2rem; margin-block: 3rem;">
+  <section class="wrapper center bg_grey_light">
     <h3>Cobertura de entrega en Medellín</h3>
     <p>Realizamos entregas rápidas en las siguientes zonas del Valle de Aburrá:</p>
 
     <div class="three_columns">
       <div>
         <h4>Medellín Centro y Sur</h4>
-        <ul style="list-style: none; padding: 0;">
+        <ul>
           <li>✓ El Poblado</li>
           <li>✓ Laureles - Estadio</li>
           <li>✓ Belén</li>
@@ -63,7 +63,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 
       <div>
         <h4>Medellín Norte</h4>
-        <ul style="list-style: none; padding: 0;">
+        <ul>
           <li>✓ Bello</li>
           <li>✓ Aranjuez</li>
           <li>✓ Manrique</li>
@@ -74,7 +74,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 
       <div>
         <h4>Área Metropolitana</h4>
-        <ul style="list-style: none; padding: 0;">
+        <ul>
           <li>✓ Itagüí</li>
           <li>✓ La Estrella</li>
           <li>✓ Caldas</li>
@@ -84,7 +84,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
       </div>
     </div>
 
-    <p style="margin-block-start: 2rem;"><strong>¿Tu heladería está fuera de estas zonas?</strong> <a href="#" id="lead_whatsapp">Consúltanos por WhatsApp</a> para confirmar tiempos y costos de envío.</p>
+    <p><strong>¿Tu heladería está fuera de estas zonas?</strong> <a href="#" id="lead_whatsapp">Consúltanos por WhatsApp</a> para confirmar tiempos y costos de envío.</p>
   </section>
 
   <!-- Catálogo de productos disponibles en Medellín -->
@@ -93,7 +93,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
     <p>Mantenemos inventario permanente de los productos más solicitados por heladerías paisas:</p>
 
     <!-- BASES -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Bases para helado MEC3</h3>
         <p>Disponibles para entrega inmediata en Medellín:</p>
@@ -107,16 +107,16 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 
         <p><strong>Precio especial Medellín:</strong> Descuento por volumen en compras desde 10kg. Consulta tu inversión según presentación.</p>
 
-        <div class="three_columns" style="margin-block-start: 2rem;">
+        <div class="three_columns">
           {% include boton.html num="1" text="Cotizar bases en Medellín 📍" %}
-          <a href="{{ site.baseurl }}/bases-helado-colombia/" class="boton boton_2">Ver ficha técnica de bases</a>
+          <a href="{{'/bases-helado-colombia//'|relative_url}}" class="boton boton_2">Ver ficha técnica de bases</a>
         </div>
       </div>
       <img src="{{ 'img/bases-helado-medellin-italgel.avif' | relative_url }}" alt="Bases para helado MEC3 disponibles en Medellín" width="584" height="396" loading="lazy" decoding="async">
     </article>
 
     <!-- PASTAS -->
-    <article class="flex flex_left bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h3>Pastas concentradas - Las más vendidas en Medellín</h3>
         <p>Stock permanente de las pastas que más rotan en heladerías paisas:</p>
@@ -132,7 +132,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 
         <p><strong>Pastas disponibles bajo pedido</strong> (48-72h): Avellana, Almendras, Coco, Frutos del Bosque, Limón, Málaga y más.</p>
 
-        <blockquote style="border-left: 4px solid var(--color-secundario); padding-left: 1.5rem; font-style: italic; margin-block: 2rem;">
+        <blockquote>
           <p>"Probé 3 proveedores de pasta de pistacho en Medellín. La de Italgel es la única que realmente sabe a pistacho siciliano, no a almendras con colorante verde."</p>
           <cite>Roberto Gómez - Gelato di Milano, El Poblado</cite>
         </blockquote>
@@ -143,7 +143,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
     </article>
 
     <!-- COBERTURAS -->
-    <article class="flex bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Coberturas, salsas y toppings</h3>
         <p>Línea completa Quella Family y MEC3 disponible en Medellín:</p>
@@ -164,7 +164,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
     </article>
 
     <!-- MAQUINARIA -->
-    <article class="flex flex_left bg_grey_light" style="margin-block: 3rem;">
+    <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h3>Máquinas para heladería - Venta y servicio técnico en Medellín</h3>
         <p>Distribuimos maquinaria profesional con <strong>garantía y servicio técnico local</strong> en Medellín:</p>
@@ -181,9 +181,9 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
 
         <p><strong>Financiamiento disponible:</strong> Consulta opciones de pago en cuotas para maquinaria desde $3,000,000 COP.</p>
 
-        <div class="three_columns" style="margin-block-start: 2rem;">
+        <div class="three_columns">
           {% include boton.html num="1" text="Agendar visita técnica en Medellín 🔧" %}
-          <a href="{{ site.baseurl }}/maquinas-helado-artesanal/" class="boton boton_2">Ver catálogo de máquinas</a>
+          <a href="{{'/maquinas-helado-artesanal//'|relative_url}}" class="boton boton_2">Ver catálogo de máquinas</a>
         </div>
       </div>
       <img src="{{ 'img/maquinas-helado-medellin-servicio.avif' | relative_url }}" alt="Máquinas para heladería con servicio en Medellín" width="584" height="396" loading="lazy" decoding="async">
@@ -191,7 +191,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
   </section>
 
   <!-- Casos de éxito en Medellín -->
-  <section class="wrapper center" style="margin-block: 4rem;">
+  <section class="wrapper center">
     <h2>Heladerías en Medellín que confían en Italgel</h2>
     <p>Conoce la experiencia de heladeros paisas que mejoraron su producción con nuestros insumos:</p>
 
@@ -214,11 +214,11 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
   </section>
 
   <!-- Proceso de pedido -->
-  <section class="wrapper center bg_grey_light" style="padding: 3rem 2rem; margin-block: 4rem;">
+  <section class="wrapper center bg_grey_light">
     <h2 style="text-align: center;">Cómo hacer tu pedido en Medellín</h2>
     <p style="text-align: center; max-width: 732px; margin-inline: auto;">Proceso simple en 4 pasos:</p>
 
-    <div class="three_columns" style="margin-block-start: 3rem;">
+    <div class="three_columns">
       <article class="text_center flow">
         <div class="icons">
           <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
@@ -260,7 +260,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
       </article>
     </div>
 
-    <div class="three_columns" style="margin-block-start: 3rem;">
+    <div class="three_columns">
       {% include boton.html num="1" text="Hacer pedido ahora - Medellín 📲" %}
       <a href="tel:{{ site.telefono }}" class="boton boton_2">Llamar para pedido urgente</a>
     </div>
@@ -310,3 +310,4 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
   </section>
 
 </main>
+
