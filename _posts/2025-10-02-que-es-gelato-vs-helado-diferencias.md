@@ -3,8 +3,8 @@ layout: post
 title: "Qué es el gelato italiano: diferencias técnicas con el helado artesanal"
 description: "Descubre las 5 diferencias fundamentales entre gelato y helado artesanal: overrun, temperatura, composición y rentabilidad. Guía técnica para heladeros profesionales."
 excerpt: "Gelato y helado artesanal no son lo mismo. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio y rentabilidad."
-date: 2025-01-22
-last_modified_at: 2025-01-22
+date: 2025-10-02
+last_modified_at: 2025-10-02
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/diferencia-gelato-helado-artesanal.avif
@@ -25,6 +25,8 @@ En esta guía técnica aprenderás las 5 diferencias fundamentales entre ambos p
 Gelato es la palabra italiana para "helado", pero en el contexto internacional se refiere específicamente al helado artesanal de estilo italiano. No es una marca ni una técnica secreta: es un conjunto de parámetros técnicos de producción que generan un producto con características organolépticas específicas.
 
 **Definición técnica del gelato:** Producto congelado con base láctea o de fruta, overrun entre 20% y 40%, servido a temperatura de -10°C a -14°C, con contenido de grasa entre 4% y 8%, y textura densa y cremosa característica.
+
+![Textura densa característica del gelato italiano]({{'/img/blog/textura-gelato-italiano-autentico.avif' | relative_url}} "El gelato auténtico tiene textura densa y cremosa por su bajo overrun entre 20-40%"){:loading="lazy" decoding="async" width="900" height="400"}
 
 El gelato nació en Italia como respuesta a las condiciones de consumo mediterráneas: temperatura ambiente alta, consumo inmediato en la heladería, porciones pequeñas de sabor intenso. Por eso se desarrolló con menos grasa (para sabores más limpios) y menos aire (para mayor densidad).
 
@@ -66,6 +68,8 @@ Esta diferencia explica por qué ciertos sabores funcionan mejor en gelato (lim�
 
 Las [bases para helado profesional]({{ '/bases-helado-colombia/' | relative_url }}) están formuladas para rangos específicos de overrun. No puedes usar la misma base para producir gelato y helado artesanal esperando resultados óptimos en ambos.
 
+![Bases profesionales para gelato y helado artesanal]({{'/img/blog/bases-profesionales-gelato-helado.avif' | relative_url}} "Cada estilo requiere bases formuladas específicamente para su rango de overrun y temperatura"){:loading="lazy" decoding="async" width="900" height="400"}
+
 **Para gelato con overrun bajo:** La [Base Neutralin Plus]({{ '/bases-helado-colombia/neutralin-plus/' | relative_url }}) está diseñada para incorporar menos aire y mantener estructura densa. Contiene proporción de estabilizantes que evita cristalización a temperatura de servicio más alta. Produce gelato cremoso y estable durante el tiempo de exhibición en vitrina.
 
 **Para helado artesanal con overrun medio:** La [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}) es la opción más versátil para overrun entre 50% y 60%. Incorpora aire de forma controlada y mantiene textura suave a temperatura de conservación tradicional. Es la base más vendida porque equilibra calidad y rentabilidad.
@@ -83,6 +87,8 @@ Estas diferencias de exhibición afectan tu inversión inicial: una vitrina pozz
 ## Cuál estilo conviene para tu modelo de negocio en heladería
 
 La decisión entre gelato y helado artesanal no es solo de preferencia personal: es una decisión de modelo de negocio que afecta tu inversión, tu precio de venta, tu perfil de cliente y tu rentabilidad.
+
+![Comparación de modelos de negocio gelato vs helado]({{'/img/blog/modelo-negocio-gelato-helado-artesanal.avif' | relative_url}} "La elección entre gelato y helado determina precios, márgenes y perfil de cliente objetivo"){:loading="lazy" decoding="async" width="900" height="400"}
 
 **Produce gelato italiano si:** Tu mercado objetivo es cliente premium dispuesto a pagar $7,000-$10,000 COP por porción pequeña. Estás en zona de alto tráfico peatonal donde la gente consume en el local. Puedes comunicar la diferenciación y educar al cliente sobre por qué tu producto es diferente. Tienes capacidad de reponer sabores varias veces al día. Tu estrategia es volumen bajo con margen alto.
 

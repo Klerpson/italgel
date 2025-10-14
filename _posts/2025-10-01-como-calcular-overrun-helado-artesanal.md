@@ -3,8 +3,8 @@ layout: post
 title: "Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad"
 description: "Aprende a calcular el overrun del helado en 3 pasos con fórmulas comprobadas. Descubre el overrun ideal según tu tipo de producción y cómo controlarlo con bases profesionales."
 excerpt: "El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad."
-date: 2025-01-15
-last_modified_at: 2025-01-15
+date: 2025-10-01
+last_modified_at: 2025-10-01
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/calcular-overrun-helado-artesanal.avif
@@ -33,6 +33,8 @@ El overrun es el porcentaje de aire incorporado durante el mantecado. Suena téc
 - Tu overrun es 50%
 
 Esos 5 litros adicionales son aire controlado que incorporaste durante el proceso. No es trampa ni relleno barato: es tecnología de producción que toda heladería profesional debe dominar.
+
+![Proceso de mantecado incorporando aire en helado artesanal]({{'/img/blog/proceso-mantecado-incorporacion-aire.avif' | relative_url}} "El mantecado incorpora aire de forma controlada transformando la mezcla líquida en helado cremoso"){:loading="lazy" decoding="async" width="900" height="400"}
 
 ### El aire no degrada tu helado (cuando se incorpora correctamente)
 
@@ -68,6 +70,8 @@ Este método funciona bien cuando tienes recipientes calibrados, pero presenta u
 3. Pesa 1 litro de helado terminado: **730 gramos**
 4. Aplica la fórmula: ((1,100 - 730) / 730) × 100 = **50.7% de overrun**
 
+![Balanza digital midiendo peso de helado para calcular overrun]({{'/img/blog/medicion-peso-helado-overrun.avif' | relative_url}} "El método de cálculo por peso es más confiable y práctico para el día a día en tu heladería"){:loading="lazy" decoding="async" width="900" height="400"}
+
 El helado pesa menos que la mezcla original porque incorporó aire. A menor peso del producto final, mayor es tu overrun. Este método es más confiable porque el peso no varía significativamente con la temperatura.
 
 **Tabla de referencia rápida por peso:**
@@ -89,6 +93,8 @@ No existe un overrun "correcto" universal. El número ideal depende del posicion
 **Para heladerías artesanales balanceadas:** El overrun ideal está entre 50% y 60%. Este es el punto donde maximizas rentabilidad sin sacrificar percepción de calidad. Produces suficiente volumen para competir en precio mientras mantienes la textura cremosa que esperan tus clientes. La [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}) domina este segmento por su estabilidad y consistencia.
 
 **Para puntos de helado soft:** El overrun óptimo está entre 60% y 80%. Tu ventaja competitiva es precio accesible y servicio rápido. El alto overrun te permite ofrecer porciones generosas a costos competitivos, con la textura suave y ligera característica del formato soft. La Base Supergelmix está diseñada para este rango de producción.
+
+![Comparación de texturas de helado con diferentes porcentajes de overrun]({{'/img/blog/comparacion-texturas-overrun-helado.avif' | relative_url}} "Cada modelo de negocio requiere un rango específico de overrun para cumplir las expectativas de sus clientes"){:loading="lazy" decoding="async" width="900" height="400"}
 
 ## Factores que afectan el overrun del helado (y cómo controlarlos)
 
@@ -141,6 +147,8 @@ Veamos números concretos de tu operación diaria. Supón que produces helado ar
 **Escenario con Base 50 MEC3 (50% de overrun):** El mismo kilo de base produce 1.5 litros de helado, equivalentes a 15 bolas de 100 gramos. Tu ingreso por kilo es $75,000 COP. Tu margen bruto sube a $60,000 COP por kilo procesado.
 
 La diferencia es $10,000 COP adicionales de ganancia por cada kilo de base. Si produces 20 kilos diarios, son $200,000 COP extra por día. En un mes de 30 días de producción: **$6,000,000 COP adicionales de rentabilidad** solo por controlar correctamente el overrun.
+
+![Impacto del control de overrun en la rentabilidad de heladería]({{'/img/blog/rentabilidad-control-overrun-heladeria.avif' | relative_url}} "Controlar el overrun correctamente puede aumentar tu rentabilidad hasta en $6,000,000 COP mensuales"){:loading="lazy" decoding="async" width="900" height="400"}
 
 Este cálculo no incluye el ahorro de tiempo y reducción de desperdicios que obtienes al tener producción consistente. Tampoco incluye el valor de poder costear tus productos con precisión y establecer precios competitivos basados en números reales en lugar de estimaciones.
 
