@@ -9,8 +9,6 @@ breadcrumb:
   - Inicio: /
   - Bases para helado: /bases-helado-colombia/
 ---
-
-
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -24,7 +22,7 @@ breadcrumb:
   </ol>
 </nav>
 
-<main class="wrapper">
+<main class="section">
   
   <!-- Hero Section con propuesta de valor -->
   <section class="center text_center flow">
@@ -162,7 +160,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Stevia Base G Crema</h3>
           <p>Para helados cremosos sin azúcar. Endulzado con Stevia + eritritol.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
 
@@ -173,7 +171,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Stevia Base G Fruta</h3>
           <p>Para sorbetes y helados de fruta sin azúcar añadida.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
 
@@ -184,7 +182,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Yogo Greco Stevia</h3>
           <p>Base para helado de yogurt griego sin azúcar. Tendencia 2025.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
     </div>
@@ -241,7 +239,7 @@ breadcrumb:
       </table>
     </div>
 
-    <p><strong>Nota importante:</strong> El "precio por litro" se refiere al costo de la base dividido entre los litros de helado que produce, no al precio de venta. Una base más cara puede resultar más económica si produce mayor volumen.</p>
+    <p><strong>Nota importante:</strong> <i>El "precio por litro" se refiere al costo de la base dividido entre los litros de helado que produce, no al precio de venta</i>. Una base más cara puede resultar más económica si produce mayor volumen.</p>
   </section>
 
   <!-- FAQ Schema Markup -->
@@ -279,7 +277,7 @@ breadcrumb:
     <h2>Solicita muestras y calcula tu inversión</h2>
     <p>No tomes decisiones a ciegas. Te enviamos muestras de las bases que te interesen y te asesoramos para calcular el costo real por litro de helado producido según tu volumen de compra.</p>
     
-    <div class="three_columns">
+    <div class="flex">
       {% include boton.html num="1" text="Solicitar muestras de bases 🍨" %}
       <a href="tel:{{ site.telefono }}" class="boton boton_2">Llamar a asesoría técnica</a>
     </div>
