@@ -8,6 +8,17 @@ hero: "img/bases-helado-italgel-colombia.avif"
 breadcrumb:
   - Inicio: /
   - Bases para helado: /bases-helado-colombia/
+faqs:
+  - question: "¿Cuál es la diferencia entre Base 50 y Neutralin?"
+    answer: "Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin."
+  - question: "¿Puedo usar Base 50 para helado soft?"
+    answer: "No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua."
+  - question: "¿Las bases MEC3 ya vienen pasteurizadas?"
+    answer: "Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación."
+  - question: "¿Cuánto tiempo duran las bases sin abrir?"
+    answer: "En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad."
+  - question: "¿Dónde comprar bases para helado al por mayor en Colombia?"
+    answer: "Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -243,33 +254,9 @@ breadcrumb:
   </section>
 
   <!-- FAQ Schema Markup -->
-  <section class="wrapper center flow">
+  <section class="wrapper flow">
     <h2>Preguntas frecuentes sobre bases para helado</h2>
-    
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre Base 50 y Neutralin?</strong></summary>
-      <p>Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin. <a href="{{'/blog/diferencia-base-50-neutralin-helado//'|relative_url}}">Lee la comparativa completa aquí</a>.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar Base 50 para helado soft?</strong></summary>
-      <p>No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las bases MEC3 ya vienen pasteurizadas?</strong></summary>
-      <p>Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo duran las bases sin abrir?</strong></summary>
-      <p>En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar bases para helado al por mayor en Colombia?</strong></summary>
-      <p>Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->

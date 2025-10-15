@@ -8,6 +8,17 @@ hero: "img/coberturas-helado-italgel-colombia.avif"
 breadcrumb:
   - Inicio: /
   - Coberturas y salsas: /coberturas-salsas-helado/
+faqs:
+  - question: "¿Cuál es la diferencia entre variegato y salsa de topping?"
+    answer: "El variegato se incorpora AL helado durante el envasado, creando vetas internas. La salsa de topping va POR ENCIMA al servir. Quella Family puede usarse para ambos, los Fiordi son específicamente variegatos."
+  - question: "¿Las coberturas Quella se endurecen en el congelador?"
+    answer: "No, mantienen viscosidad cremosa a -18°C gracias a su formulación con anticongelantes naturales (glicerina, sorbitol). Por eso cuestan más que salsas genéricas."
+  - question: "¿Cuánto dura una cubeta de Quella abierta?"
+    answer: "Sin abrir: 18 meses. Abierta y refrigerada (4-8°C): 6-9 meses. Siempre tapa herméticamente. No refrigeres las que contengan chocolate, se cristaliza."
+  - question: "¿Puedo hacer mi propio variegato casero?"
+    answer: "Técnicamente sí, pero no lograrás la viscosidad ni resistencia al congelamiento de un variegato profesional. El costo de tiempo + ingredientes + pruebas fallidas supera el precio del producto industrial."
+  - question: "¿Dónde comprar coberturas para helado al por mayor en Colombia?"
+    answer: "Italgel distribuye línea completa Quella y Fiordi en presentaciones mayoristas (cubetas 5kg y 3kg). Entregas en Bogotá, Medellín, Cali. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -339,31 +350,7 @@ breadcrumb:
   <!-- FAQ -->
   <section class="wrapper center flow">
     <h2>Preguntas frecuentes sobre coberturas y variegatos</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre variegato y salsa de topping?</strong></summary>
-      <p>El variegato se incorpora AL helado durante el envasado, creando vetas internas. La salsa de topping va POR ENCIMA al servir. Quella Family puede usarse para ambos, los Fiordi son específicamente variegatos.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las coberturas Quella se endurecen en el congelador?</strong></summary>
-      <p>No, mantienen viscosidad cremosa a -18°C gracias a su formulación con anticongelantes naturales (glicerina, sorbitol). Por eso cuestan más que salsas genéricas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto dura una cubeta de Quella abierta?</strong></summary>
-      <p>Sin abrir: 18 meses. Abierta y refrigerada (4-8°C): 6-9 meses. Siempre tapa herméticamente. No refrigeres las que contengan chocolate, se cristaliza.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo hacer mi propio variegato casero?</strong></summary>
-      <p>Técnicamente sí, pero no lograrás la viscosidad ni resistencia al congelamiento de un variegato profesional. El costo de tiempo + ingredientes + pruebas fallidas supera el precio del producto industrial.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar coberturas para helado al por mayor en Colombia?</strong></summary>
-      <p>Italgel distribuye línea completa Quella y Fiordi en presentaciones mayoristas (cubetas 5kg y 3kg). Entregas en Bogotá, Medellín, Cali. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->

@@ -8,6 +8,17 @@ hero: "img/pastas-helado-italgel-colombia.avif"
 breadcrumb:
   - Inicio: /
   - Pastas para helado: /pastas-sabores-helado/
+faqs:
+  - question: "¿Cuál es la diferencia entre pasta y extracto de vainilla?"
+    answer: "La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto."
+  - question: "¿Puedo combinar varias pastas en un mismo helado?"
+    answer: "Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor."
+  - question: "¿Las pastas de fruta reemplazan la fruta natural?"
+    answer: "Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural."
+  - question: "¿Cuánto dura una pasta abierta?"
+    answer: "Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas."
+  - question: "¿Dónde comprar pasta de pistacho para helado en Colombia?"
+    answer: "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -343,31 +354,7 @@ breadcrumb:
   <!-- FAQ -->
   <section class="wrapper center flow">
     <h2>Preguntas frecuentes sobre pastas para helado</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre pasta y extracto de vainilla?</strong></summary>
-      <p>La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo combinar varias pastas en un mismo helado?</strong></summary>
-      <p>Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las pastas de fruta reemplazan la fruta natural?</strong></summary>
-      <p>Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto dura una pasta abierta?</strong></summary>
-      <p>Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar pasta de pistacho para helado en Colombia?</strong></summary>
-      <p>Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->

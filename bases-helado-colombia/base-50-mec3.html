@@ -32,6 +32,13 @@ currency: COP
 availability: in_stock
 sku: MEC3-BASE50-2KG
 brand: MEC3
+faqs:
+  - question: "¿Puedo usar agua en vez de leche con Base 50?"
+    answer: "Técnicamente sí, pero no recomendado. Base 50 está formulada para leche (contiene proteínas lácteas que aportan cremosidad). Con agua obtienes sorbete, no helado cremoso. Si quieres sabores frutales sin lácteos, usa base específica para sorbetes (MEC3 Fruttissima)."
+  - question: "¿Base 50 contiene gluten o es apta para celíacos?"
+    answer: "Base 50 MEC3 es libre de gluten certificado (sin trazas). Apta para celíacos. Sin embargo, verifica que tus otros ingredientes (pastas, variegatos, toppings) también sean sin gluten si quieres ofrecer helado 100% celíaco."
+  - question: "¿Dónde comprar Base 50 MEC3 en Colombia con entrega rápida?"
+    answer: "Italgel distribuye Base 50 MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama al <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>."
 ---
 
 <nav class="breadcrumbs section" aria-label="Navegación de ruta">
@@ -321,21 +328,7 @@ brand: MEC3
   <!-- FAQ -->
   <section class="wrapper center flow">
     <h2>Preguntas frecuentes sobre Base 50 MEC3</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar agua en vez de leche con Base 50?</strong></summary>
-      <p>Técnicamente sí, pero no recomendado. Base 50 está formulada para leche (contiene proteínas lácteas que aportan cremosidad). Con agua obtienes sorbete, no helado cremoso. Si quieres sabores frutales sin lácteos, usa base específica para sorbetes (MEC3 Fruttissima).</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Base 50 contiene gluten o es apta para celíacos?</strong></summary>
-      <p>Base 50 MEC3 es libre de gluten certificado (sin trazas). Apta para celíacos. Sin embargo, verifica que tus otros ingredientes (pastas, variegatos, toppings) también sean sin gluten si quieres ofrecer helado 100% celíaco.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Base 50 MEC3 en Colombia con entrega rápida?</strong></summary>
-      <p>Italgel distribuye Base 50 MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a href="#" id="lead_whatsapp">Cotiza aquí por WhatsApp</a> o llama al <a href="tel:{{site.telefono}}">{{site.telefono}}</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final fuerte -->

@@ -225,47 +225,34 @@ form.center button {
    FAQ (Details/Summary)
    ================================= */
 .faq-item {
-  border-block-end: 2px solid var(--color-gris1);
-  padding-block: 1.5rem;
+  align-self: start;
+  box-shadow: var(--shadow-hover);
   
-  summary {
-    cursor: pointer;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: var(--color-texto);
-    padding: 0.5rem 2rem 0.5rem 0;
-    position: relative;
-    user-select: none;
-    list-style: none;
-    transition: var(--transition);
+  &:nth-child(odd) h3 {
+    background-color: var(--color-secundario);
     
-    &::-webkit-details-marker {
-      display: none;
-    }
-    
-    &::after {
-      content: "+";
-      position: absolute;
-      inset-inline-end: 0;
-      font-size: 1.5rem;
-      font-weight: 300;
-      color: var(--color-accion);
-      transition: transform 0.3s ease;
-    }
+  }
+
+  &:nth-child(even) h3 {
+    background-color: var(--color-principal);
     
     &:hover {
       color: var(--color-accion);
     }
   }
-  
-  &[open] summary::after {
-    content: "−";
-    transform: rotate(180deg);
+
+  h3 {
+    font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
+    padding: 12px;
+    color: var(--color-blanco);
+    max-width: 100%;
+    margin: 0 0 0.5rem 0;
   }
   
   p {
+    font-size: 16px;
     margin-block-start: 1rem;
-    padding-inline-start: 0;
+    padding: 0 1rem 0.5rem;
     color: var(--color-gris3);
     line-height: 1.7;
   }

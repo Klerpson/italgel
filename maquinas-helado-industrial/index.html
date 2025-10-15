@@ -24,6 +24,13 @@ breadcrumb:
 
 # SEO
 tags: [máquinas industriales helado, líneas producción, Carpigiani industrial]
+faqs:
+  - question: "¿Necesito instalación trifásica obligatoriamente?"
+    answer: "Sí, equipamiento industrial requiere trifásico 220V o 380V (dependiendo del modelo). Líneas semi-industriales pequeñas pueden funcionar con monofásico 220V pero con limitaciones de potencia. Consulta con electricista certificado antes de comprar. Nosotros coordinamos con tu proveedor eléctrico local para tramitar instalación trifásica (costo aproximado $3-6M según ciudad y distancia)."
+  - question: "¿Puedo comprar equipo usado para reducir inversión inicial?"
+    answer: "Sí, pero con precauciones. Equipo industrial Carpigiani bien mantenido de 5-8 años es buena opción. EXIGE: historial de mantenimiento completo, prueba de funcionamiento presencial antes de comprar, revisión técnica por especialista (ofrecemos este servicio por $450.000). Evita equipos con +15 años o sin documentación de mantenimiento."
+  - question: "¿Cuánto espacio necesito para una línea industrial?"
+    answer: "Línea semi-industrial (400L/día): mínimo 25m² libres. Línea industrial básica (800L/día): mínimo 40m². Línea completa (1500L/día): 60-80m². Esto incluye zona de equipos + circulación + área de llenado/empaque. Techo mínimo 3.5m de altura (equipos miden hasta 2m + espacio para ventilación)."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -228,21 +235,7 @@ tags: [máquinas industriales helado, líneas producción, Carpigiani industrial
   <!-- FAQ -->
   <section class="center flow">
     <h2>Preguntas frecuentes sobre maquinaria industrial</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Necesito instalación trifásica obligatoriamente?</strong></summary>
-      <p>Sí, equipamiento industrial requiere trifásico 220V o 380V (dependiendo del modelo). Líneas semi-industriales pequeñas pueden funcionar con monofásico 220V pero con limitaciones de potencia. Consulta con electricista certificado antes de comprar. Nosotros coordinamos con tu proveedor eléctrico local para tramitar instalación trifásica (costo aproximado $3-6M según ciudad y distancia).</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo comprar equipo usado para reducir inversión inicial?</strong></summary>
-      <p>Sí, pero con precauciones. Equipo industrial Carpigiani bien mantenido de 5-8 años es buena opción. EXIGE: historial de mantenimiento completo, prueba de funcionamiento presencial antes de comprar, revisión técnica por especialista (ofrecemos este servicio por $450.000). Evita equipos con +15 años o sin documentación de mantenimiento.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto espacio necesito para una línea industrial?</strong></summary>
-      <p>Línea semi-industrial (400L/día): mínimo 25m² libres. Línea industrial básica (800L/día): mínimo 40m². Línea completa (1500L/día): 60-80m². Esto incluye zona de equipos + circulación + área de llenado/empaque. Techo mínimo 3.5m de altura (equipos miden hasta 2m + espacio para ventilación).</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->

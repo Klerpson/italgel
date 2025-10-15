@@ -10,6 +10,13 @@ breadcrumb:
   - Inicio: /
   - Equipos: /equipos/
   - Máquinas helado soft: /maquinas-helado-soft/
+faqs:
+  - question: "¿Qué diferencia hay entre una máquina de $6M y una de $18M?"
+    answer: "Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial."
+  - question: "¿Puedo usar cualquier mezcla o solo las que vende Italgel?"
+    answer: "Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas."
+  - question: "¿Cuánto tiempo se tarda en limpiar la máquina diariamente?"
+    answer: "Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -215,21 +222,7 @@ breadcrumb:
   <!-- FAQ -->
   <section class="center flow">
     <h2>Preguntas frecuentes sobre máquinas de helado soft</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Qué diferencia hay entre una máquina de $6M y una de $18M?</strong></summary>
-      <p>Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar cualquier mezcla o solo las que vende Italgel?</strong></summary>
-      <p>Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo se tarda en limpiar la máquina diariamente?</strong></summary>
-      <p>Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->

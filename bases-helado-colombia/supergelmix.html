@@ -32,6 +32,13 @@ currency: COP
 availability: in_stock
 sku: MEC3-SUPERGELMIX-2KG
 brand: MEC3
+faqs:
+  - question: "¿Puedo usar Supergelmix en mantecadora normal (no soft)?"
+    answer: "No recomendado. Supergelmix está formulado para proceso continuo de máquinas soft. En mantecadora batch obtendrás textura demasiado aireada y ligera, no el helado cremoso que buscas. Para mantecadora usa Base 50 o Neutralin."
+  - question: "¿Cuánto tiempo dura la mezcla preparada en la tolva de la máquina?"
+    answer: "Hasta 48 horas si tolva mantiene 4°C constante. Después de 48h, desechar y preparar nueva. NUNCA agregar mezcla fresca a mezcla vieja en tolva. Siempre vaciar, limpiar y cargar nueva."
+  - question: "¿Dónde comprar Supergelmix MEC3 en Colombia para máquinas soft?"
+    answer: "Italgel distribuye Supergelmix con stock permanente. Compatible con todas las máquinas soft. <a href=\"#\" id=\"lead_whatsapp\">Cotiza por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Presentaciones 2kg, 5kg, 20kg."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -275,21 +282,7 @@ brand: MEC3
 
   <section class=" center flow">
     <h2>Preguntas frecuentes sobre Supergelmix</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar Supergelmix en mantecadora normal (no soft)?</strong></summary>
-      <p>No recomendado. Supergelmix está formulado para proceso continuo de máquinas soft. En mantecadora batch obtendrás textura demasiado aireada y ligera, no el helado cremoso que buscas. Para mantecadora usa Base 50 o Neutralin.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo dura la mezcla preparada en la tolva de la máquina?</strong></summary>
-      <p>Hasta 48 horas si tolva mantiene 4°C constante. Después de 48h, desechar y preparar nueva. NUNCA agregar mezcla fresca a mezcla vieja en tolva. Siempre vaciar, limpiar y cargar nueva.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Supergelmix MEC3 en Colombia para máquinas soft?</strong></summary>
-      <p>Italgel distribuye Supergelmix con stock permanente. Compatible con todas las máquinas soft. <a href="#" id="lead_whatsapp">Cotiza por WhatsApp</a> o llama <a href="tel:{{site.telefono}}">{{site.telefono}}</a>. Presentaciones 2kg, 5kg, 20kg.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <section class=" center text_center flow cta">

@@ -32,6 +32,13 @@ currency: COP
 availability: in_stock
 sku: MEC3-NEUTRALIN-2KG
 brand: MEC3
+faqs:
+  - question: "¿Puedo mezclar Neutralin Plus con Base 50 para \"nivel medio\"?"
+    answer: "Técnicamente sí (50% Neutralin + 50% Base 50), pero no recomendado. Las dos bases tienen sistemas de estabilizantes diferentes que pueden interactuar de forma impredecible. Mejor: decide tu estilo (denso o equilibrado) y usa una base consistentemente. Si quieres \"término medio\", existe Base Divina (overrun 30-45%)."
+  - question: "¿Neutralin Plus necesita máquina especial o funciona en mantecadora normal?"
+    answer: "Funciona en cualquier mantecadora profesional. NO requiere equipo especial. Simplemente ajusta expectativa: el volumen aumentará menos vs Base 50, y tiempo de batido será 2-3 minutos más largo. La máquina es la misma."
+  - question: "¿Dónde comprar Neutralin Plus MEC3 en Colombia?"
+    answer: "Italgel distribuye Neutralin Plus con stock en Bogotá, Medellín y Cali. Envíos nacionales. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama al <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en presentaciones 2kg y 5kg."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -302,21 +309,7 @@ brand: MEC3
   <!-- FAQ -->
   <section class=" flow">
     <h2>Preguntas frecuentes sobre Neutralin Plus</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo mezclar Neutralin Plus con Base 50 para "nivel medio"?</strong></summary>
-      <p>Técnicamente sí (50% Neutralin + 50% Base 50), pero no recomendado. Las dos bases tienen sistemas de estabilizantes diferentes que pueden interactuar de forma impredecible. Mejor: decide tu estilo (denso o equilibrado) y usa una base consistentemente. Si quieres "término medio", existe Base Divina (overrun 30-45%).</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Neutralin Plus necesita máquina especial o funciona en mantecadora normal?</strong></summary>
-      <p>Funciona en cualquier mantecadora profesional. NO requiere equipo especial. Simplemente ajusta expectativa: el volumen aumentará menos vs Base 50, y tiempo de batido será 2-3 minutos más largo. La máquina es la misma.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Neutralin Plus MEC3 en Colombia?</strong></summary>
-      <p>Italgel distribuye Neutralin Plus con stock en Bogotá, Medellín y Cali. Envíos nacionales. <a href="#" id="lead_whatsapp">Cotiza aquí por WhatsApp</a> o llama al <a href="tel:{{site.telefono}}">{{site.telefono}}</a>. Disponible en presentaciones 2kg y 5kg.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->

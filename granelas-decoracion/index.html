@@ -9,6 +9,13 @@ breadcrumb:
   - Inicio: /
   - Coberturas y salsas: /coberturas-salsas-helado/
   - Granelas y cookies: /granelas-decoracion/
+faqs:
+  - question: "¿Cuánto duran las granelas una vez abiertas?"
+    answer: "En recipiente hermético bien cerrado: 4-6 meses sin pérdida de crujiente. Expuestas al aire (recipiente sin tapa): 7-10 días antes de empezar a ablandarse. NUNCA refrigeres las granelas, la humedad del refrigerador las arruina. Temperatura ambiente 18-25°C es ideal."
+  - question: "¿Puedo hacer mis propias granelas caseras?"
+    answer: "Técnicamente sí, pero raramente es rentable. Tostar frutos secos y trocearlos implica: costo de materia prima + tiempo de preparación + riesgo de tostado incorrecto (amargo o sin sabor). Una granela profesional cuesta $8.500-$12.000/kg. Hacer casera te cuesta $7.000-$9.000/kg en ingredientes + 2-3 horas de trabajo. Para volumen bajo-medio, comprar profesional es más eficiente."
+  - question: "¿Dónde comprar granelas para helado en Colombia?"
+    answer: "Italgel distribuye granelas Quella Family, Fabbri y MEC3 con stock permanente. Envíos a todo el país. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama al <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>."
 ---
 
 <nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
@@ -263,21 +270,7 @@ breadcrumb:
   <!-- FAQ -->
   <section class=" center flow">
     <h2>Preguntas frecuentes sobre granelas</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto duran las granelas una vez abiertas?</strong></summary>
-      <p>En recipiente hermético bien cerrado: 4-6 meses sin pérdida de crujiente. Expuestas al aire (recipiente sin tapa): 7-10 días antes de empezar a ablandarse. NUNCA refrigeres las granelas, la humedad del refrigerador las arruina. Temperatura ambiente 18-25°C es ideal.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo hacer mis propias granelas caseras?</strong></summary>
-      <p>Técnicamente sí, pero raramente es rentable. Tostar frutos secos y trocearlos implica: costo de materia prima + tiempo de preparación + riesgo de tostado incorrecto (amargo o sin sabor). Una granela profesional cuesta $8.500-$12.000/kg. Hacer casera te cuesta $7.000-$9.000/kg en ingredientes + 2-3 horas de trabajo. Para volumen bajo-medio, comprar profesional es más eficiente.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar granelas para helado en Colombia?</strong></summary>
-      <p>Italgel distribuye granelas Quella Family, Fabbri y MEC3 con stock permanente. Envíos a todo el país. <a href="#" id="lead_whatsapp">Cotiza aquí por WhatsApp</a> o llama al <a href="tel:{{site.telefono}}">{{site.telefono}}</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->
