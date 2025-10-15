@@ -6,8 +6,11 @@ h1: Coberturas y salsas que convierten un helado simple en una experiencia memor
 intro: Variegatos Quella Family y salsas MEC3 para diferenciación real en tu heladería
 hero: "img/coberturas-helado-italgel-colombia.avif"
 breadcrumb:
-  - Inicio: /
-  - Coberturas y salsas: /coberturas-salsas-helado/
+  - name: Inicio
+    url: /
+  - name: Coberturas y salsas
+    url: /coberturas-salsas-helado/
+breadcrumb_include: true
 faqs:
   - question: "¿Cuál es la diferencia entre variegato y salsa de topping?"
     answer: "El variegato se incorpora AL helado durante el envasado, creando vetas internas. La salsa de topping va POR ENCIMA al servir. Quella Family puede usarse para ambos, los Fiordi son específicamente variegatos."
@@ -20,19 +23,7 @@ faqs:
   - question: "¿Dónde comprar coberturas para helado al por mayor en Colombia?"
     answer: "Italgel distribuye línea completa Quella y Fiordi en presentaciones mayoristas (cubetas 5kg y 3kg). Entregas en Bogotá, Medellín, Cali. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Coberturas y salsas</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

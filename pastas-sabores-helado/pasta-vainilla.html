@@ -18,9 +18,13 @@ parent: "Pastas para helado"
 parent_url: /pastas-sabores-helado/
 category: pastas-clasicas
 breadcrumb:
-  - Inicio: /
-  - Pastas para helado: /pastas-sabores-helado/
-  - Pasta de Vainilla: /pastas-sabores-helado/pasta-vainilla/
+  - name: Inicio
+    url: /
+  - name: Pastas para helado
+    url: /pastas-sabores-helado/
+  - name: Pasta de Vainilla
+    url: /pastas-sabores-helado/pasta-vainilla/
+breadcrumb_include: true
 
 # SEO
 tags: [pasta vainilla, vainilla bourbon, caviar vainilla, helado vainilla natural]
@@ -40,23 +44,7 @@ faqs:
   - question: "¿Dónde comprar Pasta de Vainilla Bourbon MEC3 en Colombia?"
     answer: "Italgel distribuye Pasta Vainilla Bourbon auténtica con stock permanente. <a href=\"#\" id=\"lead_whatsapp\">Cotiza por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/pastas-sabores-helado/"><span itemprop="name">Pastas para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Pasta de Vainilla</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

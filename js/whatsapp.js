@@ -23,27 +23,7 @@
   const DeviceDetector = {
     isMobile: /iPhone|Android|iPad|iPod|Windows Phone|webOS|BlackBerry|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent),
     isIOS: /iPhone|iPad|iPod/i.test(navigator.userAgent),
-    isAndroid: /Android/i.test(navigator.userAgent),
-    
-    /**
-     * Detecta si WhatsApp está instalado (solo móvil)
-     * En desktop siempre retorna false para forzar WhatsApp Web
-     */
-    hasWhatsAppInstalled() {
-      if (!this.isMobile) return false;
-      
-      // iOS: Intentar abrir custom URL scheme
-      if (this.isIOS) {
-        return true; // iOS siempre intenta abrir app, fallback automático a web
-      }
-      
-      // Android: Asumir que está instalado (96% de dispositivos Android tienen WhatsApp)
-      if (this.isAndroid) {
-        return true;
-      }
-      
-      return false;
-    }
+    isAndroid: /Android/i.test(navigator.userAgent)
   };
 
   // ============================================
@@ -51,20 +31,15 @@
   // ============================================
   const WhatsAppURL = {
     /**
-     * Genera URL de WhatsApp según dispositivo y disponibilidad de app
+     * Genera URL de WhatsApp - intenta abrir la app primero, fallback a web
      * @param {string} message - Mensaje pre-llenado
      * @returns {string} URL completa de WhatsApp
      */
     generate(message) {
       const encodedMessage = encodeURIComponent(message);
-      
-      // Móvil con app instalada: URL directa a la app
-      if (DeviceDetector.isMobile && DeviceDetector.hasWhatsAppInstalled()) {
-        return `https://wa.me/${CONFIG.phoneNumber}?text=${encodedMessage}`;
-      }
-      
-      // Desktop o móvil sin app: WhatsApp Web
-      return `https://web.whatsapp.com/send?phone=${CONFIG.phoneNumber}&text=${encodedMessage}`;
+
+      // Siempre usar wa.me - intenta abrir app en móvil, web en desktop
+      return `https://wa.me/${CONFIG.phoneNumber}?text=${encodedMessage}`;
     },
     
     /**
@@ -325,7 +300,7 @@
      */
     init() {
       const whatsappLinks = document.querySelectorAll('a#lead_whatsapp, .whatsapp-float');
-      
+
       whatsappLinks.forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
@@ -333,24 +308,38 @@
         });
       });
     },
-    
+
     /**
      * Maneja el click en un enlace de WhatsApp
      */
     handleClick() {
       const message = WhatsAppURL.getMessage();
       const url = WhatsAppURL.generate(message);
-      
-      // Abrir WhatsApp
+
+      // Intentar abrir WhatsApp (app en móvil, web en desktop)
       const whatsappWindow = window.open(url, '_blank');
-      
-      // Detectar si el mensaje no se envió (ventana se cerró rápido o no se abrió)
-      setTimeout(() => {
-        // Si la ventana se cerró o no tiene foco, mostrar modal
-        if (!whatsappWindow || whatsappWindow.closed || !whatsappWindow.document.hasFocus()) {
-          FallbackModal.show();
-        }
-      }, CONFIG.modalTimeout);
+
+      // En móvil, intentar abrir app primero
+      if (DeviceDetector.isMobile) {
+        // Para móvil, intentar abrir app con intent URL
+        const appUrl = `whatsapp://send?phone=${CONFIG.phoneNumber}&text=${encodeURIComponent(message)}`;
+        window.location.href = appUrl;
+
+        // Si no se abre la app después de un tiempo, mostrar modal
+        setTimeout(() => {
+          if (!whatsappWindow || whatsappWindow.closed) {
+            FallbackModal.show();
+          }
+        }, CONFIG.modalTimeout);
+      } else {
+        // En desktop, abrir WhatsApp Web directamente
+        // Detectar si no se abrió (ventana se cerró rápido)
+        setTimeout(() => {
+          if (!whatsappWindow || whatsappWindow.closed) {
+            FallbackModal.show();
+          }
+        }, CONFIG.modalTimeout);
+      }
     }
   };
 

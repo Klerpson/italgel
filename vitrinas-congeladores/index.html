@@ -6,9 +6,13 @@ h1: Vitrinas de exhibición que venden helado antes de que el cliente pruebe
 intro: La primera impresión visual determina si un cliente compra 1 bola o 3 bolas
 hero: img/vitrinas-congeladores.avif
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Vitrinas exhibición: /vitrinas-exhibicion-helado/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Vitrinas exhibición
+    url: /vitrinas-exhibicion-helado/
+breadcrumb_include: true
 faqs:
   - question: "¿Puedo usar una vitrina de panadería para helado?"
     answer: "NO. Vitrinas de panadería operan a +4/+8°C (refrigeración). Helado necesita -12/-18°C (congelación). Son tecnologías completamente diferentes. Intentar usar vitrina de refrigeración para helado resulta en: helado derretido permanentemente, compresor trabajando 24/7 intentando alcanzar temperatura (factura eléctrica 3x mayor), y helado cristalizado por ciclos de descongelación-recongelación. Inversión perdida."
@@ -17,23 +21,7 @@ faqs:
   - question: "¿Las vitrinas hacen ruido?"
     answer: "Vitrinas profesionales (Carpigiani, Coldelite): 42-48 dB (similar a conversación baja). Imperceptible con música ambiente. Vitrinas económicas: 65-75 dB (similar a aspiradora). Molesto para clientes y empleados. El compresor es la diferencia: compresores scroll (profesionales) vs compresores pistón (económicos)."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Vitrinas de exhibición</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

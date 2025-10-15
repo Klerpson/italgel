@@ -18,10 +18,15 @@ parent: "Máquinas helado soft"
 parent_url: /maquinas-helado-soft/
 category: equipos-soft-mesa
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Máquinas helado soft: /maquinas-helado-soft/
-  - Coldelite Compacta 3: /maquinas-helado-soft/coldelite-compacta-3/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Máquinas helado soft
+    url: /maquinas-helado-soft/
+  - name: Coldelite Compacta 3
+    url: /maquinas-helado-soft/coldelite-compacta-3/
+breadcrumb_include: true
 
 # SEO
 tags: [Coldelite Compacta 3, máquina soft 2 sabores, helado soft profesional]
@@ -41,27 +46,7 @@ faqs:
   - question: "¿Incluye instalación y capacitación?"
     answer: "Sí. Italgel incluye: instalación eléctrica (verificación, no cableado completo), puesta en marcha, capacitación operativa 2 horas. Soporte telefónico primeros 3 meses sin costo."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/equipos/"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/maquinas-helado-soft/"><span itemprop="name">Máquinas helado soft</span></a>
-      <meta itemprop="position" content="3" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Coldelite Compacta 3</span>
-      <meta itemprop="position" content="4" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

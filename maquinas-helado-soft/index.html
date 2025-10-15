@@ -7,9 +7,13 @@ intro: Equipos Coldelite con tecnología italiana y soporte técnico en Colombia
 hero: img/maquina-industrial-soft.avif
 alt: Línea de producción industrial de helado Carpigiani para fabricación a gran escala distribuida por Italgel Colombia
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Máquinas helado soft: /maquinas-helado-soft/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Máquinas helado soft
+    url: /maquinas-helado-soft/
+breadcrumb_include: true
 faqs:
   - question: "¿Qué diferencia hay entre una máquina de $6M y una de $18M?"
     answer: "Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial."
@@ -18,23 +22,7 @@ faqs:
   - question: "¿Cuánto tiempo se tarda en limpiar la máquina diariamente?"
     answer: "Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Máquinas de helado soft</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

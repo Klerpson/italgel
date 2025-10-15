@@ -18,9 +18,13 @@ parent: "Equipos"
 parent_url: /equipos/
 category: maquinaria-industrial
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Máquinas industriales: /maquinas-helado-industrial/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Máquinas industriales
+    url: /maquinas-helado-industrial/
+breadcrumb_include: true
 
 # SEO
 tags: [máquinas industriales helado, líneas producción, Carpigiani industrial]
@@ -32,23 +36,7 @@ faqs:
   - question: "¿Cuánto espacio necesito para una línea industrial?"
     answer: "Línea semi-industrial (400L/día): mínimo 25m² libres. Línea industrial básica (800L/día): mínimo 40m². Línea completa (1500L/día): 60-80m². Esto incluye zona de equipos + circulación + área de llenado/empaque. Techo mínimo 3.5m de altura (equipos miden hasta 2m + espacio para ventilación)."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Máquinas industriales</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

@@ -6,9 +6,13 @@ h1: Mantecadoras profesionales para maestros heladeros que no comprometen calida
 intro: Equipos Carpigiani que garantizan textura cremosa y overrun controlado batch tras batch
 hero: "img/maquina-helados-artesanal.avif"
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Mantecadoras artesanales: /mantecadoras-helado-artesanal/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Mantecadoras artesanales
+    url: /mantecadoras-helado-artesanal/
+breadcrumb_include: true
 faqs:
   - question: "¿Puedo comprar una mantecadora usada o debo comprar nueva?"
     answer: "Carpigiani usada bien mantenida es excelente opción para reducir inversión inicial. PERO: verifica historial de mantenimiento, horas de operación (idealmente <15,000 horas), estado del compresor. Solicita prueba de funcionamiento antes de comprar. Italgel ofrece servicio de revisión técnica pre-compra por $180.000 COP que te puede ahorrar millones en reparaciones posteriores."
@@ -17,23 +21,7 @@ faqs:
   - question: "¿Es difícil operar una mantecadora profesional?"
     answer: "No. Son más fáciles que equipos domésticos porque todo está automatizado. Carpigiani moderna: cargas mezcla → presionas START → esperas 12 min → extraes helado. El control de overrun, temperatura y tiempo lo hace la máquina. Incluimos capacitación de 3 horas con la compra."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Mantecadoras para helado artesanal</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

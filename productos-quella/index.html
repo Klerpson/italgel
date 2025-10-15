@@ -16,8 +16,11 @@ webp: img/quella-family-variegatos.webp
 # Jerarquía
 category: marca-premium
 breadcrumb:
-  - Inicio: /
-  - Quella Family: /quella-family/
+  - name: Inicio
+    url: /
+  - name: Quella Family
+    url: /quella-family/
+breadcrumb_include: true
 
 # SEO
 tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
@@ -29,19 +32,7 @@ faqs:
   - question: "¿Cuál es la vida útil de productos Quella una vez abiertos?"
     answer: "Variegatos: 6-12 meses refrigerados en recipiente hermético. Granelas: 6-9 meses a temperatura ambiente en recipiente hermético. Coberturas termoreversibles: 3-4 meses a temperatura ambiente (NO refrigerar). Siempre cerrar herméticamente después de usar."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Quella Family</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

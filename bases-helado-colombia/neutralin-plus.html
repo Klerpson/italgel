@@ -18,9 +18,13 @@ parent: "Bases para helado"
 parent_url: /bases-helado-colombia/
 category: bases-premium
 breadcrumb:
-  - Inicio: /
-  - Bases para helado: /bases-helado-colombia/
-  - Neutralin Plus: /bases-helado-colombia/neutralin-plus/
+  - name: Inicio
+    url: /
+  - name: Bases para helado
+    url: /bases-helado-colombia/
+  - name: Neutralin Plus
+    url: /bases-helado-colombia/neutralin-plus/
+breadcrumb_include: true
 
 # SEO
 tags: [Neutralin Plus, gelato italiano, base premium, textura densa]
@@ -40,23 +44,7 @@ faqs:
   - question: "¿Dónde comprar Neutralin Plus MEC3 en Colombia?"
     answer: "Italgel distribuye Neutralin Plus con stock en Bogotá, Medellín y Cali. Envíos nacionales. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama al <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en presentaciones 2kg y 5kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/bases-helado-colombia//'|relative_url}}"><span itemprop="name">Bases para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Neutralin Plus</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper center">
 

@@ -6,9 +6,13 @@ h1: Granelas y cookies que convierten cada copa en Instagram-worthy
 intro: El crujiente que tus clientes buscan y que aumenta tu ticket promedio 30%
 hero: "img/granelas-crujientes.avif"
 breadcrumb:
-  - Inicio: /
-  - Coberturas y salsas: /coberturas-salsas-helado/
-  - Granelas y cookies: /granelas-decoracion/
+  - name: Inicio
+    url: /
+  - name: Coberturas y salsas
+    url: /coberturas-salsas-helado/
+  - name: Granelas y cookies
+    url: /granelas-decoracion/
+breadcrumb_include: true
 faqs:
   - question: "¿Cuánto duran las granelas una vez abiertas?"
     answer: "En recipiente hermético bien cerrado: 4-6 meses sin pérdida de crujiente. Expuestas al aire (recipiente sin tapa): 7-10 días antes de empezar a ablandarse. NUNCA refrigeres las granelas, la humedad del refrigerador las arruina. Temperatura ambiente 18-25°C es ideal."
@@ -17,23 +21,7 @@ faqs:
   - question: "¿Dónde comprar granelas para helado en Colombia?"
     answer: "Italgel distribuye granelas Quella Family, Fabbri y MEC3 con stock permanente. Envíos a todo el país. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama al <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/coberturas-salsas-helado//'|relative_url}}"><span itemprop="name">Coberturas y salsas</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Granelas y cookies</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

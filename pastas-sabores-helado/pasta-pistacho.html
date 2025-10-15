@@ -18,9 +18,13 @@ parent: "Pastas para helado"
 parent_url: /pastas-sabores-helado/
 category: pastas-premium
 breadcrumb:
-  - Inicio: /
-  - Pastas para helado: /pastas-sabores-helado/
-  - Pasta de Pistacho: /pastas-sabores-helado/pasta-pistacho/
+  - name: Inicio
+    url: /
+  - name: Pastas para helado
+    url: /pastas-sabores-helado/
+  - name: Pasta de Pistacho
+    url: /pastas-sabores-helado/pasta-pistacho/
+breadcrumb_include: true
 
 # SEO
 tags: [pasta pistacho, pistacho siciliano, gelato pistacho, pasta helado premium]
@@ -40,23 +44,7 @@ faqs:
   - question: "¿Dónde comprar Pasta de Pistacho Siciliano MEC3 en Colombia?"
     answer: "Italgel distribuye Pasta Pistacho Siciliano MEC3 auténtica con certificado DOP. Stock en Bogotá, Medellín, Cali. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/pastas-sabores-helado//'|relative_url}}"><span itemprop="name">Pastas para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Pasta de Pistacho</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 

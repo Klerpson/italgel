@@ -18,9 +18,13 @@ parent: "Bases para helado"
 parent_url: /bases-helado-colombia/
 category: bases-soft
 breadcrumb:
-  - Inicio: /
-  - Bases para helado: /bases-helado-colombia/
-  - Supergelmix: /bases-helado-colombia/supergelmix/
+  - name: Inicio
+    url: /
+  - name: Bases para helado
+    url: /bases-helado-colombia/
+  - name: Supergelmix
+    url: /bases-helado-colombia/supergelmix/
+breadcrumb_include: true
 
 # SEO
 tags: [Supergelmix, helado soft, soft ice cream, base máquina soft]
@@ -40,23 +44,7 @@ faqs:
   - question: "¿Dónde comprar Supergelmix MEC3 en Colombia para máquinas soft?"
     answer: "Italgel distribuye Supergelmix con stock permanente. Compatible con todas las máquinas soft. <a href=\"#\" id=\"lead_whatsapp\">Cotiza por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Presentaciones 2kg, 5kg, 20kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/bases-helado-colombia/"><span itemprop="name">Bases para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Supergelmix</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
