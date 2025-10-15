@@ -26,15 +26,10 @@
         <ul>
           <li>{{ site.direccion }}</li>
           <li>
-            <a
-              href="tel:+57{{ site.telefono }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Tel: +57 {{ site.telefono }}</a
-            >
+            <a href="#" id="lead_whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp: +{{site.telefono}}</a>
           </li>
           <li>
-            {% include boton.html num="1" %}
+            <a href="tel:+{{ site.telefono }}" target="_blank" rel="noopener noreferrer">Tel: +{{ site.telefono }}</a>
           </li>
         </ul>
       </div>

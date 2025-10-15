@@ -21,6 +21,8 @@
 
 .footer-section ul {
   list-style: none;
+
+  li{font-size: 0.95rem;}
 }
 
 .footer-section ul li a:not(.boton) {
