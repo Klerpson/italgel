@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000/italgel/</link>
-    <atom:link href="http://localhost:4000/italgel/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Oct 2025 18:22:10 -0500</pubDate>
-    <lastBuildDate>Wed, 15 Oct 2025 18:22:10 -0500</lastBuildDate>
+    <link>http://0.0.0.0:4000/italgel/</link>
+    <atom:link href="http://0.0.0.0:4000/italgel/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Oct 2025 18:41:54 -0500</pubDate>
+    <lastBuildDate>Wed, 15 Oct 2025 18:41:54 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
     
@@ -14,8 +14,8 @@
         <title>Pasteurización de mezcla para helado: proceso correcto para garantizar seguridad y textura</title>
         <description><![CDATA[La pasteurización incorrecta es la causa principal de textura granulosa, separación de fases y contaminación bacteriana en helado artesanal.]]></description>
         <pubDate>Sat, 04 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>http://0.0.0.0:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;La pasteurización es el paso que separa una heladería profesional de una operación artesanal riesgosa. No es opcional si trabajas con ingredientes lácteos frescos. No es negociable si quieres textura consistente todos los días. No es algo que puedas “más o menos hacer bien” sin consecuencias comerciales.&lt;/p&gt;
@@ -189,8 +189,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: guía completa de coberturas y decoraciones</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,000 COP sin aumentar costos proporcionalmente. Esta guía te muestra cuáles usar y cómo presentarlos.]]></description>
         <pubDate>Fri, 03 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>http://0.0.0.0:4000/italgel/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/italgel/blog/toppings-para-helado-mas-rentables/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;Los toppings no son un extra opcional en tu heladería. Son la diferencia entre vender una bola simple a $5,000 COP y vender una copa personalizada a $8,500 COP. Es la diferencia entre margen del 60% y margen del 75% en el mismo producto base.&lt;/p&gt;
@@ -342,8 +342,8 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
         <title>Qué es el gelato italiano: diferencias técnicas con el helado artesanal</title>
         <description><![CDATA[Gelato y helado artesanal no son lo mismo. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio y rentabilidad.]]></description>
         <pubDate>Thu, 02 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>http://0.0.0.0:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;“¿Cuál es la diferencia entre gelato y helado?” es la pregunta que más escuchamos de heladeros que quieren posicionar su negocio. La respuesta no es solo semántica: son diferencias técnicas de producción que afectan directamente tu margen de ganancia, el perfil de tus clientes y la inversión en equipos.&lt;/p&gt;
@@ -550,8 +550,8 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
         <title>Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad.]]></description>
         <pubDate>Wed, 01 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>http://0.0.0.0:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;El overrun es &lt;strong&gt;el número que separa una heladería rentable de una que apenas sobrevive&lt;/strong&gt;. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.&lt;/p&gt;
