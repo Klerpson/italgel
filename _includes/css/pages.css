@@ -436,7 +436,7 @@ table {
 /* =================================
    CONTAINER QUERIES (Moderno)
    ================================= */
-@container (width > 600px) {
+@container (min-width: 600px) {
   .product-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
