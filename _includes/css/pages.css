@@ -230,15 +230,10 @@ form.center button {
   
   &:nth-child(odd) h3 {
     background-color: var(--color-secundario);
-    
   }
 
   &:nth-child(even) h3 {
     background-color: var(--color-principal);
-    
-    &:hover {
-      color: var(--color-accion);
-    }
   }
 
   h3 {

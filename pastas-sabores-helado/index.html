@@ -25,10 +25,8 @@ faqs:
 ---
 {% include breadcrumb.html %}
 
-<main class="section">
-
   <!-- Categorías de pastas -->
-  <section class="section center">
+  <main class="section center">
     <h2 class="text_center">Catálogo de pastas por categoría</h2>
     <p class="text_center">Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces:</p>
     
@@ -88,8 +86,9 @@ faqs:
       </div>
       <img src="{{ 'img/pasta-almendras-helado-artesanal.avif' | relative_url }}" alt="Pasta concentrada de almendras para helado" width="584" height="396" loading="lazy" decoding="async">
     </article>
+  </main>
     
-    <section class="center text_center flow">
+    <section class="wrapper flow">
       <h2>¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?</h2>
       <p>Puedes tener la mejor base del mundo, pero <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao), no saborizantes artificiales. Esto significa que <strong>50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho tostado molido</strong>.</p>
   
@@ -97,7 +96,6 @@ faqs:
         <p>"Cambié de proveedor de pastas cuando probé la diferencia. Con pastas MEC3, mis clientes me dicen que es el mejor helado de pistacho que han probado en Colombia. El secreto es la concentración real del fruto seco."</p>
         <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
       </blockquote>
-    </section>
     <!-- Tabla comparativa frutos secos -->
     <h3>Comparativa de pastas de frutos secos</h3>
     <div>
@@ -136,7 +134,7 @@ faqs:
         </tbody>
       </table>
     </div>
-  </section>
+    </section>
 
   <!-- PASTAS CLÁSICAS -->
   <section class="wrapper center">
@@ -289,7 +287,7 @@ faqs:
   </section>
 
   <!-- Sección de dosificación -->
-  <section class="wrapper center flow">
+  <section class="section flow">
     <h2>Guía de dosificación de pastas para helado</h2>
     <p>La dosis correcta marca la diferencia entre un sabor insípido y uno demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu preferencia:</p>
 
@@ -337,21 +335,21 @@ faqs:
       </table>
     </div>
 
-    <p><strong>Pro tip:</strong> Siempre empieza con dosis baja, prueba, y aumenta gradualmente. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
+    <p><strong>Pro tip:</strong> <i>Siempre empieza con dosis baja, prueba, y aumenta gradualmente</i>. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
   </section>
 
   <!-- FAQ -->
-  <section class="wrapper center flow">
-    <h2>Preguntas frecuentes sobre pastas para helado</h2>
+  <section class="section center flow">
+    <h2 class="text_center">Preguntas frecuentes sobre pastas para helado</h2>
     {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->
-  <section class="wrapper center text_center flow cta">
-    <h2>Solicita muestras de pastas y descubre la diferencia</h2>
-    <p>No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3.</p>
+  <section class="wrapper center flow cta">
+    <h2 class="text_center">Solicita muestras de pastas y descubre la diferencia</h2>
+    <p class="text_center">No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3.</p>
 
-    <div class="three_columns">
+    <div class="flex">
       {% include boton.html num="1" text="Solicitar muestras de pastas 🍨" %}
       <a href="{{'/bases-helado-colombia//'|relative_url}}" class="boton boton_2">Ver bases compatibles</a>
     </div>
