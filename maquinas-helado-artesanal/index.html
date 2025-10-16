@@ -23,8 +23,6 @@ faqs:
 ---
 {% include breadcrumb.html %}
 
-<main class="wrapper">
-
   <!-- Hero -->
   <section class="center text_center flow">
     <h2>La diferencia entre "hacer helado" y "hacer gelato de verdad"</h2>
@@ -35,12 +33,11 @@ faqs:
       <cite>Roberto Méndez - Gelato di Roma, Bogotá</cite>
     </blockquote>
   </section>
-
   <!-- ¿Por qué Carpigiani? -->
-  <section class=" center">
-    <h2 class="text_center">Carpigiani: el estándar mundial del gelato artesanal</h2>
+  <section class="section">
+    <h2>Carpigiani: el estándar mundial del gelato artesanal</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex bg_pink">
       <div class="flow">
         <h3>80 años perfeccionando una sola cosa: textura de gelato perfecta</h3>
         <p>Carpigiani no fabrica licuadoras, ni hornos, ni refrigeradores. Solo máquinas para helado desde 1946. Esta especialización absoluta se traduce en <strong>detalles técnicos que competidores no pueden replicar</strong>.</p>
@@ -59,7 +56,7 @@ faqs:
   </section>
 
   <!-- Catálogo -->
-  <section class=" center">
+  <section class="wrapper center">
     <h2 class="text_center">Catálogo de mantecadoras según producción requerida</h2>
 
     <div class="three_columns">
@@ -99,7 +96,7 @@ faqs:
   </section>
 
   <!-- Tabla comparativa -->
-  <section class=" center flow">
+  <section class="section center flow">
     <h2 class="text_center">Comparativa técnica: elige según tu volumen proyectado</h2>
     
     <table>
@@ -141,10 +138,10 @@ faqs:
   </section>
 
   <!-- Análisis de inversión vs producción casera -->
-  <section class=" center">
+  <section class="center wrapper">
     <h2 class="text_center">¿Vale la pena invertir en una mantecadora profesional?</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex">
       <div class="flow">
         <h3>Comparación: mantecadora profesional vs equipos domésticos</h3>
         
@@ -174,26 +171,26 @@ faqs:
 
         <p><strong>Conclusión:</strong> Una mantecadora profesional no es más cara. Es la única opción viable para producción comercial. El ahorro inicial con equipos domésticos se pierde en horas de trabajo malgastadas y producto inconsistente.</p>
       </div>
-      <img src="{{ 'img/mantecadora-carpigiani.avif' | relative_url }}" alt="Mantecadora Carpigiani para gelato artesanal" loading="lazy" width="400" height="300">
+      <img src="{{ 'img/mantecadora-carpigiani.avif' | relative_url }}" alt="Mantecadora Carpigiani para gelato artesanal" loading="lazy" width="560" height="700">
     </article>
   </section>
 
   <!-- Mantenimiento -->
-  <section class=" center">
-    <h2 class="text_center">Mantenimiento y vida útil: la inversión a largo plazo</h2>
+  <section class="wrapper">
+    <h2>Mantenimiento y vida útil: la inversión a largo plazo</h2>
 
     <div class="three_columns">
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Mantenimiento preventivo trimestral</h3>
         <p>Revisión de raspadores, lubricación de engranajes, limpieza de condensadores, verificación de presión de gas refrigerante. Costo: $280.000-$450.000 COP/servicio dependiendo del modelo.</p>
       </div>
 
-      <div class="flow borders">
+      <div class="flow borders text_center">
         <h3>Repuestos originales en stock</h3>
         <p>Italgel mantiene inventario de: raspadores, juntas, motores, tarjetas electrónicas, compresores. Tiempo de entrega: 24-72 horas. Sin esperas de importación de 60-90 días.</p>
       </div>
 
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Valor de reventa</h3>
         <p>Una Carpigiani bien mantenida se vende usada al 60-70% de su valor original después de 5-8 años. Equipos chinos pierden 80% del valor en 2 años. Carpigiani es inversión, no gasto.</p>
       </div>
@@ -201,22 +198,7 @@ faqs:
   </section>
 
   <!-- FAQ -->
-  <section class=" center flow">
-    <h2>Preguntas técnicas sobre mantecadoras</h2>
+  <section class="wrapper center flow">
+    <h2 class="text_center">Preguntas técnicas sobre mantecadoras</h2>
     {% include faqs.html %}
   </section>
-
-  <!-- CTA final -->
-  <section class=" center text_center flow cta">
-    <h2>Prueba una mantecadora Carpigiani con tu propia receta</h2>
-    <p>Trae tu mezcla (o usa nuestras bases MEC3) y produce un batch completo en nuestro showroom. Comprueba la diferencia en textura, facilidad de operación y tiempo de producción antes de invertir.</p>
-
-    <div class="three_columns">
-      {% include boton.html num="1" text="Agendar sesión de prueba 🍨" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar para cotización</a>
-    </div>
-
-    <small><i>Sesión de prueba: lunes a viernes previa cita. Trae hasta 5 litros de mezcla. Showrooms en Bogotá y Medellín.</i></small>
-  </section>
-
-</main>
