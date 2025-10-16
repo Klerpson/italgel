@@ -16,30 +16,26 @@ webp: img/quella-family-variegatos.webp
 # Jerarquía
 category: marca-premium
 breadcrumb:
-  - Inicio: /
-  - Quella Family: /quella-family/
+  - name: Inicio
+    url: /
+  - name: Quella Family
+    url: /quella-family/
+breadcrumb_include: true
 
 # SEO
 tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
+faqs:
+  - question: "¿Es Italgel distribuidor oficial de Quella Family en Colombia?"
+    answer: "Sí. Italgel es distribuidor autorizado de Quella Family para Colombia desde 2015. Importamos directamente desde la planta en Italia, garantizamos producto auténtico con trazabilidad completa. Cada lote incluye certificado de origen."
+  - question: "¿Puedo comprar cantidades pequeñas o solo venden por volumen?"
+    answer: "Vendemos desde 1 cubeta (sin pedido mínimo). Precio unitario aplica para compras 1-5 cubetas. Descuento por volumen desde 6 cubetas. Descuento mayorista desde 20 cubetas. Consultanos tu caso específico."
+  - question: "¿Cuál es la vida útil de productos Quella una vez abiertos?"
+    answer: "Variegatos: 6-12 meses refrigerados en recipiente hermético. Granelas: 6-9 meses a temperatura ambiente en recipiente hermético. Coberturas termoreversibles: 3-4 meses a temperatura ambiente (NO refrigerar). Siempre cerrar herméticamente después de usar."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Quella Family</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
+{% include breadcrumb.html %}
 
   <!-- Hero de marca -->
-  <section class="center text_center flow">
+  <section class="section center text_center flow bg_grey">
     <h2>Por qué 8 de cada 10 heladerías artesanales en Italia usan Quella Family</h2>
     <p>Quella Family no es solo una marca de variegatos. Es el resultado de 40 años perfeccionando <strong>la textura que permanece fluida a -18°C</strong> y el sabor que mantiene intensidad sin saturar el paladar. Cuando una heladería colombiana cambia de variegatos genéricos a Quella Family, sus clientes lo notan inmediatamente: "el helado sabe diferente, mejor".</p>
 
@@ -48,12 +44,36 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
       <cite>Daniela Vargas - Gelato & Co, Bogotá</cite>
     </blockquote>
   </section>
+  
+    <!-- Catálogo por línea de producto -->
+    <section class="wrapper center">
+      <h2 class="text_center">Catálogo Quella Family por línea de producto</h2>
+  
+      <div class="three_columns">
+        <div class="flow text_center center">
+          <h3>Línea variegatos clásicos - Los imprescindibles</h3>
+          <p>Los variegatos clásicos de Quella Family incluyen Caramello Salato (caramelo salado), Cioccolato Fondente (chocolate negro 62%) y Frutti di Bosco (frutos rojos). Formulaciones específicas para helado artesanal con estabilidad térmica superior, concentración de sabor real y sistema antioxidante avanzado. Presentaciones en cubetas de 3kg y 6kg.</p>
+        </div>
+  
+        <div class="flow borders text_center center">
+          <h3>Línea variegatos premium - Diferenciación gourmet</h3>
+          <p>Variegatos premium como Pistachio (pistacho siciliano de Bronte) y Nocciola Piemonte (avellana piamontesa). Ingredientes de alta calidad que permiten posicionamiento premium con precios 60-80% superiores. Estabilidad de 45+ días en congelación y sabor intenso sin necesidad de sobredosificar.</p>
+        </div>
+  
+        <div class="flow text_center center">
+          <h3>Línea toppings y coberturas - Decoración y magia</h3>
+          <p>Toppings crujientes como Granella di Cioccolato y Croccantino, además de coberturas termoreversibles como Magic Chocolate. Para decoración externa que mantiene crujiente hasta 10 minutos y efectos visuales impactantes. Presentaciones en bolsas, botellas y cubetas de 1kg y 3kg.</p>
+        </div>
+      </div>
+  
+      <a href="#" id="lead_whatsapp" class="boton boton_1" style="display: block; margin-inline: auto; max-width: max-content; margin-block-start: 2rem;">Solicitar estudio de viabilidad sin costo →</a>
+    </section>
 
   <!-- ¿Por qué Quella? -->
-  <section class="center">
-    <h2 class="text_center">La diferencia técnica que justifica elegir Quella sobre marcas económicas</h2>
+  <section class="wrapper">
+    <h2>La diferencia técnica que justifica elegir Quella sobre marcas económicas</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex bg_pink">
       <div class="flow">
         <h3>Formulación italiana específica para helado artesanal</h3>
         <p>Los variegatos Quella Family no son salsas de repostería adaptadas. Son formulaciones desarrolladas específicamente para <strong>comportarse correctamente a temperatura de congelación</strong> (-16 a -18°C) durante semanas de almacenamiento.</p>
@@ -70,32 +90,8 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
     </article>
   </section>
 
-  <!-- Catálogo por línea de producto -->
-  <section class="center">
-    <h2 class="text_center">Catálogo Quella Family por línea de producto</h2>
-
-    <div class="three_columns">
-      <div class="flow">
-        <h3>Línea variegatos clásicos - Los imprescindibles</h3>
-        <p>Los variegatos clásicos de Quella Family incluyen Caramello Salato (caramelo salado), Cioccolato Fondente (chocolate negro 62%) y Frutti di Bosco (frutos rojos). Formulaciones específicas para helado artesanal con estabilidad térmica superior, concentración de sabor real y sistema antioxidante avanzado. Presentaciones en cubetas de 3kg y 6kg.</p>
-      </div>
-
-      <div class="flow borders">
-        <h3>Línea variegatos premium - Diferenciación gourmet</h3>
-        <p>Variegatos premium como Pistachio (pistacho siciliano de Bronte) y Nocciola Piemonte (avellana piamontesa). Ingredientes de alta calidad que permiten posicionamiento premium con precios 60-80% superiores. Estabilidad de 45+ días en congelación y sabor intenso sin necesidad de sobredosificar.</p>
-      </div>
-
-      <div class="flow">
-        <h3>Línea toppings y coberturas - Decoración y magia</h3>
-        <p>Toppings crujientes como Granella di Cioccolato y Croccantino, además de coberturas termoreversibles como Magic Chocolate. Para decoración externa que mantiene crujiente hasta 10 minutos y efectos visuales impactantes. Presentaciones en bolsas, botellas y cubetas de 1kg y 3kg.</p>
-      </div>
-    </div>
-
-    <a href="#" id="lead_whatsapp" class="boton boton_1" style="display: block; margin-inline: auto; max-width: max-content; margin-block-start: 2rem;">Solicitar estudio de viabilidad sin costo →</a>
-  </section>
-
   <!-- Tabla comparativa Quella vs competencia -->
-  <section class="center flow">
+  <section class="center flow wrapper">
     <h2 class="text_center">Comparativa: Quella Family vs marcas económicas</h2>
     
     <table>
@@ -145,8 +141,8 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
   </section>
 
   <!-- Caso de éxito -->
-  <section class="center">
-    <h2 class="text_center">Caso real: ROI de cambiar a Quella Family</h2>
+  <section class="section">
+    <h2>Caso real: ROI de cambiar a Quella Family</h2>
 
     <article class="flex bg_grey_light">
       <div class="flow">
@@ -172,21 +168,19 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
 
         <h4>Análisis de costo real (producción 120 litros/mes veteados):</h4>
         <p><strong>Con marca económica:</strong></p>
-        <p>- Costo insumo: $97.440 COP</p>
-        <p>- Desperdicio: $14.500 COP (2.5kg descartados)</p>
-        <p>- <strong>Total mensual: $111.940 COP</strong></p>
-
-        <p><strong>Con Quella Family:</strong></p>
-        <p>- Costo insumo: $104.880 COP</p>
-        <p>- Desperdicio: $0 COP</p>
-        <p>- <strong>Total mensual: $104.880 COP</strong></p>
+        <ul>
+          <li>- Costo insumo: $97.440 COP</li>
+          <li>- Desperdicio: $14.500 COP (2.5kg descartados)</li>
+          <li>- <strong>Total mensual: $111.940 COP</strong></li>
+        </ul>
+        <ul>
+          <li><strong>Con Quella Family:</strong></li>
+          <li>- Costo insumo: $104.880 COP</li>
+          <li>- Desperdicio: $0 COP</li>
+          <li>- <strong>Total mensual: $104.880 COP</strong></li>
+        </ul>
 
         <p><strong>Resultado:</strong> Quella es $7.060 COP/mes MÁS ECONÓMICA cuando consideras desperdicio cero + mayor rendimiento por dosificación menor.</p>
-
-        <blockquote>
-          <p>"Al principio el precio de Quella me asustaba. Pero cuando calculé rendimiento real + cero desperdicio + cero quejas, resultó más barato operativamente. Y el efecto en reputación no tiene precio: ahora somos 'la heladería del mejor caramelo salado de Laureles'."</p>
-          <cite>Andrés Villegas - Heladería Dolce Vita, Medellín</cite>
-        </blockquote>
       </div>
       <img src="{{ 'img/quella-family-textura.avif' | relative_url }}" alt="Textura fluida característica de variegatos Quella Family a temperatura de congelación" loading="lazy" width="400" height="300">
 
@@ -194,8 +188,8 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
   </section>
 
   <!-- Kit recomendado -->
-  <section class="center">
-    <h2 class="text_center">Kit inicial Quella Family recomendado</h2>
+  <section class="section">
+    <h2>Kit inicial Quella Family recomendado</h2>
 
     <article class="flex bg_grey_light">
       <div class="flow">
@@ -228,36 +222,7 @@ tags: [Quella Family, variegatos italianos, toppings premium, helado artesanal]
   </section>
 
   <!-- FAQ -->
-  <section class="center flow">
+  <section class="wrapper center flow">
     <h2 class="text_center">Preguntas frecuentes sobre Quella Family</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Es Italgel distribuidor oficial de Quella Family en Colombia?</strong></summary>
-      <p>Sí. Italgel es distribuidor autorizado de Quella Family para Colombia desde 2015. Importamos directamente desde la planta en Italia, garantizamos producto auténtico con trazabilidad completa. Cada lote incluye certificado de origen.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo comprar cantidades pequeñas o solo venden por volumen?</strong></summary>
-      <p>Vendemos desde 1 cubeta (sin pedido mínimo). Precio unitario aplica para compras 1-5 cubetas. Descuento por volumen desde 6 cubetas. Descuento mayorista desde 20 cubetas. Consultanos tu caso específico.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la vida útil de productos Quella una vez abiertos?</strong></summary>
-      <p>Variegatos: 6-12 meses refrigerados en recipiente hermético. Granelas: 6-9 meses a temperatura ambiente en recipiente hermético. Coberturas termoreversibles: 3-4 meses a temperatura ambiente (NO refrigerar). Siempre cerrar herméticamente después de usar.</p>
-    </details>
+    {% include faqs.html %}
   </section>
-
-  <!-- CTA final -->
-  <section class="center text_center flow cta">
-    <h2>Solicita muestras de productos Quella Family</h2>
-    <p>Te enviamos muestras de 150-200g de hasta 3 productos Quella que selecciones. Prueba la diferencia en textura, intensidad de sabor y estabilidad antes de hacer tu pedido completo.</p>
-
-    <div class="three_columns">
-      {% include boton.html num="1" text="Solicitar muestras por WhatsApp 🍨" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar para cotización</a>
-    </div>
-
-    <small><i>Muestras sujetas a disponibilidad. Costo de envío descontado en pedidos posteriores mayores de $400.000 COP.</i></small>
-  </section>
-
-</main>

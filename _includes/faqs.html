@@ -1,0 +1,10 @@
+{% if page.faqs %}
+<div class="flex">
+  {% for faq in page.faqs %}
+  <article class="faq-item">
+    <h3>{{ faq.question }}</h3>
+    {{ faq.answer | markdownify }}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}

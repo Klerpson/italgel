@@ -18,9 +18,13 @@ parent: "Pastas para helado"
 parent_url: /pastas-sabores-helado/
 category: pastas-premium
 breadcrumb:
-  - Inicio: /
-  - Pastas para helado: /pastas-sabores-helado/
-  - Pasta de Pistacho: /pastas-sabores-helado/pasta-pistacho/
+  - name: Inicio
+    url: /
+  - name: Pastas para helado
+    url: /pastas-sabores-helado/
+  - name: Pasta de Pistacho
+    url: /pastas-sabores-helado/pasta-pistacho/
+breadcrumb_include: true
 
 # SEO
 tags: [pasta pistacho, pistacho siciliano, gelato pistacho, pasta helado premium]
@@ -32,24 +36,15 @@ currency: COP
 availability: in_stock
 sku: MEC3-PISTACHIO-1KG
 brand: MEC3
+faqs:
+  - question: "¿Por qué la Pasta de Pistacho MEC3 es más clara que otras pastas verdes intenso?"
+    answer: "Porque no lleva colorante artificial. El color viene del pistacho real que es verde claro natural, no verde fosforito. Pastas económicas con verde intenso usan colorantes E102 + E133. Si quieres verde más intenso por razones estéticas, puedes agregar 0.5g de colorante verde natural por litro, pero no es necesario para sabor."
+  - question: "¿Puedo usar pistachos crudos molidos en vez de pasta?"
+    answer: "Técnicamente sí, pero no recomendado. Pistachos crudos molidos: 1) No tienen azúcar, requieres agregar más azúcar a la mezcla, 2) Oxidan rápido (se ponen rancios en días), 3) Textura granulosa vs cremosa de pasta, 4) Sabor menos intenso porque no están tostados. Resultado: más trabajo, peor resultado, no ahorro real."
+  - question: "¿Dónde comprar Pasta de Pistacho Siciliano MEC3 en Colombia?"
+    answer: "Italgel distribuye Pasta Pistacho Siciliano MEC3 auténtica con certificado DOP. Stock en Bogotá, Medellín, Cali. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/pastas-sabores-helado//'|relative_url}}"><span itemprop="name">Pastas para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Pasta de Pistacho</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
@@ -286,21 +281,7 @@ brand: MEC3
   <!-- FAQ -->
   <section class="center flow">
     <h2>Preguntas frecuentes sobre Pasta de Pistacho</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Por qué la Pasta de Pistacho MEC3 es más clara que otras pastas verdes intenso?</strong></summary>
-      <p>Porque no lleva colorante artificial. El color viene del pistacho real que es verde claro natural, no verde fosforito. Pastas económicas con verde intenso usan colorantes E102 + E133. Si quieres verde más intenso por razones estéticas, puedes agregar 0.5g de colorante verde natural por litro, pero no es necesario para sabor.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar pistachos crudos molidos en vez de pasta?</strong></summary>
-      <p>Técnicamente sí, pero no recomendado. Pistachos crudos molidos: 1) No tienen azúcar, requieres agregar más azúcar a la mezcla, 2) Oxidan rápido (se ponen rancios en días), 3) Textura granulosa vs cremosa de pasta, 4) Sabor menos intenso porque no están tostados. Resultado: más trabajo, peor resultado, no ahorro real.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Pasta de Pistacho Siciliano MEC3 en Colombia?</strong></summary>
-      <p>Italgel distribuye Pasta Pistacho MEC3 auténtica con certificado DOP. Stock en Bogotá, Medellín, Cali. <a href="#" id="lead_whatsapp">Cotiza aquí por WhatsApp</a> o llama <a href="tel:{{site.telefono}}">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->

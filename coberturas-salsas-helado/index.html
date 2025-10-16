@@ -6,36 +6,34 @@ h1: Coberturas y salsas que convierten un helado simple en una experiencia memor
 intro: Variegatos Quella Family y salsas MEC3 para diferenciación real en tu heladería
 hero: "img/coberturas-helado-italgel-colombia.avif"
 breadcrumb:
-  - Inicio: /
-  - Coberturas y salsas: /coberturas-salsas-helado/
+  - name: Inicio
+    url: /
+  - name: Coberturas y salsas
+    url: /coberturas-salsas-helado/
+breadcrumb_include: true
+faqs:
+  - question: "¿Cuál es la diferencia entre variegato y salsa de topping?"
+    answer: "El variegato se incorpora AL helado durante el envasado, creando vetas internas. La salsa de topping va POR ENCIMA al servir. Quella Family puede usarse para ambos, los Fiordi son específicamente variegatos."
+  - question: "¿Las coberturas Quella se endurecen en el congelador?"
+    answer: "No, mantienen viscosidad cremosa a -18°C gracias a su formulación con anticongelantes naturales (glicerina, sorbitol). Por eso cuestan más que salsas genéricas."
+  - question: "¿Cuánto dura una cubeta de Quella abierta?"
+    answer: "Sin abrir: 18 meses. Abierta y refrigerada (4-8°C): 6-9 meses. Siempre tapa herméticamente. No refrigeres las que contengan chocolate, se cristaliza."
+  - question: "¿Puedo hacer mi propio variegato casero?"
+    answer: "Técnicamente sí, pero no lograrás la viscosidad ni resistencia al congelamiento de un variegato profesional. El costo de tiempo + ingredientes + pruebas fallidas supera el precio del producto industrial."
+  - question: "¿Dónde comprar coberturas para helado al por mayor en Colombia?"
+    answer: "Italgel distribuye línea completa Quella y Fiordi en presentaciones mayoristas (cubetas 5kg y 3kg). Entregas en Bogotá, Medellín, Cali. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Coberturas y salsas</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
+{% include breadcrumb.html %}
 
   <!-- Hero con diferenciación -->
-  <section class="center flow">
-    <h2>¿Por qué las coberturas Quella marcan la diferencia en tu heladería?</h2>
-    <p>Puedes tener el mejor gelato de pistacho de Colombia, pero si lo veteás con una salsa de chocolate aguada que se cristaliza, <strong>arruinas la experiencia completa</strong>. Las coberturas y variegatos no son un accesorio decorativo: son la firma visual y de sabor que diferencia tu helado del resto.</p>
+  <main class="section center flow bg_grey">
+    <h2 class="text_center">¿Por qué las coberturas Quella marcan la diferencia en tu heladería?</h2>
+    <p class="text_center">Puedes tener el mejor gelato de pistacho de Colombia, pero si lo veteás con una salsa de chocolate aguada que se cristaliza, <strong>arruinas la experiencia completa</strong>. Las coberturas y variegatos no son un accesorio decorativo: son la firma visual y de sabor que diferencia tu helado del resto.</p>
 
     <div class="three_columns">
       <article class="text_center flow">
         <div class="icons">
-          <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"/>
-          </svg>
+          {% include lordicon.html icon="smjqtlxm" %}
         </div>
         <h3>No se cristalizan</h3>
         <p>Formulación con anticongelantes naturales. Mantienen textura a -18°C.</p>
@@ -43,9 +41,7 @@ breadcrumb:
       
       <article class="text_center flow borders">
         <div class="icons">
-          <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3,17.5 5,17.5C7,17.5 9,16.5 11,16.5C13,16.5 15,17.5 17,17.5C19,17.5 20,16.5 20,14.5C20,12.5 18,11.5 16,11.5C14,11.5 12,12.5 10,12.5C8,12.5 6,11.5 4,11.5C4,11.5 6,9.5 10,8.5C14,7.5 17,8 17,8Z"/>
-          </svg>
+          {% include lordicon.html icon="euaablbm" %}
         </div>
         <h3>Fluyen suaves</h3>
         <p>Viscosidad perfecta para dosificación controlada sin goteo excesivo.</p>
@@ -53,9 +49,7 @@ breadcrumb:
       
       <article class="text_center flow">
         <div class="icons">
-          <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 2L13.09 6.26L18 5L16.74 9.74L22 11L17.74 12.26L19 17L14.26 15.74L13 20L11.74 15.74L7 17L8.26 12.26L3 11L7.26 9.74L6 5L10.74 6.26L12 2Z"/>
-          </svg>
+          {% include lordicon.html icon="onpwuyfa" %}
         </div>
         <h3>Contraste visual</h3>
         <p>Colores intensos naturales que crean apetito visual inmediato.</p>
@@ -66,10 +60,10 @@ breadcrumb:
       <p>"Cambié de proveedor de coberturas cuando vi que la salsa de chocolate barata se ponía dura como piedra en el congelador. Con Quella mantengo la textura cremosa incluso después de 2 semanas almacenado."</p>
       <cite>Julián Franco - Heladería GurCoff, San Agustín Huila</cite>
     </blockquote>
-  </section>
+  </main>
 
   <!-- Categoría: Variegatos (Lo más importante) -->
-  <section class="wrapper center">
+  <section class="wrapper">
     <h2>Variegatos Fiordi - La línea premium para veteado profesional</h2>
     <p>Los variegatos son coberturas especialmente formuladas para crear las vetas características del gelato italiano. <strong>No confundas un variegato con una salsa de topping</strong>: el variegato se incorpora al helado durante el envasado, la salsa va por encima al servir.</p>
 
@@ -295,7 +289,7 @@ breadcrumb:
   </section>
 
   <!-- Guía técnica de dosificación -->
-  <section class="wrapper center flow">
+  <section class="section flow">
     <h2>Guía de dosificación de variegatos y coberturas</h2>
     <p>La dosis correcta es crucial: poco variegato no se nota, mucho variegato empalaga y aumenta costos innecesariamente.</p>
 
@@ -339,31 +333,7 @@ breadcrumb:
   <!-- FAQ -->
   <section class="wrapper center flow">
     <h2>Preguntas frecuentes sobre coberturas y variegatos</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre variegato y salsa de topping?</strong></summary>
-      <p>El variegato se incorpora AL helado durante el envasado, creando vetas internas. La salsa de topping va POR ENCIMA al servir. Quella Family puede usarse para ambos, los Fiordi son específicamente variegatos.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las coberturas Quella se endurecen en el congelador?</strong></summary>
-      <p>No, mantienen viscosidad cremosa a -18°C gracias a su formulación con anticongelantes naturales (glicerina, sorbitol). Por eso cuestan más que salsas genéricas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto dura una cubeta de Quella abierta?</strong></summary>
-      <p>Sin abrir: 18 meses. Abierta y refrigerada (4-8°C): 6-9 meses. Siempre tapa herméticamente. No refrigeres las que contengan chocolate, se cristaliza.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo hacer mi propio variegato casero?</strong></summary>
-      <p>Técnicamente sí, pero no lograrás la viscosidad ni resistencia al congelamiento de un variegato profesional. El costo de tiempo + ingredientes + pruebas fallidas supera el precio del producto industrial.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar coberturas para helado al por mayor en Colombia?</strong></summary>
-      <p>Italgel distribuye línea completa Quella y Fiordi en presentaciones mayoristas (cubetas 5kg y 3kg). Entregas en Bogotá, Medellín, Cali. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->
@@ -371,15 +341,13 @@ breadcrumb:
     <h2>Solicita muestras de coberturas y comprueba la diferencia</h2>
     <p>Envíamos muestras de Quella y Fiordi para que pruebes en tu producción. La diferencia en textura, sabor y estabilidad se nota desde la primera aplicación.</p>
 
-    <div class="three_columns">
+    <div class="flex">
       {% include boton.html num="1" text="Solicitar muestras de coberturas 🍫" %}
       <a href="{{'/pastas-sabores-helado//'|relative_url}}" class="boton boton_2">Ver pastas complementarias</a>
     </div>
 
     <small><i>Muestras disponibles: Quella Original, Fiordiamarena, Fiordifragola. Incluidas en pedidos desde $250,000 COP.</i></small>
   </section>
-
-</main>
 
 <script type="application/ld+json">
 {

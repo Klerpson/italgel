@@ -18,9 +18,13 @@ parent: "Bases para helado"
 parent_url: /bases-helado-colombia/
 category: bases-soft
 breadcrumb:
-  - Inicio: /
-  - Bases para helado: /bases-helado-colombia/
-  - Supergelmix: /bases-helado-colombia/supergelmix/
+  - name: Inicio
+    url: /
+  - name: Bases para helado
+    url: /bases-helado-colombia/
+  - name: Supergelmix
+    url: /bases-helado-colombia/supergelmix/
+breadcrumb_include: true
 
 # SEO
 tags: [Supergelmix, helado soft, soft ice cream, base máquina soft]
@@ -32,24 +36,15 @@ currency: COP
 availability: in_stock
 sku: MEC3-SUPERGELMIX-2KG
 brand: MEC3
+faqs:
+  - question: "¿Puedo usar Supergelmix en mantecadora normal (no soft)?"
+    answer: "No recomendado. Supergelmix está formulado para proceso continuo de máquinas soft. En mantecadora batch obtendrás textura demasiado aireada y ligera, no el helado cremoso que buscas. Para mantecadora usa Base 50 o Neutralin."
+  - question: "¿Cuánto tiempo dura la mezcla preparada en la tolva de la máquina?"
+    answer: "Hasta 48 horas si tolva mantiene 4°C constante. Después de 48h, desechar y preparar nueva. NUNCA agregar mezcla fresca a mezcla vieja en tolva. Siempre vaciar, limpiar y cargar nueva."
+  - question: "¿Dónde comprar Supergelmix MEC3 en Colombia para máquinas soft?"
+    answer: "Italgel distribuye Supergelmix con stock permanente. Compatible con todas las máquinas soft. <a href=\"#\" id=\"lead_whatsapp\">Cotiza por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Presentaciones 2kg, 5kg, 20kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/bases-helado-colombia/"><span itemprop="name">Bases para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Supergelmix</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
@@ -275,21 +270,7 @@ brand: MEC3
 
   <section class=" center flow">
     <h2>Preguntas frecuentes sobre Supergelmix</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar Supergelmix en mantecadora normal (no soft)?</strong></summary>
-      <p>No recomendado. Supergelmix está formulado para proceso continuo de máquinas soft. En mantecadora batch obtendrás textura demasiado aireada y ligera, no el helado cremoso que buscas. Para mantecadora usa Base 50 o Neutralin.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo dura la mezcla preparada en la tolva de la máquina?</strong></summary>
-      <p>Hasta 48 horas si tolva mantiene 4°C constante. Después de 48h, desechar y preparar nueva. NUNCA agregar mezcla fresca a mezcla vieja en tolva. Siempre vaciar, limpiar y cargar nueva.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Supergelmix MEC3 en Colombia para máquinas soft?</strong></summary>
-      <p>Italgel distribuye Supergelmix con stock permanente. Compatible con todas las máquinas soft. <a href="#" id="lead_whatsapp">Cotiza por WhatsApp</a> o llama <a href="tel:{{site.telefono}}">{{site.telefono}}</a>. Presentaciones 2kg, 5kg, 20kg.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <section class=" center text_center flow cta">

@@ -7,32 +7,24 @@ intro: Equipos Coldelite con tecnología italiana y soporte técnico en Colombia
 hero: img/maquina-industrial-soft.avif
 alt: Línea de producción industrial de helado Carpigiani para fabricación a gran escala distribuida por Italgel Colombia
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Máquinas helado soft: /maquinas-helado-soft/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Máquinas helado soft
+    url: /maquinas-helado-soft/
+breadcrumb_include: true
+faqs:
+  - question: "¿Qué diferencia hay entre una máquina de $6M y una de $18M?"
+    answer: "Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial."
+  - question: "¿Puedo usar cualquier mezcla o solo las que vende Italgel?"
+    answer: "Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas."
+  - question: "¿Cuánto tiempo se tarda en limpiar la máquina diariamente?"
+    answer: "Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Máquinas de helado soft</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
-
+{% include breadcrumb.html %}
   <!-- Hero con ROI -->
-  <section class="center text_center flow">
+  <section class="center text_center flow wrapper">
     <h2>La inversión en equipamiento que se paga sola con las ventas</h2>
     <p>Una máquina de helado soft no es un gasto, es una <strong>máquina de hacer dinero</strong>. Con margen del 75-85% por copa y servicio en 45 segundos, un punto de soft bien ubicado genera entre $3.5M y $8M COP mensuales. La inversión en el equipo se recupera en 4-8 meses dependiendo del modelo y ubicación.</p>
 
@@ -43,10 +35,10 @@ breadcrumb:
   </section>
 
   <!-- Diferenciador: ¿Por qué Coldelite? -->
-  <section class="center">
-    <h2 class="text_center">Por qué las heladerías profesionales eligen Coldelite sobre otras marcas</h2>
+  <section class="wrapper bg_grey">
+    <h2>Por qué las heladerías profesionales eligen Coldelite sobre otras marcas</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex">
       <div class="flow">
         <h3>Ingeniería italiana enfocada en rentabilidad operativa</h3>
         <p>Coldelite no es la marca más económica del mercado. Es la que <strong>menor costo operativo por litro producido</strong> ofrece a largo plazo. Sus compresores de alta eficiencia consumen hasta 30% menos energía que máquinas chinas equivalentes.</p>
@@ -65,7 +57,7 @@ breadcrumb:
   </section>
 
   <!-- Catálogo por modelo -->
-  <section class="center">
+  <section class="section center">
     <h2 class="text_center">Catálogo de máquinas soft según tu modelo de negocio</h2>
 
     <div class="three_columns">
@@ -105,7 +97,7 @@ breadcrumb:
   </section>
 
   <!-- Tabla comparativa -->
-  <section class="center">
+  <section class="wrapper center">
     <h2 class="text_center">Comparativa: ¿qué máquina necesitas según tu proyección de ventas?</h2>
     
     <table>
@@ -147,10 +139,10 @@ breadcrumb:
   </section>
 
   <!-- Análisis de rentabilidad -->
-  <section class="center">
-    <h2 class="text_center">Análisis de rentabilidad: números reales de un punto de helado soft</h2>
+  <section class="wrapper bg_grey">
+    <h2>Análisis de rentabilidad: números reales de un punto de helado soft</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex">
       <div class="flow">
         <h3>Caso ejemplo: Cafetería en centro comercial con Compacta 3</h3>
         
@@ -178,32 +170,28 @@ breadcrumb:
         <p><strong>Menos:</strong> Personal (si aplica), arriendo proporcional, mantenimiento</p>
         <p><strong>Utilidad neta estimada:</strong> $12M - $14M COP/mes</p>
 
-        <blockquote>
-          <p>"Los números no mienten. El helado soft tiene el mejor margen de toda nuestra oferta. Invertir en una Coldelite fue de las mejores decisiones de negocio que tomamos."</p>
-          <cite>Carlos Mendoza - Sweet Corner, C.C. Santafé (Bogotá)</cite>
-        </blockquote>
       </div>
-      <img src="{{ 'img/maquina-coldelite-soft.avif' | relative_url }}" alt="Máquina Coldelite helado soft 3 sabores profesional" loading="lazy" width="400" height="300">
+      <img src="{{ 'img/maquina-soft-mesa-negocio.avif' | relative_url }}" alt="Máquina Coldelite helado soft 3 sabores profesional" loading="lazy" width="400" height="300">
 
     </article>
   </section>
 
   <!-- Servicio técnico -->
-  <section class="center">
+  <section class="wrapper center">
     <h2 class="text_center">Servicio técnico y garantía que respalda tu operación</h2>
 
     <div class="three_columns">
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Capacitación operativa incluida</h3>
         <p>Entrenamos a tu equipo en operación, limpieza diaria, detección de problemas comunes. Sesión de 4 horas presencial o videollamada. Manuales en español.</p>
       </div>
 
-      <div class="flow borders">
+      <div class="flow borders text_center">
         <h3>Mantenimiento preventivo</h3>
         <p>Plan de mantenimiento trimestral disponible. Revisión de compresores, lubricación, limpieza profunda, calibración de temperaturas. Evita paros no planificados.</p>
       </div>
 
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Garantía y repuestos</h3>
         <p>12 meses de garantía en equipo nuevo. Repuestos originales Coldelite con stock en Bogotá, Medellín y Cali. Tiempo de atención: 48-72 horas.</p>
       </div>
@@ -213,36 +201,7 @@ breadcrumb:
   </section>
 
   <!-- FAQ -->
-  <section class="center flow">
-    <h2>Preguntas frecuentes sobre máquinas de helado soft</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Qué diferencia hay entre una máquina de $6M y una de $18M?</strong></summary>
-      <p>Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar cualquier mezcla o solo las que vende Italgel?</strong></summary>
-      <p>Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo se tarda en limpiar la máquina diariamente?</strong></summary>
-      <p>Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo.</p>
-    </details>
+  <section class="wrapper center flow">
+    <h2 class="text_center">Preguntas frecuentes sobre máquinas de helado soft</h2>
+    {% include faqs.html %}
   </section>
-
-  <!-- CTA final -->
-  <section class="center text_center flow cta">
-    <h2>Agenda una demostración sin compromiso</h2>
-    <p>Visita nuestro showroom en Bogotá o Medellín para ver las máquinas Coldelite en funcionamiento. Prueba el helado, evalúa la facilidad de operación y resuelve todas tus dudas técnicas antes de invertir.</p>
-
-    <div class="three_columns">
-      {% include boton.html num="1" text="Agendar visita al showroom 📍" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar para cotización</a>
-    </div>
-
-    <small><i>Showrooms: Bogotá (Av. Calle 26) y Medellín (sector Laureles). Horario: Lunes a viernes 9:00 AM - 5:00 PM.</i></small>
-  </section>
-
-</main>

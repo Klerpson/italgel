@@ -6,27 +6,22 @@ h1: Variegatos profesionales que crean tu sabor signature
 intro: Salsas de veteado que permanecen fluidas a temperatura de congelación
 hero: img/variegatos-helado.avif
 breadcrumb:
-  - Inicio: /
-  - Coberturas y salsas: /coberturas-salsas-helado/
-  - Variegatos: /variegatos-helado/
+  - name: Inicio
+    url: /
+  - name: Coberturas y salsas
+    url: /coberturas-salsas-helado/
+  - name: Variegatos
+    url: /variegatos-helado/
+breadcrumb_include: true
+faqs:
+  - question: "¿Cuándo agrego el variegato: antes o después del batido?"
+    answer: "Siempre al FINAL, cuando el helado sale de la mantecadora en textura \"soft\" (-8 a -10°C). Si agregas durante el batido, se mezcla completamente y pierdes el efecto de veteado. Técnica correcta: transferir el helado al contenedor en capas, hacer líneas de variegato entre capas, luego con espátula hacer movimientos tipo \"S\" sin mezclar completamente."
+  - question: "¿Los variegatos se congelan duros o quedan cremosos?"
+    answer: "Los variegatos profesionales (Quella, Fabbri, MEC3) están formulados para permanecer maleables a -18°C. Nunca quedan líquidos pero tampoco duros como piedra. Textura similar a una mermelada espesa refrigerada. Si un \"variegato\" se congela completamente duro, no es un variegato profesional."
+  - question: "¿Puedo mezclar dos variegatos diferentes en un mismo helado?"
+    answer: "Sí, pero con criterio. Combinaciones que funcionan: Caramelo salado + Chocolate (tipo \"Sundae\"), Frutos rojos + Chocolate blanco, Dulce de leche + Café. Evita mezclar perfiles similares (caramelo + dulce de leche = redundante). Dosificación total no debe superar 140g/L entre ambos."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/coberturas-salsas-helado//'|relative_url}}"><span itemprop="name">Coberturas y salsas</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Variegatos para helado</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
@@ -189,21 +184,7 @@ breadcrumb:
   <!-- FAQ técnico -->
   <section class="center flow">
     <h2>Preguntas técnicas sobre variegatos</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuándo agrego el variegato: antes o después del batido?</strong></summary>
-      <p>Siempre al FINAL, cuando el helado sale de la mantecadora en textura "soft" (-8 a -10°C). Si agregas durante el batido, se mezcla completamente y pierdes el efecto de veteado. Técnica correcta: transferir el helado al contenedor en capas, hacer líneas de variegato entre capas, luego con espátula hacer movimientos tipo "S" sin mezclar completamente.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Los variegatos se congelan duros o quedan cremosos?</strong></summary>
-      <p>Los variegatos profesionales (Quella, Fabbri, MEC3) están formulados para permanecer maleables a -18°C. Nunca quedan líquidos pero tampoco duros como piedra. Textura similar a una mermelada espesa refrigerada. Si un "variegato" se congela completamente duro, no es un variegato profesional.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo mezclar dos variegatos diferentes en un mismo helado?</strong></summary>
-      <p>Sí, pero con criterio. Combinaciones que funcionan: Caramelo salado + Chocolate (tipo "Sundae"), Frutos rojos + Chocolate blanco, Dulce de leche + Café. Evita mezclar perfiles similares (caramelo + dulce de leche = redundante). Dosificación total no debe superar 140g/L entre ambos.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA final -->

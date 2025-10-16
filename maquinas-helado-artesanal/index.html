@@ -6,29 +6,22 @@ h1: Mantecadoras profesionales para maestros heladeros que no comprometen calida
 intro: Equipos Carpigiani que garantizan textura cremosa y overrun controlado batch tras batch
 hero: "img/maquina-helados-artesanal.avif"
 breadcrumb:
-  - Inicio: /
-  - Equipos: /equipos/
-  - Mantecadoras artesanales: /mantecadoras-helado-artesanal/
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Mantecadoras artesanales
+    url: /mantecadoras-helado-artesanal/
+breadcrumb_include: true
+faqs:
+  - question: "¿Puedo comprar una mantecadora usada o debo comprar nueva?"
+    answer: "Carpigiani usada bien mantenida es excelente opción para reducir inversión inicial. PERO: verifica historial de mantenimiento, horas de operación (idealmente <15,000 horas), estado del compresor. Solicita prueba de funcionamiento antes de comprar. Italgel ofrece servicio de revisión técnica pre-compra por $180.000 COP que te puede ahorrar millones en reparaciones posteriores."
+  - question: "¿Cuánta energía consume una mantecadora?"
+    answer: "Depende del modelo. Labotronic HE: ~2.2kW/hora en operación. LB502: ~3.8kW/hora. Pastomaster: ~6.5kW/hora (incluye pasteurización). Costo energético promedio para producir 100 litros/día con LB502: ~$4.500 COP/día en Bogotá."
+  - question: "¿Es difícil operar una mantecadora profesional?"
+    answer: "No. Son más fáciles que equipos domésticos porque todo está automatizado. Carpigiani moderna: cargas mezcla → presionas START → esperas 12 min → extraes helado. El control de overrun, temperatura y tiempo lo hace la máquina. Incluimos capacitación de 3 horas con la compra."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'/equipos//'|relative_url}}"><span itemprop="name">Equipos</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Mantecadoras para helado artesanal</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
+{% include breadcrumb.html %}
 
   <!-- Hero -->
   <section class="center text_center flow">
@@ -40,12 +33,11 @@ breadcrumb:
       <cite>Roberto Méndez - Gelato di Roma, Bogotá</cite>
     </blockquote>
   </section>
-
   <!-- ¿Por qué Carpigiani? -->
-  <section class=" center">
-    <h2 class="text_center">Carpigiani: el estándar mundial del gelato artesanal</h2>
+  <section class="section">
+    <h2>Carpigiani: el estándar mundial del gelato artesanal</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex bg_pink">
       <div class="flow">
         <h3>80 años perfeccionando una sola cosa: textura de gelato perfecta</h3>
         <p>Carpigiani no fabrica licuadoras, ni hornos, ni refrigeradores. Solo máquinas para helado desde 1946. Esta especialización absoluta se traduce en <strong>detalles técnicos que competidores no pueden replicar</strong>.</p>
@@ -64,7 +56,7 @@ breadcrumb:
   </section>
 
   <!-- Catálogo -->
-  <section class=" center">
+  <section class="wrapper center">
     <h2 class="text_center">Catálogo de mantecadoras según producción requerida</h2>
 
     <div class="three_columns">
@@ -104,7 +96,7 @@ breadcrumb:
   </section>
 
   <!-- Tabla comparativa -->
-  <section class=" center flow">
+  <section class="section center flow">
     <h2 class="text_center">Comparativa técnica: elige según tu volumen proyectado</h2>
     
     <table>
@@ -146,10 +138,10 @@ breadcrumb:
   </section>
 
   <!-- Análisis de inversión vs producción casera -->
-  <section class=" center">
+  <section class="center wrapper">
     <h2 class="text_center">¿Vale la pena invertir en una mantecadora profesional?</h2>
 
-    <article class="flex bg_grey_light">
+    <article class="flex">
       <div class="flow">
         <h3>Comparación: mantecadora profesional vs equipos domésticos</h3>
         
@@ -179,26 +171,26 @@ breadcrumb:
 
         <p><strong>Conclusión:</strong> Una mantecadora profesional no es más cara. Es la única opción viable para producción comercial. El ahorro inicial con equipos domésticos se pierde en horas de trabajo malgastadas y producto inconsistente.</p>
       </div>
-      <img src="{{ 'img/mantecadora-carpigiani.avif' | relative_url }}" alt="Mantecadora Carpigiani para gelato artesanal" loading="lazy" width="400" height="300">
+      <img src="{{ 'img/mantecadora-carpigiani.avif' | relative_url }}" alt="Mantecadora Carpigiani para gelato artesanal" loading="lazy" width="560" height="700">
     </article>
   </section>
 
   <!-- Mantenimiento -->
-  <section class=" center">
-    <h2 class="text_center">Mantenimiento y vida útil: la inversión a largo plazo</h2>
+  <section class="wrapper">
+    <h2>Mantenimiento y vida útil: la inversión a largo plazo</h2>
 
     <div class="three_columns">
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Mantenimiento preventivo trimestral</h3>
         <p>Revisión de raspadores, lubricación de engranajes, limpieza de condensadores, verificación de presión de gas refrigerante. Costo: $280.000-$450.000 COP/servicio dependiendo del modelo.</p>
       </div>
 
-      <div class="flow borders">
+      <div class="flow borders text_center">
         <h3>Repuestos originales en stock</h3>
         <p>Italgel mantiene inventario de: raspadores, juntas, motores, tarjetas electrónicas, compresores. Tiempo de entrega: 24-72 horas. Sin esperas de importación de 60-90 días.</p>
       </div>
 
-      <div class="flow">
+      <div class="flow text_center">
         <h3>Valor de reventa</h3>
         <p>Una Carpigiani bien mantenida se vende usada al 60-70% de su valor original después de 5-8 años. Equipos chinos pierden 80% del valor en 2 años. Carpigiani es inversión, no gasto.</p>
       </div>
@@ -206,36 +198,7 @@ breadcrumb:
   </section>
 
   <!-- FAQ -->
-  <section class=" center flow">
-    <h2>Preguntas técnicas sobre mantecadoras</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo comprar una mantecadora usada o debo comprar nueva?</strong></summary>
-      <p>Carpigiani usada bien mantenida es excelente opción para reducir inversión inicial. PERO: verifica historial de mantenimiento, horas de operación (idealmente <15,000 horas), estado del compresor. Solicita prueba de funcionamiento antes de comprar. Italgel ofrece servicio de revisión técnica pre-compra por $180.000 COP que te puede ahorrar millones en reparaciones posteriores.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánta energía consume una mantecadora?</strong></summary>
-      <p>Depende del modelo. Labotronic HE: ~2.2kW/hora en operación. LB502: ~3.8kW/hora. Pastomaster: ~6.5kW/hora (incluye pasteurización). Costo energético promedio para producir 100 litros/día con LB502: ~$4.500 COP/día en Bogotá.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Es difícil operar una mantecadora profesional?</strong></summary>
-      <p>No. Son más fáciles que equipos domésticos porque todo está automatizado. Carpigiani moderna: cargas mezcla → presionas START → esperas 12 min → extraes helado. El control de overrun, temperatura y tiempo lo hace la máquina. Incluimos capacitación de 3 horas con la compra.</p>
-    </details>
+  <section class="wrapper center flow">
+    <h2 class="text_center">Preguntas técnicas sobre mantecadoras</h2>
+    {% include faqs.html %}
   </section>
-
-  <!-- CTA final -->
-  <section class=" center text_center flow cta">
-    <h2>Prueba una mantecadora Carpigiani con tu propia receta</h2>
-    <p>Trae tu mezcla (o usa nuestras bases MEC3) y produce un batch completo en nuestro showroom. Comprueba la diferencia en textura, facilidad de operación y tiempo de producción antes de invertir.</p>
-
-    <div class="three_columns">
-      {% include boton.html num="1" text="Agendar sesión de prueba 🍨" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar para cotización</a>
-    </div>
-
-    <small><i>Sesión de prueba: lunes a viernes previa cita. Trae hasta 5 litros de mezcla. Showrooms en Bogotá y Medellín.</i></small>
-  </section>
-
-</main>

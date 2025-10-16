@@ -4,20 +4,25 @@ title: "Insumos para Heladería en Medellín | Entrega 24-48h - Italgel"
 description: "Distribuidor de bases MEC3, pastas, coberturas y máquinas para heladería en Medellín. Stock permanente. Entrega rápida en El Poblado, Envigado, Laureles."
 h1: Insumos profesionales para heladerías en Medellín con entrega en 24-48 horas
 intro: Todo lo que necesitas para tu heladería en Medellín con stock permanente
+breadcrumb:
+  - name: Inicio
+    url: /
+  - name: Insumos Medellín
+    url: /insumos-heladeria-medellin/
+breadcrumb_include: true
+faqs:
+  - question: "¿Cuál es el pedido mínimo para envío sin costo en Medellín?"
+    answer: "El pedido mínimo es $200,000 COP para envío sin costo adicional en toda el área metropolitana de Medellín. Pedidos menores tienen recargo de $15,000 COP por transporte."
+  - question: "¿Entregan los fines de semana en Medellín?"
+    answer: "Entregas de lunes a viernes. Pedidos urgentes para sábado deben solicitarse antes del jueves al mediodía. No realizamos entregas domingos ni festivos."
+  - question: "¿Puedo recoger directamente en bodega en Medellín?"
+    answer: "Actualmente no tenemos punto de retiro en Medellín. Todas las ventas son con entrega programada. Nuestra bodega principal está en Bogotá."
+  - question: "¿Hay servicio técnico para máquinas en Medellín?"
+    answer: "Sí, contamos con técnico certificado en Medellín para instalación, capacitación y mantenimiento de maquinaria Coldelite y Carpigiani. Visitas programadas con 48h de anticipación."
+  - question: "¿Qué formas de pago aceptan en Medellín?"
+    answer: "Transferencia bancaria, contraentrega (efectivo o datáfono), consignación. Para clientes frecuentes ofrecemos crédito a 15-30 días."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Insumos Medellín</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
@@ -269,31 +274,7 @@ intro: Todo lo que necesitas para tu heladería en Medellín con stock permanent
   <!-- FAQ local -->
   <section class="wrapper center flow">
     <h2>Preguntas frecuentes sobre entregas en Medellín</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es el pedido mínimo para envío sin costo en Medellín?</strong></summary>
-      <p>El pedido mínimo es $200,000 COP para envío sin costo adicional en toda el área metropolitana de Medellín. Pedidos menores tienen recargo de $15,000 COP por transporte.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Entregan los fines de semana en Medellín?</strong></summary>
-      <p>Entregas de lunes a viernes. Pedidos urgentes para sábado deben solicitarse antes del jueves al mediodía. No realizamos entregas domingos ni festivos.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo recoger directamente en bodega en Medellín?</strong></summary>
-      <p>Actualmente no tenemos punto de retiro en Medellín. Todas las ventas son con entrega programada. Nuestra bodega principal está en Bogotá.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Hay servicio técnico para máquinas en Medellín?</strong></summary>
-      <p>Sí, contamos con técnico certificado en Medellín para instalación, capacitación y mantenimiento de maquinaria Coldelite y Carpigiani. Visitas programadas con 48h de anticipación.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Qué formas de pago aceptan en Medellín?</strong></summary>
-      <p>Transferencia bancaria, contraentrega (efectivo o datáfono), consignación. Para clientes frecuentes ofrecemos crédito a 15-30 días.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->

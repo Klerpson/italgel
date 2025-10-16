@@ -6,47 +6,36 @@ h1: Pastas concentradas que definen el sabor de tu helado
 intro: Pastas italianas MEC3 con concentración real de frutos secos, cacao y especias
 hero: "img/pastas-helado-italgel-colombia.avif"
 breadcrumb:
-  - Inicio: /
-  - Pastas para helado: /pastas-sabores-helado/
+  - name: Inicio
+    url: /
+  - name: Pastas para helado
+    url: /pastas-sabores-helado/
+breadcrumb_include: true
+faqs:
+  - question: "¿Cuál es la diferencia entre pasta y extracto de vainilla?"
+    answer: "La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto."
+  - question: "¿Puedo combinar varias pastas en un mismo helado?"
+    answer: "Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor."
+  - question: "¿Las pastas de fruta reemplazan la fruta natural?"
+    answer: "Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural."
+  - question: "¿Cuánto dura una pasta abierta?"
+    answer: "Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas."
+  - question: "¿Dónde comprar pasta de pistacho para helado en Colombia?"
+    answer: "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Pastas para helado</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
-
-  <!-- Hero educativo -->
-  <section class="center flow">
-    <h2>¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?</h2>
-    <p>Puedes tener la mejor base del mundo, pero <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao), no saborizantes artificiales. Esto significa que <strong>50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho tostado molido</strong>.</p>
-
-    <blockquote>
-      <p>"Cambié de proveedor de pastas cuando probé la diferencia. Con pastas MEC3, mis clientes me dicen que es el mejor helado de pistacho que han probado en Colombia. El secreto es la concentración real del fruto seco."</p>
-      <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
-    </blockquote>
-  </section>
+{% include breadcrumb.html %}
 
   <!-- Categorías de pastas -->
-  <section class="wrapper center">
-    <h2>Catálogo de pastas por categoría</h2>
-    <p>Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces:</p>
-
+  <main class="section center">
+    <h2 class="text_center">Catálogo de pastas por categoría</h2>
+    <p class="text_center">Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces:</p>
+    
     <!-- PASTAS PREMIUM (Frutos secos) -->
     <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Pastas premium de frutos secos - Las más pedidas</h3>
         <p>Estas pastas contienen <strong>concentración real del fruto seco</strong> (pistacho, avellana, almendras). Son las que marcan la diferencia en una heladería artesanal de calidad.</p>
-
+        
         <h4>Pasta de Pistacho - El rey del gelato italiano</h4>
         <ul>
           <li><strong>Concentración:</strong> 40% pistacho tostado siciliano</li>
@@ -56,15 +45,15 @@ breadcrumb:
         </ul>
 
         <p><strong>¿Por qué cuesta más?</strong> El pistacho siciliano es uno de los frutos secos más caros del mundo (US$25-35/kg). Una pasta concentrada al 40% requiere casi medio kilo de pistacho puro.</p>
-
-        <div class="three_columns">
+        
+        <div class="flex">
           {% include boton.html num="1" text="Cotizar Pasta Pistacho 🥜" %}
           <a href="{{'/pastas-sabores-helado/pasta-pistacho//'|relative_url}}" class="boton boton_2">Ver ficha técnica</a>
         </div>
       </div>
-      <img src="{{ 'img/pasta-pistacho-mec3-helado.avif' | relative_url }}" alt="Pasta concentrada de pistacho siciliano para gelato" width="584" height="396" loading="lazy" decoding="async">
+      <img src="{{ 'img/pasta-pistacho-mec3-helado.avif' | relative_url }}" alt="Pasta concentrada de pistacho siciliano para gelato" width="560" height="700" loading="lazy" decoding="async">
     </article>
-
+    
     <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h4>Pasta de Avellana Selection - Sabor Piemonte auténtico</h4>
@@ -74,14 +63,14 @@ breadcrumb:
           <li><strong>Sabor:</strong> Intenso, dulce natural, notas de caramelo</li>
           <li><strong>Uso popular:</strong> Helado Gianduia (avellana + chocolate)</li>
         </ul>
-
+        
         <p><strong>Dato técnico:</strong> La pasta de avellana oxida rápidamente. MEC3 la protege con antioxidantes naturales (vitamina E) para mantener sabor hasta 18 meses.</p>
-
+        
         {% include boton.html num="1" text="Ver precio Pasta Avellana 🌰" %}
       </div>
       <img src="{{ 'img/pasta-avellana-selection-helado.avif' | relative_url }}" alt="Pasta de avellana Piemonte para helado artesanal" width="584" height="396" loading="lazy" decoding="async">
     </article>
-
+    
     <article class="flex bg_grey_light">
       <div class="flow">
         <h4>Pasta de Almendras (Almonds) - Versatilidad máxima</h4>
@@ -90,14 +79,23 @@ breadcrumb:
           <li><strong>Concentración:</strong> 30% almendra española</li>
           <li><strong>Compatible con:</strong> Bases neutras y bases de crema</li>
         </ul>
-
+        
         <p><strong>Tip de maestro heladero:</strong> Combina Pasta Almendras (60g/L) + Pasta Vainilla (30g/L) para un sabor similar al turrón de Jijona.</p>
-
+        
         {% include boton.html num="1" text="Consultar disponibilidad 🍦" %}
       </div>
       <img src="{{ 'img/pasta-almendras-helado-artesanal.avif' | relative_url }}" alt="Pasta concentrada de almendras para helado" width="584" height="396" loading="lazy" decoding="async">
     </article>
-
+  </main>
+    
+    <section class="wrapper flow">
+      <h2>¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?</h2>
+      <p>Puedes tener la mejor base del mundo, pero <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao), no saborizantes artificiales. Esto significa que <strong>50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho tostado molido</strong>.</p>
+  
+      <blockquote>
+        <p>"Cambié de proveedor de pastas cuando probé la diferencia. Con pastas MEC3, mis clientes me dicen que es el mejor helado de pistacho que han probado en Colombia. El secreto es la concentración real del fruto seco."</p>
+        <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
+      </blockquote>
     <!-- Tabla comparativa frutos secos -->
     <h3>Comparativa de pastas de frutos secos</h3>
     <div>
@@ -136,7 +134,7 @@ breadcrumb:
         </tbody>
       </table>
     </div>
-  </section>
+    </section>
 
   <!-- PASTAS CLÁSICAS -->
   <section class="wrapper center">
@@ -289,7 +287,7 @@ breadcrumb:
   </section>
 
   <!-- Sección de dosificación -->
-  <section class="wrapper center flow">
+  <section class="section flow">
     <h2>Guía de dosificación de pastas para helado</h2>
     <p>La dosis correcta marca la diferencia entre un sabor insípido y uno demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu preferencia:</p>
 
@@ -337,51 +335,25 @@ breadcrumb:
       </table>
     </div>
 
-    <p><strong>Pro tip:</strong> Siempre empieza con dosis baja, prueba, y aumenta gradualmente. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
+    <p><strong>Pro tip:</strong> <i>Siempre empieza con dosis baja, prueba, y aumenta gradualmente</i>. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
   </section>
 
   <!-- FAQ -->
-  <section class="wrapper center flow">
-    <h2>Preguntas frecuentes sobre pastas para helado</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre pasta y extracto de vainilla?</strong></summary>
-      <p>La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo combinar varias pastas en un mismo helado?</strong></summary>
-      <p>Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las pastas de fruta reemplazan la fruta natural?</strong></summary>
-      <p>Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto dura una pasta abierta?</strong></summary>
-      <p>Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar pasta de pistacho para helado en Colombia?</strong></summary>
-      <p>Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+  <section class="section center flow">
+    <h2 class="text_center">Preguntas frecuentes sobre pastas para helado</h2>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->
-  <section class="wrapper center text_center flow cta">
-    <h2>Solicita muestras de pastas y descubre la diferencia</h2>
-    <p>No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3.</p>
+  <section class="wrapper center flow cta">
+    <h2 class="text_center">Solicita muestras de pastas y descubre la diferencia</h2>
+    <p class="text_center">No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3.</p>
 
-    <div class="three_columns">
+    <div class="flex">
       {% include boton.html num="1" text="Solicitar muestras de pastas 🍨" %}
       <a href="{{'/bases-helado-colombia//'|relative_url}}" class="boton boton_2">Ver bases compatibles</a>
     </div>
 
     <small><i>Muestras disponibles de Pistacho, Vainilla, Avellana y Chocolate. Envío incluido en pedidos mayores de $300,000 COP.</i></small>
   </section>
-
-</main>
 

@@ -106,7 +106,8 @@ body{
   transition:all 0.3s ease;
   cursor:pointer;
   text-align:center;
-  max-width: max-content;
+  max-width: max-content !important;
+  width: max-content;
 }
 
 .boton_1{

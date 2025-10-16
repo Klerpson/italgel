@@ -6,28 +6,26 @@ h1: Bases para helado profesional que aumentan tu rendimiento hasta 40%
 intro: Bases MEC3 formuladas para overrun óptimo según tu tipo de helado
 hero: "img/bases-helado-italgel-colombia.avif"
 breadcrumb:
-  - Inicio: /
-  - Bases para helado: /bases-helado-colombia/
+  - name: Inicio
+    url: /
+  - name: Bases para helado
+    url: /bases-helado-colombia/
+faqs:
+  - question: "¿Cuál es la diferencia entre Base 50 y Neutralin?"
+    answer: "Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin."
+  - question: "¿Puedo usar Base 50 para helado soft?"
+    answer: "No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua."
+  - question: "¿Las bases MEC3 ya vienen pasteurizadas?"
+    answer: "Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación."
+  - question: "¿Cuánto tiempo duran las bases sin abrir?"
+    answer: "En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad."
+  - question: "¿Dónde comprar bases para helado al por mayor en Colombia?"
+    answer: "Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
 ---
+{% include breadcrumb.html %}
 
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{'//'|relative_url}}"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Bases para helado</span>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
-</nav>
-
-<main class="wrapper">
-  
   <!-- Hero Section con propuesta de valor -->
-  <section class="center text_center flow">
+  <section class="section center text_center flow">
     <h2>¿Por qué las bases MEC3 son la inversión más rentable para tu heladería?</h2>
     <p>Una base de helado no es solo polvo que mezclas con agua. Es la diferencia entre producir 8 o 12 litros con el mismo kilo de materia prima. <strong>Las bases MEC3 están formuladas científicamente</strong> para lograr el overrun ideal según tu tipo de helado, reduciendo tu costo por porción hasta 40% comparado con bases genéricas.</p>
     
@@ -59,12 +57,12 @@ breadcrumb:
   </section>
 
   <!-- Catálogo de bases clásicas -->
-  <section class="center">
+  <main class="center wrapper">
     <div class="text_center">
-    <h2>Bases para helado artesanal y comercial</h2>
-    <p>Cada base MEC3 está diseñada para un tipo específico de producción. Identifica cuál necesitas según tu modelo de negocio:</p>
-</div>
-    <div class="flex bg_grey_light">
+      <h2>Bases para helado artesanal y comercial</h2>
+      <p>Cada base MEC3 está diseñada para un tipo específico de producción. Identifica cuál necesitas según tu modelo de negocio:</p>
+    </div>
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Base 50 MEC3 - La más versátil del mercado</h3>
         <p><strong>Ideal para:</strong> Heladerías artesanales que buscan equilibrio entre calidad y rendimiento.</p>
@@ -88,9 +86,9 @@ breadcrumb:
         <a href="{{'/bases-helado-colombia/base-50-mec3//'|relative_url}}" class="boton boton_2">Ver ficha técnica completa</a>
       </div>
       <img src="{{ 'img/base-50-mec3-helado-profesional.avif' | relative_url }}" alt="Base 50 MEC3 para helado artesanal en bolsa de 2kg" width="584" height="396" loading="lazy" decoding="async">
-    </div>
+    </article>
 
-    <div class="flex flex_left bg_grey_light">
+    <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h3>Neutralin Plus - Para helados ultra cremosos</h3>
         <p><strong>Ideal para:</strong> Heladerías que buscan textura premium y menor overrun.</p>
@@ -108,9 +106,9 @@ breadcrumb:
         <a href="{{'/blog/diferencia-base-50-neutralin-helado//'|relative_url}}" class="boton boton_2">Leer comparativa completa</a>
       </div>
       <img src="{{ 'img/neutralin-plus-helado-cremoso.avif' | relative_url }}" alt="Neutralin Plus para gelato italiano ultra cremoso" width="584" height="396" loading="lazy" decoding="async">
-    </div>
+    </article>
 
-    <div class="flex bg_grey_light">
+    <article class="flex bg_grey_light">
       <div class="flow">
         <h3>Supergelmix - Base para helado soft profesional</h3>
         <p><strong>Ideal para:</strong> Puntos de helado suave, franquicias, alto volumen.</p>
@@ -127,9 +125,9 @@ breadcrumb:
         {% include boton.html num="1" text="Solicitar precio mayorista Supergelmix 🍦" %}
       </div>
       <img src="{{ 'img/supergelmix-base-helado-soft.avif' | relative_url }}" alt="Supergelmix base para helado soft de alto rendimiento" width="584" height="396" loading="lazy" decoding="async">
-    </div>
+    </article>
 
-    <div class="flex flex_left bg_grey_light">
+    <article class="flex flex_left bg_grey_light">
       <div class="flow">
         <h3>Base Divina - Premium para heladerías gourmet</h3>
         <p><strong>Ideal para:</strong> Heladerías de lujo, hoteles 5 estrellas, restaurantes fine dining.</p>
@@ -146,8 +144,8 @@ breadcrumb:
         {% include boton.html num="1" text="Consultar inversión Base Divina 👑" %}
       </div>
       <img src="{{ 'img/base-divina-helado-gourmet.avif' | relative_url }}" alt="Base Divina para helado gourmet de alta gama" width="584" height="396" loading="lazy" decoding="async">
-    </div>
-  </section>
+    </article>
+  </main>
 
   <!-- Bases con Stevia -->
   <section class="wrapper center text_center">
@@ -162,7 +160,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Stevia Base G Crema</h3>
           <p>Para helados cremosos sin azúcar. Endulzado con Stevia + eritritol.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
 
@@ -173,7 +171,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Stevia Base G Fruta</h3>
           <p>Para sorbetes y helados de fruta sin azúcar añadida.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
 
@@ -184,7 +182,7 @@ breadcrumb:
         <div class="product-content flow">
           <h3>Yogo Greco Stevia</h3>
           <p>Base para helado de yogurt griego sin azúcar. Tendencia 2025.</p>
-          {% include boton.html num="1" text="Ver precio" %}
+          {% include boton.html num="1" text="Solicitar precios" %}
         </div>
       </article>
     </div>
@@ -197,7 +195,6 @@ breadcrumb:
     <h2>¿Cuál es la mejor base para helado según tu negocio?</h2>
     <p>Usa esta tabla para identificar rápidamente cuál base se adapta a tu modelo de heladería:</p>
 
-    <div>
       <table>
         <thead>
           <tr>
@@ -239,39 +236,14 @@ breadcrumb:
           </tr>
         </tbody>
       </table>
-    </div>
 
-    <p><strong>Nota importante:</strong> El "precio por litro" se refiere al costo de la base dividido entre los litros de helado que produce, no al precio de venta. Una base más cara puede resultar más económica si produce mayor volumen.</p>
+    <p><strong>Nota importante:</strong> <i>El "precio por litro" se refiere al costo de la base dividido entre los litros de helado que produce, no al precio de venta</i>. Una base más cara puede resultar más económica si produce mayor volumen.</p>
   </section>
 
   <!-- FAQ Schema Markup -->
-  <section class="wrapper center flow">
+  <section class="wrapper flow">
     <h2>Preguntas frecuentes sobre bases para helado</h2>
-    
-    <details class="faq-item">
-      <summary><strong>¿Cuál es la diferencia entre Base 50 y Neutralin?</strong></summary>
-      <p>Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin. <a href="{{'/blog/diferencia-base-50-neutralin-helado//'|relative_url}}">Lee la comparativa completa aquí</a>.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar Base 50 para helado soft?</strong></summary>
-      <p>No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Las bases MEC3 ya vienen pasteurizadas?</strong></summary>
-      <p>Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Cuánto tiempo duran las bases sin abrir?</strong></summary>
-      <p>En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar bases para helado al por mayor en Colombia?</strong></summary>
-      <p>Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <!-- CTA Final -->
@@ -279,7 +251,7 @@ breadcrumb:
     <h2>Solicita muestras y calcula tu inversión</h2>
     <p>No tomes decisiones a ciegas. Te enviamos muestras de las bases que te interesen y te asesoramos para calcular el costo real por litro de helado producido según tu volumen de compra.</p>
     
-    <div class="three_columns">
+    <div class="flex">
       {% include boton.html num="1" text="Solicitar muestras de bases 🍨" %}
       <a href="tel:{{ site.telefono }}" class="boton boton_2">Llamar a asesoría técnica</a>
     </div>
@@ -287,5 +259,4 @@ breadcrumb:
     <small><i>Muestras disponibles de Base 50, Neutralin y Supergelmix. Envío gratis en pedidos mayores de $200,000 COP.</i></small>
   </section>
 
-</main>
 

@@ -18,9 +18,13 @@ parent: "Pastas para helado"
 parent_url: /pastas-sabores-helado/
 category: pastas-clasicas
 breadcrumb:
-  - Inicio: /
-  - Pastas para helado: /pastas-sabores-helado/
-  - Pasta de Vainilla: /pastas-sabores-helado/pasta-vainilla/
+  - name: Inicio
+    url: /
+  - name: Pastas para helado
+    url: /pastas-sabores-helado/
+  - name: Pasta de Vainilla
+    url: /pastas-sabores-helado/pasta-vainilla/
+breadcrumb_include: true
 
 # SEO
 tags: [pasta vainilla, vainilla bourbon, caviar vainilla, helado vainilla natural]
@@ -32,24 +36,15 @@ currency: COP
 availability: in_stock
 sku: MEC3-VANILLA-1KG
 brand: MEC3
+faqs:
+  - question: "¿Los puntos negros son colorante artificial o semillas reales?"
+    answer: "Son semillas reales del interior de la vaina de vainilla (caviar de vainilla). Cada vaina contiene miles de semillas microscópicas negras. Al moler la vaina completa, estas quedan distribuidas en la pasta. NO es colorante. Puedes verificarlo: las semillas tienen textura ligeramente granulosa si las tocas con lengua."
+  - question: "¿Puedo usar Pasta Bourbon para otros productos además de helado?"
+    answer: "Absolutamente. Funciona en: natillas, cremas pasteleras, panacota, flan, cheesecake, macarons, crema chantilly. Dosificación similar: 60-80g por litro de preparación. El caviar visible eleva percepción de cualquier postre."
+  - question: "¿Dónde comprar Pasta de Vainilla Bourbon MEC3 en Colombia?"
+    answer: "Italgel distribuye Pasta Vainilla Bourbon auténtica con stock permanente. <a href=\"#\" id=\"lead_whatsapp\">Cotiza por WhatsApp</a> o llama <a href=\"tel:{{site.telefono}}\">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg."
 ---
-
-<nav class="breadcrumbs wrapper" aria-label="Navegación de ruta">
-  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/"><span itemprop="name">Inicio</span></a>
-      <meta itemprop="position" content="1" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.baseurl }}/pastas-sabores-helado/"><span itemprop="name">Pastas para helado</span></a>
-      <meta itemprop="position" content="2" />
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">Pasta de Vainilla</span>
-      <meta itemprop="position" content="3" />
-    </li>
-  </ol>
-</nav>
+{% include breadcrumb.html %}
 
 <main class="wrapper">
 
@@ -264,21 +259,7 @@ brand: MEC3
 
   <section class="center flow">
     <h2>Preguntas frecuentes sobre Pasta de Vainilla</h2>
-
-    <details class="faq-item">
-      <summary><strong>¿Los puntos negros son colorante artificial o semillas reales?</strong></summary>
-      <p>Son semillas reales del interior de la vaina de vainilla (caviar de vainilla). Cada vaina contiene miles de semillas microscópicas negras. Al moler la vaina completa, estas quedan distribuidas en la pasta. NO es colorante. Puedes verificarlo: las semillas tienen textura ligeramente granulosa si las tocas con lengua.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Puedo usar Pasta Bourbon para otros productos además de helado?</strong></summary>
-      <p>Absolutamente. Funciona en: natillas, cremas pasteleras, panacota, flan, cheesecake, macarons, crema chantilly. Dosificación similar: 60-80g por litro de preparación. El caviar visible eleva percepción de cualquier postre.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary><strong>¿Dónde comprar Pasta de Vainilla Bourbon MEC3 en Colombia?</strong></summary>
-      <p>Italgel distribuye Pasta Vainilla Bourbon auténtica con stock permanente. <a href="#" id="lead_whatsapp">Cotiza por WhatsApp</a> o llama <a href="tel:{{site.telefono}}">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg.</p>
-    </details>
+    {% include faqs.html %}
   </section>
 
   <section class="center text_center flow cta">
