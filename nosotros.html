@@ -8,6 +8,13 @@ intro: "Desde 2008 conectamos a heladeros colombianos con los mejores insumos de
 hero: "img/italgel-colombia-distribuidor-heladerias.avif"
 jpg: "img/italgel-distribuidor-mec3-colombia.jpg"
 alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
+slider:
+  - Proveedor suministros para helados Iceteam: img/iceteam.avif
+  - Proveedor maquinas helado gelato: img/maquinas-helado-sagi.avif
+  - Proveedor máquinas para heladería: img/easybest-refrigeracion-helados.avif
+  - Proveedor máquinas italianas para producción de helado: img/maquinas-helado-italitanas-coldelite.avif
+  - Proveedor pastas para helado: img/proveedor-mezclas-helado-mec3.avif
+  - Proveedor toppings para helado: img/toppings-helado-valmar.avif
 ---
 <main class="wrapper">
 
@@ -19,7 +26,7 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
     </div>
   </section>
 
-  <section class="wrapper flex">
+  <section class="flex">
     <article class="pink datos center text_center">
       <span>15+ años</span>
       <p>Asesorando heladerías profesionales en Colombia</p>
@@ -38,6 +45,9 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
     </article>
   </section>
 
+  <div>
+    {%- include slider.html -%}
+  </div>
   <section class="center flow">
     <h2 class="text_center">Por qué Italgel es diferente</h2>
 
@@ -84,8 +94,8 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
     </div>
   </section>
 
-  <section class="wrapper flex">
-    <article class="flex bg_grey_light">
+  <section class="bg_grey_light">
+    <article class="flex ">
       <div class="flow">
         <h3>MEC3: The Genuine Company</h3>
         <p><strong>Fundada en 1984, MEC3 es el referente N°1 de productos para heladería y repostería a nivel mundial.</strong> La calidad, innovación y desarrollo que tiene tanto en sus productos como procesos los hacen la mejor opción para todos aquellos que quieren ofrecer los mejores productos.</p>
@@ -102,10 +112,12 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
     </article>
   </section>
 
-  <section class="center flow">
-    <h2 class="text_center">Nuestra historia</h2>
+  <section>
+    <div class="center">
+      <h2 class="text_center">Nuestra historia</h2>
+    </div>
 
-    <article class="flex bg_grey_light">
+    <article class="flex ">
       <img src="{{ '/img/historia-italgel-colombia.avif' | relative_url }}" alt="Historia de Italgel como distribuidor de insumos para heladería en Colombia" title="Historia Italgel" loading="lazy" decoding="async" width="584" height="396">
       <div class="flow">
         <h3>De emprendedores para emprendedores</h3>
@@ -117,7 +129,7 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
     </article>
   </section>
 
-  <section class="center flow">
+  <section class="center padding_block flow">
     <h2 class="text_center">Nuestros valores</h2>
 
     <div class="three_columns">
@@ -128,7 +140,7 @@ alt: "Equipo Italgel Colombia con productos MEC3 para heladería profesional"
         </div>
       </article>
 
-      <article class="product-card center text_center">
+      <article class="product-card center text_center borders">
         <div class="product-content flow">
           <h3>Enfoque en rentabilidad</h3>
           <p>No solo vendemos insumos. Te enseñamos a calcular rendimientos, optimizar dosificaciones y aumentar tu margen de ganancia por litro producido.</p>

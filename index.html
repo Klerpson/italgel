@@ -24,16 +24,9 @@ slider:
 <section class="section">
 {%- include slider.html -%}
 </section>
-<main class="wrapper flow">
+<main class="section flow">
   <div class="text_center center flow">
     <h2>Insumos para heladería profesional con rendimiento garantizado</h2>
-    <p>
-      <strong>Cada kilo de base</strong> que usas determina tu margen de
-      ganancia. <strong>Cada máquina de helado</strong> que compras define tu
-      capacidad de producción. <strong>Cada pasta de helado</strong> que
-      incorporas diferencia tu sabor. En Italgel entendemos que tu negocio no se
-      trata solo de hacer helado, se trata de hacer helado rentable.
-    </p>
   </div>
   <h3>Suministro para preparar helados de Italgel</h3>
   <p>Distribuimos las marcas que los maestros heladeros italianos han perfeccionado durante décadas: MEC3, Coldelite y Carpigiani. Pero más importante aún, entendemos el mercado colombiano y te asesoramos para que cada inversión en insumos se traduzca en mayor rentabilidad por litro producido.</p>
@@ -43,19 +36,21 @@ slider:
   <p>Como distribuidores oficiales de Coldelite y Carpigiani en Colombia, ofrecemos una gama completa de máquinas para heladería que se adaptan a tus necesidades de producción y presupuesto. Desde mantecadoras compactas para emprendimientos hasta equipos industriales para fábricas, cada máquina está diseñada para maximizar la eficiencia y la calidad del helado.</p>
   <a href="{{'/equipos/'|relative_url}}" class="boton boton_2">Ver catálogo de máquinas </a>
   {% include 3_cards.html data="maquinas_home" %}
+  <p><strong>Cada kilo de base</strong> que usas determina tu margen de ganancia. <strong>Cada máquina de helado</strong> que compras define tu capacidad de producción. <strong>Cada pasta de helado</strong> que incorporas diferencia tu sabor. En Italgel entendemos que tu negocio no se trata solo de hacer helado, se trata de hacer helado rentable.</p>
+
 </main>
 <!-- Gallery -->
-<section class="wrapper bg_grey center">
+<section class="wrapper center">
   <h2 class="text_center">
     Suministros de Italgel más pedidos por los heladeros Colombianos
   </h2>
   {% include gallery.html %}
 </section>
-<!-- Services -->
-<aside class="center">
+<aside class="wrapper center">
   {% include boton.html num="1" text="¿Necesitas asesoría? Escríbenos" %}
 </aside>
-<section class="wrapper flow center">
+<!-- Services -->
+<section class="wrapper flow center bg_grey">
   <h3 class="text_center">Los 3 pilares que diferencian a Italgel</h3>
   <div class="three_columns">
     <div class="text_center flow center">
@@ -194,9 +189,9 @@ slider:
   </div>
 </section>
 
-<section class="wrapper flex">
+<section class="wrapper flex bg_grey">
   <div class="flow">
-    <h2 style="margin-top: 0;">Somos distribuidores para heladerías en todo Colombia</h2>
+    <h2 >Somos distribuidores para heladerías en todo Colombia</h2>
     <p>Tenemos cobertura en las principales ciudades de Colombia con entregas en 24-72 horas según tu ubicación. Para pedidos en otras ciudades, consulta tiempos de envío.</p>
     {% include boton.html num="1" text="Consulta cobertura en tu ciudad 🚚" %}
   </div>
