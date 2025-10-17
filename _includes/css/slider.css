@@ -1,0 +1,83 @@
+/* SLIDER INFINITO - Solo fixes esenciales para Safari/Opera */
+
+.slider {
+  background: linear-gradient(
+    31deg,
+    rgba(221, 179, 8, 1) 0%,
+    rgba(221, 179, 8, 1) 35%,
+    rgba(8, 8, 7, 1) 93%
+  );
+  background-image: url('../img/bg-logos-clientes-since.avif');
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.gallery-slider {
+  width: 100%;
+  max-width: 1320px;
+  overflow: hidden;
+}
+
+.slide-container {
+  display: flex;
+  gap: 4rem;
+  /* FIX Safari: Usar ancho fijo calculado en lugar de max-content */
+  width: calc(var(--items-count, 20) * 320px + var(--items-count, 20) * 4rem);
+  animation: slide 25s linear infinite;
+  
+  /* FIX Opera: Forzar aceleración por hardware */
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.slide-container:hover {
+  animation-play-state: paused;
+}
+
+.slide-container figure {
+  flex: none;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  /* FIX Safari: Ancho fijo para evitar colapso */
+  width: 320px;
+}
+
+.slide-container img {
+  height: 120px;
+  width: auto;
+  max-width: 320px;
+  object-fit: contain;
+  
+  /* FIX Safari: Mejor rendering de imágenes */
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+}
+
+/* Animación con translateZ para hardware acceleration */
+@keyframes slide {
+  to {
+    transform: translateX(-50%) translateZ(0);
+  }
+}
+
+/* Responsive */
+@media (width <= 768px) {
+  .slide-container {
+    gap: 2rem;
+    width: calc(var(--items-count, 20) * 200px + var(--items-count, 20) * 2rem);
+  }
+  
+  .slide-container figure {
+    width: 200px;
+  }
+  
+  .slide-container img {
+    height: 80px;
+    max-width: 200px;
+  }
+}

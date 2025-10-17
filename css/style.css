@@ -10,5 +10,6 @@ noindex: true
 {% include css/cards.css %}
 {% include css/pages.css %}
 {% include css/share.css %}
+{% include css/slider.css %}
 {% include css/media-queries.css %}
 {% include css/footer.css %}
