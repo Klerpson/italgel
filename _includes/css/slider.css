@@ -3,13 +3,10 @@
 .slider {
   background: linear-gradient(
     31deg,
-    rgba(221, 179, 8, 1) 0%,
-    rgba(221, 179, 8, 1) 35%,
-    rgba(8, 8, 7, 1) 93%
+    var(--color-bg-secondary) 0%,
+    var(--color-bg-primary) 100%
   );
-  background-image: url('../img/bg-logos-clientes-since.avif');
-  background-size: cover;
-  background-position: center;
+  /* background-image removed to fix 404 */
   min-height: 20vh;
   display: grid;
   place-items: center;
@@ -28,7 +25,7 @@
   /* FIX Safari: Usar ancho fijo calculado en lugar de max-content */
   width: calc(var(--items-count, 20) * 320px + var(--items-count, 20) * 4rem);
   animation: slide 25s linear infinite;
-  
+
   /* FIX Opera: Forzar aceleración por hardware */
   transform: translateZ(0);
   will-change: transform;
@@ -52,7 +49,7 @@
   width: auto;
   max-width: 320px;
   object-fit: contain;
-  
+
   /* FIX Safari: Mejor rendering de imágenes */
   image-rendering: -webkit-optimize-contrast;
   transform: translateZ(0);
@@ -71,11 +68,11 @@
     gap: 2rem;
     width: calc(var(--items-count, 20) * 200px + var(--items-count, 20) * 2rem);
   }
-  
+
   .slide-container figure {
     width: 200px;
   }
-  
+
   .slide-container img {
     height: 80px;
     max-width: 200px;

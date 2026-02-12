@@ -1,75 +1,95 @@
 .product-card {
   margin-block: 2em;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   place-items: center;
   width: 100%;
+  background-color: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+  overflow: hidden; /* Ensure rounded corners clip content */
 }
 
 .product-card:hover {
   transform: var(--transform-translate-up);
-  box-shadow: var(--shadow-hover-large);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--color-accent-border);
 }
 
-.pink {
-  /* Combina el color original con una versión más clara */
-  background: linear-gradient(to bottom, var(--color-pink), rgba(255, 192, 203, 0.7)); 
+/* Modificadores de tarjetas para home (data="suministros_home" etc) 
+   Reemplazamos los gradientes antiguos por estilos planos y limpios 
+*/
+.pink,
+.principal,
+.secundario,
+.gris {
+  background: var(--color-bg-surface);
+  /* Los gradientes se eliminan en favor de la limpieza de "Warmth" */
 }
-.principal {
-  /* Combina el color original con una versión más oscura */
-  background: linear-gradient(to top, var(--color-principal), rgba(0, 0, 0, 0.2));
-}
-.secundario {
-  /* Gradiente radial para un efecto de "foco" */
-  background: radial-gradient(circle, var(--color-secundario), rgba(255, 255, 255, 0.3));
-}
-.gris{
-  /* Gradiente sutil que va hacia un gris más claro */
-  background: linear-gradient(to right, var(--color-gris3), rgba(220, 220, 220, 0.5));
-}
-
 
 .product-img {
   position: relative;
   display: grid;
   place-items: center;
   width: 100%;
-  padding: 2em;
+  padding: 2.5em;
+  background-color: var(
+    --color-bg-secondary
+  ); /* Slight contrast for image area */
+  border-bottom: 1px solid var(--color-border);
 
-  img{
-    height: 280px;
-    width: 280px;
+  img {
+    height: 240px; /* Sigeramente más pequeños para dar aire */
+    width: 240px;
+    object-fit: contain;
+    transition: var(--transition);
   }
-  
+
   .product-badge {
     position: absolute;
     left: 1rem;
     top: 1rem;
-    background: var(--color-blanco);
-    color: var(--color-accion);
+    background: var(--color-accent-light);
+    color: var(--color-accent);
     padding: 0.5rem 1rem;
-    border-radius: var(--radius-small);
-    font-size: 0.8rem;
-    font-weight: 600;
+    border-radius: var(--radius-pill);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 }
 
+.product-card:hover .product-img img {
+  transform: scale(1.05);
+}
+
 .product-content {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  display: grid;
-  place-items: center;
-  
-  h3, p{
-    color: var(--color-texto);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  h3,
+  p {
     text-align: center;
   }
-  
-  h3{
-    font-weight: 300;
-  }
-  p{
+
+  h3 {
+    font-family: var(--fuenteTitulos);
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
     margin: 0;
-    font-weight: 700;
-    font-size: 16px;
+  }
+
+  p {
+    margin: 0;
+    font-weight: 400; /* Regular weight for calm reading */
+    font-size: 1rem;
+    color: var(--color-text-secondary);
   }
 }

@@ -1,32 +1,36 @@
 /* Footer */
 .footer {
-  background: var(--color-principal);
-  padding: 2rem 0;
+  background-color: var(--color-text-primary); /* Dark simplistic footer */
+  color: var(--color-bg-secondary);
+  padding: 4rem 0 2rem;
 }
 
 .footer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(226px, 1fr));
-  gap: 2em;
-  margin-bottom: 2rem;
-  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3em;
+  margin-bottom: 3rem;
+  place-content: start;
 }
 
 .footer-section h4 {
-  color: var(--color-blanco);
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
+  color: var(--color-bg-surface);
+  margin-bottom: 1.5rem;
+  font-family: var(--fuenteTitulos);
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .footer-section ul {
   list-style: none;
-
-  li{font-size: 0.95rem;}
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .footer-section ul li a:not(.boton) {
-  color: var(--color-blanco);
+  color: var(--color-text-tertiary);
   text-decoration: none;
   font-size: 0.95rem;
   transition: var(--transition);
@@ -34,22 +38,23 @@
 
 .footer-section ul li a:hover,
 .footer-bottom small a:hover {
-  color: var(--color-texto);
+  color: var(--color-accent);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 
-  small a{
+  small,
+  small a {
     font-size: 0.85rem;
     text-decoration: none;
-    color: var(--color-texto);
+    color: var(--color-text-tertiary);
     font-weight: 400;
   }
 }
@@ -62,15 +67,17 @@
 .social-link {
   width: 40px;
   height: 40px;
-  background: var(--color-blanco);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-circle);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--transition);
+  color: var(--color-bg-surface);
 }
 
 .social-link:hover {
-  background: var(--color-accion);
-  color: var(--color-blanco);
+  background: var(--color-accent);
+  color: var(--color-bg-surface);
+  transform: translateY(-2px);
 }
