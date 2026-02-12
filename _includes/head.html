@@ -15,7 +15,7 @@
   
   <!-- RSS Feed & Sitemap -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{'/sitemap.xml/'|relative_url}}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{'/sitemap.xml'|relative_url}}">
 
   <!-- OpenGraph Metadata -->
   {% assign og_image = page.jpg | default: site.logo %}
@@ -52,7 +52,7 @@
   <link rel="shortcut icon" href="{{'/iconified/favicon.ico'|relative_url}}" type="image/x-icon">
   {% assign apple_touch_icons = '57x57,72x72,76x76,114x114,120x120,144x144,152x152,180x180' | split: ',' %}
   {% for size in apple_touch_icons %}
-    <link rel="apple-touch-icon" sizes="{{ size }}" href="{{'/iconified/apple-touch-icon-{{ size }}.png/'|relative_url}}">
+    <link rel="apple-touch-icon" sizes="{{ size }}" href="{{'/iconified/apple-touch-icon-{{ size }}.png'|relative_url}}">
   {% endfor %}
 
   <!-- Critical CSS Inline -->

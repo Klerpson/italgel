@@ -1,125 +1,213 @@
 <!-- Navigation con Mega-Menú + Mobile -->
 <nav class="nav" role="navigation" aria-label="Navegación principal">
   <div class="nav-wrapper">
-    
     <!-- Navegación principal izquierda (Desktop) -->
     <div class="nav-left">
       <ul class="navegacion">
-        
         <!-- Mega-menú Insumos -->
         <li class="nav-item has-megamenu">
           <a href="{{ '/insumos/'|relative_url}}" class="nav-link">
             Insumos
-            <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-              <path d="M7 10l5 5 5-5z"/>
+            <svg
+              class="dropdown-icon"
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path d="M7 10l5 5 5-5z" />
             </svg>
           </a>
-          
+
           <div class="megamenu" role="menu" aria-label="Categorías de insumos">
             <div class="megamenu-wrapper">
-              
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/bases-helado-colombia/'|relative_url}}">Bases para Helado</a>
+                  <a href="{{ '/bases-helado-colombia/'|relative_url}}"
+                    >Bases para Helado</a
+                  >
                   <span class="badge-priority">TOP</span>
                 </h3>
                 <ul class="megamenu-list">
-                  <li><a href="{{ '/bases-helado-colombia/base-50-mec3/'|relative_url}}">Bases 50 Mec3</a></li>
-                  <li><a href="{{ '/bases-helado-colombia/neutralin-plus/'|relative_url}}">Neuralin Plus</a></li>
-                  <li><a href="{{ '/bases-helado-colombia/supergelmix/'|relative_url}}">Supergelmix</a></li>
-                  <li><a href="{{ '/bases-helado-colombia/bases-stevia/'|relative_url}}">Bases con Stevia</a></li>
+                  <li>
+                    <a
+                      href="{{ '/bases-helado-colombia/base-50-mec3/'|relative_url}}"
+                      >Bases 50 Mec3</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/bases-helado-colombia/neutralin-plus/'|relative_url}}"
+                      >Neuralin Plus</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/bases-helado-colombia/supergelmix/'|relative_url}}"
+                      >Supergelmix</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/bases-helado-colombia/bases-stevia/'|relative_url}}"
+                      >Bases con Stevia</a
+                    >
+                  </li>
                 </ul>
-                <a href="{{'/bases-helado-colombia/'|relative_url}}" class="megamenu-cta">Ver todas →</a>
+                <a
+                  href="{{'/bases-helado-colombia/'|relative_url}}"
+                  class="megamenu-cta"
+                  >Ver todas →</a
+                >
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/pastas-sabores-helado/'|relative_url}}">Pastas y Sabores</a>
+                  <a href="{{ '/pastas-sabores-helado/'|relative_url}}"
+                    >Pastas y Sabores</a
+                  >
                   <span class="badge-priority">TOP</span>
                 </h3>
                 <ul class="megamenu-list">
-                  <li><a href="{{ '/pastas-sabores-helado/pastas-clasicas/'|relative_url}}">Pastas Clásicas</a></li>
-                  <li><a href="{{ '/pastas-sabores-helado/pastas-premium/'|relative_url}}">Pastas Premium</a></li>
-                  <li><a href="{{ '/pastas-sabores-helado/pastas-fruta/'|relative_url}}">Pastas de Fruta</a></li>
+                  <li>
+                    <a
+                      href="{{ '/pastas-sabores-helado/pastas-clasicas/'|relative_url}}"
+                      >Pastas Clásicas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/pastas-sabores-helado/pastas-premium/'|relative_url}}"
+                      >Pastas Premium</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/pastas-sabores-helado/pastas-fruta/'|relative_url}}"
+                      >Pastas de Fruta</a
+                    >
+                  </li>
                 </ul>
-                <a href="{{ '/pastas-sabores-helado/'|relative_url}}" class="megamenu-cta">Ver todas →</a>
+                <a
+                  href="{{ '/pastas-sabores-helado/'|relative_url}}"
+                  class="megamenu-cta"
+                  >Ver todas →</a
+                >
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/coberturas-salsas-helado/'|relative_url}}">Coberturas y Salsas</a>
+                  <a href="{{ '/coberturas-salsas-helado/'|relative_url}}"
+                    >Coberturas y Salsas</a
+                  >
                   <span class="badge-priority">TOP</span>
                 </h3>
                 <ul class="megamenu-list">
-                  <li><a href="{{ '/variegatos-helado/'|relative_url}}">Variegatos</a></li>
-                  <li><a href="{{ '/coberturas-salsas-helado/salsas-especiales/'|relative_url}}">Salsas Especiales</a></li>
+                  <li>
+                    <a href="{{ '/variegatos-helado/'|relative_url}}"
+                      >Variegatos</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="{{ '/coberturas-salsas-helado/salsas-especiales/'|relative_url}}"
+                      >Salsas Especiales</a
+                    >
+                  </li>
                 </ul>
-                <a href="{{ '/coberturas-salsas-helado/'|relative_url}}" class="megamenu-cta">Ver coberturas →</a>
+                <a
+                  href="{{ '/coberturas-salsas-helado/'|relative_url}}"
+                  class="megamenu-cta"
+                  >Ver coberturas →</a
+                >
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/granelas-decoracion/'|relative_url}}">Toppings</a>
+                  <a href="{{ '/granelas-decoracion/'|relative_url}}"
+                    >Toppings</a
+                  >
                 </h3>
                 <ul class="megamenu-list">
-                  <li><a href="{{ '/granelas-decoracion/'|relative_url}}">Granelas y Cookies</a></li>
+                  <li>
+                    <a href="{{ '/granelas-decoracion/'|relative_url}}"
+                      >Granelas y Cookies</a
+                    >
+                  </li>
                 </ul>
-                
+
                 <h3 class="megamenu-title">
-                  <a href="{{ '/productos-quella/'|relative_url}}">Quella Family</a>
+                  <a href="{{ '/productos-quella/'|relative_url}}"
+                    >Quella Family</a
+                  >
                 </h3>
               </div>
-              
             </div>
           </div>
         </li>
-        
+
         <!-- Mega-menú Equipos -->
         <li class="nav-item has-megamenu">
           <a href="{{ '/equipos/'|relative_url}}" class="nav-link">
             Equipos
-            <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-              <path d="M7 10l5 5 5-5z"/>
+            <svg
+              class="dropdown-icon"
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path d="M7 10l5 5 5-5z" />
             </svg>
           </a>
-          
-          <div class="megamenu megamenu-compact" role="menu" aria-label="Categorías de equipos">
+
+          <div
+            class="megamenu megamenu-compact"
+            role="menu"
+            aria-label="Categorías de equipos"
+          >
             <div class="megamenu-wrapper">
-              
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/maquinas-helado-artesanal/'|relative_url}}">Máquinas Artesanales</a>
+                  <a href="{{ '/maquinas-helado-artesanal/'|relative_url}}"
+                    >Máquinas Artesanales</a
+                  >
                   <span class="badge-priority">TOP</span>
                 </h3>
                 <p class="megamenu-desc">Mantecadoras profesionales</p>
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/maquinas-helado-soft/'|relative_url}}">Máquinas Soft</a>
+                  <a href="{{ '/maquinas-helado-soft/'|relative_url}}"
+                    >Máquinas Soft</a
+                  >
                   <span class="badge-priority">TOP</span>
                 </h3>
                 <p class="megamenu-desc">Helado suave alta producción</p>
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/maquinas-helado-industrial/'|relative_url}}">Máquinas Industriales</a>
+                  <a href="{{ '/maquinas-helado-industrial/'|relative_url}}"
+                    >Máquinas Industriales</a
+                  >
                 </h3>
                 <p class="megamenu-desc">Líneas de producción</p>
               </div>
-              
+
               <div class="megamenu-column">
                 <h3 class="megamenu-title">
-                  <a href="{{ '/vitrinas-congeladores/'|relative_url}}">Vitrinas</a>
+                  <a href="{{ '/vitrinas-congeladores/'|relative_url}}"
+                    >Vitrinas</a
+                  >
                 </h3>
                 <p class="megamenu-desc">Exhibición y conservación</p>
               </div>
-              
             </div>
           </div>
         </li>
-        
+
         <li class="nav-item">
           <a href="{{ '/blog/'|relative_url}}" class="nav-link">Blog</a>
         </li>
@@ -127,97 +215,138 @@
     </div>
 
     <!-- Logo central -->
-    <a href="{{'/'|relative_url}}" class="logo_nav" aria-label="Italgel - Inicio">
-      <img src="{{'/img/logo.avif/'|relative_url}}" width="60" height="60" alt="Italgel Colombia" loading="eager">
+    <a
+      href="{{'/'|relative_url}}"
+      class="logo_nav"
+      aria-label="Italgel - Inicio"
+    >
+      <img
+        src="{{'/img/logo.avif'|relative_url}}"
+        width="60"
+        height="60"
+        alt="Italgel Colombia"
+        loading="eager"
+      />
     </a>
 
     <!-- Navegación derecha + CTAs -->
     <div class="nav-right">
-      
       <!-- Hamburger (solo móvil) -->
-      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Menú"
+        aria-expanded="false"
+      >
         <span></span>
         <span></span>
         <span></span>
       </button>
-      
+
       <div class="nav-icons">
-        <div class="nav-cta">
-          {% include boton.html text="WhatsApp" %}
-        </div>
-        
+        <div class="nav-cta">{% include boton.html text="WhatsApp" %}</div>
+
         <a href="#buscador" class="icon-link" aria-label="Buscar">
           <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
           </svg>
         </a>
-        
-        <a href="tel:+573001234567" class="icon-link phone-link" aria-label="Llamar">
+
+        <a
+          href="tel:+573001234567"
+          class="icon-link phone-link"
+          aria-label="Llamar"
+        >
           <svg class="phone-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            <path
+              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+            />
           </svg>
         </a>
       </div>
     </div>
   </div>
-  
+
   <!-- Menú móvil (overlay) -->
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-menu-header">
       <span class="mobile-menu-title">Menú</span>
-      <button class="mobile-close" id="mobileClose" aria-label="Cerrar menú">×</button>
+      <button class="mobile-close" id="mobileClose" aria-label="Cerrar menú">
+        ×
+      </button>
     </div>
-    
+
     <div class="mobile-menu-content">
-      
       <!-- Insumos accordion -->
       <div class="mobile-accordion">
         <button class="mobile-accordion-btn" aria-expanded="false">
           Insumos
           <svg class="mobile-arrow" viewBox="0 0 24 24" width="20" height="20">
-            <path d="M7 10l5 5 5-5z"/>
+            <path d="M7 10l5 5 5-5z" />
           </svg>
         </button>
         <div class="mobile-accordion-content">
-          <a href="{{'/bases-helado-colombia/'|relative_url}}">Bases para Helado</a>
-          <a href="{{'/pastas-sabores-helado/'|relative_url}}">Pastas y Sabores</a>
-          <a href="{{'/coberturas-salsas-helado/'|relative_url}}">Coberturas y Salsas</a>
+          <a href="{{'/bases-helado-colombia/'|relative_url}}"
+            >Bases para Helado</a
+          >
+          <a href="{{'/pastas-sabores-helado/'|relative_url}}"
+            >Pastas y Sabores</a
+          >
+          <a href="{{'/coberturas-salsas-helado/'|relative_url}}"
+            >Coberturas y Salsas</a
+          >
           <a href="{{'/granelas-decoracion/'|relative_url}}">Toppings</a>
           <a href="{{'/productos-quella/'|relative_url}}">Quella Family</a>
         </div>
       </div>
-      
+
       <!-- Equipos accordion -->
       <div class="mobile-accordion">
         <button class="mobile-accordion-btn" aria-expanded="false">
           Equipos
           <svg class="mobile-arrow" viewBox="0 0 24 24" width="20" height="20">
-            <path d="M7 10l5 5 5-5z"/>
+            <path d="M7 10l5 5 5-5z" />
           </svg>
         </button>
         <div class="mobile-accordion-content">
-          <a href="{{'/maquinas-helado-artesanal/'|relative_url}}">Máquinas Artesanales</a>
+          <a href="{{'/maquinas-helado-artesanal/'|relative_url}}"
+            >Máquinas Artesanales</a
+          >
           <a href="{{'/maquinas-helado-soft/'|relative_url}}">Máquinas Soft</a>
-          <a href="{{'/maquinas-helado-industrial/'|relative_url}}">Máquinas Industriales</a>
+          <a href="{{'/maquinas-helado-industrial/'|relative_url}}"
+            >Máquinas Industriales</a
+          >
           <a href="{{'/vitrinas-congeladores/'|relative_url}}">Vitrinas</a>
         </div>
       </div>
-      
+
       <a href="{{'/blog/'|relative_url}}" class="mobile-link">Blog</a>
-      
-      <div class="mobile-cta">
-        {% include boton.html text="WhatsApp" %}
-      </div>
+
+      <div class="mobile-cta">{% include boton.html text="WhatsApp" %}</div>
     </div>
   </div>
 </nav>
 
 <!-- Modal búsqueda -->
-<div class="modal-overlay" id="buscador" role="dialog" aria-labelledby="search-title" aria-modal="true" data-search-json="{{'/search.json/'|relative_url}}">
+<div
+  class="modal-overlay"
+  id="buscador"
+  role="dialog"
+  aria-labelledby="search-title"
+  aria-modal="true"
+  data-search-json="{{'/search.json'|relative_url}}"
+>
   <div class="modal-content">
     <a href="#" class="cerrar" aria-label="Cerrar">&times;</a>
     <h2 id="search-title" class="visually-hidden">Buscar</h2>
-    <input type="search" id="search-input" placeholder="Buscar..." autocomplete="off">
+    <input
+      type="search"
+      id="search-input"
+      placeholder="Buscar..."
+      autocomplete="off"
+    />
     <ul id="results-container" role="listbox"></ul>
   </div>
 </div>
