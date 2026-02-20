@@ -54,6 +54,7 @@
           animation: pulse-whatsapp 2s infinite;
   border: none;
   cursor: pointer;
+  max-width: fit-content;
 }
 
 .whatsapp-float:hover {
