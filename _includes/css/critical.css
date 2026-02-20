@@ -8,11 +8,11 @@
 
 /* Variables CSS críticas */
 :root{
-  --color-accion:#D36677;
-  --color-principal:#6BB1BA;
+  --color-accion:#d4644e;
+  --color-principal:#C37033;
   --color-blanco:#ffffff;
-  --color-texto:#424B54;
-  --color-gris:#F9F9F9;
+  --color-texto:#2c2420;
+  --color-gris:#faf6f3;
   --fuenteTexto:"Inter",sans-serif;
   --fuenteTitulos:"Inter",sans-serif;
 }

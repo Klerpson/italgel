@@ -1,8 +1,23 @@
 /* Footer */
 .footer {
-  background-color: var(--color-text-primary); /* Dark simplistic footer */
+  background-color: #1e2d35; /* Azul-verde oscuro que armoniza con el teal */
   color: var(--color-bg-secondary);
-  padding: 4rem 0 2rem;
+  padding: 0 0 2rem;
+  position: relative;
+}
+
+/* Barra tri-marca en la parte superior */
+.footer::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    var(--color-brand-teal)   0% 33.33%,
+    var(--color-brand-orange) 33.33% 66.66%,
+    var(--color-brand-pink)   66.66% 100%
+  );
+  margin-bottom: 4rem;
 }
 
 .footer-content {
@@ -30,7 +45,7 @@
 }
 
 .footer-section ul li a:not(.boton) {
-  color: var(--color-text-tertiary);
+  color: #a8c0c4; /* teal claro legible sobre fondo oscuro #1e2d35 */
   text-decoration: none;
   font-size: 0.95rem;
   transition: var(--transition);
@@ -38,7 +53,7 @@
 
 .footer-section ul li a:hover,
 .footer-bottom small a:hover {
-  color: var(--color-accent);
+  color: var(--color-brand-teal);
 }
 
 .footer-bottom {
@@ -77,7 +92,7 @@
 }
 
 .social-link:hover {
-  background: var(--color-accent);
+  background: var(--color-brand-teal);
   color: var(--color-bg-surface);
   transform: translateY(-2px);
 }

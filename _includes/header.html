@@ -1,26 +1,38 @@
 {% assign layout = page.layout %}
 {% case layout %}
 {% when "main" %}
-<header class="hero hero_home wrapper" role="banner">
-  <!-- <picture class="hero-bg">
-    <source media="(min-width: 1920px)" srcset="{{ 'img/itagel-colombia-1920.avif' | relative_url }}" type="image/avif">
-    <source media="(min-width: 1440px)" srcset="{{ 'img/itagel-colombia-1440.avif' | relative_url }}" type="image/avif">
-    <source media="(min-width: 1024px)" srcset="{{ 'img/itagel-colombia-1024.avif' | relative_url }}" type="image/avif">
-    <source media="(min-width: 768px)" srcset="{{ 'img/itagel-colombia-768.avif' | relative_url }}" type="image/avif">
-    <source media="(max-width: 767px)" srcset="{{ 'img/itagel-colombia-480.avif' | relative_url }}" type="image/avif">
-    <img src="{{ 'img/bases-helado-italgel.jpg' | relative_url }}"
-    alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
-    width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
-  </picture> -->
-  <div class="hero_content flow">
-    <h1>{{page.h1}}</h1>
-    <p  class="hero_title">{{page.intro}}</p>
-    <div class="three_columns">
-      {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
-      <a href="{{'/insumos/'|relative_url}}" class="boton boton_2">Ver catálogo 🍧</a>
+<header class="hero_home" role="banner">
+  <div class="hero_home_inner">
+    <div class="hero_content">
+      <p class="hero_badge">Distribuidor Autorizado · MEC3 · Coldelite · Carpigiani</p>
+      <h1>{{page.h1}}</h1>
+      <p class="hero_subtitle">{{page.intro}}</p>
+      <div class="hero_ctas">
+        {% include boton.html num="1" text="💬 Cotizar por WhatsApp" %}
+        <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog">Ver catálogo</a>
+      </div>
+      <div class="hero_stats">
+        <div class="hero_stat">
+          <strong class="orange">+200</strong>
+          <span>heladerías activas</span>
+        </div>
+        <div class="hero_stat_divider"></div>
+        <div class="hero_stat">
+          <strong class="teal">15 años</strong>
+          <span>en el mercado</span>
+        </div>
+        <div class="hero_stat_divider"></div>
+        <div class="hero_stat">
+          <strong class="pink">72 horas</strong>
+          <span>entrega nacional</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero_visual" aria-hidden="true">
+      <img src="{{page.hero|relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="440" height="440" class="hero_visual_img">
+      <p class="hero_visual_tagline">Bases · Pastas · Máquinas · Coberturas</p>
     </div>
   </div>
-  <img src="{{page.hero|relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="520" height="520" class="hero_picture">
 </header>
 {% when "categories" %}
 <header class="hero hero_categories wrapper" role="banner">
@@ -49,6 +61,18 @@
     <p>{{page.intro}}</p>
     {% include boton.html num="1" text="Pídelo por WhatsApp 🛒" %}
   </div>
+</header>
+{% when "general" %}
+<header class="hero hero_brand wrapper flex" role="banner">
+  <div class="hero_content flow">
+    <h1>{{page.h1}}</h1>
+    <p class="hero_title">{{page.intro}}</p>
+    <div class="flex" style="gap:1em;">
+      {% include boton.html num="1" text="Cotizar por WhatsApp 🍨" %}
+      <a href="{{'/insumos/'|relative_url}}" class="boton boton_2">Ver catálogo</a>
+    </div>
+  </div>
+  <img src="{{ 'img/hero.png' | relative_url }}" alt="{{ page.alt | default: 'Italgel Colombia — Bases, toppings y máquinas para heladería profesional' }}" loading="eager" fetchpriority="high" decoding="async" width="420" height="420" class="hero_picture hero_brand_img">
 </header>
 {% else %}
 <header class="wrapper center flow text_center hero_general" role="banner">

@@ -358,9 +358,30 @@ table {
    CTA BOX DESTACADO
    ================================= */
 .cta-box {
-  background: linear-gradient(135deg, var(--color-principal) 0%, var(--color-secundario) 100%);
+  background: var(--color-accent);
   color: var(--color-blanco);
   padding: 2.5rem 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  margin-block: 3rem;
+  box-shadow: var(--shadow-hover);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+  h3 {
   border-radius: var(--radius);
   text-align: center;
   margin-block: 3rem;
@@ -399,11 +420,10 @@ table {
    UTILITY CLASSES
    ================================= */
 .text-highlight {
-  background: linear-gradient(120deg, var(--color-acento) 0%, var(--color-acento) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 40%;
-  background-position: 0 85%;
+  color: var(--color-accent);
+  font-weight: 600;
   padding-inline: 0.25rem;
+  border-bottom: 2px solid var(--color-accent);
 }
 
 .stat-number {

@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--color-accion);
+  color: var(--color-brand-teal);
   text-decoration: none;
   font-family: var(--fuenteTitulos);
   font-weight: 900;
@@ -160,8 +160,9 @@
   font-size: 0.625rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: #fff;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: var(--color-brand-orange);
+  background: transparent;
+  border: 2px solid var(--color-brand-orange);
   padding: 2px 6px;
   border-radius: 3px;
 }
