@@ -200,7 +200,6 @@
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(6px);
-  border-radius: 10px;
   padding: 8px 18px;
   font-size: 12px;
   font-weight: 600;
@@ -208,6 +207,7 @@
   white-space: nowrap;
   z-index: 2;
   max-width: none;
+  text-align: center;
 }
 
 /* Responsive */
