@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000/italgel/</link>
-    <atom:link href="http://localhost:4000/italgel/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Feb 2026 17:41:18 -0500</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2026 17:41:18 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 26 Feb 2026 12:35:26 -0500</pubDate>
+    <lastBuildDate>Thu, 26 Feb 2026 12:35:26 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
     
@@ -14,8 +14,8 @@
         <title>Pasteurización de mezcla para helado: proceso correcto para garantizar seguridad y textura</title>
         <description><![CDATA[La pasteurización incorrecta es la causa principal de textura granulosa, separación de fases y contaminación bacteriana en helado artesanal.]]></description>
         <pubDate>Sat, 04 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;La pasteurización es el paso que separa una heladería profesional de una operación artesanal riesgosa. No es opcional si trabajas con ingredientes lácteos frescos. No es negociable si quieres textura consistente todos los días. No es algo que puedas “más o menos hacer bien” sin consecuencias comerciales.&lt;/p&gt;
@@ -30,7 +30,7 @@
 
 &lt;p&gt;Pasteurización es el tratamiento térmico que eleva la temperatura de una mezcla alimentaria hasta un punto donde se destruyen microorganismos patógenos sin degradar significativamente nutrientes o propiedades organolépticas. Lleva el nombre de Louis Pasteur, quien desarrolló el proceso en el siglo XIX.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/proceso-pasteurizacion-helado-artesanal.avif&quot; alt=&quot;Proceso de pasteurización de mezcla de helado&quot; title=&quot;La pasteurización elimina patógenos, desnaturaliza proteínas y emulsiona grasas para textura cremosa&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/proceso-pasteurizacion-helado-artesanal.avif&quot; alt=&quot;Proceso de pasteurización de mezcla de helado&quot; title=&quot;La pasteurización elimina patógenos, desnaturaliza proteínas y emulsiona grasas para textura cremosa&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;En helado artesanal, la pasteurización cumple cuatro funciones simultáneas:&lt;/strong&gt; Elimina bacterias patógenas como Salmonella, Listeria y E. coli que pueden estar presentes en leche fresca o huevos. Desnaturaliza proteínas lácteas para mejorar capacidad de retención de agua y textura final. Disuelve completamente azúcares y estabilizantes en la fase líquida. Homogeniza la emulsión de grasas para evitar separación durante maduración y congelación.&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 
 &lt;h3 id=&quot;por-qué-las-bases-profesionales-cambian-completamente-este-proceso&quot;&gt;Por qué las bases profesionales cambian completamente este proceso&lt;/h3&gt;
 
-&lt;p&gt;Las &lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;bases para helado profesional&lt;/a&gt; como las MEC3 ya vienen pasteurizadas en fábrica bajo condiciones controladas. Cuando usas base profesional, no necesitas pasteurizar tu mezcla porque los ingredientes críticos ya recibieron tratamiento térmico adecuado durante manufactura.&lt;/p&gt;
+&lt;p&gt;Las &lt;a href=&quot;/bases-helado-colombia/&quot;&gt;bases para helado profesional&lt;/a&gt; como las MEC3 ya vienen pasteurizadas en fábrica bajo condiciones controladas. Cuando usas base profesional, no necesitas pasteurizar tu mezcla porque los ingredientes críticos ya recibieron tratamiento térmico adecuado durante manufactura.&lt;/p&gt;
 
 &lt;p&gt;Esto simplifica radicalmente tu operación: mezclas base con leche fría, homogenizas, maduras en refrigeración y mantecas. Eliminas el paso más técnicamente complejo y riesgoso del proceso. Reduces tiempo de producción en 45-60 minutos por lote. Eliminas el riesgo de sobrecalentamiento que arruina proteínas.&lt;/p&gt;
 
@@ -48,7 +48,7 @@
 
 &lt;p&gt;Existen tres métodos principales de pasteurización con diferentes combinaciones de temperatura y tiempo. Todos logran el mismo objetivo de seguridad microbiológica, pero tienen efectos diferentes sobre textura final.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/control-temperatura-pasteurizacion-helado.avif&quot; alt=&quot;Control de temperatura en pasteurización de helado&quot; title=&quot;Termómetro digital profesional es esencial para mantener temperaturas exactas durante pasteurización&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/control-temperatura-pasteurizacion-helado.avif&quot; alt=&quot;Control de temperatura en pasteurización de helado&quot; title=&quot;Termómetro digital profesional es esencial para mantener temperaturas exactas durante pasteurización&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;pasteurización-lenta-o-método-vat-para-producción-artesanal&quot;&gt;Pasteurización lenta o método VAT (para producción artesanal)&lt;/h3&gt;
 
@@ -94,9 +94,9 @@
 
 &lt;p&gt;&lt;strong&gt;Paso 5 - Enfriamiento rápido:&lt;/strong&gt; Inmediatamente después de completar 30 minutos a temperatura, traslada tu mezcla al recipiente de enfriamiento. El objetivo es bajar de 65°C a 4°C lo más rápido posible (idealmente en menos de 90 minutos). Remueve constantemente durante enfriamiento para evitar formación de nata superficial.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/enfriamiento-rapido-mezcla-helado.avif&quot; alt=&quot;Enfriamiento rápido después de pasteurización&quot; title=&quot;El enfriamiento rápido en baño de hielo previene proliferación bacteriana y mejora textura final&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/enfriamiento-rapido-mezcla-helado.avif&quot; alt=&quot;Enfriamiento rápido después de pasteurización&quot; title=&quot;El enfriamiento rápido en baño de hielo previene proliferación bacteriana y mejora textura final&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Paso 6 - Maduración en refrigeración:&lt;/strong&gt; Una vez alcanzados 4°C, cubre tu mezcla y refrigera durante 12-24 horas. Esta maduración permite que proteínas, grasas y estabilizantes se hidraten completamente. También mejora &lt;a href=&quot;/italgel/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;el overrun que obtendrás durante mantecado&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 6 - Maduración en refrigeración:&lt;/strong&gt; Una vez alcanzados 4°C, cubre tu mezcla y refrigera durante 12-24 horas. Esta maduración permite que proteínas, grasas y estabilizantes se hidraten completamente. También mejora &lt;a href=&quot;/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;el overrun que obtendrás durante mantecado&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;errores-críticos-que-arruinan-la-pasteurización-de-helado&quot;&gt;Errores críticos que arruinan la pasteurización de helado&lt;/h2&gt;
 
@@ -114,9 +114,9 @@
 
 &lt;p&gt;Existen tres escenarios donde no necesitas pasteurizar tu mezcla desde cero porque el riesgo microbiológico ya está controlado.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/bases-profesionales-pasteurizadas-helado.avif&quot; alt=&quot;Bases profesionales pre-pasteurizadas para helado&quot; title=&quot;Las bases MEC3 vienen pre-pasteurizadas eliminando el paso más complejo del proceso de producción&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/bases-profesionales-pasteurizadas-helado.avif&quot; alt=&quot;Bases profesionales pre-pasteurizadas para helado&quot; title=&quot;Las bases MEC3 vienen pre-pasteurizadas eliminando el paso más complejo del proceso de producción&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Escenario uno: Uso de bases profesionales pasteurizadas.&lt;/strong&gt; Cuando usas &lt;a href=&quot;/italgel/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; o &lt;a href=&quot;/italgel/bases-helado-colombia/neutralin-plus/&quot;&gt;Neutralin Plus&lt;/a&gt;, estos productos ya vienen pasteurizados en fábrica. Simplemente mezclas con leche fría, maduras en refrigeración y mantecas. Este es el método más común en heladerías artesanales profesionales.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Escenario uno: Uso de bases profesionales pasteurizadas.&lt;/strong&gt; Cuando usas &lt;a href=&quot;/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; o &lt;a href=&quot;/bases-helado-colombia/neutralin-plus/&quot;&gt;Neutralin Plus&lt;/a&gt;, estos productos ya vienen pasteurizados en fábrica. Simplemente mezclas con leche fría, maduras en refrigeración y mantecas. Este es el método más común en heladerías artesanales profesionales.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Escenario dos: Uso exclusivo de ingredientes UHT.&lt;/strong&gt; Si trabajas con leche UHT de caja, crema UHT y no agregas huevos frescos, técnicamente no necesitas pasteurizar porque todos los ingredientes ya recibieron tratamiento térmico. Sin embargo, la pasteurización aún aporta beneficios de textura por desnaturalización proteica y emulsificación.&lt;/p&gt;
 
@@ -159,7 +159,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
 &lt;p&gt;Si decides pasteurizar desde cero, invierte primero en termómetro digital profesional antes que en cualquier otro equipo. Es el instrumento crítico que determina éxito o fracaso del proceso.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;Compara las opciones de bases profesionales&lt;/a&gt; que eliminan necesidad de pasteurización mientras garantizan textura y seguridad alimentaria. La &lt;a href=&quot;/italgel/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; es la opción más versátil para heladerías que buscan eficiencia sin comprometer calidad.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/bases-helado-colombia/&quot;&gt;Compara las opciones de bases profesionales&lt;/a&gt; que eliminan necesidad de pasteurización mientras garantizan textura y seguridad alimentaria. La &lt;a href=&quot;/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; es la opción más versátil para heladerías que buscan eficiencia sin comprometer calidad.&lt;/p&gt;
 
 &lt;p&gt;Capacita a tu equipo en los parámetros exactos de pasteurización si produces desde cero. Un error de 3-5°C o 5-10 minutos de tiempo puede arruinar lotes completos. La capacitación técnica correcta es tan importante como el equipamiento.&lt;/p&gt;
 
@@ -189,8 +189,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: guía completa de coberturas y decoraciones</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,000 COP sin aumentar costos proporcionalmente. Esta guía te muestra cuáles usar y cómo presentarlos.]]></description>
         <pubDate>Fri, 03 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>http://localhost:4000/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/toppings-para-helado-mas-rentables/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;Los toppings no son un extra opcional en tu heladería. Son la diferencia entre vender una bola simple a $5,000 COP y vender una copa personalizada a $8,500 COP. Es la diferencia entre margen del 60% y margen del 75% en el mismo producto base.&lt;/p&gt;
@@ -217,9 +217,9 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
 &lt;p&gt;Analizamos rentabilidad considerando cuatro factores: costo por porción servida, precio adicional que puedes cobrar, vida útil después de abierto, y frecuencia de pedido por clientes. Los siguientes 12 toppings optimizan estos cuatro parámetros simultáneamente.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/toppings-rentables-heladeria-colombia.avif&quot; alt=&quot;Selección de toppings más rentables para heladería&quot; title=&quot;Los 12 toppings con mejor relación costo-beneficio y mayor demanda en el mercado colombiano&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/toppings-rentables-heladeria-colombia.avif&quot; alt=&quot;Selección de toppings más rentables para heladería&quot; title=&quot;Los 12 toppings con mejor relación costo-beneficio y mayor demanda en el mercado colombiano&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Cobertura de chocolate que endurece:&lt;/strong&gt; Costo $200-300 COP por porción. Precio adicional $2,000-2,500 COP. Se mantiene hasta 6 meses abierta. Alta demanda en todos los perfiles de edad. La &lt;a href=&quot;/italgel/coberturas-salsas-helado/coberturas-chocolate/&quot;&gt;cobertura de chocolate&lt;/a&gt; profesional endurece al contacto con helado frío creando capa crujiente que los clientes valoran. Margen aproximado 85%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cobertura de chocolate que endurece:&lt;/strong&gt; Costo $200-300 COP por porción. Precio adicional $2,000-2,500 COP. Se mantiene hasta 6 meses abierta. Alta demanda en todos los perfiles de edad. La &lt;a href=&quot;/coberturas-salsas-helado/coberturas-chocolate/&quot;&gt;cobertura de chocolate&lt;/a&gt; profesional endurece al contacto con helado frío creando capa crujiente que los clientes valoran. Margen aproximado 85%.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Salsa de arequipe:&lt;/strong&gt; Costo $150-250 COP por porción. Precio adicional $1,500-2,000 COP. Se mantiene hasta 3 meses refrigerada después de abierta. Muy alta demanda en mercado colombiano por familiaridad. Es el topping más pedido en heladerías artesanales locales. Margen aproximado 88%.&lt;/p&gt;
 
@@ -261,7 +261,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
 &lt;p&gt;La presentación de toppings afecta directamente cuántos clientes los ordenan y cuánto están dispuestos a pagar. Una barra desorganizada o confusa reduce conversión hasta 40% comparada con presentación profesional.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/diseno-barra-toppings-heladeria.avif&quot; alt=&quot;Diseño de barra de toppings para heladería&quot; title=&quot;Una barra bien organizada con toppings visibles aumenta la conversión hasta 60% vs presentación desordenada&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/diseno-barra-toppings-heladeria.avif&quot; alt=&quot;Diseño de barra de toppings para heladería&quot; title=&quot;Una barra bien organizada con toppings visibles aumenta la conversión hasta 60% vs presentación desordenada&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Principio de organización visual:&lt;/strong&gt; Agrupa toppings por categoría visible. Sección de salsas líquidas juntas. Sección de crujientes juntos. Sección de elementos sólidos juntos. Esta organización ayuda al cliente a entender las opciones rápidamente y a combinar de forma intuitiva.&lt;/p&gt;
 
@@ -281,7 +281,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
 &lt;p&gt;&lt;strong&gt;Error de porcionamiento número dos:&lt;/strong&gt; Servir porciones inconsistentes sin herramientas de medición. Un empleado sirve 25 gramos de cobertura mientras otro sirve 50 gramos del mismo topping. Esto descalibra tus costos y genera experiencias inconsistentes. Usa dosificadores, cucharas medidoras o balanzas para porciones estandarizadas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/control-porciones-toppings-heladeria.avif&quot; alt=&quot;Control de porciones en toppings para heladería&quot; title=&quot;Dosificadores y herramientas de medición garantizan porciones consistentes y márgenes predecibles&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/control-porciones-toppings-heladeria.avif&quot; alt=&quot;Control de porciones en toppings para heladería&quot; title=&quot;Dosificadores y herramientas de medición garantizan porciones consistentes y márgenes predecibles&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Error de compra número tres:&lt;/strong&gt; Adquirir presentaciones muy grandes de toppings con demanda media o baja. Si un topping tarda 4 meses en venderse y su vida útil después de abierto es 2 meses, estás perdiendo dinero en producto vencido. Es mejor comprar presentaciones pequeñas más frecuentemente que presentaciones grandes que se pierden.&lt;/p&gt;
 
@@ -296,7 +296,7 @@ Siempre cobra por separado los toppings premium. Hay dos razones: primera, permi
 Depende de tu estrategia de pricing. Si vendes “Copa Suprema” a precio fijo de $10,000 COP con hasta 3 toppings incluidos, cada topping debe costarte máximo $400 COP para mantener margen del 65%. Si cobras cada topping por separado, puedes permitir combinaciones ilimitadas porque cada adición tiene margen positivo. La mayoría de heladerías exitosas limitan a 2-3 toppings incluidos y cobran adicionales por separado.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;¿Los toppings importados justifican el costo vs opciones locales?&lt;/strong&gt;
-En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&quot;&gt;coberturas y salsas profesionales&lt;/a&gt; importadas tienen consistencia superior, vida útil más larga y rendimiento más predecible que opciones artesanales. Un topping que se mantiene estable 6 meses vs uno que dura 1 mes reduce desperdicios y simplifica logística. Sin embargo, algunos toppings como frutas frescas o productos de panadería funcionan mejor con proveedores locales por frescura.&lt;/p&gt;
+En algunos casos sí. Las &lt;a href=&quot;/coberturas-salsas-helado/&quot;&gt;coberturas y salsas profesionales&lt;/a&gt; importadas tienen consistencia superior, vida útil más larga y rendimiento más predecible que opciones artesanales. Un topping que se mantiene estable 6 meses vs uno que dura 1 mes reduce desperdicios y simplifica logística. Sin embargo, algunos toppings como frutas frescas o productos de panadería funcionan mejor con proveedores locales por frescura.&lt;/p&gt;
 
 &lt;h2 id=&quot;los-toppings-son-estrategia-comercial-además-de-producto&quot;&gt;Los toppings son estrategia comercial además de producto&lt;/h2&gt;
 
@@ -312,7 +312,7 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
 
 &lt;p&gt;Calcula correctamente tu costo por porción de cada topping actual siguiendo los métodos que explicamos. Puede que descubras que algunos toppings que pensabas rentables están operando con márgenes negativos por porcionamiento excesivo.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/italgel/coberturas-salsas-helado/&quot;&gt;Revisa el catálogo de coberturas profesionales&lt;/a&gt; para reemplazar opciones artesanales inconsistentes con productos diseñados para operación comercial. La inversión en toppings profesionales se recupera en menos de 2 meses solo con la reducción de desperdicios.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/coberturas-salsas-helado/&quot;&gt;Revisa el catálogo de coberturas profesionales&lt;/a&gt; para reemplazar opciones artesanales inconsistentes con productos diseñados para operación comercial. La inversión en toppings profesionales se recupera en menos de 2 meses solo con la reducción de desperdicios.&lt;/p&gt;
 
 &lt;p&gt;Capacita a tu personal en técnicas de venta consultiva de toppings. Cada empleado debe poder sugerir al menos 3 combinaciones diferentes según el helado base que el cliente ordenó. La capacitación en ventas aumenta conversión de toppings entre 40% y 80% sin inversión adicional en producto.&lt;/p&gt;
 
@@ -342,8 +342,8 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
         <title>Qué es el gelato italiano: diferencias técnicas con el helado artesanal</title>
         <description><![CDATA[Gelato y helado artesanal no son lo mismo. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio y rentabilidad.]]></description>
         <pubDate>Thu, 02 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;“¿Cuál es la diferencia entre gelato y helado?” es la pregunta que más escuchamos de heladeros que quieren posicionar su negocio. La respuesta no es solo semántica: son diferencias técnicas de producción que afectan directamente tu margen de ganancia, el perfil de tus clientes y la inversión en equipos.&lt;/p&gt;
@@ -358,7 +358,7 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
 
 &lt;p&gt;&lt;strong&gt;Definición técnica del gelato:&lt;/strong&gt; Producto congelado con base láctea o de fruta, overrun entre 20% y 40%, servido a temperatura de -10°C a -14°C, con contenido de grasa entre 4% y 8%, y textura densa y cremosa característica.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/textura-gelato-italiano-autentico.avif&quot; alt=&quot;Textura densa característica del gelato italiano&quot; title=&quot;El gelato auténtico tiene textura densa y cremosa por su bajo overrun entre 20-40%&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/textura-gelato-italiano-autentico.avif&quot; alt=&quot;Textura densa característica del gelato italiano&quot; title=&quot;El gelato auténtico tiene textura densa y cremosa por su bajo overrun entre 20-40%&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;El gelato nació en Italia como respuesta a las condiciones de consumo mediterráneas: temperatura ambiente alta, consumo inmediato en la heladería, porciones pequeñas de sabor intenso. Por eso se desarrolló con menos grasa (para sabores más limpios) y menos aire (para mayor densidad).&lt;/p&gt;
 
@@ -372,7 +372,7 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
 
 &lt;h3 id=&quot;diferencia-1-overrun-o-incorporación-de-aire-durante-el-mantecado&quot;&gt;Diferencia 1: Overrun o incorporación de aire durante el mantecado&lt;/h3&gt;
 
-&lt;p&gt;El overrun es la diferencia más importante entre ambos productos. Como explicamos en nuestra guía sobre &lt;a href=&quot;/italgel/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;cómo calcular el overrun del helado&lt;/a&gt;, este porcentaje determina cuánto aire incorporas durante el mantecado.&lt;/p&gt;
+&lt;p&gt;El overrun es la diferencia más importante entre ambos productos. Como explicamos en nuestra guía sobre &lt;a href=&quot;/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;cómo calcular el overrun del helado&lt;/a&gt;, este porcentaje determina cuánto aire incorporas durante el mantecado.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Gelato italiano tradicional:&lt;/strong&gt; Overrun entre 20% y 40%. Esto significa que si mantecas 10 litros de mezcla líquida, obtienes entre 12 y 14 litros de producto terminado. El gelato es denso, pesado, con sabor concentrado. Cada porción contiene más pasta y menos aire.&lt;/p&gt;
 
@@ -398,13 +398,13 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
 
 &lt;h3 id=&quot;diferencia-4-tipo-de-base-profesional-requerida&quot;&gt;Diferencia 4: Tipo de base profesional requerida&lt;/h3&gt;
 
-&lt;p&gt;Las &lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;bases para helado profesional&lt;/a&gt; están formuladas para rangos específicos de overrun. No puedes usar la misma base para producir gelato y helado artesanal esperando resultados óptimos en ambos.&lt;/p&gt;
+&lt;p&gt;Las &lt;a href=&quot;/bases-helado-colombia/&quot;&gt;bases para helado profesional&lt;/a&gt; están formuladas para rangos específicos de overrun. No puedes usar la misma base para producir gelato y helado artesanal esperando resultados óptimos en ambos.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/bases-profesionales-gelato-helado.avif&quot; alt=&quot;Bases profesionales para gelato y helado artesanal&quot; title=&quot;Cada estilo requiere bases formuladas específicamente para su rango de overrun y temperatura&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/bases-profesionales-gelato-helado.avif&quot; alt=&quot;Bases profesionales para gelato y helado artesanal&quot; title=&quot;Cada estilo requiere bases formuladas específicamente para su rango de overrun y temperatura&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Para gelato con overrun bajo:&lt;/strong&gt; La &lt;a href=&quot;/italgel/bases-helado-colombia/neutralin-plus/&quot;&gt;Base Neutralin Plus&lt;/a&gt; está diseñada para incorporar menos aire y mantener estructura densa. Contiene proporción de estabilizantes que evita cristalización a temperatura de servicio más alta. Produce gelato cremoso y estable durante el tiempo de exhibición en vitrina.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Para gelato con overrun bajo:&lt;/strong&gt; La &lt;a href=&quot;/bases-helado-colombia/neutralin-plus/&quot;&gt;Base Neutralin Plus&lt;/a&gt; está diseñada para incorporar menos aire y mantener estructura densa. Contiene proporción de estabilizantes que evita cristalización a temperatura de servicio más alta. Produce gelato cremoso y estable durante el tiempo de exhibición en vitrina.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Para helado artesanal con overrun medio:&lt;/strong&gt; La &lt;a href=&quot;/italgel/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; es la opción más versátil para overrun entre 50% y 60%. Incorpora aire de forma controlada y mantiene textura suave a temperatura de conservación tradicional. Es la base más vendida porque equilibra calidad y rentabilidad.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Para helado artesanal con overrun medio:&lt;/strong&gt; La &lt;a href=&quot;/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; es la opción más versátil para overrun entre 50% y 60%. Incorpora aire de forma controlada y mantiene textura suave a temperatura de conservación tradicional. Es la base más vendida porque equilibra calidad y rentabilidad.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Para producción de volumen con overrun alto:&lt;/strong&gt; La Base Supergelmix permite overrun entre 60% y 80% manteniendo estabilidad. Es ideal para helado soft y producción industrial donde el costo por porción es crítico.&lt;/p&gt;
 
@@ -420,7 +420,7 @@ En algunos casos sí. Las &lt;a href=&quot;/italgel/coberturas-salsas-helado/&qu
 
 &lt;p&gt;La decisión entre gelato y helado artesanal no es solo de preferencia personal: es una decisión de modelo de negocio que afecta tu inversión, tu precio de venta, tu perfil de cliente y tu rentabilidad.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/modelo-negocio-gelato-helado-artesanal.avif&quot; alt=&quot;Comparación de modelos de negocio gelato vs helado&quot; title=&quot;La elección entre gelato y helado determina precios, márgenes y perfil de cliente objetivo&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/modelo-negocio-gelato-helado-artesanal.avif&quot; alt=&quot;Comparación de modelos de negocio gelato vs helado&quot; title=&quot;La elección entre gelato y helado determina precios, márgenes y perfil de cliente objetivo&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Produce gelato italiano si:&lt;/strong&gt; Tu mercado objetivo es cliente premium dispuesto a pagar $7,000-$10,000 COP por porción pequeña. Estás en zona de alto tráfico peatonal donde la gente consume en el local. Puedes comunicar la diferenciación y educar al cliente sobre por qué tu producto es diferente. Tienes capacidad de reponer sabores varias veces al día. Tu estrategia es volumen bajo con margen alto.&lt;/p&gt;
 
@@ -520,9 +520,9 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;Analiza tu mercado actual: ¿Qué precios pagan tus clientes? ¿Qué tamaños de porción esperan? ¿Consumen en local o llevan para casa? Estas respuestas te dirán qué estilo tiene mejor ajuste con tu realidad comercial.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;Solicita asesoría técnica&lt;/a&gt; para que nuestro equipo evalúe tu equipamiento actual, tu perfil de cliente y tu capacidad operativa. Te recomendaremos el estilo que maximiza tu rentabilidad con tu infraestructura actual.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/bases-helado-colombia/&quot;&gt;Solicita asesoría técnica&lt;/a&gt; para que nuestro equipo evalúe tu equipamiento actual, tu perfil de cliente y tu capacidad operativa. Te recomendaremos el estilo que maximiza tu rentabilidad con tu infraestructura actual.&lt;/p&gt;
 
-&lt;p&gt;Aprende los &lt;a href=&quot;/italgel/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;factores que afectan el overrun del helado&lt;/a&gt; porque este parámetro es la columna vertebral de la diferencia entre gelato y helado artesanal. Dominar el overrun te permite ejecutar cualquier estilo con precisión.&lt;/p&gt;
+&lt;p&gt;Aprende los &lt;a href=&quot;/blog/como-calcular-overrun-helado-artesanal/&quot;&gt;factores que afectan el overrun del helado&lt;/a&gt; porque este parámetro es la columna vertebral de la diferencia entre gelato y helado artesanal. Dominar el overrun te permite ejecutar cualquier estilo con precisión.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -550,8 +550,8 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
         <title>Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad.]]></description>
         <pubDate>Wed, 01 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">http://localhost:4000/italgel/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</guid>
         
         
           <content:encoded><![CDATA[&lt;p&gt;El overrun es &lt;strong&gt;el número que separa una heladería rentable de una que apenas sobrevive&lt;/strong&gt;. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.&lt;/p&gt;
@@ -573,7 +573,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;Esos 5 litros adicionales son aire controlado que incorporaste durante el proceso. No es trampa ni relleno barato: es tecnología de producción que toda heladería profesional debe dominar.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/proceso-mantecado-incorporacion-aire.avif&quot; alt=&quot;Proceso de mantecado incorporando aire en helado artesanal&quot; title=&quot;El mantecado incorpora aire de forma controlada transformando la mezcla líquida en helado cremoso&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/proceso-mantecado-incorporacion-aire.avif&quot; alt=&quot;Proceso de mantecado incorporando aire en helado artesanal&quot; title=&quot;El mantecado incorpora aire de forma controlada transformando la mezcla líquida en helado cremoso&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;el-aire-no-degrada-tu-helado-cuando-se-incorpora-correctamente&quot;&gt;El aire no degrada tu helado (cuando se incorpora correctamente)&lt;/h3&gt;
 
@@ -617,7 +617,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
   &lt;li&gt;Aplica la fórmula: ((1,100 - 730) / 730) × 100 = &lt;strong&gt;50.7% de overrun&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/medicion-peso-helado-overrun.avif&quot; alt=&quot;Balanza digital midiendo peso de helado para calcular overrun&quot; title=&quot;El método de cálculo por peso es más confiable y práctico para el día a día en tu heladería&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/medicion-peso-helado-overrun.avif&quot; alt=&quot;Balanza digital midiendo peso de helado para calcular overrun&quot; title=&quot;El método de cálculo por peso es más confiable y práctico para el día a día en tu heladería&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;El helado pesa menos que la mezcla original porque incorporó aire. A menor peso del producto final, mayor es tu overrun. Este método es más confiable porque el peso no varía significativamente con la temperatura.&lt;/p&gt;
 
@@ -656,19 +656,19 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;No existe un overrun “correcto” universal. El número ideal depende del posicionamiento de tu marca y las expectativas de tus clientes. Un gelato artesanal premium y un helado soft económico son productos completamente diferentes que requieren overruns distintos.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Para gelaterías tipo italiano:&lt;/strong&gt; El overrun óptimo está entre 25% y 40%. Tus clientes pagan por intensidad de sabor y textura densa. Un overrun bajo te permite ofrecer más pasta por bocado, cremosidad superior y mejor resistencia al derretimiento. La &lt;a href=&quot;/italgel/bases-helado-colombia/neutralin-plus/&quot;&gt;Base Neutralin Plus&lt;/a&gt; está formulada específicamente para este rango de incorporación.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Para gelaterías tipo italiano:&lt;/strong&gt; El overrun óptimo está entre 25% y 40%. Tus clientes pagan por intensidad de sabor y textura densa. Un overrun bajo te permite ofrecer más pasta por bocado, cremosidad superior y mejor resistencia al derretimiento. La &lt;a href=&quot;/bases-helado-colombia/neutralin-plus/&quot;&gt;Base Neutralin Plus&lt;/a&gt; está formulada específicamente para este rango de incorporación.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Para heladerías artesanales balanceadas:&lt;/strong&gt; El overrun ideal está entre 50% y 60%. Este es el punto donde maximizas rentabilidad sin sacrificar percepción de calidad. Produces suficiente volumen para competir en precio mientras mantienes la textura cremosa que esperan tus clientes. La &lt;a href=&quot;/italgel/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; domina este segmento por su estabilidad y consistencia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Para heladerías artesanales balanceadas:&lt;/strong&gt; El overrun ideal está entre 50% y 60%. Este es el punto donde maximizas rentabilidad sin sacrificar percepción de calidad. Produces suficiente volumen para competir en precio mientras mantienes la textura cremosa que esperan tus clientes. La &lt;a href=&quot;/bases-helado-colombia/base-50-mec3/&quot;&gt;Base 50 MEC3&lt;/a&gt; domina este segmento por su estabilidad y consistencia.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Para puntos de helado soft:&lt;/strong&gt; El overrun óptimo está entre 60% y 80%. Tu ventaja competitiva es precio accesible y servicio rápido. El alto overrun te permite ofrecer porciones generosas a costos competitivos, con la textura suave y ligera característica del formato soft. La Base Supergelmix está diseñada para este rango de producción.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/comparacion-texturas-overrun-helado.avif&quot; alt=&quot;Comparación de texturas de helado con diferentes porcentajes de overrun&quot; title=&quot;Cada modelo de negocio requiere un rango específico de overrun para cumplir las expectativas de sus clientes&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/comparacion-texturas-overrun-helado.avif&quot; alt=&quot;Comparación de texturas de helado con diferentes porcentajes de overrun&quot; title=&quot;Cada modelo de negocio requiere un rango específico de overrun para cumplir las expectativas de sus clientes&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;factores-que-afectan-el-overrun-del-helado-y-cómo-controlarlos&quot;&gt;Factores que afectan el overrun del helado (y cómo controlarlos)&lt;/h2&gt;
 
 &lt;h3 id=&quot;la-base-que-usas-determina-tu-rango-de-overrun-posible&quot;&gt;La base que usas determina tu rango de overrun posible&lt;/h3&gt;
 
-&lt;p&gt;Las &lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;bases para helado profesionales&lt;/a&gt; no son intercambiables. Cada una está formulada con proporciones específicas de emulsificantes y estabilizantes que determinan cuánto aire puede incorporar y mantener estable.&lt;/p&gt;
+&lt;p&gt;Las &lt;a href=&quot;/bases-helado-colombia/&quot;&gt;bases para helado profesionales&lt;/a&gt; no son intercambiables. Cada una está formulada con proporciones específicas de emulsificantes y estabilizantes que determinan cuánto aire puede incorporar y mantener estable.&lt;/p&gt;
 
 &lt;p&gt;Una base genérica sin formulación técnica produce overrun errático: 30% un día, 65% al día siguiente, 45% la semana próxima. Esta inconsistencia te impide calcular costos, controlar porciones o garantizar la misma experiencia a tus clientes.&lt;/p&gt;
 
@@ -684,7 +684,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;La temperatura ideal es entre 4°C y 6°C. A esta temperatura, las proteínas y grasas tienen la viscosidad correcta para atrapar y estabilizar burbujas de aire durante el batido. Por encima de 8°C la incorporación se reduce. Por debajo de 2°C la mezcla está demasiado viscosa para batir eficientemente.&lt;/p&gt;
 
-&lt;p&gt;Este es el motivo técnico de por qué debes &lt;a href=&quot;/italgel/blog/pasteurizacion-mezcla-helado-correcta/&quot;&gt;madurar tu mezcla correctamente&lt;/a&gt; durante 12 a 24 horas antes del mantecado. No es solo una recomendación tradicional: es química de coloides aplicada a la producción de helado.&lt;/p&gt;
+&lt;p&gt;Este es el motivo técnico de por qué debes &lt;a href=&quot;/blog/pasteurizacion-mezcla-helado-correcta/&quot;&gt;madurar tu mezcla correctamente&lt;/a&gt; durante 12 a 24 horas antes del mantecado. No es solo una recomendación tradicional: es química de coloides aplicada a la producción de helado.&lt;/p&gt;
 
 &lt;h2 id=&quot;errores-costosos-al-medir-o-controlar-el-overrun&quot;&gt;Errores costosos al medir o controlar el overrun&lt;/h2&gt;
 
@@ -698,7 +698,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;Si necesitas más rendimiento manteniendo la satisfacción de tus clientes, estos son los ajustes técnicos que funcionan sin comprometer tu reputación.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Primero:&lt;/strong&gt; Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. &lt;a href=&quot;/italgel/blog/diferencia-base-50-neutralin-helado/&quot;&gt;Compara Base 50 con Neutralin&lt;/a&gt; para entender cómo cada formulación afecta el overrun posible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Primero:&lt;/strong&gt; Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. &lt;a href=&quot;/blog/diferencia-base-50-neutralin-helado/&quot;&gt;Compara Base 50 con Neutralin&lt;/a&gt; para entender cómo cada formulación afecta el overrun posible.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Segundo:&lt;/strong&gt; Mantén la temperatura de tu mezcla constante en el rango de 4°C a 6°C antes de cada mantecado. Esta consistencia térmica es más importante que el tiempo exacto de batido. Invierte en un termómetro digital preciso y verifica antes de cada ciclo.&lt;/p&gt;
 
@@ -716,7 +716,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 &lt;p&gt;La diferencia es $10,000 COP adicionales de ganancia por cada kilo de base. Si produces 20 kilos diarios, son $200,000 COP extra por día. En un mes de 30 días de producción: &lt;strong&gt;$6,000,000 COP adicionales de rentabilidad&lt;/strong&gt; solo por controlar correctamente el overrun.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/italgel/img/blog/rentabilidad-control-overrun-heladeria.avif&quot; alt=&quot;Impacto del control de overrun en la rentabilidad de heladería&quot; title=&quot;Controlar el overrun correctamente puede aumentar tu rentabilidad hasta en $6,000,000 COP mensuales&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/rentabilidad-control-overrun-heladeria.avif&quot; alt=&quot;Impacto del control de overrun en la rentabilidad de heladería&quot; title=&quot;Controlar el overrun correctamente puede aumentar tu rentabilidad hasta en $6,000,000 COP mensuales&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;900&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Este cálculo no incluye el ahorro de tiempo y reducción de desperdicios que obtienes al tener producción consistente. Tampoco incluye el valor de poder costear tus productos con precisión y establecer precios competitivos basados en números reales en lugar de estimaciones.&lt;/p&gt;
 
@@ -743,9 +743,9 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
 
 &lt;p&gt;Revisa tu overrun actual siguiendo el método de cálculo por peso que explicamos. Toma mediciones durante una semana y calcula la variabilidad. Si tus números varían más del 10% entre días diferentes, estás perdiendo dinero por falta de control de proceso.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/italgel/bases-helado-colombia/&quot;&gt;Solicita asesoría técnica&lt;/a&gt; para que nuestro equipo analice tu proceso actual y recomiende la base MEC3 específica para tu modelo de producción. La inversión en bases profesionales se recupera en el primer mes solo con la reducción de desperdicios y aumento de rendimiento.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/bases-helado-colombia/&quot;&gt;Solicita asesoría técnica&lt;/a&gt; para que nuestro equipo analice tu proceso actual y recomiende la base MEC3 específica para tu modelo de producción. La inversión en bases profesionales se recupera en el primer mes solo con la reducción de desperdicios y aumento de rendimiento.&lt;/p&gt;
 
-&lt;p&gt;Aprende a &lt;a href=&quot;/italgel/blog/pasteurizacion-mezcla-helado-correcta/&quot;&gt;pasteurizar correctamente tu mezcla&lt;/a&gt; para garantizar que la base pueda desarrollar todo su potencial de incorporación de aire. El overrun óptimo empieza con una mezcla correctamente preparada.&lt;/p&gt;
+&lt;p&gt;Aprende a &lt;a href=&quot;/blog/pasteurizacion-mezcla-helado-correcta/&quot;&gt;pasteurizar correctamente tu mezcla&lt;/a&gt; para garantizar que la base pueda desarrollar todo su potencial de incorporación de aire. El overrun óptimo empieza con una mezcla correctamente preparada.&lt;/p&gt;
 
 &lt;hr /&gt;
 
