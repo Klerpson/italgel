@@ -316,6 +316,16 @@
       const message = WhatsAppURL.getMessage();
       const url = WhatsAppURL.generate(message);
 
+      // Enviar evento a GTM dataLayer
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'whatsapp_click',
+        whatsapp_number: CONFIG.phoneNumber,
+        whatsapp_message: message,
+        page_url: window.location.href,
+        timestamp: new Date().toISOString()
+      });
+
       // Intentar abrir WhatsApp (app en móvil, web en desktop)
       const whatsappWindow = window.open(url, '_blank');
 

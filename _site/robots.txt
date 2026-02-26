@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
-User-Agent: AdsBot-Google-Mobile
-User-Agent: AdsBot-Google
-Sitemap: https://italgel.com.co
+Disallow: /search.json
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+Sitemap: https://italgel.com.co/sitemap.xml

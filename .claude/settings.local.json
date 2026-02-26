@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep \"last_modified_at\" d:/github/italgel/_posts/*.md)",
+      "Bash(head -5 d:/github/italgel/_posts/*.md)"
+    ]
+  }
+}

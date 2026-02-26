@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
@@ -12,7 +12,7 @@ layout: null
     {% else %}
       <url>
         <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         {% if page.jpg %}
@@ -33,72 +33,28 @@ layout: null
     {% endif %}
   {% endfor %}
 
-  {% for page in site.ciudades %}
+  {% for post in site.posts %}
+    {% unless post.noindex %}
       <url>
-        <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <loc>{{ post.url | absolute_url }}</loc>
+        <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-        {% if page.jpg %}
+        {% if post.jpg %}
           <image:image>
-            <image:loc>{{ page.jpg | absolute_url }}</image:loc>
-            <image:title>{{ page.title }}</image:title>
-            <image:caption>{{ page.alt }}</image:caption>
+            <image:loc>{{ post.jpg | absolute_url }}</image:loc>
+            <image:title>{{ post.title }}</image:title>
+            <image:caption>{{ post.alt }}</image:caption>
           </image:image>
         {% endif %}
-        {% if page.webp %}
+        {% if post.webp %}
           <image:image>
-            <image:loc>{{ page.webp | absolute_url }}</image:loc>
-            <image:title>{{ page.title }}</image:title>
-            <image:caption>{{ page.alt }}</image:caption>
+            <image:loc>{{ post.webp | absolute_url }}</image:loc>
+            <image:title>{{ post.title }}</image:title>
+            <image:caption>{{ post.alt }}</image:caption>
           </image:image>
         {% endif %}
       </url>
-  {% endfor %}
-  
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ post.url | absolute_url }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-      {% if post.jpg %}
-        <image:image>
-          <image:loc>{{ post.jpg | absolute_url }}</image:loc>
-          <image:title>{{ post.title }}</image:title>
-          <image:caption>{{ post.alt }}</image:caption>
-        </image:image>
-      {% endif %}
-      {% if post.webp %}
-        <image:image>
-          <image:loc>{{ post.webp | absolute_url }}</image:loc>
-          <image:title>{{ post.title }}</image:title>
-          <image:caption>{{ post.alt }}</image:caption>
-        </image:image>
-      {% endif %}
-    </url>
-  {% endfor %}
-  
-  {% for page in site.without-plugin %}
-    <url>
-      <loc>{{ page.url | absolute_url }}</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-      {% if page.jpg %}
-        <image:image>
-          <image:loc>{{ page.jpg | absolute_url }}</image:loc>
-          <image:title>{{ page.title }}</image:title>
-          <image:caption>{{ page.alt }}</image:caption>
-        </image:image>
-      {% endif %}
-      {% if page.webp %}
-        <image:image>
-          <image:loc>{{ page.webp | absolute_url }}</image:loc>
-          <image:title>{{ page.title }}</image:title>
-          <image:caption>{{ page.alt }}</image:caption>
-        </image:image>
-      {% endif %}
-    </url>
+    {% endunless %}
   {% endfor %}
 </urlset>

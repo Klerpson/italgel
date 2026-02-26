@@ -1,0 +1,11 @@
+/* TEAM */
+Developer & Author: Sebastián Rios
+Contact: info@mec3.co
+Location: Bogotá, Colombia
+
+/* SITE */
+Last update: 2026-02-26
+Language: Spanish
+Doctype: HTML5
+IDE: VS Code
+CMS: Jekyll
