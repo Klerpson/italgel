@@ -31,8 +31,8 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.name | escape }}">
-  <meta property="og:image" content="{{ og_image | prepend: site.url }}">
-  <meta property="og:image:secure_url" content="{{ og_image | prepend: site.url }}">
+  <meta property="og:image" content="{{ '/img/logo.avif' | absolute_url }}">
+  <meta property="og:image:secure_url" content="{{ '/img/logo.avif' | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="640">
   <meta property="og:image:alt" content="{% if page.alt %}{{ page.alt | escape }}{% else %}{{ page.title | escape }}{% endif %}">
@@ -49,7 +49,7 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta name="twitter:site" content="@pollito_web">
   <meta name="twitter:creator" content="@pollito_web">
-  <meta name="twitter:image" content="{{ og_image | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ '/img/logo.webp' | absolute_url }}">
 
   <!-- Favicon & Apple Touch Icons -->
   <link rel="shortcut icon" href="{{'/iconified/favicon.ico'|relative_url}}" type="image/x-icon">
