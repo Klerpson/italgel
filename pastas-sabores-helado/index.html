@@ -21,341 +21,579 @@ faqs:
   - question: "¿Cuánto dura una pasta abierta?"
     answer: "Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas."
   - question: "¿Dónde comprar pasta de pistacho para helado en Colombia?"
-    answer: "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href=\"#\" id=\"lead_whatsapp\">Cotiza aquí</a>."
+    answer: 'Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a href="#" id="lead_whatsapp">Cotiza aquí</a>.'
 ---
+
 {% include breadcrumb.html %}
 
-  <!-- Categorías de pastas -->
-  <main class="section center">
-    <h2 class="text_center">Catálogo de pastas por categoría</h2>
-    <p class="text_center">Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces:</p>
-    
-    <!-- PASTAS PREMIUM (Frutos secos) -->
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Pastas premium de frutos secos - Las más pedidas</h3>
-        <p>Estas pastas contienen <strong>concentración real del fruto seco</strong> (pistacho, avellana, almendras). Son las que marcan la diferencia en una heladería artesanal de calidad.</p>
-        
-        <h4>Pasta de Pistacho - El rey del gelato italiano</h4>
-        <ul>
-          <li><strong>Concentración:</strong> 40% pistacho tostado siciliano</li>
-          <li><strong>Dosificación:</strong> 80-100g por litro de mezcla</li>
-          <li><strong>Color:</strong> Verde natural (sin colorantes artificiales)</li>
-          <li><strong>Rendimiento:</strong> 1kg de pasta = 12-15 litros de helado</li>
-        </ul>
+<!-- Categorías de pastas -->
+<main class="section center">
+  <h2 class="text_center">Catálogo de pastas por categoría</h2>
+  <p class="text_center">
+    Organizamos las pastas según su uso principal. Identifica cuál necesitas
+    según el tipo de helado que produces:
+  </p>
 
-        <p><strong>¿Por qué cuesta más?</strong> El pistacho siciliano es uno de los frutos secos más caros del mundo (US$25-35/kg). Una pasta concentrada al 40% requiere casi medio kilo de pistacho puro.</p>
-        
+  <!-- PASTAS PREMIUM (Frutos secos) -->
+  <article class="flex bg_grey_light">
+    <div class="flow">
+      <h3>Pastas premium de frutos secos - Las más pedidas</h3>
+      <p>
+        Estas pastas contienen
+        <strong>concentración real del fruto seco</strong> (pistacho, avellana,
+        almendras). Son las que marcan la diferencia en una heladería artesanal
+        de calidad.
+      </p>
+
+      <h4>Pasta de Pistacho - El rey del gelato italiano</h4>
+      <ul>
+        <li><strong>Concentración:</strong> 40% pistacho tostado siciliano</li>
+        <li><strong>Dosificación:</strong> 80-100g por litro de mezcla</li>
+        <li>
+          <strong>Color:</strong> Verde natural (sin colorantes artificiales)
+        </li>
+        <li>
+          <strong>Rendimiento:</strong> 1kg de pasta = 12-15 litros de helado
+        </li>
+      </ul>
+
+      <p>
+        <strong>¿Por qué cuesta más?</strong> El pistacho siciliano es uno de
+        los frutos secos más caros del mundo (US$25-35/kg). Una pasta
+        concentrada al 40% requiere casi medio kilo de pistacho puro.
+      </p>
+
+      <div class="flex">
+        {% include boton.html num="1" text="Cotizar Pasta Pistacho 🥜" %}
+        <a
+          href="{{'/pastas-sabores-helado/pasta-pistacho/'|relative_url}}"
+          class="boton boton_2"
+          >Ver ficha técnica</a
+        >
+      </div>
+    </div>
+    <img
+      src="{{ 'img/pasta-pistacho-mec3-helado.avif' | relative_url }}"
+      alt="Pasta concentrada de pistacho siciliano para gelato"
+      width="560"
+      height="700"
+      loading="lazy"
+      decoding="async"
+    />
+  </article>
+
+  <article class="flex flex_left bg_grey_light">
+    <div class="flow">
+      <h4>Pasta de Avellana Selection - Sabor Piemonte auténtico</h4>
+      <ul>
+        <li>
+          <strong>Origen:</strong> Avellanas de Piemonte (Italia), las mejores
+          del mundo
+        </li>
+        <li><strong>Concentración:</strong> 35% avellana tostada</li>
+        <li>
+          <strong>Sabor:</strong> Intenso, dulce natural, notas de caramelo
+        </li>
+        <li>
+          <strong>Uso popular:</strong> Helado Gianduia (avellana + chocolate)
+        </li>
+      </ul>
+
+      <p>
+        <strong>Dato técnico:</strong> La pasta de avellana oxida rápidamente.
+        MEC3 la protege con antioxidantes naturales (vitamina E) para mantener
+        sabor hasta 18 meses.
+      </p>
+
+      {% include boton.html num="1" text="Ver precio Pasta Avellana 🌰" %}
+    </div>
+    <img
+      src="{{ 'img/pasta-avellana-selection-helado.avif' | relative_url }}"
+      alt="Pasta de avellana Piemonte para helado artesanal"
+      width="584"
+      height="396"
+      loading="lazy"
+      decoding="async"
+    />
+  </article>
+
+  <article class="flex bg_grey_light">
+    <div class="flow">
+      <h4>Pasta de Almendras (Almonds) - Versatilidad máxima</h4>
+      <ul>
+        <li>
+          <strong>Aplicaciones:</strong> Helado de almendra, turrón, amaretto
+        </li>
+        <li><strong>Concentración:</strong> 30% almendra española</li>
+        <li><strong>Compatible con:</strong> Bases neutras y bases de crema</li>
+      </ul>
+
+      <p>
+        <strong>Tip de maestro heladero:</strong> Combina Pasta Almendras
+        (60g/L) + Pasta Vainilla (30g/L) para un sabor similar al turrón de
+        Jijona.
+      </p>
+
+      {% include boton.html num="1" text="Consultar disponibilidad 🍦" %}
+    </div>
+    <img
+      src="{{ 'img/pasta-almendras-helado-artesanal.avif' | relative_url }}"
+      alt="Pasta concentrada de almendras para helado"
+      width="584"
+      height="396"
+      loading="lazy"
+      decoding="async"
+    />
+  </article>
+</main>
+
+<section class="text_center center flow">
+  <h2 class="">
+    ¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?
+  </h2>
+  <p>
+    Puedes tener la mejor base del mundo, pero
+    <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada
+    MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao),
+    no saborizantes artificiales. Esto significa que
+    <strong
+      >50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho
+      tostado molido</strong
+    >.
+  </p>
+
+  <blockquote class="center text_center flow">
+    <p>
+      "Cambié de proveedor de pastas cuando probé la diferencia. Con pastas
+      MEC3, mis clientes me dicen que es el mejor helado de pistacho que han
+      probado en Colombia. El secreto es la concentración real del fruto seco."
+    </p>
+    <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
+  </blockquote>
+</section>
+<section class="wrapper">
+  <!-- Tabla comparativa frutos secos -->
+  <h3>Comparativa de pastas de frutos secos</h3>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Pasta</th>
+          <th>Concentración</th>
+          <th>Dosificación</th>
+          <th>Rendimiento</th>
+          <th>Nivel de precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Pistacho</strong></td>
+          <td>40%</td>
+          <td>80-100g/L</td>
+          <td>1kg = 10-12L</td>
+          <td>Alto</td>
+        </tr>
+        <tr>
+          <td><strong>Avellana</strong></td>
+          <td>35%</td>
+          <td>70-90g/L</td>
+          <td>1kg = 11-14L</td>
+          <td>Medio-Alto</td>
+        </tr>
+        <tr>
+          <td><strong>Almendras</strong></td>
+          <td>30%</td>
+          <td>60-80g/L</td>
+          <td>1kg = 12-16L</td>
+          <td>Medio</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- PASTAS CLÁSICAS -->
+<section class="wrapper center">
+  <h3>Pastas clásicas - Sabores esenciales</h3>
+  <p>
+    Todo helador necesita estas pastas en stock permanente. Son los sabores más
+    pedidos y tienen rotación rápida:
+  </p>
+
+  <div class="three_columns">
+    <article class="product-card">
+      <div class="product-img principal">
+        <img
+          src="{{ 'img/pasta-vainilla-bourbon-helado.avif' | relative_url }}"
+          alt="Pasta de vainilla bourbon para helado"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Pasta Vainilla Bourbon</h4>
+        <p>
+          <strong>Vainilla real de Madagascar.</strong> No es extracto, es pasta
+          concentrada con semillas visibles. Dosificación: 40-60g/L.
+        </p>
         <div class="flex">
-          {% include boton.html num="1" text="Cotizar Pasta Pistacho 🥜" %}
-          <a href="{{'/pastas-sabores-helado/pasta-pistacho/'|relative_url}}" class="boton boton_2">Ver ficha técnica</a>
+          {% include boton.html num="1" text="Ver precio" %}
+          <a
+            href="{{'/pastas-sabores-helado/pasta-vainilla/'|relative_url}}"
+            class="boton boton_2"
+            >Ver ficha técnica</a
+          >
         </div>
       </div>
-      <img src="{{ 'img/pasta-pistacho-mec3-helado.avif' | relative_url }}" alt="Pasta concentrada de pistacho siciliano para gelato" width="560" height="700" loading="lazy" decoding="async">
     </article>
-    
-    <article class="flex flex_left bg_grey_light">
-      <div class="flow">
-        <h4>Pasta de Avellana Selection - Sabor Piemonte auténtico</h4>
-        <ul>
-          <li><strong>Origen:</strong> Avellanas de Piemonte (Italia), las mejores del mundo</li>
-          <li><strong>Concentración:</strong> 35% avellana tostada</li>
-          <li><strong>Sabor:</strong> Intenso, dulce natural, notas de caramelo</li>
-          <li><strong>Uso popular:</strong> Helado Gianduia (avellana + chocolate)</li>
-        </ul>
-        
-        <p><strong>Dato técnico:</strong> La pasta de avellana oxida rápidamente. MEC3 la protege con antioxidantes naturales (vitamina E) para mantener sabor hasta 18 meses.</p>
-        
-        {% include boton.html num="1" text="Ver precio Pasta Avellana 🌰" %}
+
+    <article class="product-card">
+      <div class="product-img pink">
+        <img
+          src="{{ 'img/pasta-chocolate-helado-artesanal.avif' | relative_url }}"
+          alt="Pasta de chocolate para helado profesional"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
-      <img src="{{ 'img/pasta-avellana-selection-helado.avif' | relative_url }}" alt="Pasta de avellana Piemonte para helado artesanal" width="584" height="396" loading="lazy" decoding="async">
-    </article>
-    
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h4>Pasta de Almendras (Almonds) - Versatilidad máxima</h4>
-        <ul>
-          <li><strong>Aplicaciones:</strong> Helado de almendra, turrón, amaretto</li>
-          <li><strong>Concentración:</strong> 30% almendra española</li>
-          <li><strong>Compatible con:</strong> Bases neutras y bases de crema</li>
-        </ul>
-        
-        <p><strong>Tip de maestro heladero:</strong> Combina Pasta Almendras (60g/L) + Pasta Vainilla (30g/L) para un sabor similar al turrón de Jijona.</p>
-        
-        {% include boton.html num="1" text="Consultar disponibilidad 🍦" %}
+      <div class="product-content flow">
+        <h4>Pasta Chocolate</h4>
+        <p>
+          <strong>Cacao 55% mínimo.</strong> Sabor intenso, cremosidad natural.
+          Compatible con cualquier base. Dosificación: 80-100g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
       </div>
-      <img src="{{ 'img/pasta-almendras-helado-artesanal.avif' | relative_url }}" alt="Pasta concentrada de almendras para helado" width="584" height="396" loading="lazy" decoding="async">
     </article>
-  </main>
-    
-    <section class="text_center center flow">
-      <h2 class="">¿Por qué las pastas concentradas son la clave del sabor en helado artesanal?</h2>
-      <p>Puedes tener la mejor base del mundo, pero <strong>el sabor final lo define la pasta</strong>. Una pasta concentrada MEC3 contiene entre 15-40% del ingrediente real (pistacho, avellana, cacao), no saborizantes artificiales. Esto significa que <strong>50 gramos de Pasta Pistacho MEC3 equivalen a 300 gramos de pistacho tostado molido</strong>.</p>
-  
-      <blockquote class="center text_center flow">
-        <p>"Cambié de proveedor de pastas cuando probé la diferencia. Con pastas MEC3, mis clientes me dicen que es el mejor helado de pistacho que han probado en Colombia. El secreto es la concentración real del fruto seco."</p>
-        <cite>Ana Martínez - Heladería Dulce Tentación, Medellín</cite>
-      </blockquote>
-    </section>
-    <section class="wrapper">
-    <!-- Tabla comparativa frutos secos -->
-    <h3>Comparativa de pastas de frutos secos</h3>
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Pasta</th>
-            <th>Concentración</th>
-            <th>Dosificación</th>
-            <th>Rendimiento</th>
-            <th>Nivel de precio</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Pistacho</strong></td>
-            <td>40%</td>
-            <td>80-100g/L</td>
-            <td>1kg = 10-12L</td>
-            <td>Alto</td>
-          </tr>
-          <tr>
-            <td><strong>Avellana</strong></td>
-            <td>35%</td>
-            <td>70-90g/L</td>
-            <td>1kg = 11-14L</td>
-            <td>Medio-Alto</td>
-          </tr>
-          <tr>
-            <td><strong>Almendras</strong></td>
-            <td>30%</td>
-            <td>60-80g/L</td>
-            <td>1kg = 12-16L</td>
-            <td>Medio</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    </section>
 
-  <!-- PASTAS CLÁSICAS -->
-  <section class="wrapper center">
-    <h3>Pastas clásicas - Sabores esenciales</h3>
-    <p>Todo helador necesita estas pastas en stock permanente. Son los sabores más pedidos y tienen rotación rápida:</p>
+    <article class="product-card">
+      <div class="product-img secundario">
+        <img
+          src="{{ 'img/pasta-fresa-helado-natural.avif' | relative_url }}"
+          alt="Pasta de fresa para helado sin colorantes"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Pasta Fresa</h4>
+        <p>
+          <strong>Concentrado de fresa natural.</strong> Sin colorantes
+          artificiales. Sabor ácido-dulce equilibrado. Dosificación: 50-70g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-    <div class="three_columns">
-      <article class="product-card">
-        <div class="product-img principal">
-          <img src="{{ 'img/pasta-vainilla-bourbon-helado.avif' | relative_url }}" alt="Pasta de vainilla bourbon para helado" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Vainilla Bourbon</h4>
-          <p><strong>Vainilla real de Madagascar.</strong> No es extracto, es pasta concentrada con semillas visibles. Dosificación: 40-60g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img principal">
+        <img
+          src="{{ 'img/pasta-caramelo-helado-dulce-leche.avif' | relative_url }}"
+          alt="Pasta de caramelo para helado tipo dulce de leche"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Pasta Caramelo</h4>
+        <p>
+          <strong>Sabor a dulce de leche caramelizado.</strong> Muy popular en
+          Colombia. Dosificación: 60-80g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-      <article class="product-card">
-        <div class="product-img pink">
-          <img src="{{ 'img/pasta-chocolate-helado-artesanal.avif' | relative_url }}" alt="Pasta de chocolate para helado profesional" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Chocolate</h4>
-          <p><strong>Cacao 55% mínimo.</strong> Sabor intenso, cremosidad natural. Compatible con cualquier base. Dosificación: 80-100g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img pink">
+        <img
+          src="{{ 'img/pasta-stracciatella-chips-chocolate.avif' | relative_url }}"
+          alt="Pasta stracciatella con chips de chocolate"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Pasta Stracciatella</h4>
+        <p>
+          <strong>Chips de chocolate belga.</strong> Se añade al final del
+          mantecado para crear las escamas características. Dosificación:
+          40-60g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-      <article class="product-card">
-        <div class="product-img secundario">
-          <img src="{{ 'img/pasta-fresa-helado-natural.avif' | relative_url }}" alt="Pasta de fresa para helado sin colorantes" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Fresa</h4>
-          <p><strong>Concentrado de fresa natural.</strong> Sin colorantes artificiales. Sabor ácido-dulce equilibrado. Dosificación: 50-70g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img secundario">
+        <img
+          src="{{ 'img/pasta-chocolate-blanco-helado.avif' | relative_url }}"
+          alt="Pasta de chocolate blanco para helado cremoso"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Pasta Chocolate Blanco</h4>
+        <p>
+          <strong>Cacao blanco + vainilla.</strong> Sabor dulce, cremoso. Ideal
+          para combinaciones con frutos rojos. Dosificación: 70-90g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
+  </div>
 
-      <article class="product-card">
-        <div class="product-img principal">
-          <img src="{{ 'img/pasta-caramelo-helado-dulce-leche.avif' | relative_url }}" alt="Pasta de caramelo para helado tipo dulce de leche" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Caramelo</h4>
-          <p><strong>Sabor a dulce de leche caramelizado.</strong> Muy popular en Colombia. Dosificación: 60-80g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+  <a
+    href="{{'/pastas-sabores-helado/pastas-clasicas/'|relative_url}}"
+    class="boton boton_2"
+    style="
+      display: block;
+      width: fit-content;
+      margin-inline: auto;
+      margin-block-start: 2rem;
+    "
+    >Ver todas las pastas clásicas →</a
+  >
+</section>
 
-      <article class="product-card">
-        <div class="product-img pink">
-          <img src="{{ 'img/pasta-stracciatella-chips-chocolate.avif' | relative_url }}" alt="Pasta stracciatella con chips de chocolate" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Stracciatella</h4>
-          <p><strong>Chips de chocolate belga.</strong> Se añade al final del mantecado para crear las escamas características. Dosificación: 40-60g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+<!-- PASTAS DE FRUTA -->
+<section class="wrapper center">
+  <h3>Pastas de fruta - Frescura natural</h3>
+  <p>
+    Para sorbetes, helados de fruta y sabores frescos. Estas pastas mantienen el
+    sabor y color natural de la fruta sin necesidad de pulpa fresca:
+  </p>
 
-      <article class="product-card">
-        <div class="product-img secundario">
-          <img src="{{ 'img/pasta-chocolate-blanco-helado.avif' | relative_url }}" alt="Pasta de chocolate blanco para helado cremoso" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Pasta Chocolate Blanco</h4>
-          <p><strong>Cacao blanco + vainilla.</strong> Sabor dulce, cremoso. Ideal para combinaciones con frutos rojos. Dosificación: 70-90g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
-    </div>
+  <div class="three_columns">
+    <article class="product-card">
+      <div class="product-img pink">
+        <img
+          src="{{ 'img/pasta-arandano-helado-sorbet.avif' | relative_url }}"
+          alt="Pasta de arándano para sorbete natural"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Arándano Azul</h4>
+        <p>
+          Concentrado de arándanos silvestres. Color azul natural.
+          Antioxidantes. Dosificación: 60-80g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-    <a href="{{'/pastas-sabores-helado/pastas-clasicas/'|relative_url}}" class="boton boton_2" style="display: block; width: fit-content; margin-inline: auto; margin-block-start: 2rem;">Ver todas las pastas clásicas →</a>
-  </section>
+    <article class="product-card">
+      <div class="product-img principal">
+        <img
+          src="{{ 'img/pasta-coco-helado-tropical.avif' | relative_url }}"
+          alt="Pasta de coco para helado tropical"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Coco</h4>
+        <p>
+          Coco rallado concentrado. Sabor cremoso tropical. Muy vendido en costa
+          colombiana. Dosificación: 70-90g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-  <!-- PASTAS DE FRUTA -->
-  <section class="wrapper center">
-    <h3>Pastas de fruta - Frescura natural</h3>
-    <p>Para sorbetes, helados de fruta y sabores frescos. Estas pastas mantienen el sabor y color natural de la fruta sin necesidad de pulpa fresca:</p>
+    <article class="product-card">
+      <div class="product-img secundario">
+        <img
+          src="{{ 'img/pasta-frutos-bosque-helado.avif' | relative_url }}"
+          alt="Pasta de frutos del bosque para helado"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Frutos del Bosque</h4>
+        <p>
+          Mezcla de frambuesa, mora, arándano. Sabor balanceado. Dosificación:
+          60-80g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-    <div class="three_columns">
-      <article class="product-card">
-        <div class="product-img pink">
-          <img src="{{ 'img/pasta-arandano-helado-sorbet.avif' | relative_url }}" alt="Pasta de arándano para sorbete natural" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Arándano Azul</h4>
-          <p>Concentrado de arándanos silvestres. Color azul natural. Antioxidantes. Dosificación: 60-80g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img pink">
+        <img
+          src="{{ 'img/pasta-limon-siciliano-sorbet.avif' | relative_url }}"
+          alt="Pasta de limón siciliano para sorbete"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Limón Siciliano</h4>
+        <p>
+          Aceites esenciales de limón de Sicilia. Ácido cítrico natural.
+          Refrescante. Dosificación: 40-60g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-      <article class="product-card">
-        <div class="product-img principal">
-          <img src="{{ 'img/pasta-coco-helado-tropical.avif' | relative_url }}" alt="Pasta de coco para helado tropical" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Coco</h4>
-          <p>Coco rallado concentrado. Sabor cremoso tropical. Muy vendido en costa colombiana. Dosificación: 70-90g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img principal">
+        <img
+          src="{{ 'img/pasta-mandarina-helado-citrico.avif' | relative_url }}"
+          alt="Pasta de mandarina para helado cítrico"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Mandarina</h4>
+        <p>
+          Dulzura cítrica suave. Muy popular en niños. Color naranja natural.
+          Dosificación: 50-70g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
 
-      <article class="product-card">
-        <div class="product-img secundario">
-          <img src="{{ 'img/pasta-frutos-bosque-helado.avif' | relative_url }}" alt="Pasta de frutos del bosque para helado" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Frutos del Bosque</h4>
-          <p>Mezcla de frambuesa, mora, arándano. Sabor balanceado. Dosificación: 60-80g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+    <article class="product-card">
+      <div class="product-img secundario">
+        <img
+          src="{{ 'img/pasta-dragon-summer-helado-exotico.avif' | relative_url }}"
+          alt="Pasta Dragon Summer para helado de pitaya"
+          width="280"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="product-content flow">
+        <h4>Dragon Summer (Pitaya)</h4>
+        <p>
+          Sabor exótico de pitaya/fruta del dragón. Tendencia 2025. Color fucsia
+          intenso. Dosificación: 60-80g/L.
+        </p>
+        {% include boton.html num="1" text="Ver precio" %}
+      </div>
+    </article>
+  </div>
+</section>
 
-      <article class="product-card">
-        <div class="product-img pink">
-          <img src="{{ 'img/pasta-limon-siciliano-sorbet.avif' | relative_url }}" alt="Pasta de limón siciliano para sorbete" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Limón Siciliano</h4>
-          <p>Aceites esenciales de limón de Sicilia. Ácido cítrico natural. Refrescante. Dosificación: 40-60g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+<!-- Sección de dosificación -->
+<section class="text_center flow center">
+  <h2>Guía de dosificación de pastas para helado</h2>
+  <p>
+    La dosis correcta marca la diferencia entre un sabor insípido y uno
+    demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu
+    preferencia:
+  </p>
 
-      <article class="product-card">
-        <div class="product-img principal">
-          <img src="{{ 'img/pasta-mandarina-helado-citrico.avif' | relative_url }}" alt="Pasta de mandarina para helado cítrico" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Mandarina</h4>
-          <p>Dulzura cítrica suave. Muy popular en niños. Color naranja natural. Dosificación: 50-70g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo de pasta</th>
+          <th>Dosis baja (g/L)</th>
+          <th>Dosis media (g/L)</th>
+          <th>Dosis alta (g/L)</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frutos secos</td>
+          <td>60g</td>
+          <td>80g</td>
+          <td>100g</td>
+          <td>Ajusta según intensidad deseada</td>
+        </tr>
+        <tr>
+          <td>Vainilla</td>
+          <td>40g</td>
+          <td>50g</td>
+          <td>60g</td>
+          <td>Más de 60g puede amargar</td>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>70g</td>
+          <td>90g</td>
+          <td>110g</td>
+          <td>Chocolate oscuro usa dosis alta</td>
+        </tr>
+        <tr>
+          <td>Frutas</td>
+          <td>50g</td>
+          <td>65g</td>
+          <td>80g</td>
+          <td>Frutas ácidas: dosis media</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-      <article class="product-card">
-        <div class="product-img secundario">
-          <img src="{{ 'img/pasta-dragon-summer-helado-exotico.avif' | relative_url }}" alt="Pasta Dragon Summer para helado de pitaya" width="280" height="280" loading="lazy" decoding="async">
-        </div>
-        <div class="product-content flow">
-          <h4>Dragon Summer (Pitaya)</h4>
-          <p>Sabor exótico de pitaya/fruta del dragón. Tendencia 2025. Color fucsia intenso. Dosificación: 60-80g/L.</p>
-          {% include boton.html num="1" text="Ver precio" %}
-        </div>
-      </article>
-    </div>
-  </section>
+  <p>
+    <strong>Pro tip:</strong>
+    <i>Siempre empieza con dosis baja, prueba, y aumenta gradualmente</i>. Es
+    más fácil agregar pasta que diluir un sabor demasiado intenso.
+  </p>
+</section>
 
-  <!-- Sección de dosificación -->
-  <section class="text_center flow center">
-    <h2>Guía de dosificación de pastas para helado</h2>
-    <p>La dosis correcta marca la diferencia entre un sabor insípido y uno demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu preferencia:</p>
+<!-- FAQ -->
+<section class="section center flow">
+  <h2 class="text_center">Preguntas frecuentes sobre pastas para helado</h2>
+  {% include faqs.html %}
+</section>
 
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Tipo de pasta</th>
-            <th>Dosis baja (g/L)</th>
-            <th>Dosis media (g/L)</th>
-            <th>Dosis alta (g/L)</th>
-            <th>Nota</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Frutos secos</td>
-            <td>60g</td>
-            <td>80g</td>
-            <td>100g</td>
-            <td>Ajusta según intensidad deseada</td>
-          </tr>
-          <tr>
-            <td>Vainilla</td>
-            <td>40g</td>
-            <td>50g</td>
-            <td>60g</td>
-            <td>Más de 60g puede amargar</td>
-          </tr>
-          <tr>
-            <td>Chocolate</td>
-            <td>70g</td>
-            <td>90g</td>
-            <td>110g</td>
-            <td>Chocolate oscuro usa dosis alta</td>
-          </tr>
-          <tr>
-            <td>Frutas</td>
-            <td>50g</td>
-            <td>65g</td>
-            <td>80g</td>
-            <td>Frutas ácidas: dosis media</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<!-- CTA Final -->
+<section class="wrapper center flow cta">
+  <h2 class="text_center">
+    Solicita muestras de pastas y descubre la diferencia
+  </h2>
+  <p class="text_center">
+    No tomes decisiones basadas en precios únicamente. El sabor es lo que hace
+    que tus clientes regresen. Te enviamos muestras de las pastas que te
+    interesen para que compruebes la calidad MEC3.
+  </p>
 
-    <p><strong>Pro tip:</strong> <i>Siempre empieza con dosis baja, prueba, y aumenta gradualmente</i>. Es más fácil agregar pasta que diluir un sabor demasiado intenso.</p>
-  </section>
+  <div class="flex">
+    {% include boton.html num="1" text="Solicitar muestras de pastas 🍨" %}
+    <a href="{{'/bases-helado-colombia/'|relative_url}}" class="boton boton_2"
+      >Ver bases compatibles</a
+    >
+  </div>
 
-  <!-- FAQ -->
-  <section class="section center flow">
-    <h2 class="text_center">Preguntas frecuentes sobre pastas para helado</h2>
-    {% include faqs.html %}
-  </section>
-
-  <!-- CTA Final -->
-  <section class="wrapper center flow cta">
-    <h2 class="text_center">Solicita muestras de pastas y descubre la diferencia</h2>
-    <p class="text_center">No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3.</p>
-
-    <div class="flex">
-      {% include boton.html num="1" text="Solicitar muestras de pastas 🍨" %}
-      <a href="{{'/bases-helado-colombia/'|relative_url}}" class="boton boton_2">Ver bases compatibles</a>
-    </div>
-
-    <small><i>Muestras disponibles de Pistacho, Vainilla, Avellana y Chocolate. Envío incluido en pedidos mayores de $300,000 COP.</i></small>
-  </section>
-
+  <small
+    ><i
+      >Muestras disponibles de Pistacho, Vainilla, Avellana y Chocolate. Envío
+      incluido en pedidos mayores de $300,000 COP.</i
+    ></small
+  >
+</section>

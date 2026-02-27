@@ -3,11 +3,11 @@
   <channel>
     <title>italgel.com.co</title>
     <description>Insumos y equipos profesionales para heladería en Colombia</description>
-    <link>http://localhost:4000/</link>
+    <link>https://italgel.com.co/</link>
     <language>es</language>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Feb 2026 16:21:19 -0500</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2026 16:21:19 -0500</lastBuildDate>
+    <atom:link href="https://italgel.com.co/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Feb 2026 16:23:25 -0500</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2026 16:23:25 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
     
@@ -15,8 +15,8 @@
         <title>Pasteurización de mezcla para helado: proceso correcto para garantizar seguridad y textura</title>
         <description><![CDATA[La pasteurización incorrecta es la causa principal de textura granulosa, separación de fases y contaminación bacteriana en helado artesanal.]]></description>
         <pubDate>Sat, 04 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -178,7 +178,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 ]]></content:encoded>
 
         
-          <enclosure url="http://localhost:4000/img/blog/pasteurizacion-mezcla-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="https://italgel.com.co/img/blog/pasteurizacion-mezcla-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>
@@ -187,8 +187,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: guía completa de coberturas y decoraciones</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,000 COP sin aumentar costos proporcionalmente. Esta guía te muestra cuáles usar y cómo presentarlos.]]></description>
         <pubDate>Fri, 03 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -328,7 +328,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 ]]></content:encoded>
 
         
-          <enclosure url="http://localhost:4000/img/blog/toppings-coberturas-helado-rentables.jpg" type="image/jpeg" />
+          <enclosure url="https://italgel.com.co/img/blog/toppings-coberturas-helado-rentables.jpg" type="image/jpeg" />
         
 
       </item>
@@ -337,8 +337,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Qué es el gelato italiano: diferencias técnicas con el helado artesanal</title>
         <description><![CDATA[Gelato y helado artesanal no son lo mismo. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio y rentabilidad.]]></description>
         <pubDate>Thu, 02 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -533,7 +533,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 ]]></content:encoded>
 
         
-          <enclosure url="http://localhost:4000/img/blog/diferencia-gelato-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="https://italgel.com.co/img/blog/diferencia-gelato-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>
@@ -542,8 +542,8 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
         <title>Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad.]]></description>
         <pubDate>Wed, 01 Oct 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -756,7 +756,7 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
 ]]></content:encoded>
 
         
-          <enclosure url="http://localhost:4000/img/blog/calcular-overrun-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="https://italgel.com.co/img/blog/calcular-overrun-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>
