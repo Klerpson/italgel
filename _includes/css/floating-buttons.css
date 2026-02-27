@@ -50,11 +50,11 @@
   box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
   transition: all 0.3s ease;
   z-index: 999;
-  -webkit-animation: pulse-whatsapp 2s infinite;
-          animation: pulse-whatsapp 2s infinite;
   border: none;
   cursor: pointer;
   max-width: fit-content;
+  /* Necesario para el pseudo-elemento del glow animado */
+  isolation: isolate;
 }
 
 .whatsapp-float:hover {
@@ -62,38 +62,38 @@
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
   -webkit-animation: none;
-          animation: none;
+  animation: none;
   text-decoration: none;
   color: white;
 }
 
-/* Animación de pulso para WhatsApp */
-@-webkit-keyframes pulse-whatsapp {
-  0% {
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-    transform: scale(1);
-  }
-  50% {
-    box-shadow: 0 4px 30px rgba(37, 211, 102, 0.7);
-    transform: scale(1.02);
-  }
-  100% {
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-    transform: scale(1);
-  }
+/* Pseudo-elemento para glow animado compuesto (solo opacity, no box-shadow) */
+.whatsapp-float::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 4px 30px rgba(37, 211, 102, 0.7);
+  opacity: 0;
+  animation: pulse-whatsapp-glow 2s infinite;
+  z-index: -1;
 }
-@keyframes pulse-whatsapp {
+
+.whatsapp-float:hover::after {
+  animation: none;
+  opacity: 0;
+}
+
+/* Animación compuesta: solo opacity (no dispara repaint) */
+@keyframes pulse-whatsapp-glow {
   0% {
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-    transform: scale(1);
+    opacity: 0;
   }
   50% {
-    box-shadow: 0 4px 30px rgba(37, 211, 102, 0.7);
-    transform: scale(1.02);
+    opacity: 1;
   }
   100% {
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-    transform: scale(1);
+    opacity: 0;
   }
 }
 

@@ -1,39 +1,40 @@
 <section class="slider">
   <div class="gallery-slider">
     <!-- Calcular cantidad de items para Safari -->
-    {% assign total_items = 0 %}
-    {% for client in page.slider %}
-      {% assign total_items = total_items | plus: client.size %}
-    {% endfor %}
-    
-    <div class="slide-container" style="--items-count: {{ total_items | times: 2 }};">
-      
+    {% assign total_items = 0 %} {% for client in page.slider %} {% assign
+    total_items = total_items | plus: client.size %} {% endfor %}
+
+    <div
+      class="slide-container"
+      style="--items-count: {{ total_items | times: 2 }};"
+    >
       <!-- Set original -->
-      {% for client in page.slider %}
-        {% for item in client %}
-          <figure>
-            <img 
-              src="{{ item[1] | relative_url }}" 
-              alt="{{ item[0] }}" 
-              loading="lazy"
-              decoding="async">
-          </figure>
-        {% endfor %}
-      {% endfor %}
-      
+      {% for client in page.slider %} {% for item in client %}
+      <figure>
+        <img
+          src="{{ item[1] | relative_url }}"
+          alt="{{ item[0] }}"
+          loading="lazy"
+          decoding="async"
+          width="200"
+          height="80"
+        />
+      </figure>
+      {% endfor %} {% endfor %}
+
       <!-- Set duplicado para loop -->
-      {% for client in page.slider %}
-        {% for item in client %}
-          <figure>
-            <img 
-              src="{{ item[1] | relative_url }}" 
-              alt="{{ item[0] }}" 
-              loading="lazy"
-              decoding="async">
-          </figure>
-        {% endfor %}
-      {% endfor %}
-      
+      {% for client in page.slider %} {% for item in client %}
+      <figure aria-hidden="true">
+        <img
+          src="{{ item[1] | relative_url }}"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          width="200"
+          height="80"
+        />
+      </figure>
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </section>

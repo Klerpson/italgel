@@ -19,22 +19,40 @@
 
 /* Modificadores de tarjetas — cada una con su color de marca */
 .pink.datos {
-  background: color-mix(in srgb, var(--color-brand-pink) 7%, var(--color-bg-surface));
+  background: color-mix(
+    in srgb,
+    var(--color-brand-pink) 7%,
+    var(--color-bg-surface)
+  );
   border-top: 4px solid var(--color-brand-pink);
 }
-.pink.datos span { color: var(--color-brand-pink); }
+.pink.datos span {
+  color: #a14d59;
+}
 
 .principal.datos {
-  background: color-mix(in srgb, var(--color-brand-orange) 7%, var(--color-bg-surface));
+  background: color-mix(
+    in srgb,
+    var(--color-brand-orange) 7%,
+    var(--color-bg-surface)
+  );
   border-top: 4px solid var(--color-brand-orange);
 }
-.principal.datos span { color: var(--color-brand-orange); }
+.principal.datos span {
+  color: #965627;
+}
 
 .secundario.datos {
-  background: color-mix(in srgb, var(--color-brand-teal) 7%, var(--color-bg-surface));
+  background: color-mix(
+    in srgb,
+    var(--color-brand-teal) 7%,
+    var(--color-bg-surface)
+  );
   border-top: 4px solid var(--color-brand-teal);
 }
-.secundario.datos span { color: var(--color-brand-teal); }
+.secundario.datos span {
+  color: #4a7a80;
+}
 
 .gris.datos {
   background: var(--color-bg-secondary);
@@ -64,7 +82,7 @@
     left: 1rem;
     top: 1rem;
     background: var(--color-accent-light);
-    color: var(--color-accent);
+    color: #a64d3c; /* Oscurecido para contraste */
     padding: 0.5rem 1rem;
     border-radius: var(--radius-pill);
     font-size: 0.75rem;

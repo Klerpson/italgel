@@ -73,10 +73,13 @@
   <link rel="preload" href="{{ '/css/style.css' | relative_url }}" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.lordicon.com">
   
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300..500;1,300..500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+  <!-- Google Fonts: carga no-bloqueante para mejorar FCP/LCP -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300..500;1,300..500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300..500;1,300..500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"></noscript>
   
   {% include schema.html %}
   

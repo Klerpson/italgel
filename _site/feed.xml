@@ -3,11 +3,11 @@
   <channel>
     <title>italgel.com.co</title>
     <description>Insumos y equipos profesionales para heladería en Colombia</description>
-    <link>https://italgel.com.co/</link>
+    <link>http://localhost:4000/</link>
     <language>es</language>
-    <atom:link href="https://italgel.com.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Feb 2026 15:57:34 -0500</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2026 15:57:34 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Feb 2026 16:17:27 -0500</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2026 16:17:27 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
     
@@ -15,8 +15,8 @@
         <title>Pasteurización de mezcla para helado: proceso correcto para garantizar seguridad y textura</title>
         <description><![CDATA[La pasteurización incorrecta es la causa principal de textura granulosa, separación de fases y contaminación bacteriana en helado artesanal.]]></description>
         <pubDate>Sat, 04 Oct 2025 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -178,7 +178,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 ]]></content:encoded>
 
         
-          <enclosure url="https://italgel.com.co/img/blog/pasteurizacion-mezcla-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="http://localhost:4000/img/blog/pasteurizacion-mezcla-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>
@@ -187,8 +187,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: guía completa de coberturas y decoraciones</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,000 COP sin aumentar costos proporcionalmente. Esta guía te muestra cuáles usar y cómo presentarlos.]]></description>
         <pubDate>Fri, 03 Oct 2025 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>http://localhost:4000/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/toppings-para-helado-mas-rentables/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -225,7 +225,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
 <p><img src="/img/blog/toppings-rentables-heladeria-colombia.avif" alt="Selección de toppings más rentables para heladería" title="Los 12 toppings con mejor relación costo-beneficio y mayor demanda en el mercado colombiano" loading="lazy" decoding="async" width="900" height="400" /></p>
 
-<p><strong>Cobertura de chocolate que endurece:</strong> Costo $200-300 COP por porción. Precio adicional $2,000-2,500 COP. Se mantiene hasta 6 meses abierta. Alta demanda en todos los perfiles de edad. La <a href="/coberturas-salsas-helado/coberturas-chocolate/">cobertura de chocolate</a> profesional endurece al contacto con helado frío creando capa crujiente que los clientes valoran. Margen aproximado 85%.</p>
+<p><strong>Cobertura de chocolate que endurece:</strong> Costo $200-300 COP por porción. Precio adicional $2,000-2,500 COP. Se mantiene hasta 6 meses abierta. Alta demanda en todos los perfiles de edad. La <a href="/coberturas-salsas-helado/">cobertura de chocolate</a> profesional endurece al contacto con helado frío creando capa crujiente que los clientes valoran. Margen aproximado 85%.</p>
 
 <p><strong>Salsa de arequipe:</strong> Costo $150-250 COP por porción. Precio adicional $1,500-2,000 COP. Se mantiene hasta 3 meses refrigerada después de abierta. Muy alta demanda en mercado colombiano por familiaridad. Es el topping más pedido en heladerías artesanales locales. Margen aproximado 88%.</p>
 
@@ -328,7 +328,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 ]]></content:encoded>
 
         
-          <enclosure url="https://italgel.com.co/img/blog/toppings-coberturas-helado-rentables.jpg" type="image/jpeg" />
+          <enclosure url="http://localhost:4000/img/blog/toppings-coberturas-helado-rentables.jpg" type="image/jpeg" />
         
 
       </item>
@@ -337,8 +337,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Qué es el gelato italiano: diferencias técnicas con el helado artesanal</title>
         <description><![CDATA[Gelato y helado artesanal no son lo mismo. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio y rentabilidad.]]></description>
         <pubDate>Thu, 02 Oct 2025 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -533,7 +533,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 ]]></content:encoded>
 
         
-          <enclosure url="https://italgel.com.co/img/blog/diferencia-gelato-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="http://localhost:4000/img/blog/diferencia-gelato-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>
@@ -542,8 +542,8 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
         <title>Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad.]]></description>
         <pubDate>Wed, 01 Oct 2025 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</guid>
         <dc:creator>Equipo Técnico Italgel</dc:creator>
 
         
@@ -565,6 +565,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 <p>El overrun es el porcentaje de aire incorporado durante el mantecado. Suena técnico, pero es el factor que determina cuántos litros de helado vendes con cada kilo de mezcla base.</p>
 
 <p><strong>Ejemplo real de producción:</strong></p>
+
 <ul>
   <li>Preparas 10 litros de mezcla líquida</li>
   <li>Después del mantecado obtienes 15 litros de helado terminado</li>
@@ -594,6 +595,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 </blockquote>
 
 <p><strong>Procedimiento:</strong></p>
+
 <ol>
   <li>Mide 10 litros de mezcla líquida antes de mantecado</li>
   <li>Manteca según tu proceso habitual</li>
@@ -610,6 +612,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 </blockquote>
 
 <p><strong>Procedimiento:</strong></p>
+
 <ol>
   <li>Pesa 1 litro de mezcla líquida antes de mantecado: <strong>1,100 gramos</strong></li>
   <li>Manteca tu helado normalmente</li>
@@ -698,7 +701,7 @@ No existe certificación oficial obligatoria para producir gelato. Sin embargo, 
 
 <p>Si necesitas más rendimiento manteniendo la satisfacción de tus clientes, estos son los ajustes técnicos que funcionan sin comprometer tu reputación.</p>
 
-<p><strong>Primero:</strong> Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. <a href="/blog/diferencia-base-50-neutralin-helado/">Compara Base 50 con Neutralin</a> para entender cómo cada formulación afecta el overrun posible.</p>
+<p><strong>Primero:</strong> Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. <a href="/bases-helado-colombia/neutralin-plus/">Compara Base 50 con Neutralin</a> para entender cómo cada formulación afecta el overrun posible.</p>
 
 <p><strong>Segundo:</strong> Mantén la temperatura de tu mezcla constante en el rango de 4°C a 6°C antes de cada mantecado. Esta consistencia térmica es más importante que el tiempo exacto de batido. Invierte en un termómetro digital preciso y verifica antes de cada ciclo.</p>
 
@@ -753,7 +756,7 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
 ]]></content:encoded>
 
         
-          <enclosure url="https://italgel.com.co/img/blog/calcular-overrun-helado-artesanal.jpg" type="image/jpeg" />
+          <enclosure url="http://localhost:4000/img/blog/calcular-overrun-helado-artesanal.jpg" type="image/jpeg" />
         
 
       </item>

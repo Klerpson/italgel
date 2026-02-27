@@ -8,14 +8,14 @@
 
 /* Barra tri-marca en la parte superior */
 .footer::before {
-  content: '';
+  content: "";
   display: block;
   height: 5px;
   background: linear-gradient(
     to right,
-    var(--color-brand-teal)   0% 33.33%,
+    var(--color-brand-teal) 0% 33.33%,
     var(--color-brand-orange) 33.33% 66.66%,
-    var(--color-brand-pink)   66.66% 100%
+    var(--color-brand-pink) 66.66% 100%
   );
   margin-bottom: 4rem;
 }
@@ -69,7 +69,7 @@
   small a {
     font-size: 0.85rem;
     text-decoration: none;
-    color: var(--color-text-tertiary);
+    color: #a8c0c4; /* Color más claro para legibilidad sobre fondo oscuro */
     font-weight: 400;
   }
 }

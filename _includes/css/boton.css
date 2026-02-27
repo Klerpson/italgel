@@ -11,7 +11,7 @@
   transition: var(--transition);
   border: none;
   cursor: pointer;
-  background-color: var(--color-accent);
+  background-color: #a64d3c; /* Oscurecido para contraste WCAG AA 4.5:1 con texto blanco */
   color: var(--color-bg-surface);
   box-shadow: var(--shadow-accent);
 }
@@ -26,7 +26,8 @@
 .boton:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-medium);
-  color: var(--color-bg-surface); /* Ensure text stays light on primary */
+  background-color: #a64d3c; /* Asegurar fondo oscuro en hover */
+  color: var(--color-bg-surface);
 }
 
 .boton_2:hover {
