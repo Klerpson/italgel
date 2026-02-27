@@ -1,0 +1,119 @@
+<!-- Team Experience - E-E-A-T: Experience -->
+<section class="team-experience padding_block bg_grey_light">
+  <div class="wrapper">
+    <h2 class="text_center">Nuestro equipo técnico</h2>
+    <p class="text_center">
+      Más de 15 años de experiencia asesorando heladerías en Colombia
+    </p>
+    <div class="three_columns">
+      <article class="team-member text_center flow center">
+        {% if include.member1_photo %}
+        <img
+          src="{{ include.member1_photo | relative_url }}"
+          alt="{{ include.member1_name }}"
+          class="team-photo"
+          width="150"
+          height="150"
+          loading="lazy"
+          decoding="async"
+        />
+        {% endif %}
+        <h3 class="team-name">
+          {{ include.member1_name | default: 'Asesor técnico' }}
+        </h3>
+        <p class="team-role">
+          {{ include.member1_role | default: 'Especialista en bases y recetas'
+          }}
+        </p>
+        <p class="team-bio">
+          {{ include.member1_bio | default: 'Experiencia en producción de helado
+          artesanal e industrial' }}
+        </p>
+      </article>
+      <article class="team-member text_center borders flow center">
+        {% if include.member2_photo %}
+        <img
+          src="{{ include.member2_photo | relative_url }}"
+          alt="{{ include.member2_name }}"
+          class="team-photo"
+          width="150"
+          height="150"
+          loading="lazy"
+          decoding="async"
+        />
+        {% endif %}
+        <h3 class="team-name">
+          {{ include.member2_name | default: 'Asesor comercial' }}
+        </h3>
+        <p class="team-role">
+          {{ include.member2_role | default: 'Especialista en equipos' }}
+        </p>
+        <p class="team-bio">
+          {{ include.member2_bio | default: 'Conocimiento profundo de máquinas
+          profesionales' }}
+        </p>
+      </article>
+      <article class="team-member text_center flow center">
+        {% if include.member3_photo %}
+        <img
+          src="{{ include.member3_photo | relative_url }}"
+          alt="{{ include.member3_name }}"
+          class="team-photo"
+          width="150"
+          height="150"
+          loading="lazy"
+          decoding="async"
+        />
+        {% endif %}
+        <h3 class="team-name">
+          {{ include.member3_name | default: 'Atención al cliente' }}
+        </h3>
+        <p class="team-role">
+          {{ include.member3_role | default: 'Especialista en insumos' }}
+        </p>
+        <p class="team-bio">
+          {{ include.member3_bio | default: 'Asesoría personalizada para tu
+          negocio' }}
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Schema for team -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Team",
+    "name": "Equipo técnico Italgel Colombia",
+    "description": "Equipo con más de 15 años de experiencia en asesoría técnica para heladerías",
+    "member": [
+      {
+        "@type": "Person",
+        "name": "{{ include.member1_name | default: 'Asesor técnico' }}",
+        "jobTitle": "{{ include.member1_role | default: 'Especialista en bases y recetas' }}",
+        "knowsAbout": [
+          "Producción de helado artesanal",
+          "Bases MEC3",
+          "Cálculo de overrun"
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "{{ include.member2_name | default: 'Asesor comercial' }}",
+        "jobTitle": "{{ include.member2_role | default: 'Especialista en equipos' }}",
+        "knowsAbout": [
+          "Máquinas Coldelite",
+          "Mantecadoras",
+          "Equipos industriales"
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "{{ include.member3_name | default: 'Atención al cliente' }}",
+        "jobTitle": "{{ include.member3_role | default: 'Especialista en insumos' }}",
+        "knowsAbout": ["Pastas concentradas", "Coberturas Quella", "Toppings"]
+      }
+    ]
+  }
+</script>

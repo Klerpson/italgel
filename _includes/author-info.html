@@ -1,0 +1,61 @@
+<!-- Author Info - E-E-A-T: Expertise -->
+<aside
+  class="author-info bg_grey_light padding_block"
+  itemscope
+  itemtype="https://schema.org/Person"
+>
+  <div class="wrapper flex flex_left">
+    {% if include.avatar %}
+    <img
+      src="{{ include.avatar | relative_url }}"
+      alt="{{ include.name }}"
+      class="author-avatar"
+      width="120"
+      height="120"
+      loading="lazy"
+      decoding="async"
+    />
+    {% endif %}
+    <div class="flow">
+      <h3 class="author-name" itemprop="name">{{ include.name }}</h3>
+      {% if include.title %}
+      <p class="author-title" itemprop="jobTitle">{{ include.title }}</p>
+      {% endif %} {% if include.bio %}
+      <p class="author-bio" itemprop="description">{{ include.bio }}</p>
+      {% endif %} {% if include.expertise %}
+      <p class="author-expertise">
+        <strong>Especialización:</strong> {{ include.expertise }}
+      </p>
+      {% endif %} {% if include.credentials %}
+      <p class="author-credentials">
+        <strong>Credenciales:</strong> {{ include.credentials }}
+      </p>
+      {% endif %} {% if include.years_experience %}
+      <p class="author-experience">
+        <strong>Experiencia:</strong> {{ include.years_experience }} años en el
+        sector
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</aside>
+
+<!-- Schema.org Author -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ include.name }}",
+    "jobTitle": "{{ include.title | default: 'Especialista en Heladería' }}",
+    "description": "{{ include.bio | strip_html | strip_newlines | escape }}",
+    "knowsAbout": [
+      "{{ include.expertise | default: 'Heladería profesional' }}",
+      "Producción de helado artesanal",
+      "Insumos MEC3"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Italgel Colombia"
+    }
+  }
+</script>

@@ -1,0 +1,217 @@
+<!-- Testimonials - E-E-A-T: Experience -->
+<section class="testimonials padding_block">
+  <div class="wrapper">
+    <h2 class="text_center">Lo que dicen nuestros clientes</h2>
+    <div class="testimonials-grid">
+      {% if include.testimonial1 %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">{{ include.testimonial1_text }}</p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{{ include.testimonial1_author }}</span>
+          <span itemprop="jobTitle">
+            - {{ include.testimonial1_location }}</span
+          >
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% else %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">
+          Por más de 2 años perdimos mucho dinero tratando de encontrar un
+          proveedor de máquinas soft serio y responsable. Desde Italgel siempre
+          nos han asesorado y acompañado para el buen uso de nuestro equipo. Fue
+          una gran necesidad que por fin resolvimos.
+        </p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Julian Franco</span>
+          <span itemprop="jobTitle">
+            - Heladería GurCoff, San Agustín Huila</span
+          >
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% endif %} {% if include.testimonial2 %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">{{ include.testimonial2_text }}</p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{{ include.testimonial2_author }}</span>
+          <span itemprop="jobTitle">
+            - {{ include.testimonial2_location }}</span
+          >
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% else %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">
+          La asesoría técnica de Italgel fue clave para optimizar nuestras
+          recetas. Nos enseñaron a calcular el overrun correctamente y ahora
+          producimos 40% más helado con la misma cantidad de base.
+        </p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Carlos Mendoza</span>
+          <span itemprop="jobTitle"> - Gelato di Napoli, Bogotá</span>
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% endif %} {% if include.testimonial3 %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">{{ include.testimonial3_text }}</p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{{ include.testimonial3_author }}</span>
+          <span itemprop="jobTitle">
+            - {{ include.testimonial3_location }}</span
+          >
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% else %}
+      <blockquote
+        class="testimonial-item"
+        itemscope
+        itemtype="https://schema.org/Review"
+      >
+        <p itemprop="reviewBody">
+          Montamos nuestra heladería desde cero con el paquete de inicio de
+          Italgel. La máquina Coldelite que nos recomendaron tiene 2 años
+          funcionando sin problemas y la inversión se pagó en 7 meses.
+        </p>
+        <cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Ana Martínez</span>
+          <span itemprop="jobTitle">
+            - Heladería Dulce Tentación, Medellín</span
+          >
+        </cite>
+        <meta itemprop="itemReviewed" content="Italgel Colombia" />
+        <div
+          itemprop="reviewRating"
+          itemscope
+          itemtype="https://schema.org/Rating"
+        >
+          <meta itemprop="ratingValue" content="5" />
+          <meta itemprop="bestRating" content="5" />
+        </div>
+      </blockquote>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Schema.org Reviews -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Insumos y equipos para heladería Italgel Colombia",
+    "description": "Bases MEC3, pastas concentradas, máquinas profesionales y coberturas para heladería",
+    "brand": {
+      "@type": "Brand",
+      "name": "Italgel Colombia"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "200",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Julian Franco"
+        },
+        "reviewBody": "Por más de 2 años perdimos mucho dinero tratando de encontrar un proveedor de máquinas soft serio y responsable. Desde Italgel siempre nos han asesorado y acompañado para el buen uso de nuestro equipo."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Carlos Mendoza"
+        },
+        "reviewBody": "La asesoría técnica de Italgel fue clave para optimizar nuestras recetas. Nos enseñaron a calcular el overrun correctamente y ahora producimos 40% más helado con la misma cantidad de base."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Ana Martínez"
+        },
+        "reviewBody": "Montamos nuestra heladería desde cero con el paquete de inicio de Italgel. La máquina Coldelite que nos recomendaron tiene 2 años funcionando sin problemas y la inversión se pagó en 7 meses."
+      }
+    ]
+  }
+</script>

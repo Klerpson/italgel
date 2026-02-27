@@ -1,3 +1,34 @@
+<!-- Organization Schema - E-E-A-T: Authoritativeness -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Italgel Colombia",
+    "url": "https://italgel.com.co",
+    "logo": "https://italgel.com.co/img/logo.avif",
+    "description": "Distribuidor de insumos y equipos para heladería profesional en Colombia. Distribuidor autorizado MEC3.",
+    "foundingDate": "2008",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Colombia"
+    },
+    "serviceType": [
+      "Distribución de insumos para heladería",
+      "Asesoría técnica",
+      "Venta de máquinas profesionales"
+    ],
+    "award": "Distribuidor autorizado MEC3 - The Genuine Company",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+573192346788",
+      "contactType": "sales",
+      "email": "info@mec3.co",
+      "availableLanguage": ["Spanish", "English"]
+    },
+    "sameAs": ["https://www.instagram.com/italgelcolombia"]
+  }
+</script>
+
 {% if page.url == "/" %}
 <script type="application/ld+json">
   {
@@ -223,6 +254,43 @@
         }
       ]
     }
+  }
+</script>
+{% endif %} {% if page.layout == 'post' or page.collection == 'posts' %}
+<!-- Article Schema for Blog Posts - E-E-A-T: Expertise -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "description": "{{ page.description | escape }}",
+    "image": "{{ page.hero | prepend: site.url | default: site.social_image | prepend: site.url }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author | default: 'Equipo Técnico Italgel' }}",
+      "jobTitle": "Especialista en Heladería",
+      "knowsAbout": [
+        "Producción de helado artesanal",
+        "Bases MEC3",
+        "Insumos para heladería"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Italgel Colombia",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo | prepend: site.url }}"
+      }
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | prepend: site.url }}"
+    },
+    "keywords": "{{ page.categories | join: ', ' | escape }}",
+    "wordCount": "{{ content | number_of_words }}"
   }
 </script>
 {% endif %}

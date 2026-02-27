@@ -4,7 +4,15 @@ layout: default
 
 <main>
   <article class="wrapper flow contenido">
-    {{ content }} {% if page.referencias %}
+    {{ content }}
+
+    <!-- Autor del artículo -->
+    {% if page.author %} {% include author-info.html name=page.author
+    title="Especialista en Heladería" bio="Equipo técnico de Italgel Colombia
+    con más de 15 años de experiencia en asesoría para heladerías profesionales"
+    expertise="Producción de helado artesanal, Bases MEC3, Cálculo de overrun"
+    credentials="Distribuidor autorizado MEC3" years_experience="15" %} {% endif
+    %} {% if page.referencias %}
     <section id="fuentes">
       <h4>Créditos y referencias</h4>
       <div>
