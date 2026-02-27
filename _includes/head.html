@@ -12,6 +12,9 @@
   <meta name="application-name" content="{{ site.name }}">
   <title>{{ page.title | escape }}</title>
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="search" type="application/opensearchdescription+xml" title="Buscar en {{ site.name }}" href="/opensearch.xml">
+  <link rel="author" href="/humans.txt">
   
   <!-- RSS Feed & Sitemap -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">

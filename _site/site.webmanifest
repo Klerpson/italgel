@@ -1,0 +1,19 @@
+{
+  "name": "Italgel - Insumos para Heladería",
+  "short_name": "Italgel",
+  "description": "Insumos, ingredientes y equipos profesionales para heladería artesanal e industrial en Colombia. Representantes de MEC3.",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d52a27",
+  "icons": [
+    {
+      "src": "/img/logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "es-CO",
+  "dir": "ltr"
+}

@@ -17,7 +17,7 @@ referencias:
   - Emprendiendo con pasión: https://gurcoff.com/tu-puedes-emprender
 ---
 
-El overrun es **el número que separa una heladería rentable de una que apenas sobrevive**. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión. 
+El overrun es **el número que separa una heladería rentable de una que apenas sobrevive**. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.
 
 La diferencia no está en el precio de tus ingredientes. Está en saber calcular y controlar el overrun correctamente.
 
@@ -28,8 +28,9 @@ En esta guía aprenderás la fórmula exacta para calcularlo en menos de 2 minut
 El overrun es el porcentaje de aire incorporado durante el mantecado. Suena técnico, pero es el factor que determina cuántos litros de helado vendes con cada kilo de mezcla base.
 
 **Ejemplo real de producción:**
+
 - Preparas 10 litros de mezcla líquida
-- Después del mantecado obtienes 15 litros de helado terminado  
+- Después del mantecado obtienes 15 litros de helado terminado
 - Tu overrun es 50%
 
 Esos 5 litros adicionales son aire controlado que incorporaste durante el proceso. No es trampa ni relleno barato: es tecnología de producción que toda heladería profesional debe dominar.
@@ -50,9 +51,10 @@ Existen dos métodos de cálculo. El primero es más preciso pero requiere recip
 
 ### Método de cálculo por volumen (más preciso)
 
->Overrun % = ((Volumen final - Volumen inicial) / Volumen inicial) × 100
+> Overrun % = ((Volumen final - Volumen inicial) / Volumen inicial) × 100
 
 **Procedimiento:**
+
 1. Mide 10 litros de mezcla líquida antes de mantecado
 2. Manteca según tu proceso habitual
 3. Mide el volumen total de helado obtenido: 14 litros
@@ -62,9 +64,10 @@ Este método funciona bien cuando tienes recipientes calibrados, pero presenta u
 
 ### Método de cálculo por peso (más práctico)
 
->Overrun % = ((Peso mezcla - Peso helado) / Peso helado) × 100
+> Overrun % = ((Peso mezcla - Peso helado) / Peso helado) × 100
 
 **Procedimiento:**
+
 1. Pesa 1 litro de mezcla líquida antes de mantecado: **1,100 gramos**
 2. Manteca tu helado normalmente
 3. Pesa 1 litro de helado terminado: **730 gramos**
@@ -76,11 +79,11 @@ El helado pesa menos que la mezcla original porque incorporó aire. A menor peso
 
 **Tabla de referencia rápida por peso:**
 
-| Peso de 1 litro de helado | Overrun aproximado | Tipo de producto |
-|---------------------------|-------------------|------------------|
-| 900-950 gramos | 15-25% | Gelato denso estilo italiano |
-| 700-800 gramos | 40-50% | Helado artesanal equilibrado |
-| 550-650 gramos | 70-80% | Helado soft comercial |
+| Peso de 1 litro de helado | Overrun aproximado | Tipo de producto             |
+| ------------------------- | ------------------ | ---------------------------- |
+| 900-950 gramos            | 15-25%             | Gelato denso estilo italiano |
+| 700-800 gramos            | 40-50%             | Helado artesanal equilibrado |
+| 550-650 gramos            | 70-80%             | Helado soft comercial        |
 
 Esta es la única tabla que incluiremos. Los demás datos los presentaremos en formato de texto corrido para mantener la lectura fluida.
 
@@ -130,7 +133,7 @@ Este es el motivo técnico de por qué debes [madurar tu mezcla correctamente]({
 
 Si necesitas más rendimiento manteniendo la satisfacción de tus clientes, estos son los ajustes técnicos que funcionan sin comprometer tu reputación.
 
-**Primero:** Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. [Compara Base 50 con Neutralin]({{ '/blog/diferencia-base-50-neutralin-helado/' | relative_url }}) para entender cómo cada formulación afecta el overrun posible.
+**Primero:** Usa bases formuladas profesionalmente para el overrun que buscas. Las bases MEC3 contienen la proporción exacta de emulsificantes y estabilizantes que permiten incorporar aire de forma controlada. No estás comprando solo ingredientes en polvo, estás comprando años de investigación en tecnología de helados que garantizan resultados consistentes. [Compara Base 50 con Neutralin]({{ '/bases-helado-colombia/neutralin-plus/' | relative_url }}) para entender cómo cada formulación afecta el overrun posible.
 
 **Segundo:** Mantén la temperatura de tu mezcla constante en el rango de 4°C a 6°C antes de cada mantecado. Esta consistencia térmica es más importante que el tiempo exacto de batido. Invierte en un termómetro digital preciso y verifica antes de cada ciclo.
 

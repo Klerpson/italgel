@@ -1,0 +1,6 @@
+Contact: mailto:info@mec3.co
+Preferred-Languages: es
+# Our bug bounty policy or security page (if any)
+# Policy: https://italgel.com.co/contacto
+Hiring: https://italgel.com.co/contacto
+Expires: 2027-12-31T23:59:59.000Z

@@ -1,6 +1,6 @@
-baseurl: ''
-url: 'https://italgel.com.co/'
-name: 'italgel.com.co'
+baseurl: ""
+url: "https://italgel.com.co"
+name: "italgel.com.co"
 logo: img/logo.webp
 author: Sebastián Rios
 telefono: 573192346788
@@ -14,14 +14,17 @@ permalink: :slug/
 keep_files: [/img]
 
 compress_html:
-    clippings: []
-    comments: []
-    endings: []
-    ignore:
-    envs: []
-    blanklines: false
-    profile: false
-    startings: []
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+plugins:
+  - jekyll-redirect-from
 
 collections:
   posts:
