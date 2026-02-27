@@ -1,13 +1,9 @@
 @media screen and (min-width: 1024px) {
-  .wrapper{
-    padding: 4em 3em;
-  }
-  
-  .section{
+  .section {
     padding: 1rem 3em;
   }
-  
-  .three_columns .borders{
+
+  .three_columns .borders {
     border-left: 2px solid var(--color-gris1);
     border-right: 2px solid var(--color-gris1);
     border-top: none;

@@ -15,9 +15,9 @@
   --color-border: #e8dfd8;
 
   /* Brand Colors - Official palette */
-  --color-brand-orange: #C37033;
-  --color-brand-teal: #69B0B8;
-  --color-brand-pink: #D36576;
+  --color-brand-orange: #c37033;
+  --color-brand-teal: #69b0b8;
+  --color-brand-pink: #d36576;
 
   /* Color roles using brand palette */
   --color-principal: var(--color-brand-orange);
@@ -209,6 +209,11 @@ img {
   &.flex_left {
     flex-direction: row-reverse;
   }
+
+  & img {
+    width: min(100%, 560px);
+    box-shadow: var(--shadow-subtle);
+  }
 }
 
 .three_columns {
@@ -244,7 +249,6 @@ img {
   margin-block: 3em;
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
-  width: 100%;
 }
 
 .bg_pink {
