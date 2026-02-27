@@ -250,12 +250,15 @@
 }
 
 .hero_categories {
-  background: color-mix(
+  background-color: color-mix(
     in srgb,
     var(--color-brand-orange) 8%,
     var(--color-bg-secondary)
   );
-  border-bottom: 5px solid var(--color-brand-orange);
+  box-shadow: 0 0 0 100vmax
+    color-mix(in srgb, var(--color-brand-orange) 8%, var(--color-bg-secondary));
+  clip-path: inset(0 -100vmax);
+  padding: 6em 0;
 }
 
 .hero_categories h1 {
@@ -267,12 +270,15 @@
 }
 
 .hero_products {
-  background: color-mix(
+  background-color: color-mix(
     in srgb,
     var(--color-brand-pink) 10%,
     var(--color-bg-secondary)
   );
-  border-bottom: 5px solid var(--color-brand-pink);
+  box-shadow: 0 0 0 100vmax
+    color-mix(in srgb, var(--color-brand-pink) 10%, var(--color-bg-secondary));
+  clip-path: inset(0 -100vmax);
+  padding: 6em 0;
 }
 
 /* Fix contraste: h1 en hero_products tiene clase .hero_title → color:blanco invisible */
@@ -282,7 +288,10 @@
 }
 
 .hero_general {
-  padding-block: 4em;
+  padding-block: 6em;
+  background-color: var(--color-bg-secondary);
+  box-shadow: 0 0 0 100vmax var(--color-bg-secondary);
+  clip-path: inset(0 -100vmax);
 
   h1 {
     font-size: 2.4rem;
@@ -294,9 +303,12 @@
    Option 3 — Tri-brand hero (layout: general)
    ========================================================= */
 .hero_brand {
-  background: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary);
+  box-shadow: 0 0 0 100vmax var(--color-bg-secondary);
+  clip-path: inset(0 -100vmax);
   position: relative;
-  padding-block-start: calc(3em + 6px); /* room for the color bar */
+  padding-block-start: calc(6em + 6px); /* room for the color bar */
+  padding-block-end: 6em;
 }
 
 .hero_brand::before {
