@@ -1,7 +1,8 @@
 baseurl: ""
 url: "https://italgel.com.co"
 name: "italgel.com.co"
-logo: img/logo.webp
+logo: img/logo.avif
+social_image: img/contacto-italgel-colombia.jpg
 author: Sebastián Rios
 telefono: 573192346788
 email: info@mec3.co
