@@ -13,9 +13,6 @@ alt: "Barra de toppings profesional para heladería con coberturas, salsas y dec
 h1: "Qué toppings para helado son más rentables y cómo presentarlos para aumentar ventas"
 schema_type: Article
 featured: true
-redirect_from:
-  - /blog/toppings-helado-mas-vendidos/
-  - //blog/toppings-para-helado-mas-rentables/
 ---
 
 Los toppings no son un extra opcional en tu heladería. Son la diferencia entre vender una bola simple a $5,000 COP y vender una copa personalizada a $8,500 COP. Es la diferencia entre margen del 60% y margen del 75% en el mismo producto base.
