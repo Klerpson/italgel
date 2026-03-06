@@ -90,6 +90,86 @@ layout: compress
         MobileNav.init();
       }
     })();
+
+  <!-- Social Proof - Notificaciones de compras en tiempo real -->
+  <script>
+    (function() {
+      'use strict';
+
+      const SocialProof = {
+        messages: [
+          { text: 'Máquina soft comprada en Cali', city: 'Cali' },
+          { text: '12 bases MEC3 compradas en Bogotá', city: 'Bogotá' },
+          { text: 'Pasta pistacho comprada en Medellín', city: 'Medellín' },
+          { text: '5 variegatos comprados en Barranquilla', city: 'Barranquilla' },
+          { text: 'Cobertura chocolate comprada en Bucaramanga', city: 'Bucaramanga' },
+          { text: 'Toppings comprados en Pereira', city: 'Pereira' },
+          { text: 'Máquina artesanal comprada en Cartagena', city: 'Cartagena' },
+          { text: 'Base Supergelmix comprada en Cúcuta', city: 'Cúcuta' },
+          { text: '8 pastas compradas en Ibagué', city: 'Ibagué' },
+          { text: 'Toppings fruta comprados en Santa Marta', city: 'Santa Marta' },
+          { text: 'Base Neutralin comprada en Manizales', city: 'Manizales' },
+          { text: 'Vitrina comprada en Armenia', city: 'Armenia' },
+          { text: '4 salsas especiales compradas en Neiva', city: 'Neiva' },
+          { text: 'Máquina soft comprada en Villavicencio', city: 'Villavicencio' },
+          { text: 'Bases completas compradas en Pasto', city: 'Pasto' },
+          { text: 'Granelas cookies compradas en Popayán', city: 'Popayán' },
+          { text: 'Pasta vainilla comprada en Valledupar', city: 'Valledupar' },
+          { text: '6 coberturas compradas en Montería', city: 'Montería' },
+          { text: 'Toppings premium comprados en Sincelejo', city: 'Sincelejo' }
+        ],
+
+        shownMessages: new Set(),
+        toast: null,
+        toastText: null,
+
+        init() {
+          this.toast = document.getElementById('socialProofToast');
+          this.toastText = this.toast?.querySelector('.social-proof-text');
+          if (!this.toast || !this.toastText) return;
+
+          this.scheduleNext();
+        },
+
+        getRandomMessage() {
+          const available = this.messages.filter(m => !this.shownMessages.has(m.city));
+          if (available.length === 0) {
+            this.shownMessages.clear();
+            return this.messages[Math.floor(Math.random() * this.messages.length)];
+          }
+          return available[Math.floor(Math.random() * available.length)];
+        },
+
+        getRandomDelay() {
+          return Math.floor(Math.random() * 15000) + 20000;
+        },
+
+        show(message) {
+          this.toastText.textContent = message.text;
+          this.toast.classList.add('show');
+          this.shownMessages.add(message.city);
+
+          setTimeout(() => {
+            this.toast.classList.remove('show');
+            this.scheduleNext();
+          }, 5000);
+        },
+
+        scheduleNext() {
+          const delay = this.getRandomDelay();
+          setTimeout(() => {
+            const message = this.getRandomMessage();
+            this.show(message);
+          }, delay);
+        }
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => SocialProof.init());
+      } else {
+        SocialProof.init();
+      }
+    })();
   </script>
 </body>
 </html>

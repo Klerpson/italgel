@@ -111,8 +111,8 @@ body {
   transition: all 0.3s ease;
   cursor: pointer;
   text-align: center;
-  max-width: max-content !important;
   width: max-content;
+  max-width: 100%;
 }
 
 .boton_1 {
@@ -146,6 +146,7 @@ body {
 .text_center {
   text-align: center;
   padding: 0 1.2em;
+  margin-inline: auto;
 }
 
 .flow > * + * {

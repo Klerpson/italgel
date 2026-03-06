@@ -170,3 +170,99 @@ main {
     display: none !important;
   }
 }
+
+/* Tooltip de prueba social */
+.whatsapp-float[data-tooltip]::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background: var(--color-texto);
+  color: var(--color-blanco);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.whatsapp-float:hover[data-tooltip]::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whatsapp-float:hover::after {
+  animation: none;
+  opacity: 0;
+}
+
+/* Notificaciones de compras en tiempo real */
+.social-proof-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background: var(--color-blanco);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transform: translateX(-150%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 997;
+  border: 1px solid var(--color-gris1);
+}
+
+.social-proof-toast.show {
+  transform: translateX(0);
+}
+
+.social-proof-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-proof-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.social-proof-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  line-height: 1.4;
+}
+
+/* Notificaciones en móvil */
+@media (max-width: 768px) {
+  .social-proof-toast {
+    bottom: 1.5rem;
+    left: 1rem;
+    right: 1rem;
+    max-width: calc(100% - 2rem);
+    transform: translateY(150%);
+  }
+
+  .social-proof-toast.show {
+    transform: translateY(0);
+  }
+
+  .social-proof-text {
+    font-size: 0.8rem;
+  }
+
+  .whatsapp-float[data-tooltip]::before {
+    display: none;
+  }
+}
+
