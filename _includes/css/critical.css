@@ -64,6 +64,7 @@ body {
   color: var(--color-accion);
   font-weight: 900;
   font-size: clamp(1.25rem, 2vw, 1.5rem);
+  border-bottom: none;
 }
 
 .logo_nav img {
