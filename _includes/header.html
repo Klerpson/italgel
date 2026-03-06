@@ -1,15 +1,17 @@
-{% assign layout = page.layout %}
-{% case layout %}
-{% when "main" %}
+{% assign layout = page.layout %} {% case layout %} {% when "main" %}
 <header class="hero_home" role="banner">
   <div class="hero_home_inner">
     <div class="hero_content">
-      <p class="hero_badge">Distribuidor Autorizado · MEC3 · Coldelite · Valmar</p>
+      <p class="hero_badge">
+        Distribuidor Autorizado · MEC3 · Coldelite · Valmar
+      </p>
       <h1>{{page.h1}}</h1>
       <p class="hero_subtitle">{{page.intro}}</p>
       <div class="hero_ctas">
         {% include boton.html num="1" text="💬 Cotizar por WhatsApp" %}
-        <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog">Ver catálogo</a>
+        <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog"
+          >Ver catálogo</a
+        >
       </div>
       <div class="hero_stats">
         <div class="hero_stat">
@@ -29,7 +31,16 @@
       </div>
     </div>
     <div class="hero_visual" aria-hidden="true">
-      <img src="{{page.hero|relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="440" height="440" class="hero_visual_img">
+      <img
+        src="{{page.hero|relative_url}}"
+        alt="{{page.alt}}"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        width="440"
+        height="440"
+        class="hero_visual_img"
+      />
       <p class="hero_visual_tagline">Bases · Pastas · Máquinas · Coberturas</p>
     </div>
   </div>
@@ -38,23 +49,53 @@
 <header class="hero hero_categories wrapper" role="banner">
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
-    <p  class="hero_title">{{page.intro}}</p>
+    <p class="hero_title">{{page.intro}}</p>
     {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
   </div>
   <picture class="hero_picture">
-    <source media="(min-width: 992px)" srcset="{{ page.hero | relative_url }}" type="image/avif">
-    <source media="(max-width: 991px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
-    <img src="{{ page.hero | relative_url }}" alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
-    width="584" height="584" loading="eager" fetchpriority="high" decoding="async">
+    <source
+      media="(min-width: 992px)"
+      srcset="{{ page.hero | relative_url }}"
+      type="image/avif"
+    />
+    <source
+      media="(max-width: 991px)"
+      srcset="{{ page.hero_s | relative_url }}"
+      type="image/avif"
+    />
+    <img
+      src="{{ page.hero | relative_url }}"
+      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      width="584"
+      height="584"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+    />
   </picture>
 </header>
 {% when "products" %}
 <header class="wrapper flex hero_products" role="banner">
   <picture class="hero_picture">
-    <source media="(min-width: 992px)" srcset="{{ page.hero | relative_url }}" type="image/avif">
-    <source media="(max-width: 991px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
-    <img src="{{ page.hero | relative_url }}" alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
-    width="584" height="584" loading="eager" fetchpriority="high" decoding="async">
+    <source
+      media="(min-width: 992px)"
+      srcset="{{ page.hero | relative_url }}"
+      type="image/avif"
+    />
+    <source
+      media="(max-width: 991px)"
+      srcset="{{ page.hero_s | relative_url }}"
+      type="image/avif"
+    />
+    <img
+      src="{{ page.hero | relative_url }}"
+      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      width="584"
+      height="584"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+    />
   </picture>
   <div class="flow">
     <h1 class="hero_title">{{page.h1}}</h1>
@@ -66,20 +107,39 @@
 <header class="hero hero_brand wrapper flex" role="banner">
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
-    <p class="hero_title">{{page.intro}}</p>
-    <div class="flex" style="gap:1em;">
+    <p>{{page.intro}}</p>
+    <div class="flex" style="gap: 1em">
       {% include boton.html num="1" text="Cotizar por WhatsApp 🍨" %}
-      <a href="{{'/insumos/'|relative_url}}" class="boton boton_2">Ver catálogo</a>
+      <a href="{{'/insumos/'|relative_url}}" class="boton boton_2"
+        >Ver catálogo</a
+      >
     </div>
   </div>
-  <img src="{{ 'img/hero.png' | relative_url }}" alt="{{ page.alt | default: 'Italgel Colombia — Bases, toppings y máquinas para heladería profesional' }}" loading="eager" fetchpriority="high" decoding="async" width="420" height="420" class="hero_picture hero_brand_img">
+  <img
+    src="{{ page.hero | relative_url }}"
+    alt="{{ page.alt | default: 'Italgel Colombia — Bases, toppings y máquinas para heladería profesional' }}"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+    width="420"
+    height="420"
+    class="hero_picture hero_brand_img"
+  />
 </header>
 {% else %}
 <header class="wrapper center flow text_center hero_general" role="banner">
   <h1>{{page.h1}}</h1>
   <p>{{page.intro}}</p>
-  <img src="{{page.hero | relative_url}}" alt="{{page.alt}}" loading="eager" fetchpriority="high" decoding="async" width="1080" height="720" class="hero_picture">
+  <img
+    src="{{page.hero | relative_url}}"
+    alt="{{page.alt}}"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+    width="1080"
+    height="720"
+    class="hero_picture"
+  />
   {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
 </header>
 {% endcase %}
-

@@ -1,0 +1,17 @@
+tecnico_italgel:
+  name: "Equipo Técnico Italgel"
+  title: "Especialistas en Heladería Profesional"
+  bio: "Expertos con más de 15 años de experiencia en la industria del gelato y helado soft en Colombia. Brindamos asesoría técnica en formulación, optimización de overrun y selección de maquinaria."
+  avatar: "/img/logo-nav.avif"
+  expertise: "Producción de helado artesanal, Bases MEC3, Cálculo de overrun"
+  credentials: "Distribuidor autorizado MEC3"
+  years_experience: "15"
+  knowsAbout:
+    [
+      "Producción de helado artesanal",
+      "Bases MEC3",
+      "Insumos para heladería",
+      "Maquinaria Coldelite",
+      "Formulación de mezclas",
+    ]
+  instagram: "italgelcolombia"

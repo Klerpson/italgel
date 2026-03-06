@@ -1,14 +1,17 @@
 <!-- Author Info - E-E-A-T: Expertise -->
+{% assign author_id = include.name | default: page.author | default:
+'tecnico_italgel' %} {% assign author = site.data.authors[author_id] %}
+
 <aside
   class="author-info bg_grey_light padding_block"
   itemscope
   itemtype="https://schema.org/Person"
 >
   <div class="wrapper flex flex_left">
-    {% if include.avatar %}
+    {% if author.avatar %}
     <img
-      src="{{ include.avatar | relative_url }}"
-      alt="{{ include.name }}"
+      src="{{ author.avatar | relative_url }}"
+      alt="{{ author.name }}"
       class="author-avatar"
       width="120"
       height="120"
@@ -17,22 +20,22 @@
     />
     {% endif %}
     <div class="flow">
-      <h3 class="author-name" itemprop="name">{{ include.name }}</h3>
-      {% if include.title %}
-      <p class="author-title" itemprop="jobTitle">{{ include.title }}</p>
-      {% endif %} {% if include.bio %}
-      <p class="author-bio" itemprop="description">{{ include.bio }}</p>
-      {% endif %} {% if include.expertise %}
+      <h3 class="author-name" itemprop="name">{{ author.name }}</h3>
+      {% if author.title %}
+      <p class="author-title" itemprop="jobTitle">{{ author.title }}</p>
+      {% endif %} {% if author.bio %}
+      <p class="author-bio" itemprop="description">{{ author.bio }}</p>
+      {% endif %} {% if author.expertise %}
       <p class="author-expertise">
-        <strong>Especialización:</strong> {{ include.expertise }}
+        <strong>Especialización:</strong> {{ author.expertise }}
       </p>
-      {% endif %} {% if include.credentials %}
+      {% endif %} {% if author.credentials %}
       <p class="author-credentials">
-        <strong>Credenciales:</strong> {{ include.credentials }}
+        <strong>Credenciales:</strong> {{ author.credentials }}
       </p>
-      {% endif %} {% if include.years_experience %}
+      {% endif %} {% if author.years_experience %}
       <p class="author-experience">
-        <strong>Experiencia:</strong> {{ include.years_experience }} años en el
+        <strong>Experiencia:</strong> {{ author.years_experience }} años en el
         sector
       </p>
       {% endif %}
@@ -40,22 +43,21 @@
   </div>
 </aside>
 
-<!-- Schema.org Author -->
+<!-- Schema.org Author - E-E-A-T Signals -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "{{ include.name }}",
-    "jobTitle": "{{ include.title | default: 'Especialista en Heladería' }}",
-    "description": "{{ include.bio | strip_html | strip_newlines | escape }}",
-    "knowsAbout": [
-      "{{ include.expertise | default: 'Heladería profesional' }}",
-      "Producción de helado artesanal",
-      "Insumos MEC3"
-    ],
+    "name": "{{ author.name }}",
+    "jobTitle": "{{ author.title }}",
+    "description": "{{ author.bio | strip_html | strip_newlines | escape }}",
+    "knowsAbout": {{ author.knowsAbout | jsonify }},
     "worksFor": {
       "@type": "Organization",
       "name": "Italgel Colombia"
-    }
+    },
+    {% if author.instagram %}
+    "sameAs": ["https://www.instagram.com/{{ author.instagram }}"]
+    {% endif %}
   }
 </script>

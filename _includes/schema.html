@@ -4,9 +4,9 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Italgel Colombia",
-    "url": "https://italgel.com.co",
-    "logo": "https://italgel.com.co/img/logo.avif",
-    "description": "Distribuidor de insumos y equipos para heladería profesional en Colombia. Distribuidor autorizado MEC3.",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.logo | absolute_url }}",
+    "description": "{{ site.description }}",
     "foundingDate": "2008",
     "areaServed": {
       "@type": "Country",
@@ -20,12 +20,15 @@
     "award": "Distribuidor autorizado MEC3 - The Genuine Company",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+573192346788",
+      "telephone": "{{ site.telefono }}",
       "contactType": "sales",
       "email": "info@mec3.co",
       "availableLanguage": ["Spanish", "English"]
     },
-    "sameAs": ["https://www.instagram.com/italgelcolombia"]
+    "sameAs": [
+      "https://www.facebook.com/Mec3.Italgel",
+      "https://www.instagram.com/mec3colombia/"
+    ]
   }
 </script>
 
@@ -36,261 +39,68 @@
     "@type": "LocalBusiness",
     "name": "Italgel Colombia",
     "description": "Distribuidor de insumos y equipos para heladería profesional en Colombia",
-    "url": "https://italgel.com.co",
-    "telephone": "{{site.telefono}}",
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.telefono }}",
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "CO"
+      "addressCountry": "CO",
+      "streetAddress": "Calle 68 No 68B - 74",
+      "addressLocality": "Bogotá"
     },
-    "areaServed": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Bucaramanga"],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Insumos para Heladería",
-      "itemListElement": [
-        {
-          "@type": "OfferCatalog",
-          "name": "Bases para Helado",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Base 50 MEC3",
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "5",
-                  "ratingCount": "19"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
+    "areaServed": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Bucaramanga"]
   }
 </script>
-{% endif %} {% if page.layout == "/bases-helado-colombia/" %}
-
-<!-- Schema Markup -->
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Bases para Helado Profesional MEC3",
-    "description": "Catálogo de bases para helado artesanal, soft e industrial. Distribuidor autorizado MEC3 en Colombia.",
-    "url": "{{ page.url | prepend: site.url }}",
-    "provider": {
-      "@type": "Organization",
-      "name": "Italgel Colombia"
-    },
-    "hasPart": [
-      {
-        "@type": "Product",
-        "name": "Base 50 MEC3",
-        "description": "Base para helado artesanal con overrun 50-60%",
-        "brand": {
-          "@type": "Brand",
-          "name": "MEC3"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "ratingCount": "24"
-        }
-      },
-      {
-        "@type": "Product",
-        "name": "Neutralin Plus",
-        "description": "Base para gelato italiano ultra cremoso",
-        "brand": {
-          "@type": "Brand",
-          "name": "MEC3"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "15"
-        }
-      },
-      {
-        "@type": "Product",
-        "name": "Supergelmix",
-        "description": "Base para helado soft profesional",
-        "brand": {
-          "@type": "Brand",
-          "name": "MEC3"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "12"
-        }
-      }
-    ]
-  }
-</script>
-
+{% endif %} {% if page.faqs %}
+<!-- FAQPage Schema - E-E-A-T: Trustworthiness -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+      {% for faq in page.faqs %}
       {
         "@type": "Question",
-        "name": "¿Cuál es la diferencia entre Base 50 y Neutralin?",
+        "name": {{ faq.question | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin."
+          "text": {{ faq.answer | strip_html | jsonify }}
         }
-      },
-      {
-        "@type": "Question",
-        "name": "¿Dónde comprar bases para helado al por mayor en Colombia?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg."
-        }
-      }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
     ]
-  }
-</script>
-{% endif %} {% if page.layout == "/pastas-sabores-helado/" %}
-
-<!-- Schema Markup -->
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Pastas Concentradas para Helado Artesanal",
-    "description": "Catálogo de pastas MEC3 para helado: frutos secos, clásicas, frutas. Concentración real del ingrediente.",
-    "url": "{{ page.url | prepend: site.url }}",
-    "provider": {
-      "@type": "Organization",
-      "name": "Italgel Colombia"
-    }
-  }
-</script>
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "¿Cuál es la diferencia entre pasta y extracto de vainilla?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "¿Dónde comprar pasta de pistacho para helado en Colombia?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg."
-        }
-      }
-    ]
-  }
-</script>
-{% endif %} {% if page.layout == "/insumos-heladeria-medellin/" %}
-
-<!-- Schema Markup Local Business -->
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Italgel Colombia - Medellín",
-    "description": "Distribuidor de insumos y equipos para heladería profesional en Medellín",
-    "image": "{{ 'img/italgel-medellin-distribuidor.avif' | prepend: site.url }}",
-    "telephone": "{{ site.telefono }}",
-    "priceRange": "$$",
-    "areaServed": {
-      "@type": "City",
-      "name": "Medellín",
-      "addressCountry": "CO"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Insumos para Heladería",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Bases MEC3 para helado",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "45"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Pastas concentradas para helado",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "ratingCount": "32"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Máquinas para heladería",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "ratingCount": "18"
-            }
-          }
-        }
-      ]
-    }
   }
 </script>
 {% endif %} {% if page.layout == 'post' or page.collection == 'posts' %}
 <!-- Article Schema for Blog Posts - E-E-A-T: Expertise -->
+{% assign author_id = page.author | default: 'tecnico_italgel' %} {% assign
+author = site.data.authors[author_id] %}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "{{ page.title | escape }}",
     "description": "{{ page.description | escape }}",
-    "image": "{{ page.hero | prepend: site.url | default: site.social_image | prepend: site.url }}",
+    "image": "{{ page.hero | absolute_url | default: site.social_image | absolute_url }}",
     "author": {
       "@type": "Person",
-      "name": "{{ page.author | default: 'Equipo Técnico Italgel' }}",
-      "jobTitle": "Especialista en Heladería",
-      "knowsAbout": [
-        "Producción de helado artesanal",
-        "Bases MEC3",
-        "Insumos para heladería"
-      ]
+      "name": "{{ author.name }}",
+      "jobTitle": "{{ author.title }}",
+      "knowsAbout": {{ author.knowsAbout | jsonify }}
     },
     "publisher": {
       "@type": "Organization",
       "name": "Italgel Colombia",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.logo | prepend: site.url }}"
+        "url": "{{ site.logo | absolute_url }}"
       }
     },
     "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
     "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ page.url | prepend: site.url }}"
-    },
-    "keywords": "{{ page.categories | join: ', ' | escape }}",
-    "wordCount": "{{ content | number_of_words }}"
+      "@id": "{{ page.url | absolute_url }}"
+    }
   }
 </script>
 {% endif %}

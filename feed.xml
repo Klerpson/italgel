@@ -14,13 +14,15 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
     {% for post in site.posts limit:20 %}
+      {% assign author_id = post.author | default: 'tecnico_italgel' %}
+      {% assign author = site.data.authors[author_id] %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.excerpt }}]]></description>
+        <description><![CDATA[{{ post.excerpt | strip_html | truncate: 160 }}]]></description>
         <pubDate>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_rfc822 }}{% else %}{{ post.date | date_to_rfc822 }}{% endif %}</pubDate>
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-        <dc:creator>{{ post.author | default: site.author | xml_escape }}</dc:creator>
+        <dc:creator>{{ author.name | xml_escape }}</dc:creator>
 
         {% if post.categories %}
           {% for cat in post.categories %}
@@ -30,8 +32,9 @@ layout: null
 
         <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
 
-        {% if post.jpg %}
-          <enclosure url="{{ post.jpg | absolute_url }}" type="image/jpeg" />
+        {% assign img = post.hero | default: post.jpg | default: post.webp %}
+        {% if img %}
+          <enclosure url="{{ img | absolute_url }}" type="image/avif" />
         {% endif %}
 
       </item>

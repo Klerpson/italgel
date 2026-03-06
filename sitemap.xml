@@ -12,21 +12,15 @@ layout: null
     {% else %}
       <url>
         <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+        <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | default: site.time | date_to_xmlschema }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        {% if page.jpg %}
+        <priority>{% if page.url == "/" %}1.0{% else %}0.8{% endif %}</priority>
+        {% assign img = page.hero | default: page.jpg | default: page.webp %}
+        {% if img %}
           <image:image>
-            <image:loc>{{ page.jpg | absolute_url }}</image:loc>
-            <image:title>{{ page.title }}</image:title>
-            <image:caption>{{ page.alt }}</image:caption>
-          </image:image>
-        {% endif %}
-        {% if page.webp %}
-          <image:image>
-            <image:loc>{{ page.webp | absolute_url }}</image:loc>
-            <image:title>{{ page.title }}</image:title>
-            <image:caption>{{ page.alt }}</image:caption>
+            <image:loc>{{ img | absolute_url }}</image:loc>
+            <image:title>{{ page.title | xml_escape }}</image:title>
+            <image:caption>{{ page.alt | default: page.title | xml_escape }}</image:caption>
           </image:image>
         {% endif %}
       </url>
@@ -38,20 +32,14 @@ layout: null
       <url>
         <loc>{{ post.url | absolute_url }}</loc>
         <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        {% if post.jpg %}
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        {% assign img = post.hero | default: post.jpg | default: post.webp %}
+        {% if img %}
           <image:image>
-            <image:loc>{{ post.jpg | absolute_url }}</image:loc>
-            <image:title>{{ post.title }}</image:title>
-            <image:caption>{{ post.alt }}</image:caption>
-          </image:image>
-        {% endif %}
-        {% if post.webp %}
-          <image:image>
-            <image:loc>{{ post.webp | absolute_url }}</image:loc>
-            <image:title>{{ post.title }}</image:title>
-            <image:caption>{{ post.alt }}</image:caption>
+            <image:loc>{{ img | absolute_url }}</image:loc>
+            <image:title>{{ post.title | xml_escape }}</image:title>
+            <image:caption>{{ post.alt | default: post.title | xml_escape }}</image:caption>
           </image:image>
         {% endif %}
       </url>
