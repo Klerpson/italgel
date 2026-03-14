@@ -32,3 +32,6 @@ collections:
   redirections:
     output: true
     permalink: /:slug/
+
+plugins:
+  - jekyll-redirect-from
