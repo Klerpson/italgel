@@ -5,7 +5,9 @@
       "Bash(head -5 d:/github/italgel/_posts/*.md)",
       "Bash(bundle exec jekyll build)",
       "Bash(git mv insumos-heladeria-medellin.html insumos-heladeria-medellín.html)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)"
     ]
   }
 }

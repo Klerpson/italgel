@@ -1,6 +1,16 @@
 User-agent: *
 Allow: /
 Disallow: /search.json
+Disallow: /wp-*
+Disallow: /elementor-*
+Disallow: /wp-content/*
+Disallow: /wp-admin/*
+Disallow: /wp-includes/*
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /author/
+Disallow: /tag/
+Disallow: /category/
 
 # Bloquear crawlers de IA conocidos para scraping (Opcional, pero recomendado si solo quieres que se guíen por llms.txt)
 User-agent: CCBot
