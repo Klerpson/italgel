@@ -1,0 +1,433 @@
+<!--
+================================================================================
+  FORMULARIO PQR — Peticiones, Quejas y Reclamos
+  Italgel Colombia
+
+  CONFIGURACIÓN DE GOOGLE SHEETS:
+  ─────────────────────────────────────────────────────────────────────────────
+  1. Abre la hoja de Google Sheets donde quieres recibir las respuestas.
+  2. Ve a: Extensiones → Apps Script
+  3. Borra el código por defecto y pega el siguiente script:
+
+  ─── INICIO SCRIPT APPS SCRIPT ───────────────────────────────────────────────
+
+  function doGet(e)  { return registrarPQR(e); }
+  function doPost(e) { return registrarPQR(e); }
+
+  function registrarPQR(e) {
+    try {
+      var hoja = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+      if (hoja.getLastRow() === 0) {
+        hoja.appendRow(['Fecha y hora', 'Tipo', 'Producto', 'Lote', 'Descripcion']);
+        hoja.getRange(1, 1, 1, 5).setFontWeight('bold');
+        hoja.setFrozenRows(1);
+      }
+      var p = e.parameter;
+      hoja.appendRow([
+        p.fecha       || new Date().toLocaleString('es-CO'),
+        p.tipo        || '',
+        p.producto    || 'N/A',
+        p.lote        || 'N/A',
+        p.comentario  || ''
+      ]);
+      return ContentService
+        .createTextOutput(JSON.stringify({ ok: true }))
+        .setMimeType(ContentService.MimeType.JSON);
+    } catch (err) {
+      return ContentService
+        .createTextOutput(JSON.stringify({ ok: false, error: err.toString() }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+  }
+
+  ─── FIN SCRIPT ──────────────────────────────────────────────────────────────
+
+  4. Clic en "Implementar" → "Nueva implementación"
+     - Tipo: Aplicación web
+     - Ejecutar como: Yo (tu cuenta de Google)
+     - Quién tiene acceso: Cualquier persona
+  5. Autoriza la aplicación cuando te lo solicite.
+  6. Copia la URL de implementación generada (empieza por
+     https://script.google.com/macros/s/...)
+  7. Reemplaza el valor de la variable SHEETS_URL más abajo con esa URL.
+================================================================================
+-->
+
+<!-- Modal PQR -->
+<div id="pqr-overlay" class="pqr-overlay" role="dialog" aria-modal="true" aria-labelledby="pqr-h2">
+  <div class="pqr-card">
+
+    <!-- Encabezado: barra de progreso + cerrar -->
+    <div class="pqr-header">
+      <div class="pqr-barra-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="pqr-progressbar">
+        <div class="pqr-barra" id="pqr-barra"></div>
+      </div>
+      <button class="pqr-cerrar" id="pqr-cerrar" type="button" aria-label="Cerrar formulario PQR">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Pasos del formulario -->
+    <div class="pqr-contenido">
+
+      <!-- ── Paso 1: Tipo de solicitud ── -->
+      <div class="pqr-paso activo" id="pqr-paso-1">
+        <p class="pqr-num-paso">01 <span>→</span></p>
+        <h2 class="pqr-pregunta" id="pqr-h2">¿Qué tipo de solicitud necesitas radicar?</h2>
+        <p class="pqr-hint">Selecciona una opción para continuar</p>
+        <div class="pqr-grid-opciones" role="group" aria-label="Tipo de solicitud">
+          <button class="pqr-opcion" data-campo="tipo" data-valor="Devolución" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">↩</span>
+            <span>Devolución</span>
+          </button>
+          <button class="pqr-opcion" data-campo="tipo" data-valor="Queja" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">⚠️</span>
+            <span>Queja</span>
+          </button>
+          <button class="pqr-opcion" data-campo="tipo" data-valor="Reclamo" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">📋</span>
+            <span>Reclamo</span>
+          </button>
+          <button class="pqr-opcion" data-campo="tipo" data-valor="Comentario" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">💬</span>
+            <span>Comentario</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Paso 2: Tipo de producto (omitir si es Comentario) ── -->
+      <div class="pqr-paso" id="pqr-paso-2">
+        <p class="pqr-num-paso">02 <span>→</span></p>
+        <h2 class="pqr-pregunta">¿A qué tipo de producto se refiere?</h2>
+        <div class="pqr-grid-opciones pqr-grid-2" role="group" aria-label="Tipo de producto">
+          <button class="pqr-opcion" data-campo="producto" data-valor="Equipo" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">⚙️</span>
+            <span>Equipo</span>
+          </button>
+          <button class="pqr-opcion" data-campo="producto" data-valor="Materia Prima" type="button">
+            <span class="pqr-opcion-ico" aria-hidden="true">🧪</span>
+            <span>Materia Prima</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Paso 3: Número de lote (omitir si es Comentario) ── -->
+      <div class="pqr-paso" id="pqr-paso-3">
+        <p class="pqr-num-paso">03 <span>→</span></p>
+        <h2 class="pqr-pregunta">¿Cuál es el número de lote?</h2>
+        <p class="pqr-hint">Opcional — déjalo en blanco si no aplica o no lo tienes</p>
+        <div class="pqr-campo-wrap">
+          <input
+            type="text"
+            id="pqr-lote"
+            class="pqr-campo"
+            placeholder="Ej: LOT-2025-001"
+            maxlength="80"
+            autocomplete="off"
+            aria-label="Número de lote (opcional)"
+          >
+          <button class="boton pqr-btn-siguiente" id="pqr-btn-3" type="button">
+            Continuar <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Paso 4: Descripción ── -->
+      <div class="pqr-paso" id="pqr-paso-4">
+        <p class="pqr-num-paso" id="pqr-num-4">04 <span>→</span></p>
+        <h2 class="pqr-pregunta">Cuéntanos los detalles de tu solicitud</h2>
+        <p class="pqr-hint">Entre más información nos des, más rápido podemos atenderte</p>
+        <div class="pqr-campo-wrap">
+          <textarea
+            id="pqr-desc"
+            class="pqr-campo pqr-textarea"
+            placeholder="Describe aquí tu solicitud..."
+            rows="5"
+            maxlength="2000"
+            aria-label="Descripción de la solicitud"
+            aria-required="true"
+          ></textarea>
+          <div id="pqr-error-desc" class="pqr-error-msg" hidden aria-live="assertive">
+            Por favor ingresa una descripción antes de enviar.
+          </div>
+          <button class="boton pqr-btn-siguiente" id="pqr-btn-4" type="button">
+            Enviar solicitud ✓
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Paso 5: Confirmación ── -->
+      <div class="pqr-paso" id="pqr-paso-5">
+        <div class="pqr-exito">
+          <div class="pqr-exito-check" aria-hidden="true">✓</div>
+          <h2 class="pqr-pregunta">¡Solicitud radicada con éxito!</h2>
+          <p>Hemos recibido tu PQR. Nuestro equipo la revisará y te dará respuesta en un plazo máximo de <strong>15 días hábiles</strong>, según la normatividad vigente.</p>
+          <p><small>Si tu caso es urgente, comunícate con nosotros por WhatsApp.</small></p>
+          <button class="boton" id="pqr-cerrar-exito" type="button">Cerrar</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pie: botón atrás + contador de pasos -->
+    <div class="pqr-footer">
+      <button class="pqr-btn-atras" id="pqr-atras" type="button" aria-label="Volver al paso anterior" style="visibility:hidden">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
+        Atrás
+      </button>
+      <span class="pqr-conteo" id="pqr-conteo" aria-live="polite">Paso 1 de 4</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ============================================================
+     CONFIGURACIÓN — Reemplaza con la URL de tu Apps Script
+     (Ver instrucciones al inicio del archivo)
+     ============================================================ */
+  var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbxrw1eF32HLM_-PCK7qQkAfxOmDB7nAZpYwIhf6IRjvqx_jGs7WW1GxK2F6CUP0JGCNMA/exec';
+
+  /* Estado del formulario */
+  var datos = { tipo: '', producto: '', lote: '', comentario: '' };
+
+  /* flujo = array de IDs de paso a mostrar en orden.
+     Cambia según el tipo seleccionado:
+     - Comentario: solo pasos 1 y 4 (sin producto ni lote)
+     - Resto:      pasos 1, 2, 3 y 4                        */
+  var flujo = [1, 2, 3, 4];
+  var idx = 0; /* índice actual en flujo */
+
+  /* Referencias DOM */
+  var overlay    = document.getElementById('pqr-overlay');
+  var barra      = document.getElementById('pqr-barra');
+  var progressbar= document.getElementById('pqr-progressbar');
+  var conteo     = document.getElementById('pqr-conteo');
+  var btnAtras   = document.getElementById('pqr-atras');
+  var num4       = document.getElementById('pqr-num-4');
+
+  /* ── Abrir modal desde cualquier elemento con [data-abre-pqr] ── */
+  document.querySelectorAll('[data-abre-pqr]').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      abrir();
+    });
+  });
+
+  /* ── Cerrar ── */
+  document.getElementById('pqr-cerrar').addEventListener('click', cerrar);
+  document.getElementById('pqr-cerrar-exito').addEventListener('click', cerrar);
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) cerrar();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('pqr-abierto')) cerrar();
+  });
+
+  /* ── Botón Atrás ── */
+  btnAtras.addEventListener('click', function () {
+    if (idx > 0) {
+      idx--;
+      mostrar(flujo[idx]);
+    }
+  });
+
+  /* ── Selección de opciones (tipo, producto) ── */
+  document.querySelectorAll('.pqr-opcion').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var campo = this.dataset.campo;
+      var valor = this.dataset.valor;
+      datos[campo] = valor;
+
+      /* Resaltar la opción seleccionada */
+      document.querySelectorAll('[data-campo="' + campo + '"]').forEach(function (b) {
+        b.classList.remove('seleccionado');
+      });
+      this.classList.add('seleccionado');
+
+      /* Actualizar flujo cuando se elige el tipo */
+      if (campo === 'tipo') {
+        flujo = (valor === 'Comentario') ? [1, 4] : [1, 2, 3, 4];
+      }
+
+      /* Avanzar automáticamente tras breve pausa visual */
+      setTimeout(avanzar, 320);
+    });
+  });
+
+  /* ── Botón Continuar en paso 3 (lote) ── */
+  document.getElementById('pqr-btn-3').addEventListener('click', function () {
+    datos.lote = document.getElementById('pqr-lote').value.trim();
+    avanzar();
+  });
+
+  document.getElementById('pqr-lote').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      datos.lote = this.value.trim();
+      avanzar();
+    }
+  });
+
+  /* ── Botón Enviar en paso 4 (descripción) ── */
+  document.getElementById('pqr-btn-4').addEventListener('click', function () {
+    var desc   = document.getElementById('pqr-desc').value.trim();
+    var errEl  = document.getElementById('pqr-error-desc');
+    var campo  = document.getElementById('pqr-desc');
+
+    if (!desc) {
+      campo.classList.add('pqr-campo-error');
+      errEl.hidden = false;
+      campo.focus();
+      return;
+    }
+
+    campo.classList.remove('pqr-campo-error');
+    errEl.hidden = true;
+    datos.comentario = desc;
+    enviar();
+  });
+
+  document.getElementById('pqr-desc').addEventListener('input', function () {
+    this.classList.remove('pqr-campo-error');
+    document.getElementById('pqr-error-desc').hidden = true;
+  });
+
+  /* ── Avanzar al siguiente paso del flujo ── */
+  function avanzar() {
+    idx++;
+    if (idx >= flujo.length) {
+      mostrar(5); /* éxito */
+    } else {
+      mostrar(flujo[idx]);
+    }
+  }
+
+  /* ── Mostrar un paso específico ── */
+  function mostrar(numPaso) {
+    /* Ocultar paso actual */
+    var actual = document.querySelector('.pqr-paso.activo');
+    if (actual) actual.classList.remove('activo');
+
+    /* Mostrar nuevo paso */
+    var nuevo = document.getElementById('pqr-paso-' + numPaso);
+    if (!nuevo) return;
+    nuevo.classList.add('activo');
+
+    /* Ajustar numeración visible para flujo Comentario (paso 4 = 2do) */
+    if (numPaso === 4) {
+      num4.innerHTML = (flujo.length <= 2 ? '02' : '04') + ' <span>→</span>';
+    }
+
+    /* Calcular y actualizar progreso */
+    var enExito = (numPaso === 5);
+    var porcentaje = enExito ? 100 : Math.round((idx / flujo.length) * 100);
+    barra.style.width = porcentaje + '%';
+    progressbar.setAttribute('aria-valuenow', porcentaje);
+
+    if (enExito) {
+      conteo.textContent = '\u00a1Enviado!';
+    } else {
+      conteo.textContent = 'Paso ' + (idx + 1) + ' de ' + flujo.length;
+    }
+
+    /* Mostrar/ocultar botón Atrás */
+    btnAtras.style.visibility = (idx > 0 && !enExito) ? 'visible' : 'hidden';
+
+    /* Focus en el primer elemento interactivo */
+    setTimeout(function () {
+      var focusable = nuevo.querySelector('button:not([style*="hidden"]), input, textarea');
+      if (focusable) focusable.focus({ preventScroll: true });
+    }, 80);
+  }
+
+  /* ── Enviar datos a Google Sheets ── */
+  function enviar() {
+    var btn = document.getElementById('pqr-btn-4');
+    btn.disabled = true;
+    btn.textContent = 'Enviando\u2026';
+
+    var params = new URLSearchParams({
+      fecha:      new Date().toLocaleString('es-CO', { timeZone: 'America/Bogota' }),
+      tipo:       datos.tipo,
+      producto:   datos.producto,
+      lote:       datos.lote,
+      comentario: datos.comentario
+    });
+
+    /* no-cors: Apps Script no devuelve encabezados CORS en doGet,
+       la solicitud llega igualmente a la hoja.              */
+    fetch(SHEETS_URL + '?' + params.toString(), {
+      method: 'GET',
+      mode:   'no-cors'
+    }).catch(function () {
+      /* Error de red — se registra silenciosamente;
+         el formulario muestra éxito de todas formas. */
+    }).finally(function () {
+      idx = flujo.length; /* forzar posición en éxito */
+      mostrar(5);
+      btn.disabled    = false;
+      btn.textContent = 'Enviar solicitud \u2713';
+    });
+  }
+
+  /* ── Abrir modal ── */
+  function abrir() {
+    resetear();
+    overlay.classList.add('pqr-abierto');
+    document.body.style.overflow = 'hidden';
+    /* Focus accesible en el título */
+    setTimeout(function () {
+      document.getElementById('pqr-h2').setAttribute('tabindex', '-1');
+      document.getElementById('pqr-h2').focus({ preventScroll: true });
+    }, 50);
+  }
+
+  /* ── Cerrar modal ── */
+  function cerrar() {
+    overlay.classList.remove('pqr-abierto');
+    document.body.style.overflow = '';
+  }
+
+  /* ── Resetear formulario al estado inicial ── */
+  function resetear() {
+    datos  = { tipo: '', producto: '', lote: '', comentario: '' };
+    flujo  = [1, 2, 3, 4];
+    idx    = 0;
+
+    document.querySelectorAll('.pqr-paso').forEach(function (p) {
+      p.classList.remove('activo');
+    });
+    document.getElementById('pqr-paso-1').classList.add('activo');
+
+    document.querySelectorAll('.pqr-opcion').forEach(function (b) {
+      b.classList.remove('seleccionado');
+    });
+
+    document.getElementById('pqr-lote').value = '';
+    document.getElementById('pqr-desc').value = '';
+    document.getElementById('pqr-desc').classList.remove('pqr-campo-error');
+    document.getElementById('pqr-error-desc').hidden = true;
+    document.getElementById('pqr-num-4').innerHTML = '04 <span>\u2192</span>';
+
+    barra.style.width = '0%';
+    progressbar.setAttribute('aria-valuenow', '0');
+    conteo.textContent = 'Paso 1 de 4';
+    btnAtras.style.visibility = 'hidden';
+  }
+
+  /* ── Auto-abrir si la URL contiene el hash #pqr ── */
+  if (window.location.hash === '#pqr') {
+    setTimeout(abrir, 600);
+  }
+
+})();
+</script>

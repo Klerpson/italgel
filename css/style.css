@@ -13,3 +13,4 @@ noindex: true
 {% include css/slider.css %}
 {% include css/media-queries.css %}
 {% include css/footer.css %}
+{% include css/pqr.css %}
