@@ -73,6 +73,14 @@
     padding: 2em 1em;
   }
 
+  /* Fix: el grid de .center usa tracks auto que se dimensionan por max-content (~400px).
+     grid-template-columns:1fr fuerza el track al espacio disponible real del contenedor,
+     permitiendo que width:100% y justify-items:stretch resuelvan correctamente. */
+  .center {
+    justify-items: stretch;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   /* Artículos en grid con justify-items: center */
   article.bg_grey_light {
     width: 100%;
