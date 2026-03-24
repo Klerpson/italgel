@@ -356,23 +356,3 @@
   border-bottom-color: var(--color-secundario);
 }
 
-/* ---- Responsive ---- */
-@media (max-width: 480px) {
-  .pqr-contenido {
-    padding: 1.5rem 1.25rem;
-  }
-
-  .pqr-grid-opciones {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .pqr-card {
-    max-height: 95dvh;
-  }
-}
-
-@media (max-width: 360px) {
-  .pqr-grid-opciones {
-    grid-template-columns: 1fr;
-  }
-}

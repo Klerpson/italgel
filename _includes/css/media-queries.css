@@ -1,3 +1,16 @@
+/* ========================================
+   MEDIA QUERIES — Punto único de verdad
+   Todos los breakpoints del proyecto aquí
+   ======================================== */
+
+/* --- Desktop+ (min-width: 920px) --- */
+@media (min-width: 920px) {
+  table tbody tr:nth-child(even) td {
+    background: rgba(0, 0, 0, 0.01);
+  }
+}
+
+/* --- Desktop (min-width: 1024px) --- */
 @media screen and (min-width: 1024px) {
   .section {
     padding: 1rem 3em;
@@ -8,5 +21,337 @@
     border-right: 2px solid var(--color-gris1);
     border-top: none;
     border-bottom: none;
+  }
+}
+
+/* --- Megamenu colapsa (width < 1024px) --- */
+@media (width < 1024px) {
+  .megamenu-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- Container queries --- */
+@container (min-width: 600px) {
+  .product-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+/* --- Tablet (max-width: 900px) — Hero home --- */
+@media (max-width: 900px) {
+  .hero_home_inner {
+    flex-direction: column-reverse;
+  }
+
+  .hero_visual {
+    width: 100%;
+    min-height: 280px;
+  }
+
+  .hero_visual_img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .hero_home .hero_content {
+    padding: 48px 32px;
+  }
+}
+
+/* --- Tablet/Mobile (max-width: 768px) --- */
+@media (max-width: 768px) {
+  /* Layout */
+  .page-wrapper {
+    padding: 0 0.75rem;
+  }
+
+  .wrapper {
+    padding: 2em 1em;
+  }
+
+  /* Artículos en grid con justify-items: center */
+  article.bg_grey_light {
+    width: 100%;
+    padding: 1.5em 1em !important;
+    margin-block: 2em;
+    box-sizing: border-box;
+    max-width: calc(100vw - 1.5rem);
+  }
+
+  article.flex.bg_grey_light,
+  article.flex_left.bg_grey_light {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .bg_grey_light {
+    padding: 1.5em 1em;
+    margin-block: 2em;
+  }
+
+  /* Flex */
+  .flex {
+    flex-direction: column;
+    gap: 1.5em;
+
+    & > * {
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    & img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .flex_left {
+    flex-direction: column;
+  }
+
+  /* Grids */
+  .two_columns {
+    grid-template-columns: 1fr;
+    gap: 0.75em;
+  }
+
+  /* Tipografía */
+  h2,
+  h3,
+  h4 {
+    max-width: 100%;
+    padding: 0 0.25em;
+  }
+
+  p,
+  li {
+    max-width: 100%;
+    padding: 0 0.25em;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.2em;
+    margin-block: 0.5rem;
+  }
+
+  /* Floating buttons */
+  .whatsapp-float {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: 0.875rem 1.25rem;
+    font-size: 0.85rem;
+  }
+
+  .scroll-up-btn {
+    bottom: 96px;
+    right: 1.5rem;
+    padding: 0.875rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Social proof toast */
+  .social-proof-toast {
+    bottom: 1.5rem;
+    left: 1rem;
+    right: 1rem;
+    max-width: calc(100% - 2rem);
+    transform: translateY(150%);
+  }
+
+  .social-proof-toast.show {
+    transform: translateY(0);
+  }
+
+  .social-proof-text {
+    font-size: 0.8rem;
+  }
+
+  .whatsapp-float[data-tooltip]::before {
+    display: none;
+  }
+}
+
+/* --- Slider mobile (width <= 768px) --- */
+@media (width <= 768px) {
+  .slide-container {
+    gap: 2rem;
+    width: calc(
+      var(--items-count, 20) * 200px + var(--items-count, 20) * 2rem
+    );
+  }
+
+  .slide-container figure {
+    width: 200px;
+  }
+
+  .slide-container img {
+    height: 80px;
+    max-width: 200px;
+  }
+}
+
+/* --- Nav mobile (width < 768px) --- */
+@media (width < 768px) {
+  .navegacion {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .phone-link {
+    display: none;
+  }
+
+  .nav-wrapper {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .logo_nav {
+    justify-self: center;
+  }
+
+  .nav-right {
+    gap: 0.5rem;
+  }
+
+  .mobile-search-link {
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-texto);
+    text-decoration: none;
+    align-items: center;
+    gap: 8px;
+    border-block-end: 1px solid var(--color-gris1);
+  }
+
+  .mobile-search-link:hover {
+    color: var(--color-accion);
+    background: color-mix(in srgb, var(--color-accion) 8%, transparent);
+  }
+
+  .mobile-search-link svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+}
+
+/* --- Tablas mobile (max-width: 767.98px) --- */
+@media (max-width: 767.98px) {
+  table {
+    display: block;
+    font-size: 0.85rem;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+
+    th,
+    td {
+      padding: 0.75rem !important;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+    }
+  }
+}
+
+/* --- Small Mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+  /* Hero */
+  .hero_home .hero_content {
+    padding: 40px 20px;
+  }
+
+  .hero_stats {
+    gap: 14px;
+  }
+
+  /* PQR modal */
+  .pqr-contenido {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .pqr-grid-opciones {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pqr-card {
+    max-height: 95dvh;
+  }
+
+  /* Floating buttons */
+  .whatsapp-float {
+    padding: 1rem;
+    right: 0.75rem;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+  }
+
+  .scroll-up-btn {
+    right: 0.75rem;
+    width: 56px;
+    height: 56px;
+    padding: 0.75rem;
+  }
+}
+
+/* --- Very Small Mobile (max-width: 360px) --- */
+@media (max-width: 360px) {
+  .pqr-grid-opciones {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Accesibilidad: Alto contraste --- */
+@media (prefers-contrast: high) {
+  .scroll-up-btn {
+    border: 2px solid var(--blanco);
+  }
+
+  .whatsapp-float {
+    border: 2px solid white;
+  }
+}
+
+/* --- Dark mode --- */
+@media (prefers-color-scheme: dark) {
+  .breadcrumbs a {
+    color: var(--color-acento);
+  }
+
+  .faq-item summary {
+    color: var(--color-blanco);
+  }
+
+  table tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .scroll-up-btn {
+    background: color-mix(in srgb, var(--principal) 90%, white);
+  }
+}
+
+/* --- Print --- */
+@media print {
+  .scroll-up-btn,
+  .whatsapp-float {
+    display: none !important;
   }
 }

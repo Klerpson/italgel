@@ -97,56 +97,11 @@
   }
 }
 
-/* Responsive para botones flotantes */
-@media (max-width: 768px) {
-  .whatsapp-float {
-    bottom: 1.5rem;
-    right: 1.5rem;
-    padding: 0.875rem 1.25rem;
-    font-size: 0.85rem;
-  }
-
-  .scroll-up-btn {
-    bottom: 96px;
-    right: 1.5rem;
-    padding: 0.875rem;
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (max-width: 480px) {
-  .whatsapp-float {
-    padding: 1rem;
-    right: 0.75rem;
-    border-radius: 50%;
-    width: 56px;
-    height: 56px;
-    justify-content: center;
-  }
-
-  .scroll-up-btn {
-    right: 0.75rem;
-    width: 56px;
-    height: 56px;
-    padding: 0.75rem;
-  }
-}
 
 /* Estilos para el contenido principal */
 main {
   min-height: calc(100vh - 90px);
   position: relative;
-}
-/* High contrast mode */
-@media (prefers-contrast: high) {
-  .scroll-up-btn {
-    border: 2px solid var(--blanco);
-  }
-
-  .whatsapp-float {
-    border: 2px solid white;
-  }
 }
 
 /* Focus indicators para accesibilidad */
@@ -156,20 +111,7 @@ main {
   outline-offset: 2px;
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .scroll-up-btn {
-    background: color-mix(in srgb, var(--principal) 90%, white);
-  }
-}
 
-/* Print styles - ocultar botones flotantes */
-@media print {
-  .scroll-up-btn,
-  .whatsapp-float {
-    display: none !important;
-  }
-}
 
 /* Tooltip de prueba social */
 .whatsapp-float[data-tooltip]::before {
@@ -243,26 +185,4 @@ main {
   line-height: 1.4;
 }
 
-/* Notificaciones en móvil */
-@media (max-width: 768px) {
-  .social-proof-toast {
-    bottom: 1.5rem;
-    left: 1rem;
-    right: 1rem;
-    max-width: calc(100% - 2rem);
-    transform: translateY(150%);
-  }
-
-  .social-proof-toast.show {
-    transform: translateY(0);
-  }
-
-  .social-proof-text {
-    font-size: 0.8rem;
-  }
-
-  .whatsapp-float[data-tooltip]::before {
-    display: none;
-  }
-}
 

@@ -3,15 +3,6 @@
    Carga inline en <head> para optimizar FCP/LCP
    ============================================== */
 
-/* Reset mínimo crítico */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* Variables CSS críticas */
 :root {
   --color-accion: #d4644e;
@@ -133,6 +124,14 @@ body {
   padding: 4em 3em;
 }
 
+/* Page wrapper para contenedor principal - sin padding horizontal excesivo */
+.page-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 .section {
   width: min(calc(100% - 1.5em), 1440px);
   margin-inline: auto;
@@ -154,12 +153,3 @@ body {
   margin-top: 1.2em;
 }
 
-/* Mobile: ocultar navegación desktop */
-@media (max-width: 767px) {
-  .navegacion {
-    display: none;
-  }
-  .hamburger {
-    display: flex;
-  }
-}

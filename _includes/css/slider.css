@@ -62,19 +62,3 @@
   }
 }
 
-/* Responsive */
-@media (width <= 768px) {
-  .slide-container {
-    gap: 2rem;
-    width: calc(var(--items-count, 20) * 200px + var(--items-count, 20) * 2rem);
-  }
-
-  .slide-container figure {
-    width: 200px;
-  }
-
-  .slide-container img {
-    height: 80px;
-    max-width: 200px;
-  }
-}

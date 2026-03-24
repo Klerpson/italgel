@@ -200,10 +200,12 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 3em; /* Increased gap */
+  width: 100%; /* Fix: evita shrink-to-fit en contenedores grid con justify-items: center */
 
   & > * {
-    flex: 1 0 360px;
+    flex: 1 1 360px;
     max-width: 100%;
+    min-width: 0;
   }
 
   &.flex_left {
@@ -218,7 +220,7 @@ img {
 
 .three_columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 2rem;
   align-items: start;
   place-content: center;
@@ -250,6 +252,11 @@ img {
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
 }
+
+/* Fix: en contextos grid (ej. .center), los article no se reducen a max-content */
+/* article.bg_grey_light {
+  width: 100%;
+} */
 
 .bg_pink {
   padding: 3em;
@@ -349,3 +356,4 @@ img {
   box-shadow: var(--shadow-large);
   border-color: var(--color-accent);
 }
+
