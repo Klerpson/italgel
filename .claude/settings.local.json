@@ -14,7 +14,8 @@
       "Bash(claude mcp:*)",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_resize",
-      "mcp__playwright__browser_evaluate"
+      "mcp__playwright__browser_evaluate",
+      "Bash(find d:/github/italgel/_site -name *.html)"
     ]
   }
 }
