@@ -18,13 +18,14 @@
     try {
       var hoja = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
       if (hoja.getLastRow() === 0) {
-        hoja.appendRow(['Fecha y hora', 'Tipo', 'Producto', 'Lote', 'Descripcion']);
-        hoja.getRange(1, 1, 1, 5).setFontWeight('bold');
+        hoja.appendRow(['Fecha y hora', 'Nombre', 'Tipo', 'Producto', 'Lote', 'Descripcion']);
+        hoja.getRange(1, 1, 1, 6).setFontWeight('bold');
         hoja.setFrozenRows(1);
       }
       var p = e.parameter;
       hoja.appendRow([
         p.fecha       || new Date().toLocaleString('es-CO'),
+        p.nombre      || 'N/A',
         p.tipo        || '',
         p.producto    || 'N/A',
         p.lote        || 'N/A',
@@ -72,10 +73,35 @@
     <!-- Pasos del formulario -->
     <div class="pqr-contenido">
 
-      <!-- ── Paso 1: Tipo de solicitud ── -->
+      <!-- ── Paso 1: Nombre ── -->
       <div class="pqr-paso activo" id="pqr-paso-1">
         <p class="pqr-num-paso">01 <span>→</span></p>
-        <h2 class="pqr-pregunta" id="pqr-h2">¿Qué tipo de solicitud necesitas radicar?</h2>
+        <h2 class="pqr-pregunta" id="pqr-h2">¿Cuál es tu nombre?</h2>
+        <p class="pqr-hint">Ingresa tu nombre y apellido</p>
+        <div class="pqr-campo-wrap">
+          <input
+            type="text"
+            id="pqr-nombre"
+            class="pqr-campo"
+            placeholder="Ej: Juan Pérez"
+            maxlength="100"
+            autocomplete="name"
+            aria-label="Tu nombre"
+            aria-required="true"
+          >
+          <div id="pqr-error-nombre" class="pqr-error-msg" hidden aria-live="assertive">
+            Por favor ingresa tu nombre.
+          </div>
+          <button class="boton pqr-btn-siguiente" id="pqr-btn-1" type="button">
+            Continuar <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Paso 2: Tipo de solicitud ── -->
+      <div class="pqr-paso" id="pqr-paso-2">
+        <p class="pqr-num-paso">02 <span>→</span></p>
+        <h2 class="pqr-pregunta">¿Qué tipo de solicitud necesitas radicar?</h2>
         <p class="pqr-hint">Selecciona una opción para continuar</p>
         <div class="pqr-grid-opciones" role="group" aria-label="Tipo de solicitud">
           <button class="pqr-opcion" data-campo="tipo" data-valor="Devolución" type="button">
@@ -97,9 +123,9 @@
         </div>
       </div>
 
-      <!-- ── Paso 2: Tipo de producto (omitir si es Comentario) ── -->
-      <div class="pqr-paso" id="pqr-paso-2">
-        <p class="pqr-num-paso">02 <span>→</span></p>
+      <!-- ── Paso 3: Tipo de producto (omitir si es Comentario) ── -->
+      <div class="pqr-paso" id="pqr-paso-3">
+        <p class="pqr-num-paso">03 <span>→</span></p>
         <h2 class="pqr-pregunta">¿A qué tipo de producto se refiere?</h2>
         <div class="pqr-grid-opciones pqr-grid-2" role="group" aria-label="Tipo de producto">
           <button class="pqr-opcion" data-campo="producto" data-valor="Equipo" type="button">
@@ -113,9 +139,9 @@
         </div>
       </div>
 
-      <!-- ── Paso 3: Número de lote (omitir si es Comentario) ── -->
-      <div class="pqr-paso" id="pqr-paso-3">
-        <p class="pqr-num-paso">03 <span>→</span></p>
+      <!-- ── Paso 4: Número de lote (omitir si es Comentario) ── -->
+      <div class="pqr-paso" id="pqr-paso-4">
+        <p class="pqr-num-paso">04 <span>→</span></p>
         <h2 class="pqr-pregunta">¿Cuál es el número de lote?</h2>
         <p class="pqr-hint">Opcional — déjalo en blanco si no aplica o no lo tienes</p>
         <div class="pqr-campo-wrap">
@@ -128,15 +154,15 @@
             autocomplete="off"
             aria-label="Número de lote (opcional)"
           >
-          <button class="boton pqr-btn-siguiente" id="pqr-btn-3" type="button">
+          <button class="boton pqr-btn-siguiente" id="pqr-btn-4" type="button">
             Continuar <span aria-hidden="true">↓</span>
           </button>
         </div>
       </div>
 
-      <!-- ── Paso 4: Descripción ── -->
-      <div class="pqr-paso" id="pqr-paso-4">
-        <p class="pqr-num-paso" id="pqr-num-4">04 <span>→</span></p>
+      <!-- ── Paso 5: Descripción ── -->
+      <div class="pqr-paso" id="pqr-paso-5">
+        <p class="pqr-num-paso" id="pqr-num-5">05 <span>→</span></p>
         <h2 class="pqr-pregunta">Cuéntanos los detalles de tu solicitud</h2>
         <p class="pqr-hint">Entre más información nos des, más rápido podemos atenderte</p>
         <div class="pqr-campo-wrap">
@@ -152,14 +178,14 @@
           <div id="pqr-error-desc" class="pqr-error-msg" hidden aria-live="assertive">
             Por favor ingresa una descripción antes de enviar.
           </div>
-          <button class="boton pqr-btn-siguiente" id="pqr-btn-4" type="button">
+          <button class="boton pqr-btn-siguiente" id="pqr-btn-5" type="button">
             Enviar solicitud ✓
           </button>
         </div>
       </div>
 
-      <!-- ── Paso 5: Confirmación ── -->
-      <div class="pqr-paso" id="pqr-paso-5">
+      <!-- ── Paso 6: Confirmación ── -->
+      <div class="pqr-paso" id="pqr-paso-6">
         <div class="pqr-exito">
           <div class="pqr-exito-check" aria-hidden="true">✓</div>
           <h2 class="pqr-pregunta">¡Solicitud radicada con éxito!</h2>
@@ -179,7 +205,7 @@
         </svg>
         Atrás
       </button>
-      <span class="pqr-conteo" id="pqr-conteo" aria-live="polite">Paso 1 de 4</span>
+      <span class="pqr-conteo" id="pqr-conteo" aria-live="polite">Paso 1 de 5</span>
     </div>
 
   </div>

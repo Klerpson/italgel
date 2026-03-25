@@ -254,6 +254,7 @@
       this.conteo      = $('#pqr-conteo');
       this.btnAtras    = $('#pqr-atras');
       this.num4        = $('#pqr-num-4');
+      this.num5        = $('#pqr-num-5');
 
       this.attachEvents();
       this.reset();
@@ -286,7 +287,31 @@
         btn.addEventListener('click', () => this.elegir(btn))
       );
 
-      $('#pqr-btn-3').addEventListener('click', () => {
+      $('#pqr-btn-1').addEventListener('click', () => {
+        const nom = $('#pqr-nombre');
+        const err = $('#pqr-error-nombre');
+        if (!nom.value.trim()) {
+          nom.classList.add('pqr-campo-error');
+          err.hidden = false;
+          nom.focus();
+          return;
+        }
+        nom.classList.remove('pqr-campo-error');
+        err.hidden = true;
+        this.datos.nombre = nom.value.trim();
+        this.avanzar();
+      });
+
+      $('#pqr-nombre').addEventListener('keydown', e => {
+        if (e.key === 'Enter') $('#pqr-btn-1').click();
+      });
+
+      $('#pqr-nombre').addEventListener('input', () => {
+        $('#pqr-nombre').classList.remove('pqr-campo-error');
+        $('#pqr-error-nombre').hidden = true;
+      });
+
+      $('#pqr-btn-4').addEventListener('click', () => {
         this.datos.lote = $('#pqr-lote').value.trim();
         this.avanzar();
       });
@@ -295,7 +320,7 @@
         if (e.key === 'Enter') { this.datos.lote = e.target.value.trim(); this.avanzar(); }
       });
 
-      $('#pqr-btn-4').addEventListener('click', () => this.validarYEnviar());
+      $('#pqr-btn-5').addEventListener('click', () => this.validarYEnviar());
 
       $('#pqr-desc').addEventListener('input', () => {
         $('#pqr-desc').classList.remove('pqr-campo-error');
@@ -312,14 +337,14 @@
       );
 
       if (campo === 'tipo')
-        this.flujo = valor === 'Comentario' ? [1, 4] : [1, 2, 3, 4];
+        this.flujo = valor === 'Comentario' ? [1, 2, 5] : [1, 2, 3, 4, 5];
 
       setTimeout(() => this.avanzar(), 320);
     },
 
     avanzar() {
       this.idx++;
-      this.mostrar(this.idx >= this.flujo.length ? 5 : this.flujo[this.idx]);
+      this.mostrar(this.idx >= this.flujo.length ? 6 : this.flujo[this.idx]);
     },
 
     mostrar(numPaso) {
@@ -329,10 +354,10 @@
       if (!paso) return;
       paso.classList.add('activo');
 
-      if (numPaso === 4)
-        this.num4.innerHTML = `${this.flujo.length <= 2 ? '02' : '04'} <span>\u2192</span>`;
+      if (numPaso === 5)
+        this.num5.innerHTML = `${this.flujo.length <= 3 ? '03' : '05'} <span>\u2192</span>`;
 
-      const enExito = numPaso === 5;
+      const enExito = numPaso === 6;
       const pct     = enExito ? 100 : Math.round((this.idx / this.flujo.length) * 100);
 
       this.barra.style.width = `${pct}%`;
@@ -367,12 +392,13 @@
     },
 
     enviar() {
-      const btn = $('#pqr-btn-4');
+      const btn = $('#pqr-btn-5');
       btn.disabled    = true;
       btn.textContent = 'Enviando\u2026';
 
       const params = new URLSearchParams({
         fecha:      new Date().toLocaleString('es-CO', { timeZone: 'America/Bogota' }),
+        nombre:     this.datos.nombre,
         tipo:       this.datos.tipo,
         producto:   this.datos.producto,
         lote:       this.datos.lote,
@@ -383,7 +409,7 @@
         .catch(() => {})
         .finally(() => {
           this.idx = this.flujo.length;
-          this.mostrar(5);
+          this.mostrar(6);
           btn.disabled    = false;
           btn.textContent = 'Enviar solicitud \u2713';
         });
@@ -406,24 +432,28 @@
     },
 
     reset() {
-      this.datos = { tipo: '', producto: '', lote: '', comentario: '' };
-      this.flujo = [1, 2, 3, 4];
+      this.datos = { nombre: '', tipo: '', producto: '', lote: '', comentario: '' };
+      this.flujo = [1, 2, 3, 4, 5];
       this.idx   = 0;
 
       $$('.pqr-paso', this.overlay).forEach(p => p.classList.remove('activo'));
       $('#pqr-paso-1').classList.add('activo');
       $$('.pqr-opcion', this.overlay).forEach(b => b.classList.remove('seleccionado'));
 
+      $('#pqr-nombre').value = '';
+      $('#pqr-nombre').classList.remove('pqr-campo-error');
+      $('#pqr-error-nombre').hidden = true;
+
       $('#pqr-lote').value = '';
       const desc = $('#pqr-desc');
       desc.value = '';
       desc.classList.remove('pqr-campo-error');
       $('#pqr-error-desc').hidden = true;
-      this.num4.innerHTML = '04 <span>\u2192</span>';
+      if (this.num5) this.num5.innerHTML = '05 <span>\u2192</span>';
 
       this.barra.style.width = '0%';
       this.progressbar.setAttribute('aria-valuenow', '0');
-      this.conteo.textContent = 'Paso 1 de 4';
+      this.conteo.textContent = 'Paso 1 de 5';
       this.btnAtras.style.visibility = 'hidden';
     }
   };
