@@ -1,4 +1,4 @@
-/* Botones flotantes optimizados */
+/* Botones flotantes */
 .scroll-up-btn {
   position: fixed;
   bottom: 100px;
@@ -8,7 +8,7 @@
   padding: 1rem;
   border-radius: 50%;
   text-decoration: none;
-  box-shadow: 0 4px 15px color-mix(in srgb, var(--principal) 30%, transparent);
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--color-principal) 30%, transparent);
   transition: all 0.3s ease;
   z-index: 998;
   opacity: 0;
@@ -53,7 +53,6 @@
   border: none;
   cursor: pointer;
   max-width: fit-content;
-  /* Necesario para el pseudo-elemento del glow animado */
   isolation: isolate;
 }
 
@@ -61,13 +60,12 @@
   background: #128c7e;
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
-  -webkit-animation: none;
   animation: none;
   text-decoration: none;
   color: white;
 }
 
-/* Pseudo-elemento para glow animado compuesto (solo opacity, no box-shadow) */
+/* Glow animado compuesto (solo opacity, no dispara repaint) */
 .whatsapp-float::after {
   content: "";
   position: absolute;
@@ -84,19 +82,10 @@
   opacity: 0;
 }
 
-/* Animación compuesta: solo opacity (no dispara repaint) */
 @keyframes pulse-whatsapp-glow {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
 }
-
 
 /* Estilos para el contenido principal */
 main {
@@ -110,8 +99,6 @@ main {
   outline: 3px solid var(--accion);
   outline-offset: 2px;
 }
-
-
 
 /* Tooltip de prueba social */
 .whatsapp-float[data-tooltip]::before {
@@ -138,11 +125,6 @@ main {
 .whatsapp-float:hover[data-tooltip]::before {
   opacity: 1;
   transform: translateY(0);
-}
-
-.whatsapp-float:hover::after {
-  animation: none;
-  opacity: 0;
 }
 
 /* Notificaciones de compras en tiempo real */
@@ -185,4 +167,137 @@ main {
   line-height: 1.4;
 }
 
+/* ============================================
+   Modal WhatsApp fallback
+   ============================================ */
+.whatsapp-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 10001;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.3s ease;
+}
 
+.whatsapp-modal.active {
+  display: flex;
+}
+
+.whatsapp-modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+.whatsapp-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #666;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.whatsapp-modal-close:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.whatsapp-modal-icon {
+  margin-bottom: 1rem;
+}
+
+.whatsapp-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.whatsapp-modal p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.whatsapp-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.whatsapp-modal-btn {
+  padding: 0.875rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.whatsapp-modal-btn-primary {
+  background: #25D366;
+  color: white;
+}
+
+.whatsapp-modal-btn-primary:hover {
+  background: #128C7E;
+  transform: translateY(-2px);
+}
+
+.whatsapp-modal-btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.whatsapp-modal-btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.whatsapp-modal-footer {
+  font-size: 0.875rem;
+  color: #999;
+  margin: 0;
+}
+
+.whatsapp-modal-footer strong {
+  color: #25D366;
+  user-select: all;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
