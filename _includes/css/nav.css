@@ -147,9 +147,21 @@
   margin: 0 0 0.5rem 0;
 }
 
+.nav-item.has-megamenu:has(.megamenu-blog) {
+  position: relative;
+}
+
+.megamenu-blog {
+  width: auto;
+  min-width: 320px;
+  max-width: 400px;
+  left: 0;
+  right: auto;
+}
+
 .megamenu-blog .megamenu-wrapper {
-  grid-template-columns: minmax(280px, 360px);
-  max-width: 360px; /* Limitar ancho del dropdown del blog */
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 .badge-priority {
@@ -204,9 +216,36 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  transition: gap 0.3s ease;
+  transition: all 0.3s ease;
+  white-space: nowrap;
 }
-.megamenu-cta:hover { gap: 8px; }
+.megamenu-cta:hover {
+  gap: 8px;
+  transform: translateY(-2px);
+}
+
+/* Estilo de botón para todos los "Ver más" de los dropdowns */
+.megamenu-column .megamenu-cta {
+  background: var(--color-accion);
+  color: var(--color-blanco);
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius);
+  border: none;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  width: fit-content;
+}
+
+.megamenu-column .megamenu-cta:hover {
+  background: color-mix(in srgb, var(--color-accion) 85%, #000);
+  color: var(--color-blanco);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  gap: 8px;
+}
 
 /* =========================================================
    🔹 CTAs + ICONOS
