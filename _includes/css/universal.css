@@ -240,6 +240,20 @@ img {
   }
 }
 
+.four_columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: 1.5rem;
+  align-items: start;
+  place-content: center;
+  width: 100%;
+  margin-block: 3em;
+
+  p {
+    font-size: 15px;
+  }
+}
+
 .bg_grey {
   background: var(--color-bg-secondary);
   /* Using subtle texture overlays instead of gradients for warmth */

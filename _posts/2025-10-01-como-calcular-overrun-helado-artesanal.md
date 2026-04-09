@@ -1,20 +1,31 @@
 ---
 layout: post
-title: "Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad"
-description: "Aprende a calcular el overrun del helado en 3 pasos con fórmulas comprobadas. Descubre el overrun ideal según tu tipo de producción y cómo controlarlo con bases profesionales."
-excerpt: "El overrun determina cuánto helado produces con cada kilo de mezcla. Domina este cálculo y aumenta tu rentabilidad sin sacrificar calidad."
+title: "Cómo calcular el overrun del helado artesanal: fórmula, rangos óptimos y control"
+description: "Cómo calcular el overrun del helado artesanal: fórmula en 3 pasos, rangos óptimos por tipo de producción y cómo controlarlo con bases profesionales MEC3. Guía práctica 2026."
+excerpt: "El overrun determina cuánto helado produces con cada kilo de mezcla. Con Base 50 MEC3 y el proceso correcto, puedes lograr 40% más producto sin sacrificar textura ni calidad."
 date: 2025-10-01
-last_modified_at: 2025-10-01
+last_modified_at: 2026-04-08
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/calcular-overrun-helado-artesanal.avif
 jpg: /img/blog/calcular-overrun-helado-artesanal.jpg
 alt: "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad"
-h1: "Cómo calcular el overrun del helado artesanal y aumentar tu rentabilidad"
+h1: "Cómo calcular el overrun del helado artesanal: fórmula práctica y rangos óptimos"
 schema_type: Article
 featured: true
 referencias:
   - Emprendiendo con pasión: https://gurcoff.com/tu-puedes-emprender
+faq:
+  - q: "¿Cómo se calcula el overrun del helado?"
+    a: "Fórmula: Overrun (%) = ((Volumen final - Volumen inicial) / Volumen inicial) × 100. Ejemplo: si de 10 litros de mezcla obtienes 15 litros de helado, el overrun es ((15-10)/10) × 100 = 50%. El volumen se mide en el mismo recipiente antes y después del mantecado."
+  - q: "¿Cuál es el overrun ideal para helado artesanal?"
+    a: "Depende del estilo: gelato italiano tiene overrun óptimo de 20-40% (denso, sabor intenso). Helado artesanal tradicional: 50-70% (equilibrado entre densidad y volumen). Helado soft: 60-80% (máximo volumen, textura ligera). Usar la base correcta para cada rango es fundamental para resultados consistentes."
+  - q: "¿Por qué varía el overrun de un lote a otro?"
+    a: "Las causas más comunes de variación son: temperatura de la mezcla antes del mantecado (debe estar a 4°C), tiempo de mantecado inconsistente, temperatura del ambiente, estado de la mantecadora (cuchillas desgastadas reducen incorporación de aire) y formulación de la base. Las bases MEC3 tienen formulación estable que reduce la variación entre lotes."
+---
+
+**En resumen:** El overrun del helado artesanal se calcula con la fórmula: ((Volumen final - Volumen inicial) / Volumen inicial) × 100. El rango óptimo depende del estilo: 20-40% para gelato, 50-70% para helado artesanal y 60-80% para helado soft. Con bases MEC3 y el proceso correcto, puedes producir hasta 40% más helado por kilo de mezcla sin sacrificar textura.
+
 ---
 
 El overrun es **el número que separa una heladería rentable de una que apenas sobrevive**. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.

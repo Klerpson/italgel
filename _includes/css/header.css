@@ -309,3 +309,22 @@
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.12))
     drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.1));
 }
+
+/* =========================================================
+   Hero Blog — hero compacto de texto
+   ========================================================= */
+.hero_blog {
+  background-color: color-mix(in srgb, var(--color-brand-teal) 8%, var(--color-bg-secondary));
+  box-shadow: 0 0 0 100vmax color-mix(in srgb, var(--color-brand-teal) 8%, var(--color-bg-secondary));
+  clip-path: inset(0 -100vmax);
+  padding-block: 5em;
+
+  & h1 {
+    color: var(--color-brand-teal);
+    margin-block-start: 0.5em;
+  }
+
+  & .hero_subtitle {
+    max-width: 65ch;
+  }
+}

@@ -2,13 +2,15 @@
 layout: default
 ---
 {{content}}
-<section class="wrapper center text_center flow cta">
+{% unless page.no_cta %}
+<section class="wrapper flow cta">
   <h2>Solicita cotización de insumos y equipos para tu heladería</h2>
   <p>Recibe asesoría técnica personalizada y descubre cuánto puedes mejorar tu rentabilidad con los insumos correctos. Sin compromiso, sin letra pequeña.</p>
-  <div class="flex">
+  <div class="botones">
     {% include boton.html num="1" text="Cotizar por WhatsApp ahora 👉🍨" %}
     <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2">Llamar a asesoría técnica</a>
   </div>
   <small><i>Horario de atención: Lunes a Viernes 8:00 AM - 6:00 PM | Sábados 9:00 AM - 1:00 PM</i></small>
 </section>
+{% endunless %}
 

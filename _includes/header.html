@@ -108,7 +108,7 @@
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
     <p>{{page.intro}}</p>
-    <div class="flex" style="gap: 1em">
+    <div class="hero_ctas">
       {% include boton.html num="1" text="Cotizar por WhatsApp 🍨" %}
       <a href="{{'/insumos/'|relative_url}}" class="boton boton_2"
         >Ver catálogo</a
@@ -125,6 +125,12 @@
     height="420"
     class="hero_picture hero_brand_img"
   />
+</header>
+{% when "blog" %}
+<header class="wrapper flow hero_blog" role="banner">
+  <p class="hero_badge">Blog de heladería profesional · Italgel Colombia</p>
+  <h1>{{page.h1}}</h1>
+  <p class="hero_subtitle">{{page.intro}}</p>
 </header>
 {% else %}
 <header class="wrapper center flow text_center hero_general" role="banner">

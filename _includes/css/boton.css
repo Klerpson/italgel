@@ -40,3 +40,18 @@
   transform: translateY(0);
   box-shadow: var(--shadow-subtle);
 }
+
+/* Fix: botones en contenedores flex no deben expandirse */
+.flex .boton,
+.two_columns .boton,
+.three_columns .boton,
+.four_columns .boton {
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Fix específico para contenedores de botones */
+.flex:has(.boton) {
+  justify-content: center;
+  gap: 1rem;
+}

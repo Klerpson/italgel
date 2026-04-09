@@ -1,67 +1,37 @@
 /**
  * WhatsApp Integration Module
- * Maneja CTAs de WhatsApp con detección de dispositivo, app instalada y fallback modal
- * @version 2.0
+ * @version 3.0
  */
 
 (function() {
   'use strict';
 
-  // ============================================
-  // CONFIGURACIÓN
-  // ============================================
   const CONFIG = {
-    phoneNumber: '573192346788', // Número de WhatsApp (sin + ni espacios)
+    phoneNumber: '573192346788',
     defaultMessage: 'Hola! Me interesa información sobre los productos que vi en ',
-    modalTimeout: 3000, // Tiempo para detectar si se envió mensaje (ms)
-    scrollThreshold: 100 // Píxeles para mostrar botón scroll-up
-  };
-
-  // ============================================
-  // DETECCIÓN DE DISPOSITIVO Y APP
-  // ============================================
-  const DeviceDetector = {
-    isMobile: /iPhone|Android|iPad|iPod|Windows Phone|webOS|BlackBerry|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent),
-    isIOS: /iPhone|iPad|iPod/i.test(navigator.userAgent),
-    isAndroid: /Android/i.test(navigator.userAgent)
+    scrollThreshold: 100
   };
 
   // ============================================
   // GENERADOR DE URLS DE WHATSAPP
   // ============================================
   const WhatsAppURL = {
-    /**
-     * Genera URL de WhatsApp - intenta abrir la app primero, fallback a web
-     * @param {string} message - Mensaje pre-llenado
-     * @returns {string} URL completa de WhatsApp
-     */
     generate(message) {
-      const encodedMessage = encodeURIComponent(message);
-
-      // Siempre usar wa.me - intenta abrir app en móvil, web en desktop
-      return `https://wa.me/${CONFIG.phoneNumber}?text=${encodedMessage}`;
+      // wa.me gestiona automáticamente app vs web en cualquier dispositivo
+      return `https://wa.me/${CONFIG.phoneNumber}?text=${encodeURIComponent(message)}`;
     },
-    
-    /**
-     * Genera mensaje personalizado con URL de la página actual
-     * @returns {string} Mensaje formateado
-     */
     getMessage() {
-      const currentURL = window.location.href;
-      return `${CONFIG.defaultMessage}${currentURL}`;
+      return `${CONFIG.defaultMessage}${window.location.href}`;
     }
   };
 
   // ============================================
-  // MODAL DE FALLBACK
+  // MODAL DE FALLBACK (solo si popup bloqueado)
   // ============================================
   const FallbackModal = {
-    /**
-     * Crea el modal HTML si no existe
-     */
     create() {
       if (document.getElementById('whatsapp-fallback-modal')) return;
-      
+
       const modalHTML = `
         <div id="whatsapp-fallback-modal" class="whatsapp-modal" role="dialog" aria-labelledby="modal-title" aria-modal="true">
           <div class="whatsapp-modal-content">
@@ -87,190 +57,33 @@
           </div>
         </div>
       `;
-      
+
       document.body.insertAdjacentHTML('beforeend', modalHTML);
-      this.addStyles();
       this.attachEvents();
     },
-    
-    /**
-     * Agrega estilos CSS del modal
-     */
-    addStyles() {
-      if (document.getElementById('whatsapp-modal-styles')) return;
-      
-      const styles = `
-        <style id="whatsapp-modal-styles">
-          .whatsapp-modal {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.7);
-            backdrop-filter: blur(4px);
-            z-index: 10001;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            animation: fadeIn 0.3s ease;
-          }
-          
-          .whatsapp-modal.active {
-            display: flex;
-          }
-          
-          .whatsapp-modal-content {
-            background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            max-width: 400px;
-            width: 100%;
-            text-align: center;
-            position: relative;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-            animation: slideUp 0.3s ease;
-          }
-          
-          .whatsapp-modal-close {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: transparent;
-            border: none;
-            font-size: 2rem;
-            color: #666;
-            cursor: pointer;
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            transition: all 0.2s ease;
-          }
-          
-          .whatsapp-modal-close:hover {
-            background: #f0f0f0;
-            color: #333;
-          }
-          
-          .whatsapp-modal-icon {
-            margin-bottom: 1rem;
-          }
-          
-          .whatsapp-modal h2 {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-            color: #333;
-          }
-          
-          .whatsapp-modal p {
-            color: #666;
-            margin-bottom: 1.5rem;
-          }
-          
-          .whatsapp-modal-actions {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-            margin-bottom: 1.5rem;
-          }
-          
-          .whatsapp-modal-btn {
-            padding: 0.875rem 1.5rem;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 1rem;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: inline-block;
-          }
-          
-          .whatsapp-modal-btn-primary {
-            background: #25D366;
-            color: white;
-          }
-          
-          .whatsapp-modal-btn-primary:hover {
-            background: #128C7E;
-            transform: translateY(-2px);
-          }
-          
-          .whatsapp-modal-btn-secondary {
-            background: #f0f0f0;
-            color: #333;
-          }
-          
-          .whatsapp-modal-btn-secondary:hover {
-            background: #e0e0e0;
-          }
-          
-          .whatsapp-modal-footer {
-            font-size: 0.875rem;
-            color: #999;
-            margin: 0;
-          }
-          
-          .whatsapp-modal-footer strong {
-            color: #25D366;
-            user-select: all;
-          }
-          
-          @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-          }
-          
-          @keyframes slideUp {
-            from {
-              opacity: 0;
-              transform: translateY(20px);
-            }
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-        </style>
-      `;
-      
-      document.head.insertAdjacentHTML('beforeend', styles);
-    },
-    
-    /**
-     * Adjunta eventos al modal
-     */
+
     attachEvents() {
       const modal = document.getElementById('whatsapp-fallback-modal');
       const closeBtn = modal.querySelector('.whatsapp-modal-close');
       const retryBtn = document.getElementById('whatsapp-retry-btn');
-      
-      // Cerrar modal
+
       closeBtn.addEventListener('click', () => this.hide());
       modal.addEventListener('click', (e) => {
         if (e.target === modal) this.hide();
       });
-      
-      // Reintentar
+
       retryBtn.addEventListener('click', () => {
         this.hide();
-        const message = WhatsAppURL.getMessage();
-        const url = WhatsAppURL.generate(message);
-        window.open(url, '_blank');
+        window.open(WhatsAppURL.generate(WhatsAppURL.getMessage()), '_blank');
       });
-      
-      // Cerrar con ESC
+
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && modal.classList.contains('active')) {
           this.hide();
         }
       });
     },
-    
-    /**
-     * Muestra el modal
-     */
+
     show() {
       const modal = document.getElementById('whatsapp-fallback-modal');
       if (modal) {
@@ -278,10 +91,7 @@
         document.body.style.overflow = 'hidden';
       }
     },
-    
-    /**
-     * Oculta el modal
-     */
+
     hide() {
       const modal = document.getElementById('whatsapp-fallback-modal');
       if (modal) {
@@ -295,13 +105,9 @@
   // MANEJADOR DE CLICKS EN WHATSAPP
   // ============================================
   const WhatsAppHandler = {
-    /**
-     * Inicializa los enlaces de WhatsApp
-     */
     init() {
-      const whatsappLinks = document.querySelectorAll('a#lead_whatsapp, .whatsapp-float');
-
-      whatsappLinks.forEach(link => {
+      // .whatsapp-float cubre el botón flotante (que también tiene id="lead_whatsapp" para GTM)
+      document.querySelectorAll('.whatsapp-float').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           this.handleClick();
@@ -309,14 +115,10 @@
       });
     },
 
-    /**
-     * Maneja el click en un enlace de WhatsApp
-     */
     handleClick() {
       const message = WhatsAppURL.getMessage();
       const url = WhatsAppURL.generate(message);
 
-      // Enviar evento a GTM dataLayer
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         event: 'whatsapp_click',
@@ -326,29 +128,12 @@
         timestamp: new Date().toISOString()
       });
 
-      // Intentar abrir WhatsApp (app en móvil, web en desktop)
+      // wa.me gestiona app vs web automáticamente en móvil y desktop
       const whatsappWindow = window.open(url, '_blank');
 
-      // En móvil, intentar abrir app primero
-      if (DeviceDetector.isMobile) {
-        // Para móvil, intentar abrir app con intent URL
-        const appUrl = `whatsapp://send?phone=${CONFIG.phoneNumber}&text=${encodeURIComponent(message)}`;
-        window.location.href = appUrl;
-
-        // Si no se abre la app después de un tiempo, mostrar modal
-        setTimeout(() => {
-          if (!whatsappWindow || whatsappWindow.closed) {
-            FallbackModal.show();
-          }
-        }, CONFIG.modalTimeout);
-      } else {
-        // En desktop, abrir WhatsApp Web directamente
-        // Detectar si no se abrió (ventana se cerró rápido)
-        setTimeout(() => {
-          if (!whatsappWindow || whatsappWindow.closed) {
-            FallbackModal.show();
-          }
-        }, CONFIG.modalTimeout);
+      // Solo mostrar modal si el popup fue bloqueado por el navegador
+      if (!whatsappWindow) {
+        FallbackModal.show();
       }
     }
   };
@@ -358,25 +143,16 @@
   // ============================================
   const ScrollButton = {
     init() {
-      const scrollUpBtn = document.querySelector('.scroll-up-btn');
-      if (!scrollUpBtn) return;
-      
-      // Mostrar/ocultar según scroll
+      const btn = document.querySelector('.scroll-up-btn');
+      if (!btn) return;
+
       window.addEventListener('scroll', () => {
-        if (window.scrollY > CONFIG.scrollThreshold) {
-          scrollUpBtn.classList.add('visible');
-        } else {
-          scrollUpBtn.classList.remove('visible');
-        }
+        btn.classList.toggle('visible', window.scrollY > CONFIG.scrollThreshold);
       }, { passive: true });
-      
-      // Scroll suave al top
-      scrollUpBtn.addEventListener('click', (e) => {
+
+      btn.addEventListener('click', (e) => {
         e.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
   };
@@ -385,17 +161,11 @@
   // INICIALIZACIÓN
   // ============================================
   function init() {
-    // Crear modal de fallback
     FallbackModal.create();
-    
-    // Inicializar manejadores
     WhatsAppHandler.init();
     ScrollButton.init();
-    
-    console.log('✅ WhatsApp Integration loaded successfully');
   }
 
-  // Ejecutar cuando el DOM esté listo
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

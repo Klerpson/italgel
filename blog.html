@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Blog de Heladería Profesional | Guías, Técnicas y Negocio - Italgel"
 description: "Aprende técnicas de producción, cálculos de rentabilidad, recetas profesionales y estrategias de negocio para tu heladería. Contenido técnico actualizado mensualmente."
 hero: img/blog-itagel.avif
@@ -17,11 +17,14 @@ noindex: false
       {% for post in site.posts %} {% if post.featured %}
       <article class="product-card">
         <div class="product-img principal">
+          {% assign post_img = post.jpg | default: post.image | default: post.hero | default: '/img/blog-itagel.avif' %}
           <picture>
+            {% if post.hero %}
             <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
+            {% endif %}
             <img
-              src="{{ post.jpg | relative_url }}"
-              alt="{{ post.hero_alt }}"
+              src="{{ post_img | relative_url }}"
+              alt="{{ post.hero_alt | default: post.title }}"
               width="280"
               height="280"
               loading="eager"
@@ -55,243 +58,67 @@ noindex: false
     </article>
   </section>
 
-  <section class="center flow">
-    <h2 class="text_center">Producción técnica</h2>
+  <section class="center flow padding_block" id="all-posts">
+    <h2 class="text_center">Todos los artículos</h2>
 
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Pasteurización correcta de la mezcla para helado</h3>
-        <p>
-          La pasteurización elimina patógenos pero si se hace incorrectamente
-          arruina la textura. Temperaturas exactas, tiempos de mantención,
-          curvas de enfriamiento. Incluye protocolo paso a paso para
-          pasteurizadores y método casero.
-        </p>
-        <a
-          href="{{ '/blog/pasteurizacion-mezcla-helado-correcta/' | relative_url }}"
-          class="boton boton_2"
-          >Leer artículo →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/pasteurizacion-helado.avif' | relative_url }}"
-        alt="Proceso de pasteurización de mezcla para helado"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
+    <div id="posts-container" class="flow">
+      {% for post in site.posts %}
+        {% unless post.featured %}
+        <article class="flex bg_grey_light post-item {% cycle '', 'flex_left' %}" style="display: none;">
+          <div class="flow">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <a href="{{ post.url | relative_url }}" class="boton boton_2">Leer artículo &rarr;</a>
+          </div>
+          {% assign post_img = post.jpg | default: post.image | default: post.hero | default: '/img/blog-itagel.avif' %}
+          <picture>
+            {% if post.hero %}
+            <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
+            {% endif %}
+            <img src="{{ post_img | relative_url }}" alt="{{ post.hero_alt | default: post.title }}" loading="lazy" width="400" height="300" />
+          </picture>
+        </article>
+        {% endunless %}
+      {% endfor %}
+    </div>
 
-    <article class="flex flex_left bg_grey_light">
-      <div class="flow">
-        <h3>Conservación de bases para helado MEC3</h3>
-        <p>
-          Temperatura de almacenamiento, vida útil por tipo de base, señales de
-          deterioro, protocolos de rotación de inventario. Evita pérdidas por
-          caducidad de producto.
-        </p>
-        <a href="/bases-helado-colombia/" class="boton boton_2"
-          >Ver bases para helado →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/conservacion-bases-helado.avif' | relative_url }}"
-        alt="Almacenamiento correcto de bases para helado"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
-
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Errores comunes al hacer gelato italiano</h3>
-        <p>
-          10 errores técnicos que cometen heladerías al intentar hacer gelato:
-          overrun incorrecto, temperatura de servicio, batido excesivo, bases
-          inadecuadas. Soluciones para cada error.
-        </p>
-        <a
-          href="{{ '/blog/que-es-gelato-vs-helado-diferencias/' | relative_url }}"
-          class="boton boton_2"
-          >Leer artículo →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/errores-gelato.avif' | relative_url }}"
-        alt="Errores comunes en producción de gelato italiano"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
+    <div class="text_center" style="margin-block: 3rem;">
+      <button id="load-more-btn" class="boton boton_1" style="display: none;">Cargar posts más antiguos &darr;</button>
+    </div>
   </section>
 
-  <aside class="wrapper center text_center flow cta">
-    <h2>¿Necesitas asesoría técnica personalizada?</h2>
-    <p>
-      Si tienes dudas sobre producción, formulación de recetas o selección de
-      insumos, nuestro equipo técnico te asesora. Más de 15 años ayudando a
-      heladerías colombianas a optimizar su producción.
-    </p>
-    {% include boton.html num="1" text="Solicitar asesoría técnica 👨‍🔬" %}
-  </aside>
 
-  <section class="center flow">
-    <h2 class="text_center">Negocio y rentabilidad</h2>
 
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Cómo elegir máquina de helado para tu negocio</h3>
-        <p>
-          Artesanal vs soft vs industrial. Capacidad de producción, consumo
-          eléctrico, ROI esperado, mantenimiento. Tabla comparativa con 12
-          modelos de máquinas disponibles en Colombia. Calculadora de ROI
-          incluida.
-        </p>
-        <a href="/maquinas-helado-artesanal/" class="boton boton_2"
-          >Ver máquinas de helado →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/elegir-maquina-helado.avif' | relative_url }}"
-        alt="Guía para elegir máquina de helado profesional"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const posts = document.querySelectorAll(".post-item");
+    const loadMoreBtn = document.getElementById("load-more-btn");
+    let currentVisible = 0;
+    const showCount = 7;
 
-    <article class="flex flex_left bg_grey_light">
-      <div class="flow">
-        <h3>Proveedores de insumos para heladería en Colombia</h3>
-        <p>
-          Qué buscar en un proveedor B2B: disponibilidad de stock, tiempos de
-          entrega, asesoría técnica, soporte post-venta. Comparativa de
-          características (sin mencionar competencia directa).
-        </p>
-        <a href="/insumos/" class="boton boton_2"
-          >Ver insumos profesionales →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/proveedores-heladeria.avif' | relative_url }}"
-        alt="Cómo elegir proveedor de insumos para heladería"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
+    function showNextPosts() {
+      let nextVisible = currentVisible + showCount;
+      for(let i = currentVisible; i < nextVisible && i < posts.length; i++) {
+          posts[i].style.display = "flex";
+      }
+      currentVisible = nextVisible;
+      
+      if (currentVisible >= posts.length) {
+         if(loadMoreBtn) loadMoreBtn.style.display = "none";
+      } else {
+         if(loadMoreBtn) loadMoreBtn.style.display = "inline-flex";
+      }
+    }
 
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Abrir una heladería en Colombia: guía completa 2025</h3>
-        <p>
-          Requisitos legales (INVIMA, Cámara de Comercio, bomberos), inversión
-          inicial real, lista de insumos y equipos, plan de negocios básico,
-          errores que debes evitar. Basado en 20 casos reales de apertura.
-        </p>
-        <a href="/contacto/" class="boton boton_2">Contactar asesor →</a>
-      </div>
-      <img
-        src="{{ '/img/blog/abrir-heladeria-colombia.avif' | relative_url }}"
-        alt="Guía para abrir heladería en Colombia"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
-  </section>
+    if (posts.length > 0) {
+      showNextPosts();
+    }
+    
+    if(loadMoreBtn) {
+       loadMoreBtn.addEventListener("click", showNextPosts);
+    }
+  });
+  </script>
 
-  <section class="center flow">
-    <h2 class="text_center">Recetas y sabores</h2>
 
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Toppings para helado más vendidos en Colombia</h3>
-        <p>
-          Top 15 toppings con mejor margen de ganancia. Presentación de barra de
-          toppings, costos vs valor percibido, tendencias 2025. Análisis de
-          ventas de 50 heladerías colombianas.
-        </p>
-        <a
-          href="{{ '/blog/toppings-para-helado-mas-rentables/' | relative_url }}"
-          class="boton boton_2"
-          >Leer artículo →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/toppings-helado.avif' | relative_url }}"
-        alt="Toppings para helado más populares"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
-
-    <article class="flex flex_left bg_grey_light">
-      <div class="flow">
-        <h3>Recetas de helado artesanal con mayor margen</h3>
-        <p>
-          5 recetas probadas con rentabilidad 70%+: pistacho siciliano, dulce de
-          leche con brownie, maracuyá con merengue, café de Colombia, chocolate
-          belga. Costo por porción vs precio de venta sugerido.
-        </p>
-        <a
-          href="{{ '/blog/como-calcular-overrun-helado-artesanal/' | relative_url }}"
-          class="boton boton_2"
-          >Leer artículo →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/recetas-rentables-helado.avif' | relative_url }}"
-        alt="Recetas de helado artesanal rentables"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
-
-    <article class="flex bg_grey_light">
-      <div class="flow">
-        <h3>Tendencias de sabores de helado en Colombia 2025</h3>
-        <p>
-          Data de ventas por sabor, sabores emergentes vs tradicionales,
-          influencia de TikTok e Instagram, cómo adelantarte a tendencias.
-          Pastas disponibles para sabores trending.
-        </p>
-        <a href="/pastas-sabores-helado/" class="boton boton_2"
-          >Ver pastas y sabores →</a
-        >
-      </div>
-      <img
-        src="{{ '/img/blog/tendencias-helado-2025.avif' | relative_url }}"
-        alt="Tendencias de sabores de helado 2025"
-        loading="lazy"
-        width="400"
-        height="300"
-      />
-    </article>
-  </section>
-
-  <section class="wrapper center text_center flow cta">
-    <h2>Suscríbete para recibir nuevos artículos</h2>
-    <p>
-      Publicamos 4 artículos mensuales sobre producción técnica, análisis de
-      costos y tendencias del mercado heladero. Todo basado en experiencia real
-      de heladerías colombianas.
-    </p>
-
-    <form action="#" method="post" class="center flow">
-      <input
-        type="email"
-        name="email"
-        placeholder="Tu email profesional"
-        required
-      />
-      <button type="submit" class="boton boton_1">Suscribirse →</button>
-    </form>
-
-    <small><i>Enviamos máximo 1 email semanal. Sin spam.</i></small>
-  </section>
 </main>
