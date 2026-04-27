@@ -1,21 +1,23 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep \"last_modified_at\" d:/github/italgel/_posts/*.md)",
-      "Bash(head -5 d:/github/italgel/_posts/*.md)",
-      "Bash(bundle exec jekyll build)",
-      "Bash(git mv insumos-heladeria-medellin.html insumos-heladeria-medellín.html)",
-      "WebSearch",
-      "Bash(git add:*)",
-      "Bash(git checkout:*)",
-      "Skill(update-config)",
-      "Skill(update-config:*)",
-      "Bash(npx @playwright/mcp@latest --version)",
-      "Bash(claude mcp:*)",
+      "Bash(bundle exec jekyll:*)",
+      "Bash(dir:*)",
+      "Bash(python -c \"import subprocess; print\\(''python available''\\)\")",
+      "Bash(del /q _serviciosactivity-monitoring.html _serviciosmindfulness-training.html _serviciossleep-tracking.html about.html services.html)",
+      "Bash(grep:*)",
+      "Bash(done)",
+      "Bash(cat d:/github/juli/_data/*.yml)",
+      "Bash(find d:/github/juli -name *.css)",
       "mcp__playwright__browser_navigate",
-      "mcp__playwright__browser_resize",
-      "mcp__playwright__browser_evaluate",
-      "Bash(find d:/github/italgel/_site -name *.html)"
+      "mcp__claude_ai_Ahrefs__keywords-explorer-overview",
+      "Bash(for file:*)",
+      "Bash(do echo:*)",
+      "WebSearch",
+      "Bash(cat /d/github/juli/_redirects/*.html)",
+      "WebFetch(domain:www.mymarky.ai)",
+      "WebFetch(domain:daveswift.com)",
+      "WebFetch(domain:mymarky.com)"
     ]
   }
 }
