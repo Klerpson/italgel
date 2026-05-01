@@ -1,3 +1,35 @@
 # Claude
-claude/
 plans/
+claude/
+.claude/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby
+.bundle/
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
