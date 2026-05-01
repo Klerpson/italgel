@@ -1,3 +1,6 @@
+---
+noindex: true
+---
 # Plan de implementación de señales E-E-A-T para Italgel
 
 ## Análisis del sitio actual
