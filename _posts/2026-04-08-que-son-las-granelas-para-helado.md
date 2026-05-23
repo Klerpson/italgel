@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "¿Qué son las granelas para helado? Tipos, usos y diferencias - Italgel"
-description: "Qué son las granelas para helado: tipos, usos, dosificación y por qué las profesionales no se ablandan. Guía para heladerías que quieren aumentar su ticket promedio."
+title: "¿Qué son las granelas para helado? Tipos y usos"
+description: "Tipos, usos y dosificación de granelas para helado. Por qué las profesionales no se ablandan y cómo usarlas para aumentar el ticket promedio."
 excerpt: "Las granelas para helado no son solo decoración. Son la diferencia entre un cliente que dice 'está bueno' y uno que vuelve por ese topping crujiente. Aquí está todo lo que necesitas saber."
 h1: "¿Qué son las granelas para helado y por qué las profesionales no se ablandan con el frío?"
 date: 2026-04-08 09:00:00 -0500

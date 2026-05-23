@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Cómo calcular el overrun del helado artesanal: fórmula, rangos óptimos y control"
-description: "Cómo calcular el overrun del helado artesanal: fórmula en 3 pasos, rangos óptimos por tipo de producción y cómo controlarlo con bases profesionales MEC3. Guía práctica 2026."
+title: "Cómo calcular el overrun del helado artesanal: guía"
+description: "Fórmula en 3 pasos para calcular el overrun del helado artesanal, rangos óptimos por tipo de producción y cómo controlarlo con bases MEC3."
 excerpt: "El overrun determina cuánto helado produces con cada kilo de mezcla. Con Base 50 MEC3 y el proceso correcto, puedes lograr 40% más producto sin sacrificar textura ni calidad."
 date: 2025-10-01
 last_modified_at: 2026-04-08

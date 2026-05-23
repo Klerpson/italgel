@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes"
-description: "Cómo producir helados sin azúcar en heladería artesanal: bases MEC3 con Stevia, edulcorantes profesionales, dosificación correcta y cómo posicionar el helado light para capturar el mercado saludable en Colombia."
+title: "Helados sin azúcar para heladería: bases con Stevia"
+description: "Bases MEC3 con Stevia para helado sin azúcar: dosificación, edulcorantes profesionales y cómo posicionar el helado light en el mercado saludable de Colombia."
 excerpt: "El helado sin azúcar no es un helado al que le quitaste el azúcar. Es un producto reformulado con edulcorantes que replican las funciones del azúcar en textura y punto de congelación. Esta guía explica cómo producirlo bien."
 h1: "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionales"
 date: 2026-04-29 12:00:00 -0500

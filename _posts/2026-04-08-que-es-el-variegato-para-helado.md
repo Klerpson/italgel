@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "¿Qué es el variegato para helado? Guía técnica para heladeros - Italgel"
+title: "¿Qué es el variegato para helado? Guía técnica"
 description: "Qué es un variegato para helado: función, tipos, dosificación y diferencia con coberturas genéricas. Guía técnica con datos reales para heladerías profesionales."
 excerpt: "El variegato no es una salsa ni un topping. Es un ingrediente de producción que define la apariencia, sabor y margen de cada bola. Aquí aprenderás a usarlo correctamente."
 h1: "¿Qué es el variegato para helado? La diferencia entre un veteado profesional y uno casero"

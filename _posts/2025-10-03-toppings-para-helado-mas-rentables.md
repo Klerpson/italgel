@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Toppings para helado más rentables: costos, márgenes y cómo presentarlos"
+title: "Toppings para helado más rentables: costos y márgenes"
 description: "Toppings para helado más rentables en Colombia: análisis de 12 opciones con costo por porción, margen real y estrategia de presentación para heladería profesional."
 excerpt: "Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,500 COP sin aumentar costos proporcionalmente. Esta guía muestra cuáles usar y cómo calcular su margen real."
 date: 2025-10-03

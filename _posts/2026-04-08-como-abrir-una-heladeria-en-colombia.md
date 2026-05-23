@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Cómo abrir una heladería en Colombia: guía paso a paso con costos reales"
-description: "Cómo abrir una heladería en Colombia: inversión inicial, equipos, insumos, local y errores que evitar. Guía con costos reales 2026 para emprendedores del sector."
+title: "Cómo abrir una heladería en Colombia: guía con costos"
+description: "Inversión inicial, equipos, insumos y errores que evitar para abrir una heladería en Colombia. Guía con costos reales para emprendedores del sector."
 excerpt: "Abrir una heladería en Colombia puede costar desde $15 millones hasta $80 millones según el modelo. Aquí están los pasos, los costos reales y los errores que nadie te cuenta."
 h1: "Cómo abrir una heladería en Colombia: lo que cuesta, lo que necesitas y lo que nadie te dice"
 date: 2026-04-08 10:00:00 -0500

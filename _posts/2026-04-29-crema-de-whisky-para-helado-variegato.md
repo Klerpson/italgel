@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Crema de whisky para helado artesanal: cómo usarla como variegato y salsa"
-description: "Cómo usar crema de whisky en helado artesanal: variegato Whisky MEC3, dosificación correcta, por qué la crema Bailey's no funciona directamente y combinaciones que más venden."
+title: "Crema de whisky para helado: variegato y dosificación"
+description: "Variegato Whisky MEC3: dosificación correcta, por qué la crema Bailey's no funciona directamente en helado y las combinaciones que más venden."
 excerpt: "La crema de whisky comercial (Bailey's, Coloma) no funciona en helado: cristaliza, pierde sabor y no se integra. El variegato Whisky MEC3 está formulado para resistir -18°C. Esta guía explica la diferencia y cómo usarlo."
 h1: "Crema de whisky para helado artesanal: cómo usarla como variegato y salsa"
 date: 2026-04-29 12:00:00 -0500

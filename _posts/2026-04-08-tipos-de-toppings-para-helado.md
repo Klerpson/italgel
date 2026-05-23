@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Tipos de toppings para helado: guía completa para heladerías profesionales"
-description: "Tipos de toppings para helado artesanal: crujientes, salsas, frutas y decoración. Cuáles son más rentables, cómo combinarlos y qué diferencia a los profesionales de los genéricos."
+title: "Tipos de toppings para helado: guía para heladerías"
+description: "Toppings para helado: crujientes, salsas, frutas y decoración. Cuáles son más rentables, cómo combinarlos y qué diferencia a los profesionales de los genéricos."
 excerpt: "Hay más de 20 tipos de toppings para helado. Pero en una heladería profesional solo 5-7 generan el 80% del margen adicional. Aquí está la guía completa con rentabilidad real."
 h1: "Tipos de toppings para helado: cuáles son, cuáles son más rentables y cómo combinarlos"
 date: 2026-04-08 11:00:00 -0500

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Rentabilidad de una heladería en Colombia: márgenes reales y cómo mejorarlos"
-description: "Rentabilidad de una heladería en Colombia: márgenes brutos, costos fijos reales, punto de equilibrio y estrategias para mejorar ganancia por litro producido. Datos 2026."
+title: "Rentabilidad de una heladería en Colombia: márgenes"
+description: "Márgenes brutos, costos fijos, punto de equilibrio y estrategias para mejorar la rentabilidad de una heladería en Colombia. Datos reales 2026."
 excerpt: "Una heladería artesanal bien operada en Colombia puede tener márgenes netos de 20-35%. Esta guía muestra los números reales, dónde se pierde el margen y cómo recuperarlo."
 h1: "Rentabilidad de una heladería en Colombia: lo que ganas, lo que gastas y cómo mejorar el margen"
 date: 2026-04-08 14:00:00 -0500

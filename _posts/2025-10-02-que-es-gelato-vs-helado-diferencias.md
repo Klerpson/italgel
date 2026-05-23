@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gelato vs helado artesanal: 5 diferencias técnicas que definen tu rentabilidad"
-description: "Gelato vs helado artesanal: diferencias en overrun, temperatura, grasa, bases y precio de venta. Guía técnica para heladeros que quieren elegir el estilo correcto."
+title: "Gelato vs helado artesanal: diferencias técnicas clave"
+description: "Diferencias entre gelato y helado artesanal: overrun, temperatura, grasa y precio de venta. Guía para heladeros que quieren elegir el estilo correcto."
 excerpt: "Gelato y helado artesanal no son sinónimos. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio, tu equipo y tu rentabilidad."
 h1: "Gelato vs helado artesanal: las 5 diferencias técnicas que determinan tu margen"
 date: 2025-10-02

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Amarena Fabbri para heladería: qué es, usos, dosificación y diferencias con la cereza estándar"
-description: "Guía técnica de Amarena Fabbri para heladería artesanal: qué es la cereza amarena italiana, cómo dosificarla como variegato, combinaciones clásicas y por qué no es sustituible por cereza estándar."
+title: "Amarena Fabbri para heladería: usos y dosificación"
+description: "Qué es la Amarena Fabbri, cómo dosificarla como variegato, combinaciones clásicas y por qué no es sustituible por la cereza estándar. Guía técnica."
 excerpt: "La amarena no es una cereza común en almíbar. Es una variedad botánica italiana con perfil ácido-amargo y un almíbar calibrado para resistir congelación. Esta guía explica por qué Fabbri es la referencia y cómo usarla correctamente."
 h1: "Amarena Fabbri para heladería: qué es, cómo se usa y por qué es diferente a la cereza estándar"
 date: 2026-04-29 12:00:00 -0500

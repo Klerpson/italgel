@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon es diferente"
-description: "Pasta de vainilla para heladería artesanal: diferencias con extracto y esencia, tipos según origen, dosificación correcta por tipo de base y por qué la vainilla Bourbon Madagascar es el estándar profesional."
+title: "Pasta de vainilla para helado: tipos y dosificación"
+description: "Pasta de vainilla para helado: diferencias con extracto y esencia, tipos según origen y dosificación. Por qué la Bourbon Madagascar es el estándar profesional."
 excerpt: "La pasta de vainilla no es extracto en otro formato. Es un concentrado con células de vainilla real que produce un perfil de sabor que ninguna esencia artificial puede replicar. Esta guía explica los tipos, la dosificación y cómo elegir la correcta."
 h1: "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferente"
 date: 2026-04-29 12:00:00 -0500

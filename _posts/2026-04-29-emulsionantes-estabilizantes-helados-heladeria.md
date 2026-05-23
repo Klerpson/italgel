@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Emulsionantes y estabilizantes para helados: guía técnica para heladería artesanal"
-description: "Qué son los emulsionantes y estabilizantes para helados, cuándo usarlos, diferencias entre ambos y por qué las bases MEC3 ya incluyen el sistema correcto calibrado."
+title: "Emulsionantes y estabilizantes para helados: guía técnica"
+description: "Emulsionantes y estabilizantes para helados: diferencias, cuándo usarlos y por qué las bases MEC3 ya incluyen el sistema correcto calibrado."
 excerpt: "El emulsionante y el estabilizante no son lo mismo. Confundirlos produce helados con textura incorrecta o que no resisten el día en vitrina. Esta guía explica la diferencia y cuándo comprarlos por separado."
 h1: "Emulsionantes y estabilizantes para helados: guía técnica para heladería artesanal"
 date: 2026-04-29 12:00:00 -0500

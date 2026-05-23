@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "¿Qué es un sorbete? Diferencia técnica con el helado artesanal y cómo hacerlo rentable"
-description: "Qué es un sorbete, en qué se diferencia del helado artesanal y del gelato, cuáles son los sabores más buscados en Colombia y qué bases usar para producirlo profesionalmente."
+title: "¿Qué es un sorbete? Diferencia con el helado artesanal"
+description: "Qué es un sorbete, diferencias con el helado artesanal y el gelato, sabores más buscados en Colombia y qué bases usar para producirlo profesionalmente."
 excerpt: "El sorbete no es un helado sin leche. Es una categoría con su propia técnica, sus propias bases y un mercado que creció 900% en búsquedas durante el último año en Colombia."
 h1: "¿Qué es un sorbete? La diferencia técnica con el helado artesanal"
 date: 2026-04-29 12:00:00 -0500

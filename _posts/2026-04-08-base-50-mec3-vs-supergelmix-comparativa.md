@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Base 50 MEC3 vs Supergelmix: cuál elegir según tu tipo de heladería"
-description: "Comparativa Base 50 MEC3 vs Supergelmix: overrun, textura, uso correcto y costo por litro producido. Guía técnica para elegir la base correcta para tu heladería en Colombia."
+title: "Base 50 MEC3 vs Supergelmix: comparativa técnica"
+description: "Base 50 MEC3 vs Supergelmix: overrun, textura, uso correcto y costo por litro. Guía para elegir la base correcta para tu heladería en Colombia."
 excerpt: "Base 50 y Supergelmix son las dos bases MEC3 más vendidas en Colombia. Son muy diferentes. Elegir la equivocada puede costarte 30% de tu margen por litro producido."
 h1: "Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladería"
 date: 2026-04-08 13:00:00 -0500

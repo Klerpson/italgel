@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Pasteurización de mezcla para helado: temperaturas, tiempos y errores críticos"
-description: "Pasteurización de mezcla para helado artesanal: temperaturas exactas (63°C-85°C), tiempos de proceso, errores que arruinan la textura y cómo evitarlos. Guía técnica 2026."
+title: "Pasteurización de mezcla para helado: guía técnica"
+description: "Temperaturas (63°C-85°C) y tiempos correctos para pasteurizar mezcla de helado artesanal. Errores críticos que arruinan la textura y cómo evitarlos."
 excerpt: "La pasteurización incorrecta causa textura granulosa, separación de fases y contaminación bacteriana. Esta guía técnica cubre temperaturas, tiempos y los 5 errores más costosos."
 date: 2025-10-04
 last_modified_at: 2026-04-08

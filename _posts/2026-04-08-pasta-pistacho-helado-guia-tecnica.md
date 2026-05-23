@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Pasta de pistacho para helado: guía técnica de dosificación y compra en Colombia"
-description: "Pasta de pistacho para helado artesanal: qué es, cómo dosificarla, diferencias entre marcas y dónde comprar al mayor en Colombia. Guía técnica con datos reales de producción."
+title: "Pasta de pistacho para helado: dosificación y compra"
+description: "Qué es la pasta de pistacho para helado, cómo dosificarla, diferencias entre marcas y dónde comprar al mayor en Colombia. Datos reales de producción."
 excerpt: "La pasta de pistacho es el ingrediente más caro y más rentable de una heladería premium. Esta guía explica dosificación, selección de marca y cómo justificar el precio al cliente."
 h1: "Pasta de pistacho para helado: dosificación correcta, marcas y por qué es el sabor más rentable"
 date: 2026-04-08 12:00:00 -0500
