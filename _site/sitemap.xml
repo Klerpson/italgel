@@ -6,12 +6,21 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   
     
+    
+  
+    
       <url>
-        <loc>https://italgel.com.co/404/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <loc>https://italgel.com.co/coberturas-salsas-helado/amarena-fabbri/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif</image:loc>
+            <image:title>Amarena Fabbri para Heladería | Variegato - Italgel Colombia</image:title>
+            <image:caption>Amarena Fabbri para Heladería | Variegato - Italgel Colombia</image:caption>
+          </image:image>
         
       </url>
     
@@ -19,14 +28,14 @@
     
       <url>
         <loc>https://italgel.com.co/bases-helado-colombia/base-50-mec3/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/base-50-mec3-italgel.avif</image:loc>
-            <image:title>Base 50 MEC3 2kg | Base para Helado Artesanal Profesional - Italgel</image:title>
+            <image:title>Base 50 MEC3 2kg | Base para Helado Artesanal - Italgel</image:title>
             <image:caption>Base 50 MEC3 presentación 2kg para helado artesanal profesional distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -36,15 +45,15 @@
     
       <url>
         <loc>https://italgel.com.co/bases-helado-colombia/bases-stevia/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/bases-stevia-helado.avif</image:loc>
-            <image:title>Bases con Stevia para Helado Sin Azúcar | Helado Saludable - Italgel</image:title>
-            <image:caption>Bases con Stevia para Helado Sin Azúcar | Helado Saludable - Italgel</image:caption>
+            <image:title>Bases con Stevia para Helado Sin Azúcar - Italgel</image:title>
+            <image:caption>Bases con Stevia para Helado Sin Azúcar - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -53,14 +62,14 @@
     
       <url>
         <loc>https://italgel.com.co/blog/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/blog-itagel.avif</image:loc>
-            <image:title>Blog de Heladería Profesional | Guías, Técnicas y Negocio - Italgel</image:title>
+            <image:title>Blog de Heladería | Guías y Técnicas - Italgel</image:title>
             <image:caption>Blog de Italgel Colombia - Guías técnicas y estrategias de negocio para heladerías profesionales</image:caption>
           </image:image>
         
@@ -70,14 +79,14 @@
     
       <url>
         <loc>https://italgel.com.co/maquinas-helado-soft/coldelite-compacta-3/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/coldelite-compacta-3-soft.avif</image:loc>
-            <image:title>Coldelite Compacta 3 | Máquina Helado Soft 2 Sabores + Twist - Italgel</image:title>
+            <image:title>Coldelite Compacta 3 | Máquina Helado Soft - Italgel</image:title>
             <image:caption>Máquina Coldelite Compacta 3 para helado soft profesional 2 sabores más twist distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -87,14 +96,14 @@
     
       <url>
         <loc>https://italgel.com.co/contacto/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/contacto-italgel-colombia.avif</image:loc>
-            <image:title>Contacto Italgel | Insumos y Equipos para Heladería en Colombia</image:title>
+            <image:title>Contacto Italgel | Insumos para Heladería en Colombia</image:title>
             <image:caption>Contacto Italgel Colombia - Asesoría técnica y cotizaciones de insumos y equipos para heladería</image:caption>
           </image:image>
         
@@ -104,14 +113,14 @@
     
       <url>
         <loc>https://italgel.com.co/equipos/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/equipos-heladeria-coldelite.avif</image:loc>
-            <image:title>Equipos y Máquinas para Heladería Profesional | Coldelite Colombia - Italgel</image:title>
+            <image:title>Equipos para Heladería | Coldelite Colombia - Italgel</image:title>
             <image:caption>Equipos profesionales para heladería Coldelite y Valmar distribuidos por Italgel Colombia</image:caption>
           </image:image>
         
@@ -124,7 +133,7 @@
     
       <url>
         <loc>https://italgel.com.co/maquinas-helado-artesanal/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
@@ -140,33 +149,16 @@
   
     
       <url>
-        <loc>https://italgel.com.co/maquinas-helado-industrial/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        
-        
-          <image:image>
-            <image:loc>https://italgel.com.co/img/maquina-industrial-helado.avif</image:loc>
-            <image:title>Máquinas de Helado Industrial | Líneas de Producción - Italgel Colombia</image:title>
-            <image:caption>Línea de producción industrial de helado Valmar para fabricación a gran escala distribuida por Italgel Colombia</image:caption>
-          </image:image>
-        
-      </url>
-    
-  
-    
-      <url>
         <loc>https://italgel.com.co/bases-helado-colombia/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/bases-helado-italgel-colombia.avif</image:loc>
-            <image:title>Bases para Helado Artesanal MEC3 | Distribuidor Colombia - Italgel</image:title>
-            <image:caption>Bases para Helado Artesanal MEC3 | Distribuidor Colombia - Italgel</image:caption>
+            <image:title>Bases para Helado MEC3 | 40% Más Rendimiento - Italgel</image:title>
+            <image:caption>Bases para Helado MEC3 | 40% Más Rendimiento - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -174,16 +166,16 @@
   
     
       <url>
-        <loc>https://italgel.com.co/coberturas-salsas-helado/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <loc>https://italgel.com.co/variegatos-helado/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
-            <image:loc>https://italgel.com.co/img/coberturas-helado-italgel-colombia.avif</image:loc>
-            <image:title>Coberturas y Salsas para Helado | Variegatos Quella - Italgel Colombia</image:title>
-            <image:caption>Coberturas y Salsas para Helado | Variegatos Quella - Italgel Colombia</image:caption>
+            <image:loc>https://italgel.com.co/img/variegatos-helado.avif</image:loc>
+            <image:title>Variegatos para Helado | Quella y MEC3 - Italgel</image:title>
+            <image:caption>Variegatos para Helado | Quella y MEC3 - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -192,14 +184,14 @@
     
       <url>
         <loc>https://italgel.com.co/maquinas-helado-soft/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/maquina-industrial-soft.avif</image:loc>
-            <image:title>Máquinas de Helado Soft | Equipos Profesionales Coldelite - Italgel Colombia</image:title>
+            <image:title>Máquinas Helado Soft Coldelite | Fichas Técnicas - Italgel</image:title>
             <image:caption>Línea de producción industrial de helado Valmar para fabricación a gran escala distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -209,32 +201,15 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pastas-helado-italgel-colombia.avif</image:loc>
-            <image:title>Pastas Concentradas para Helado | Pistacho, Vainilla, Almendras - Italgel</image:title>
-            <image:caption>Pastas Concentradas para Helado | Pistacho, Vainilla, Almendras - Italgel</image:caption>
-          </image:image>
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://italgel.com.co/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-        
-        
-          <image:image>
-            <image:loc>https://italgel.com.co/img/bases-helado-italgel-bogota.avif</image:loc>
-            <image:title>Insumos y Equipos para Heladería Profesional en Colombia | Italgel</image:title>
-            <image:caption>Muestra de bases de helado, toppings, insumos y más para la preparación de helados a nivel comercial e industrial. Todo con la distribuidora para helados Italgel Colombia.</image:caption>
+            <image:title>Pastas para Helado | Pistacho, Vainilla, Almendras - Italgel</image:title>
+            <image:caption>Pastas para Helado | Pistacho, Vainilla, Almendras - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -243,15 +218,15 @@
     
       <url>
         <loc>https://italgel.com.co/granelas-decoracion/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/granelas-crujientes.avif</image:loc>
-            <image:title>Granelas y Cookies para Helado | Decoración Profesional - Italgel Colombia</image:title>
-            <image:caption>Granelas y Cookies para Helado | Decoración Profesional - Italgel Colombia</image:caption>
+            <image:title>Granelas para Helado | Quella Family - Italgel Colombia</image:title>
+            <image:caption>Granelas para Helado | Quella Family - Italgel Colombia</image:caption>
           </image:image>
         
       </url>
@@ -259,33 +234,16 @@
   
     
       <url>
-        <loc>https://italgel.com.co/vitrinas-congeladores/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <loc>https://italgel.com.co/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>1.0</priority>
         
         
           <image:image>
-            <image:loc>https://italgel.com.co/img/vitrinas-congeladores.avif</image:loc>
-            <image:title>Vitrinas para Helado Artesanal | Exhibición Profesional - Italgel Colombia</image:title>
-            <image:caption>Vitrinas para Helado Artesanal | Exhibición Profesional - Italgel Colombia</image:caption>
-          </image:image>
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://italgel.com.co/variegatos-helado/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        
-        
-          <image:image>
-            <image:loc>https://italgel.com.co/img/variegatos-helado.avif</image:loc>
-            <image:title>Variegatos para Helado | Salsas de Veteado Profesionales - Italgel Colombia</image:title>
-            <image:caption>Variegatos para Helado | Salsas de Veteado Profesionales - Italgel Colombia</image:caption>
+            <image:loc>https://italgel.com.co/img/bases-helado-italgel-bogota.avif</image:loc>
+            <image:title>Insumos y Equipos para Heladería en Colombia | Italgel</image:title>
+            <image:caption>Muestra de bases de helado, toppings, insumos y más para la preparación de helados a nivel comercial e industrial. Todo con la distribuidora para helados Italgel Colombia.</image:caption>
           </image:image>
         
       </url>
@@ -294,14 +252,14 @@
     
       <url>
         <loc>https://italgel.com.co/productos-quella/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/quella-family-variegatos.avif</image:loc>
-            <image:title>Quella Family Colombia | Variegatos y Toppings Premium - Italgel</image:title>
+            <image:title>Quella Family | Variegatos y Toppings - Italgel</image:title>
             <image:caption>Productos Quella Family - variegatos y toppings italianos para helado artesanal distribuidos por Italgel Colombia</image:caption>
           </image:image>
         
@@ -310,16 +268,118 @@
   
     
       <url>
-        <loc>https://italgel.com.co/insumos-heladeria-medell%C3%ADn/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <loc>https://italgel.com.co/vitrinas-congeladores/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/vitrinas-congeladores.avif</image:loc>
+            <image:title>Vitrinas Helado Artesanal | Exhibición - Italgel</image:title>
+            <image:caption>Vitrinas Helado Artesanal | Exhibición - Italgel</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/coberturas-salsas-helado/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/coberturas-helado-italgel-colombia.avif</image:loc>
+            <image:title>Coberturas y Salsas para Helado | Quella - Italgel Colombia</image:title>
+            <image:caption>Coberturas y Salsas para Helado | Quella - Italgel Colombia</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/maquinas-helado-industrial/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/maquina-industrial-helado.avif</image:loc>
+            <image:title>Máquinas Helado Industrial | Líneas Producción - Italgel</image:title>
+            <image:caption>Línea de producción industrial de helado Valmar para fabricación a gran escala distribuida por Italgel Colombia</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/insumos-heladeria-barranquilla/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/hero-insumos-heladeria-barranquilla.avif</image:loc>
+            <image:title>Insumos para Heladería en Barranquilla | Italgel</image:title>
+            <image:caption>Insumos para Heladería en Barranquilla | Italgel</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/insumos-heladeria-bucaramanga/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/hero-insumos-heladeria-bucaramanga.avif</image:loc>
+            <image:title>Insumos para Heladería en Bucaramanga | Italgel</image:title>
+            <image:caption>Insumos para Heladería en Bucaramanga | Italgel</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/insumos-heladeria-cali/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/hero-insumos-heladeria-cali.avif</image:loc>
+            <image:title>Insumos para Heladería en Cali | Entrega 24-72h - Italgel</image:title>
+            <image:caption>Insumos para Heladería en Cali | Entrega 24-72h - Italgel</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/insumos-heladeria-medellin/</loc>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/hero-insumos-heladeria-medellin.avif</image:loc>
-            <image:title>Insumos para Heladería en Medellín | Entrega 24-48h - Italgel</image:title>
-            <image:caption>Insumos para Heladería en Medellín | Entrega 24-48h - Italgel</image:caption>
+            <image:title>Insumos para Heladería en Medellín | Italgel</image:title>
+            <image:caption>Insumos para Heladería en Medellín | Italgel</image:caption>
           </image:image>
         
       </url>
@@ -328,14 +388,14 @@
     
       <url>
         <loc>https://italgel.com.co/insumos/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/insumos-heladeria-italgel.avif</image:loc>
-            <image:title>Insumos para Heladería Profesional | MEC3 Colombia - Italgel</image:title>
+            <image:title>Insumos para Heladería en Colombia | MEC3 - Italgel</image:title>
             <image:caption>Insumos profesionales para heladería distribuidos por Italgel Colombia - Bases, pastas, coberturas y toppings</image:caption>
           </image:image>
         
@@ -345,7 +405,7 @@
     
       <url>
         <loc>https://italgel.com.co/legal/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
@@ -362,14 +422,14 @@
     
       <url>
         <loc>https://italgel.com.co/bases-helado-colombia/neutralin-plus/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif</image:loc>
-            <image:title>Neutralin Plus MEC3 2kg | Base para Gelato Ultra Cremoso - Italgel</image:title>
+            <image:title>Neutralin Plus MEC3 | Base para Gelato Cremoso - Italgel</image:title>
             <image:caption>Neutralin Plus MEC3 base premium para gelato italiano auténtico distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -379,7 +439,7 @@
     
       <url>
         <loc>https://italgel.com.co/nosotros/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
@@ -396,14 +456,14 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/pasta-pistacho/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif</image:loc>
-            <image:title>Pasta de Pistacho Siciliano | Pasta para Helado Profesional - Italgel</image:title>
+            <image:title>Pasta de Pistacho Siciliano | Para Helado - Italgel</image:title>
             <image:caption>Pasta de pistacho siciliano MEC3 con concentración real de fruto seco distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -413,14 +473,14 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/pasta-vainilla/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif</image:loc>
-            <image:title>Pasta de Vainilla Bourbon | Pasta Premium para Helado - Italgel Colombia</image:title>
+            <image:title>Pasta de Vainilla Bourbon | Premium para Helado - Italgel</image:title>
             <image:caption>Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -430,15 +490,15 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/pastas-clasicas/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pastas-helado-italgel-colombia.avif</image:loc>
-            <image:title>Pastas Clásicas para Helado | Vainilla, Chocolate, Fresa, Caramelo - Italgel</image:title>
-            <image:caption>Pastas Clásicas para Helado | Vainilla, Chocolate, Fresa, Caramelo - Italgel</image:caption>
+            <image:title>Pastas Clásicas para Helado | Vainilla, Chocolate - Italgel</image:title>
+            <image:caption>Pastas Clásicas para Helado | Vainilla, Chocolate - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -447,15 +507,15 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/pastas-fruta/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pastas-fruta-helado.avif</image:loc>
-            <image:title>Pastas de Fruta para Helado | Arándano, Coco, Limón, Pitaya - Italgel</image:title>
-            <image:caption>Pastas de Fruta para Helado | Arándano, Coco, Limón, Pitaya - Italgel</image:caption>
+            <image:title>Pastas de Fruta para Helado | Coco, Limón, Pitaya - Italgel</image:title>
+            <image:caption>Pastas de Fruta para Helado | Coco, Limón, Pitaya - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -464,15 +524,15 @@
     
       <url>
         <loc>https://italgel.com.co/pastas-sabores-helado/pastas-premium/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/pastas-premium-helado.avif</image:loc>
-            <image:title>Pastas Premium de Frutos Secos | Pistacho, Avellana, Almendra - Italgel</image:title>
-            <image:caption>Pastas Premium de Frutos Secos | Pistacho, Avellana, Almendra - Italgel</image:caption>
+            <image:title>Pastas Premium | Pistacho, Avellana, Almendra - Italgel</image:title>
+            <image:caption>Pastas Premium | Pistacho, Avellana, Almendra - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -481,15 +541,15 @@
     
       <url>
         <loc>https://italgel.com.co/coberturas-salsas-helado/salsas-especiales/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/salsas-especiales-helado.avif</image:loc>
-            <image:title>Salsas Especiales para Helado | Whisky, Tiramisú, Salted Caramel - Italgel</image:title>
-            <image:caption>Salsas Especiales para Helado | Whisky, Tiramisú, Salted Caramel - Italgel</image:caption>
+            <image:title>Salsas para Helado Artesanal | Whisky, Caramelo - Italgel</image:title>
+            <image:caption>Salsas para Helado Artesanal | Whisky, Caramelo - Italgel</image:caption>
           </image:image>
         
       </url>
@@ -507,14 +567,14 @@
     
       <url>
         <loc>https://italgel.com.co/bases-helado-colombia/supergelmix/</loc>
-        <lastmod>2026-03-23T22:25:14-05:00</lastmod>
+        <lastmod>2026-05-23T13:57:06-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif</image:loc>
-            <image:title>Supergelmix MEC3 | Base para Helado Soft Profesional - Italgel Colombia</image:title>
+            <image:title>Supergelmix MEC3 | Base para Helado Soft - Italgel Colombia</image:title>
             <image:caption>Supergelmix MEC3 base profesional para helado soft distribuida por Italgel Colombia</image:caption>
           </image:image>
         
@@ -525,15 +585,236 @@
   
     
       <url>
+        <loc>https://italgel.com.co/blog/que-es-un-sorbete-diferencias-helado-artesanal/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/sorbete-artesanal-frutas-colombia.avif</image:loc>
+            <image:title>¿Qué es un sorbete? Diferencia con el helado artesanal</image:title>
+            <image:caption>Sorbetes artesanales de frutas tropicales colombianas en vitrina de heladería profesional: guanábana, mango y maracuyá</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/pasta-vainilla-helado-artesanal.avif</image:loc>
+            <image:title>Pasta de vainilla para helado: tipos y dosificación</image:title>
+            <image:caption>Pasta de vainilla Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina de gelatería profesional</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/helados-sin-azucar-heladeria-bases-stevia/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/helados-sin-azucar-stevia-heladeria.avif</image:loc>
+            <image:title>Helados sin azúcar para heladería: bases con Stevia</image:title>
+            <image:caption>Helado artesanal sin azúcar con base Stevia MEC3 en vitrina de heladería colombiana con etiqueta de producto saludable</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/emulsionantes-estabilizantes-helados-heladeria/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif</image:loc>
+            <image:title>Emulsionantes y estabilizantes para helados: guía técnica</image:title>
+            <image:caption>Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/crema-de-whisky-para-helado-variegato/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/variegato-whisky-helado-premium.avif</image:loc>
+            <image:title>Crema de whisky para helado: variegato y dosificación</image:title>
+            <image:caption>Helado artesanal de vainilla con variegato de whisky MEC3 en copa premium de gelatería colombiana</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/amarena-fabbri-heladeria-usos-dosificacion/</loc>
+        <lastmod>2026-04-29T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/amarena-fabbri-heladeria-gelato.avif</image:loc>
+            <image:title>Amarena Fabbri para heladería: usos y dosificación</image:title>
+            <image:caption>Copas de gelato artesanal con Amarena Fabbri entera sobre fiordilatte en gelatería italiana tradicional</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/rentabilidad-heladeria-colombia/</loc>
+        <lastmod>2026-04-08T14:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/rentabilidad-heladeria-colombia-margenes.avif</image:loc>
+            <image:title>Rentabilidad de una heladería en Colombia: márgenes</image:title>
+            <image:caption>Heladero colombiano revisando calculadora de costos con vitrina de helado artesanal al fondo en su negocio</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/base-50-mec3-vs-supergelmix-comparativa/</loc>
+        <lastmod>2026-04-08T13:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif</image:loc>
+            <image:title>Base 50 MEC3 vs Supergelmix: comparativa técnica</image:title>
+            <image:caption>Comparativa de envases Base 50 MEC3 y Supergelmix junto a helados artesanal y soft producidos con cada base</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/pasta-pistacho-helado-guia-tecnica/</loc>
+        <lastmod>2026-04-08T12:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/pasta-pistacho-helado-profesional.avif</image:loc>
+            <image:title>Pasta de pistacho para helado: dosificación y compra</image:title>
+            <image:caption>Pasta concentrada de pistacho siciliano verde intenso junto a helado de pistacho artesanal en vitrina profesional</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/tipos-de-toppings-para-helado/</loc>
+        <lastmod>2026-04-08T11:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/tipos-toppings-para-helado-profesional.avif</image:loc>
+            <image:title>Tipos de toppings para helado: guía para heladerías</image:title>
+            <image:caption>Barra de toppings profesionales para helado artesanal con granelas, salsas, frutas y decoración en heladería colombiana</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/como-abrir-una-heladeria-en-colombia/</loc>
+        <lastmod>2026-04-08T10:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/como-abrir-heladeria-colombia.avif</image:loc>
+            <image:title>Cómo abrir una heladería en Colombia: guía con costos</image:title>
+            <image:caption>Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/que-son-las-granelas-para-helado/</loc>
+        <lastmod>2026-04-08T09:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/granelas-para-helado-profesionales.avif</image:loc>
+            <image:title>¿Qué son las granelas para helado? Tipos y usos</image:title>
+            <image:caption>Granelas crujientes de chocolate y almendra sobre copa de helado artesanal en heladería profesional</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://italgel.com.co/blog/que-es-el-variegato-para-helado/</loc>
+        <lastmod>2026-04-08T08:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        
+        
+          <image:image>
+            <image:loc>https://italgel.com.co/img/blog/variegato-para-helado-profesional.avif</image:loc>
+            <image:title>¿Qué es el variegato para helado? Guía técnica</image:title>
+            <image:caption>Variegato de frambuesa aplicado en capas sobre helado artesanal en vitrina de heladería profesional</image:caption>
+          </image:image>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</loc>
-        <lastmod>2025-10-04T00:00:00-05:00</lastmod>
+        <lastmod>2026-04-08T00:00:00-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/blog/pasteurizacion-mezcla-helado-artesanal.avif</image:loc>
-            <image:title>Pasteurización de mezcla para helado: proceso correcto para garantizar seguridad y textura</image:title>
+            <image:title>Pasteurización de mezcla para helado: guía técnica</image:title>
             <image:caption>Termómetro digital mostrando 85°C durante pasteurización de mezcla de helado en marmita profesional</image:caption>
           </image:image>
         
@@ -543,15 +824,15 @@
     
       <url>
         <loc>https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</loc>
-        <lastmod>2025-10-03T00:00:00-05:00</lastmod>
+        <lastmod>2026-04-08T00:00:00-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/blog/toppings-coberturas-helado-rentables.avif</image:loc>
-            <image:title>Toppings para helado más rentables: guía completa de coberturas y decoraciones</image:title>
-            <image:caption>Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas</image:caption>
+            <image:title>Toppings para helado más rentables: costos y márgenes</image:title>
+            <image:caption>Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas en Colombia</image:caption>
           </image:image>
         
       </url>
@@ -560,15 +841,15 @@
     
       <url>
         <loc>https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</loc>
-        <lastmod>2025-10-02T00:00:00-05:00</lastmod>
+        <lastmod>2026-04-08T00:00:00-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/blog/diferencia-gelato-helado-artesanal.avif</image:loc>
-            <image:title>Qué es el gelato italiano: diferencias técnicas con el helado artesanal</image:title>
-            <image:caption>Comparación visual entre gelato italiano denso y helado artesanal en vitrinas profesionales</image:caption>
+            <image:title>Gelato vs helado artesanal: diferencias técnicas clave</image:title>
+            <image:caption>Comparación visual entre gelato italiano denso en vitrina pozzetti y helado artesanal en vitrina vertical con presentación de montaña</image:caption>
           </image:image>
         
       </url>
@@ -577,14 +858,14 @@
     
       <url>
         <loc>https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</loc>
-        <lastmod>2025-10-01T00:00:00-05:00</lastmod>
+        <lastmod>2026-04-08T00:00:00-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         
         
           <image:image>
             <image:loc>https://italgel.com.co/img/blog/calcular-overrun-helado-artesanal.avif</image:loc>
-            <image:title>Cómo calcular el overrun del helado artesanal: fórmula práctica para aumentar tu rentabilidad</image:title>
+            <image:title>Cómo calcular el overrun del helado artesanal: guía</image:title>
             <image:caption>Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad</image:caption>
           </image:image>
         
