@@ -27,6 +27,10 @@ faq:
 
 ---
 
+<div class="snippet-bait" style="background:#f0f7ff;border-left:4px solid #C37033;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:4px;">
+  <strong>Requisitos para abrir una heladería en Colombia (2026):</strong> 1. Registro mercantil en Cámara de Comercio, 2. RUT ante la DIAN, 3. Concepto de uso de suelo, 4. Concepto sanitario de la Secretaría de Salud y 5. Certificado de bomberos. La inversión estimada oscila entre $30 y $80 millones COP.
+</div>
+
 Diego llevaba 6 meses ahorrando para abrir su heladería. Tenía el local, tenía las ganas, tenía el nombre. Lo que no tenía era claridad sobre qué modelo de negocio quería montar. Compró una máquina "para gelato" que vio en un clasificado, contrató un contador para el registro, pagó el arriendo del primer mes y arrancó con bases genéricas que encontró en el Centro.
 
 Tres meses después, el helado le salía diferente cada semana. La máquina que compró en el clasificado era una máquina de soft serve disfrazada de mantecadora de gelato — no tenía las rpm correctas para overrun bajo. Las bases genéricas no eran estables más de 8 horas en vitrina. Los clientes no volvían.
@@ -55,7 +59,7 @@ Antes de definir el modelo, responde estas tres preguntas: ¿Cuánto está dispu
 La máquina de soft serve es el corazón del negocio. Las opciones de entrada en Colombia oscilan entre $8 y $15 millones COP para máquinas de mesa (Coldelite, Valmar, marcas asiáticas de segunda). Las de piso, con mayor capacidad y doble sabor, están entre $18 y $35 millones COP. No compres máquinas de segunda sin verificar el estado del compresor — es el componente más costoso de reparar.
 
 **Para heladería artesanal:**
-Mantecadora de 3-5 litros: $12-22 millones COP (Coldelite, marcas italianas certificadas). Vitrina horizontal 6-8 sabores: $8-15 millones COP. Refrigerador de materias primas: $2-4 millones COP. Total equipos mínimos: $22-41 millones COP.
+[Mantecadora]({{ '/maquinas-helado-artesanal/' | relative_url }}) de 3-5 litros: $12-22 millones COP (Coldelite, marcas italianas certificadas). [Vitrina horizontal]({{ '/vitrinas-congeladores/' | relative_url }}) 6-8 sabores: $8-15 millones COP. Refrigerador de materias primas: $2-4 millones COP. Total equipos mínimos: $22-41 millones COP.
 
 **Para gelatería italiana:**
 Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP. Vitrina pozzetti 12-16 cubetas: $15-28 millones COP. Pasteurizador (opcional pero recomendado para volumen mayor): $8-18 millones COP. Total: $45-81 millones COP en equipos.

@@ -6,8 +6,8 @@
     <link>https://italgel.com.co/</link>
     <language>es</language>
     <atom:link href="https://italgel.com.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 May 2026 13:57:06 -0500</pubDate>
-    <lastBuildDate>Sat, 23 May 2026 13:57:06 -0500</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 13:03:26 -0500</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 13:03:26 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
     
@@ -1153,6 +1153,10 @@
 
 <hr />
 
+<div class="snippet-bait" style="background:#f0f7ff;border-left:4px solid #C37033;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:4px;">
+  <strong>Requisitos para abrir una heladería en Colombia (2026):</strong> 1. Registro mercantil en Cámara de Comercio, 2. RUT ante la DIAN, 3. Concepto de uso de suelo, 4. Concepto sanitario de la Secretaría de Salud y 5. Certificado de bomberos. La inversión estimada oscila entre $30 y $80 millones COP.
+</div>
+
 <p>Diego llevaba 6 meses ahorrando para abrir su heladería. Tenía el local, tenía las ganas, tenía el nombre. Lo que no tenía era claridad sobre qué modelo de negocio quería montar. Compró una máquina “para gelato” que vio en un clasificado, contrató un contador para el registro, pagó el arriendo del primer mes y arrancó con bases genéricas que encontró en el Centro.</p>
 
 <p>Tres meses después, el helado le salía diferente cada semana. La máquina que compró en el clasificado era una máquina de soft serve disfrazada de mantecadora de gelato — no tenía las rpm correctas para overrun bajo. Las bases genéricas no eran estables más de 8 horas en vitrina. Los clientes no volvían.</p>
@@ -1181,7 +1185,7 @@
 La máquina de soft serve es el corazón del negocio. Las opciones de entrada en Colombia oscilan entre $8 y $15 millones COP para máquinas de mesa (Coldelite, Valmar, marcas asiáticas de segunda). Las de piso, con mayor capacidad y doble sabor, están entre $18 y $35 millones COP. No compres máquinas de segunda sin verificar el estado del compresor — es el componente más costoso de reparar.</p>
 
 <p><strong>Para heladería artesanal:</strong>
-Mantecadora de 3-5 litros: $12-22 millones COP (Coldelite, marcas italianas certificadas). Vitrina horizontal 6-8 sabores: $8-15 millones COP. Refrigerador de materias primas: $2-4 millones COP. Total equipos mínimos: $22-41 millones COP.</p>
+<a href="/maquinas-helado-artesanal/">Mantecadora</a> de 3-5 litros: $12-22 millones COP (Coldelite, marcas italianas certificadas). <a href="/vitrinas-congeladores/">Vitrina horizontal</a> 6-8 sabores: $8-15 millones COP. Refrigerador de materias primas: $2-4 millones COP. Total equipos mínimos: $22-41 millones COP.</p>
 
 <p><strong>Para gelatería italiana:</strong>
 Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP. Vitrina pozzetti 12-16 cubetas: $15-28 millones COP. Pasteurizador (opcional pero recomendado para volumen mayor): $8-18 millones COP. Total: $45-81 millones COP en equipos.</p>
@@ -1937,6 +1941,10 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 
 <hr />
 
+<div class="snippet-bait" style="background:#f0f7ff;border-left:4px solid #C37033;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:4px;">
+  <strong>Fórmula del Overrun:</strong> El overrun del helado se calcula con la fórmula: <code>((Volumen Final - Volumen Inicial) / Volumen Inicial) × 100</code>. El rango óptimo es de 20-40% para gelato italiano, 50-70% para helado artesanal, y 60-80% para helado soft.
+</div>
+
 <p>El overrun es <strong>el número que separa una heladería rentable de una que apenas sobrevive</strong>. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.</p>
 
 <p>La diferencia no está en el precio de tus ingredientes. Está en saber calcular y controlar el overrun correctamente.</p>
@@ -2062,7 +2070,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 
 <h3 id="velocidad-y-tiempo-de-mantecado-modifican-la-incorporación-de-aire">Velocidad y tiempo de mantecado modifican la incorporación de aire</h3>
 
-<p>La mayoría de mantecadoras artesanales tienen velocidad fija, pero el tiempo de proceso afecta directamente el overrun. Cada minuto adicional en la máquina incorpora más aire hasta alcanzar el límite que permite tu base.</p>
+<p>La mayoría de <a href="/maquinas-helado-artesanal/">mantecadoras artesanales</a> tienen velocidad fija, pero el tiempo de proceso afecta directamente el overrun. Cada minuto adicional en la máquina incorpora más aire hasta alcanzar el límite que permite tu base.</p>
 
 <p>Para overrun bajo tipo gelato: 8 a 10 minutos de mantecado. Para overrun medio artesanal: 12 a 15 minutos. Para overrun alto tipo soft: 18 a 22 minutos. Superar estos tiempos no aumenta el overrun proporcionalmente, pero sí puede generar cristales de hielo grandes que degradan la textura.</p>
 
@@ -2130,6 +2138,8 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
 <p>Revisa tu overrun actual siguiendo el método de cálculo por peso que explicamos. Toma mediciones durante una semana y calcula la variabilidad. Si tus números varían más del 10% entre días diferentes, estás perdiendo dinero por falta de control de proceso.</p>
 
 <p><a href="/bases-helado-colombia/">Solicita asesoría técnica</a> para que nuestro equipo analice tu proceso actual y recomiende la base MEC3 específica para tu modelo de producción. La inversión en bases profesionales se recupera en el primer mes solo con la reducción de desperdicios y aumento de rendimiento.</p>
+
+<p>Revisa nuestro catálogo de <a href="/maquinas-helado-soft/">máquinas de helado soft</a> y <a href="/maquinas-helado-artesanal/">mantecadoras industriales</a> para encontrar el equipo que mejor se adapte a tu producción.</p>
 
 <p>Aprende a <a href="/blog/pasteurizacion-mezcla-helado-correcta/">pasteurizar correctamente tu mezcla</a> para garantizar que la base pueda desarrollar todo su potencial de incorporación de aire. El overrun óptimo empieza con una mezcla correctamente preparada.</p>
 

@@ -28,6 +28,10 @@ faq:
 
 ---
 
+<div class="snippet-bait" style="background:#f0f7ff;border-left:4px solid #C37033;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:4px;">
+  <strong>Fórmula del Overrun:</strong> El overrun del helado se calcula con la fórmula: <code>((Volumen Final - Volumen Inicial) / Volumen Inicial) × 100</code>. El rango óptimo es de 20-40% para gelato italiano, 50-70% para helado artesanal, y 60-80% para helado soft.
+</div>
+
 El overrun es **el número que separa una heladería rentable de una que apenas sobrevive**. Mientras tus competidores producen 15 litros de helado con 10 litros de mezcla, tú sigues obteniendo solo 12 litros con la misma inversión.
 
 La diferencia no está en el precio de tus ingredientes. Está en saber calcular y controlar el overrun correctamente.
@@ -122,7 +126,7 @@ Una base profesional como las MEC3 produce overrun constante con variaciones men
 
 ### Velocidad y tiempo de mantecado modifican la incorporación de aire
 
-La mayoría de mantecadoras artesanales tienen velocidad fija, pero el tiempo de proceso afecta directamente el overrun. Cada minuto adicional en la máquina incorpora más aire hasta alcanzar el límite que permite tu base.
+La mayoría de [mantecadoras artesanales]({{ '/maquinas-helado-artesanal/' | relative_url }}) tienen velocidad fija, pero el tiempo de proceso afecta directamente el overrun. Cada minuto adicional en la máquina incorpora más aire hasta alcanzar el límite que permite tu base.
 
 Para overrun bajo tipo gelato: 8 a 10 minutos de mantecado. Para overrun medio artesanal: 12 a 15 minutos. Para overrun alto tipo soft: 18 a 22 minutos. Superar estos tiempos no aumenta el overrun proporcionalmente, pero sí puede generar cristales de hielo grandes que degradan la textura.
 
@@ -190,6 +194,8 @@ Esta predictibilidad te permite costear correctamente, establecer precios compet
 Revisa tu overrun actual siguiendo el método de cálculo por peso que explicamos. Toma mediciones durante una semana y calcula la variabilidad. Si tus números varían más del 10% entre días diferentes, estás perdiendo dinero por falta de control de proceso.
 
 [Solicita asesoría técnica]({{ '/bases-helado-colombia/' | relative_url }}) para que nuestro equipo analice tu proceso actual y recomiende la base MEC3 específica para tu modelo de producción. La inversión en bases profesionales se recupera en el primer mes solo con la reducción de desperdicios y aumento de rendimiento.
+
+Revisa nuestro catálogo de [máquinas de helado soft]({{ '/maquinas-helado-soft/' | relative_url }}) y [mantecadoras industriales]({{ '/maquinas-helado-artesanal/' | relative_url }}) para encontrar el equipo que mejor se adapte a tu producción.
 
 Aprende a [pasteurizar correctamente tu mezcla]({{ '/blog/pasteurizacion-mezcla-helado-correcta/' | relative_url }}) para garantizar que la base pueda desarrollar todo su potencial de incorporación de aire. El overrun óptimo empieza con una mezcla correctamente preparada.
 

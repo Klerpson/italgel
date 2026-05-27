@@ -1,9 +1,10 @@
-{% if page.faqs %}
+{% assign faq_data = page.faqs | default: page.faq %}
+{% if faq_data %}
 <div class="flex">
-  {% for faq in page.faqs %}
+  {% for faq in faq_data %}
   <article class="faq-item">
-    <h3>{{ faq.question }}</h3>
-    {{ faq.answer | markdownify }}
+    <h3>{{ faq.question | default: faq.q }}</h3>
+    {{ faq.answer | default: faq.a | markdownify }}
   </article>
   {% endfor %}
 </div>

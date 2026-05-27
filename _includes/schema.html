@@ -50,20 +50,21 @@
     "areaServed": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Bucaramanga"]
   }
 </script>
-{% endif %} {% if page.faqs %}
+{% endif %} {% assign faq_data = page.faqs | default: page.faq %}
+{% if faq_data %}
 <!-- FAQPage Schema - E-E-A-T: Trustworthiness -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {% for faq in page.faqs %}
+      {% for faq in faq_data %}
       {
         "@type": "Question",
-        "name": {{ faq.question | jsonify }},
+        "name": {{ faq.question | default: faq.q | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": {{ faq.answer | strip_html | jsonify }}
+          "text": {{ faq.answer | default: faq.a | strip_html | jsonify }}
         }
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
