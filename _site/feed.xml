@@ -3,13 +3,694 @@
   <channel>
     <title>italgel.com.co</title>
     <description>Insumos y equipos profesionales para heladería en Colombia</description>
-    <link>https://italgel.com.co/</link>
+    <link>http://localhost:4000/</link>
     <language>es</language>
-    <atom:link href="https://italgel.com.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 May 2026 13:03:26 -0500</pubDate>
-    <lastBuildDate>Wed, 27 May 2026 13:03:26 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Jun 2026 16:52:32 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 16:52:32 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
+    
+      
+      
+      <item>
+        <title>Mantecadora italiana vs asiática: ¿cuál elegir para tu heladería?</title>
+        <description><![CDATA[Una mantecadora italiana cuesta 3 veces más que una asiática, pero a 10 años sale hasta 40% más barata. Esta comparativa técnica te dice por qué.]]></description>
+        <pubDate>Wed, 27 May 2026 10:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/mantecadora-italiana-vs-asiatica/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/mantecadora-italiana-vs-asiatica/</guid>
+        <dc:creator></dc:creator>
+
+        
+          
+            <category>equipos</category>
+          
+            <category>compras</category>
+          
+        
+
+        <content:encoded><![CDATA[<p><strong>En resumen:</strong> Una mantecadora italiana profesional cuesta entre $12 y $35 millones COP, mientras que una máquina asiática similar está entre $4 y $10 millones COP. Sin embargo, al calcular el costo total a 10 años (incluyendo energía, mantenimiento, repuestos y reposición), la italiana resulta entre 30% y 40% más barata. La diferencia no está en el precio de compra sino en la durabilidad, el consumo energético y el soporte técnico local.</p>
+
+<hr />
+
+<p>Cuando ves dos mantecadoras una al lado de la otra, la duda es inevitable. Una cuesta $8 millones COP. La otra cuesta $24 millones COP. La máquina más barata se ve bien en el catálogo, promete lo mismo en la ficha técnica y hasta tiene más botones y pantalla táctil. La italiana se ve más simple, más robusta, más “de toda la vida”. El instinto dice que la diferencia de precio es marca, tradición, marketing. El bolsillo dice que $16 millones de ahorro inicial son demasiado tentadores para ignorarlos.</p>
+
+<p>Esa misma duda ha llevado a cientos de heladeros en Colombia a tomar la decisión equivocada. No porque la máquina asiática sea mala —en los primeros meses funciona perfectamente— sino porque el verdadero costo de una mantecadora no está en el precio de compra. Está en lo que pasa después del año 1, del año 3 y del año 5. Este artículo desglosa los números reales que ninguna ficha técnica muestra, para que puedas tomar una decisión informada basada en datos concretos del mercado colombiano.</p>
+
+<h2 id="diferencia-de-precio-inicial-el-mito-del-ahorro">Diferencia de precio inicial: el mito del “ahorro”</h2>
+
+<p>Comparar el precio de compra sin contexto es como comparar el costo de un hotel solo por la tarifa de la noche: ignoras los gastos que vendrán después. Así se distribuyen los precios en Colombia para equipos de capacidad media (12-18 kg/batch):</p>
+
+<p><strong>Mantecadora italiana (Coldelite, Valmar):</strong></p>
+<ul>
+  <li>Nueva, capacidad estándar: $18 - $35 millones COP</li>
+  <li>Usada certificada (&lt; 15,000 horas): $8 - $15 millones COP</li>
+  <li>Garantía: 12 meses en equipos nuevos</li>
+</ul>
+
+<p><strong>Mantecadora asiática (marca genérica, re-brandeada):</strong></p>
+<ul>
+  <li>Nueva: $4 - $10 millones COP</li>
+  <li>Usada: prácticamente no existe mercado de segunda mano</li>
+  <li>Garantía: 3-6 meses (cuando existe)</li>
+</ul>
+
+<p>La diferencia es real: <strong>3x a 4x</strong> en precio de compra. Para un emprendedor que arranca con presupuesto ajustado, pagar $24 millones vs $8 millones es una decisión dolorosa. Pero la pregunta correcta no es cuánto pagas hoy, sino cuánto pagarás en 10 años por cada máquina.</p>
+
+<p>El problema del “ahorro” inicial es que desvía la atención del costo real de operación. La máquina china de $8 millones parece un negocio hasta que empiezas a sumar reparaciones, mayor consumo de luz y reposición anticipada.</p>
+
+<h2 id="costo-total-a-10-años-la-tabla-que-cambia-la-decisión">Costo total a 10 años: la tabla que cambia la decisión</h2>
+
+<p>Esta tabla compara el costo real de propiedad a 10 años para dos mantecadoras de capacidad equivalente:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Mantecadora italiana (Coldelite)</th>
+      <th>Mantecadora asiática genérica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Precio inicial</td>
+      <td><strong>$25,000,000</strong> COP</td>
+      <td><strong>$8,000,000</strong> COP</td>
+    </tr>
+    <tr>
+      <td>Consumo energía/año</td>
+      <td>$900,000 COP (2.5 kWh/día)</td>
+      <td>$1,800,000 COP (5 kWh/día)</td>
+    </tr>
+    <tr>
+      <td>Mantenimiento/año</td>
+      <td>$400,000 COP</td>
+      <td>$1,200,000 COP</td>
+    </tr>
+    <tr>
+      <td>Repuestos/año</td>
+      <td>$200,000 COP</td>
+      <td>$1,500,000 COP</td>
+    </tr>
+    <tr>
+      <td>Vida útil</td>
+      <td>15-20 años</td>
+      <td>3-5 años (requiere 1-2 reposiciones)</td>
+    </tr>
+    <tr>
+      <td>Costo total 10 años</td>
+      <td><strong>$40,000,000</strong> COP</td>
+      <td><strong>$62,000,000 - $82,000,000</strong> COP</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La mantecadora italiana cuesta <strong>40-50% menos a 10 años</strong>. La diferencia viene de tres factores:</p>
+
+<p><strong>1. Consumo energético:</strong> Las máquinas italianas usan compresores Bitzer ou Frascold de alta eficiencia con aislamiento térmico superior. Un estudio comparativo de Coldelite muestra que sus equipos consumen en promedio 45-50% menos electricidad que máquinas asiáticas de capacidad equivalente. En Colombia, con tarifas eléctricas de $800-$1,000 COP/kWh, el sobrecosto energético de una máquina china es de $800,000-$1,000,000 COP anuales.</p>
+
+<p><strong>2. Mantenimiento y repuestos:</strong> Los sellos mecánicos, válvulas y mezcladores de las mantecadoras italianas tienen repuestos disponibles localmente. Italgel mantiene stock permanente de repuestos para Coldelite y Valmar. En las máquinas asiáticas, cada reparación requiere importar piezas con 15-30 días de espera y costos de flete que duplican el valor del repuesto.</p>
+
+<p><strong>3. Vida útil reducida:</strong> La mayoría de las máquinas chinas no superan los 5 años sin una reparación mayor. Muchos heladeros reportan fallas del compresor entre el año 2 y 4. Al año 5, la opción más económica suele ser comprar otra máquina china, entrando en un ciclo de reposición constante.</p>
+
+<h2 id="overrun-el-factor-que-nadie-te-muestra-en-la-ficha-técnica">Overrun: el factor que nadie te muestra en la ficha técnica</h2>
+
+<p>El overrun (porcentaje de aire incorporado al helado) es el indicador más importante de rentabilidad después del costo de insumos. Una mantecadora italiana de calidad mantiene un overrun consistente de 35-50% durante toda la producción. Una máquina asiática genérica puede mostrar un overrun aceptable en la primera hora, pero pierde consistencia drásticamente después de 2-3 horas de operación continua.</p>
+
+<p>El impacto en tu negocio es directo: si produjiste 10 litros de mezcla y esperabas 14 litros de helado terminado (40% overrun), pero la máquina solo entregó 12 litros (20% overrun), perdiste 2 litros de producto vendible por cada batch. En una producción diaria de 40 litros de mezcla, eso son 8 litros diarios de helado que dejas de facturar.</p>
+
+<p>Las mantecadoras italianas incorporan sistemas de control de overrun por computadora que ajustan automáticamente la presión y velocidad del batido para mantener el porcentaje programado. Las máquinas asiáticas dependen de ajustes manuales que el operador debe calibrar constantemente.</p>
+
+<p>Para entender en detalle cómo medir y controlar este factor, lee nuestra guía completa sobre <a href="/blog/como-calcular-overrun-helado-artesanal/">cómo calcular el overrun del helado artesanal</a>.</p>
+
+<h2 id="soporte-técnico-y-repuestos-en-colombia">Soporte técnico y repuestos en Colombia</h2>
+
+<p>Este es el factor diferenciador más importante. Una mantecadora italiana detenida por una avería significa días perdidos de producción, clientes insatisfechos e ingresos que no regresan. El soporte técnico local no es un lujo: es una necesidad operativa.</p>
+
+<p>Italgel ofrece para mantecadoras italianas:</p>
+<ul>
+  <li>Técnicos especializados en Bogotá, Medellín y Cali con respuesta en 24-48 horas</li>
+  <li>Stock permanente de repuestos críticos (sellos, válvulas, compresores, tarjetas electrónicas)</li>
+  <li>Mantenimiento preventivo programado con extensión de vida útil comprobada</li>
+  <li>Garantía de 12 meses en equipos nuevos</li>
+</ul>
+
+<p>Para máquinas asiáticas en Colombia:</p>
+<ul>
+  <li>No existen centros de servicio autorizados para marcas genéricas</li>
+  <li>Los repuestos deben importarse directamente desde China o comprarse en sitios de segunda mano</li>
+  <li>Cada reparación requiere diagnóstico remoto con fotos y videos</li>
+  <li>Un compresor dañado puede significar que la máquina sea inservible: el costo del repuesto más el flete supera el 60% del valor del equipo nuevo</li>
+</ul>
+
+<h2 id="cuándo-sí-conviene-una-máquina-china">¿Cuándo sí conviene una máquina china?</h2>
+
+<p>Ser justos: no todo es negativo en las máquinas asiáticas. Hay escenarios donde pueden ser una opción válida:</p>
+
+<p><strong>Negocio de temporada o pop-up:</strong> Si vendes helado solo en temporada de calor (2-3 meses al año) o en eventos itinerantes, una máquina china puede funcionar lo suficiente para recuperar la inversión. El desgaste en uso estacional es mucho menor que en operación continua.</p>
+
+<p><strong>Volumen bajo de producción (menos de 20 litros diarios):</strong> Con uso ligero, la vida útil se extiende porque el compresor no alcanza temperaturas críticas de sobrecalentamiento con frecuencia. Fallas comunes como sellos desgastados y válvulas obstruidas tardan más en aparecer.</p>
+
+<p><strong>Presupuesto absolutamente limitado y sin acceso a financiación:</strong> Si no puedes acceder a un crédito para un equipo italiano ni a una usada certificada, y el negocio no existiría sin la máquina china, este es tu caso de uso. La recomendación es tener un fondo de reposición del 100% del valor del equipo desde el primer mes.</p>
+
+<p><strong>Segundo equipo de respaldo:</strong> Algunos heladeros usan una máquina italiana como equipo principal y una china como respaldo para picos de demanda. La china opera pocas horas al año, lo que extiende su vida útil.</p>
+
+<p>En cualquier otro escenario —operación continua de 8+ horas diarias, heladería establecida, proyección a largo plazo— la mantecadora italiana es la decisión económicamente correcta.</p>
+
+<h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
+
+<h3 id="cuánto-cuesta-una-mantecadora-italiana-en-colombia">¿Cuánto cuesta una mantecadora italiana en Colombia?</h3>
+
+<p>Una mantecadora italiana profesional (Coldelite, Valmar) cuesta entre $12 y $35 millones COP según capacidad. Una máquina china genérica similar cuesta entre $4 y $10 millones COP. La diferencia se recupera en menor consumo energético, menos reparaciones y mayor vida útil.</p>
+
+<h3 id="cuántos-años-dura-una-mantecadora-italiana">¿Cuántos años dura una mantecadora italiana?</h3>
+
+<p>Una mantecadora italiana bien mantenida dura 15-20 años de operación comercial continua. Una máquina china típica comienza a presentar fallas graves entre el año 2 y 4. Después del año 5, la mayoría requiere reparaciones mayores que pueden costar más del 50% del valor original.</p>
+
+<h3 id="qué-mantecadora-comprar-para-empezar-una-heladería">¿Qué mantecadora comprar para empezar una heladería?</h3>
+
+<p>Para empezar, la mejor relación inversión-beneficio es una mantecadora italiana usada certificada (Coldelite o Valmar) con menos de 15,000 horas de operación. Italgel ofrece servicio de revisión técnica pre-compra. Si el presupuesto lo permite, una nueva siempre es mejor por la garantía de 12 meses.</p>
+
+<h3 id="las-máquinas-chinas-para-helado-sirven-para-negocio">¿Las máquinas chinas para helado sirven para negocio?</h3>
+
+<p>Sí, para negocios de bajo volumen o temporada. Su principal desventaja no es la calidad inicial (funcionan bien los primeros meses), sino la falta de soporte técnico local, repuestos difíciles de conseguir y sobrecostos energéticos. Para operación continua de 8+ horas diarias, no son recomendables.</p>
+
+<h2 id="la-decisión-correcta-según-tu-modelo-de-negocio">La decisión correcta según tu modelo de negocio</h2>
+
+<p>No existe una máquina universalmente correcta para todas las heladerías. Existe la máquina correcta para tu modelo de negocio específico.</p>
+
+<p>Si planeas operar una heladería artesanal con producción diaria continua, proyección de crecimiento y estándares de calidad consistentes, la inversión en una mantecadora italiana se paga sola en los primeros 3-4 años de operación comparada con el costo acumulado de una máquina china. La diferencia en calidad de helado, consistencia de overrun y confiabilidad operativa justifica ampliamente la inversión adicional.</p>
+
+<p>Si tu negocio es estacional, de bajo volumen o complementario a otra operación, y el capital inicial es el factor limitante más crítico, una máquina asiática puede ser un punto de partida funcional. Solo debes entrar sabiendo que no es una solución permanente y que el costo real a largo plazo será mayor.</p>
+
+<p>Para quienes buscan la mejor relación calidad-precio, las <a href="/maquinas-helado-artesanal/">mantecadoras Coldelite</a> representan el estándar de la industria con soporte local garantizado. Y si tu modelo de negocio incluye helado soft, las <a href="/maquinas-helado-soft/">máquinas de helado soft</a> tienen consideraciones técnicas diferentes que también requieren evaluación cuidadosa.</p>
+
+<p>La decisión no es entre caro y barato. Es entre pagar hoy o pagar más mañana. Los números a 10 años no mienten.</p>
+]]></content:encoded>
+
+        
+        
+          <enclosure url="http://localhost:4000/img/blog/mantecadora-italiana-vs-asiatica.avif" type="image/avif" />
+        
+
+      </item>
+    
+      
+      
+      <item>
+        <title>¿Cuánto cuesta producir un helado artesanal en Colombia? Guía 2026</title>
+        <description><![CDATA[Producir un helado artesanal en Colombia cuesta entre $3.500 y $8.500 COP por litro según los insumos. Con Base 50 MEC3 el rendimiento aumenta hasta 40%.]]></description>
+        <pubDate>Wed, 27 May 2026 10:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/cuanto-cuesta-producir-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/cuanto-cuesta-producir-helado-artesanal/</guid>
+        <dc:creator></dc:creator>
+
+        
+          
+            <category>negocio</category>
+          
+            <category>rentabilidad</category>
+          
+        
+
+        <content:encoded><![CDATA[<p><strong>En resumen:</strong> Producir un litro de helado artesanal en Colombia cuesta entre $3.500 y $8.500 COP, dependiendo de la base, las pastas de sabor y el overrun alcanzado. Con Base 50 MEC3 el costo por litro es de aproximadamente $4.571 COP, mientras que con bases genéricas ronda los $4.285 COP — la diferencia está en la calidad, la vida útil en vitrina y la reducción de merma. Un heladero que controla el overrun puede aumentar su producción hasta 40% sin aumentar insumos.</p>
+
+<hr />
+
+<p>Los heladeros artesanales en Colombia suelen calcular los costos de producción de manera intuitiva: cuánto pagaron por la base, cuánto por la pasta de sabor, y un número aproximado de litros que salen de la mezcla. Ese cálculo incompleto es la razón principal por la que muchas heladerías que parecen rentables en papel terminan cerrando a los dos años.</p>
+
+<p>El costo real de producir un litro de helado artesanal no es solo la suma de los ingredientes. Incluye la energía de la pasteurización y la mantecación, el empaque, la merma inevitable de producción y vitrina, y — el factor más subestimado — el overrun real que estás logrando. Dos heladeros usando exactamente los mismos ingredientes pueden tener costos por litro que difieren en 30% simplemente porque uno controla el proceso y el otro no.</p>
+
+<p>Esta guía desglosa cada componente del costo, compara insumos profesionales con genéricos y muestra cómo decisiones técnicas aparentemente pequeñas impactan directamente la rentabilidad del negocio.</p>
+
+<h2 id="desglose-de-costos-por-litro-de-helado-artesanal">Desglose de costos por litro de helado artesanal</h2>
+
+<p>Para calcular el costo real de producción, hay que considerar todos los componentes que entran en la mezcla más los costos operativos directos. Tomemos como referencia una producción de helado artesanal en mantecadora batch (producción por lotes).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Componente</th>
+      <th>Cantidad por litro</th>
+      <th>Costo unitario</th>
+      <th>Costo por litro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base 50 MEC3</td>
+      <td>140 g</td>
+      <td>$32.000 COP / kg</td>
+      <td>$4.480 COP</td>
+    </tr>
+    <tr>
+      <td>Leche entera</td>
+      <td>450 ml</td>
+      <td>$3.200 COP / L</td>
+      <td>$1.440 COP</td>
+    </tr>
+    <tr>
+      <td>Pasta de sabor (vainilla)</td>
+      <td>40 g</td>
+      <td>$28.000 COP / kg</td>
+      <td>$1.120 COP</td>
+    </tr>
+    <tr>
+      <td>Energía (pasteurización + mantecación)</td>
+      <td>—</td>
+      <td>—</td>
+      <td>$200 COP</td>
+    </tr>
+    <tr>
+      <td>Empaque (pote 1L)</td>
+      <td>1 unidad</td>
+      <td>$550 COP</td>
+      <td>$550 COP</td>
+    </tr>
+    <tr>
+      <td><strong>Total por litro producido</strong></td>
+      <td> </td>
+      <td> </td>
+      <td><strong>$7.790 COP</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Este es el costo para un lote controlado con base profesional y pasta de vainilla estándar. Si usas pastas premium (pistacho, avellana), el costo por litro puede subir a $12.000-$15.000 COP, pero el precio de venta también se incrementa proporcionalmente.</p>
+
+<p>Los números cambian drásticamente según el tipo de base que uses, como se muestra en la siguiente sección.</p>
+
+<h2 id="base-50-mec3-vs-base-genérica-comparación-real-de-rendimiento">Base 50 MEC3 vs base genérica: comparación real de rendimiento</h2>
+
+<p>La variable que más impacto tiene en el costo final por litro no es el precio por kilo de la base, sino el rendimiento (litros de helado terminado por kilo de base). Una base más cara que rinde más puede terminar siendo más barata por litro.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Base 50 MEC3</th>
+      <th>Base genérica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Precio por kg</td>
+      <td>$32.000 COP</td>
+      <td>$18.000 COP</td>
+    </tr>
+    <tr>
+      <td>Rendimiento</td>
+      <td>6-8 L por kg</td>
+      <td>4-5 L por kg</td>
+    </tr>
+    <tr>
+      <td>Costo de base por litro</td>
+      <td>$4.571 COP</td>
+      <td>$4.285 COP</td>
+    </tr>
+    <tr>
+      <td>Overrun típico</td>
+      <td>50-60%</td>
+      <td>30-40%</td>
+    </tr>
+    <tr>
+      <td>Vida útil en vitrina</td>
+      <td>48 horas sin cristalizar</td>
+      <td>24-36 horas</td>
+    </tr>
+    <tr>
+      <td>Consistencia lote a lote</td>
+      <td>Alta</td>
+      <td>Variable</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>El costo de la base por litro terminado es prácticamente el mismo ($4.571 vs $4.285 COP). La diferencia real está en lo que no se ve: el helado con Base 50 MEC3 mantiene su textura cremosa por más tiempo en vitrina, resiste mejor los cambios de temperatura al abrir y cerrar la vitrina, y produce menos merma por helado que pierde calidad antes de venderse.</p>
+
+<p>Para un heladero que produce 50 litros semanales, una merma del 10% con base genérica vs 4% con Base 50 MEC3 significa <strong>$1.400.000 COP mensuales</strong> que no se pierden.</p>
+
+<h2 id="cómo-calcular-tu-costo-por-porción-de-100-g">Cómo calcular tu costo por porción de 100 g</h2>
+
+<p>La porción estándar en heladería artesanal colombiana es la bola de 100 g. Para calcular su costo real:</p>
+
+<ol>
+  <li><strong>Costo por litro de helado terminado</strong>: incluye base, leche, pasta, energía y empaque</li>
+  <li><strong>Rendimiento en porciones</strong>: 1 litro de helado artesanal rinde aproximadamente <strong>10 porciones de 100 g</strong></li>
+  <li><strong>Costo por porción</strong>: divide el costo por litro entre 10</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de producción</th>
+      <th>Costo por litro</th>
+      <th>Costo por porción (100g)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base 50 MEC3 + pasta estándar</td>
+      <td>$7.790 COP</td>
+      <td>$779 COP</td>
+    </tr>
+    <tr>
+      <td>Base genérica + pasta estándar</td>
+      <td>$6.800 COP</td>
+      <td>$680 COP</td>
+    </tr>
+    <tr>
+      <td>Base 50 MEC3 + pasta premium (pistacho)</td>
+      <td>$12.500 COP</td>
+      <td>$1.250 COP</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Fórmula práctica</strong>: Costo por porción = (costo total del lote) / (litros producidos × 10).</p>
+
+<p>Si produces un lote de 5 litros con un costo total de $38.950 COP, cada porción de 100 g te cuesta $779 COP. Si la vendes a $5.000 COP, tu margen bruto es de $4.221 COP (84.4%).</p>
+
+<h2 id="el-overrun-es-tu-mayor-palanca-de-rentabilidad">El overrun es tu mayor palanca de rentabilidad</h2>
+
+<p>El overrun es el porcentaje de aire incorporado durante la mantecación. Un mayor overrun significa más litros de helado terminado con la misma cantidad de mezcla líquida. Es, literalmente, la palanca más potente para reducir tu costo por litro.</p>
+
+<ul>
+  <li>Con <strong>overrun del 30%</strong> (base genérica típica), 1 L de mezcla produce 1.3 L de helado</li>
+  <li>Con <strong>overrun del 55%</strong> (Base 50 MEC3 típica), 1 L de mezcla produce 1.55 L de helado</li>
+</ul>
+
+<p>La diferencia es <strong>19% más de helado</strong> para la misma mezcla. En términos prácticos: por cada 100 litros de mezcla, obtienes 25 litros adicionales de helado simplemente ajustando el proceso de mantecación.</p>
+
+<p>El secreto está en la base: una base profesional estabiliza la estructura del helado para retener más aire sin que se sienta “espumoso”. Las bases genéricas colapsan el overrun más rápido y producen un helado más denso y pesado.</p>
+
+<p>Para entender cómo medir y optimizar el overrun en tu producción, lee la guía completa sobre cómo <a href="/blog/como-calcular-overrun-helado-artesanal/">calcular el overrun del helado artesanal</a>.</p>
+
+<h2 id="ejemplo-mensual-de-los-costos-a-la-utilidad-neta">Ejemplo mensual: de los costos a la utilidad neta</h2>
+
+<p>Tomemos una heladería artesanal típica en Bogotá que produce 150 litros de helado al mes y vende 100 porciones diarias a $5.000 COP promedio.</p>
+
+<p><strong>Ingresos mensuales:</strong></p>
+
+<ul>
+  <li>Porciones vendidas: 100 porciones/día × 25 días = 2.500 porciones</li>
+  <li>Ingreso bruto: 2.500 × $5.000 COP = <strong>$12.500.000 COP</strong></li>
+</ul>
+
+<p><strong>Costos de producción (Base 50 MEC3):</strong></p>
+
+<ul>
+  <li>Costo por porción: $779 COP (incluye base, leche, pasta, energía, empaque)</li>
+  <li>Costo total de insumos: 2.500 × $779 COP = $1.947.500 COP</li>
+  <li>Merma de producción y vitrina (6%): $116.850 COP</li>
+  <li><strong>Total costos variables</strong>: <strong>$2.064.350 COP</strong></li>
+  <li><strong>Margen bruto</strong>: $10.435.650 COP (83.5%)</li>
+</ul>
+
+<p><strong>Costos fijos mensuales:</strong></p>
+
+<ul>
+  <li>Arriendo local (60 m², zona media de Bogotá): $2.200.000 COP</li>
+  <li>Nómina (1 empleado tiempo completo): $2.000.000 COP</li>
+  <li>Servicios (agua, luz, gas): $550.000 COP</li>
+  <li>Otros (POS, internet, publicidad): $300.000 COP</li>
+  <li><strong>Total costos fijos</strong>: <strong>$5.050.000 COP</strong></li>
+</ul>
+
+<p><strong>Resultado neto:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Monto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ingresos brutos</td>
+      <td>$12.500.000 COP</td>
+    </tr>
+    <tr>
+      <td>Costos variables</td>
+      <td>-$2.064.350 COP</td>
+    </tr>
+    <tr>
+      <td>Costos fijos</td>
+      <td>-$5.050.000 COP</td>
+    </tr>
+    <tr>
+      <td><strong>Utilidad neta estimada</strong></td>
+      <td><strong>$5.385.650 COP</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La utilidad neta representa <strong>43%</strong> de los ingresos brutos, consistente con una heladería bien gestionada. Reducir la merma del 6% al 3% agregaría $187.500 COP adicionales a la utilidad mensual sin vender una porción más.</p>
+
+<h2 id="preguntas-frecuentes-sobre-costos-de-producción">Preguntas frecuentes sobre costos de producción</h2>
+
+<h3 id="cuánto-cuesta-hacer-un-litro-de-helado-artesanal-en-colombia">¿Cuánto cuesta hacer un litro de helado artesanal en Colombia?</h3>
+
+<p>El costo de producción de un litro de helado artesanal en Colombia oscila entre $3.500 y $8.500 COP, dependiendo de los insumos. Con Base 50 MEC3 el costo por litro es de aproximadamente $4.571 COP, mientras que con bases genéricas el costo por litro es de $4.285 COP — pero la calidad, vida útil en vitrina y rendimiento son significativamente superiores.</p>
+
+<h3 id="cuál-es-el-margen-de-ganancia-de-una-heladería-artesanal">¿Cuál es el margen de ganancia de una heladería artesanal?</h3>
+
+<p>El margen bruto de una heladería artesanal en Colombia está entre 70% y 85% por porción vendida. Una bola de 100 gramos que cuesta $650-$850 COP producirse se vende entre $4.000 y $7.000 COP. El margen neto (después de costos fijos) suele estar entre 20% y 35%.</p>
+
+<h3 id="vale-la-pena-pagar-más-por-bases-profesionales-como-mec3">¿Vale la pena pagar más por bases profesionales como MEC3?</h3>
+
+<p>Sí. Aunque el kilo de Base 50 MEC3 cuesta más que una base genérica, el costo por litro producido es similar ($4.571 vs $4.285 COP) porque rinde más. La diferencia está en la consistencia, vida útil en vitrina (hasta 48 horas sin cristalizar) y la reducción de merma por lotes fallidos. Una base profesional se paga sola eliminando desperdicios.</p>
+
+<h3 id="cuánto-rinde-1-kg-de-base-50-mec3">¿Cuánto rinde 1 kg de Base 50 MEC3?</h3>
+
+<p>1 kg de Base 50 MEC3 rinde entre 6 y 8 litros de helado artesanal terminado, dependiendo del overrun alcanzado (50-60%). Con overrun controlado, produces más litros por kilo que con bases genéricas que suelen rendir 4-5 litros por kilo.</p>
+
+<h3 id="cuánto-se-gana-mensualmente-en-una-heladería-en-colombia">¿Cuánto se gana mensualmente en una heladería en Colombia?</h3>
+
+<p>Una heladería artesanal bien establecida que vende 80-120 porciones diarias a $5.000 COP puede generar ingresos brutos de $12 a $18 millones COP mensuales. Después de costos de insumos, personal, arriendo y servicios, la utilidad neta estimada es de $4 a $8 millones COP mensuales.</p>
+
+<h2 id="el-costo-real-no-es-el-precio-del-insumo">El costo real no es el precio del insumo</h2>
+
+<p>El error más común entre heladeros artesanales es confundir el precio por kilo de una base con su costo real por litro producido. Una base que cuesta $32.000 COP/kg y rinde 7 L por kilo tiene un costo de $4.571 COP por litro. Una base de $18.000 COP/kg que rinde 4.2 L por kilo tiene un costo de $4.285 COP por litro. La diferencia es de solo $286 COP por litro — el precio de un transpote en TransMilenio.</p>
+
+<p>Lo que sí cambia radicalmente es la merma, la consistencia del producto final y la satisfacción del cliente que vuelve. Una heladería que reduce su merma del 10% al 4% está ganando $3.000.000 COP anuales por cada 100 litros producidos, solo por la base que usa.</p>
+
+<p>Para heladeros que quieren mejorar sus costos desde el primer lote, la decisión correcta es invertir en <a href="/bases-helado-colombia/">bases para helado MEC3</a> que ofrecen rendimiento predecible y consistencia profesional. Para optimizar el proceso de producción, las <a href="/maquinas-helado-artesanal/">mantecadoras profesionales</a> con control de overrun y temperatura garantizan que cada lote alcance su máximo rendimiento.</p>
+]]></content:encoded>
+
+        
+        
+          <enclosure url="http://localhost:4000/img/blog/cuanto-cuesta-producir-helado-artesanal.avif" type="image/avif" />
+        
+
+      </item>
+    
+      
+      
+      <item>
+        <title>Costo por porción de toppings para heladería: guía de rentabilidad</title>
+        <description><![CDATA[El topping mal dosificado puede comerte hasta el 15% de tu margen. Una barra de toppings bien costeada aumenta el ticket promedio sin aumentar costos fijos.]]></description>
+        <pubDate>Wed, 27 May 2026 10:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/costo-porcion-toppings-heladeria/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/costo-porcion-toppings-heladeria/</guid>
+        <dc:creator></dc:creator>
+
+        
+          
+            <category>negocio</category>
+          
+            <category>rentabilidad</category>
+          
+            <category>toppings</category>
+          
+        
+
+        <content:encoded><![CDATA[<p><strong>En resumen:</strong> El costo por porción de un topping para helado puede ir de <strong>$80 COP</strong> (granela de chocolate) a <strong>$600 COP</strong> (frutos secos premium), mientras el precio adicional que cobras oscila entre <strong>$1.000 y $3.000 COP</strong>. Una barra de toppings bien costeada representa <strong>8-12% del costo total de insumos</strong> y puede aumentar tu ticket promedio hasta en <strong>40%</strong> sin incrementar costos fijos.</p>
+
+<hr />
+
+<p>Cuando abres tu heladería, los toppings parecen el componente menos problemático. No requieren pasteurización, no tienen overrun, no fermentan. Los compras, los pones en la barra y el cliente los elige.</p>
+
+<p>Esa percepción cambia el día que haces el cálculo real y descubres que estás regalando <strong>$200 COP por porción</strong> porque tu equipo sirve 35g donde debería servir 20. O que la salsa importada de <strong>$45.000 COP/kg</strong> tiene rotación tan baja que botas el 40%.</p>
+
+<p>En esta guía desglosamos el costo real por porción de cada tipo de topping, los gramajes exactos según el tamaño del helado, y cuáles son los toppings más rentables para que tu barra no sea un gasto invisible sino una fuente de margen.</p>
+
+<h2 id="gramajes-recomendados-por-tipo-de-topping-y-tamaño-de-porción">Gramajes recomendados por tipo de topping y tamaño de porción</h2>
+
+<p>El gramaje del topping no es arbitrario. Depende del tamaño del helado base y del tipo de topping. Esta tabla recoge los estándares profesionales para heladería artesanal en Colombia:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Tamaño de helado</th>
+      <th style="text-align: left">Peso helado</th>
+      <th style="text-align: left">Granela crujiente</th>
+      <th style="text-align: left">Salsa líquida</th>
+      <th style="text-align: left">Variegato</th>
+      <th style="text-align: left">Fruto seco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Cono pequeño</td>
+      <td style="text-align: left">90g</td>
+      <td style="text-align: left"><strong>10-12g</strong></td>
+      <td style="text-align: left"><strong>15ml</strong></td>
+      <td style="text-align: left"><strong>12-15g</strong></td>
+      <td style="text-align: left"><strong>10g</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Copa mediana</td>
+      <td style="text-align: left">120g</td>
+      <td style="text-align: left"><strong>15-18g</strong></td>
+      <td style="text-align: left"><strong>20ml</strong></td>
+      <td style="text-align: left"><strong>15-20g</strong></td>
+      <td style="text-align: left"><strong>12-15g</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Copa grande</td>
+      <td style="text-align: left">180g</td>
+      <td style="text-align: left"><strong>20-25g</strong></td>
+      <td style="text-align: left"><strong>25-30ml</strong></td>
+      <td style="text-align: left"><strong>25-30g</strong></td>
+      <td style="text-align: left"><strong>15-20g</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Sundae especial</td>
+      <td style="text-align: left">240g</td>
+      <td style="text-align: left"><strong>25-30g</strong></td>
+      <td style="text-align: left"><strong>30-40ml</strong></td>
+      <td style="text-align: left"><strong>30-35g</strong></td>
+      <td style="text-align: left"><strong>20-25g</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Para variegatos (salsas de veteado interno), la proporción técnica es <strong>15% del peso total del helado</strong>. Un helado de 120g recibe 18g de variegato distribuido en capas intermedias, no solo en la superficie.</p>
+
+<h2 id="costo-por-porción-de-cada-tipo-de-topping">Costo por porción de cada tipo de topping</h2>
+
+<p>El costo por porción varía drásticamente según el tipo de topping y la presentación que compres. Estos son los rangos actuales en Colombia (2026) con precios de distribuidores profesionales como Italgel:</p>
+
+<p><strong>Granelas crujientes.</strong> Cuestan <strong>$8.500-$14.000 COP/kg</strong> al mayor. Con porción de 15g: <strong>$130-$210 COP</strong> por servicio. Son los toppings con mejor relación costo-valor percibido. Su vida útil en empaque sellado es de 6-8 meses.</p>
+
+<p><strong>Variegatos italianos (salsas de veteado).</strong> Cuestan <strong>$18.000-$35.000 COP/kg</strong>. Porción de 18g (15% de 120g): <strong>$325-$630 COP</strong> por servicio. Aportan sabor concentrado y presentación visual premium.</p>
+
+<p><strong>Salsas fluidas (cobertura que endurece).</strong> Cuestan <strong>$22.000-$40.000 COP/kg</strong>. Porción de 20ml: <strong>$440-$800 COP</strong> por servicio. Incluyen coberturas de chocolate, caramelo y frutos rojos. Al endurecer con el frío crean una capa crujiente que los clientes valoran.</p>
+
+<p><strong>Toppings de fruto seco (almendra, pistacho).</strong> Cuestan <strong>$28.000-$55.000 COP/kg</strong>. Porción de 12g: <strong>$335-$660 COP</strong> por servicio. Son los más costosos pero justifican el precio de venta más alto de la carta.</p>
+
+<p><strong>Galleta triturada y cookies.</strong> Cuestan <strong>$10.000-$18.000 COP/kg</strong>. Porción de 15g: <strong>$150-$270 COP</strong> por servicio. Rentabilidad alta con demanda constante en público joven.</p>
+
+<p><strong>Merma estimada.</strong> Agrega <strong>10% adicional</strong> al costo de cada porción por producto que se pierde en manipulación, dosificación excesiva o vencimiento.</p>
+
+<h2 id="los-toppings-más-rentables-para-tu-heladería">Los toppings más rentables para tu heladería</h2>
+
+<p>Medimos rentabilidad como la diferencia entre costo por porción y el precio adicional que el cliente paga, ajustado por frecuencia de pedido y vida útil.</p>
+
+<ol>
+  <li>
+    <p><strong>Granela de chocolate.</strong> Costo $130-180 COP/porción. Precio adicional cobrado $1.200-$1.800 COP. Margen: <strong>86-90%</strong>. Demanda: alta en todos los perfiles. Vida útil: 8 meses. Es el topping con mejor retorno por cada peso invertido.</p>
+  </li>
+  <li>
+    <p><strong>Galleta triturada tipo Oreo.</strong> Costo $150-270 COP/porción. Precio adicional $1.500-$2.500 COP. Margen: <strong>82-89%</strong>. Demanda: muy alta en menores de 30 años. Vida útil: 6 meses. Fácil de almacenar y sin preparación.</p>
+  </li>
+  <li>
+    <p><strong>Variegato de chocolate o avellana.</strong> Costo $325-500 COP/porción. Precio adicional $2.000-$3.000 COP. Margen: <strong>75-83%</strong>. Demanda: alta. Permite crear productos con nombre propio (“copa gianduja”) que se venden a precio premium.</p>
+  </li>
+  <li>
+    <p><strong>Salsa de caramelo o arequipe.</strong> Costo $440-650 COP/porción. Precio adicional $1.800-$2.500 COP. Margen: <strong>74-78%</strong>. Demanda: muy alta en mercado colombiano. Combina con helados de vainilla, chocolate y café.</p>
+  </li>
+  <li>
+    <p><strong>Granela de almendra o pistacho.</strong> Costo $335-660 COP/porción. Precio adicional $2.500-$3.500 COP. Margen: <strong>73-81%</strong>. Demanda: media pero con cliente dispuesto a pagar más. Posiciona tu heladería como premium.</p>
+  </li>
+</ol>
+
+<h2 id="cómo-costear-tu-barra-de-toppings-en-5-minutos">Cómo costear tu barra de toppings en 5 minutos</h2>
+
+<p>No necesitas una hoja de cálculo compleja para saber si estás ganando o perdiendo con tus toppings. Usa este método directo:</p>
+
+<ol>
+  <li>
+    <p><strong>Identifica tus 5 toppings más vendidos</strong> (80% de tus pedidos van a caer en 3-5 opciones).</p>
+  </li>
+  <li>
+    <p><strong>Pesa tu porción real.</strong> Sirve 5 porciones como las sirve tu equipo, pésalas y saca el promedio. Ese es tu gramaje real — no el que está en tu manual.</p>
+  </li>
+  <li><strong>Calcula el costo unitario:</strong>
+    <ul>
+      <li>Precio de compra por kg / 1000 = precio por gramo</li>
+      <li>Precio por gramo x gramaje real servido = costo por porción</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Compara con lo que cobras.</strong> Si tu costo por porción supera el <strong>30% del precio adicional</strong> que cobras, ese topping está erosionando margen. El objetivo es que el costo represente entre <strong>10% y 25%</strong> del precio de venta.</p>
+  </li>
+  <li><strong>Revisa rotación.</strong> Si un topping dura más de 60 días abierto y su vida útil es menor a 90 días, reduce tamaño de presentación o elimínalo.</li>
+</ol>
+
+<h2 id="error-común-sobre-dosificación-y-cómo-evitarlo">Error común: sobre-dosificación y cómo evitarlo</h2>
+
+<p>El error más frecuente no es el precio de compra del topping. Es servir <strong>el doble de lo debido</strong>. Una cucharada extra de granela son 8-10g adicionales que no cobras pero que te cuestan <strong>$80-$140 COP</strong>. Multiplicado por 80 servicios diarios: <strong>$6.400-$11.200 COP diarios</strong> que regalas. Son <strong>$192.000-$336.000 COP al mes</strong> en un solo topping.</p>
+
+<p><strong>Cómo evitarlo:</strong></p>
+<ul>
+  <li>Usa dosificadores mecánicos con medida fija para salsas líquidas (20ml, 30ml).</li>
+  <li>Para granelas y sólidos, usa cucharas medidoras de capacidad conocida (15g, 20g).</li>
+  <li>Capacita a tu equipo una vez al mes con una sesión práctica de pesaje.</li>
+  <li>Rotula cada topping con el gramaje exacto que debe servirse.</li>
+</ul>
+
+<p>Estandarizar porciones recupera la inversión en dosificadores en menos de 15 días solo con la reducción de merma.</p>
+
+<h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
+
+<div class="flex">
+  
+  <article class="faq-item">
+    <h3>¿Cuántos gramos de topping se le pone a un helado?</h3>
+    <p>El gramaje recomendado depende del tamaño del helado: para cono pequeño (90g) usar 10-15g de topping, para copa mediana (120g) usar 15-20g, para copa grande (180g) usar 20-30g. Para variegatos, la proporción ideal es 15% del peso total del helado.</p>
+
+  </article>
+  
+  <article class="faq-item">
+    <h3>¿Cuál es el topping más rentable para una heladería?</h3>
+    <p>Las granelas crujientes (chocolate, almendra, galleta) son los toppings más rentables porque su costo por porción es bajo ($80-$150 COP) frente al valor percibido que agregan. Un topping de chocolate puede costar $120 COP y permitir aumentar el precio del helado en $1.000-$2.000 COP.</p>
+
+  </article>
+  
+  <article class="faq-item">
+    <h3>¿Cuánto cuesta mantener una barra de toppings al mes?</h3>
+    <p>Para una heladería artesanal que sirve 100 porciones diarias, el costo mensual de la barra de toppings completa (5-7 variedades) oscila entre $600.000 y $1.200.000 COP, representando entre el 8% y 12% del costo total de insumos.</p>
+
+  </article>
+  
+  <article class="faq-item">
+    <h3>¿Los toppings se deben cobrar aparte o incluirlos en el precio?</h3>
+    <p>Depende del modelo: en heladerías artesanales premium, lo ideal es incluir 1-2 toppings básicos en el precio y cobrar los premium (importados, granelas especiales) como adicional. En helado soft, la barra de toppings suele ser incluida y se recupera con el mayor ticket promedio.</p>
+
+  </article>
+  
+</div>
+
+<h2 id="la-barra-de-toppings-como-diferenciador-de-precio">La barra de toppings como diferenciador de precio</h2>
+
+<p>Cuando costeas bien cada topping, dejas de verlos como un gasto y empiezas a verlos como lo que son: la herramienta más efectiva para segmentar tu cliente sin necesidad de menús diferentes ni inversión en nuevos equipos.</p>
+
+<p>El cliente que pide solo helado paga <strong>$5.000-$7.000 COP</strong>. El cliente que agrega un topping paga <strong>$7.000-$10.000 COP</strong>. El cliente que arma una copa con dos toppings y granela paga <strong>$10.000-$15.000 COP</strong>. Todos usan la misma base de helado, la misma vitrina, el mismo personal.</p>
+
+<p>La diferencia está en tu capacidad de ofrecer <a href="/granelas-decoracion/">granelas para helado</a> crujientes que se vean atractivas en la barra, <a href="/variegatos-helado/">variegatos italianos</a> que el cliente pueda ver cómo se integran al helado, y un equipo que sepa sugerir combinaciones con confianza.</p>
+
+<p>Una barra de toppings bien diseñada y correctamente costeada no solo protege tu margen: construye la percepción de valor que justifica el precio de tu helado frente a la competencia.</p>
+]]></content:encoded>
+
+        
+        
+          <enclosure url="http://localhost:4000/img/blog/costo-porcion-toppings-heladeria.avif" type="image/avif" />
+        
+
+      </item>
     
       
       
@@ -17,8 +698,8 @@
         <title>¿Qué es un sorbete? Diferencia con el helado artesanal</title>
         <description><![CDATA[El sorbete no es un helado sin leche. Es una categoría con su propia técnica, sus propias bases y un mercado que creció 900% en búsquedas durante el último a...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/que-es-un-sorbete-diferencias-helado-artesanal/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/que-es-un-sorbete-diferencias-helado-artesanal/</guid>
+        <link>http://localhost:4000/blog/que-es-un-sorbete-diferencias-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-es-un-sorbete-diferencias-helado-artesanal/</guid>
         <dc:creator></dc:creator>
 
         
@@ -112,7 +793,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/sorbete-artesanal-frutas-colombia.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/sorbete-artesanal-frutas-colombia.avif" type="image/avif" />
         
 
       </item>
@@ -123,8 +804,8 @@
         <title>Pasta de vainilla para helado: tipos y dosificación</title>
         <description><![CDATA[La pasta de vainilla no es extracto en otro formato. Es un concentrado con células de vainilla real que produce un perfil de sabor que ninguna esencia artifi...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</guid>
+        <link>http://localhost:4000/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</guid>
         <dc:creator></dc:creator>
 
         
@@ -228,7 +909,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/pasta-vainilla-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/pasta-vainilla-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -239,8 +920,8 @@
         <title>Helados sin azúcar para heladería: bases con Stevia</title>
         <description><![CDATA[El helado sin azúcar no es un helado al que le quitaste el azúcar. Es un producto reformulado con edulcorantes que replican las funciones del azúcar en textu...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/helados-sin-azucar-heladeria-bases-stevia/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/helados-sin-azucar-heladeria-bases-stevia/</guid>
+        <link>http://localhost:4000/blog/helados-sin-azucar-heladeria-bases-stevia/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/helados-sin-azucar-heladeria-bases-stevia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -350,7 +1031,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/helados-sin-azucar-stevia-heladeria.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/helados-sin-azucar-stevia-heladeria.avif" type="image/avif" />
         
 
       </item>
@@ -361,8 +1042,8 @@
         <title>Emulsionantes y estabilizantes para helados: guía técnica</title>
         <description><![CDATA[El emulsionante y el estabilizante no son lo mismo. Confundirlos produce helados con textura incorrecta o que no resisten el día en vitrina. Esta guía explic...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/emulsionantes-estabilizantes-helados-heladeria/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/emulsionantes-estabilizantes-helados-heladeria/</guid>
+        <link>http://localhost:4000/blog/emulsionantes-estabilizantes-helados-heladeria/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/emulsionantes-estabilizantes-helados-heladeria/</guid>
         <dc:creator></dc:creator>
 
         
@@ -479,7 +1160,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif" type="image/avif" />
         
 
       </item>
@@ -490,8 +1171,8 @@
         <title>Crema de whisky para helado: variegato y dosificación</title>
         <description><![CDATA[La crema de whisky comercial (Bailey's, Coloma) no funciona en helado: cristaliza, pierde sabor y no se integra. El variegato Whisky MEC3 está formulado para...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/crema-de-whisky-para-helado-variegato/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/crema-de-whisky-para-helado-variegato/</guid>
+        <link>http://localhost:4000/blog/crema-de-whisky-para-helado-variegato/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/crema-de-whisky-para-helado-variegato/</guid>
         <dc:creator></dc:creator>
 
         
@@ -594,7 +1275,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/variegato-whisky-helado-premium.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/variegato-whisky-helado-premium.avif" type="image/avif" />
         
 
       </item>
@@ -605,8 +1286,8 @@
         <title>Amarena Fabbri para heladería: usos y dosificación</title>
         <description><![CDATA[La amarena no es una cereza común en almíbar. Es una variedad botánica italiana con perfil ácido-amargo y un almíbar calibrado para resistir congelación. Est...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/amarena-fabbri-heladeria-usos-dosificacion/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/amarena-fabbri-heladeria-usos-dosificacion/</guid>
+        <link>http://localhost:4000/blog/amarena-fabbri-heladeria-usos-dosificacion/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/amarena-fabbri-heladeria-usos-dosificacion/</guid>
         <dc:creator></dc:creator>
 
         
@@ -707,7 +1388,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/amarena-fabbri-heladeria-gelato.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/amarena-fabbri-heladeria-gelato.avif" type="image/avif" />
         
 
       </item>
@@ -718,8 +1399,8 @@
         <title>Rentabilidad de una heladería en Colombia: márgenes</title>
         <description><![CDATA[Una heladería artesanal bien operada en Colombia puede tener márgenes netos de 20-35%. Esta guía muestra los números reales, dónde se pierde el margen y cómo...]]></description>
         <pubDate>Wed, 08 Apr 2026 14:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/rentabilidad-heladeria-colombia/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/rentabilidad-heladeria-colombia/</guid>
+        <link>http://localhost:4000/blog/rentabilidad-heladeria-colombia/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/rentabilidad-heladeria-colombia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -809,7 +1490,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/rentabilidad-heladeria-colombia-margenes.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/rentabilidad-heladeria-colombia-margenes.avif" type="image/avif" />
         
 
       </item>
@@ -820,8 +1501,8 @@
         <title>Base 50 MEC3 vs Supergelmix: comparativa técnica</title>
         <description><![CDATA[Base 50 y Supergelmix son las dos bases MEC3 más vendidas en Colombia. Son muy diferentes. Elegir la equivocada puede costarte 30% de tu margen por litro pro...]]></description>
         <pubDate>Wed, 08 Apr 2026 13:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/base-50-mec3-vs-supergelmix-comparativa/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/base-50-mec3-vs-supergelmix-comparativa/</guid>
+        <link>http://localhost:4000/blog/base-50-mec3-vs-supergelmix-comparativa/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/base-50-mec3-vs-supergelmix-comparativa/</guid>
         <dc:creator></dc:creator>
 
         
@@ -940,7 +1621,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif" type="image/avif" />
         
 
       </item>
@@ -951,8 +1632,8 @@
         <title>Pasta de pistacho para helado: dosificación y compra</title>
         <description><![CDATA[La pasta de pistacho es el ingrediente más caro y más rentable de una heladería premium. Esta guía explica dosificación, selección de marca y cómo justificar...]]></description>
         <pubDate>Wed, 08 Apr 2026 12:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/pasta-pistacho-helado-guia-tecnica/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/pasta-pistacho-helado-guia-tecnica/</guid>
+        <link>http://localhost:4000/blog/pasta-pistacho-helado-guia-tecnica/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pasta-pistacho-helado-guia-tecnica/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1036,7 +1717,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/pasta-pistacho-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/pasta-pistacho-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1047,8 +1728,8 @@
         <title>Tipos de toppings para helado: guía para heladerías</title>
         <description><![CDATA[Hay más de 20 tipos de toppings para helado. Pero en una heladería profesional solo 5-7 generan el 80% del margen adicional. Aquí está la guía completa con r...]]></description>
         <pubDate>Wed, 08 Apr 2026 11:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/tipos-de-toppings-para-helado/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/tipos-de-toppings-para-helado/</guid>
+        <link>http://localhost:4000/blog/tipos-de-toppings-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/tipos-de-toppings-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1126,7 +1807,7 @@
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/tipos-toppings-para-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/tipos-toppings-para-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1137,8 +1818,8 @@
         <title>Cómo abrir una heladería en Colombia: guía con costos</title>
         <description><![CDATA[Abrir una heladería en Colombia puede costar desde $15 millones hasta $80 millones según el modelo. Aquí están los pasos, los costos reales y los errores que...]]></description>
         <pubDate>Wed, 08 Apr 2026 10:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/como-abrir-una-heladeria-en-colombia/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/como-abrir-una-heladeria-en-colombia/</guid>
+        <link>http://localhost:4000/blog/como-abrir-una-heladeria-en-colombia/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/como-abrir-una-heladeria-en-colombia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1245,7 +1926,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/como-abrir-heladeria-colombia.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/como-abrir-heladeria-colombia.avif" type="image/avif" />
         
 
       </item>
@@ -1256,8 +1937,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>¿Qué son las granelas para helado? Tipos y usos</title>
         <description><![CDATA[Las granelas para helado no son solo decoración. Son la diferencia entre un cliente que dice 'está bueno' y uno que vuelve por ese topping crujiente. Aquí es...]]></description>
         <pubDate>Wed, 08 Apr 2026 09:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/que-son-las-granelas-para-helado/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/que-son-las-granelas-para-helado/</guid>
+        <link>http://localhost:4000/blog/que-son-las-granelas-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-son-las-granelas-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1331,7 +2012,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/granelas-para-helado-profesionales.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/granelas-para-helado-profesionales.avif" type="image/avif" />
         
 
       </item>
@@ -1342,8 +2023,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>¿Qué es el variegato para helado? Guía técnica</title>
         <description><![CDATA[El variegato no es una salsa ni un topping. Es un ingrediente de producción que define la apariencia, sabor y margen de cada bola. Aquí aprenderás a usarlo c...]]></description>
         <pubDate>Wed, 08 Apr 2026 08:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/que-es-el-variegato-para-helado/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/que-es-el-variegato-para-helado/</guid>
+        <link>http://localhost:4000/blog/que-es-el-variegato-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-es-el-variegato-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1431,7 +2112,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/variegato-para-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/variegato-para-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1442,8 +2123,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>Pasteurización de mezcla para helado: guía técnica</title>
         <description><![CDATA[La pasteurización incorrecta causa textura granulosa, separación de fases y contaminación bacteriana. Esta guía técnica cubre temperaturas, tiempos y los 5 e...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1610,7 +2291,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/pasteurizacion-mezcla-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/pasteurizacion-mezcla-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -1621,8 +2302,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: costos y márgenes</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,500 COP sin aumentar costos proporcionalmente. Esta guía muestra cuáles usar y cómo ...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>http://localhost:4000/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/toppings-para-helado-mas-rentables/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1767,7 +2448,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/toppings-coberturas-helado-rentables.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/toppings-coberturas-helado-rentables.avif" type="image/avif" />
         
 
       </item>
@@ -1778,8 +2459,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Gelato vs helado artesanal: diferencias técnicas clave</title>
         <description><![CDATA[Gelato y helado artesanal no son sinónimos. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio, tu equipo y tu...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1914,7 +2595,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/diferencia-gelato-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/diferencia-gelato-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -1925,8 +2606,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Cómo calcular el overrun del helado artesanal: guía</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Con Base 50 MEC3 y el proceso correcto, puedes lograr 40% más producto sin sacrificar te...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">https://italgel.com.co/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</guid>
         <dc:creator></dc:creator>
 
         
@@ -2150,7 +2831,7 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
 
         
         
-          <enclosure url="https://italgel.com.co/img/blog/calcular-overrun-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4000/img/blog/calcular-overrun-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
