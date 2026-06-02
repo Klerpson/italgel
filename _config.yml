@@ -1,6 +1,8 @@
 baseurl: ""
 url: "https://italgel.com.co"
 name: "italgel.com.co"
+title: "Italgel | Insumos y Equipos para Heladería en Colombia"
+description: "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida."
 logo: img/logo.avif
 social_image: img/contacto-italgel-colombia.jpg
 author: Sebastián Rios
