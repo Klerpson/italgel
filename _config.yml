@@ -15,6 +15,12 @@ markdown: kramdown
 
 permalink: :slug/
 
+# Excluir carpetas de IA y planes del build
+exclude:
+  - ".claude"
+  - ".agents"
+  - "plans"
+
 keep_files: [/img]
 
 compress_html:
