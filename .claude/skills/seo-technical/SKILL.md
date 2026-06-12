@@ -42,10 +42,11 @@ permalink: /:categories/:title/  # Ejemplo: /blog/titulo-del-post/
 
 # === SEO ESENCIAL ===
 
-title: "Marca del Cliente - Descripción Breve del Negocio"
+title: "Italgel | Insumos y Equipos para Heladería en Colombia"
 description: "Meta description del sitio general (máx 155 caracteres)"
-author: "Nombre del Profesional o Empresa"
-logo: "/assets/images/logo.png"  # Path al logo para schema Organization
+author: "Sebastián Rios"
+logo: "img/logo.avif"          # Path al logo (relativo a la raíz)
+telefono: "573192346788"        # Usar 'telefono', NO 'phone' — así está en ItalGel
 
 # === SOCIAL MEDIA ===
 
@@ -177,34 +178,41 @@ timezone: America/Bogota  # Ajustar según ubicación del cliente
 
 ### 3. Schema Markup (JSON-LD)
 
-**Schema Organization (OBLIGATORIO en todas las páginas)**
+**Schema Organization (ya implementado en `_includes/schema.html`)**
 
-Crear en _includes/schema-organization.html:
+ItalGel ya tiene su schema Organization en `_includes/schema.html`. Las variables disponibles en `_config.yml` son:
+
+```yaml
+# Variables disponibles para schemas en ItalGel:
+site.url          → "https://italgel.com.co"
+site.title        → "Italgel | Insumos y Equipos para Heladería en Colombia"
+site.description  → descripción del negocio
+site.logo         → "img/logo.avif"
+site.social_image → "img/contacto-italgel-colombia.jpg"
+site.telefono     → "573192346788"   ← NOTA: es "telefono", NO "phone"
+site.email        → "info@mec3.co"
+site.author       → "Sebastián Rios"
+site.name         → "italgel.com.co"
+```
+
+Referencia del schema Organization actual en `_includes/schema.html`:
 
 ```html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "{{ site.title }}",
+  "name": "Italgel Colombia",
   "url": "{{ site.url }}",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "{{ site.logo | absolute_url }}",
-    "width": "600",
-    "height": "60"
-  },
+  "logo": "{{ site.logo | absolute_url }}",
   "description": "{{ site.description }}",
-  "sameAs": [
-    {% if site.facebook.publisher %}"{{ site.facebook.publisher }}",{% endif %}
-    {% if site.twitter.username %}"https://twitter.com/{{ site.twitter.username }}",{% endif %}
-    "https://instagram.com/{{ site.instagram.username }}"
-  ],
+  "foundingDate": "2008",
+  "areaServed": { "@type": "Country", "name": "Colombia" },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "{{ site.phone }}",
-    "contactType": "Customer Service",
-    "areaServed": "{{ site.country }}"
+    "telephone": "{{ site.telefono }}",
+    "contactType": "sales",
+    "email": "{{ site.email }}"
   }
 }
 </script>

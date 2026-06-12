@@ -11,7 +11,7 @@ Encontrar y priorizar keywords ANTES de crear contenido nuevo para posicionamien
 ## Input esperado
 - Tema o servicio del cliente (ej: "cirugía plástica Cali", "abogado laboral Bogotá")
 - CSV de Ubersuggest (columnas: Keyword, Vol, CPC, PD, SD)
-- Nicho del cliente (referencia .Codex/AGENTS.md del proyecto)
+- Nicho del cliente (referencia .claude/CLAUDE.md del proyecto)
 
 ## Proceso de análisis
 
@@ -212,7 +212,7 @@ Si ya tienes claridad de la estrategia de contenido.
 ### ⚠️ Advertencias críticas:
 - **No confundir volumen con oportunidad:** Una keyword de 5000/mes con SD 85 es peor que una de 400/mes con SD 25
 - **Intent > Volumen:** Una keyword transaccional de 200/mes vale más que una informacional de 2000/mes
-- **Contexto del cliente importa:** Revisa .Codex/AGENTS.md para entender nicho y objetivos antes de recomendar
+- **Contexto del cliente importa:** Revisa .claude/CLAUDE.md para entender nicho y objetivos antes de recomendar
 
 ## Formato de datos esperado (CSV Ubersuggest)
 

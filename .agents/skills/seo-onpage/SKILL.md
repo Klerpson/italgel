@@ -316,7 +316,7 @@ La rinoplastia en Cali se ha convertido en uno de los procedimientos más solici
 ### 9. Falta FAQ schema para featured snippets
 **Acción:** Si tienes sección de preguntas frecuentes, agregar schema FAQ
 
-Referencia: `.Codex/assets/schemas/faq.json`
+Referencia: `.claude/assets/schemas/faq.json`
 
 ---
 

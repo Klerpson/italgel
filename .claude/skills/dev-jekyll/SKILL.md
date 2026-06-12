@@ -23,85 +23,76 @@ Maquetación profesional y desarrollo front-end en Jekyll usando HTML moderno, C
 - Optimizar SEO on-page → eso es `seo-onpage` skill
 - Auditorías técnicas SEO → eso es `seo-technical` skill
 
-## Arquitectura CSS modular del proyecto
+## Arquitectura CSS de ItalGel
 
-**Estructura obligatoria (respetar siempre):**
+**Estructura real del proyecto (respetar siempre):**
 
 ```
 _includes/
 └── css/
-    ├── critical.css      ← CSS crítico above-the-fold (inline en head)
-    ├── header.css        ← Estilos del header
-    ├── footer.css        ← Estilos del footer
-    ├── nav.css           ← Navegación
-    ├── universal.css     ← Estilos globales base
-    ├── blog.css          ← Estilos específicos de blog
-    ├── styles-home.css   ← Estilos específicos del home
-    ├── styles-landing.css     ← Estilos de landing pages
-    ├── styles-services.css    ← Estilos de páginas de servicios
-    └── styles-corporate.css   ← Estilos corporativos/institucionales
+    ├── critical.css          ← CSS inline en <head> (above-the-fold)
+    ├── universal.css         ← Reset y estilos base globales
+    ├── nav.css               ← Navegación
+    ├── header.css            ← Hero/header
+    ├── cards.css             ← Cards de productos/posts
+    ├── pages.css             ← Estilos de páginas interiores
+    ├── boton.css             ← Botones y CTAs
+    ├── slider.css            ← Slider/carrusel
+    ├── footer.css            ← Footer
+    ├── floating-buttons.css  ← Botones flotantes (WhatsApp, etc.)
+    ├── share.css             ← Botones de compartir
+    ├── pqr.css               ← Formulario de contacto/PQR
+    └── media-queries.css     ← Responsive breakpoints
 
-assets/
-└── css/
-    ├── styles-blog.css        ← Importa blog.css + dependencias
-    ├── styles-home.css        ← Importa home.css + dependencias
-    ├── styles-landing.css     ← Importa landing.css + dependencias
-    ├── styles-services.css    ← Importa services.css + dependencias
-    └── styles-corporate.css   ← Importa corporate.css + dependencias
+css/
+└── style.css   ← Archivo principal compilado (cargado en todas las páginas)
 ```
 
 **Propósito de la arquitectura:**
-- **Separación por componente:** Cada CSS es un módulo (header, footer, nav, etc.)
-- **Carga condicional:** Solo se carga el CSS necesario según el layout
-- **Performance:** Archivos pequeños y específicos, no un mega CSS global
-- **Mantenibilidad:** Cambios en header solo afectan header.css
+- **Separación por componente:** Cada módulo CSS tiene su propio archivo en `_includes/css/`
+- **Un solo CSS compilado:** `css/style.css` concatena todos los módulos con `{% include %}`
+- **Critical CSS inline:** `_includes/css/critical.css` se inyecta directo en `<head>` con `<style>`
+- **Mantenibilidad:** Cambios en header solo afectan `header.css`
 
 ---
 
-### Ejemplo de assets/css/styles-blog.css:
+### Estructura de css/style.css:
 
-**IMPORTANTE: NO usar @import (falla en Jekyll). Usar {% render %} con front matter.**
+**IMPORTANTE: En Jekyll estándar (GitHub Pages) se usa `{% include %}`, NO `{% render %}`.**
+El tag `{% render %}` es exclusivo de Shopify Liquid y causará errores en Jekyll.
 
 ```css
 ---
+layout: compress
+noindex: true
 ---
-{% render "css/universal.css" %}
-{% render "css/header.css" %}
-{% render "css/nav.css" %}
-{% render "css/footer.css" %}
-{% render "css/blog.css" %}
+{% include css/universal.css %}
+{% include css/nav.css %}
+{% include css/floating-buttons.css %}
+{% include css/boton.css %}
+{% include css/header.css %}
+{% include css/cards.css %}
+{% include css/pages.css %}
+{% include css/share.css %}
+{% include css/slider.css %}
+{% include css/media-queries.css %}
+{% include css/footer.css %}
+{% include css/pqr.css %}
 ```
 
-**Explicación:**
-- Las `---` al inicio activan el procesamiento de Liquid
-- `{% render "path/archivo" %}` inserta el contenido del archivo (sin necesidad de .css)
-- Jekyll procesa todo y genera un solo archivo CSS compilado
-- **NUNCA usar `@import`** de CSS nativo (no funciona correctamente)
-- **`{% include %}` está DEPRECATED**, usar `{% render %}` siempre
-
-### Carga condicional en _includes/head.html:
+**Cómo se carga en head.html:**
 
 ```html
-<!-- CSS crítico inline -->
+<!-- CSS crítico inline (above-the-fold, no bloquea render) -->
 <style>
-  {% render "css/critical.css" %}
+  {% include css/critical.css %}
 </style>
 
-<!-- CSS específico según layout -->
-{% if page.layout == "post" or page.layout == "blog" %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles-blog.css' | relative_url }}">
-{% elsif page.layout == "home" %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles-home.css' | relative_url }}">
-{% elsif page.layout == "landing" %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles-landing.css' | relative_url }}">
-{% elsif page.layout == "service" %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles-services.css' | relative_url }}">
-{% else %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles-corporate.css' | relative_url }}">
-{% endif %}
+<!-- CSS principal compilado -->
+<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 ```
 
-**REGLA DE ORO:** Nunca cargar todo el CSS en todas las páginas. Solo lo necesario.
+**REGLA DE ORO para este proyecto:** Un solo `style.css` para todas las páginas. Si necesitas un componente nuevo, crea su módulo en `_includes/css/` y agrégalo en `css/style.css`.
 
 ---
 
@@ -519,142 +510,75 @@ document.addEventListener('DOMContentLoaded', () => {
 {% endcase %}
 ```
 
-**✅ Template rendering: `{% render %}` (USAR) vs `{% include %}` (DEPRECATED):**
+**✅ Template rendering con `{% include %}` (estándar Jekyll):**
 
-**IMPORTANTE:** Liquid ha deprecado `{% include %}`. Usar siempre `{% render %}`.
+**IMPORTANTE:** En Jekyll estándar (GitHub Pages), se usa `{% include %}`. El tag `{% render %}` es exclusivo de Shopify Liquid y **no existe en Jekyll** — úsarlo causará errores de build.
 
 ```liquid
-<!-- ❌ DEPRECATED: NO usar include -->
-{% include "header.html" %}
-{% include cta-servicio.html %}
+<!-- ✅ CORRECTO en Jekyll: usar include -->
+{% include header.html %}
+{% include components/cta-contacto.html %}
 
-<!-- ✅ CORRECTO: Usar render -->
-{% render "header.html" %}
-{% render "cta-servicio.html" %}
+<!-- Pasar variables con include -->
+{% include components/card.html title="Título" image="/img/foto.avif" link="/pagina" %}
 ```
 
-**Diferencias clave:**
-
-| Característica | `{% include %}` (deprecated) | `{% render %}` (usar) |
-|----------------|------------------------------|----------------------|
-| **Estado** | Deprecated | Recomendado |
-| **Scope de variables** | Compartido (puede modificar variables del parent) | Aislado (no comparte variables) |
-| **Performance** | Más lento | Más rápido |
-| **Predecibilidad** | Menos predecible | Más predecible |
-| **Extensión** | No requiere .liquid | No requiere .liquid |
-
-**Por qué render es mejor:**
-- Variables aisladas = código más seguro y predecible
-- No hay efectos secundarios inesperados
-- Mejor para mantenimiento a largo plazo
-- Recomendación oficial de Liquid
-
-**✅ Render con parámetros (passing variables):**
+**Acceder a variables en el include:**
 
 ```liquid
-<!-- En layout o página: pasar variables explícitamente -->
-{% render "components/card.html", 
-   title: "Título del card",
-   image: "/assets/img/foto.jpg",
-   link: "/pagina",
-   cta: "Leer más"
-%}
-
-<!-- Pasar variables existentes -->
-{% assign producto = site.data.productos.first %}
-{% render "components/product-card.html", 
-   product: producto,
-   show_price: true
-%}
-
-<!-- En _includes/components/card.html: acceder con nombre de parámetro -->
+<!-- En _includes/components/card.html -->
 <div class="card">
-  {% if image %}
-    <img src="{{ image }}" alt="{{ title }}">
+  {% if include.image %}
+    <img src="{{ include.image }}" alt="{{ include.title }}">
   {% endif %}
-  <h3>{{ title }}</h3>
-  <a href="{{ link }}" class="button">{{ cta | default: "Ver más" }}</a>
+  <h3>{{ include.title }}</h3>
+  <a href="{{ include.link }}" class="btn">{{ include.cta | default: "Ver más" }}</a>
 </div>
 ```
 
-**Diferencia crítica en el componente:**
+**✅ Include con variables del front matter:**
 
 ```liquid
-<!-- ❌ CON INCLUDE (deprecated): usar include.variable -->
-<h3>{{ include.title }}</h3>
+<!-- Includes de ItalGel existentes -->
+{% include schema.html %}
+{% include nav.html %}
+{% include header.html %}
+{% include footer.html %}
+{% include floating-buttons.html %}
+{% include related-posts.html %}
+{% include faq-schema.html %}
 
-<!-- ✅ CON RENDER: usar directamente el nombre del parámetro -->
-<h3>{{ title }}</h3>
+<!-- Include con parámetros -->
+{% include boton.html texto="Ver catálogo" url="/insumos/" clase="btn-primary" %}
 ```
 
-**✅ Render con objetos (with/for):**
+**✅ Casos de uso en ItalGel:**
 
 ```liquid
-<!-- Render con un objeto usando "with" -->
-{% assign featured = site.posts.first %}
-{% render "post-card.html" with featured as post %}
+<!-- Schema por tipo de página -->
+{% if page.layout == "post" or page.collection == "posts" %}
+  {% include schema.html %}
+{% endif %}
 
-<!-- Render para cada item de un array usando "for" -->
-{% render "post-card.html" for site.posts as post %}
-
-<!-- En el componente post-card.html -->
-<article>
-  <h2>{{ post.title }}</h2>
-  <time>{{ post.date | date: "%B %d, %Y" }}</time>
-  
-  <!-- forloop está disponible cuando usas "for" -->
-  {% if forloop.first %}
-    <span class="badge">Más reciente</span>
-  {% endif %}
-</article>
-```
-
-**✅ Casos de uso comunes:**
-
-```liquid
-<!-- CTAs condicionales -->
-{% case page.tipo %}
-  {% when "servicio" %}
-    {% render "cta-servicio.html", title: page.title %}
-  {% when "blog" %}
-    {% render "share-buttons.html", url: page.url %}
-  {% else %}
-    {% render "cta-general.html" %}
-{% endcase %}
-
-<!-- Cards con datos del front matter -->
-{% for servicio in page.servicios %}
-  {% render "service-card.html",
-     title: servicio.nombre,
-     icon: servicio.icono,
-     description: servicio.descripcion,
-     link: servicio.url
+<!-- Cards de productos en un loop -->
+{% for producto in site.data.productos %}
+  {% include components/product-card.html
+     nombre=producto.nombre
+     imagen=producto.imagen
+     url=producto.url
   %}
 {% endfor %}
 
-<!-- Hero section con variables -->
-{% render "hero-section.html",
-   heading: page.hero_title,
-   subheading: page.hero_subtitle,
-   cta_text: "Agendar cita",
-   cta_link: "/contacto",
-   background_image: page.hero_image
-%}
+<!-- FAQs con schema -->
+{% if page.faqs %}
+  {% include faq-schema.html faqs=page.faqs %}
+{% endif %}
 ```
 
-**Para archivos CSS (sin variables):**
-
-```css
----
----
-{% render "css/universal.css" %}
-{% render "css/header.css" %}
-```
-
-**REGLA DE ORO:** 
-- Siempre usar `{% render %}`, nunca `{% include %}`
-- Pasar variables explícitamente con parámetros
-- En el componente, acceder directamente por nombre (no `include.variable`)
+**REGLA DE ORO para ItalGel:**
+- Usar siempre `{% include %}` (estándar Jekyll)
+- Las variables del include se acceden como `{{ include.nombre_variable }}`
+- Para CSS: `{% include css/nombre.css %}` dentro de `css/style.css`
 
 **✅ Filtros útiles:**
 
@@ -693,13 +617,25 @@ document.addEventListener('DOMContentLoaded', () => {
 **SIEMPRE consultar antes de maquetar:**
 
 ```
-.claude/assets/plantillas/
-├── post.html         ← Layout actual de posts del cliente
-├── page.html         ← Layout actual de páginas del cliente
-└── head.html         ← Include del head con CSS condicional
+_layouts/
+├── post.html         ← Layout de posts del blog
+├── products.html     ← Layout de páginas de colección de productos
+├── main.html         ← Layout del home y landing pages
+├── general.html      ← Layout de páginas corporativas (nosotros, contacto)
+├── blog.html         ← Layout del listado de blog
+└── default.html      ← Layout base fallback
+
+_includes/
+├── head.html         ← <head> con CSS, meta tags y schema
+├── nav.html          ← Navegación principal
+├── header.html       ← Hero/cabecera de página
+├── footer.html       ← Footer
+├── schema.html       ← Schemas JSON-LD (Organization, Article, etc.)
+├── faq-schema.html   ← Schema FAQPage
+└── floating-buttons.html ← Botones flotantes WhatsApp
 ```
 
-**Propósito:** Mantener consistencia con el diseño existente del cliente.
+**Propósito:** Mantener consistencia con el diseño existente de ItalGel. Leer `.claude/assets/ejemplos/ejemplos.md` para las rutas de componentes disponibles.
 
 ---
 
@@ -772,66 +708,41 @@ permalink: /servicios/rinoplastia-cali/
 
 ### 3. Escribir CSS en módulo apropiado
 
-**Archivo: _includes/css/styles-services.css**
+**Para estilos de un componente nuevo, agregar en el módulo correspondiente:**
 
 ```css
-/* Servicio: Estructura principal */
-.service {
-  max-width: min(90%, 1200px);
-  margin-inline: auto;
-  padding: var(--space-lg) 0;
-}
-
-.service__header {
-  text-align: center;
-  margin-bottom: var(--space-lg);
-}
-
-.service__subtitle {
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  color: var(--color-secondary);
-  margin-top: var(--space-sm);
-}
-
-/* Features Grid - Responsive con Grid */
-.features-grid {
+/* Ejemplo: estilos de tarjeta de producto en _includes/css/cards.css */
+.product-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-md);
-  margin-top: var(--space-md);
-}
-
-.feature-card {
-  padding: var(--space-md);
-  border: 1px solid #e0e0e0;
+  grid-template-rows: auto 1fr auto;
   border-radius: 8px;
-  
-  & h3 {
-    margin-bottom: var(--space-sm);
-    color: var(--color-primary);
-  }
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-/* CTA Section */
-.service__cta {
-  margin-top: var(--space-lg);
-  padding: var(--space-lg);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: 12px;
+.product-card__image {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-card__body {
+  padding: var(--space-md);
+}
+
+.product-card__cta {
+  padding: var(--space-sm) var(--space-md);
   text-align: center;
 }
 ```
 
-**Agregar render en assets/css/styles-services.css:**
+**Si el componente es nuevo y no encaja en ningún módulo existente:**
+1. Crear `_includes/css/nombre-componente.css`
+2. Agregarlo al final de `css/style.css` con `{% include css/nombre-componente.css %}`
 
 ```css
----
----
-{% render "css/universal.css" %}
-{% render "css/header.css" %}
-{% render "css/nav.css" %}
-{% render "css/styles-services.css" %}
-{% render "css/footer.css" %}
+/* En css/style.css — agregar al final */
+{% include css/nombre-componente.css %}
 ```
 
 ---
@@ -885,9 +796,9 @@ permalink: /servicios/rinoplastia-cali/
 ### 2. CSS crítico inline
 
 ```html
-<!-- En head.html -->
+<!-- En head.html (ya implementado en ItalGel) -->
 <style>
-  {% render "css/critical.css" %}
+  {% include css/critical.css %}
 </style>
 ```
 

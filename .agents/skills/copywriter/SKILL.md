@@ -27,13 +27,13 @@ Crear contenido optimizado para SEO y persuasión. Esta skill genera contenido d
 
 - Keyword principal objetivo
 - Tipo de contenido (blog post / página servicio / landing page)
-- Cliente específico (leer `.Codex/AGENTS.md` del proyecto para contexto)
+- Cliente específico (leer `.claude/CLAUDE.md` y `.agents/AGENTS.md` del proyecto para contexto)
 
 **Altamente recomendado:**
 
 - Keywords secundarias (de keyword-research)
 - Análisis de competencia (de competitor-analysis)
-- Tono/voz del cliente (referencia `.Codex/assets/ejemplos/tono-voz.md`)
+- Tono/voz del cliente (referencia `.claude/assets/ejemplos/ejemplo-post-1.md`)
 
 **Opcional:**
 
@@ -54,7 +54,7 @@ Crear contenido optimizado para SEO y persuasión. Esta skill genera contenido d
 ```markdown
 - [ ] ¿Ya se hizo keyword-research? (Si NO → hacer primero)
 - [ ] ¿Ya se analizó competencia? (Recomendado para contenido estratégico)
-- [ ] ¿Revisé ejemplos del cliente en .Codex/assets/ejemplos/?
+- [ ] ¿Revisé ejemplos del cliente en .claude/assets/ejemplos/?
 - [ ] ¿Leí el AGENTS.md del proyecto para entender nicho?
 - [ ] ¿Tengo claro el search intent de la keyword y su etapa en el embudo de conversiones en la web?
 - [ ] ¿Necesita enlazar a otras páginas principales, posts o subpáginas?
@@ -388,116 +388,107 @@ Los esquemas deben agregarse en el frontmatter y usar el folder "includes" con a
 
 ---
 
-## Ejemplos de aplicación
+## Ejemplos de aplicación — ItalGel
 
-### Ejemplo 1: Blog post informacional
+### Ejemplo 1: Blog post informacional (heladería)
 
 **Input:**
 
 ```
-Keyword: "consultor SEO colombia"
-Cliente: "Consultor SEO de Colombia: supera por fin a tu competencia"
-Intent: Transaccional
-Competencia: Promedio 2,400 palabras
+Keyword: "bases para helado artesanal"
+Cliente: ItalGel — distribuidor MEC3, insumos y equipos para heladerías en Colombia
+Intent: Informacional / Comercial
+Competencia: Promedio 1,800 palabras
 ```
 
 **Estructura generada:**
 
 ```markdown
 ---
-title: "Consultor SEO Colombia: Supera por fin a tu competencia"
-description: "Consultor SEO en Colombia con 8 años de experiencia. Posicionamiento web, auditorías SEO y más. Primera auditoría básica gratuita →"
+layout: post
+title: "Bases para helado artesanal: guía completa para elegir la mejor en Colombia"
+description: "Descubre qué son las bases para helado artesanal, cómo elegir entre neutra, láctea o vegana, y cuál usa Italgel para garantizar cremosidad y rentabilidad."
+date: 2026-06-12
+author: "Sebastián Rios"
+category: "Insumos para heladería"
+hero: /img/blog/bases-helado-artesanal-colombia.avif
+image_alt: "Bases para helado artesanal MEC3 distribuidas por Italgel Colombia"
+permalink: /blog/bases-para-helado-artesanal/
 ---
 
-# Consultor SEO en Colombia: Supera por fin a tu competencia
+# Bases para helado artesanal: cómo elegir la correcta y por qué importa tu rentabilidad
 
-Cada **consultor SEO** que ha revisado tu página web te ha dicho lo mismo: "necesitas más contenido". Pero, ¿te hablaron de la **estrategia de contenido**? ¿Te explicaron cómo crear contenido que realmente posicione y atraiga clientes?
+La **base para helado artesanal** es el ingrediente que define todo: textura, estabilidad, overrun y costo por litro. Elegir mal puede costarte entre un 15% y un 30% de tu margen de ganancia.
 
-## ¿Qué es una estrategia de contenido?
+## ¿Qué es una base para helado artesanal?
 
-[Contenido detallado...]
+[Contenido: definición, función, tipos]
 
-## ¿Cómo crear contenido que realmente posicione y atraiga clientes?
+## Tipos de bases: neutra, láctea y vegana
 
-[Contenido detallado...]
+[Contenido: comparativa, cuándo usar cada una]
 
-## Preguntas Frecuentes sobre SEO en Colombia
+## Cómo calcular cuánta base necesitas por litro de helado
 
-### ¿En cuánto tiempo se ven resultados con SEO en Colombia?
+[Contenido: fórmula práctica]
+
+## Preguntas Frecuentes sobre bases para helado
+
+### ¿Se puede hacer helado artesanal sin base?
 
 [Respuesta concisa...]
 
-[8 FAQs más]
+[5 FAQs más con schema]
 
-## Hagamos una consultoría SEO profesional para tu empresa
+## Solicita tu muestra de bases MEC3 en Colombia
 
-Si estás listo para llevar tu negocio al siguiente nivel, agenda una consultoría SEO profesional. Analizaremos tu situación actual, identificaremos oportunidades y conseguiremos lo que tanto tiempo y dinero te ha costado.
+[CTA: WhatsApp o formulario de contacto]
 ```
 
 ---
 
-### Ejemplo 2: Página de servicio
+### Ejemplo 2: Página de producto/categoría
 
 **Input:**
 
 ```
-Servicio: "Páginas web profesionales para consultorios en Cali"
-Cliente: Consultorios en Cali
-Intent: Transaccional
+Keyword: "máquinas para helado artesanal Colombia"
+Tipo: Página de colección de productos
+Intent: Comercial / Transaccional
 ```
 
 **Estructura generada:**
 
 ```markdown
 ---
-title: "Páginas web profesionales para consultorios en Cali | [Firma]"
-description: "Páginas web profesionales para consultorios en Cali que no quieren desaparecer del mercado. Evita gastos innecesarios. Primera consulta sin costo →"
+layout: products
+title: "Máquinas para helado artesanal en Colombia | Italgel"
+description: "Máquinas para helado artesanal profesionales en Colombia. Mantecadoras, pasteurizadoras y vitrofreezer MEC3. Asesoría técnica incluida. Cotiza hoy →"
+h1: "Máquinas para helado artesanal: equipos profesionales MEC3 en Colombia"
+hero: /img/maquinas-helado-artesanal-colombia.avif
+alt: "Mantecadora MEC3 para helado artesanal - Italgel Colombia"
+excerpt: "Equipos profesionales para helado artesanal con soporte técnico, repuestos y capacitación en Colombia."
 ---
 
-# Páginas web profesionales para consultorios en Cali: Atrae más pacientes y haz crecer tu práctica
+# Máquinas para helado artesanal en Colombia
 
-¿Tu consultorio está perdiendo pacientes frente a la competencia? En [Firma], diseñamos páginas web profesionales para consultorios en Cali que atraen más pacientes y hacen crecer tu práctica.
+¿Cuánto helado estás perdiendo por trabajar con un equipo que no mantiene la temperatura correcta?
 
-## ¿Qué Incluye Nuestra Página Web Profesional para Consultorios en Cali?
+## Las máquinas que usan las heladerías más rentables de Colombia
 
-- Diseño profesional y moderno
-- Optimización para móviles
-- Contenido persuasivo y profesional
-- Optimización SEO para Google
-- Integración con redes sociales
-- Formulario de contacto
-- Chat en vivo
-- Llamada a la acción clara
-- Diseño personalizado
-- Optimización para móviles
-- Contenido persuasivo y profesional
-- Optimización SEO para Google
-- Integración con redes sociales
-- Formulario de contacto
-- Chat en vivo
-- Llamada a la acción clara
+[Catálogo de productos con specs técnicas]
 
-## ¿Qué hace que nuestra página web profesional para consultorios en Cali sea diferente?
+## ¿Por qué elegir equipos MEC3?
 
-- No usamos plantillas genéricas
-- Diseño profesional y moderno
-- Optimización para móviles
-- Contenido persuasivo y profesional
-- Optimización SEO para Google
-- Integración con redes sociales
-- Formulario de contacto
-- Chat en vivo
-- Llamada a la acción clara
+[Diferenciadores: precisión italiana, soporte técnico local, garantía]
 
-## Proceso de Trabajo
+## Preguntas frecuentes sobre equipos para heladería
 
-1. **Consulta inicial gratuita**: Revisamos tu caso [...]
-2. **Estrategia legal**: Diseñamos plan de acción [...]
-3. **Ejecución**: Representamos tus intereses [...]
+[FAQs con schema]
 
-## Agenda tu Consulta Gratuita
+## Cotiza tus equipos hoy
 
-[Formulario + WhatsApp + Teléfono]
+[CTA: WhatsApp directo]
 ```
 
 ---
