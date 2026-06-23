@@ -1,0 +1,32 @@
+# Headers para controlar indexación de recursos no-HTML
+# Compatible con Netlify y GitHub Pages
+
+# Bloquear indexación de archivos de imagen con X-Robots-Tag
+/img/*.avif
+  X-Robots-Tag: noindex
+  Access-Control-Allow-Origin: *
+
+/img/*.jpg
+  X-Robots-Tag: noindex
+  Access-Control-Allow-Origin: *
+
+/img/*.jpeg
+  X-Robots-Tag: noindex
+  Access-Control-Allow-Origin: *
+
+/img/*.png
+  X-Robots-Tag: noindex
+  Access-Control-Allow-Origin: *
+
+/img/*.webp
+  X-Robots-Tag: noindex
+  Access-Control-Allow-Origin: *
+
+# Feed RSS no debe indexarse como página
+/feed.xml
+  X-Robots-Tag: noindex
+  Content-Type: application/rss+xml
+
+# 404.html no debe indexarse
+/404.html
+  X-Robots-Tag: noindex, nofollow

@@ -15,11 +15,21 @@ markdown: kramdown
 
 permalink: :slug/
 
-# Excluir carpetas de IA y planes del build
+# Excluir archivos y carpetas del build
+# NOTA: En Jekyll, 'exclude' SOBRESCRIBE los defaults, no los extiende.
+# Por eso listamos TODO explícitamente.
 exclude:
   - ".claude"
   - ".agents"
   - "plans"
+  - "AGENTS.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor"
+  - ".sass-cache"
+  - ".jekyll-cache"
+  - "README.md"
 
 keep_files: [/img]
 

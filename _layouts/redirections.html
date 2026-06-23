@@ -8,6 +8,9 @@ layout: compress
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirigiendo...</title>
+  {% if page.noindex %}
+  <meta name="robots" content="noindex, follow">
+  {% endif %}
   <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}">
   <script>
     window.location.replace("{{ page.redirect_to }}");
