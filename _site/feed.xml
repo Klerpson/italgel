@@ -3,13 +3,114 @@
   <channel>
     <title>Italgel | Insumos y Equipos para Heladería en Colombia</title>
     <description>Insumos y equipos profesionales para heladería en Colombia</description>
-    <link>http://localhost:4000/</link>
+    <link>http://localhost:4001/</link>
     <language>es</language>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2026 23:13:22 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 23:13:22 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 01 Sep 2026 08:45:30 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:45:30 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
 
+    
+      
+      
+      <item>
+        <title>Caso Exito Heladeria Gurcoff</title>
+        <description><![CDATA[
+
+layout: post
+published: false
+title: “Caso de éxito: cómo Heladería GurCoff resolvió su problema de proveedor de máquinas soft”
+description: “GurCoff, hela...]]></description>
+        <pubDate>Thu, 13 Aug 2026 00:00:00 -0500</pubDate>
+        <link>http://localhost:4001/blog/caso-exito-heladeria-gurcoff/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/caso-exito-heladeria-gurcoff/</guid>
+        <dc:creator>Equipo Técnico Italgel</dc:creator>
+
+        
+          
+        
+
+        <content:encoded><![CDATA[<!--
+BORRADOR — pendiente de revisión y aprobación del usuario y de la gerencia
+de Italgel antes de publicar. published: false lo mantiene fuera del build.
+Basado únicamente en el testimonio real ya publicado en _includes/testimonials.html
+(Julian Franco - Heladería GurCoff). No se inventaron cifras de ventas/ahorro:
+donde faltan datos concretos se deja marcado [CONFIRMAR CON GURCOFF] en vez
+de rellenar con números inventados.
+-->
+<hr />
+<p>layout: post
+published: false
+title: “Caso de éxito: cómo Heladería GurCoff resolvió su problema de proveedor de máquinas soft”
+description: “GurCoff, heladería en San Agustín y Pitalito (Huila), pasó dos años sin un proveedor confiable de máquinas soft hasta encontrar asesoría técnica real con Italgel.”
+excerpt: “Por más de dos años, Heladería GurCoff perdió dinero buscando un proveedor serio de máquinas soft. Así resolvieron ese problema.”
+h1: “Caso de éxito: Heladería GurCoff y el problema del proveedor de máquinas soft”
+date: 2026-08-13 10:00:00 -0500
+last_modified_at: 2026-08-13 10:00:00 -0500
+author: Equipo Técnico Italgel
+categories: [casos-de-exito]
+hero: /img/blog/caso-exito-gurcoff.avif
+jpg: /img/blog/caso-exito-gurcoff.jpg
+alt: “Heladería GurCoff en San Agustín, Huila, cliente de Italgel”
+schema_type: Article
+faq:</p>
+<ul>
+  <li>q: “¿Qué problema tenía Heladería GurCoff antes de trabajar con Italgel?”
+a: “Durante más de dos años, GurCoff no logró encontrar un proveedor de máquinas soft serio y responsable, lo que les generó pérdidas económicas y problemas operativos recurrentes.”</li>
+  <li>q: “¿Qué tipo de acompañamiento recibió GurCoff?”
+a: “Asesoría técnica continua para el correcto uso y mantenimiento de su equipo, no solo la venta de la máquina.”
+—</li>
+</ul>
+
+<h2 id="el-problema-dos-años-sin-un-proveedor-confiable">El problema: dos años sin un proveedor confiable</h2>
+
+<p><a href="https://gurcoff.com">Heladería GurCoff</a> opera en San Agustín y Pitalito, Huila, dos destinos con fuerte movimiento de turismo gastronómico. Antes de trabajar con Italgel, su fundador describe así el problema:</p>
+
+<blockquote>
+  <p>“Por más de 2 años perdimos mucho dinero tratando de encontrar un proveedor de máquinas soft serio y responsable.”</p>
+
+  <p>— Julian Franco, fundador de Heladería GurCoff</p>
+</blockquote>
+
+<p>No era un problema de conseguir una máquina. Era conseguir un proveedor que respondiera cuando algo fallaba, y que enseñara a usar el equipo correctamente — algo que la mayoría de vendedores de maquinaria no ofrece una vez cerrada la venta.</p>
+
+<h2 id="qué-cambió-con-la-asesoría-técnica">Qué cambió con la asesoría técnica</h2>
+
+<p>Según el mismo testimonio, lo que resolvió el problema no fue solo el equipo: fue el acompañamiento.</p>
+
+<blockquote>
+  <p>“Desde Italgel siempre nos han asesorado y acompañado para el buen uso de nuestro equipo. Fue una gran necesidad que por fin resolvimos.”</p>
+</blockquote>
+
+<p>En la práctica, esto significa:</p>
+
+<ul>
+  <li>Soporte técnico disponible cuando surge un problema con el equipo, no solo en el momento de la venta</li>
+  <li>Orientación sobre el uso correcto de la máquina soft para evitar daños prematuros</li>
+  <li>Continuidad: GurCoff sigue siendo cliente activo, no un caso puntual</li>
+</ul>
+
+<p>[CONFIRMAR CON GURCOFF antes de publicar: si hay una cifra concreta de tiempo de inactividad evitado, litros producidos, o ahorro en mantenimiento que se pueda citar con exactitud, agregarla aquí. No se incluye ninguna cifra sin confirmar.]</p>
+
+<h2 id="por-qué-esto-importa-para-otras-heladerías">Por qué esto importa para otras heladerías</h2>
+
+<p>El problema que describe GurCoff es común: conseguir el equipo es la parte fácil. Conseguir un proveedor que responda después de la venta es lo que separa una heladería que opera sin interrupciones de una que pierde días de producción por un equipo mal usado o sin soporte.</p>
+
+<h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
+
+<h3 id="qué-problema-tenía-heladería-gurcoff-antes-de-trabajar-con-italgel">¿Qué problema tenía Heladería GurCoff antes de trabajar con Italgel?</h3>
+
+<p>Durante más de dos años, GurCoff no logró encontrar un proveedor de máquinas soft serio y responsable, lo que les generó pérdidas económicas y problemas operativos recurrentes.</p>
+
+<h3 id="qué-tipo-de-acompañamiento-recibió-gurcoff">¿Qué tipo de acompañamiento recibió GurCoff?</h3>
+
+<p>Asesoría técnica continua para el correcto uso y mantenimiento de su equipo, no solo la venta de la máquina.</p>
+]]></content:encoded>
+
+        
+        
+
+      </item>
     
       
       
@@ -17,8 +118,8 @@
         <title>¿Qué es un sorbete? Diferencia con el helado artesanal</title>
         <description><![CDATA[El sorbete no es un helado sin leche. Es una categoría con su propia técnica, sus propias bases y un mercado que creció 900% en búsquedas durante el último a...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/que-es-un-sorbete-diferencias-helado-artesanal/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/que-es-un-sorbete-diferencias-helado-artesanal/</guid>
+        <link>http://localhost:4001/blog/que-es-un-sorbete-diferencias-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/que-es-un-sorbete-diferencias-helado-artesanal/</guid>
         <dc:creator></dc:creator>
 
         
@@ -114,7 +215,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/sorbete-artesanal-frutas-colombia.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/sorbete-artesanal-frutas-colombia.avif" type="image/avif" />
         
 
       </item>
@@ -125,8 +226,8 @@
         <title>Pasta de vainilla para helado: tipos y dosificación</title>
         <description><![CDATA[La pasta de vainilla no es extracto en otro formato. Es un concentrado con células de vainilla real que produce un perfil de sabor que ninguna esencia artifi...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</guid>
+        <link>http://localhost:4001/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/</guid>
         <dc:creator></dc:creator>
 
         
@@ -232,7 +333,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/pasta-vainilla-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/pasta-vainilla-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -243,8 +344,8 @@
         <title>Helados sin azúcar para heladería: bases con Stevia</title>
         <description><![CDATA[El helado sin azúcar no es un helado al que le quitaste el azúcar. Es un producto reformulado con edulcorantes que replican las funciones del azúcar en textu...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/helados-sin-azucar-heladeria-bases-stevia/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/helados-sin-azucar-heladeria-bases-stevia/</guid>
+        <link>http://localhost:4001/blog/helados-sin-azucar-heladeria-bases-stevia/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/helados-sin-azucar-heladeria-bases-stevia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -356,7 +457,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/helados-sin-azucar-stevia-heladeria.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/helados-sin-azucar-stevia-heladeria.avif" type="image/avif" />
         
 
       </item>
@@ -367,8 +468,8 @@
         <title>Emulsionantes y estabilizantes para helados: guía técnica</title>
         <description><![CDATA[El emulsionante y el estabilizante no son lo mismo. Confundirlos produce helados con textura incorrecta o que no resisten el día en vitrina. Esta guía explic...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/emulsionantes-estabilizantes-helados-heladeria/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/emulsionantes-estabilizantes-helados-heladeria/</guid>
+        <link>http://localhost:4001/blog/emulsionantes-estabilizantes-helados-heladeria/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/emulsionantes-estabilizantes-helados-heladeria/</guid>
         <dc:creator></dc:creator>
 
         
@@ -487,7 +588,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif" type="image/avif" />
         
 
       </item>
@@ -498,8 +599,8 @@
         <title>Crema de whisky para helado: variegato y dosificación</title>
         <description><![CDATA[La crema de whisky comercial (Bailey's, Coloma) no funciona en helado: cristaliza, pierde sabor y no se integra. El variegato Whisky MEC3 está formulado para...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/crema-de-whisky-para-helado-variegato/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/crema-de-whisky-para-helado-variegato/</guid>
+        <link>http://localhost:4001/blog/crema-de-whisky-para-helado-variegato/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/crema-de-whisky-para-helado-variegato/</guid>
         <dc:creator></dc:creator>
 
         
@@ -604,7 +705,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/variegato-whisky-helado-premium.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/variegato-whisky-helado-premium.avif" type="image/avif" />
         
 
       </item>
@@ -615,8 +716,8 @@
         <title>Amarena Fabbri para heladería: usos y dosificación</title>
         <description><![CDATA[La amarena no es una cereza común en almíbar. Es una variedad botánica italiana con perfil ácido-amargo y un almíbar calibrado para resistir congelación. Est...]]></description>
         <pubDate>Wed, 29 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/amarena-fabbri-heladeria-usos-dosificacion/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/amarena-fabbri-heladeria-usos-dosificacion/</guid>
+        <link>http://localhost:4001/blog/amarena-fabbri-heladeria-usos-dosificacion/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/amarena-fabbri-heladeria-usos-dosificacion/</guid>
         <dc:creator></dc:creator>
 
         
@@ -719,7 +820,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/amarena-fabbri-heladeria-gelato.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/amarena-fabbri-heladeria-gelato.avif" type="image/avif" />
         
 
       </item>
@@ -730,8 +831,8 @@
         <title>Rentabilidad de una heladería en Colombia: márgenes</title>
         <description><![CDATA[Una heladería artesanal bien operada en Colombia puede tener márgenes netos de 20-35%. Esta guía muestra los números reales, dónde se pierde el margen y cómo...]]></description>
         <pubDate>Wed, 08 Apr 2026 14:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/rentabilidad-heladeria-colombia/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/rentabilidad-heladeria-colombia/</guid>
+        <link>http://localhost:4001/blog/rentabilidad-heladeria-colombia/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/rentabilidad-heladeria-colombia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -823,7 +924,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/rentabilidad-heladeria-colombia-margenes.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/rentabilidad-heladeria-colombia-margenes.avif" type="image/avif" />
         
 
       </item>
@@ -834,8 +935,8 @@
         <title>Base 50 MEC3 vs Supergelmix: comparativa técnica</title>
         <description><![CDATA[Base 50 y Supergelmix son las dos bases MEC3 más vendidas en Colombia. Son muy diferentes. Elegir la equivocada puede costarte 30% de tu margen por litro pro...]]></description>
         <pubDate>Wed, 08 Apr 2026 13:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/base-50-mec3-vs-supergelmix-comparativa/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/base-50-mec3-vs-supergelmix-comparativa/</guid>
+        <link>http://localhost:4001/blog/base-50-mec3-vs-supergelmix-comparativa/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/base-50-mec3-vs-supergelmix-comparativa/</guid>
         <dc:creator></dc:creator>
 
         
@@ -956,7 +1057,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif" type="image/avif" />
         
 
       </item>
@@ -967,8 +1068,8 @@
         <title>Pasta de pistacho para helado: dosificación y compra</title>
         <description><![CDATA[La pasta de pistacho es el ingrediente más caro y más rentable de una heladería premium. Esta guía explica dosificación, selección de marca y cómo justificar...]]></description>
         <pubDate>Wed, 08 Apr 2026 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/pasta-pistacho-helado-guia-tecnica/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/pasta-pistacho-helado-guia-tecnica/</guid>
+        <link>http://localhost:4001/blog/pasta-pistacho-helado-guia-tecnica/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/pasta-pistacho-helado-guia-tecnica/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1054,7 +1155,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/pasta-pistacho-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/pasta-pistacho-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1065,8 +1166,8 @@
         <title>Tipos de toppings para helado: guía para heladerías</title>
         <description><![CDATA[Hay más de 20 tipos de toppings para helado. Pero en una heladería profesional solo 5-7 generan el 80% del margen adicional. Aquí está la guía completa con r...]]></description>
         <pubDate>Wed, 08 Apr 2026 11:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/tipos-de-toppings-para-helado/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/tipos-de-toppings-para-helado/</guid>
+        <link>http://localhost:4001/blog/tipos-de-toppings-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/tipos-de-toppings-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1146,7 +1247,7 @@
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/tipos-toppings-para-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/tipos-toppings-para-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1157,8 +1258,8 @@
         <title>Cómo abrir una heladería en Colombia: guía con costos</title>
         <description><![CDATA[Abrir una heladería en Colombia puede costar desde $15 millones hasta $80 millones según el modelo. Aquí están los pasos, los costos reales y los errores que...]]></description>
         <pubDate>Wed, 08 Apr 2026 10:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/como-abrir-una-heladeria-en-colombia/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/como-abrir-una-heladeria-en-colombia/</guid>
+        <link>http://localhost:4001/blog/como-abrir-una-heladeria-en-colombia/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/como-abrir-una-heladeria-en-colombia/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1267,7 +1368,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/como-abrir-heladeria-colombia.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/como-abrir-heladeria-colombia.avif" type="image/avif" />
         
 
       </item>
@@ -1278,8 +1379,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>¿Qué son las granelas para helado? Tipos y usos</title>
         <description><![CDATA[Las granelas para helado no son solo decoración. Son la diferencia entre un cliente que dice 'está bueno' y uno que vuelve por ese topping crujiente. Aquí es...]]></description>
         <pubDate>Wed, 08 Apr 2026 09:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/que-son-las-granelas-para-helado/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/que-son-las-granelas-para-helado/</guid>
+        <link>http://localhost:4001/blog/que-son-las-granelas-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/que-son-las-granelas-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1355,7 +1456,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/granelas-para-helado-profesionales.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/granelas-para-helado-profesionales.avif" type="image/avif" />
         
 
       </item>
@@ -1366,8 +1467,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>¿Qué es el variegato para helado? Guía técnica</title>
         <description><![CDATA[El variegato no es una salsa ni un topping. Es un ingrediente de producción que define la apariencia, sabor y margen de cada bola. Aquí aprenderás a usarlo c...]]></description>
         <pubDate>Wed, 08 Apr 2026 08:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/que-es-el-variegato-para-helado/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/que-es-el-variegato-para-helado/</guid>
+        <link>http://localhost:4001/blog/que-es-el-variegato-para-helado/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/que-es-el-variegato-para-helado/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1457,7 +1558,7 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/variegato-para-helado-profesional.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/variegato-para-helado-profesional.avif" type="image/avif" />
         
 
       </item>
@@ -1468,8 +1569,8 @@ Mantecadora de 5-8 litros con sistema de overrun controlado: $22-35 millones COP
         <title>Pasteurización de mezcla para helado: guía técnica</title>
         <description><![CDATA[La pasteurización incorrecta causa textura granulosa, separación de fases y contaminación bacteriana. Esta guía técnica cubre temperaturas, tiempos y los 5 e...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/pasteurizacion-mezcla-helado-correcta/</guid>
+        <link>http://localhost:4001/blog/pasteurizacion-mezcla-helado-correcta/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/pasteurizacion-mezcla-helado-correcta/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1638,7 +1739,7 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/pasteurizacion-mezcla-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/pasteurizacion-mezcla-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -1649,8 +1750,8 @@ Para lotes pequeños de 5-20 litros, puedes pasteurizar en cocina convencional u
         <title>Toppings para helado más rentables: costos y márgenes</title>
         <description><![CDATA[Los toppings correctos pueden aumentar tu ticket promedio de $5,000 a $7,500 COP sin aumentar costos proporcionalmente. Esta guía muestra cuáles usar y cómo ...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/toppings-para-helado-mas-rentables/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/toppings-para-helado-mas-rentables/</guid>
+        <link>http://localhost:4001/blog/toppings-para-helado-mas-rentables/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/toppings-para-helado-mas-rentables/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1797,7 +1898,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/toppings-coberturas-helado-rentables.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/toppings-coberturas-helado-rentables.avif" type="image/avif" />
         
 
       </item>
@@ -1808,8 +1909,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Gelato vs helado artesanal: diferencias técnicas clave</title>
         <description><![CDATA[Gelato y helado artesanal no son sinónimos. Las diferencias en overrun, temperatura de servicio y composición determinan tu modelo de negocio, tu equipo y tu...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/que-es-gelato-vs-helado-diferencias/</guid>
+        <link>http://localhost:4001/blog/que-es-gelato-vs-helado-diferencias/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/que-es-gelato-vs-helado-diferencias/</guid>
         <dc:creator></dc:creator>
 
         
@@ -1946,7 +2047,7 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/diferencia-gelato-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/diferencia-gelato-helado-artesanal.avif" type="image/avif" />
         
 
       </item>
@@ -1957,8 +2058,8 @@ En algunos casos sí. Las <a href="/coberturas-salsas-helado/">coberturas y sals
         <title>Cómo calcular el overrun del helado artesanal: guía</title>
         <description><![CDATA[El overrun determina cuánto helado produces con cada kilo de mezcla. Con Base 50 MEC3 y el proceso correcto, puedes lograr 40% más producto sin sacrificar te...]]></description>
         <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/como-calcular-overrun-helado-artesanal/</guid>
+        <link>http://localhost:4001/blog/como-calcular-overrun-helado-artesanal/</link>
+        <guid isPermaLink="true">http://localhost:4001/blog/como-calcular-overrun-helado-artesanal/</guid>
         <dc:creator></dc:creator>
 
         
@@ -2184,7 +2285,7 @@ Sí, y esta es la ventaja principal de trabajar con bases profesionales. Están 
         
           
           
-          <enclosure url="http://localhost:4000/img/blog/calcular-overrun-helado-artesanal.avif" type="image/avif" />
+          <enclosure url="http://localhost:4001/img/blog/calcular-overrun-helado-artesanal.avif" type="image/avif" />
         
 
       </item>

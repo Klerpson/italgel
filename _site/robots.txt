@@ -8,9 +8,17 @@ Disallow: /wp-admin/*
 Disallow: /wp-includes/*
 Disallow: /feed/
 Disallow: /*/feed/
+Disallow: /feed.xml
 Disallow: /author/
 Disallow: /tag/
 Disallow: /category/
+
+# NO bloquear /img/ — las imágenes deben indexarse para SEO y Google Images
+# Si una página específica no debe tener imágenes en Google Images,
+# usar <meta name="robots" content="noimageindex"> en su front matter
+
+# Bloquear páginas técnicas (usando noindex en front matter para mejor control)
+# NOTA: /404.html y /plans/ se manejan con noindex en front matter
 
 # Bloquear crawlers de IA conocidos para scraping
 User-agent: CCBot

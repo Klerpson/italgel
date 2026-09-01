@@ -218,6 +218,16 @@ img {
   }
 }
 
+/* Fix: .wrapper/.section son el contenedor de página (width acotado a 1440px).
+   .flex fuerza width:100% para sus hijos, pero al combinarse en el mismo
+   elemento (ej. class="wrapper flex") esa regla ganaba por orden de cascada
+   y hacía que la sección se saliera del contenedor de la página. Selector
+   compuesto = mayor especificidad, gana sin depender del orden de carga. */
+.wrapper.flex,
+.section.flex {
+  width: min(calc(100% - 1.5em), 1440px);
+}
+
 .three_columns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));

@@ -149,6 +149,21 @@ body {
   margin-inline: auto;
 }
 
+/* Fix: margin-inline:auto en .text_center solo centra ese elemento,
+   no a sus hijos de bloque (h1-h4, p, blockquote, ul) que traen su propio
+   max-width. Sin esto, quedan pegados al borde izquierdo aunque
+   el texto dentro se vea centrado. */
+.text_center > h1,
+.text_center > h2,
+.text_center > h3,
+.text_center > h4,
+.text_center > p,
+.text_center > blockquote,
+.text_center > ul,
+.text_center > ol {
+  margin-inline: auto;
+}
+
 .flow > * + * {
   margin-top: 1.2em;
 }
