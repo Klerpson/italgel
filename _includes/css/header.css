@@ -135,13 +135,13 @@
 }
 
 .hero_stat strong.orange {
-  color: #965627;
+  color: var(--color-text-on-orange);
 }
 .hero_stat strong.teal {
-  color: #4a7a80;
+  color: var(--color-text-on-teal);
 }
 .hero_stat strong.pink {
-  color: #a14d59;
+  color: var(--color-text-on-pink);
 }
 
 .hero_stat_divider {

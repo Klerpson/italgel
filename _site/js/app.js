@@ -11,7 +11,7 @@
 
   /* ── Config ───────────────────────────────────────────────────────── */
   const WA_PHONE  = '573192346788';
-  const WA_MSG    = 'Hola! Me interesa información sobre los productos que vi en ';
+  const WA_MSG    = 'Hola! Soy dueño/encargado de una heladería y quiero cotizar insumos o equipos de la página que vi en ';
   const PQR_URL   = 'https://script.google.com/macros/s/AKfycbxrw1eF32HLM_-PCK7qQkAfxOmDB7nAZpYwIhf6IRjvqx_jGs7WW1GxK2F6CUP0JGCNMA/exec';
 
   /* ================================================================

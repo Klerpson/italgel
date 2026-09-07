@@ -17,46 +17,40 @@
   border-color: var(--color-accent-border);
 }
 
-/* Modificadores de tarjetas — cada una con su color de marca */
-.pink.datos {
-  background: color-mix(
-    in srgb,
-    var(--color-brand-pink) 7%,
-    var(--color-bg-surface)
-  );
-  border-top: 4px solid var(--color-brand-pink);
+/* Modificadores de color de marca — solo definen variables CSS;
+   cada componente (.datos, .product-img, .flow) decide cómo consumirlas. */
+.pink {
+  --modifier-brand: var(--color-brand-pink);
+  --modifier-text: var(--color-text-on-pink);
 }
-.pink.datos span {
-  color: #a14d59;
+.principal {
+  --modifier-brand: var(--color-brand-orange);
+  --modifier-text: var(--color-text-on-orange);
 }
-
-.principal.datos {
-  background: color-mix(
-    in srgb,
-    var(--color-brand-orange) 7%,
-    var(--color-bg-surface)
-  );
-  border-top: 4px solid var(--color-brand-orange);
+.secundario {
+  --modifier-brand: var(--color-brand-teal);
+  --modifier-text: var(--color-text-on-teal);
 }
-.principal.datos span {
-  color: #965627;
+.gris {
+  --modifier-brand: var(--color-text-tertiary);
+  --modifier-text: var(--color-text-primary);
 }
 
-.secundario.datos {
-  background: color-mix(
-    in srgb,
-    var(--color-brand-teal) 7%,
-    var(--color-bg-surface)
-  );
-  border-top: 4px solid var(--color-brand-teal);
-}
-.secundario.datos span {
-  color: #4a7a80;
+.datos span {
+  color: var(--modifier-text, var(--color-accent));
 }
 
-.gris.datos {
-  background: var(--color-bg-secondary);
-  border-top: 4px solid var(--color-text-tertiary);
+/* Tarjeta de presentación (usa .flow como base de espaciado) */
+.flow.pink,
+.flow.principal,
+.flow.secundario,
+.flow.gris {
+  background: color-mix(
+    in srgb,
+    var(--modifier-brand, var(--color-border)) 7%,
+    var(--color-bg-surface)
+  );
+  border-radius: var(--radius-lg);
 }
 
 .product-img {
@@ -65,8 +59,10 @@
   place-items: center;
   width: 100%;
   padding: 2.5em;
-  background-color: var(
-    --color-bg-secondary
+  background-color: color-mix(
+    in srgb,
+    var(--modifier-brand, var(--color-border)) 10%,
+    var(--color-bg-secondary)
   ); /* Slight contrast for image area */
   border-bottom: 1px solid var(--color-border);
 

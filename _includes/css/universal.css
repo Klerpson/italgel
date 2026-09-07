@@ -26,6 +26,11 @@
   --color-acento: var(--color-accent);
   --color-pink: var(--color-brand-pink);
 
+  /* Versiones oscurecidas para texto legible sobre fondo teñido al 7-10% */
+  --color-text-on-pink: #a14d59;
+  --color-text-on-orange: #965627;
+  --color-text-on-teal: #4a7a80;
+
   --color-blanco: var(--color-bg-surface);
   --color-gris: var(--color-bg-secondary);
   --color-gris1: var(--color-border);
@@ -339,7 +344,6 @@ img {
   padding: 2.5em 1.5rem;
   background: var(--color-bg-surface);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-subtle);
   border: 1px solid var(--color-border);
 
   span {

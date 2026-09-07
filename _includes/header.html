@@ -3,12 +3,12 @@
   <div class="hero_home_inner">
     <div class="hero_content">
       <p class="hero_badge">
-        Distribuidor Autorizado · MEC3 · Coldelite · Valmar
+        Distribuidor Autorizado · MEC3 · Coldelite · Valmar · EasyBest
       </p>
       <h1>{{page.h1}}</h1>
       <p class="hero_subtitle">{{page.intro}}</p>
       <div class="hero_ctas">
-        {% include boton.html num="1" text="💬 Cotizar por WhatsApp" %}
+        {% include boton.html num="1" text="💬 Cotizar insumos y equipos por WhatsApp" %}
         <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog"
           >Ver catálogo</a
         >
@@ -65,7 +65,7 @@
     />
     <img
       src="{{ page.hero | relative_url }}"
-      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
       width="584"
       height="584"
       loading="eager"
@@ -89,7 +89,7 @@
     />
     <img
       src="{{ page.hero | relative_url }}"
-      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
       width="584"
       height="584"
       loading="eager"
@@ -100,7 +100,7 @@
   <div class="flow">
     <h1 class="hero_title">{{page.h1}}</h1>
     <p>{{page.intro}}</p>
-    {% include boton.html num="1" text="Pídelo por WhatsApp 🛒" %}
+    {% include boton.html num="1" text="Cotizar este insumo por WhatsApp" %}
   </div>
 </header>
 {% when "general" %}
@@ -109,7 +109,7 @@
     <h1>{{page.h1}}</h1>
     <p>{{page.intro}}</p>
     <div class="hero_ctas">
-      {% include boton.html num="1" text="Cotizar por WhatsApp 🍨" %}
+      {% include boton.html num="1" text="Cotizar por WhatsApp" %}
       <a href="{{'/insumos/'|relative_url}}" class="boton boton_2"
         >Ver catálogo</a
       >
