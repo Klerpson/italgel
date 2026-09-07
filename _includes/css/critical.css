@@ -145,7 +145,7 @@ body {
 
 .text_center {
   text-align: center;
-  padding: 0 1.2em;
+  padding-inline: 1.2em;
   margin-inline: auto;
 }
 

@@ -1,11 +1,3 @@
-<!--
-BORRADOR — pendiente de revisión y aprobación del usuario y de la gerencia
-de Italgel antes de publicar. published: false lo mantiene fuera del build.
-Basado únicamente en el testimonio real ya publicado en _includes/testimonials.html
-(Julian Franco - Heladería GurCoff). No se inventaron cifras de ventas/ahorro:
-donde faltan datos concretos se deja marcado [CONFIRMAR CON GURCOFF] en vez
-de rellenar con números inventados.
--->
 ---
 layout: post
 published: false
@@ -27,6 +19,15 @@ faq:
   - q: "¿Qué tipo de acompañamiento recibió GurCoff?"
     a: "Asesoría técnica continua para el correcto uso y mantenimiento de su equipo, no solo la venta de la máquina."
 ---
+
+<!--
+BORRADOR — pendiente de revisión y aprobación del usuario y de la gerencia
+de Italgel antes de publicar. published: false lo mantiene fuera del build.
+Basado únicamente en el testimonio real ya publicado en _includes/testimonials.html
+(Julian Franco - Heladería GurCoff). No se inventaron cifras de ventas/ahorro:
+donde faltan datos concretos se deja marcado [CONFIRMAR CON GURCOFF] en vez
+de rellenar con números inventados.
+-->
 
 ## El problema: dos años sin un proveedor confiable
 
