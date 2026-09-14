@@ -2,7 +2,18 @@
 layout: compress
 ---
 {% include head.html %}
-<body>
+{%- comment -%}
+  Asunto del mensaje de WhatsApp: el h1 de la pagina, o su titulo si no hay h1.
+  En la portada se deja vacio a proposito: alli el titulo es el SEO completo
+  ("... - Paquetes Turisticos - Walter Tours") y en un chat se lee mal.
+{%- endcomment -%}
+{%- capture _wa_asunto -%}
+  {%- unless page.url == '/' or page.url == '/index.html' -%}
+    {{ page.h1 | default: page.title }}
+  {%- endunless -%}
+{%- endcapture -%}
+{%- assign _wa_asunto = _wa_asunto | strip -%}
+<body data-wa-phone="{{ site.telefono }}" data-wa-message="¡Hola! Soy dueño o encargado de una heladería y quiero cotizar {% if _wa_asunto != '' %}{{ _wa_asunto | escape }}{% else %}insumos o equipos{% endif %}"{% unless page.url == '/' or page.url == '/index.html' %}{{ page.h1 | default: page.title | escape }}{% endunless %}" | strip -%}{%- if _a != "" %}{{ _a }}{% else %}insumos o equipos{% endif -%}"{% if page.title %} data-wa-context="{{ page.title | escape }}"{% endif %}>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH788DQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -18,5 +29,11 @@ layout: compress
   <script src="{{'/js/search.js'|relative_url}}" defer></script>
   <script src="{{'/js/app.js'|relative_url}}" defer></script>
   <script src="https://cdn.lordicon.com/lordicon.js" defer></script>
+{%- comment -%}
+  lead-whatsapp.js mide TODOS los clics hacia WhatsApp y ensena el cuadro de
+  recuperacion de lead. Sustituye al bloque WhatsApp que vivia en js/app.js.
+  El numero sale de los data-wa-* del <body>, que vienen de _config.yml.
+{%- endcomment -%}
+<script src="{{ '/js/lead-whatsapp.js' | relative_url }}" defer></script>
 </body>
 </html>

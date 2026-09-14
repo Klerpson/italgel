@@ -10,8 +10,6 @@
   const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
   /* ── Config ───────────────────────────────────────────────────────── */
-  const WA_PHONE  = '573192346788';
-  const WA_MSG    = 'Hola! Soy dueño/encargado de una heladería y quiero cotizar insumos o equipos de la página que vi en ';
   const PQR_URL   = 'https://script.google.com/macros/s/AKfycbxrw1eF32HLM_-PCK7qQkAfxOmDB7nAZpYwIhf6IRjvqx_jGs7WW1GxK2F6CUP0JGCNMA/exec';
 
   /* ================================================================
@@ -122,105 +120,18 @@
   };
 
   /* ================================================================
-     WHATSAPP
+     WHATSAPP  —  movido a js/lead-whatsapp.js
+     ================================================================
+     Aqui vivian el numero y el mensaje escritos a mano, de modo que
+     cambiarlos en _config.yml no cambiaba nada. Ademas, en movil se abria
+     dos veces (window.open y el protocolo whatsapp://), y el modal solo
+     salia si el navegador bloqueaba el popup, no cuando el usuario volvia
+     sin haber escrito.
+
+     El modulo nuevo engancha por el DESTINO del enlace, mide todos los
+     clics y recupera el lead. Lee el numero de <body data-wa-phone>, que
+     el layout rellena desde _config.yml.
      ================================================================ */
-  const WhatsApp = {
-    getUrl() {
-      const msg = encodeURIComponent(`${WA_MSG}${location.href}`);
-      return `https://wa.me/${WA_PHONE}?text=${msg}`;
-    },
-
-    init() {
-      this.createModal();
-      $$('a#lead_whatsapp, .whatsapp-float').forEach(el =>
-        el.addEventListener('click', e => { e.preventDefault(); this.click(); })
-      );
-    },
-
-    click() {
-      const url    = this.getUrl();
-      const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
-
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: 'whatsapp_click',
-        whatsapp_number: WA_PHONE,
-        page_url: location.href,
-        timestamp: new Date().toISOString()
-      });
-
-      const win = window.open(url, '_blank');
-
-      if (isMobile) {
-        location.href = `whatsapp://send?phone=${WA_PHONE}&text=${encodeURIComponent(`${WA_MSG}${location.href}`)}`;
-      }
-
-      setTimeout(() => { if (!win || win.closed) this.showModal(); }, 3000);
-    },
-
-    createModal() {
-      if ($('#whatsapp-fallback-modal')) return;
-
-      document.body.insertAdjacentHTML('beforeend', `
-        <div id="whatsapp-fallback-modal" class="whatsapp-modal" role="dialog" aria-labelledby="wm-title" aria-modal="true">
-          <div class="whatsapp-modal-content">
-            <button class="whatsapp-modal-close" aria-label="Cerrar">&times;</button>
-            <div class="whatsapp-modal-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="#25D366">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.56-.01-.188 0-.495.074-.754.371-.26.297-.99.967-.99 2.357 0 1.39 1.016 2.732 1.156 2.92.14.187 1.98 3.024 4.792 4.24.671.296 1.194.472 1.602.604.673.215 1.285.184 1.77.112.54-.081 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
-              </svg>
-            </div>
-            <h2 id="wm-title">¿No se abrió WhatsApp?</h2>
-            <p>Puedes contactarnos directamente:</p>
-            <div class="whatsapp-modal-actions">
-              <a href="tel:+${WA_PHONE}" class="whatsapp-modal-btn whatsapp-modal-btn-secondary">📞 Llamar ahora</a>
-              <button id="whatsapp-retry-btn" class="whatsapp-modal-btn whatsapp-modal-btn-primary">🔄 Intentar de nuevo</button>
-            </div>
-            <p class="whatsapp-modal-footer">
-              O copia: <strong>+${WA_PHONE.replace(/(\d{2})(\d{3})(\d{3})(\d{4})/, '+$1 $2 $3 $4')}</strong>
-            </p>
-          </div>
-        </div>
-      `);
-
-      document.head.insertAdjacentHTML('beforeend', `
-        <style id="whatsapp-modal-styles">
-          .whatsapp-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);z-index:10001;align-items:center;justify-content:center;padding:1rem}
-          .whatsapp-modal.active{display:flex;animation:wm-in .3s ease}
-          .whatsapp-modal-content{background:#fff;border-radius:16px;padding:2rem;max-width:400px;width:100%;text-align:center;position:relative;box-shadow:0 10px 40px rgba(0,0,0,.3);animation:wm-up .3s ease}
-          .whatsapp-modal-close{position:absolute;top:1rem;right:1rem;background:transparent;border:none;font-size:2rem;color:#666;cursor:pointer;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .2s}
-          .whatsapp-modal-close:hover{background:#f0f0f0;color:#333}
-          .whatsapp-modal-icon{margin-bottom:1rem}
-          .whatsapp-modal h2{font-size:1.5rem;margin-bottom:.5rem;color:#333}
-          .whatsapp-modal p{color:#666;margin-bottom:1.5rem}
-          .whatsapp-modal-actions{display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.5rem}
-          .whatsapp-modal-btn{padding:.875rem 1.5rem;border-radius:8px;font-weight:600;font-size:1rem;text-decoration:none;border:none;cursor:pointer;transition:all .2s;display:inline-block}
-          .whatsapp-modal-btn-primary{background:#25D366;color:#fff}
-          .whatsapp-modal-btn-primary:hover{background:#128C7E;transform:translateY(-2px)}
-          .whatsapp-modal-btn-secondary{background:#f0f0f0;color:#333}
-          .whatsapp-modal-btn-secondary:hover{background:#e0e0e0}
-          .whatsapp-modal-footer{font-size:.875rem;color:#999;margin:0}
-          .whatsapp-modal-footer strong{color:#25D366;user-select:all}
-          @keyframes wm-in{from{opacity:0}to{opacity:1}}
-          @keyframes wm-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-        </style>
-      `);
-
-      const modal = $('#whatsapp-fallback-modal');
-      modal.querySelector('.whatsapp-modal-close').addEventListener('click', () => this.hideModal());
-      modal.addEventListener('click', e => { if (e.target === modal) this.hideModal(); });
-      $('#whatsapp-retry-btn').addEventListener('click', () => {
-        this.hideModal();
-        window.open(this.getUrl(), '_blank');
-      });
-      document.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && modal.classList.contains('active')) this.hideModal();
-      });
-    },
-
-    showModal() { $('#whatsapp-fallback-modal')?.classList.add('active'); document.body.style.overflow = 'hidden'; },
-    hideModal() { $('#whatsapp-fallback-modal')?.classList.remove('active'); document.body.style.overflow = ''; }
-  };
 
   /* ================================================================
      SCROLL TO TOP
@@ -462,7 +373,6 @@
   const boot = () => {
     MobileNav.init();
     SocialProof.init();
-    WhatsApp.init();
     ScrollBtn.init();
     PQR.init();
   };
