@@ -9,6 +9,9 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, ingredientes]
 hero: /img/blog/variegato-whisky-helado-premium.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/variegato-whisky-helado-premium-mobile.avif
 jpg: /img/blog/variegato-whisky-helado-premium.jpg
 alt: "Helado artesanal de vainilla con variegato de whisky MEC3 en copa premium de gelatería colombiana"
 schema_type: Article

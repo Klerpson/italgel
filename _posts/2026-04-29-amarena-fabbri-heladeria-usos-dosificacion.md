@@ -9,6 +9,9 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, ingredientes]
 hero: /img/blog/amarena-fabbri-heladeria-gelato.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/amarena-fabbri-heladeria-gelato-mobile.avif
 jpg: /img/blog/amarena-fabbri-heladeria-gelato.jpg
 alt: "Copas de gelato artesanal con Amarena Fabbri entera sobre fiordilatte en gelatería italiana tradicional"
 schema_type: Article

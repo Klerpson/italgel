@@ -10,6 +10,9 @@ last_modified_at: 2026-05-27 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [negocio, rentabilidad]
 hero: /img/blog/cuanto-cuesta-producir-helado-artesanal.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/cuanto-cuesta-producir-helado-artesanal-mobile.avif
 jpg: /img/blog/cuanto-cuesta-producir-helado-artesanal.jpg
 alt: "Helado artesanal profesional en proceso de producción con ingredientes MEC3 en heladería colombiana"
 schema_type: Article

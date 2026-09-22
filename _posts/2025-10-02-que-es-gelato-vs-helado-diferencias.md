@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/diferencia-gelato-helado-artesanal.avif
+hero_w: 920
+hero_h: 420
+hero_s: /img/blog/diferencia-gelato-helado-artesanal-mobile.avif
 jpg: /img/blog/diferencia-gelato-helado-artesanal.jpg
 alt: "Comparación visual entre gelato italiano denso en vitrina pozzetti y helado artesanal en vitrina vertical con presentación de montaña"
 schema_type: Article

@@ -8,6 +8,9 @@ last_modified_at: 2026-04-08
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/pasteurizacion-mezcla-helado-artesanal.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/pasteurizacion-mezcla-helado-artesanal-mobile.avif
 jpg: /img/blog/pasteurizacion-mezcla-helado-artesanal.jpg
 alt: "Termómetro digital mostrando 85°C durante pasteurización de mezcla de helado en marmita profesional"
 h1: "Pasteurización de mezcla para helado: cómo hacerlo correctamente sin arruinar la textura"

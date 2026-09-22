@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08 14:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [gestion-heladeria, rentabilidad]
 hero: /img/blog/rentabilidad-heladeria-colombia-margenes.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/rentabilidad-heladeria-colombia-margenes-mobile.avif
 jpg: /img/blog/rentabilidad-heladeria-colombia-margenes.jpg
 alt: "Heladero colombiano revisando calculadora de costos con vitrina de helado artesanal al fondo en su negocio"
 schema_type: Article

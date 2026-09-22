@@ -8,6 +8,9 @@ last_modified_at: 2026-04-08
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/calcular-overrun-helado-artesanal.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/calcular-overrun-helado-artesanal-mobile.avif
 jpg: /img/blog/calcular-overrun-helado-artesanal.jpg
 alt: "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad"
 h1: "Cómo calcular el overrun del helado artesanal: fórmula práctica y rangos óptimos"

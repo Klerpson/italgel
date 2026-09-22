@@ -9,6 +9,9 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, tecnica]
 hero: /img/blog/sorbete-artesanal-frutas-colombia.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/sorbete-artesanal-frutas-colombia-mobile.avif
 jpg: /img/blog/sorbete-artesanal-frutas-colombia.jpg
 alt: "Sorbetes artesanales de frutas tropicales colombianas en vitrina de heladería profesional: guanábana, mango y maracuyá"
 schema_type: Article

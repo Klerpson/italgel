@@ -4,6 +4,9 @@ title: "Aviso Legal | Italgel Colombia"
 description: "Aviso legal y política de privacidad de Italgel Colombia, distribuidor de MEC3 para heladería profesional."
 permalink: /legal/
 hero: img/italgel-colombia-distribuidor-heladerias.avif
+hero_w: 1080
+hero_h: 720
+hero_s: img/italgel-colombia-distribuidor-heladerias-mobile.avif
 h1: Avisos, condiciones y cláusulas del sitio web italgel.com.co
 ---
 

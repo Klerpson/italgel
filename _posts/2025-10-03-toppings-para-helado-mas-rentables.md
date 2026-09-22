@@ -8,6 +8,9 @@ last_modified_at: 2026-04-08
 author: Equipo Técnico Italgel
 categories: [gestion-heladeria, rentabilidad]
 hero: /img/blog/toppings-coberturas-helado-rentables.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/toppings-coberturas-helado-rentables-mobile.avif
 jpg: /img/blog/toppings-coberturas-helado-rentables.jpg
 alt: "Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas en Colombia"
 h1: "Toppings para helado más rentables: cuáles comprar, cuánto cuestan y cómo maximizar tu margen"

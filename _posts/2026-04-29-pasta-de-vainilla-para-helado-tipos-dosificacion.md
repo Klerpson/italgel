@@ -9,6 +9,9 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, ingredientes]
 hero: /img/blog/pasta-vainilla-helado-artesanal.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/pasta-vainilla-helado-artesanal-mobile.avif
 jpg: /img/blog/pasta-vainilla-helado-artesanal.jpg
 alt: "Pasta de vainilla Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina de gelatería profesional"
 schema_type: Article

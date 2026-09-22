@@ -10,6 +10,9 @@ last_modified_at: 2026-05-27 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [negocio, rentabilidad, toppings]
 hero: /img/blog/costo-porcion-toppings-heladeria.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/costo-porcion-toppings-heladeria-mobile.avif
 jpg: /img/blog/costo-porcion-toppings-heladeria.jpg
 alt: "Barra de toppings para helado artesanal con granelas crujientes, variegatos y salsas decorativas"
 schema_type: Article

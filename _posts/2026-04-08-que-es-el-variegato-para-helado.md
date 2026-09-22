@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08 08:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, tecnicas-heladeria]
 hero: /img/blog/variegato-para-helado-profesional.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/variegato-para-helado-profesional-mobile.avif
 jpg: /img/blog/variegato-para-helado-profesional.jpg
 alt: "Variegato de frambuesa aplicado en capas sobre helado artesanal en vitrina de heladería profesional"
 schema_type: Article

@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08 09:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, toppings]
 hero: /img/blog/granelas-para-helado-profesionales.avif
+hero_w: 920
+hero_h: 420
+hero_s: /img/blog/granelas-para-helado-profesionales-mobile.avif
 jpg: /img/blog/granelas-para-helado-profesionales.jpg
 alt: "Granelas crujientes de chocolate y almendra sobre copa de helado artesanal en heladería profesional"
 schema_type: Article

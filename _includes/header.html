@@ -133,19 +133,34 @@
   <p class="hero_subtitle">{{page.intro}}</p>
 </header>
 {% else %}
+{%- comment -%}
+  Fase 2.5 (SEO tecnico / performance, sep 2026): antes el srcset del
+  breakpoint >=768px ofrecia el MISMO archivo con dos descriptores de ancho
+  (1080w y 720w) -- no habia variante real mas liviana para pantallas
+  chicas. Y el width/height declarado (1080x720) no coincidia con el
+  tamano real del archivo en varios posts (algunos son 1080x820, otros
+  920x420), lo que es un riesgo de CLS aunque hoy no se manifieste.
+
+  Ahora: page.hero_s es una variante real de 600px de ancho generada a
+  partir del hero original (ver img/*-mobile.avif), y page.hero_w/hero_h
+  son las dimensiones reales del archivo (medidas con `identify`, no
+  inventadas), declaradas en el front matter de cada post/pagina. Si una
+  pagina vieja no tiene estos campos, cae de vuelta al comportamiento
+  anterior (mismo archivo, 1080x720) para no romper nada.
+{%- endcomment -%}
 <header class="wrapper center flow text_center hero_general" role="banner">
   <h1>{{page.h1}}</h1>
   <p>{{page.intro}}</p>
   <picture class="hero_picture">
     <source
       media="(min-width: 768px)"
-      srcset="{{ page.hero | relative_url }} 1080w, {{ page.hero | relative_url }} 720w"
+      srcset="{{ page.hero | relative_url }}"
       type="image/avif"
       sizes="(max-width: 1200px) 100vw, 1080px"
     />
     <source
       media="(max-width: 767px)"
-      srcset="{{ page.hero | relative_url }} 600w"
+      srcset="{{ page.hero_s | default: page.hero | relative_url }}"
       type="image/avif"
       sizes="100vw"
     />
@@ -155,8 +170,8 @@
       loading="eager"
       fetchpriority="high"
       decoding="async"
-      width="1080"
-      height="720"
+      width="{{ page.hero_w | default: 1080 }}"
+      height="{{ page.hero_h | default: 720 }}"
       sizes="(max-width: 767px) 100vw, (max-width: 1200px) 100vw, 1080px"
     />
   </picture>

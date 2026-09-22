@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [negocio, emprendimiento]
 hero: /img/blog/como-abrir-heladeria-colombia.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/como-abrir-heladeria-colombia-mobile.avif
 jpg: /img/blog/como-abrir-heladeria-colombia.jpg
 alt: "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible"
 schema_type: Article

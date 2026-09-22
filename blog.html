@@ -15,6 +15,17 @@ permalink: /blog/
     <h2 class="text_center">Artículos más leídos</h2>
 
     <div class="three_columns">
+      {%- comment -%}
+        Fase 1.2 (SEO tecnico / performance, sep 2026): antes, TODAS las
+        imagenes de posts destacados cargaban con loading="eager" sin
+        fetchpriority, compitiendo entre si por prioridad de red apenas
+        habia mas de un destacado -- eso explicaba el LCP de 7.8s de esta
+        pagina (vs 3.6-5.6s de cualquier post individual). Ahora solo la
+        PRIMERA imagen destacada que se renderiza es eager+fetchpriority
+        alto (candidata real a LCP); el resto de destacados carga lazy,
+        igual que el resto de imagenes del sitio.
+      {%- endcomment -%}
+      {% assign primer_destacado_asignado = false %}
       {% for post in site.posts %} {% if post.featured %}
       <article class="product-card">
         <div class="product-img principal">
@@ -23,13 +34,27 @@ permalink: /blog/
             {% if post.hero %}
             <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
             {% endif %}
+            {% if primer_destacado_asignado %}
+            <img
+              src="{{ post_img | relative_url }}"
+              alt="{{ post.hero_alt | default: post.title }}"
+              width="280"
+              height="280"
+              loading="lazy"
+              decoding="async"
+            />
+            {% else %}
             <img
               src="{{ post_img | relative_url }}"
               alt="{{ post.hero_alt | default: post.title }}"
               width="280"
               height="280"
               loading="eager"
+              fetchpriority="high"
+              decoding="async"
             />
+            {% assign primer_destacado_asignado = true %}
+            {% endif %}
           </picture>
         </div>
         <div class="product-content flow">

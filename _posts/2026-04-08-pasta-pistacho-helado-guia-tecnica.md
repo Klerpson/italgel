@@ -9,6 +9,9 @@ last_modified_at: 2026-04-08 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, ingredientes]
 hero: /img/blog/pasta-pistacho-helado-profesional.avif
+hero_w: 920
+hero_h: 420
+hero_s: /img/blog/pasta-pistacho-helado-profesional-mobile.avif
 jpg: /img/blog/pasta-pistacho-helado-profesional.jpg
 alt: "Pasta concentrada de pistacho siciliano verde intenso junto a helado de pistacho artesanal en vitrina profesional"
 schema_type: Article

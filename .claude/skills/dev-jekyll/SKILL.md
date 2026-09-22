@@ -832,6 +832,7 @@ permalink: /servicios/rinoplastia-cali/
 - [ ] Links internos funcionan
 - [ ] No hay console errors en navegador
 - [ ] Performance > 90 en PageSpeed Insights
+- [ ] Cumple el presupuesto de performance del proyecto (LCP <2.5s, CLS <0.1, TBT <200ms) — ver `_plans/sofi/presupuesto-performance-contenido-nuevo.md` para el checklist completo antes de publicar
 ```
 
 ---
