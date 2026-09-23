@@ -26,7 +26,7 @@ faq:
     a: "El gelato produce mayor margen por porción ($7,000-10,000 COP vs $4,000-6,000 COP), pero requiere mayor rotación de producto en vitrina porque su vida útil es de 8-12 horas vs 24-36 horas del helado artesanal. El margen total depende del volumen de ventas y el modelo de negocio."
 ---
 
-**En resumen:** Gelato y helado artesanal no son sinónimos aunque a veces se usen indistintamente. Las diferencias son técnicas y medibles: overrun (porcentaje de aire incorporado), temperatura de servicio, contenido de grasa y tipo de base profesional requerida. Cada estilo tiene un modelo de negocio diferente, un precio de venta diferente y un perfil de cliente diferente.
+**En resumen:** El gelato y el helado artesanal se diferencian en parámetros técnicos medibles: el gelato tiene overrun de 20-40% y se sirve a -10°C/-14°C, mientras el helado artesanal tiene overrun de 50-80% y se conserva a -16°C/-18°C. El gelato también tiene menos grasa (4-8% frente a 8-16%), lo que lo hace más denso, y su vida útil en vitrina es de 8-12 horas frente a las 24-36 horas del helado artesanal.
 
 ---
 
