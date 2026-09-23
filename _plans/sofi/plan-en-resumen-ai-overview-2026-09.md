@@ -120,7 +120,15 @@ Verificado: front matter YAML válido en los 10, tags `<p>`/`<section>` balancea
 
 Cambios sin commit — pendiente de que la usuaria los revise y haga commit/push.
 
-Pendiente: Fase C (10 hubs de categoría), Fase D (páginas core) y Fase E (4 páginas ciudad), a confirmar con la usuaria.
+**Fase C ejecutada (2026-09-23).** Los 10 hubs de categoría (`bases-helado-colombia`, `coberturas-salsas-helado`, `pastas-sabores-helado`, `maquinas-helado-artesanal`, `maquinas-helado-industrial`, `maquinas-helado-soft`, `variegatos-helado`, `vitrinas-congeladores`, `granelas-decoracion`, `productos-quella` — todos `index.html`) quedaron con resumen de catálogo + dato diferenciador ya publicado (overrun, rendimiento, temperatura, duración, ROI, años de trayectoria, etc.).
+
+**Fase D ejecutada (2026-09-23).** Las 6 páginas core (`index.html`, `equipos.html`, `insumos.html`, `nosotros.html`, `contacto.html`, `blog.html`) revisadas una por una como pedía el plan, con datos reales ya publicados en cada una (años de trayectoria, +200 clientes, ROI de equipos, horarios de atención, conteo de posts vía `{{site.posts.size}}`).
+
+**Fase E ejecutada (2026-09-23).** Las 4 páginas ciudad (`insumos-heladeria-{barranquilla,bucaramanga,cali,medellin}.html`) quedaron con resumen de tiempos de entrega y pedido mínimo ya publicados en cada una.
+
+Verificación de las 20 páginas de C+D+E: front matter YAML válido, tags `<p>` balanceados (se descartaron falsos positivos de conteo por `<picture>`/`<path>`), diff limpio (57 líneas insertadas en 20 archivos, nada más tocado). No se pudo correr `jekyll serve` manual por falta de red en el entorno local para `bundle install` (igual que en Fases A y B); se validó estructura en su lugar.
+
+Fases A y B ya están commiteadas y pusheadas por la usuaria (commit `parte1-ai-overview`). Fases C, D y E están hechas pero **sin commit todavía** — pendiente de que la usuaria las revise y haga commit/push. Con eso, no queda ningún hallazgo pendiente de este plan — la sección 6 (checks adicionales de `ai-overview-audit`: intención FAQ, cobertura de precio, schema speakable, tablas comparativas, señales E-E-A-T) sigue como auditoría aparte opcional, no incluida en este plan.
 
 ---
 
