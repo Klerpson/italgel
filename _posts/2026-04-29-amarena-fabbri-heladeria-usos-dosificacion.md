@@ -62,7 +62,7 @@ Es el uso que define la identidad del helado de amarena. El procedimiento:
 
 Completa el mantecado de la base (fiordilatte, crema o chocolate) hasta la consistencia de extracción. En los últimos 30 segundos del ciclo, añade el variegato de amarena directamente en la apertura de la mantecadora. Las paletas distribuyen el almíbar y las cerezas en vetas irregulares.
 
-La dosificación correcta es 80-100g de Amarena Fabbri por litro de base mantecada. A esta proporción, cada litro de helado tiene vetas de almíbar visibles con 3-5 cerezas enteras integradas.
+La dosificación correcta es 80-100g de [Amarena Fabbri](/coberturas-salsas-helado/amarena-fabbri/) por litro de base mantecada. A esta proporción, cada litro de helado tiene vetas de almíbar visibles con 3-5 cerezas enteras integradas.
 
 **Diferencia entre mantecadora y pastón:** En pastón (capas), el variegato se aplica entre capas de helado base. El resultado visual es diferente — una capa horizontal de amarena en el corte — pero el sabor es similar.
 

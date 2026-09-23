@@ -1,6 +1,6 @@
 {% assign related_posts = "" | split: "" %} {% for post in site.posts %} {% if
-post.url != page.url %} {% assign common_tags = 0 %} {% for tag in post.tags %}
-{% if page.tags contains tag %} {% assign common_tags = common_tags | plus: 1 %}
+post.url != page.url %} {% assign common_tags = 0 %} {% for tag in post.categories %}
+{% if page.categories contains tag %} {% assign common_tags = common_tags | plus: 1 %}
 {% endif %} {% endfor %} {% if common_tags > 0 %} {% assign related_posts =
 related_posts | push: post %} {% endif %} {% endif %} {% endfor %} {% if
 related_posts.size > 0 %}

@@ -71,7 +71,7 @@
     ]
   }
 </script>
-{% endif %} {% if page.layout == 'post' or page.collection == 'posts' %}
+{% endif %} {% if page.collection == 'posts' %}
 <!-- Article Schema for Blog Posts - E-E-A-T: Expertise -->
 {% assign author_id = page.author | default: 'tecnico_italgel' %} {% assign
 author = site.data.authors[author_id] %}
@@ -101,6 +101,26 @@ author = site.data.authors[author_id] %}
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ page.url | absolute_url }}"
+    }
+  }
+</script>
+{% elsif page.url != "/" and page.last_modified_at %}
+<!-- WebPage/Product Schema - E-E-A-T: señal real de dateModified para paginas que no son posts ni home -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if page.layout == 'products' %}Product{% else %}WebPage{% endif %}",
+    "name": "{{ page.title | escape }}",
+    "description": "{{ page.description | escape }}",
+    "url": "{{ page.url | absolute_url }}",
+    {% if page.layout == 'products' %}
+    "image": "{{ page.hero | absolute_url | default: site.social_image | absolute_url }}",
+    {% endif %}
+    "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}"
     }
   }
 </script>

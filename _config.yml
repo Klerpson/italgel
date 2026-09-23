@@ -19,9 +19,10 @@ permalink: :slug/
 # NOTA: En Jekyll, 'exclude' SOBRESCRIBE los defaults, no los extiende.
 # Por eso listamos TODO explícitamente.
 exclude:
+  - ".kilo"
   - ".claude"
   - ".agents"
-  - "plans"
+  - "plans" # legado: la carpeta se renombro a _plans (ya excluida por Jekyll por el guion bajo)
   - "AGENTS.md"
   - "Gemfile"
   - "Gemfile.lock"
