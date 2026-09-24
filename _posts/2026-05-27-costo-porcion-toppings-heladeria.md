@@ -15,6 +15,7 @@ hero_h: 720
 hero_s: /img/blog/costo-porcion-toppings-heladeria-mobile.avif
 jpg: /img/blog/costo-porcion-toppings-heladeria.jpg
 alt: "Barra de toppings para helado artesanal con granelas crujientes, variegatos y salsas decorativas"
+hero_title: "Costo por porción de toppings"
 schema_type: Article
 faq:
   - q: "¿Cuántos gramos de topping se le pone a un helado?"

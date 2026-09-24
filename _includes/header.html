@@ -30,10 +30,11 @@
         </div>
       </div>
     </div>
-    <div class="hero_visual" aria-hidden="true">
+    <div class="hero_visual">
       <img
         src="{{page.hero|relative_url}}"
         alt="{{page.alt}}"
+        {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
         loading="eager"
         fetchpriority="high"
         decoding="async"
@@ -66,6 +67,7 @@
     <img
       src="{{ page.hero | relative_url }}"
       alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       width="584"
       height="584"
       loading="eager"
@@ -90,6 +92,7 @@
     <img
       src="{{ page.hero | relative_url }}"
       alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       width="584"
       height="584"
       loading="eager"
@@ -118,6 +121,7 @@
   <img
     src="{{ page.hero | relative_url }}"
     alt="{{ page.alt | default: 'Italgel Colombia — Bases, toppings y máquinas para heladería profesional' }}"
+    {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
     loading="eager"
     fetchpriority="high"
     decoding="async"
@@ -151,6 +155,7 @@
 <header class="wrapper center flow text_center hero_general" role="banner">
   <h1>{{page.h1}}</h1>
   <p>{{page.intro}}</p>
+  {% if page.hero %}
   <picture class="hero_picture">
     <source
       media="(min-width: 768px)"
@@ -167,6 +172,7 @@
     <img
       src="{{ page.hero | relative_url }}"
       alt="{{ page.alt }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       loading="eager"
       fetchpriority="high"
       decoding="async"
@@ -175,6 +181,7 @@
       sizes="(max-width: 767px) 100vw, (max-width: 1200px) 100vw, 1080px"
     />
   </picture>
+  {% endif %}
   {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
 </header>
 {% endcase %}

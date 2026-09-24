@@ -14,6 +14,7 @@ hero_h: 720
 hero_s: /img/blog/sorbete-artesanal-frutas-colombia-mobile.avif
 jpg: /img/blog/sorbete-artesanal-frutas-colombia.jpg
 alt: "Sorbetes artesanales de frutas tropicales colombianas en vitrina de heladería profesional: guanábana, mango y maracuyá"
+hero_title: "Sorbete vs helado artesanal"
 schema_type: Article
 faq:
   - q: "¿El sorbete lleva huevo?"

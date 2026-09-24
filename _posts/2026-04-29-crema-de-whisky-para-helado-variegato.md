@@ -14,6 +14,7 @@ hero_h: 720
 hero_s: /img/blog/variegato-whisky-helado-premium-mobile.avif
 jpg: /img/blog/variegato-whisky-helado-premium.jpg
 alt: "Helado artesanal de vainilla con variegato de whisky MEC3 en copa premium de gelatería colombiana"
+hero_title: "Variegato de crema de whisky"
 schema_type: Article
 faq:
   - q: "¿El helado de whisky tiene alcohol?"

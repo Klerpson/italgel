@@ -13,6 +13,7 @@ hero_h: 820
 hero_s: /img/blog/calcular-overrun-helado-artesanal-mobile.avif
 jpg: /img/blog/calcular-overrun-helado-artesanal.jpg
 alt: "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad"
+hero_title: "Cálculo del overrun"
 h1: "Cómo calcular el overrun del helado artesanal: fórmula práctica y rangos óptimos"
 schema_type: Article
 featured: true

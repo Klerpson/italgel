@@ -14,6 +14,7 @@ hero_h: 820
 hero_s: /img/blog/como-abrir-heladeria-colombia-mobile.avif
 jpg: /img/blog/como-abrir-heladeria-colombia.jpg
 alt: "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible"
+hero_title: "Abrir una heladería"
 schema_type: Article
 faq:
   - q: "¿Cuánto cuesta abrir una heladería en Colombia?"

@@ -1,7 +1,5 @@
 <div class="gallery_items">
-  {% for items in page.gallery %}
-  {% for item in items %}
-  <img src="{{item[1]}}" alt="{{item[0]}}" loading="lazy" width="432" height="432" decoding="async">
-  {% endfor %}
+  {% for item in page.gallery %}
+  <img src="{{ item.img | relative_url }}" alt="{{ item.alt }}" title="{{ item.title }}" loading="lazy" width="432" height="432" decoding="async">
   {% endfor %}
 </div>

@@ -14,6 +14,7 @@ hero_h: 820
 hero_s: /img/blog/rentabilidad-heladeria-colombia-margenes-mobile.avif
 jpg: /img/blog/rentabilidad-heladeria-colombia-margenes.jpg
 alt: "Heladero colombiano revisando calculadora de costos con vitrina de helado artesanal al fondo en su negocio"
+hero_title: "Rentabilidad de una heladería"
 schema_type: Article
 faq:
   - q: "¿Cuánto se gana con una heladería en Colombia?"

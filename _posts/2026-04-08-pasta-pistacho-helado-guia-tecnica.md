@@ -14,6 +14,7 @@ hero_h: 420
 hero_s: /img/blog/pasta-pistacho-helado-profesional-mobile.avif
 jpg: /img/blog/pasta-pistacho-helado-profesional.jpg
 alt: "Pasta concentrada de pistacho siciliano verde intenso junto a helado de pistacho artesanal en vitrina profesional"
+hero_title: "Dosificación de pasta de pistacho"
 schema_type: Article
 faq:
   - q: "¿Cuánta pasta de pistacho se usa por litro de helado?"

@@ -13,6 +13,7 @@ hero_h: 820
 hero_s: /img/blog/pasteurizacion-mezcla-helado-artesanal-mobile.avif
 jpg: /img/blog/pasteurizacion-mezcla-helado-artesanal.jpg
 alt: "Termómetro digital mostrando 85°C durante pasteurización de mezcla de helado en marmita profesional"
+hero_title: "Pasteurización de la mezcla"
 h1: "Pasteurización de mezcla para helado: cómo hacerlo correctamente sin arruinar la textura"
 schema_type: Article
 featured: true

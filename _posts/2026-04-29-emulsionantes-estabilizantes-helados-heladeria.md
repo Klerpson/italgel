@@ -14,6 +14,7 @@ hero_h: 720
 hero_s: /img/blog/emulsionantes-estabilizantes-helado-tecnica-mobile.avif
 jpg: /img/blog/emulsionantes-estabilizantes-helado-tecnica.jpg
 alt: "Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea"
+hero_title: "Emulsionantes y estabilizantes"
 schema_type: Article
 faq:
   - q: "¿El emulsionante cambia el sabor del helado?"

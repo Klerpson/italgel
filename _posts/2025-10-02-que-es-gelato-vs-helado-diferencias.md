@@ -14,6 +14,7 @@ hero_h: 420
 hero_s: /img/blog/diferencia-gelato-helado-artesanal-mobile.avif
 jpg: /img/blog/diferencia-gelato-helado-artesanal.jpg
 alt: "Comparación visual entre gelato italiano denso en vitrina pozzetti y helado artesanal en vitrina vertical con presentación de montaña"
+hero_title: "Gelato vs helado"
 schema_type: Article
 faq:
   - q: "¿Cuál es la diferencia entre gelato y helado artesanal?"

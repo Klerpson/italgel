@@ -12,6 +12,7 @@ categories: [casos-de-exito]
 hero: /img/blog/caso-exito-gurcoff.avif
 jpg: /img/blog/caso-exito-gurcoff.jpg
 alt: "Heladería GurCoff en San Agustín, Huila, cliente de Italgel"
+hero_title: "Caso de éxito GurCoff"
 schema_type: Article
 faq:
   - q: "¿Qué problema tenía Heladería GurCoff antes de trabajar con Italgel?"

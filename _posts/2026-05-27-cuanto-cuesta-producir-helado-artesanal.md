@@ -15,6 +15,7 @@ hero_h: 720
 hero_s: /img/blog/cuanto-cuesta-producir-helado-artesanal-mobile.avif
 jpg: /img/blog/cuanto-cuesta-producir-helado-artesanal.jpg
 alt: "Helado artesanal profesional en proceso de producción con ingredientes MEC3 en heladería colombiana"
+hero_title: "Costo de producir helado"
 schema_type: Article
 faq:
   - q: "¿Cuánto cuesta hacer un litro de helado artesanal en Colombia?"

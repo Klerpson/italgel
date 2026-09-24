@@ -14,6 +14,7 @@ hero_h: 820
 hero_s: /img/blog/variegato-para-helado-profesional-mobile.avif
 jpg: /img/blog/variegato-para-helado-profesional.jpg
 alt: "Variegato de frambuesa aplicado en capas sobre helado artesanal en vitrina de heladería profesional"
+hero_title: "Qué es el variegato"
 schema_type: Article
 faq:
   - q: "¿Qué es el variegato para helado?"

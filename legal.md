@@ -5,6 +5,8 @@ last_modified_at: "2026-09-21"
 description: "Aviso legal y política de privacidad de Italgel Colombia, distribuidor de MEC3 para heladería profesional."
 permalink: /legal/
 hero: img/italgel-colombia-distribuidor-heladerias.avif
+alt: "Productos para heladería Italgel sobre mesa de exhibición"
+hero_title: "Italgel Colombia"
 hero_w: 1080
 hero_h: 720
 hero_s: img/italgel-colombia-distribuidor-heladerias-mobile.avif

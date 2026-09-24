@@ -15,6 +15,7 @@ hero_h: 720
 hero_s: /img/blog/mantecadora-italiana-vs-asiatica-mobile.avif
 jpg: /img/blog/mantecadora-italiana-vs-asiatica.jpg
 alt: "Mantecadora profesional italiana Coldelite vs máquina de helado genérica asiática en taller de heladería"
+hero_title: "Mantecadora italiana vs asiática"
 schema_type: Article
 faq:
   - q: "¿Cuánto cuesta una mantecadora italiana en Colombia?"

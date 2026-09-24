@@ -14,6 +14,7 @@ hero_h: 720
 hero_s: /img/blog/pasta-vainilla-helado-artesanal-mobile.avif
 jpg: /img/blog/pasta-vainilla-helado-artesanal.jpg
 alt: "Pasta de vainilla Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina de gelatería profesional"
+hero_title: "Tipos de pasta de vainilla"
 schema_type: Article
 faq:
   - q: "¿Cuánta pasta de vainilla se usa por litro de helado?"

@@ -14,6 +14,7 @@ hero_h: 720
 hero_s: /img/blog/amarena-fabbri-heladeria-gelato-mobile.avif
 jpg: /img/blog/amarena-fabbri-heladeria-gelato.jpg
 alt: "Copas de gelato artesanal con Amarena Fabbri entera sobre fiordilatte en gelatería italiana tradicional"
+hero_title: "Usos de la amarena Fabbri"
 schema_type: Article
 faq:
   - q: "¿Dónde comprar Amarena Fabbri en Colombia?"

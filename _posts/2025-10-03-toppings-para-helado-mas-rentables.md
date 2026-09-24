@@ -13,6 +13,7 @@ hero_h: 820
 hero_s: /img/blog/toppings-coberturas-helado-rentables-mobile.avif
 jpg: /img/blog/toppings-coberturas-helado-rentables.jpg
 alt: "Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas en Colombia"
+hero_title: "Toppings más rentables"
 h1: "Toppings para helado más rentables: cuáles comprar, cuánto cuestan y cómo maximizar tu margen"
 schema_type: Article
 featured: true
