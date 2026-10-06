@@ -14,3 +14,4 @@ noindex: true
 {% include css/media-queries.css %}
 {% include css/footer.css %}
 {% include css/pqr.css %}
+{% include css/evento.css %}

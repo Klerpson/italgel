@@ -1,0 +1,422 @@
+/* =========================================================
+   Landing de evento (layout "evento") — Cafés de Colombia Expo
+   Temporal: se puede quitar este include de css/style.css cuando
+   termine el evento. Todas las clases llevan el prefijo evento-.
+   ========================================================= */
+:root {
+  --evento-tinta: #1b1310;
+  --evento-tinta-2: #2a1d18;
+  --evento-claro: #f6ece4;
+  --evento-suave: #e6d6ca;
+  --evento-dorado: #e8b878;
+}
+
+/* --- Hero oscuro --- */
+.evento-hero {
+  background: var(--evento-tinta);
+  color: var(--evento-claro);
+}
+
+.evento-hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: clamp(2.5rem, 7vw, 6rem) clamp(1.25rem, 5vw, 4.5rem);
+}
+
+.evento-hero-texto {
+  flex: 1 1 28rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.evento-etiqueta {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-on-orange);
+}
+
+.evento-hero .evento-etiqueta {
+  color: var(--evento-dorado);
+}
+
+.evento-hero h1 {
+  margin: 0;
+  max-width: 16ch;
+  font-size: clamp(2.25rem, 1.3rem + 3.6vw, 4.25rem);
+  line-height: 1.04;
+  color: #fff;
+}
+
+.evento-hero-intro {
+  margin: 0;
+  color: var(--evento-suave);
+  font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.3rem);
+}
+
+.evento-pill {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--evento-dorado);
+  color: var(--evento-dorado);
+  font-weight: 600;
+  font-size: 0.95rem;
+  width: auto;
+}
+
+.evento-pill::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--evento-dorado);
+  flex: none;
+}
+
+.evento-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+}
+
+.evento-hero-foto {
+  flex: 0 1 26rem;
+  min-width: 0;
+  margin: 0;
+}
+
+.evento-hero-foto img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+/* --- Franja de datos clave --- */
+.evento-datos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 3rem;
+  justify-content: center;
+  padding: 1.75rem 1.25rem;
+  background: var(--color-cream);
+  border-block: 1px solid var(--color-border);
+}
+
+.evento-dato {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.evento-dato svg {
+  flex: none;
+  color: var(--color-brand-orange);
+}
+
+.evento-dato strong {
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  color: var(--color-text-primary);
+}
+
+.evento-dato span {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+}
+
+/* --- Secciones --- */
+.evento-banda {
+  background: var(--color-bg-secondary);
+  border-block: 1px solid var(--color-border);
+}
+
+.evento-seccion {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: clamp(3rem, 7vw, 6rem) clamp(1.25rem, 5vw, 4.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.evento-encabezado {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  max-width: 44rem;
+}
+
+.evento-seccion h2,
+.evento-cierre h2 {
+  margin: 0;
+  width: auto;
+  font-size: clamp(1.9rem, 1.3rem + 2vw, 3rem);
+  line-height: 1.1;
+}
+
+.evento-encabezado p {
+  margin: 0;
+}
+
+/* --- Tarjetas --- */
+.evento-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.evento-tarjeta {
+  flex: 1 1 16rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+}
+
+.evento-tarjeta h3 {
+  margin: 0;
+  width: auto;
+  font-size: 1.45rem;
+}
+
+.evento-tarjeta p {
+  margin: 0;
+}
+
+.evento-tarjeta svg {
+  color: var(--color-accent);
+}
+
+.evento-tarjeta-destacada {
+  flex: 2 1 26rem;
+  background: var(--evento-tinta);
+  border-color: var(--evento-tinta);
+}
+
+.evento-tarjeta-destacada h3 {
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.evento-tarjeta-destacada p {
+  color: var(--evento-suave);
+}
+
+.evento-tarjeta-destacada img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+/* --- Etiquetas (sabores y público) --- */
+.evento-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.evento-chips li {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.evento-tarjeta-destacada .evento-chips li {
+  background: var(--evento-tinta-2);
+  color: var(--evento-claro);
+}
+
+.evento-chips-claros li {
+  background: #fff;
+  border: 1px solid var(--color-accent-border);
+  color: var(--color-text-primary);
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 0.75rem 1.4rem;
+}
+
+.evento-punto {
+  flex: none;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+}
+
+.evento-punto-caramelo {
+  background: #c37033;
+}
+
+.evento-punto-chocolate {
+  background: #6b3a26;
+}
+
+.evento-punto-frutos {
+  background: #b4452f;
+}
+
+.evento-punto-leche {
+  background: #d8a35f;
+}
+
+.evento-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.evento-split > * {
+  flex: 1 1 22rem;
+  min-width: 0;
+}
+
+/* --- Cómo encontrarnos --- */
+.evento-pasos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: paso;
+}
+
+.evento-pasos li {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  counter-increment: paso;
+}
+
+.evento-pasos li::before {
+  content: counter(paso);
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #a64d3c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.evento-aviso {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-cream);
+  border: 1px solid var(--color-accent-border);
+  border-radius: 16px;
+}
+
+.evento-aviso p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.evento-aviso strong {
+  color: var(--color-text-primary);
+}
+
+.evento-plano {
+  margin: 0;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+}
+
+.evento-plano img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.evento-plano figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-text-tertiary);
+}
+
+/* --- Cierre oscuro --- */
+.evento-cierre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: clamp(3rem, 7vw, 6rem) 1.25rem;
+  text-align: center;
+  background: var(--evento-tinta);
+  color: var(--evento-claro);
+}
+
+.evento-cierre h2 {
+  max-width: 18ch;
+  color: #fff;
+}
+
+.evento-cierre p {
+  margin: 0;
+  color: var(--evento-suave);
+  max-width: 36rem;
+}
+
+@media (max-width: 600px) {
+  .evento-hero-foto {
+    flex-basis: 100%;
+  }
+
+  .evento-tarjeta {
+    padding: 1.5rem;
+  }
+
+  .evento-datos {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline: 2rem;
+  }
+
+  .evento-ctas .boton {
+    width: 100%;
+  }
+}

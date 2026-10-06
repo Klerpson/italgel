@@ -130,6 +130,43 @@
     class="hero_picture hero_brand_img"
   />
 </header>
+{% when "evento" %}
+<header class="evento-hero" role="banner">
+  <div class="evento-hero-inner">
+    <div class="evento-hero-texto">
+      <p class="evento-etiqueta">Te invitamos</p>
+      <h1>{{page.h1}}</h1>
+      <p class="evento-hero-intro">{{page.intro}}</p>
+      <p class="evento-pill">Tenemos entradas gratis disponibles</p>
+      <div class="evento-ctas">
+        {% include boton-evento.html text="Pide tu entrada gratis" location="hero" %}
+        <a href="#donde" class="boton boton_2">Cómo encontrarnos</a>
+      </div>
+    </div>
+    <picture class="evento-hero-foto">
+      <source
+        media="(min-width: 768px)"
+        srcset="{{ page.hero | relative_url }}"
+        type="image/avif"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="{{ page.hero_s | default: page.hero | relative_url }}"
+        type="image/avif"
+      />
+      <img
+        src="{{ page.hero | relative_url }}"
+        alt="{{ page.alt }}"
+        {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        width="{{ page.hero_w | default: 880 }}"
+        height="{{ page.hero_h | default: 1100 }}"
+      />
+    </picture>
+  </div>
+</header>
 {% when "blog" %}
 <header class="wrapper flow hero_blog" role="banner">
   <p class="hero_badge">Blog de heladería profesional · Italgel Colombia</p>
