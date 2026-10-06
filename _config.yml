@@ -1,17 +1,36 @@
 baseurl: ""
 url: "https://italgel.com.co"
 name: "italgel.com.co"
+title: "Italgel | Insumos y Equipos para Heladería en Colombia"
+description: "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida."
 logo: img/logo.avif
 social_image: img/contacto-italgel-colombia.jpg
 author: Sebastián Rios
 telefono: 573192346788
 email: info@mec3.co
-direccion: "Calle 68 No 68B - 74, Bogotá, Colombia"
+direccion: "Carrera 68H No. 75 - 33, Bogotá, Colombia"
 nit: "9006898237"
 
 markdown: kramdown
 
 permalink: :slug/
+
+# Excluir archivos y carpetas del build
+# NOTA: En Jekyll, 'exclude' SOBRESCRIBE los defaults, no los extiende.
+# Por eso listamos TODO explícitamente.
+exclude:
+  - ".kilo"
+  - ".claude"
+  - ".agents"
+  - "plans" # legado: la carpeta se renombro a _plans (ya excluida por Jekyll por el guion bajo)
+  - "AGENTS.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor"
+  - ".sass-cache"
+  - ".jekyll-cache"
+  - "README.md"
 
 keep_files: [/img]
 

@@ -5,7 +5,7 @@ noindex: true
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
+    <title>{{ site.title | default: site.name | xml_escape }}</title>
     <description>Insumos y equipos profesionales para heladería en Colombia</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <language>es</language>
@@ -35,7 +35,14 @@ noindex: true
 
         {% assign img = post.hero | default: post.jpg | default: post.webp %}
         {% if img %}
-          <enclosure url="{{ img | absolute_url }}" type="image/avif" />
+          {% assign img_ext = img | split: '.' | last | downcase %}
+          {% case img_ext %}
+            {% when 'jpg' or 'jpeg' %}{% assign img_type = 'image/jpeg' %}
+            {% when 'png' %}{% assign img_type = 'image/png' %}
+            {% when 'webp' %}{% assign img_type = 'image/webp' %}
+            {% else %}{% assign img_type = 'image/avif' %}
+          {% endcase %}
+          <enclosure url="{{ img | absolute_url }}" type="{{ img_type }}" />
         {% endif %}
 
       </item>

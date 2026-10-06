@@ -8,8 +8,12 @@ last_modified_at: 2026-07-11
 author: Equipo Técnico Italgel
 categories: [gestion-heladeria, rentabilidad]
 hero: /img/blog/toppings-coberturas-helado-rentables.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/toppings-coberturas-helado-rentables-mobile.avif
 jpg: /img/blog/toppings-coberturas-helado-rentables.jpg
 alt: "Barra de toppings profesional para heladería con coberturas, salsas y decoraciones variadas en Colombia"
+hero_title: "Toppings más rentables"
 h1: "Toppings para helado más rentables: cuáles comprar, cuánto cuestan y cómo maximizar tu margen"
 schema_type: Article
 featured: true
@@ -20,6 +24,8 @@ faq:
     a: "El margen bruto de un topping profesional en Colombia está entre 75% y 90%. Un topping con costo de $150-400 COP por porción se cobra entre $1,200 y $2,500 COP adicionales. Los crujientes (granelas, chispas) tienen el margen más alto (88-90%) y las frutas frescas el más bajo (~75%), aunque con posicionamiento premium."
   - q: "¿Cómo calcular el costo por porción de un topping?"
     a: "Divide el precio de compra entre el número de porciones que obtienes. Para sólidos: precio por kg ÷ porciones de 30g = (precio ÷ 33). Para líquidos: precio por litro ÷ porciones de 40ml = (precio ÷ 25). Multiplica el resultado por 1.10 para incluir merma del 10%."
+  - q: "¿Venden toppings para helado al por mayor?"
+    a: "Sí. Italgel distribuye toppings y coberturas para heladería a precio mayorista en Colombia, con stock permanente y entregas en las principales ciudades. Puedes consultar disponibilidad y cotización de la línea de [coberturas y salsas para helado](/coberturas-salsas-helado/)."
 ---
 
 **En resumen:** Los toppings para helado más rentables en una heladería colombiana son las coberturas de chocolate (85% de margen), las salsas de arequipe (88%) y los toppings crujientes como granelas y chispas de chocolate (88-90%). Cuestan entre $100 y $400 COP por porción y se cobran $1,200-$2,500 COP adicionales, con una conversión de cliente que puede subir 40-80% con presentación y venta activa correctas.

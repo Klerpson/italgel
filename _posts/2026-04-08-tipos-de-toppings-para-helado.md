@@ -9,8 +9,12 @@ last_modified_at: 2026-07-11 11:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, toppings]
 hero: /img/blog/tipos-toppings-para-helado-profesional.avif
+hero_w: 1080
+hero_h: 820
+hero_s: /img/blog/tipos-toppings-para-helado-profesional-mobile.avif
 jpg: /img/blog/tipos-toppings-para-helado-profesional.jpg
 alt: "Barra de toppings profesionales para helado artesanal con granelas, salsas, frutas y decoración en heladería colombiana"
+hero_title: "Tipos de toppings"
 schema_type: Article
 faq:
   - q: "¿Cuáles son los tipos de toppings para helado?"

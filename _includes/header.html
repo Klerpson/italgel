@@ -3,12 +3,12 @@
   <div class="hero_home_inner">
     <div class="hero_content">
       <p class="hero_badge">
-        Distribuidor Autorizado · MEC3 · Coldelite · Valmar
+        Distribuidor Autorizado · MEC3 · Coldelite · Valmar · EasyBest
       </p>
       <h1>{{page.h1}}</h1>
       <p class="hero_subtitle">{{page.intro}}</p>
       <div class="hero_ctas">
-        {% include boton.html num="1" text="💬 Cotizar por WhatsApp" %}
+        {% include boton.html num="1" text="💬 Cotizar insumos y equipos por WhatsApp" %}
         <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog"
           >Ver catálogo</a
         >
@@ -30,10 +30,11 @@
         </div>
       </div>
     </div>
-    <div class="hero_visual" aria-hidden="true">
+    <div class="hero_visual">
       <img
         src="{{page.hero|relative_url}}"
         alt="{{page.alt}}"
+        {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
         loading="eager"
         fetchpriority="high"
         decoding="async"
@@ -65,7 +66,8 @@
     />
     <img
       src="{{ page.hero | relative_url }}"
-      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       width="584"
       height="584"
       loading="eager"
@@ -89,7 +91,8 @@
     />
     <img
       src="{{ page.hero | relative_url }}"
-      alt="Helados artesanales Itagel Colombia - Productos frescos y naturales elaborados con ingredientes premium"
+      alt="{{ page.alt | default: 'Insumos y equipos para heladería profesional Italgel Colombia' }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       width="584"
       height="584"
       loading="eager"
@@ -100,7 +103,7 @@
   <div class="flow">
     <h1 class="hero_title">{{page.h1}}</h1>
     <p>{{page.intro}}</p>
-    {% include boton.html num="1" text="Pídelo por WhatsApp 🛒" %}
+    {% include boton.html num="1" text="Cotizar este insumo por WhatsApp" %}
   </div>
 </header>
 {% when "general" %}
@@ -109,7 +112,7 @@
     <h1>{{page.h1}}</h1>
     <p>{{page.intro}}</p>
     <div class="hero_ctas">
-      {% include boton.html num="1" text="Cotizar por WhatsApp 🍨" %}
+      {% include boton.html num="1" text="Cotizar por WhatsApp" %}
       <a href="{{'/insumos/'|relative_url}}" class="boton boton_2"
         >Ver catálogo</a
       >
@@ -118,6 +121,7 @@
   <img
     src="{{ page.hero | relative_url }}"
     alt="{{ page.alt | default: 'Italgel Colombia — Bases, toppings y máquinas para heladería profesional' }}"
+    {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
     loading="eager"
     fetchpriority="high"
     decoding="async"
@@ -133,33 +137,51 @@
   <p class="hero_subtitle">{{page.intro}}</p>
 </header>
 {% else %}
+{%- comment -%}
+  Fase 2.5 (SEO tecnico / performance, sep 2026): antes el srcset del
+  breakpoint >=768px ofrecia el MISMO archivo con dos descriptores de ancho
+  (1080w y 720w) -- no habia variante real mas liviana para pantallas
+  chicas. Y el width/height declarado (1080x720) no coincidia con el
+  tamano real del archivo en varios posts (algunos son 1080x820, otros
+  920x420), lo que es un riesgo de CLS aunque hoy no se manifieste.
+
+  Ahora: page.hero_s es una variante real de 600px de ancho generada a
+  partir del hero original (ver img/*-mobile.avif), y page.hero_w/hero_h
+  son las dimensiones reales del archivo (medidas con `identify`, no
+  inventadas), declaradas en el front matter de cada post/pagina. Si una
+  pagina vieja no tiene estos campos, cae de vuelta al comportamiento
+  anterior (mismo archivo, 1080x720) para no romper nada.
+{%- endcomment -%}
 <header class="wrapper center flow text_center hero_general" role="banner">
   <h1>{{page.h1}}</h1>
   <p>{{page.intro}}</p>
+  {% if page.hero %}
   <picture class="hero_picture">
     <source
       media="(min-width: 768px)"
-      srcset="{{ page.hero | relative_url }} 1080w, {{ page.hero | relative_url }} 720w"
+      srcset="{{ page.hero | relative_url }}"
       type="image/avif"
       sizes="(max-width: 1200px) 100vw, 1080px"
     />
     <source
       media="(max-width: 767px)"
-      srcset="{{ page.hero | relative_url }} 600w"
+      srcset="{{ page.hero_s | default: page.hero | relative_url }}"
       type="image/avif"
       sizes="100vw"
     />
     <img
       src="{{ page.hero | relative_url }}"
       alt="{{ page.alt }}"
+      {% if page.hero_title %}title="{{ page.hero_title }}"{% endif %}
       loading="eager"
       fetchpriority="high"
       decoding="async"
-      width="1080"
-      height="720"
+      width="{{ page.hero_w | default: 1080 }}"
+      height="{{ page.hero_h | default: 720 }}"
       sizes="(max-width: 767px) 100vw, (max-width: 1200px) 100vw, 1080px"
     />
   </picture>
+  {% endif %}
   {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
 </header>
 {% endcase %}

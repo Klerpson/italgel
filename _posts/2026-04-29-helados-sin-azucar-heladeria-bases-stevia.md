@@ -9,8 +9,12 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, tecnica]
 hero: /img/blog/helados-sin-azucar-stevia-heladeria.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/helados-sin-azucar-stevia-heladeria-mobile.avif
 jpg: /img/blog/helados-sin-azucar-stevia-heladeria.jpg
 alt: "Helado artesanal sin azúcar con base Stevia MEC3 en vitrina de heladería colombiana con etiqueta de producto saludable"
+hero_title: "Helado sin azúcar con stevia"
 schema_type: Article
 faq:
   - q: "¿El helado con Stevia se hace igual que el helado normal?"

@@ -1,6 +1,8 @@
 <!-- Author Info - E-E-A-T: Expertise -->
 {% assign author_id = include.name | default: page.author | default:
 'tecnico_italgel' %} {% assign author = site.data.authors[author_id] %}
+{% unless author %} {% assign author = site.data.authors['tecnico_italgel'] %}
+{% endunless %}
 
 <aside
   class="author-info bg_grey_light padding_block"

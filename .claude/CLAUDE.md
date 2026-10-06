@@ -67,9 +67,9 @@ Para que la IA interprete este archivo maestro de manera óptima y tome decision
 1.  **Formato Estructurado y Consistente:** Mantener la estructura clara con encabezados y descripciones concisas. El uso de Markdown facilita la legibilidad y el parseo automático.
 2.  **Palabras Clave Claras y Disparadores (Triggers):** Cada skill debe tener en su `description` (y en el `SKILL.md`) las palabras clave exactas que la IA debe monitorear en las solicitudes del usuario.
 3.  **Descripción Explícita de Propósito:** El `Propósito` de cada skill en su `SKILL.md` debe ser inequívoco, dejando claro cuándo usarla y cuándo no (`✅ USAR`, `❌ NO usar`).
-4.  **Priorización de Contexto:** La IA debe ser instruida para siempre considerar el "Contexto del Proyecto" (Juli.Com.Co) al evaluar qué skill es más relevante, incluso si las palabras clave son similares.
+4.  **Priorización de Contexto:** La IA debe ser instruida para siempre considerar el "Contexto del Proyecto" (ItalGel) al evaluar qué skill es más relevante, incluso si las palabras clave son similares.
 5.  **Ejemplos de Input/Output (dentro de SKILL.md):** La inclusión de ejemplos de `Input requerido` y `Output estructurado` dentro de cada `SKILL.md` ayuda a la IA a comprender las expectativas y a formular respuestas o acciones coherentes.
 6.  **Actualización Constante:** Este archivo y los `SKILL.md` individuales deben ser revisados y actualizados regularmente para reflejar nuevas funcionalidades o ajustes en el flujo de trabajo.
 7.  **Auto-Corrección y Feedback:** La IA debe tener la capacidad de aprender de interacciones anteriores y refinar su selección de skills basándose en el feedback del usuario. Si una skill no fue la adecuada, debe ajustar su lógica de activación para futuras interacciones.
 
-Este archivo `CLAUDE.md` es fundamental para una operación eficiente y precisa de la IA en el proyecto Juli.Com.Co. Su correcta interpretación asegura que cada tarea sea dirigida a la herramienta más competente.
+Este archivo `CLAUDE.md` es fundamental para una operación eficiente y precisa de la IA en el proyecto ItalGel. Su correcta interpretación asegura que cada tarea sea dirigida a la herramienta más competente.

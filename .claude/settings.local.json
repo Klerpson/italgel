@@ -3,21 +3,17 @@
     "allow": [
       "Bash(bundle exec jekyll:*)",
       "Bash(dir:*)",
-      "Bash(python -c \"import subprocess; print\\(''python available''\\)\")",
-      "Bash(del /q _serviciosactivity-monitoring.html _serviciosmindfulness-training.html _serviciossleep-tracking.html about.html services.html)",
       "Bash(grep:*)",
-      "Bash(done)",
-      "Bash(cat d:/github/juli/_data/*.yml)",
-      "Bash(find d:/github/juli -name *.css)",
-      "mcp__playwright__browser_navigate",
-      "mcp__claude_ai_Ahrefs__keywords-explorer-overview",
       "Bash(for file:*)",
       "Bash(do echo:*)",
+      "Bash(done)",
+      "Bash(cat d:/github/italgel/_data/*.yml)",
+      "Bash(find d:/github/italgel -name *.css)",
+      "Bash(cat d:/github/italgel/_redirects/*.html)",
+      "mcp__playwright__browser_navigate",
       "WebSearch",
-      "Bash(cat /d/github/juli/_redirects/*.html)",
-      "WebFetch(domain:www.mymarky.ai)",
-      "WebFetch(domain:daveswift.com)",
-      "WebFetch(domain:mymarky.com)"
+      "WebFetch(domain:italgel.com.co)",
+      "WebFetch(domain:mec3.com)"
     ]
   }
 }

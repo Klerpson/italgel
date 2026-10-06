@@ -69,6 +69,44 @@
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
   <!-- Preload Critical Assets -->
+  {%- comment -%}
+    Fase 2.1 (SEO tecnico / performance, sep 2026): LCP estaba en "malo"
+    (>4s) en 39 de 50 URLs auditadas. Las imagenes hero ya tienen
+    fetchpriority="high" en el <body> (ver header.html), pero el navegador
+    solo puede aplicarlo una vez el parser llega hasta ahi -- antes tiene
+    que atravesar nav.html (~13.5KB de mega-menu) y el resto del header.
+    Este preload deja que el navegador pida la imagen LCP desde el <head>,
+    mucho antes. Replica los mismos breakpoints que ya usa header.html
+    para cada tipo de plantilla, para no precargar la variante equivocada
+    en mobile.
+  {%- endcomment -%}
+  {%- if page.hero -%}
+    {%- case page.layout -%}
+      {%- when "categories" or "products" -%}
+        {%- if page.hero_s -%}
+  <link rel="preload" as="image" fetchpriority="high" media="(min-width: 992px)" href="{{ page.hero | relative_url }}">
+  <link rel="preload" as="image" fetchpriority="high" media="(max-width: 991px)" href="{{ page.hero_s | relative_url }}">
+        {%- else -%}
+  <link rel="preload" as="image" fetchpriority="high" href="{{ page.hero | relative_url }}">
+        {%- endif -%}
+      {%- when "main" or "general" -%}
+  <link rel="preload" as="image" fetchpriority="high" href="{{ page.hero | relative_url }}">
+      {%- when "blog" -%}
+        {%- comment -%} el listado de blog no tiene imagen de hero propia {%- endcomment -%}
+      {%- else -%}
+        {%- comment -%}
+          Posts, nosotros.html, legal.md (layout: post o default, caen en
+          el bloque {% else %} de header.html). Usa page.hero_s (variante
+          mobile real, Fase 2.5) cuando existe.
+        {%- endcomment -%}
+        {%- if page.hero_s -%}
+  <link rel="preload" as="image" fetchpriority="high" media="(min-width: 768px)" href="{{ page.hero | relative_url }}">
+  <link rel="preload" as="image" fetchpriority="high" media="(max-width: 767px)" href="{{ page.hero_s | relative_url }}">
+        {%- else -%}
+  <link rel="preload" as="image" fetchpriority="high" href="{{ page.hero | relative_url }}">
+        {%- endif -%}
+    {%- endcase -%}
+  {%- endif -%}
   <link rel="preload" href="{{ '/css/style.css' | relative_url }}" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,17 +115,40 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
   <!-- Google Fonts: carga no-bloqueante para mejorar FCP/LCP -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300..500;1,300..500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300..500;1,300..500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"></noscript>
   
   {% include schema.html %}
   
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TH788DQN');</script>
+  <!-- Fase 1.1 (SEO tecnico / performance, sep 2026): dataLayer se inicializa de
+       inmediato (no cuesta nada), pero gtm.js se pide despues del evento load
+       de la ventana en vez de al toque, para no competir por ancho de banda y
+       CPU con la imagen LCP durante la carga inicial. Si la pagina ya termino
+       de cargar cuando se ejecuta este script (load ya disparo), se pide de
+       una vez. No cambia el id del contenedor ni los eventos que dispara. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+
+    (function () {
+      function cargarGTM() {
+        var w = window, d = document, s = 'script', l = 'dataLayer', i = 'GTM-TH788DQN';
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      }
+
+      if (document.readyState === 'complete') {
+        cargarGTM();
+      } else {
+        window.addEventListener('load', cargarGTM);
+      }
+    })();
+  </script>
   <!-- End Google Tag Manager -->
   
 </head>
