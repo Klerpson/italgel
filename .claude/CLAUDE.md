@@ -60,6 +60,11 @@ A continuación, se detalla cada skill, su propósito y cómo debe ser activada 
 - **Descripción:** Auditorías y setup técnico SEO (estructura, meta tags, schema, velocidad, indexación).
 - **Activación:** Se activa con "auditoría técnica", "meta tags", "schema markup", "Core Web Vitals", "estructura del sitio", "robots.txt", "sitemap", o cuando la tarea implica trabajar en `_config.yml`, `head.html`, o cualquier otro aspecto técnico del SEO.
 
+#### 7. `nuevo-post-blog`
+
+- **Descripción:** Guía paso a paso para que el equipo de Italgel cree y publique un post del blog sin saber de código: revisa canibalización, pide cada pieza (H1, imagen principal, texto, imágenes, gráficos, FAQs), arma el archivo, enlaza y verifica SEO, accesibilidad, esquema y maquetación.
+- **Activación:** Se activa con "nuevo post", "crear post", "quiero publicar un artículo", "escribir blog", `/nuevo-post` o `/nuevo-post-blog`, o cuando la persona pega el prompt maestro (`.claude/skills/nuevo-post-blog/PROMPT-NUEVO-POST.md`). Es la skill por defecto para posts nuevos del equipo de Italgel (`copywriter` queda para texto fuera de este flujo y `seo-onpage` para mejorar posts ya publicados).
+
 ## ✨ Mejores Técnicas para la Interpretación de la IA (Archivo Maestro)
 
 Para que la IA interprete este archivo maestro de manera óptima y tome decisiones precisas, se deben seguir estas pautas:

@@ -1,0 +1,20 @@
+# Marcas que distribuye Italgel. Lo usa _includes/slider.html (index, nosotros, contacto).
+# nombre -> alt del logo ("Logo <nombre>"); title -> tooltip con lo que aporta la marca.
+- nombre: Iceteam 1927
+  img: img/iceteam.avif
+  title: "Iceteam 1927: insumos para heladería"
+- nombre: Sagi
+  img: img/maquinas-helado-sagi.avif
+  title: "Sagi: equipos para heladería"
+- nombre: EasyBest
+  img: img/easybest-refrigeracion-helados.avif
+  title: "EasyBest: equipos de refrigeración"
+- nombre: Coldelite
+  img: img/maquinas-helado-italitanas-coldelite.avif
+  title: "Coldelite: máquinas italianas para helado"
+- nombre: MEC3
+  img: img/proveedor-mezclas-helado-mec3.avif
+  title: "MEC3: bases, pastas y variegatos"
+- nombre: Valmar
+  img: img/toppings-helado-valmar.avif
+  title: "Valmar: máquinas para helado"

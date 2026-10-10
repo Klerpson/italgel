@@ -1,32 +1,32 @@
 <section class="slider">
   <div class="gallery-slider">
-    <!-- Calcular cantidad de items para Safari -->
-    {% assign total_items = 0 %} {% for client in page.slider %} {% assign
-    total_items = total_items | plus: client.size %} {% endfor %}
+    <!-- Cantidad de items para Safari (set original + duplicado) -->
+    {% assign marcas = site.data.marcas %}
 
     <div
       class="slide-container"
-      style="--items-count: {{ total_items | times: 2 }};"
+      style="--items-count: {{ marcas.size | times: 2 }};"
     >
       <!-- Set original -->
-      {% for client in page.slider %} {% for item in client %}
+      {% for marca in marcas %}
       <figure>
         <img
-          src="{{ item[1] | relative_url }}"
-          alt="{{ item[0] }}"
+          src="{{ marca.img | relative_url }}"
+          alt="Logo {{ marca.nombre }}"
+          title="{{ marca.title }}"
           loading="lazy"
           decoding="async"
           width="200"
           height="80"
         />
       </figure>
-      {% endfor %} {% endfor %}
+      {% endfor %}
 
-      <!-- Set duplicado para loop -->
-      {% for client in page.slider %} {% for item in client %}
+      <!-- Set duplicado para loop (decorativo: sin alt ni title) -->
+      {% for marca in marcas %}
       <figure aria-hidden="true">
         <img
-          src="{{ item[1] | relative_url }}"
+          src="{{ marca.img | relative_url }}"
           alt=""
           loading="lazy"
           decoding="async"
@@ -34,7 +34,7 @@
           height="80"
         />
       </figure>
-      {% endfor %} {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>

@@ -10,8 +10,12 @@ last_modified_at: 2026-05-27 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [equipos, compras]
 hero: /img/blog/mantecadora-italiana-vs-asiatica.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/mantecadora-italiana-vs-asiatica-mobile.avif
 jpg: /img/blog/mantecadora-italiana-vs-asiatica.jpg
 alt: "Mantecadora profesional italiana Coldelite vs máquina de helado genérica asiática en taller de heladería"
+hero_title: "Mantecadora italiana vs asiática"
 schema_type: Article
 faq:
   - q: "¿Cuánto cuesta una mantecadora italiana en Colombia?"

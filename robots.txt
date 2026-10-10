@@ -18,7 +18,9 @@ Disallow: /category/
 # usar <meta name="robots" content="noimageindex"> en su front matter
 
 # Bloquear páginas técnicas (usando noindex en front matter para mejor control)
-# NOTA: /404.html y /plans/ se manejan con noindex en front matter
+# NOTA: /404.html usa noindex en su front matter (ver _headers para el resto de reglas X-Robots-Tag).
+# _plans/ (antes 'plans/', renombrada) no se publica: Jekyll excluye por defecto cualquier
+# carpeta que empiece con guion bajo, no depende de noindex. Ver _config.yml.
 
 # Bloquear crawlers de IA conocidos para scraping
 User-agent: CCBot

@@ -12,6 +12,7 @@ categories: [casos-de-exito]
 hero: /img/blog/caso-exito-gurcoff.avif
 jpg: /img/blog/caso-exito-gurcoff.jpg
 alt: "Heladería GurCoff en San Agustín, Huila, cliente de Italgel"
+hero_title: "Caso de éxito GurCoff"
 schema_type: Article
 faq:
   - q: "¿Qué problema tenía Heladería GurCoff antes de trabajar con Italgel?"
@@ -37,7 +38,7 @@ de rellenar con números inventados.
 >
 > — Julian Franco, fundador de Heladería GurCoff
 
-No era un problema de conseguir una máquina. Era conseguir un proveedor que respondiera cuando algo fallaba, y que enseñara a usar el equipo correctamente — algo que la mayoría de vendedores de maquinaria no ofrece una vez cerrada la venta.
+No era un problema de conseguir [una máquina soft]({{ '/maquinas-helado-soft/' | relative_url }}). Era conseguir un proveedor que respondiera cuando algo fallaba, y que enseñara a usar el equipo correctamente — algo que la mayoría de vendedores de maquinaria no ofrece una vez cerrada la venta.
 
 ## Qué cambió con la asesoría técnica
 

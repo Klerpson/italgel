@@ -9,8 +9,12 @@ last_modified_at: 2026-04-29 12:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, tecnica]
 hero: /img/blog/emulsionantes-estabilizantes-helado-tecnica.avif
+hero_w: 1080
+hero_h: 720
+hero_s: /img/blog/emulsionantes-estabilizantes-helado-tecnica-mobile.avif
 jpg: /img/blog/emulsionantes-estabilizantes-helado-tecnica.jpg
 alt: "Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea"
+hero_title: "Emulsionantes y estabilizantes"
 schema_type: Article
 faq:
   - q: "¿El emulsionante cambia el sabor del helado?"

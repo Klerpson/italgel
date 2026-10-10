@@ -259,6 +259,21 @@
 .hero_products .hero_title {
   color: var(--color-brand-pink);
   max-width: 20ch;
+  /* Fase 1.5 (SEO tecnico / performance, sep 2026): diagnostico confirmado en
+     vivo (no solo hipotesis) sobre el sitio corriendo en local: Fraunces
+     (la fuente real, x-height/font-size = 0.44) y su fuente de respaldo
+     (Georgia/serif del sistema, x-height/font-size = 0.49) miden distinto,
+     y en varios titulos de producto la diferencia empuja el texto a una
+     linea extra durante el font-swap -- confirmado con un salto real de
+     67px en "Base 50 MEC3 2kg..." y de nuevo en "Coldelite Compacta 3...".
+     Esto es lo que produce el CLS de 0.36-0.41 en las 6 paginas de
+     layout: products. font-size-adjust hace que la fuente de respaldo se
+     redimensione para ocupar el mismo alto que Fraunces mientras esta
+     carga, eliminando el salto -- verificado en vivo: con este valor, las
+     dos mediciones (con y sin Fraunces cargada) dan exactamente la misma
+     altura en los casos donde antes había diferencia. No cambia nada una
+     vez Fraunces ya cargo (0.44 es su propio ratio real). */
+  font-size-adjust: 0.44;
 }
 
 .hero_general {

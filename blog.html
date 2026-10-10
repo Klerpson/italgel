@@ -1,20 +1,37 @@
 ---
 layout: blog
 title: "Blog de Heladería | Guías y Técnicas - Italgel"
+last_modified_at: "2026-09-21"
 description: "Guías técnicas de producción, rentabilidad y recetas para heladería profesional. Contenido actualizado para heladeros en Colombia."
 hero: img/blog-itagel.avif
 h1: Blog de heladería profesional
 intro: Técnicas de producción, análisis de costos, tendencias del mercado y casos de éxito de heladerías colombianas. Todo lo que necesitas saber para hacer tu negocio más rentable.
 alt: Blog de Italgel Colombia - Guías técnicas y estrategias de negocio para heladerías profesionales
+hero_title: "Blog Italgel"
 noindex: false
 permalink: /blog/
 ---
 
 <main class="page-wrapper">
+  <section class="section center flow">
+    <p class="text_center"><strong>En resumen:</strong> El blog de Italgel reúne guías técnicas de producción, costos y recetas para heladería profesional, con nuevos artículos cada mes basados en casos reales de heladerías colombianas. Actualmente cuenta con {{site.posts.size}} artículos, resultado de 15 años de experiencia documentada en el gremio heladero.</p>
+  </section>
+
   <section class="center">
     <h2 class="text_center">Artículos más leídos</h2>
 
     <div class="three_columns">
+      {%- comment -%}
+        Fase 1.2 (SEO tecnico / performance, sep 2026): antes, TODAS las
+        imagenes de posts destacados cargaban con loading="eager" sin
+        fetchpriority, compitiendo entre si por prioridad de red apenas
+        habia mas de un destacado -- eso explicaba el LCP de 7.8s de esta
+        pagina (vs 3.6-5.6s de cualquier post individual). Ahora solo la
+        PRIMERA imagen destacada que se renderiza es eager+fetchpriority
+        alto (candidata real a LCP); el resto de destacados carga lazy,
+        igual que el resto de imagenes del sitio.
+      {%- endcomment -%}
+      {% assign primer_destacado_asignado = false %}
       {% for post in site.posts %} {% if post.featured %}
       <article class="product-card">
         <div class="product-img principal">
@@ -23,13 +40,27 @@ permalink: /blog/
             {% if post.hero %}
             <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
             {% endif %}
+            {% if primer_destacado_asignado %}
+            <img
+              src="{{ post_img | relative_url }}"
+              alt="{{ post.hero_alt | default: post.title }}"
+              width="280"
+              height="280"
+              loading="lazy"
+              decoding="async"
+            />
+            {% else %}
             <img
               src="{{ post_img | relative_url }}"
               alt="{{ post.hero_alt | default: post.title }}"
               width="280"
               height="280"
               loading="eager"
+              fetchpriority="high"
+              decoding="async"
             />
+            {% assign primer_destacado_asignado = true %}
+            {% endif %}
           </picture>
         </div>
         <div class="product-content flow">

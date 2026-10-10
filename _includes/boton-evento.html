@@ -1,0 +1,11 @@
+{%- comment -%}
+  Boton de WhatsApp para las landings de eventos. Lleva el mensaje en el href
+  (?text=), asi que lead-whatsapp.js lo respeta tal cual y lo mide como
+  cualquier otro clic a wa.me. El numero sale de _config.yml (site.telefono).
+
+  Parametros:
+    text      Texto del boton. Por defecto: "Pide tu entrada gratis".
+    location  Nombre del boton en los informes de analitica (data-wa-location).
+    class     Clases extra (ej. boton_2).
+{%- endcomment -%}
+<a href="https://wa.me/{{ site.telefono }}?text=Hola%2C%20quiero%20una%20entrada%20gratis%20para%20visitar%20a%20Italgel%20en%20Caf%C3%A9s%20de%20Colombia%20Expo" class="boton{% if include.class %} {{ include.class }}{% endif %}" target="_blank" rel="noopener noreferrer" data-wa-location="{{ include.location | default: 'evento' }}">{{ include.text | default: "Pide tu entrada gratis" }}</a>

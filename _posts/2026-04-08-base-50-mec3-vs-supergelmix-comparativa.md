@@ -9,8 +9,12 @@ last_modified_at: 2026-04-08 13:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, bases]
 hero: /img/blog/base-50-mec3-vs-supergelmix-comparativa.avif
+hero_w: 920
+hero_h: 420
+hero_s: /img/blog/base-50-mec3-vs-supergelmix-comparativa-mobile.avif
 jpg: /img/blog/base-50-mec3-vs-supergelmix-comparativa.jpg
 alt: "Comparativa de envases Base 50 MEC3 y Supergelmix junto a helados artesanal y soft producidos con cada base"
+hero_title: "Base 50 vs Supergelmix"
 schema_type: Article
 faq:
   - q: "¿Cuál es la diferencia entre Base 50 MEC3 y Supergelmix?"
