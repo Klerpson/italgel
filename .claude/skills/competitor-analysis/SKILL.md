@@ -324,7 +324,7 @@ Basado en este análisis, la acción recomendada es:
 **Opción A - Crear contenido superior:**
 ```
 
-/new-post "[keyword principal]"
+Pedir a la skill `copywriter` un post para "[keyword principal]"
 
 ```
 Con estos elementos diferenciadores ya identificados.

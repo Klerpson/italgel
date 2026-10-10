@@ -1,6 +1,6 @@
 ---
 name: copywriter
-description: Creación de contenido (posts, páginas de servicio, landing pages). Se activa con "escribe post", "crea contenido", "redacta página", "nuevo artículo", "/new-post", o cuando necesitas generar o mejorar texto.
+description: Creación de contenido (posts, páginas de servicio, landing pages). Se activa con "escribe post", "crea contenido", "redacta página", "nuevo artículo", o cuando necesitas generar o mejorar texto.
 ---
 
 # Copywriter Skill

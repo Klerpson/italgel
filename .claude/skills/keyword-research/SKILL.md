@@ -183,7 +183,7 @@ Esto te dirá QUÉ hace la competencia en top 5 de Google.
 
 **Opción B - Crear contenido directamente:**
 ```
-/new-post "[keyword principal]"
+Pedir a la skill `copywriter` un post para "[keyword principal]"
 ```
 Si ya tienes claridad de la estrategia de contenido.
 
