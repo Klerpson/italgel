@@ -1,0 +1,44 @@
+---
+layout: cafe
+title: "Cafeteras Hambach y molinos en Colombia | Italgel"
+description: "Italgel, importadores exclusivos de Hambach para Colombia. Conoce seis cafeteras espresso y cuatro molinos, consulta sus fichas técnicas y cotiza."
+h1: "Equipos de café Hambach en Colombia"
+last_modified_at: "2026-10-26"
+hero: /img/cafe/tank-2.avif
+alt: "Cafetera espresso Hambach Tank 2 DR 7209A"
+breadcrumb:
+  - name: Inicio
+    url: /
+  - name: Equipos
+    url: /equipos/
+  - name: Equipos de café
+    url: /equipos-cafe/
+---
+<main class="cafe-main">
+  {% include breadcrumb.html %}
+  <section class="cafe-shell cafe-section" id="cafeteras" aria-labelledby="cafeteras-titulo">
+    <div class="cafe-section-heading">
+      <p class="cafe-eyebrow">La extracción</p>
+      <h2 id="cafeteras-titulo">Cafeteras espresso Hambach</h2>
+      <p>Desde la Mini Neo para casa hasta equipos de uso comercial. Compara el uso indicado, la alimentación eléctrica y el sistema de cada modelo.</p>
+    </div>
+    {% include cafe-productos.html equipos=site.data.cafe.cafeteras tipo="Cafetera espresso Hambach" %}
+    <a class="cafe-download" href="{{ '/catalogos/catalogo-hambach.pdf' | relative_url }}">Descargar catálogo de cafeteras Hambach (PDF, 1 MB) ↓</a>
+  </section>
+  <section class="cafe-shell cafe-section" id="molinos" aria-labelledby="molinos-titulo">
+    <div class="cafe-section-heading">
+      <p class="cafe-eyebrow">La molienda</p>
+      <h2 id="molinos-titulo">Molinos para café</h2>
+      <p>Cuatro modelos con ajuste continuo de molienda: dosificación por tiempo, por demanda o por peso, según la referencia.</p>
+    </div>
+    {% include cafe-productos.html equipos=site.data.cafe.molinos tipo="Molino para café" %}
+    <a class="cafe-download" href="{{ '/catalogos/catalogo-molinos.pdf' | relative_url }}">Descargar catálogo de molinos (PDF, 4,6 MB) ↓</a>
+  </section>
+  <section class="cafe-shell cafe-help" aria-labelledby="cafe-ayuda-titulo">
+    <p class="cafe-eyebrow">Conversemos sobre tu barra</p>
+    <h2 id="cafe-ayuda-titulo">¿Qué cafetera y molino necesitas?</h2>
+    <p>Cuéntanos si el equipo es para casa o para tu negocio y qué conexión eléctrica tienes. Consulta con Italgel el precio, la disponibilidad y la configuración de la referencia que te interesa.</p>
+    <a class="boton boton_1" href="https://wa.me/{{ site.telefono }}?text={{ 'Hola, quiero asesoría para elegir una cafetera y un molino con Italgel.' | uri_escape }}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
+    <p class="cafe-source">Características tomadas de los catálogos de cafeteras Hambach y molinos. Consulta las opciones de tolva y la configuración antes de comprar.</p>
+  </section>
+</main>

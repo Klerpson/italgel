@@ -1,0 +1,151 @@
+cafeteras:
+  - nombre: Mini Neo
+    referencia: DR 7121A
+    slug: mini-neo
+    uso: Residencial
+    resumen: Café de especialidad en casa, con doble termobloque y formato compacto.
+    voltaje: 110 V
+    potencia: 1550 W
+    dimensiones: 290 × 390 × 385 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Doble termobloque para extracción de café, agua caliente y vapor.
+      - Doble bomba vibratoria Ulka italiana.
+      - Tanque de agua de 0,8 L o adaptador a línea directa.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Grupo balanceado térmicamente con PTC y sensor NTC en lanceta.
+  - nombre: Swan
+    referencia: DR 7102C
+    slug: swan
+    uso: Residencial o comercial ligero
+    resumen: Para casa o pequeños negocios, con regulación manual instantánea de presión.
+    voltaje: 110 V
+    potencia: 1500 W
+    dimensiones: 345 × 430 × 375 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Caldera de 600 ml para el grupo y agua caliente; termobloque dedicado para vapor.
+      - Doble bomba vibratoria Ulka italiana.
+      - Tanque de agua de 1,8 L o adaptador a línea directa.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Tuberías internas en acero inoxidable y regulador manual de presión.
+  - nombre: Falcon
+    referencia: DR 7118A
+    slug: falcon
+    uso: Comercial ligero
+    resumen: Para restaurantes, pastelerías y pequeños cafés, con caldera de vapor de 1 L.
+    voltaje: 220 V
+    potencia: 2,8 kW
+    dimensiones: 312 × 415 × 403 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Termobloque para extracción de café y agua caliente; caldera de 1 L para vapor extra seco.
+      - Bomba vibratoria Ulka italiana.
+      - Tanque de agua de 1,8 L o adaptador a línea directa.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Tuberías internas en acero inoxidable, grupo con PTC y sensor NTC en lanceta.
+  - nombre: Tank 1
+    referencia: DR 7005A
+    slug: tank-1
+    uso: Comercial
+    resumen: Equipo con bomba rotativa y calderín de 550 ml para saturar el grupo.
+    voltaje: 220 V
+    potencia: 3,2 kW
+    dimensiones: 383 × 575 × 533 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Calderín de 550 ml para saturar el grupo.
+      - Intercambiador de calor de 3 L en acero inoxidable.
+      - Bomba rotativa italiana Fluid-O-Tech.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Tuberías internas en acero inoxidable.
+  - nombre: Tank 2
+    referencia: DR 7209A
+    slug: tank-2
+    uso: Comercial
+    resumen: Para cafeterías y cadenas de café, con caldera de 9 L y medidor de caudal.
+    voltaje: 220 V
+    potencia: 4,2 kW
+    dimensiones: 714 × 535 × 451 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Calderín doble de 550 ml por cada grupo saturado.
+      - Caldera de 9 L en acero inoxidable.
+      - Bomba rotativa italiana Fluid-O-Tech y medidor de caudal de precisión.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Tuberías internas en acero inoxidable.
+  - nombre: Cruiser
+    referencia: DR 7208
+    slug: cruiser
+    uso: Comercial
+    resumen: Para cafeterías y cadenas concurridas, con intercambiador de calor de 9 L.
+    voltaje: 220 V
+    potencia: 4,2 kW
+    dimensiones: 846 × 645 × 572 mm
+    detalles:
+      - Portafiltros de 58 mm.
+      - Calderín doble de 550 ml por cada grupo saturado.
+      - Intercambiador de calor de 9 L en acero inoxidable.
+      - Bomba rotativa italiana Fluid-O-Tech y medidor de caudal de precisión.
+      - PID controlable por grupo para ajustar extracción, temperatura y preinfusión.
+      - Tuberías internas en acero inoxidable.
+molinos:
+  - nombre: Cedar 63C
+    referencia: LD 029 V2
+    slug: cedar-63c
+    uso: Single dose o por tiempo
+    resumen: Muelas cónicas de 63 mm y velocidad ajustable de 300 a 800 r/min.
+    voltaje: 110 V
+    potencia: 300 W
+    dimensiones: 220 × 120 × 411 mm
+    detalles:
+      - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
+      - Muelas cónicas de 63 mm.
+      - Molienda single dose o programable por tiempo.
+      - Motor sin escobillas (brushless).
+      - Velocidad ajustable de 300 a 800 r/min.
+      - Capacidad de tolva de 75 g.
+  - nombre: Oak 60
+    referencia: LD 022
+    slug: oak-60
+    uso: Molienda por demanda
+    resumen: Muelas planas de acero inoxidable de 60 mm y pantalla LED.
+    voltaje: 110 V
+    potencia: 200 W
+    dimensiones: 220 × 140 × 470 mm
+    detalles:
+      - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
+      - Muelas planas de acero inoxidable de 60 mm.
+      - Pantalla LED de alta definición.
+      - Molienda por demanda programable y motor DC.
+      - Opciones de tolva de 75 g, 250 g o 750 g.
+  - nombre: Ebony 64
+    referencia: LD 027 MAX
+    slug: ebony-64
+    uso: Molienda por demanda
+    resumen: Muelas planas de 64 mm con recubrimiento DLC y velocidad ajustable.
+    voltaje: 110 V
+    potencia: 250 W
+    dimensiones: 240 × 150 × 480 mm
+    detalles:
+      - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
+      - Muelas planas sin huecos en titanio con recubrimiento DLC de 64 mm, según catálogo.
+      - Pantalla táctil LED de alta definición y molienda por demanda programable.
+      - Motor sin escobillas (brushless).
+      - Velocidad ajustable de 1200 a 1800 r/min.
+      - Opciones de tolva de 250 g, 750 g o 1000 g.
+  - nombre: Sequoia 74WT
+    referencia: LD 037 V1WT
+    slug: sequoia-74wt
+    uso: Dosificación por peso
+    resumen: Báscula integrada de precisión de 0,1 g y muelas planas de 74 mm.
+    voltaje: 110 V
+    potencia: 320 W
+    dimensiones: 270 × 180 × 530 mm
+    detalles:
+      - Dosificación por peso con báscula integrada de precisión de 0,1 g.
+      - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
+      - Muelas planas sin huecos en titanio con recubrimiento DLC de 74 mm, según catálogo.
+      - Pantalla táctil LED de alta definición y molienda por demanda programable.
+      - Motor sin escobillas y velocidad ajustable de 1200 a 1800 r/min.
+      - Capacidad de tolva de 1000 g.

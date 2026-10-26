@@ -1,0 +1,24 @@
+<div class="cafe-grid">
+  {% for equipo in include.equipos %}
+  <article class="cafe-card" id="{{ equipo.slug }}">
+    <img src="{{ '/img/cafe/' | append: equipo.slug | append: '.avif' | relative_url }}" alt="{{ include.tipo }} {{ equipo.nombre }} {{ equipo.referencia }}" width="800" height="700" loading="lazy" decoding="async">
+    <div class="cafe-card-body">
+      <p class="cafe-eyebrow">{{ equipo.uso }}</p>
+      <h3>{{ equipo.nombre }}</h3>
+      <p class="cafe-reference">{{ equipo.referencia }}</p>
+      <p>{{ equipo.resumen }}</p>
+      <dl class="cafe-specs">
+        <div><dt>Alimentación</dt><dd>{{ equipo.voltaje }} / 60 Hz</dd></div>
+        <div><dt>Potencia</dt><dd>{{ equipo.potencia }}</dd></div>
+        <div><dt>Dimensiones</dt><dd>{{ equipo.dimensiones }}<small>Última medida: alto</small></dd></div>
+      </dl>
+      <details>
+        <summary>Ver ficha técnica</summary>
+        <ul>{% for detalle in equipo.detalles %}<li>{{ detalle }}</li>{% endfor %}</ul>
+      </details>
+      {% capture mensaje %}Hola, quiero cotizar {{ equipo.nombre }} {{ equipo.referencia }} con Italgel.{% endcapture %}
+      <a class="boton boton_2" href="https://wa.me/{{ site.telefono }}?text={{ mensaje | strip | uri_escape }}" target="_blank" rel="noopener noreferrer">Cotizar {{ equipo.nombre }}</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>

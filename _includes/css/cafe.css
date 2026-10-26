@@ -1,0 +1,42 @@
+/* Catálogo de café: componentes acotados a esta sección y sus accesos. */
+.cafe-shell { width: min(1160px, calc(100% - 2rem)); margin-inline: auto; }
+.cafe-hero { background: var(--color-bg-secondary); padding-block: clamp(2.5rem, 6vw, 5rem); }
+.cafe-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: clamp(2rem, 5vw, 4rem); }
+.cafe-copy { display: grid; gap: 1.25rem; }
+.cafe-copy h1 { font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1.1; }
+.cafe-eyebrow { color: var(--color-text-on-orange); font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.cafe-exclusive { color: var(--color-text-on-orange); font-weight: 700; font-size: clamp(1.1rem, 2vw, 1.4rem); }
+.cafe-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.cafe-contact, .cafe-download { color: var(--color-text-on-orange); font-weight: 700; text-decoration: underline; text-underline-offset: .25em; }
+.cafe-hero-image { margin: 0; padding: 1rem; border-radius: var(--radius-lg); background: #fff; }
+.cafe-hero-image img { width: 100%; height: auto; }
+.cafe-hero-image figcaption { text-align: center; color: var(--color-text-secondary); font-size: .85rem; padding-bottom: 1rem; }
+.cafe-section { padding-block: clamp(2.5rem, 5vw, 4.5rem); scroll-margin-top: 7rem; }
+.cafe-section-heading { display: grid; gap: .7rem; max-width: 720px; margin-bottom: 2rem; }
+.cafe-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 1.5rem; align-items: start; }
+.cafe-card { border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: #fff; overflow: hidden; scroll-margin-top: 7rem; min-width: 0; }
+.cafe-card > img { width: 100%; height: auto; aspect-ratio: 8 / 7; object-fit: contain; }
+.cafe-card-body { padding: 1.5rem; display: grid; gap: .85rem; }
+.cafe-card h3 { font-size: 1.65rem; }
+.cafe-reference { font-family: var(--fuenteMono); color: var(--color-text-secondary); font-size: .9rem; }
+.cafe-specs { margin: .5rem 0; font-size: .9rem; }
+.cafe-specs > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; border-top: 1px solid var(--color-border); padding-block: .65rem; }
+.cafe-specs dt { font-weight: 700; }
+.cafe-specs dd { margin: 0; }
+.cafe-specs small { display: block; color: var(--color-text-secondary); }
+.cafe-card details { border-block: 1px solid var(--color-border); padding-block: .85rem; }
+.cafe-card summary { cursor: pointer; font-weight: 700; }
+.cafe-card details ul { padding-left: 1.2rem; margin-block: 1rem .25rem; }
+.cafe-card details li + li { margin-top: .5rem; }
+.cafe-card .boton { margin-top: .4rem; text-align: center; }
+.cafe-download { display: inline-block; margin-top: 1.5rem; }
+.cafe-help { background: var(--color-accent-light); padding: clamp(1.5rem, 4vw, 3rem); border-radius: var(--radius-lg); margin-bottom: 4rem; display: grid; gap: 1rem; justify-items: start; }
+.cafe-source { font-size: .85rem; color: var(--color-text-secondary); }
+.cafe-promo { margin-block: 3rem; padding: clamp(1.5rem, 4vw, 3rem); background: var(--color-bg-secondary); border: 1px solid var(--color-border); border-radius: var(--radius-lg); display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: center; gap: 2rem; }
+.cafe-promo > div { display: grid; gap: 1rem; justify-items: start; }
+.cafe-promo > img { width: 100%; height: auto; border-radius: var(--radius-md); }
+.megamenu-compact .megamenu-wrapper { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+@media (max-width: 700px) {
+  .cafe-split, .cafe-promo { grid-template-columns: 1fr; }
+  .cafe-actions .boton { flex: 1 1 auto; text-align: center; }
+}

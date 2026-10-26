@@ -1,0 +1,19 @@
+<header class="cafe-hero">
+  <div class="cafe-shell cafe-split">
+    <div class="cafe-copy">
+      <p class="cafe-eyebrow">Hambach · Italgel Colombia</p>
+      <h1>{{ page.h1 }}</h1>
+      <p class="cafe-exclusive">Importadores exclusivos de Hambach para Colombia</p>
+      <p>Cafeteras espresso y molinos para preparar café en casa o equipar tu negocio. Conoce los modelos y encuentra la combinación para tu barra.</p>
+      <div class="cafe-actions">
+        <a href="#cafeteras" class="boton boton_1">Ver cafeteras</a>
+        <a href="#molinos" class="boton boton_2">Ver molinos</a>
+      </div>
+      <a class="cafe-contact" href="https://wa.me/{{ site.telefono }}?text={{ 'Hola, quiero cotizar equipos de café Hambach con Italgel.' | uri_escape }}" target="_blank" rel="noopener noreferrer">Cotizar con Italgel →</a>
+    </div>
+    <figure class="cafe-hero-image">
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" width="800" height="700" fetchpriority="high" loading="eager" decoding="async">
+      <figcaption>Tank 2 · DR 7209A · Uso comercial</figcaption>
+    </figure>
+  </div>
+</header>
