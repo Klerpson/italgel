@@ -106,18 +106,7 @@ faqs:
     </div>
   </div>
 
-  <a
-    href="#"
-    id="lead_whatsapp"
-    class="boton boton_1"
-    style="
-      display: block;
-      margin-inline: auto;
-      max-width: max-content;
-      margin-block-start: 2rem;
-    "
-    >Solicitar estudio de viabilidad sin costo →</a
-  >
+  {% include boton.html num="1" text="Solicitar estudio de viabilidad sin costo →" class="boton_centro" location="estudio-de-viabilidad" %}
 </section>
 
 <!-- ¿Por qué Quella? -->
@@ -324,9 +313,7 @@ faqs:
         <li>1 botella Magic Chocolate 1kg (+$22.000)</li>
       </ul>
 
-      <a href="#" id="lead_whatsapp" class="boton boton_1"
-        >Cotizar kit Quella Family →</a
-      >
+      {% include boton.html num="1" text="Cotizar kit Quella Family →" location="cotizar-kit-quella-family" %}
     </div>
     <img
       src="{{ 'img/variegatos-quella-textura.avif' | relative_url }}"

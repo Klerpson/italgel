@@ -8,7 +8,7 @@
       <h1>{{page.h1}}</h1>
       <p class="hero_subtitle">{{page.intro}}</p>
       <div class="hero_ctas">
-        {% include boton.html num="1" text="💬 Cotizar insumos y equipos por WhatsApp" %}
+        {% include boton.html num="1" text="💬 Cotizar insumos y equipos por WhatsApp" location="hero" %}
         <a href="{{'/insumos/'|relative_url}}" class="boton boton_catalog"
           >Ver catálogo</a
         >
@@ -51,7 +51,7 @@
   <div class="hero_content flow">
     <h1>{{page.h1}}</h1>
     <p class="hero_title">{{page.intro}}</p>
-    {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
+    {% include boton.html num="1" text="Cotizar insumos por WhatsApp " location="hero" %}
   </div>
   <picture class="hero_picture">
     <source
@@ -103,7 +103,7 @@
   <div class="flow">
     <h1 class="hero_title">{{page.h1}}</h1>
     <p>{{page.intro}}</p>
-    {% include boton.html num="1" text="Cotizar este insumo por WhatsApp" %}
+    {% include boton.html num="1" text="Cotizar este insumo por WhatsApp" location="hero" %}
   </div>
 </header>
 {% when "general" %}
@@ -112,7 +112,7 @@
     <h1>{{page.h1}}</h1>
     <p>{{page.intro}}</p>
     <div class="hero_ctas">
-      {% include boton.html num="1" text="Cotizar por WhatsApp" %}
+      {% include boton.html num="1" text="Cotizar por WhatsApp" location="hero" %}
       <a href="{{'/insumos/'|relative_url}}" class="boton boton_2"
         >Ver catálogo</a
       >
@@ -221,6 +221,6 @@
     />
   </picture>
   {% endif %}
-  {% include boton.html num="1" text="Cotizar insumos por WhatsApp " %}
+  {% include boton.html num="1" text="Cotizar insumos por WhatsApp " location="hero" %}
 </header>
 {% endcase %}

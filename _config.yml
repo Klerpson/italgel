@@ -7,6 +7,11 @@ logo: img/logo.avif
 social_image: img/contacto-italgel-colombia.jpg
 author: Sebastián Rios
 telefono: 573192346788
+# Mensaje de WhatsApp: wa_mensaje + h1 (o titulo) de la pagina; en la portada
+# y paginas sin titulo, wa_mensaje + wa_asunto. Lo usan _includes/wa-mensaje.html
+# (body data-wa-message) y _includes/wa-href.html (href wa.me de los botones).
+wa_mensaje: "¡Hola! Soy dueño o encargado de una heladería y quiero cotizar"
+wa_asunto: "insumos o equipos"
 email: info@mec3.co
 direccion: "Carrera 68H No. 75 - 33, Bogotá, Colombia"
 nit: "9006898237"

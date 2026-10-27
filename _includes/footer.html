@@ -39,13 +39,7 @@
         <ul>
           <li>{{ site.direccion }}</li>
           <li>
-            <a
-              href="#"
-              id="lead_whatsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-              >WhatsApp: +{{site.telefono}}</a
-            >
+            {%- capture _wa_pie -%}WhatsApp: +{{ site.telefono }}{%- endcapture -%}{% include wa-enlace.html text=_wa_pie location="pie" %}
           </li>
           <li>
             <a
