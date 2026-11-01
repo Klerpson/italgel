@@ -6,6 +6,8 @@ layout: default
   <article class="wrapper flow contenido">
     {{ content }}
 
+    {% if page.collection == "posts" %}{% include fuente-preferida.html marca="Italgel" lang=page.lang %}{% endif %}
+
     <!-- Autor del artículo -->
     {% if page.author %} {% include author-info.html %} {% endif %} {% if
     page.referencias %}
