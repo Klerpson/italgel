@@ -1,0 +1,243 @@
+{
+  "imagenes": {
+    "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif": {
+      "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+      "width": 549,
+      "height": 549,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+          "width": 549
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif": {
+      "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+      "width": 972,
+      "height": 972,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif",
+          "width": 972
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/promag-stargel-4-608.avif": {
+      "src": "/img/catalogo/fabricantes/promag-stargel-4-608.avif",
+      "width": 608,
+      "height": 608,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/promag-stargel-4-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/promag-stargel-4-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/promag-stargel-4-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/promag-stargel-4-608.avif",
+          "width": 608
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif": {
+      "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "width": 600
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif": {
+      "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+      "width": 1200,
+      "height": 1200,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif",
+          "width": 1200
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/iceteam-603-bib-1200.avif": {
+      "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+      "width": 1200,
+      "height": 1200,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-1200.avif",
+          "width": 1200
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif": {
+      "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-600.avif",
+      "width": 1200,
+      "height": 1200,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif",
+          "width": 1200
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/mec3-quella-dark-492.avif": {
+      "src": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-dark-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif": {
+      "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+          "width": 492
+        }
+      ]
+    }
+  }
+}

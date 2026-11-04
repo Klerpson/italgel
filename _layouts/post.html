@@ -116,7 +116,11 @@ layout: mercato
 <aside class="wrapper destacado {{ _prod.familia }}" aria-label="Producto de Italgel para aplicar esta guía">
   <span class="baldosa__foto">
     {%- if _prod.sello %}<span class="sello">{{ _prod.sello }}</span>{% endif %}
-    <img src="{{ _prod.img | relative_url }}" alt="{{ _prod.alt }}" title="{{ _prod.alt }}" width="{{ _prod.ancho }}" height="{{ _prod.alto }}" loading="lazy" decoding="async">
+    {% if site.data.imagenes_fabricantes.imagenes[_prod.img] %}
+      {% include mercato/imagen-catalogo.html origen=_prod.img alt=_prod.alt contexto="card" %}
+    {% else %}
+      <img src="{{ _prod.img | relative_url }}" alt="{{ _prod.alt }}" title="{{ _prod.alt }}" width="{{ _prod.ancho }}" height="{{ _prod.alto }}" loading="lazy" decoding="async">
+    {% endif %}
   </span>
   <div class="flujo">
     <p class="etiqueta punto-familia">Para aplicar esta guía</p>

@@ -13,15 +13,15 @@ principal:
       - titulo: Máquinas de helado soft
         meta: De mesa o de piso
         url: /maquinas-helado-soft/
-        img: /img/maquina-coldelite-soft-3-sabores.avif
+        img: /img/catalogo/fabricantes/iceteam-603-bib-160.avif
       - titulo: Mantecadoras
         meta: Helado artesanal y gelato
         url: /maquinas-helado-artesanal/
-        img: /img/mantecadora-artesanal-coldelite.avif
+        img: /img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif
       - titulo: Máquinas industriales
         meta: Pasteurizadoras y líneas
         url: /maquinas-helado-industrial/
-        img: /img/valmar-pastomaster.avif
+        img: /img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif
   - titulo: Vitrinas para helado
     url: /vitrinas-congeladores/
   - titulo: Cafeteras Hambach

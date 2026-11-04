@@ -1,8 +1,8 @@
 {
   "pages": 85,
-  "images": 638,
-  "image_bytes": 29278755,
-  "used_images": 169,
+  "images": 682,
+  "image_bytes": 29674389,
+  "used_images": 166,
   "image_usages": 1550,
   "broken_references": 0,
   "broken_targets": 0,
@@ -11,14 +11,14 @@
   "missing_dimensions": 0,
   "missing_alt": 0,
   "empty_alt": 1180,
-  "img_srcset": 296,
+  "img_srcset": 301,
   "picture_usages": 3,
   "decode_errors": [],
   "external_urls": 119,
   "css_broken": [],
   "formats": {
     "PNG": 15,
-    "AVIF": 599,
+    "AVIF": 643,
     "JPEG": 22,
     "": 1,
     "ICO": 1

@@ -41,7 +41,7 @@ productos:
     texto: Mantecadoras para gelato y helado duro artesanal. Te ayudamos a elegir la capacidad según los litros que vendes al día.
     url: /maquinas-helado-artesanal/
     enlace: Ver las mantecadoras para gelato
-    img: /img/mantecadora-artesanal-coldelite.avif
+    img: /img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif
     alt: Mantecadora Coldelite para gelato y helado duro artesanal
     ancho: 560
     alto: 700
@@ -54,7 +54,7 @@ productos:
     texto: Máquinas de helado suave (soft) de mesa o de piso, para copas y conos con servicio rápido.
     url: /maquinas-helado-soft/
     enlace: Ver las máquinas de helado suave
-    img: /img/maquina-coldelite-soft-3-sabores.avif
+    img: /img/catalogo/fabricantes/iceteam-603-bib-1200.avif
     alt: Máquina de helado suave (soft) Coldelite de tres sabores para negocio
     ancho: 280
     alto: 280
@@ -67,8 +67,8 @@ productos:
     texto: Pasteurizadoras y máquinas para fabricar helado en volumen, con asesoría para dimensionar la línea.
     url: /maquinas-helado-industrial/
     enlace: Ver las máquinas industriales
-    img: /img/valmar-pastomaster.avif
-    alt: Pasteurizadora Valmar Pastomaster para producción industrial de helado
+    img: /img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif
+    alt: Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado
     ancho: 280
     alto: 280
     sello: Valmar

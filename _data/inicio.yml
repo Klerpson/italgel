@@ -5,7 +5,7 @@ maquinas:
     meta: De mesa o de piso
     sello: Coldelite
     url: /maquinas-helado-soft/
-    img: /img/maquina-coldelite-soft-3-sabores.avif
+    img: /img/catalogo/fabricantes/iceteam-603-bib-1200.avif
     alt: Máquina de helado suave (soft) Coldelite de tres sabores para negocio
     ancho: 280
     alto: 280
@@ -13,7 +13,7 @@ maquinas:
     meta: Gelato y helado duro artesanal
     sello: Coldelite · Valmar
     url: /maquinas-helado-artesanal/
-    img: /img/mantecadora-artesanal-coldelite.avif
+    img: /img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif
     alt: Mantecadora Coldelite para gelato y helado duro artesanal
     ancho: 560
     alto: 700
@@ -21,8 +21,8 @@ maquinas:
     meta: Líneas de producción de helado
     sello: Valmar
     url: /maquinas-helado-industrial/
-    img: /img/valmar-pastomaster.avif
-    alt: Pasteurizadora Valmar Pastomaster para producción industrial de helado
+    img: /img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif
+    alt: Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado
     ancho: 280
     alto: 280
 

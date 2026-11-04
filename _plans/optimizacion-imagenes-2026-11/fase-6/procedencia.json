@@ -1,0 +1,402 @@
+[
+  {
+    "name": "snowy",
+    "url": "https://valmar.eu/wp-content/uploads/2016/10/valmar-mantecatori-snowy-m-7.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "file": "snowy.jpg",
+    "bytes": 41773,
+    "sha256": "a339d4f0d92ab08ee007fe807ca704c6e1fba6f1223be2f7b87805559a821e5f",
+    "source_size": [
+      271,
+      500
+    ],
+    "canvas_size": [
+      549,
+      549
+    ],
+    "key": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-160.avif",
+        "width": 160,
+        "bytes": 2082
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+        "width": 280,
+        "bytes": 4014
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "width": 400,
+        "bytes": 6378
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "width": 549,
+        "bytes": 9795
+      }
+    ]
+  },
+  {
+    "name": "sweety",
+    "url": "https://valmar.eu/wp-content/uploads/2016/10/sweety-quick-60.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "file": "sweety.jpg",
+    "bytes": 92289,
+    "sha256": "c0786e8b3b7d3067570a2fca764674cf27953789e2b3b418fc1f4e1f49b0b90b",
+    "source_size": [
+      500,
+      900
+    ],
+    "canvas_size": [
+      972,
+      972
+    ],
+    "key": "/img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "width": 160,
+        "bytes": 1627
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "width": 280,
+        "bytes": 3218
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "width": 400,
+        "bytes": 5136
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+        "width": 600,
+        "bytes": 8690
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-800.avif",
+        "width": 800,
+        "bytes": 11983
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif",
+        "width": 972,
+        "bytes": 16047
+      }
+    ]
+  },
+  {
+    "name": "stargel",
+    "url": "https://www.iceteam1927.it/binary_files/machines/Schermata_2025_05_20_alle_09.18.40_55891.png",
+    "status": 200,
+    "type": "image/png",
+    "file": "stargel.png",
+    "bytes": 230988,
+    "sha256": "2bfe005ff006c60f4f259831d70b9d36c7fafc62534b004a0bc05f9974ca04f5",
+    "source_size": [
+      429,
+      595
+    ],
+    "canvas_size": [
+      608,
+      608
+    ],
+    "key": "/img/catalogo/fabricantes/promag-stargel-4-608.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-160.avif",
+        "width": 160,
+        "bytes": 2891
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-280.avif",
+        "width": 280,
+        "bytes": 5328
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-400.avif",
+        "width": 400,
+        "bytes": 7781
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-608.avif",
+        "width": 608,
+        "bytes": 14237
+      }
+    ]
+  },
+  {
+    "name": "pasmo",
+    "url": "https://www.pasmochina.com/uploads/image/20200805/15/6f3d84c099cc9b724e753286805c3a0a.png",
+    "status": 200,
+    "type": "image/png",
+    "file": "pasmo.png",
+    "bytes": 337008,
+    "sha256": "414fbdbc8139d1200952ae6c684fba8bc3df40f3ae204d94285977ed44c37c8a",
+    "source_size": [
+      670,
+      670
+    ],
+    "canvas_size": [
+      600,
+      600
+    ],
+    "key": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-160.avif",
+        "width": 160,
+        "bytes": 3041
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-280.avif",
+        "width": 280,
+        "bytes": 6808
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+        "width": 400,
+        "bytes": 12740
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+        "width": 600,
+        "bytes": 24113
+      }
+    ]
+  },
+  {
+    "name": "coldelite301",
+    "url": "https://www.iceteam1927.it/binary_files/machines/301_BIB_inox_base_1000px_34441.png",
+    "status": 200,
+    "type": "image/png",
+    "file": "coldelite301.png",
+    "bytes": 925914,
+    "sha256": "256bf5edf07fe99f810ccc841d21bb50b8b1c64552cefd3db7eef4561bfc933f",
+    "source_size": [
+      1000,
+      1936
+    ],
+    "canvas_size": [
+      1200,
+      1200
+    ],
+    "key": "/img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-160.avif",
+        "width": 160,
+        "bytes": 1695
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+        "width": 280,
+        "bytes": 3079
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "width": 400,
+        "bytes": 4557
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+        "width": 600,
+        "bytes": 7942
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif",
+        "width": 800,
+        "bytes": 11654
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif",
+        "width": 1200,
+        "bytes": 19326
+      }
+    ]
+  },
+  {
+    "name": "coldelite603",
+    "url": "https://www.iceteam1927.it/binary_files/machines/603_BIB_base_1000px_67921.png",
+    "status": 200,
+    "type": "image/png",
+    "file": "coldelite603.png",
+    "bytes": 1716010,
+    "sha256": "d217c3bd1a346d75dcc2d2efd3f71acc7954da8736b0e855a0614c64ef1ee7bc",
+    "source_size": [
+      1000,
+      1936
+    ],
+    "canvas_size": [
+      1200,
+      1200
+    ],
+    "key": "/img/catalogo/fabricantes/iceteam-603-bib-1200.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "width": 160,
+        "bytes": 1818
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "width": 280,
+        "bytes": 3313
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "width": 400,
+        "bytes": 5050
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "width": 600,
+        "bytes": 8496
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+        "width": 800,
+        "bytes": 12755
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-1200.avif",
+        "width": 1200,
+        "bytes": 22076
+      }
+    ]
+  },
+  {
+    "name": "compacta",
+    "url": "https://www.iceteam1927.it/binary_files/machines/Compacta_VariO_12_elite_2020_19_10_2020_SITO_77781.png",
+    "status": 200,
+    "type": "image/png",
+    "file": "compacta.png",
+    "bytes": 1944845,
+    "sha256": "9de9e3b403ab1934d855c6e2242546b74468e055759e7fd499ddc5e2946d762a",
+    "source_size": [
+      1000,
+      1936
+    ],
+    "canvas_size": [
+      1200,
+      1200
+    ],
+    "key": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "width": 160,
+        "bytes": 2091
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "width": 280,
+        "bytes": 4286
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "width": 400,
+        "bytes": 7187
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-600.avif",
+        "width": 600,
+        "bytes": 12615
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-800.avif",
+        "width": 800,
+        "bytes": 19019
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif",
+        "width": 1200,
+        "bytes": 33726
+      }
+    ]
+  },
+  {
+    "name": "quellaDark",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/quella-family/coppette%202021/coppetta_quella_dark.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "file": "quellaDark.jpg",
+    "bytes": 94031,
+    "sha256": "b1701dc1a7ebfcdb36f4c22033b165e10153fe2f2c310f88f7507cbd3d9b30d8",
+    "source_size": [
+      492,
+      492
+    ],
+    "canvas_size": [
+      492,
+      492
+    ],
+    "key": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-160.avif",
+        "width": 160,
+        "bytes": 3305
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+        "width": 280,
+        "bytes": 6798
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "width": 400,
+        "bytes": 11293
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+        "width": 492,
+        "bytes": 16116
+      }
+    ]
+  },
+  {
+    "name": "quellaPistacho",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/quella-family/coppette%202021/coppetta_quella_pistacchio.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "file": "quellaPistacho.jpg",
+    "bytes": 17382,
+    "sha256": "2601e12c03a3b780915a2fb3489e9a1afef9bed9ee481bd218f4a34697634bfd",
+    "source_size": [
+      492,
+      492
+    ],
+    "canvas_size": [
+      492,
+      492
+    ],
+    "key": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+    "variants": [
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-160.avif",
+        "width": 160,
+        "bytes": 2847
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+        "width": 280,
+        "bytes": 5840
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "width": 400,
+        "bytes": 9655
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+        "width": 492,
+        "bytes": 13186
+      }
+    ]
+  }
+]
