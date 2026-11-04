@@ -1,11 +1,15 @@
 ---
 layout: post
+tema: ingredientes
+producto: pastas
+keyword: "pasta de vainilla para helado"
+faq_titulo: "Dudas sobre la pasta de vainilla para helado"
 title: "Pasta de vainilla para helado: tipos y dosificación"
-description: "Pasta de vainilla para helado: diferencias con extracto y esencia, tipos según origen y dosificación. Por qué la Bourbon Madagascar es el estándar profesional."
-excerpt: "La pasta de vainilla no es extracto en otro formato. Es un concentrado con células de vainilla real que produce un perfil de sabor que ninguna esencia artificial puede replicar. Esta guía explica los tipos, la dosificación y cómo elegir la correcta."
+description: "Pasta de vainilla para helado: diferencias con el extracto y la esencia, tipos según el origen y la dosificación de las pastas MEC3 Bourbon y Madagascar."
+excerpt: "La pasta de vainilla para helado se dosifica entre 20 y 30 g por kilo de mezcla en las pastas MEC3. Esta guía explica sus diferencias con el extracto y la esencia, y cómo elegirla."
 h1: "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferente"
 date: 2026-04-29 12:00:00 -0500
-last_modified_at: 2026-04-29 12:00:00 -0500
+last_modified_at: 2026-11-04 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, ingredientes]
 hero: /img/blog/pasta-vainilla-helado-artesanal.avif
@@ -13,106 +17,96 @@ hero_w: 1080
 hero_h: 720
 hero_s: /img/blog/pasta-vainilla-helado-artesanal-mobile.avif
 jpg: /img/blog/pasta-vainilla-helado-artesanal.jpg
-alt: "Pasta de vainilla Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina de gelatería profesional"
+alt: "Pasta de vainilla para helado Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina"
 hero_title: "Tipos de pasta de vainilla"
 schema_type: Article
+referencias:
+  - "MEC3, ficha de la pasta Vainilla Bourbon": https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/bourbon
+  - "MEC3, ficha de la pasta Vainilla Madagascar": https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/vanilla-madagascar
+  - "21 CFR 169.175, definición de extracto de vainilla (FDA, EE. UU.)": https://www.law.cornell.edu/cfr/text/21/169.175
 faq:
-  - q: "¿Cuánta pasta de vainilla se usa por litro de helado?"
-    a: "La dosificación estándar de pasta de vainilla para heladería artesanal es 3-5g por litro de mezcla base. Para sabor intenso tipo gelatería italiana: 5-6g/L. Para helado con overrun alto (soft o artesanal aireado): 4-5g/L. Con vainilla Bourbon Madagascar de alta concentración, 3g/L puede ser suficiente para un perfil de sabor prominente."
-  - q: "¿La pasta de vainilla se puede usar en sorbetes?"
-    a: "Sí, pero con menor intensidad de sabor percibida. Los sorbetes no tienen grasa láctea, y la vainilla expresa su perfil aromático mejor en medios grasos. En sorbete de vainilla, se recomienda aumentar la dosificación a 5-6g/L. También es posible combinarla con extracto de vainilla para ampliar el perfil aromático."
-  - q: "¿Hay diferencia entre pasta de vainilla y vainilla en pasta?"
-    a: "Son el mismo producto con nombres distintos. Ambos términos se refieren al concentrado viscoso elaborado con células y semillas de vaina de vainilla, azúcar y estabilizantes. El nombre varía según el fabricante y el país de origen del producto. La calidad depende del origen de la vainilla y su concentración real en el producto final."
+  - q: "¿Cuánta pasta de vainilla se usa por kilo de helado?"
+    a: "Depende de la pasta. MEC3 indica 25 g por kilo de mezcla para su pasta Vainilla Bourbon, y de 20 a 30 g por kilo para su pasta Vainilla Madagascar. La dosis exacta está en la ficha técnica de cada producto."
+  - q: "¿Cuál es la diferencia entre pasta, extracto y esencia de vainilla?"
+    a: "La pasta es un concentrado con semillas y vaina de vainilla que se mezcla con la base. El extracto es una solución en alcohol: en Estados Unidos, la norma 21 CFR 169.175 exige que tenga al menos 35 % de alcohol en volumen. La esencia artificial suele estar hecha con vainillina de síntesis."
+  - q: "¿De dónde viene la vainilla Bourbon?"
+    a: "MEC3 indica que su pasta Vainilla Bourbon usa semillas y vainas de vainilla Bourbon, una variedad de la isla de Reunión. Para un perfil de Madagascar, MEC3 tiene una pasta aparte, Vainilla Madagascar."
   - q: "¿Dónde comprar pasta de vainilla para heladería en Colombia?"
-    a: "Italgel distribuye pasta de vainilla MEC3 con vainilla Bourbon Madagascar con stock permanente en Colombia. Entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Precios mayoristas y fichas técnicas disponibles por WhatsApp o a través del formulario de contacto."
+    a: "Italgel distribuye pastas de vainilla MEC3 en Colombia, con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Para otras ciudades, consulta el envío por WhatsApp."
 ---
 
-**En resumen:** La pasta de vainilla para helado es un concentrado con semillas visibles de vaina de vainilla, textura viscosa y perfil de sabor más intenso y equilibrado que el extracto líquido o la esencia artificial. En heladería artesanal se dosifica 3-5g por litro de base, dependiendo del origen de la vainilla y la intensidad deseada. La vainilla Bourbon de Madagascar aporta un perfil cremoso-dulce con notas de heno que ningún saborizante artificial puede replicar en ciega de sabor.
+**En resumen:** La pasta de vainilla para helado es un concentrado con semillas y vaina de vainilla que se mezcla con la base antes del mantecado. Las pastas MEC3 que distribuye Italgel se dosifican por kilo de mezcla: 25 g para la Vainilla Bourbon y de 20 a 30 g para la Vainilla Madagascar, según el fabricante. A diferencia del extracto, que es una solución en alcohol, la pasta deja las semillas a la vista y se integra a la base sin aportar líquido alcohólico.
 
----
+## Pasta de vainilla frente a extracto y esencia: tres productos distintos
 
-La vainilla es el sabor más vendido en cualquier heladería del mundo. Es también el más falsificado, el más mal usado y el que mayor diferencia genera entre una heladería mediocre y una que genera recompra.
+La pasta, el extracto y la esencia de vainilla se fabrican de forma distinta y dan resultados distintos en el helado.
 
-La diferencia entre una pasta de vainilla Bourbon Madagascar y una esencia artificial no es de intensidad. Es de perfil de sabor: la vainilla auténtica tiene más de 200 compuestos aromáticos que interactúan entre sí. La artificial tiene uno: la vainillina sintética. El cliente que ha probado la buena reconoce la diferencia en la primera cucharada.
+| Formato | Qué es | En el helado |
+|---|---|---|
+| Pasta de vainilla | Concentrado con semillas y vaina de vainilla | Se integra a la base y deja las semillas a la vista |
+| Extracto de vainilla | Solución de los aromas de la vaina en alcohol | Aporta aroma, pero también alcohol a la mezcla |
+| Esencia artificial | Vainillina de síntesis disuelta en un líquido | Da un sabor a vainilla más simple |
 
-## Pasta de vainilla vs. extracto vs. esencia: no son equivalentes
+### Extracto de vainilla: una solución en alcohol
 
-La confusión entre estos tres formatos es costosa en heladería: cada uno produce un resultado diferente en el helado final.
+El extracto de vainilla es la solución en alcohol de los aromas que se extraen de la vaina. En Estados Unidos, la norma [21 CFR 169.175](https://www.law.cornell.edu/cfr/text/21/169.175) define el extracto de vainilla como una solución en alcohol etílico acuoso con al menos 35 % de alcohol en volumen.
 
-### Extracto de vainilla: base alcohólica, aroma volátil
+Funciona bien en pastelería, donde el horneado evapora el alcohol. En el helado no hay horneado, y la mezcla recibe ese alcohol junto con el aroma.
 
-El extracto de vainilla es una maceración de vainas de vainilla en alcohol (mínimo 35% de base alcohólica). Tiene vainillina natural disuelta en alcohol, que actúa como solvente y conservante.
+### Esencia artificial: vainillina de síntesis
 
-En pastelería y horneado, el extracto funciona bien: el calor evapora el alcohol y libera los aromas. En helado, hay un problema: el frío suprime la volatilización. Los aromas del extracto no se liberan completamente a -12°C. El resultado es un helado con sabor a vainilla menos intenso de lo esperado para la cantidad usada.
+La esencia artificial de vainilla suele estar hecha con vainillina producida por síntesis, disuelta en agua u otro líquido. Es el formato más barato. La vainillina es el aroma principal de la vainilla, pero la vaina natural tiene además muchos otros compuestos aromáticos, y por eso la esencia sabe más simple.
 
-### Esencia artificial de vainilla: vainillina sintética sin complejidad
+### Pasta de vainilla: el formato pensado para helado
 
-La esencia artificial contiene vainillina sintética (producida por síntesis química o de lignina de madera) disuelta en agua o propilenglicol. Es el formato más barato y el de peor resultado en heladería.
+La pasta de vainilla es un concentrado con semillas y vaina que se mezcla con la base. Sus ventajas en heladería:
 
-El problema no es solo la intensidad. Es que la vainillina sintética pura tiene un sabor "plano": dulce artificial con un retrogusto que los clientes describen como "a caramelo de paquete". Sin los más de 200 compuestos aromáticos secundarios de la vainilla natural, la experiencia de sabor es unidimensional.
+- **Semillas visibles:** los puntos negros en el helado muestran al cliente que la vainilla es real.
+- **Dosis pequeñas:** al ser un concentrado, se usan pocos gramos por kilo de mezcla.
+- **No suma alcohol:** las pastas MEC3 de vainilla no se presentan como soluciones alcohólicas, a diferencia del extracto.
 
-### Pasta de vainilla: el formato correcto para helado artesanal
+## Tipos de pasta de vainilla según el origen de la vaina
 
-La pasta de vainilla es un concentrado elaborado con células y semillas de vaina de vainilla, azúcar y estabilizantes. No contiene alcohol. Las semillas visibles (las pequeñas puntos negros en el helado) son parte del producto y comunican visualmente que la vainilla es auténtica.
+El origen de la vaina es lo que más cambia el perfil de la pasta de vainilla.
 
-Las ventajas específicas para heladería:
+### Vainilla Bourbon
 
-**Sin alcohol:** No hay componente volátil que se evapore o interfiera con la base. El aroma queda retenido en el helado.
+MEC3 indica que su pasta Vainilla Bourbon usa semillas y vainas de vainilla Bourbon, una variedad de la isla de Reunión, y que da un aroma intenso al helado. La ficha la declara sin gluten y apta para veganos.
 
-**Semillas visibles:** Los puntos negros de vainilla son un indicador visual de autenticidad que el cliente percibe como garantía de calidad. Un helado de vainilla con semillas visibles se vende a mayor precio que uno sin ellas.
+### Vainilla Madagascar
 
-**Concentración de sabor:** Al ser un concentrado, la dosificación es menor que con extracto para lograr el mismo nivel de sabor. Esto reduce el riesgo de sobredosificación.
+MEC3 fabrica una pasta aparte, Vainilla Madagascar, que recomienda para fiordilatte y helados de crema delicados, o como veteado. Su dosis es de 20 a 30 g por kilo de mezcla.
 
-**Comportamiento en congelación:** El perfil aromático de la pasta permanece estable a temperaturas de mantecado y vitrina, a diferencia del extracto.
+### Vainilla de Tahití y de México
 
-## Tipos de pasta de vainilla según origen de la vaina
+La vainilla de Tahití tiene un perfil más floral, y la de México un perfil más especiado. Son menos comunes en la heladería artesanal estándar. Si buscas el sabor que el cliente reconoce como vainilla clásica, la Bourbon o la Madagascar son el punto de partida.
 
-El origen de la vainilla es el factor que más diferencia el perfil de sabor del helado final.
+## Dosificación de la pasta de vainilla: de 20 a 30 g por kilo de mezcla
 
-### Vainilla Bourbon Madagascar — el estándar en heladería italiana
+La dosis de pasta de vainilla para helado depende de cada producto, y el fabricante la publica por kilo de mezcla:
 
-La vainilla Bourbon proviene de las Islas Bourbon (actualmente Reunión, Madagascar y Comoras). Madagascar es el mayor productor mundial y el de mayor reputación en heladería profesional.
+| Pasta MEC3 | Dosis del fabricante |
+|---|---|
+| Vainilla Bourbon | 25 g por kilo de mezcla |
+| Vainilla Madagascar | 20 a 30 g por kilo de mezcla |
 
-**Perfil de sabor:** Cremoso, con notas de heno suave, madera dulce y vainillina de alta intensidad. Es el perfil que la mayoría de las personas identifica como "vainilla auténtica" porque es el que usaron las gelaterías italianas de referencia durante décadas.
+Fuentes: fichas de MEC3 de [Vainilla Bourbon](https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/bourbon) y [Vainilla Madagascar](https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/vanilla-madagascar).
 
-**Por qué resiste la congelación sin perder aroma:** La vainillina de Madagascar tiene mayor concentración molecular que otras variedades. A -12°C, ese exceso de concentración garantiza que la percepción de sabor sea correcta incluso con el fríos suprimiendo parte de la sensación aromática.
+**Cuándo añadirla:** la pasta se incorpora a la mezcla base antes del mantecado, para que se reparta en toda la mezcla. Si pasteurizas, sigue la indicación de la ficha técnica sobre el momento de añadir los aromas.
 
-**Concentración en pasta:** La pasta de vainilla Bourbon de calidad profesional tiene entre 15% y 25% de extracto de vainilla. Con 20% de concentración, 4g de pasta equivalen aproximadamente a 1 vaina de vainilla entera.
+**Con qué base:** la vainilla luce sobre una base blanca sin aromas, como la [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}).
 
-### Vainilla Tahitensis — más floral, menos común en helado
+**Conservación:** cierra bien el envase después de cada uso, guárdalo lejos de la luz y el calor, y sigue las indicaciones de conservación de la ficha técnica del lote.
 
-La vainilla Tahitensis (de Tahití y Papua Nueva Guinea) tiene un perfil más floral, con notas de anís y flores blancas. Es popular en alta pastelería donde ese perfil aporta diferenciación.
+Si no sabes qué pasta de vainilla conviene para tu base, {% include wa-enlace.html text="pregúntale a un asesor de Italgel por WhatsApp" location="post-medio" %}.
 
-En heladería, su uso es menos frecuente: el perfil floral puede entrar en conflicto con bases lácteas cremosas. Funciona mejor en sorbetes de frutas tropicales o en combinaciones donde se busca sorpresa aromática.
+## Por qué la vainilla es la base de las copas de tu carta
 
-### Vainilla mexicana — más robusta, para chocolate caliente
+La vainilla es el sabor que más se combina en una heladería: sirve de base para copas con variegatos, salsas y frutas. Una vainilla con pasta real permite dos cosas:
 
-La vainilla de Papantla, México, tiene un perfil más robusto y especiado, con notas de madera y clavo. Muy popular en bebidas calientes (chocolate, café) pero menos usada en helado.
+- **Nombrar el origen en la pizarra:** "Vainilla Bourbon" o "Vainilla Madagascar" comunica qué hay en la bola.
+- **Armar copas sobre una base con carácter:** el [variegato de whisky](/blog/crema-de-whisky-para-helado-variegato/), la [amarena Fabbri](/blog/amarena-fabbri-heladeria-usos-dosificacion/) o el salted caramel se notan más sobre una vainilla con sabor propio.
 
-Para heladería artesanal estándar, la recomendación es clara: **vainilla Bourbon Madagascar**. Es el perfil que el cliente colombiano identifica como "vainilla de verdad" y el que produce recompra.
+Para calcular el costo de la pasta por kilo de mezcla, multiplica el precio del kilo de pasta por la dosis en kilos: con 25 g por kilo (0,025 kg), es el precio del kilo de pasta dividido entre 40.
 
-## Dosificación correcta de pasta de vainilla en heladería artesanal
-
-La dosificación incorrecta es el error más frecuente. Subdosificación produce un helado "sin carácter" que sabe a vainilla artificial. Sobredosificación produce un retrogusto amargo que arruina el perfil.
-
-**En base láctea cremosa (Base 50, Neutralin):** 3-4g por litro de mezcla. La grasa láctea potencia el aroma de la vainilla, así que se necesita menos para el mismo efecto que en bases con menos grasa.
-
-**En base Fiordilatte o crema pura:** 4-5g por litro. La mayor pureza láctea de estas bases permite un perfil más complejo de vainilla. La dosificación ligeramente mayor construye la capa aromática adecuada.
-
-**En bases con mayor contenido de agua o overrun alto:** 5g por litro. El agua y el aire diluyen el perfil aromático. Dosificación mayor compensa esa dilución.
-
-**Cuándo añadirla:** La pasta de vainilla se incorpora a la mezcla base antes del pasteurizado (si pasteurizas) o antes del mantecado (si usas bases en frío). No se añade después del mantecado — a temperatura de -4°C a -6°C no se integra correctamente.
-
-**Almacenamiento:** Una vez abierto el envase, refrigerar obligatoriamente. El aceite de vainilla oxida con exposición a luz y calor. En refrigeración y con cierre hermético, la vida útil después de abrir es de 6-9 meses.
-
-## Rentabilidad del helado de vainilla premium
-
-La vainilla no es el sabor más "glamoroso" de la vitrina. Pero es el que más rota en todos los mercados del mundo — incluido Colombia — y el que mayor número de veces sirve como base para combinaciones (vainilla + variegato, vainilla + toppings, vainilla + salsas especiales).
-
-Un helado de vainilla con pasta Bourbon Madagascar visible permite dos cosas que la vainilla con esencia artificial no permite:
-
-**Precio premium justificado:** "Vainilla Madagascar" o "Vainilla Bourbon artesanal" en pizarra comunica origen y calidad. El cliente percibe diferencia antes de probar y acepta pagar $1.000-$2.000 COP más por bola.
-
-**Base para combinaciones de alto precio:** El helado de vainilla con pasta auténtica sirve como base de cualquier copa premium. El variegato de whisky, la amarena Fabbri, el caramelo salado — todos funcionan mejor sobre una base de vainilla con carácter real que sobre una vainilla artificial sin personalidad.
-
-Para ver disponibilidad y dosificación de la [pasta de vainilla MEC3 para heladería](/pastas-sabores-helado/pasta-vainilla/) con entrega en Colombia, el catálogo incluye ficha técnica con concentración de vainilla, guía de dosificación por tipo de base y precio mayorista.
+La [pasta de vainilla MEC3]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) se consigue con Italgel en Colombia, con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga; para otras ciudades, se consulta el envío.

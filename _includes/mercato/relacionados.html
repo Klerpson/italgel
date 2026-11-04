@@ -1,0 +1,31 @@
+{%- comment -%}
+  Artículos relacionados del post (sistema Mercato): primero los que llevan al mismo producto,
+  después los del mismo tema. Máximo 3, sin el post actual.
+{%- endcomment -%}
+{%- assign _vistos = page.url | append: "|" -%}
+{%- assign _lista = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- if p.producto and p.producto == page.producto -%}{%- unless _vistos contains p.url -%}
+    {%- assign _lista = _lista | push: p -%}{%- assign _vistos = _vistos | append: p.url | append: "|" -%}
+  {%- endunless -%}{%- endif -%}
+{%- endfor -%}
+{%- for p in site.posts -%}
+  {%- if p.tema and p.tema == page.tema -%}{%- unless _vistos contains p.url -%}
+    {%- assign _lista = _lista | push: p -%}{%- assign _vistos = _vistos | append: p.url | append: "|" -%}
+  {%- endunless -%}{%- endif -%}
+{%- endfor -%}
+{%- if _lista.size > 0 %}
+<section class="banda banda--papel" aria-labelledby="titulo-relacionados">
+  <div class="wrapper">
+    <div class="encabezado">
+      <h2 id="titulo-relacionados">Sigue con otra guía para tu heladería</h2>
+      <a class="enlace-flecha" href="{{ '/blog/' | relative_url }}" title="Ver todas las guías del blog">Ver todas las guías</a>
+    </div>
+    <div class="rejilla rejilla--ancha">
+      {%- for p in _lista limit: 3 %}
+      {% include mercato/baldosa.html url=p.url img=p.hero alt=p.alt titulo=p.h1 meta=p.description clase="baldosa--foto baldosa--apaisada" ancho=p.hero_w alto=p.hero_h %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

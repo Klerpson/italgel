@@ -1,5 +1,7 @@
 ---
 layout: post
+tema: negocio
+producto: equipo-completo
 published: false
 title: "Caso de éxito: cómo Heladería GurCoff resolvió su problema de proveedor de máquinas soft"
 description: "GurCoff, heladería en San Agustín y Pitalito (Huila), pasó dos años sin un proveedor confiable de máquinas soft hasta encontrar asesoría técnica real con Italgel."

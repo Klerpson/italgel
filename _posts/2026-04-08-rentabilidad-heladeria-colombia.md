@@ -1,11 +1,15 @@
 ---
 layout: post
+tema: negocio
+producto: equipo-completo
+keyword: "rentabilidad de una heladería"
+faq_titulo: "Dudas sobre la rentabilidad de una heladería en Colombia"
 title: "Rentabilidad de una heladería en Colombia: márgenes"
-description: "Márgenes brutos, costos fijos, punto de equilibrio y estrategias para mejorar la rentabilidad de una heladería en Colombia. Datos reales 2026."
-excerpt: "Una heladería artesanal bien operada en Colombia puede tener márgenes netos de 20-35%. Esta guía muestra los números reales, dónde se pierde el margen y cómo recuperarlo."
+description: "Rentabilidad de una heladería en Colombia: cómo calcular el margen bruto y neto, el punto de equilibrio y cuánto gana al mes, paso a paso."
+excerpt: "Qué margen deja una heladería y cuánto gana al mes se calcula con tres números de tu negocio: precio por porción, costo de insumos y costos fijos. Esta guía da las fórmulas y las palancas para mejorar el margen."
 h1: "Rentabilidad de una heladería en Colombia: lo que ganas, lo que gastas y cómo mejorar el margen"
 date: 2026-04-08 14:00:00 -0500
-last_modified_at: 2026-04-08 14:00:00 -0500
+last_modified_at: 2026-11-04 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [gestion-heladeria, rentabilidad]
 hero: /img/blog/rentabilidad-heladeria-colombia-margenes.avif
@@ -13,86 +17,94 @@ hero_w: 1080
 hero_h: 820
 hero_s: /img/blog/rentabilidad-heladeria-colombia-margenes-mobile.avif
 jpg: /img/blog/rentabilidad-heladeria-colombia-margenes.jpg
-alt: "Heladero colombiano revisando calculadora de costos con vitrina de helado artesanal al fondo en su negocio"
+alt: "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo"
 hero_title: "Rentabilidad de una heladería"
 schema_type: Article
 faq:
-  - q: "¿Cuánto se gana con una heladería en Colombia?"
-    a: "Una heladería artesanal bien establecida con 80-120 porciones diarias genera ingresos brutos de $4-8 millones COP mensuales, con margen neto de 20-35% después de costos fijos (arriendo, nómina, servicios) y variables (insumos, empaques). El primer año de operación suele tener márgenes menores mientras se construye la base de clientes."
-  - q: "¿Cuál es el margen de una heladería artesanal?"
-    a: "El margen bruto del helado artesanal (solo costo de insumos vs precio de venta) está entre 60% y 75%. El margen neto (después de todos los costos fijos y operativos) está entre 15% y 35% para heladerías bien administradas. Los toppings tienen margen bruto de 75-90%, superior al del helado solo."
-  - q: "¿Cómo aumentar la rentabilidad de una heladería?"
-    a: "Las palancas principales para mejorar rentabilidad son: usar bases de alto rendimiento (más litros por kg de insumo), aumentar el ticket promedio con toppings y copas, controlar las mermas de producción y vitrina, y optimizar el horario de producción para reducir pérdidas por helado no vendido en vitrina."
+  - q: "¿Qué margen deja una heladería?"
+    a: "Una heladería tiene dos márgenes. El margen bruto es el precio de venta menos el costo de insumos y empaque de cada porción. El margen neto es lo que queda después de restar también arriendo, nómina, servicios, merma y depreciación de equipos. El margen neto siempre es mucho menor que el bruto, y la diferencia depende de la ciudad, el local y el volumen de ventas."
+  - q: "¿Cuánto gana una heladería al mes?"
+    a: "La ganancia mensual de una heladería es el margen bruto por porción multiplicado por las porciones vendidas en el mes, menos los costos fijos mensuales. Para estimarla necesitas tres números propios: el precio promedio por porción, el costo de insumos por porción y la suma de costos fijos."
+  - q: "¿Cuál es el margen de ganancia de una heladería?"
+    a: "El margen de ganancia neto se calcula así: (ventas del mes − costo de insumos − costos fijos del mes) ÷ ventas del mes × 100. Calcúlalo cada mes con tus cifras reales, porque cambia con la temporada, la merma y el ticket promedio."
+  - q: "¿Es rentable un negocio de heladería en Colombia?"
+    a: "Una heladería es rentable cuando vende cada mes más porciones que su punto de equilibrio: costos fijos mensuales ÷ margen bruto por porción. Lo que más mueve ese número es el rendimiento de la base, el ticket promedio y el control de la merma."
 ---
 
-**En resumen:** La rentabilidad de una heladería en Colombia depende de tres variables: el margen bruto por porción (precio de venta menos costo de insumos), el volumen de ventas diario y los costos fijos mensuales. Una heladería artesanal típica en Colombia tiene margen bruto de 60-75% pero margen neto de solo 15-35% después de arriendo, nómina y servicios. La diferencia entre ambos márgenes es donde está la gestión.
+**En resumen:** La rentabilidad de una heladería en Colombia se calcula con tres números del propio negocio: el margen bruto por porción (precio de venta menos insumos), las porciones vendidas al mes y los costos fijos. El margen neto, lo que de verdad queda, es mucho menor que el bruto. Las palancas que más lo mejoran son el rendimiento de la base, el ticket promedio y el control de la merma.
 
----
+## Qué margen deja una heladería: margen bruto y margen neto
 
-Miguel abrió su heladería en Bucaramanga convencido de que los márgenes eran excelentes. "El helado cuesta $1,500 COP hacerlo y lo vendo a $5,000 COP, son más del 60% de margen", le explicó a su contador. El contador sonrió, calculó arriendo, nómina, servicios, empaques, merma y depreciación de equipos, y le devolvió un número diferente: 18% de margen neto real.
+Una heladería tiene dos márgenes, y confundirlos es la razón más común por la que un heladero cree que gana más de lo que gana. El margen bruto mira solo la porción; el margen neto mira el negocio completo.
 
-Miguel no estaba equivocado en el margen bruto. Estaba ignorando la mitad de los costos.
+| Margen | Fórmula | Qué incluye |
+|---|---|---|
+| Margen bruto por porción | Precio de venta − costo de insumos y empaque | Base, pasta de sabor, variegato o cobertura, cono o vaso |
+| Margen bruto (%) | Margen bruto por porción ÷ precio de venta × 100 | Lo mismo, como porcentaje |
+| Margen neto (%) | (Ventas del mes − insumos − costos fijos) ÷ ventas del mes × 100 | Todo lo anterior más arriendo, nómina, servicios, merma y depreciación |
 
-Esta guía explica la estructura real de costos de una heladería en Colombia, dónde se pierde el margen que parece brillante sobre papel, y qué palancas específicas tienen mayor impacto en la rentabilidad final.
+Un margen bruto alto sobre papel puede convertirse en un margen neto bajo si el local es caro, si la vitrina tiene mucha merma o si las ventas diarias no alcanzan para cubrir la nómina.
 
-## La estructura de costos real de una heladería artesanal en Colombia
+## La estructura de costos de una heladería artesanal
 
-Los costos de una heladería se dividen en fijos y variables. Los fijos existen independientemente de cuánto vendas. Los variables crecen proporcionalmente con las ventas.
+Los costos de una heladería se dividen en fijos, que existen aunque no vendas, y variables, que crecen con cada porción vendida.
 
-**Costos fijos mensuales típicos (heladería artesanal, local 50-80m², 1-2 empleados):**
+**Costos fijos mensuales:**
 
-- Arriendo: $1,200,000 - $3,500,000 COP según ciudad y zona
-- Nómina (1 empleado de producción + servicio): $1,800,000 - $2,800,000 COP con prestaciones
-- Servicios públicos (agua, luz, gas): $350,000 - $700,000 COP (el congelador consume significativo)
-- Depreciación de equipos: $200,000 - $500,000 COP mensual
-- Otros fijos (internet, caja POS, publicidad básica): $150,000 - $350,000 COP
+- arriendo del local;
+- nómina con prestaciones;
+- servicios públicos (agua, luz y gas; la refrigeración de vitrinas y congeladores pesa en la factura de luz);
+- depreciación de los equipos;
+- otros fijos: internet, sistema de caja y publicidad.
 
-Total costos fijos mensuales: **$3,700,000 - $7,850,000 COP**
+**Costos variables:**
 
-**Costos variables (como porcentaje de ventas):**
+- insumos: bases, pastas, variegatos y coberturas;
+- empaques: conos, vasos y cucharas;
+- merma: helado que no se vende y desperdicio operativo.
 
-- Insumos (bases, pastas, coberturas): 25-35% de los ingresos brutos
-- Empaques (conos, vasos, cucharas): 3-5% de los ingresos
-- Merma (helado no vendido, derrames): 5-8% de producción
+## Cuánto gana una heladería al mes: cómo calcularlo con tus números
 
-Con estos números, el punto de equilibrio mensual mínimo para una heladería artesanal en Colombia está entre $5,000,000 y $9,000,000 COP en ingresos brutos. Todo lo que se venda por encima de ese número genera margen neto.
+La ganancia mensual de una heladería es el margen bruto por porción por las porciones vendidas en el mes, menos los costos fijos del mes. No hay una cifra única para Colombia: depende de tu ciudad, la zona, el precio y el volumen.
 
-## El margen bruto real por tipo de producto: dónde conviene enfocar la producción
+**Ganancia mensual = (margen bruto por porción × porciones vendidas en el mes) − costos fijos del mes**
 
-No todos los productos de una heladería tienen el mismo margen. Entender la distribución de márgenes permite tomar decisiones de negocio más inteligentes.
+Para usar la fórmula necesitas tres datos de tu negocio:
 
-**Helado artesanal base (sin toppings):** Costo de insumos $1,200-$1,800 COP por bola (80-100g), precio de venta $4,500-$6,000 COP. Margen bruto: 65-73%. La variación depende principalmente de la base que uses y el overrun que logres.
+1. **Precio promedio por porción**, sumando bolas, copas y conos.
+2. **Costo de insumos por porción**: gramos de base, pasta y variegato por porción por su precio por gramo. El rendimiento de la base cambia este número, como explica la guía para [calcular el overrun del helado artesanal]({{ '/blog/como-calcular-overrun-helado-artesanal/' | relative_url }}).
+3. **Costos fijos del mes**, con la lista de la sección anterior.
 
-**Helado con variegato premium (pistacho, vainilla bourbon):** Costo de insumos $1,800-$2,500 COP por bola, precio de venta $7,000-$10,000 COP. Margen bruto: 72-78%. El ingrediente más caro justifica el precio más alto con margen superior.
+Si todavía no has abierto, haz el cálculo con cotizaciones reales de arriendo y de equipos de tu ciudad. La guía para [abrir una heladería en Colombia]({{ '/blog/como-abrir-una-heladeria-en-colombia/' | relative_url }}) detalla qué incluye la inversión inicial.
 
-**Copa con toppings (1-2 toppings adicionales):** Costo adicional del topping $300-$600 COP, precio adicional $1,500-$3,000 COP. Margen bruto del topping: 78-88%. Los toppings son el producto con mayor margen de toda la heladería.
+## Es rentable un negocio de heladería si supera su punto de equilibrio
 
-**Sundae o copa completa (3+ toppings + salsa):** Costo $2,500-$4,000 COP total, precio $8,000-$12,000 COP. Margen bruto: 67-75%. Menor margen porcentual que la copa simple, pero mayor margen absoluto por ticket.
+Un negocio de heladería es rentable desde el momento en que vende más porciones al mes que su punto de equilibrio. Ese punto se calcula dividiendo los costos fijos mensuales entre el margen bruto por porción.
 
-La implicación práctica: cada cliente que pasa de "bola simple" a "copa con toppings" aumenta el ingreso por ticket en 50-100%, con un aumento de costos de solo 20-40%. El margen por cliente mejora significativamente.
+**Punto de equilibrio (porciones al mes) = costos fijos del mes ÷ margen bruto por porción**
 
-## Las tres palancas que más impactan la rentabilidad real
+Divide el resultado entre los días que abres al mes y obtienes el mínimo de porciones diarias para no perder dinero. Cada porción por encima de ese piso suma a la ganancia.
 
-Después de analizar decenas de heladerías en Colombia, estas tres palancas tienen mayor impacto en el margen neto final:
+## Tres palancas para mejorar el margen de una heladería
 
-**Primera palanca: el rendimiento por kilogramo de base.** Este es el factor que más subestiman los heladeros. Una base genérica que produce 2.5L por kilogramo vs una [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}) que produce 3.5L por kilogramo significa 40% más helado con la misma inversión en insumos. Si produces 50L por día, la diferencia es 20L adicionales de helado diarios que no te cuesta insumo adicional.
+Las tres palancas que más mueven el margen neto de una heladería son el rendimiento de la base, el ticket promedio y la merma, porque actúan sobre el costo por porción y sobre las ventas sin subir los costos fijos.
 
-En términos mensuales (25 días): 500L adicionales de helado × $5,000 COP promedio por bola (10 bolas por litro) = **$25,000,000 COP de ingresos adicionales** potenciales simplemente por usar una base de mayor rendimiento. Incluso si el precio de la base es 30% mayor, la matemática favorece claramente la inversión.
+**Rendimiento por kilogramo de base.** Lo que importa es el costo por litro de helado terminado, no el precio del kilo. Una base que rinde más litros por kilo baja el costo de cada porción aunque su precio sea mayor. Para comparar, mide el rendimiento real en tu máquina y revisa la ficha de cada base; por ejemplo, la de la [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}).
 
-**Segunda palanca: el ticket promedio.** Cada $500 COP de aumento en el ticket promedio, manteniendo el volumen de clientes, aumenta los ingresos mensuales proporcionalmente. Para una heladería con 80 clientes por día: $500 COP × 80 × 25 días = $1,000,000 COP mensual adicional sin vender una bola más. Los toppings profesionales y las copas sugeridas son el mecanismo principal para subir ticket promedio.
+**Ticket promedio.** Cada peso más por cliente, con el mismo número de clientes, se suma casi completo al margen bruto. Las copas con [variegatos]({{ '/variegatos-helado/' | relative_url }}) y [coberturas y salsas]({{ '/coberturas-salsas-helado/' | relative_url }}) suben el ticket con poco costo adicional por porción.
 
-**Tercera palanca: el control de merma.** La merma en heladería tiene dos fuentes: el helado que se produce y no se vende (queda en vitrina más de 36 horas y pierde calidad), y el desperdicio operativo (derrames, porciones excesivas, errores de preparación). Una heladería con merma del 15% vs una con merma del 5% pierde 10% de sus ingresos potenciales en producto que ya pagó pero no vendió. Las bases con mayor estabilidad en vitrina (como las MEC3) reducen la merma de vitrina directamente.
+**Control de la merma.** La merma tiene dos fuentes: el helado que pierde calidad en vitrina antes de venderse y el desperdicio operativo (derrames, porciones excesivas, errores de preparación). Producir según la rotación real de cada sabor y usar una base balanceada para vitrina reduce las dos.
 
-## Los números que necesitas calcular para tu heladería específica
+Si quieres revisar qué base o qué máquina mejora el rendimiento de tu producción, {% include wa-enlace.html text="escríbele a un asesor de Italgel por WhatsApp con los litros que produces al día" location="post-medio" %}.
 
-No existe un número universal de rentabilidad para heladerías. Depende de tu ciudad, tu zona, tu precio promedio, tu volumen y tus costos fijos. Sin embargo, estos son los indicadores que debes calcular mensualmente:
+## Tres indicadores mensuales de una heladería: costo de ventas, punto de equilibrio e ingreso por m²
 
-**Costo de ventas (CoV):** Suma de todos los insumos (bases, pastas, coberturas, empaques) usados en el mes. Dividido entre ingresos brutos del mes = porcentaje de costo de ventas. Un CoV menor al 35% es saludable para heladería artesanal.
+Tres indicadores mensuales muestran si una heladería va bien antes de que se note en la caja.
 
-**Punto de equilibrio en porciones:** Costos fijos mensuales ÷ margen bruto promedio por porción = número mínimo de porciones por día para no perder dinero. Si tus costos fijos son $4,500,000 COP y tu margen bruto por porción es $3,500 COP: 4,500,000 ÷ 3,500 = 1,286 porciones/mes = 51 porciones/día. Es el piso mínimo de tu operación.
+| Indicador | Fórmula | Para qué sirve |
+|---|---|---|
+| Costo de ventas (%) | Insumos y empaques del mes ÷ ventas del mes × 100 | Detecta si el costo por porción está subiendo |
+| Punto de equilibrio | Costos fijos ÷ margen bruto por porción | Fija el mínimo de porciones que hay que vender |
+| Ingreso por metro cuadrado | Ventas del mes ÷ metros cuadrados del local | Compara qué tan bien se usa el espacio entre locales o temporadas |
 
-**Ingreso por metro cuadrado:** Ingresos brutos mensuales ÷ metros cuadrados del local. Indica qué tan eficiente es el uso del espacio. Heladerías exitosas generan $200,000-$400,000 COP/m² mensual.
-
----
-
-Para heladeros que quieren mejorar la rentabilidad desde los insumos, el punto de partida es entender qué [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) tienen el mayor rendimiento real por kilogramo para su tipo de producción. Para aumentar el ticket promedio con toppings y coberturas de alto margen, el catálogo de [insumos para heladería]({{ '/insumos/' | relative_url }}) de Italgel incluye las opciones con mejor relación costo-margen del mercado colombiano.
+Para mejorar la rentabilidad desde los insumos, el punto de partida es comparar las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) por rendimiento según tu tipo de producción. El catálogo de [insumos para heladería]({{ '/insumos/' | relative_url }}) de Italgel reúne bases, pastas, variegatos y coberturas.

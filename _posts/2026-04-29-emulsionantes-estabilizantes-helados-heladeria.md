@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "Emulsionantes y estabilizantes para helados: guía técnica"
-description: "Emulsionantes y estabilizantes para helados: diferencias, cuándo usarlos y por qué las bases MEC3 ya incluyen el sistema correcto calibrado."
-excerpt: "El emulsionante y el estabilizante no son lo mismo. Confundirlos produce helados con textura incorrecta o que no resisten el día en vitrina. Esta guía explica la diferencia y cuándo comprarlos por separado."
-h1: "Emulsionantes y estabilizantes para helados: guía técnica para heladería artesanal"
+tema: ingredientes
+producto: bases
+keyword: "emulsionante"
+faq_titulo: "Dudas sobre emulsionantes y estabilizantes para helado"
+title: "Emulsionante y estabilizante para helados: guía técnica"
+description: "Qué es un emulsionante (emulsificante) y un estabilizante para helados, cuáles se usan, cuánto llevan y cómo elegir una mezcla en polvo para helado suave."
+excerpt: "El emulsionante ordena la grasa y el aire; el estabilizante frena los cristales de hielo. Juntos suman menos del 0,5 % del peso del helado."
+h1: "Emulsionante y estabilizante para helados: qué hace cada uno, cuáles se usan y cuánto llevan"
 date: 2026-04-29 12:00:00 -0500
-last_modified_at: 2026-04-29 12:00:00 -0500
+last_modified_at: 2026-11-04 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, tecnica]
 hero: /img/blog/emulsionantes-estabilizantes-helado-tecnica.avif
@@ -16,114 +20,122 @@ jpg: /img/blog/emulsionantes-estabilizantes-helado-tecnica.jpg
 alt: "Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea"
 hero_title: "Emulsionantes y estabilizantes"
 schema_type: Article
+referencias:
+  - "Ice Cream Technology e-Book, Universidad de Guelph (H. D. Goff): Emulsifiers": https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/emulsifiers/
+  - "Ice Cream Technology e-Book, Universidad de Guelph (H. D. Goff): Stabilizers": https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/stabilizers/
+  - "Resolución 2310 de 1986 del Ministerio de Salud (normograma del Invima)": https://normograma.invima.gov.co/compilacion/docs/resolucion_minsalud_2310_1986.htm
 faq:
-  - q: "¿El emulsionante cambia el sabor del helado?"
-    a: "Los emulsionantes aprobados para heladería (E471, lecitina de soja) son insípidos en las concentraciones de uso. No afectan el sabor del helado. Su función es exclusivamente estructural: integrar la fase grasa y acuosa de la mezcla para mejorar cremosidad y estabilidad."
+  - q: "¿Qué es un emulsificante para helados?"
+    a: "Emulsificante y emulsionante son dos nombres para el mismo aditivo. Es una molécula con una parte que se une al agua y otra que se une a la grasa; en el helado ayuda a formar la estructura de grasa y aire que da una textura suave y un buen derretido."
   - q: "¿Cuánto emulsionante se usa por litro de mezcla?"
-    a: "La dosis típica de emulsionante E471 en heladería artesanal es 0.2-0.5% del peso total de la mezcla. Para un litro de mezcla (aprox. 1.08kg), eso equivale a 2-5g de emulsionante. En bases MEC3 (Base 50, Neutralin), el emulsionante ya está incluido en la formulación — no se añade por separado."
+    a: "Según el manual de tecnología de helados de la Universidad de Guelph, estabilizantes y emulsionantes juntos suman menos del 0,5 % del peso del helado. Un litro de mezcla pesa entre 1,09 y 1,1 kg, así que entre los dos son menos de 5,5 g por litro. La dosis exacta la da la ficha técnica del fabricante; si trabajas con una base completa, la ficha dice cómo prepararla."
   - q: "¿El CMC es un estabilizante o un emulsionante?"
-    a: "El CMC (carboximetilcelulosa) es un estabilizante, no un emulsionante. Actúa sobre la fase acuosa de la mezcla controlando los cristales de hielo. No tiene ninguna función en la integración de grasas. Es el estabilizante más común en sorbetes y helados de agua."
+    a: "La carboximetilcelulosa (CMC, E466) es un estabilizante. Se obtiene de la celulosa de plantas, modificada para que se disuelva en agua, y actúa sobre la fase acuosa de la mezcla dándole viscosidad y frenando el crecimiento de los cristales de hielo."
   - q: "¿Las bases MEC3 ya traen emulsionante incluido?"
-    a: "Sí. Las bases MEC3 como Base 50 y Neutralin incluyen el sistema completo de emulsionante más estabilizante, calibrado específicamente para su formulación y para mantecadoras de tipo italiano (overrun 25-70%). No necesitas añadirlos por separado si trabajas con bases MEC3."
+    a: "Depende de la base. MEC3 describe Supergelmix como una base para helado de fruta sin emulsionantes. Cada base se prepara según su ficha técnica, que fija el líquido, el azúcar y la cantidad de base; agregar aditivos por tu cuenta cambia esa fórmula y, según la Universidad de Guelph, el exceso de estabilizante deja el helado pesado o chicloso."
+  - q: "¿Qué diferencia hay entre emulsionante y estabilizante?"
+    a: "El emulsionante trabaja en la frontera entre la grasa y el agua y ordena la grasa y el aire del helado. El estabilizante es una goma que espesa la fase acuosa y frena el crecimiento de los cristales de hielo durante el almacenamiento."
 ---
 
-**En resumen:** Un emulsionante para helados es un aditivo que integra la fase grasa y acuosa de la mezcla, mejorando cremosidad y estabilidad en vitrina. Un estabilizante controla los cristales de hielo y el overrun. Son funciones distintas: el emulsionante actúa sobre las grasas, el estabilizante actúa sobre el agua. En heladería artesanal moderna, las bases comerciales incluyen ambos sistemas calibrados — solo se compran por separado para formulaciones propias.
+**En resumen:** Un emulsionante para helados, también llamado emulsificante, es un aditivo que se ubica entre la grasa y el agua de la mezcla y ayuda a formar la estructura de grasa y aire que da un helado suave y con buen derretido. El estabilizante es una goma que espesa la fase acuosa y frena los cristales de hielo. Según el manual de tecnología de helados de la Universidad de Guelph, juntos suman menos del 0,5 % del peso del helado.
 
----
+Cuando un helado sale granulado, suelta agua en la vitrina, se derrite muy rápido o queda pesado en la boca, casi siempre hay que revisar el sistema de emulsionantes y estabilizantes de la mezcla. Esta guía explica qué hace cada uno, cuáles se usan, cuánto llevan y cuándo tiene sentido comprarlos por separado en una heladería de Colombia.
 
-Cuando una heladería tiene problemas de textura — helado que queda granulado, que rezuma agua en vitrina, que pierde forma rápido o que no tiene cremosidad — la primera causa que se investiga son los emulsionantes y estabilizantes. No porque siempre sean el problema, sino porque son los ingredientes más mal entendidos de la formulación.
+## Qué es un emulsionante para helados y qué hace en la mezcla
 
-Esta guía distingue con precisión qué hace cada uno, cuándo usarlos y por qué, en la práctica de una heladería artesanal colombiana, la respuesta más frecuente es "la base que usas ya los trae incluidos".
+Un emulsionante para helados es una molécula con una parte que se une al agua y otra que se une a la grasa, por eso se ubica justo en la frontera entre las dos fases de la mezcla. El manual *Ice Cream Technology* de la Universidad de Guelph explica que los emulsionantes ayudan a formar la estructura de grasa y la distribución del aire que dan al helado una textura suave y un buen derretido.
 
-## Emulsionante vs. estabilizante: funciones completamente distintas
+El mecanismo es contraintuitivo: el emulsionante desplaza parte de la proteína que rodea los glóbulos de grasa y debilita esa membrana. Durante el mantecado, esos glóbulos se unen parcialmente y forman una red que sostiene las burbujas de aire. El resultado es un helado seco al corte, cremoso y que se derrite de forma pareja.
 
-La confusión entre ambos términos es tan común que muchas fichas técnicas los agrupan como "emulsionantes y estabilizantes" sin distinguir la función de cada uno. Eso crea una falsa equivalencia.
+### Emulsificante para helados: el mismo aditivo con otro nombre
 
-### Qué hace un emulsionante
+Emulsificante y emulsionante significan lo mismo. En Colombia se usan los dos términos en fichas técnicas y etiquetas, y los dos se refieren a los aditivos de esta sección.
 
-Un emulsionante es una molécula que tiene un extremo que se une a las grasas y otro que se une al agua. Su función es mantener las grasas de la leche dispersas en la mezcla acuosa sin que se separen.
+### Mono y diglicéridos (E471) y polisorbato 80 (E433), los dos más usados
 
-Sin emulsionante, la grasa de la leche tiende a aglomerarse durante el batido en mantecadora. El resultado es un helado con textura "mantecosa" o grumosa en lugar de cremosa y uniforme. Con emulsionante correcto, la grasa queda finamente dispersa y la textura es suave.
+Según la Universidad de Guelph, dos emulsionantes predominan en la mayoría de las fórmulas de helado:
 
-Los emulsionantes más usados en heladería son:
+- **Mono y diglicéridos de ácidos grasos (E471):** se obtienen de la hidrólisis parcial de grasas o aceites de origen animal o vegetal. Si tu heladería vende helado vegano o halal, revisa en la ficha técnica el origen de la grasa.
+- **Polisorbato 80 (E433):** un éster de sorbitán con ácido oleico, más soluble en agua.
 
-**Mono y diglicéridos de ácidos grasos (E471):** El más común en heladería industrial y artesanal. Se obtiene de grasas vegetales o animales. Mejora la cremosidad y la resistencia al deshielo. Dosis típica: 0.2-0.5% del peso de la mezcla.
+Otras fuentes de emulsionante son el suero de mantequilla y los ésteres de glicerol.
 
-**Lecitina de soja:** Emulsionante natural. Funciona bien en helados con alto contenido de yema de huevo (gelato clásico). Menos efectivo que E471 para helados industriales pero preferido en formulaciones "limpias" o con etiqueta natural.
+### Lecitina y yema de huevo, los emulsionantes del gelato clásico
 
-**Polisorbato 80 (E433):** Usado principalmente en helados soft de alta overrun. Permite incorporar más aire sin desestabilizar la emulsión. Poco común en heladería artesanal de calidad.
+La yema de huevo fue el emulsionante original del helado y aparece en la mayoría de las recetas antiguas, de acuerdo con el mismo manual. En el gelato con yemas, la lecitina del huevo cumple buena parte de esa función. La lecitina de soja (E322) se usa cuando se busca una etiqueta con ingredientes reconocibles.
 
-### Qué hace un estabilizante
+## Cuánto emulsionante y estabilizante lleva un helado: menos del 0,5 % del peso
 
-Un estabilizante actúa sobre la fase acuosa de la mezcla. Su función es controlar el tamaño de los cristales de hielo que se forman durante la congelación y mantener la estructura del helado estable durante el almacenamiento y la venta.
+Estabilizantes y emulsionantes juntos representan menos de la mitad del 1 % del peso del helado, según el manual de la Universidad de Guelph. Un litro de mezcla pesa entre 1,09 y 1,1 kg, así que entre los dos aditivos suman menos de 5,5 g por litro.
 
-Sin estabilizante, el agua libre de la mezcla forma cristales de hielo grandes que producen textura granulada. En vitrina, el helado "rezuma" agua (sinéresis) y pierde forma rápidamente.
+Por eso el error más común es el exceso. Un gramo de más, multiplicado por todo el lote, se nota en la textura. La dosis exacta de cada aditivo depende de la fórmula y la da la ficha técnica del fabricante. Si trabajas con una base completa, la dosis ya viene calculada.
 
-Los estabilizantes más comunes en heladería son:
+## Qué es un estabilizante para helados y cuáles se usan
 
-**Carboximetilcelulosa (CMC):** El más económico y extendido. Muy efectivo en sorbetes y helados de agua. Produce textura densa. Dosis típica: 0.1-0.3%.
+Un estabilizante para helados es una goma, casi siempre un polisacárido, que da viscosidad a la mezcla y a la parte del helado que no se congela. El manual de la Universidad de Guelph señala que sin estabilizantes el helado se vuelve áspero y helado muy rápido, porque el agua libre migra y los cristales de hielo crecen.
 
-**Goma guar:** Origen natural (semilla de guar). Buen desempeño a temperaturas de congelación bajas. Común en helados artesanales de perfil "natural".
+El estabilizante trabaja en cuatro momentos:
 
-**Goma xantana:** Muy estable a temperatura de vitrina. Excelente para helados que deben resistir ciclos de temperatura (traslado, eventos). Caro en comparación con CMC.
+1. **En la mezcla:** estabiliza la emulsión, evita que la grasa suba y ayuda a mantener los saborizantes líquidos en suspensión.
+2. **Al salir de la mantecadora:** estabiliza las burbujas de aire y mantiene en su lugar las salsas y [variegatos]({{ '/variegatos-helado/' | relative_url }}).
+3. **En el almacenamiento:** frena el crecimiento de cristales de hielo y de lactosa, y evita que el helado se encoja.
+4. **Al comerlo:** da cuerpo sin que el helado quede gomoso y ayuda a liberar el sabor.
 
-**Pectina:** Extraída de frutas cítricas. Ideal para sorbetes de alta acidez (limón, maracuyá, fresa). Trabaja bien con el azúcar propio de las frutas.
+Esto importa sobre todo en el transporte y en la vitrina. Cada vez que el helado se calienta un poco y se vuelve a congelar (el llamado choque térmico), los cristales crecen y el helado se siente más helado. El estabilizante reduce ese daño.
 
-### Por qué la mayoría de bases comerciales ya los incluyen en formulación
+### Gomas más usadas en helado: garrofín E410, guar E412, CMC E466 y xantana E415
 
-Un fabricante de bases para helado como MEC3 formula sus productos con el sistema exacto de emulsionante + estabilizante que funciona mejor para ese tipo específico de helado. La [Base 50 MEC3](/bases-helado-colombia/base-50-mec3/) incluye el sistema calibrado para helado cremoso artesanal con mantecadora italiana. No necesitas calcular dosis ni comprar por separado.
+| Estabilizante | Código | Origen | Qué dice el manual de Guelph |
+|---|---|---|---|
+| Goma garrofín (algarrobo) | E410 | Endospermo de la semilla del algarrobo | De uso habitual en helado |
+| Goma guar | E412 | Semilla del guar, una leguminosa | Más soluble en frío que el garrofín; por eso se usa en pasteurización HTST |
+| Carboximetilcelulosa (CMC) | E466 | Celulosa de plantas, modificada para disolverse en agua | De uso habitual en helado |
+| Goma xantana | E415 | Fermentación de la bacteria *Xanthomonas campestris* | Se usa en menor medida |
+| Alginato de sodio | E401 | Alga parda | Se usa en menor medida |
+| Carragenina | E407 | Algas rojas | Va como coloide secundario para que la mezcla no suelte suero |
+| Gelatina | — | Animal | Fue el estabilizante principal; hoy lo reemplazan gomas vegetales, más eficaces y baratas |
 
-Eso no significa que sean irrelevantes de entender. Si alguna vez cambias de base, produces con receta propia o buscas ajustar la textura de un producto específico, saber qué hace cada componente te permite tomar la decisión correcta.
+Casi siempre se combinan dos o más estabilizantes, porque juntos se refuerzan entre sí. El mismo manual advierte los límites: el exceso de estabilizante deja una mezcla demasiado espesa antes de congelar, un derretido indeseado y un cuerpo pesado o chicloso.
 
-## Los emulsionantes más usados en heladería profesional
+## Espesante para helados: el estabilizante que da cuerpo a la mezcla
 
-### Mono y diglicéridos (E471) — el estándar de la industria
+Cuando una ficha habla de espesante para helados, casi siempre se refiere a las mismas gomas de la tabla anterior: guar, garrofín, CMC o xantana. Su efecto principal es subir la viscosidad de la fase acuosa, y de ahí salen la mayoría de sus beneficios en el helado. Por eso un mismo aditivo puede figurar como estabilizante o como espesante, según la función que destaque el fabricante.
 
-Es el emulsionante de referencia en heladería profesional mundial. Se encuentra en la formulación de casi todas las bases comerciales de calidad. Su función específica en helado artesanal:
+## Bases completas MEC3: la ficha técnica fija la dosis de cada ingrediente
 
-- Previene la separación de la grasa durante el mantecado
-- Mejora la cremosidad percibida en la textura final
-- Reduce el tiempo de batido necesario para alcanzar overrun objetivo
-- Mejora la resistencia al deshielo en vitrina
+Una base completa llega con su fórmula calculada para un tipo de helado, y su ficha técnica indica con qué líquido, cuánto azúcar y cuánta base se prepara. Con las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) que distribuye Italgel no hay que calcular por separado la dosis de cada aditivo:
 
-Su origen puede ser vegetal (palma, colza) o animal (grasa de cerdo o res). Para helados halal o con restricciones de origen animal, siempre verificar la ficha técnica del proveedor.
+- [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}), base de leche para fiordilatte y cremas, según MEC3.
+- [Neutralin Plus]({{ '/bases-helado-colombia/neutralin-plus/' | relative_url }}), para gelato de textura densa.
+- [Supergelmix]({{ '/bases-helado-colombia/supergelmix/' | relative_url }}), base para helados de fruta preparada con agua y sin emulsionantes, según MEC3.
 
-### Lecitina de soja — para perfiles "limpios" y gelato clásico
-
-La lecitina de soja es el emulsionante preferido cuando la etiqueta del producto necesita tener aspecto "natural" o cuando el cliente valora ingredientes reconocibles. Su función emulsionante es buena pero menos potente que E471.
-
-En gelato clásico italiano con yemas de huevo, la lecitina natural del huevo cumple ya gran parte de la función emulsionante. La lecitina de soja adicional complementa ese sistema.
-
-### Polisorbato 80 — para helados soft de alta overrun
-
-Reservado principalmente para helados soft industriales o máquinas soft que requieren overrun de 80-120%. No es común en heladería artesanal. Si produces helado soft con Supergelmix MEC3, ese producto ya tiene el sistema emulsionante incluido y calibrado para las condiciones de producción de las [máquinas soft Coldelite](/maquinas-helado-soft/).
-
-## El diferenciador de MEC3 — el sistema ya viene calibrado
-
-La razón principal por la que las bases MEC3 producen helado más consistente que muchas recetas caseras o bases genéricas no es un secreto: cada base incluye el sistema emulsionante + estabilizante exacto para esa formulación específica.
-
-La [Base 50 MEC3](/bases-helado-colombia/base-50-mec3/) está diseñada para helado cremoso artesanal con overrun de 40-60%. El sistema interno de emulsionantes y estabilizantes está calibrado para ese rango específico, esas temperaturas de mantecado y ese tipo de grasa láctea. No es una dosis genérica.
-
-Si usas Base 50 y añades emulsionante extra por tu cuenta, estás rompiendo ese equilibrio. El resultado suele ser un helado con textura incorrecta — demasiado denso, con exceso de cuerpo o que no retiene overrun.
+Si a una base completa le añades emulsionante o estabilizante por tu cuenta, rompes el equilibrio de la fórmula, y el helado suele quedar demasiado denso o gomoso. El sistema ya incluido también influye en el aire que la base puede retener: lo explicamos en la guía para [calcular el overrun del helado]({{ '/blog/como-calcular-overrun-helado-artesanal/' | relative_url }}).
 
 ## Cuándo comprar emulsionante o estabilizante por separado
 
-Hay tres situaciones donde tiene sentido comprar estos aditivos independientemente:
+Comprar emulsionante o estabilizante por separado tiene sentido en tres casos:
 
-**Recetas propias o bases neutras sin aditivos.** Si produces con receta 100% propia usando leche fresca, crema y azúcares sin base comercial, necesitas añadir tu propio sistema de emulsionantes y estabilizantes. En este caso, lo más práctico es usar una mezcla comercial de "neutro para helado" que incluya ambos componentes en proporciones calculadas.
+- **Recetas propias sin base comercial.** Si produces desde cero con leche, crema y azúcares, tienes que armar el sistema tú mismo. Lo más práctico es usar un neutro para helado que traiga emulsionante y estabilizante en proporciones ya calculadas.
+- **Ajustes de textura en sorbetes o helados de agua.** Las frutas muy ácidas o con mucha agua pueden pedir un ajuste del estabilizante.
+- **Formulación propia en volumen industrial.** Quien fabrica sus mezclas desde cero en volumen necesita además equipo de pasteurización y homogenización, y sobre todo conocimiento técnico. Revisa la guía de [pasteurización de la mezcla para helado]({{ '/blog/pasteurizacion-mezcla-helado-correcta/' | relative_url }}).
 
-**Ajustes de textura en sorbetes o helados de agua.** Los sorbetes de frutas muy ácidas o con alto contenido de agua pueden necesitar ajuste del sistema estabilizante independientemente de la base. El CMC es el recurso más accesible para estas correcciones.
+## Estabilizantes para sorbete y helados de agua
 
-**Formulación propia para volumen industrial.** Productores con capacidad de 500+ litros diarios que formulan sus propias mezclas desde cero tienen más sentido económico comprando ingredientes base por separado. Pero esto requiere conocimiento técnico profundo y equipo de homogenización industrial.
+El sorbete es el producto más sensible al estabilizante, porque no tiene grasa láctea que ayude a controlar los cristales de hielo: toda la estructura depende del azúcar, la fruta y la goma. En sorbetes de frutas cítricas o muy ácidas, la pectina refuerza la gelificación natural de la fruta y suaviza la textura.
 
-## Estabilizantes específicos para sorbete y helados de agua
+Las diferencias técnicas entre los dos productos están en la guía [¿Qué es un sorbete? Diferencias con el helado artesanal]({{ '/blog/que-es-un-sorbete-diferencias-helado-artesanal/' | relative_url }}).
 
-El sorbete artesanal tiene el mayor riesgo de falla por estabilizante incorrecto. Sin grasa láctea que ayude a controlar cristales, el estabilizante debe hacer todo el trabajo.
+## Cómo elegir una mezcla en polvo para helado suave en Colombia
 
-Para sorbetes de frutas tropicales (guanábana, mango, maracuyá), el sistema más efectivo combina CMC con goma guar en proporción 2:1. La CMC actúa rápido en congelación inicial; la goma guar estabiliza durante el almacenamiento.
+Una mezcla en polvo para helado suave es una base completa pensada para máquina soft: incorpora más aire que una base de helado duro y aguanta el servicio continuo en la tolva. La Resolución 2310 de 1986 del Ministerio de Salud define la mezcla para helado como «el producto en forma líquida o en polvo que se destina a la preparación de helados».
 
-Para sorbetes de frutas cítricas (limón, naranja, maracuyá), añadir pectina al sistema potencia la gelificación natural de la fruta y produce textura más suave sin cristales.
+Antes de comprar, revisa en la ficha técnica estos seis puntos:
 
-Si produces sorbete con bases MEC3 Fruttissima, el sistema de estabilizantes ya está optimizado para cada tipo de fruta. No necesitas añadir nada por separado — y añadirlo puede empeorar el resultado.
+1. **Que esté hecha para máquina soft.** Una base de helado duro se ve bien en la mantecadora, pero en una máquina soft no retiene el aire durante el servicio.
+2. **Con qué se mezcla.** Algunas bases se preparan con agua y otras con leche, y eso cambia el costo y el sabor.
+3. **Si pide tratamiento térmico.** La ficha debe decir si la mezcla se prepara en frío o si hay que calentarla.
+4. **El sistema estabilizante.** Debe estar pensado para un overrun alto y para la temperatura de servicio del soft.
+5. **El rendimiento por kilo.** Cuántos litros de helado servido da cada kilo de base, según la ficha.
+6. **Quién responde por la máquina.** La base y la máquina tienen que funcionar juntas, así que conviene que el proveedor conozca las dos.
 
-Más información sobre la técnica de producción de sorbetes y las bases disponibles en Colombia en nuestra guía: [¿Qué es un sorbete? Diferencias técnicas con el helado artesanal](/blog/que-es-un-sorbete-diferencias-helado-artesanal/).
+Italgel distribuye las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) y las [máquinas de helado suave Coldelite]({{ '/maquinas-helado-soft/' | relative_url }}), y un asesor te confirma qué base sirve para tu máquina y tu tipo de helado. Además cuenta con una red de técnicos aliados que trabajan con la empresa desde hace más de 10 años en distintas ciudades del país. Si ya tienes una máquina soft y quieres saber qué base le sirve, {% include wa-enlace.html text="escríbenos por WhatsApp con la marca y el modelo" location="post-medio" %}.

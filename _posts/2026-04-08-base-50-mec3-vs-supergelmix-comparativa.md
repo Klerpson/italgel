@@ -1,11 +1,15 @@
 ---
 layout: post
+tema: ingredientes
+producto: bases
+keyword: "Base 50 MEC3"
+faq_titulo: "Dudas al elegir entre Base 50 MEC3 y Supergelmix"
 title: "Base 50 MEC3 vs Supergelmix: comparativa técnica"
-description: "Base 50 MEC3 vs Supergelmix: overrun, textura, uso correcto y costo por litro. Guía para elegir la base correcta para tu heladería en Colombia."
-excerpt: "Base 50 y Supergelmix son las dos bases MEC3 más vendidas en Colombia. Son muy diferentes. Elegir la equivocada puede costarte 30% de tu margen por litro producido."
+description: "Base 50 MEC3 vs Supergelmix: qué es cada una según el fabricante, sus proporciones con leche o agua y para qué helado sirve cada base en tu heladería."
+excerpt: "Base 50 MEC3 es una base de leche para fiordilatte y cremas; Supergelmix es una base para helados de fruta con agua. Esta guía compara sus proporciones según el fabricante."
 h1: "Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladería"
 date: 2026-04-08 13:00:00 -0500
-last_modified_at: 2026-04-08 13:00:00 -0500
+last_modified_at: 2026-11-04 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [produccion, bases]
 hero: /img/blog/base-50-mec3-vs-supergelmix-comparativa.avif
@@ -13,76 +17,70 @@ hero_w: 920
 hero_h: 420
 hero_s: /img/blog/base-50-mec3-vs-supergelmix-comparativa-mobile.avif
 jpg: /img/blog/base-50-mec3-vs-supergelmix-comparativa.jpg
-alt: "Comparativa de envases Base 50 MEC3 y Supergelmix junto a helados artesanal y soft producidos con cada base"
+alt: "Envases de Base 50 MEC3 y Supergelmix junto a helados preparados con cada base"
 hero_title: "Base 50 vs Supergelmix"
 schema_type: Article
+referencias:
+  - "MEC3, ficha de Base 50 MB": https://www.mec3.com/en/products/gelato/bases/cream-bases/base-50mb
+  - "MEC3, ficha de Supergelmix": https://www.mec3.com/en/products/gelato/bases/fruit-bases/supergelmix
 faq:
   - q: "¿Cuál es la diferencia entre Base 50 MEC3 y Supergelmix?"
-    a: "Base 50 MEC3 está formulada para helado artesanal en mantecadora batch con overrun óptimo de 50-60%. Supergelmix está formulada para helado soft en máquinas de flujo continuo con overrun de 60-80%. No son intercambiables: usar Supergelmix en mantecadora batch produce textura blanda inconsistente; usar Base 50 en máquina soft puede dañar el equipo."
-  - q: "¿Puedo usar Base 50 MEC3 para helado soft?"
-    a: "No es recomendable. Base 50 está formulada para mantecadoras batch (proceso discontinuo) con temperaturas de operación diferentes a las máquinas de soft serve. Para helado soft, usa Supergelmix, que está específicamente diseñada para flujo continuo y produce el overrun alto (60-80%) necesario para este tipo de máquinas."
-  - q: "¿Cuánto rinde Base 50 MEC3 por kilogramo?"
-    a: "Con overrun de 50%, 1kg de Base 50 MEC3 produce aproximadamente 3.2-3.5 litros de helado artesanal terminado. Con bases genéricas el rendimiento suele ser 2.5-2.8 litros por kilogramo. La diferencia en costo por litro producido hace que la Base 50 sea más económica que muchas opciones más baratas en precio inicial."
-  - q: "¿Supergelmix se puede usar para gelato?"
-    a: "No. Supergelmix está diseñada para overrun alto (60-80%), opuesto al bajo overrun del gelato (20-40%). Intentar usarla para gelato resultará en producto muy liviano y aireado que no tiene la densidad característica del gelato italiano."
+    a: "La Base 50 de MEC3 es una base de leche: el fabricante la presenta como un fiordilatte sin aromas añadidos ni grasas vegetales, y se prepara con 50 g de producto, 250 g de azúcar y 1 litro de leche, en caliente. Supergelmix es una base para helados de fruta sin emulsionantes: se prepara con 50 g de producto, 300 g de azúcar, 1 litro de agua y 100 g de pasta, en frío o en caliente."
+  - q: "¿Cuánta Base 50 MEC3 se usa por litro de leche?"
+    a: "MEC3 indica para la Base 50 MB 50 g de producto por cada litro de leche, con 250 g de azúcar. La preparación es en caliente."
+  - q: "¿Para qué sirve Supergelmix?"
+    a: "MEC3 clasifica Supergelmix entre sus bases para fruta. Según el fabricante, da una estructura estable, cremosa y aireada, con mejor firmeza en la cubeta. No lleva derivados lácteos añadidos y se prepara con agua, azúcar y una pasta de fruta."
+  - q: "¿Puedo usar la misma base para fiordilatte y para sorbete de fruta?"
+    a: "No es lo indicado. La Base 50 se prepara con leche y está pensada para cremas y fiordilatte; Supergelmix se prepara con agua y está pensada para helados de fruta. Cada una lleva su propia proporción de azúcar según el fabricante."
 ---
 
-**En resumen:** Base 50 MEC3 y Supergelmix son dos bases para helado con usos completamente diferentes. Base 50 es para helado artesanal en mantecadora batch (overrun 50-60%). Supergelmix es para helado soft en máquinas de flujo continuo (overrun 60-80%). Usarlas en el equipo incorrecto produce resultados inconsistentes. La elección correcta depende de tu tipo de máquina y tu modelo de negocio, no del precio.
+**En resumen:** Base 50 MEC3 y Supergelmix son dos bases del mismo fabricante para helados distintos. La Base 50 es una base de leche para fiordilatte y cremas: MEC3 indica 50 g de producto, 250 g de azúcar y 1 litro de leche, en caliente. Supergelmix es una base para helados de fruta sin emulsionantes: 50 g de producto, 300 g de azúcar, 1 litro de agua y 100 g de pasta, en frío o en caliente. La elección depende del sabor que vas a producir.
 
----
+## Por qué Base 50 y Supergelmix no son intercambiables: una va con leche y la otra con agua
 
-Carlos lleva dos años produciendo helado artesanal con Base 50 MEC3. Buenos resultados, clientes satisfechos, márgenes estables. Cuando un compañero del gremio le mencionó que Supergelmix era "más barata por kilo", decidió probar. Compró dos sacos, siguió el mismo proceso que usaba con Base 50, y el resultado fue decepcionante: helado blando, con textura inconsistente, que se derretía más rápido que el anterior.
+La diferencia principal entre Base 50 MEC3 y Supergelmix es el líquido con el que se preparan. La Base 50 se mezcla con leche y Supergelmix con agua. Por eso cada una sirve para una familia distinta de sabores.
 
-Carlos no cometió un error de proceso. Cometió un error de selección de producto. Supergelmix no es una versión más económica de Base 50 — es un producto diferente, para un tipo de producción diferente.
+- **Base 50 MB (MEC3):** el fabricante la describe como un fiordilatte sin aromas añadidos ni grasas vegetales, pensado para resaltar el sabor de cada helado. Es la base blanca sobre la que se agregan pastas de pistacho, vainilla, avellana o chocolate.
+- **Supergelmix (MEC3):** el fabricante la clasifica como base para fruta, sin emulsionantes y sin derivados lácteos añadidos. Según la ficha, da una estructura estable, cremosa y aireada, con mejor firmeza en la cubeta.
 
-## Por qué Base 50 y Supergelmix no son versiones intercambiables de la misma base
+## Tabla comparativa de Base 50 MEC3 y Supergelmix según el fabricante
 
-Las dos bases tienen nombre similar (son de la misma marca, MEC3) y aspecto visual parecido (polvo blanco en saco). Pero su formulación, sus estabilizantes y su comportamiento durante el proceso son radicalmente distintos.
+| | Base 50 MB | Supergelmix |
+|---|---|---|
+| Tipo de base | Base de leche (fiordilatte) | Base para helados de fruta |
+| Proporción | 50 g de producto + 250 g de azúcar + 1 litro de leche | 50 g de producto + 300 g de azúcar + 1 litro de agua + 100 g de pasta |
+| Preparación | En caliente | En frío o en caliente |
+| Emulsionantes | La ficha no lo indica | Sin emulsionantes |
+| Derivados lácteos | Se prepara con leche | Sin derivados lácteos añadidos |
+| Presentación (MEC3) | Bolsa de 2,5 kg | Bolsa de 3 kg |
+| Para qué helados | Fiordilatte y cremas con pastas | Helados y sorbetes de fruta |
 
-**Base 50 MEC3** está diseñada para producción discontinua en mantecadora batch. En este proceso, la mezcla líquida se lleva de temperatura ambiente a -8°C en un ciclo de 10-18 minutos con agitación constante. La base incorpora aire de forma controlada mientras la temperatura baja. La formulación de Base 50 tiene equilibrantes que permiten overrun estable entre 50% y 60%, y estabilizantes que mantienen esa textura durante el almacenamiento a -18°C.
+Datos tomados de las fichas de MEC3 de [Base 50 MB](https://www.mec3.com/en/products/gelato/bases/cream-bases/base-50mb) y [Supergelmix](https://www.mec3.com/en/products/gelato/bases/fruit-bases/supergelmix). La presentación que llega a Colombia puede variar: confírmala con tu asesor.
 
-**Supergelmix** está diseñada para producción continua en máquinas de soft serve. En este proceso, la mezcla fluye permanentemente a través de un cilindro refrigerado. No hay ciclos discretos — la máquina produce helado de forma continua durante horas. Supergelmix tiene formulación para alta incorporación de aire (60-80% de overrun) con estabilizantes específicos para flujo continuo.
+## Cuándo usar la Base 50 MEC3: fiordilatte y cremas con pastas
 
-El error de Carlos fue usar Supergelmix en mantecadora batch. El resultado: Supergelmix en ciclo discontinuo incorpora demasiado aire demasiado rápido porque no hay el control de flujo que tiene una máquina soft. El helado sale aireado en exceso, pierde estructura y se ablanda.
+La Base 50 MEC3 es la base que conviene cuando vas a producir sabores de crema: fiordilatte, vainilla, pistacho, avellana o chocolate. Como no lleva aromas añadidos, deja que el sabor lo pongan las pastas.
 
-## Tabla comparativa: Base 50 MEC3 vs Supergelmix
+La proporción del fabricante es 50 g de producto, 250 g de azúcar y 1 litro de leche, con preparación en caliente. Sobre esa base se agregan las pastas de sabor según su propia ficha. Por ejemplo, MEC3 recomienda una base sin aromas para su [pasta de pistacho]({{ '/pastas-sabores-helado/pasta-pistacho/' | relative_url }}), y la [pasta de vainilla]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) se dosifica sobre la mezcla blanca.
 
-| Característica | Base 50 MEC3 | Supergelmix |
-| --- | --- | --- |
-| Tipo de producción | Mantecadora batch | Máquina soft serve |
-| Overrun óptimo | 50-60% | 60-80% |
-| Textura resultante | Cremosa, densa | Ligera, suave |
-| Temperatura de servicio | -14°C a -18°C | -6°C a -10°C |
-| Vida útil en vitrina | 24-36 horas | Servicio inmediato |
-| Sabores recomendados | Artesanales, premium | Estándar, 2-3 fijos |
-| Presentación | Vitrina horizontal/vertical | Dispensador soft |
-| Mejor para | Gelatería, heladería artesanal | Puesto soft, fast food |
-| Precio por litro producido | Medio-alto | Medio |
+La presentación y la ficha que maneja Italgel están en la [página de Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}).
 
-## Cuándo usar Base 50 MEC3: los casos de negocio correctos
+## Cuándo usar Supergelmix: helados y sorbetes de fruta
 
-Base 50 es la elección correcta cuando tu modelo de negocio es la heladería artesanal con variedad de sabores, producción por lotes y vitrina de exhibición.
+Supergelmix es la base que conviene cuando vas a producir sabores de fruta con agua, sin leche. Su ficha la ubica entre las bases para fruta de MEC3 y la describe como una base que da estructura estable, cremosa y aireada.
 
-Es la base más vendida en Colombia por una razón: es versátil. Funciona con prácticamente todas las pastas de sabor ([pistacho]({{ '/pastas-sabores-helado/pasta-pistacho/' | relative_url }}), [vainilla]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}), chocolate, frutos del bosque), produce textura estable en vitrina hasta 36 horas y tiene overrun predecible en lote tras lote.
+La proporción del fabricante es 50 g de Supergelmix, 300 g de azúcar, 1 litro de agua y 100 g de pasta de fruta. Se puede preparar en frío o en caliente. Como no lleva derivados lácteos añadidos, sirve para una línea de fruta sin leche, siempre que la pasta que uses tampoco los tenga.
 
-Su rendimiento con proceso correcto: 1 kilogramo de Base 50 produce 3.2-3.5 litros de helado terminado. Comparado con bases genéricas que producen 2.5-2.8 litros, la diferencia de costo por litro producido es significativa incluso cuando el precio por kilo de Base 50 es mayor.
+Si no tienes claro cuál de las dos necesita tu carta, {% include wa-enlace.html text="cuéntale a un asesor de Italgel qué sabores vas a producir" location="post-medio" %} y te dice qué base pedir.
 
-La dosificación estándar para Base 50: 150-180g de base por litro de mezcla total (base + leche + otros ingredientes). La ficha técnica detallada de rendimiento y temperaturas está disponible en la [página de Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}).
+## Si produces cremas y frutas: cómo manejar las dos bases
 
-## Cuándo usar Supergelmix: los casos de negocio correctos
+Una heladería con vitrina de sabores suele necesitar las dos bases: una de leche para las cremas y una de fruta para los sorbetes. Son dos mezclas distintas, con proporciones de azúcar distintas según el fabricante.
 
-Supergelmix es la elección correcta cuando operas un punto de helado soft — máquina de soft serve de mesa o de piso, con producción continua y servicio inmediato.
+Para no confundirlas en el taller:
 
-Su ventaja específica: alta incorporación de aire de forma estable y continua. Una máquina soft que trabaja con Supergelmix produce helado ligero, de temperatura de servicio alta (menos frío al paladar que el artesanal), que el cliente consume en 3-5 minutos sin que se derrita excesivamente.
+- **Rotula cada mezcla** con la base, la fecha y el sabor.
+- **Pesa el azúcar según la base:** 250 g por litro de leche con la Base 50 y 300 g por litro de agua con Supergelmix, según MEC3.
+- **Lava el equipo entre una mezcla y otra** si vas a declarar la línea de fruta sin leche.
 
-El helado soft con Supergelmix también tiene mayor rendimiento volumétrico (más litros por kilo de base) que el artesanal, lo que lo hace especialmente atractivo para puntos de alto volumen y bajo precio unitario.
-
-Supergelmix funciona bien con los [variegatos para soft]({{ '/variegatos-helado/' | relative_url }}) y coberturas líquidas que endurecen al contacto con el helado frío. No se usa con pastas concentradas de frutos secos — el perfil de textura del soft no es el vehículo correcto para pistacho o avellana premium.
-
-## Si tienes ambos tipos de producción: cómo gestionar dos bases diferentes
-
-Algunas heladerías en Colombia operan ambos modelos: gelato artesanal en vitrina y máquina soft para producción de volumen o servicio rápido paralelo. En este caso, son dos líneas con dos bases separadas, dos procesos de preparación distintos y dos equipos diferentes.
-
-No hay atajos aquí. Intentar unificar en una sola base compromete la calidad de alguno de los dos productos. La solución correcta es mantener stocks separados y procesos claramente diferenciados.
-
-Para consultar disponibilidad y precios de [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) en Colombia — Base 50, Supergelmix, Neutralin Plus y la línea Stevia — el catálogo de Italgel incluye fichas técnicas con dosificación, rendimiento por kilogramo y guía de selección según tipo de producción.
+Las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) que distribuye Italgel en Colombia, entre ellas Base 50, Supergelmix, Neutralin Plus y la línea con stevia, tienen cada una su ficha con la proporción de uso.

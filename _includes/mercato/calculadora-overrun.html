@@ -1,0 +1,19 @@
+{%- comment -%}
+  Calculadora de overrun (post /blog/como-calcular-overrun-helado-artesanal/). HTML primero:
+  sin JS se ve el ejemplo resuelto (10 L de mezcla → 14 L de helado = 40 %) y la fórmula.
+  js/mercato.js recalcula al escribir y envía interaccion_calculadora una vez por vista.
+  Ficha en _plans/animaciones.md.
+{%- endcomment -%}
+<form class="calculadora" data-calculadora-overrun aria-labelledby="titulo-calculadora">
+  <p class="etiqueta punto-familia" id="titulo-calculadora">Calcula el overrun de tu helado</p>
+  <div class="calculadora__campos">
+    <label>Litros de mezcla que entraron a la máquina
+      <input type="number" name="mezcla" value="10" min="0.1" step="0.1" inputmode="decimal" required>
+    </label>
+    <label>Litros de helado que salieron
+      <input type="number" name="helado" value="14" min="0.1" step="0.1" inputmode="decimal" required>
+    </label>
+  </div>
+  <p class="calculadora__resultado">Overrun: <output name="overrun" for="mezcla helado">40 %</output></p>
+  <p class="texto-suave" data-calculadora-texto>Con 10 litros de mezcla y 14 litros de helado, el overrun es de 40 %: (14 − 10) ÷ 10 × 100.</p>
+</form>

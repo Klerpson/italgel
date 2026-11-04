@@ -1,37 +1,178 @@
 ---
-layout: default
+layout: mercato
 ---
+{%- comment -%}
+  Post del blog en el sistema Mercato (2026-11-04). Todo el contenido vive en el HTML.
+  Front matter que usa: h1, description (entradilla), tema (id de _data/blog.yml), producto
+  (clave de site.data.blog.productos), faq [{q, a}], faq_titulo, referencias [{"Nombre": url}],
+  cierre_titulo, cierre_texto, hero, hero_s, hero_w, hero_h, alt, hero_title (miga corta).
+  Del contenido toma:
+    - el primer párrafo "**En resumen:** …" → bloque #en-resumen de la cabecera (y lo quita del cuerpo);
+    - las H2 → índice lateral (data-indice, js/mercato.js marca la sección visible);
+    - la H2 que empieza por "Preguntas" se quita si hay page.faq, porque las FAQ se pintan
+      desde el front matter (una sola vez, la misma fuente que el schema FAQPage).
+  Las tablas Markdown se envuelven en .tabla-desplazable para que en móvil no desborden.
+{%- endcomment -%}
+{%- assign _blog = site.data.blog -%}
+{%- assign _prod = _blog.productos[page.producto] -%}
+{%- assign _tema = _blog.temas | where: "id", page.tema | first -%}
+{%- assign _familia = _tema.familia | default: _prod.familia | default: "familia-maquinas" -%}
+{%- assign _autor = site.data.authors[page.author] | default: site.data.authors.tecnico_italgel -%}
+{%- assign _fecha = page.last_modified_at | default: page.date -%}
+{%- assign _meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{%- assign _mes = _fecha | date: "%-m" | minus: 1 -%}
+{%- capture _fecha_texto -%}{{ _fecha | date: "%-d" }} de {{ _meses[_mes] }} de {{ _fecha | date: "%Y" }}{%- endcapture -%}
 
-<main>
-  <article class="wrapper flow contenido">
-    {{ content }}
+{%- comment -%} Resumen: se saca del primer párrafo del cuerpo {%- endcomment -%}
+{%- assign _marca = '<p><strong>En resumen:</strong>' -%}
+{%- assign _cuerpo = content -%}
+{%- assign _resumen = page.resumen -%}
+{%- if content contains _marca -%}
+  {%- assign _res_html = content | split: _marca | last | split: '</p>' | first -%}
+  {%- capture _quitar -%}{{ _marca }}{{ _res_html }}</p>{%- endcapture -%}
+  {%- assign _cuerpo = content | remove_first: _quitar | strip -%}
+  {%- assign _resumen = _res_html | strip -%}
+  {%- assign _ini = _cuerpo | slice: 0, 6 -%}
+  {%- if _ini == '<hr />' -%}{%- assign _cuerpo = _cuerpo | remove_first: '<hr />' -%}{%- endif -%}
+{%- endif -%}
 
-    {% if page.collection == "posts" %}{% include fuente-preferida.html marca="Italgel" lang=page.lang %}{% endif %}
+{%- comment -%} FAQ del cuerpo fuera si vienen en el front matter {%- endcomment -%}
+{%- assign _faq_titulo = page.faq_titulo -%}
+{%- if page.faq -%}
+  {%- assign _trozos = _cuerpo | split: '<h2' -%}
+  {%- capture _cuerpo -%}
+    {%- for t in _trozos -%}
+      {%- if forloop.first -%}{{ t }}{%- else -%}
+        {%- assign _cab = t | split: '</h2>' | first | split: '">' | last | strip -%}
+        {%- assign _cab_ini = _cab | slice: 0, 9 -%}
+        {%- if _cab_ini == 'Preguntas' -%}{%- assign _faq_titulo = _faq_titulo | default: _cab -%}{%- else -%}<h2{{ t }}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+{%- endif -%}
+{%- assign _faq_titulo = _faq_titulo | default: "Preguntas que nos hacen los heladeros sobre este tema" -%}
+{%- assign _cuerpo = _cuerpo | replace: '<table>', '<div class="tabla-desplazable" tabindex="0" role="region" aria-label="Tabla del artículo"><table class="comparativa">' | replace: '</table>', '</table></div>' -%}
 
-    <!-- Autor del artículo -->
-    {% if page.author %} {% include author-info.html %} {% endif %} {% if
-    page.referencias %}
-    <section id="fuentes">
-      <h4>Créditos y referencias</h4>
-      <div>
-        <ol>
-          {% for link_hash in page.referencias %} {% for link in link_hash %}
-          <li>
-            📑
-            <a
-              href="{{ link[1] }}"
-              rel="nofollow noopener noreferrer"
-              target="_blank"
-              >{{ link[0] }}</a
-            >
-          </li>
-          {% endfor %} {% endfor %}
-        </ol>
+{%- comment -%} Índice: H2 del cuerpo + secciones fijas {%- endcomment -%}
+{%- assign _h2s = _cuerpo | split: '<h2 id="' -%}
+
+{%- assign _miga = page.hero_title | default: page.h1 -%}
+{%- if _prod -%}{%- capture _cierre_def -%}Cotiza {{ _prod.cotizar }} con Italgel{%- endcapture -%}{%- else -%}{%- assign _cierre_def = "Cotiza tu máquina de helado, vitrina o insumos con Italgel" -%}{%- endif -%}
+{% include mercato/migas.html items=_blog.migas actual=_miga %}
+
+<header class="articulo-cabecera {{ _familia }}" data-hero>
+  <div class="wrapper articulo-cabecera__marco">
+    <div class="flujo flujo--amplio">
+      <div class="flujo">
+        {%- if _tema %}
+        <p class="etiqueta {{ _tema.etiqueta }} punto-familia"><a href="{{ '/blog/' | relative_url }}#tema-{{ _tema.id }}" title="Más artículos de {{ _tema.nombre | downcase }}">{{ _tema.nombre }}</a></p>
+        {%- endif %}
+        <h1>{{ page.h1 | default: page.title }}</h1>
+        <p class="entradilla">{{ page.entradilla | default: page.description }}</p>
+      </div>
+      <div class="acciones">
+        {% include mercato/boton.html texto="Cotizar por WhatsApp" location="post-cabecera" %}
+        <p class="microgarantia">Asesoría técnica sin costo para clientes de Italgel.</p>
+      </div>
+      {%- if _resumen %}
+      <div class="resumen" id="en-resumen">
+        <p class="etiqueta tres-bolas">En resumen</p>
+        <p class="resumen__texto">{{ _resumen }}</p>
+        <p class="resumen__meta">Actualizado el <time datetime="{{ _fecha | date: '%Y-%m-%d' }}">{{ _fecha_texto }}</time> · {{ _autor.name }}</p>
+      </div>
+      {%- endif %}
+    </div>
+    {%- if page.hero %}
+    <picture class="articulo-cabecera__foto">
+      {%- if page.hero_s %}<source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">{% endif %}
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt | default: page.title }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 1200 }}" height="{{ page.hero_h | default: 640 }}" fetchpriority="high" decoding="async">
+    </picture>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if _prod %}
+<aside class="wrapper destacado {{ _prod.familia }}" aria-label="Producto de Italgel para aplicar esta guía">
+  <span class="baldosa__foto">
+    {%- if _prod.sello %}<span class="sello">{{ _prod.sello }}</span>{% endif %}
+    <img src="{{ _prod.img | relative_url }}" alt="{{ _prod.alt }}" title="{{ _prod.alt }}" width="{{ _prod.ancho }}" height="{{ _prod.alto }}" loading="lazy" decoding="async">
+  </span>
+  <div class="flujo">
+    <p class="etiqueta punto-familia">Para aplicar esta guía</p>
+    <p class="destacado__titulo">{{ _prod.nombre }}</p>
+    <p class="texto-suave">{{ _prod.texto }}</p>
+    <p class="acciones">
+      <a class="enlace-flecha" href="{{ _prod.url | relative_url }}" title="{{ _prod.enlace }}">{{ _prod.enlace }}</a>
+      {% include wa-enlace.html text="o pregunta por WhatsApp" location="post-destacado" clase="enlace-texto" %}
+    </p>
+  </div>
+</aside>
+{%- endif %}
+
+<div class="wrapper articulo {{ _familia }}">
+  {%- if _h2s.size > 2 %}
+  <nav class="indice indice--lateral" aria-label="En este artículo" data-indice>
+    <p class="etiqueta">En este artículo</p>
+    <ol>
+      {%- for t in _h2s offset: 1 %}
+      {%- assign _id = t | split: '"' | first -%}
+      {%- assign _txt = t | split: '</h2>' | first | remove_first: _id | remove_first: '">' | strip_html | strip %}
+      <li><a href="#{{ _id }}">{{ _txt }}</a></li>
+      {%- endfor %}
+      {%- if page.faq %}<li><a href="#preguntas">Preguntas frecuentes</a></li>{% endif %}
+    </ol>
+  </nav>
+  {%- endif %}
+
+  <article class="prosa">
+    {{ _cuerpo }}
+
+    {%- if page.faq %}
+    <section id="preguntas" aria-labelledby="titulo-preguntas">
+      <h2 id="titulo-preguntas">{{ _faq_titulo }}</h2>
+      <div class="preguntas">
+        {%- assign _tel_token = '{{site.telefono}}' -%}
+        {%- for f in page.faq %}
+        <div class="flujo">
+          <h3>{{ f.q | default: f.question }}</h3>
+          <p>{{ f.a | default: f.answer | replace: _tel_token, site.telefono }}</p>
+        </div>
+        {%- endfor %}
       </div>
     </section>
-    {% endif %}
-  </article>
+    {%- endif %}
 
-  {% include related-posts.html %}
-</main>
-<section class="wrapper share">{% include share.html %}</section>
+    {%- if page.referencias %}
+    <section id="fuentes" aria-labelledby="titulo-fuentes">
+      <h2 id="titulo-fuentes">Fuentes consultadas para este artículo</h2>
+      <ol class="fuentes">
+        {%- for ref in page.referencias %}{% for par in ref %}
+        <li><a href="{{ par[1] }}" rel="noopener" target="_blank">{{ par[0] }}</a></li>
+        {%- endfor %}{% endfor %}
+      </ol>
+    </section>
+    {%- endif %}
+
+    <footer class="firma">
+      <img src="{{ _autor.avatar | relative_url }}" alt="Logo de Italgel" title="{{ _autor.name }}" width="64" height="64" loading="lazy" decoding="async">
+      <div class="flujo flujo--corto">
+        <p><strong>{{ _autor.name }}</strong> · {{ _autor.title }}</p>
+        <p class="texto-suave">{{ _autor.bio }}</p>
+        {% include fuente-preferida.html marca="Italgel" lang=page.lang %}
+      </div>
+    </footer>
+  </article>
+</div>
+
+{% include mercato/relacionados.html %}
+
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+  <div class="wrapper cierre flujo flujo--amplio">
+    <h2 id="titulo-cierre" class="medida">{{ page.cierre_titulo | default: _cierre_def }}</h2>
+    <p class="medida">{{ page.cierre_texto | default: "Cuéntanos qué vendes, cuántos litros haces al día y en qué ciudad está tu negocio. Un asesor de Italgel te responde con la referencia que te sirve y su precio." }}</p>
+    <div class="acciones">
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" location="post-cierre" %}
+    </div>
+    <p class="microgarantia">Entregamos en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga; para otras ciudades, consulta el envío.</p>
+  </div>
+</section>

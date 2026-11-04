@@ -1,5 +1,7 @@
 ---
 layout: post
+tema: negocio
+producto: coberturas
 published: false
 title: "Costo por porción de toppings para heladería: guía de rentabilidad"
 description: "Costo real de cada topping para helado: granelas, variegatos, salsas. Gramajes sugeridos y cuáles son los toppings más rentables para tu heladería."
@@ -119,6 +121,6 @@ Cuando costeas bien cada topping, dejas de verlos como un gasto y empiezas a ver
 
 El cliente que pide solo helado paga **$5.000-$7.000 COP**. El cliente que agrega un topping paga **$7.000-$10.000 COP**. El cliente que arma una copa con dos toppings y granela paga **$10.000-$15.000 COP**. Todos usan la misma base de helado, la misma vitrina, el mismo personal.
 
-La diferencia está en tu capacidad de ofrecer [granelas para helado](/granelas-decoracion/) crujientes que se vean atractivas en la barra, [variegatos italianos](/variegatos-helado/) que el cliente pueda ver cómo se integran al helado, y un equipo que sepa sugerir combinaciones con confianza.
+La diferencia está en tu capacidad de ofrecer granelas crujientes que se vean atractivas en la barra, [variegatos italianos](/variegatos-helado/) que el cliente pueda ver cómo se integran al helado, y un equipo que sepa sugerir combinaciones con confianza.
 
 Una barra de toppings bien diseñada y correctamente costeada no solo protege tu margen: construye la percepción de valor que justifica el precio de tu helado frente a la competencia.
