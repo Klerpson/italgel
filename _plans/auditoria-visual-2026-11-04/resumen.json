@@ -1,0 +1,26 @@
+{
+  "pages": 85,
+  "images": 305,
+  "image_bytes": 18515021,
+  "used_images": 166,
+  "image_usages": 1551,
+  "broken_references": 0,
+  "broken_targets": 0,
+  "broken_anchors": 0,
+  "duplicate_ids": 0,
+  "missing_dimensions": 0,
+  "missing_alt": 0,
+  "empty_alt": 1180,
+  "img_srcset": 0,
+  "picture_usages": 30,
+  "decode_errors": [],
+  "external_urls": 119,
+  "css_broken": [],
+  "formats": {
+    "AVIF": 268,
+    "PNG": 13,
+    "JPEG": 22,
+    "": 1,
+    "ICO": 1
+  }
+}

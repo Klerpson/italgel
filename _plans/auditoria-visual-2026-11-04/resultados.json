@@ -1,0 +1,145 @@
+{
+  "content_pages": 61,
+  "redirect_pages": 24,
+  "redirects": [
+    "/author/admin/",
+    "/author-admin/",
+    "/bases-helado-colombia/base-50-mec3-2kg/",
+    "/blog/como-elegir-maquina-helado-negocio/",
+    "/blog/conservacion-bases-helado-mec3/",
+    "/blog/proveedores-insumos-heladeria-colombia/",
+    "/blog/que-son-las-granelas-para-helado/",
+    "/blog/tipo-de-toppings-para-helado/",
+    "/blog/toppings-helado-mas-vendidos/",
+    "/blog/toppings-para-helado-mas-rentables/",
+    "/contactenos/",
+    "/elementor-hf/footer/",
+    "/elementor-hf/header/",
+    "/granelas-decoracion/",
+    "/hello-world/",
+    "/insumos/bases-para-helado/",
+    "/insumos-heladeria-medellín/",
+    "/italgel/blog/",
+    "/italgel/contacto/",
+    "/italgel/pastas-sabores-helado/pastas-fruta/",
+    "/maquinas-artesanales/",
+    "/maquinas-soft/",
+    "/vitrinas/",
+    "/wp-includes/"
+  ],
+  "viewports": 183,
+  "broken_browser_images": 0,
+  "page_js_errors": [],
+  "overflow": [
+    {
+      "page": "/equipos-cafe/cedar-63c/",
+      "width": 768,
+      "scrollWidth": 771
+    },
+    {
+      "page": "/equipos-cafe/cruiser/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "page": "/equipos-cafe/ebony-64/",
+      "width": 768,
+      "scrollWidth": 771
+    },
+    {
+      "page": "/equipos-cafe/falcon/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "page": "/equipos-cafe/mini-neo/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "page": "/equipos-cafe/oak-60/",
+      "width": 768,
+      "scrollWidth": 771
+    },
+    {
+      "page": "/equipos-cafe/sequoia-74wt/",
+      "width": 768,
+      "scrollWidth": 771
+    },
+    {
+      "page": "/equipos-cafe/swan/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "page": "/equipos-cafe/tank-1/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "page": "/equipos-cafe/tank-2/",
+      "width": 768,
+      "scrollWidth": 781
+    }
+  ],
+  "upscaled_images": 60,
+  "retina_review": 181,
+  "active_over150KB": 12,
+  "active_src": 195,
+  "external_statuses": {
+    "200": 33,
+    "403": 6
+  },
+  "external_not200": [
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/overrun-calculations/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/como-calcular-overrun-helado-artesanal/"
+      ]
+    },
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/ageing-of-mix/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/como-calcular-overrun-helado-artesanal/",
+        "/blog/pasteurizacion-mezcla-helado-correcta/"
+      ]
+    },
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/emulsifiers/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/emulsionantes-estabilizantes-helados-heladeria/"
+      ]
+    },
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/stabilizers/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/emulsionantes-estabilizantes-helados-heladeria/"
+      ]
+    },
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/pasteurization-of-mix/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/pasteurizacion-mezcla-helado-correcta/"
+      ]
+    },
+    {
+      "url": "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/homogenization-of-mix/",
+      "status": 403,
+      "error": null,
+      "pages": [
+        "/blog/pasteurizacion-mezcla-helado-correcta/"
+      ]
+    }
+  ],
+  "exact_duplicate_groups": 16
+}

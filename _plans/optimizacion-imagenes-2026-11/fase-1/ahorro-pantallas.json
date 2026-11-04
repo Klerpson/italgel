@@ -1,0 +1,98 @@
+[
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 1,
+    "cards": 3,
+    "before": 53449,
+    "after": 37672
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 1,
+    "cards": 3,
+    "before": 53449,
+    "after": 21241
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 1,
+    "cards": 3,
+    "before": 53449,
+    "after": 21241
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "dpr": 1,
+    "cards": 10,
+    "before": 153309,
+    "after": 102434
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "dpr": 1,
+    "cards": 10,
+    "before": 153309,
+    "after": 102434
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "dpr": 1,
+    "cards": 10,
+    "before": 153309,
+    "after": 78580
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 2,
+    "cards": 3,
+    "before": 53449,
+    "after": 50638
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 2,
+    "cards": 3,
+    "before": 53449,
+    "after": 37672
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 2,
+    "cards": 3,
+    "before": 53449,
+    "after": 37672
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "dpr": 2,
+    "cards": 10,
+    "before": 153309,
+    "after": 144685
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "dpr": 2,
+    "cards": 10,
+    "before": 153309,
+    "after": 144685
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "dpr": 2,
+    "cards": 10,
+    "before": 153309,
+    "after": 136823
+  }
+]

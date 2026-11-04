@@ -1,0 +1,103 @@
+{
+  "before": {
+    "width": 768,
+    "scrollWidth": 781,
+    "ancestors": [
+      {
+        "class": "comparativa-bloque",
+        "width": 706.546875,
+        "min": "0px",
+        "overflow": "visible"
+      },
+      {
+        "class": "tabla-desplazable",
+        "width": 706.546875,
+        "min": "auto",
+        "overflow": "auto"
+      },
+      {
+        "class": "comparativa comparativa--apilable",
+        "width": 767.8125,
+        "min": "640px",
+        "overflow": "visible"
+      }
+    ]
+  },
+  "proposedGridFix": {
+    "width": 768,
+    "scrollWidth": 781
+  },
+  "isolation": [
+    {
+      "hidden": ".indice",
+      "scrollWidth": 781
+    },
+    {
+      "hidden": "#comparar",
+      "scrollWidth": 768
+    },
+    {
+      "hidden": ".producto__galeria",
+      "scrollWidth": 781
+    },
+    {
+      "hidden": ".flotante",
+      "scrollWidth": 781
+    }
+  ],
+  "outside": [],
+  "proposedPositionFix": {
+    "width": 768,
+    "scrollWidth": 768
+  },
+  "compareVisible": true,
+  "compareSelected": "tank-2",
+  "compareCheckbox": true,
+  "narrow": [
+    {
+      "url": "/",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "url": "/contacto/",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "url": "/",
+      "width": 640,
+      "scrollWidth": 640
+    },
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 640,
+      "scrollWidth": 775
+    },
+    {
+      "url": "/contacto/",
+      "width": 640,
+      "scrollWidth": 640
+    },
+    {
+      "url": "/",
+      "width": 960,
+      "scrollWidth": 960
+    },
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 960,
+      "scrollWidth": 960
+    },
+    {
+      "url": "/contacto/",
+      "width": 960,
+      "scrollWidth": 960
+    }
+  ]
+}

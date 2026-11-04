@@ -1,0 +1,422 @@
+[
+  {
+    "page": "/404.html",
+    "image": "/img/contacto-italgel-colombia.jpg",
+    "width": 1080,
+    "height": 720,
+    "format": "JPEG"
+  },
+  {
+    "page": "/",
+    "image": "/img/equipos-heladeria-coldelite.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/bases-helado-colombia/",
+    "image": "/img/bases-helado-italgel-colombia.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/",
+    "image": "/img/blog-itagel.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/cafes-de-colombia-expo/",
+    "image": "/img/heladeria-artesanal-italgel-cafes-de-colombia-expo-2026.avif",
+    "width": 704,
+    "height": 880,
+    "format": "AVIF"
+  },
+  {
+    "page": "/coberturas-salsas-helado/",
+    "image": "/img/coberturas-helado-italgel-colombia.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/contacto/",
+    "image": "/img/contacto-italgel-colombia.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos/",
+    "image": "/img/equipos-heladeria-coldelite.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/",
+    "image": "/img/cafe/tank-2.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/insumos/",
+    "image": "/img/insumos-heladeria-italgel.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/insumos-heladeria-barranquilla/",
+    "image": "/img/hero-insumos-heladeria-barranquilla.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/insumos-heladeria-bucaramanga/",
+    "image": "/img/hero-insumos-heladeria-bucaramanga.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/insumos-heladeria-cali/",
+    "image": "/img/hero-insumos-heladeria-cali.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/insumos-heladeria-medellin/",
+    "image": "/img/hero-insumos-heladeria-medellin.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/legal/",
+    "image": "/img/italgel-colombia-distribuidor-heladerias.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/maquinas-helado-artesanal/",
+    "image": "/img/maquina-helados-artesanal.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/maquinas-helado-industrial/",
+    "image": "/img/maquina-industrial-helado.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/maquinas-helado-soft/",
+    "image": "/img/maquina-industrial-soft.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/nosotros/",
+    "image": "/img/italgel-colombia-distribuidor-heladerias.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/",
+    "image": "/img/pastas-helado-italgel-colombia.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/productos-quella/",
+    "image": "/img/quella-family-variegatos.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/variegatos-helado/",
+    "image": "/img/variegatos-helado.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/vitrinas-congeladores/",
+    "image": "/img/vitrinas-congeladores.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/bases-helado-colombia/base-50-mec3/",
+    "image": "/img/base-50-mec3-italgel.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/bases-helado-colombia/bases-stevia/",
+    "image": "/img/bases-stevia-helado.avif",
+    "width": 300,
+    "height": 300,
+    "format": "AVIF"
+  },
+  {
+    "page": "/bases-helado-colombia/neutralin-plus/",
+    "image": "/img/neutralin-plus-mec3-gelato.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/bases-helado-colombia/supergelmix/",
+    "image": "/img/supergelmix-mec3-helado-soft.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "image": "/img/blog/amarena-fabbri-heladeria-gelato.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "image": "/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif",
+    "width": 920,
+    "height": 420,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/como-abrir-una-heladeria-en-colombia/",
+    "image": "/img/blog/como-abrir-heladeria-colombia.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/como-calcular-overrun-helado-artesanal/",
+    "image": "/img/blog/calcular-overrun-helado-artesanal.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/crema-de-whisky-para-helado-variegato/",
+    "image": "/img/blog/variegato-whisky-helado-premium.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "image": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "image": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "image": "/img/blog/pasta-vainilla-helado-artesanal.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "image": "/img/blog/pasta-pistacho-helado-profesional.avif",
+    "width": 920,
+    "height": 420,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "image": "/img/blog/pasteurizacion-mezcla-helado-artesanal.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/que-es-el-variegato-para-helado/",
+    "image": "/img/blog/variegato-para-helado-profesional.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "image": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+    "width": 920,
+    "height": 420,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "image": "/img/blog/sorbete-artesanal-frutas-colombia.avif",
+    "width": 1080,
+    "height": 720,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/rentabilidad-heladeria-colombia/",
+    "image": "/img/blog/rentabilidad-heladeria-colombia-margenes.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/blog/tipos-de-toppings-para-helado/",
+    "image": "/img/blog/tipos-toppings-para-helado-profesional.avif",
+    "width": 1080,
+    "height": 820,
+    "format": "AVIF"
+  },
+  {
+    "page": "/coberturas-salsas-helado/amarena-fabbri/",
+    "image": "/img/fiordiamarena-variegato-cerezas.avif",
+    "width": 584,
+    "height": 396,
+    "format": "AVIF"
+  },
+  {
+    "page": "/coberturas-salsas-helado/salsas-especiales/",
+    "image": "/img/salsas-especiales-helado.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/cedar-63c/",
+    "image": "/img/cafe/cedar-63c.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/cruiser/",
+    "image": "/img/cafe/cruiser.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/ebony-64/",
+    "image": "/img/cafe/ebony-64.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/falcon/",
+    "image": "/img/cafe/falcon.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/mini-neo/",
+    "image": "/img/cafe/mini-neo.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/oak-60/",
+    "image": "/img/cafe/oak-60.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/sequoia-74wt/",
+    "image": "/img/cafe/sequoia-74wt.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/swan/",
+    "image": "/img/cafe/swan.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/tank-1/",
+    "image": "/img/cafe/tank-1.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/equipos-cafe/tank-2/",
+    "image": "/img/cafe/tank-2.avif",
+    "width": 800,
+    "height": 700,
+    "format": "AVIF"
+  },
+  {
+    "page": "/maquinas-helado-soft/coldelite-compacta-3/",
+    "image": "/img/coldelite-compacta-3-soft.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/pasta-pistacho/",
+    "image": "/img/pasta-pistacho-siciliano-mec3.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/pasta-vainilla/",
+    "image": "/img/pasta-vainilla-bourbon-mec3.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/pastas-clasicas/",
+    "image": "/img/pastas-helado-italgel-colombia.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/pastas-fruta/",
+    "image": "/img/pastas-fruta-helado.avif",
+    "width": 520,
+    "height": 520,
+    "format": "AVIF"
+  },
+  {
+    "page": "/pastas-sabores-helado/pastas-premium/",
+    "image": "/img/pastas-premium-helado.avif",
+    "width": 584,
+    "height": 584,
+    "format": "AVIF"
+  }
+]

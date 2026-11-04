@@ -110,7 +110,7 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
     </div>
     <div class="rejilla rejilla--par">
       {%- for item in inicio.cafe %}
-      {% include mercato/baldosa.html url=item.url img=item.img alt=item.alt titulo=item.titulo meta=item.meta ancho=item.ancho alto=item.alto clase="baldosa--recorte" %}
+      {% include mercato/baldosa.html url=item.url img=item.img alt=item.alt titulo=item.titulo meta=item.meta ancho=item.ancho alto=item.alto clase="baldosa--catalogo" sizes="auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw" %}
       {%- endfor %}
     </div>
   </div>

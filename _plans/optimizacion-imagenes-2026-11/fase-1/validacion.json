@@ -1,0 +1,6050 @@
+[
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 11684,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 768,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          230.4375,
+          230.4375
+        ],
+        "parent": [
+          230.4375,
+          230.4375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          230.453125,
+          230.453125
+        ],
+        "parent": [
+          230.453125,
+          230.453125
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          230.453125,
+          230.453125
+        ],
+        "parent": [
+          230.453125,
+          230.453125
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 11684,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 17265,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 16177,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 12250,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 4763,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 768,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 11684,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-480.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 17265,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-480.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 16177,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-480.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 12250,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 4763,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "box": [
+          640,
+          560
+        ],
+        "parent": [
+          640,
+          560
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          640,
+          560
+        ],
+        "clipped": false,
+        "bytes": 14995,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "box": [
+          640,
+          560
+        ],
+        "parent": [
+          640,
+          560
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          640,
+          560
+        ],
+        "clipped": false,
+        "bytes": 21339,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 7088,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Mini Neo",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6537,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9931,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 6585,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 9297,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 8119,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 771,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          426.671875,
+          426.671875
+        ],
+        "parent": [
+          426.671875,
+          426.671875
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 771,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4763,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          426.671875,
+          426.671875
+        ],
+        "parent": [
+          426.671875,
+          426.671875
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 771,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2801,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4763,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          426.671875,
+          426.671875
+        ],
+        "parent": [
+          426.671875,
+          426.671875
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 390,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 768,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 771,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2841,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2721,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          225,
+          196
+        ],
+        "clipped": false,
+        "bytes": 2794,
+        "oldBytes": 9895
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 1440,
+    "dpr": 1,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cedar 63C",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4763,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          426.671875,
+          426.671875
+        ],
+        "parent": [
+          426.671875,
+          426.671875
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 14995,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 13314,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "box": [
+          358,
+          358
+        ],
+        "parent": [
+          358,
+          358
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 22329,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 768,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 11684,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "box": [
+          230.4375,
+          230.4375
+        ],
+        "parent": [
+          230.4375,
+          230.4375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 11684,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          230.453125,
+          230.453125
+        ],
+        "parent": [
+          230.453125,
+          230.453125
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          230.453125,
+          230.453125
+        ],
+        "parent": [
+          230.453125,
+          230.453125
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "sizes": "auto, (min-width: 60rem) 24vw, (min-width: 26rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          230,
+          201
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 14995,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 21339,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 13314,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-528.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 18891,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 22329,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-640.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 18304,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-784.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 8685,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-768.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 8385,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-800.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 9584,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-768.avif",
+        "box": [
+          358,
+          313.25
+        ],
+        "parent": [
+          358,
+          313.25
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          358,
+          313
+        ],
+        "clipped": false,
+        "bytes": 8859,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 768,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 14995,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 21339,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 13314,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-528.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 18891,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 22329,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-640.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 18304,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-784.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          336,
+          294
+        ],
+        "clipped": false,
+        "bytes": 8685,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-768.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 8385,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-800.avif",
+        "box": [
+          337.265625,
+          295.09375
+        ],
+        "parent": [
+          337.265625,
+          295.09375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 9584,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-768.avif",
+        "box": [
+          337.28125,
+          295.109375
+        ],
+        "parent": [
+          337.28125,
+          295.109375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          337,
+          294
+        ],
+        "clipped": false,
+        "bytes": 8859,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "box": [
+          640,
+          560
+        ],
+        "parent": [
+          640,
+          560
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Mini Neo DR 7121A, uso residencial",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/mini-neo-160.avif 160w, /img/cafe/tarjetas/mini-neo-320.avif 320w, /img/cafe/tarjetas/mini-neo-480.avif 480w, /img/cafe/tarjetas/mini-neo-568.avif 568w",
+        "natural": [
+          640,
+          560
+        ],
+        "clipped": false,
+        "bytes": 14995,
+        "oldBytes": 15658
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "box": [
+          640,
+          560
+        ],
+        "parent": [
+          640,
+          560
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Swan DR 7102C, uso residencial o comercial ligero",
+        "sizes": "auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          640,
+          560
+        ],
+        "clipped": false,
+        "bytes": 21339,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Falcon DR 7118A, uso comercial ligero",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 13314,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-528.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 1 DR 7005A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 18891,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Tank 2 DR 7209A, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          303,
+          266
+        ],
+        "clipped": false,
+        "bytes": 22329,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-640.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cafetera Cruiser DR 7208, uso comercial",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 18304,
+        "oldBytes": 19852
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-640.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Cedar 63C LD 029 V2, uso single dose o por tiempo",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/cedar-63c-160.avif 160w, /img/cafe/tarjetas/cedar-63c-320.avif 320w, /img/cafe/tarjetas/cedar-63c-480.avif 480w, /img/cafe/tarjetas/cedar-63c-640.avif 640w, /img/cafe/tarjetas/cedar-63c-784.avif 784w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 6682,
+        "oldBytes": 9126
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-640.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Oak 60 LD 022, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 6619,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-640.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Ebony 64 LD 027 MAX, uso molienda por demanda",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 7386,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-640.avif",
+        "box": [
+          304,
+          266
+        ],
+        "parent": [
+          304,
+          266
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Molino Sequoia 74WT LD 037 V1WT, uso dosificación por peso",
+        "sizes": "auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          304,
+          266
+        ],
+        "clipped": false,
+        "bytes": 6964,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 390,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 17265,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 16177,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 12250,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 768,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 781,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 17265,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 11482,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 16177,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 14506,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 12250,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 1440,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Swan",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/swan-160.avif 160w, /img/cafe/tarjetas/swan-320.avif 320w, /img/cafe/tarjetas/swan-480.avif 480w, /img/cafe/tarjetas/swan-552.avif 552w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 21339,
+        "oldBytes": 22480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Falcon",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/falcon-160.avif 160w, /img/cafe/tarjetas/falcon-320.avif 320w, /img/cafe/tarjetas/falcon-480.avif 480w, /img/cafe/tarjetas/falcon-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 13314,
+        "oldBytes": 14167
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-528.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 1",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-1-160.avif 160w, /img/cafe/tarjetas/tank-1-320.avif 320w, /img/cafe/tarjetas/tank-1-480.avif 480w, /img/cafe/tarjetas/tank-1-528.avif 528w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 18891,
+        "oldBytes": 19714
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "box": [
+          249.59375,
+          249.59375
+        ],
+        "parent": [
+          249.59375,
+          249.59375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Tank 2",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/tank-2-160.avif 160w, /img/cafe/tarjetas/tank-2-320.avif 320w, /img/cafe/tarjetas/tank-2-480.avif 480w, /img/cafe/tarjetas/tank-2-656.avif 656w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 22329,
+        "oldBytes": 23624
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-640.avif",
+        "box": [
+          249.609375,
+          249.609375
+        ],
+        "parent": [
+          249.609375,
+          249.609375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Cruiser",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/cruiser-160.avif 160w, /img/cafe/tarjetas/cruiser-320.avif 320w, /img/cafe/tarjetas/cruiser-480.avif 480w, /img/cafe/tarjetas/cruiser-640.avif 640w",
+        "natural": [
+          250,
+          218
+        ],
+        "clipped": false,
+        "bytes": 18304,
+        "oldBytes": 19852
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 390,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 390,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          171,
+          171
+        ],
+        "parent": [
+          171,
+          171
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          171,
+          149
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 768,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 771,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 4636,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 4974,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "box": [
+          224.84375,
+          224.84375
+        ],
+        "parent": [
+          224.84375,
+          224.84375
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          224,
+          196
+        ],
+        "clipped": false,
+        "bytes": 4697,
+        "oldBytes": 9898
+      }
+    ]
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 1440,
+    "dpr": 2,
+    "errors": [],
+    "badResponses": [],
+    "scrollWidth": 1440,
+    "h1": 1,
+    "broken": [],
+    "cards": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-768.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Oak 60",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/oak-60-160.avif 160w, /img/cafe/tarjetas/oak-60-320.avif 320w, /img/cafe/tarjetas/oak-60-480.avif 480w, /img/cafe/tarjetas/oak-60-640.avif 640w, /img/cafe/tarjetas/oak-60-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 8385,
+        "oldBytes": 8895
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-800.avif",
+        "box": [
+          426.671875,
+          426.671875
+        ],
+        "parent": [
+          426.671875,
+          426.671875
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Ebony 64",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/ebony-64-160.avif 160w, /img/cafe/tarjetas/ebony-64-320.avif 320w, /img/cafe/tarjetas/ebony-64-480.avif 480w, /img/cafe/tarjetas/ebony-64-640.avif 640w, /img/cafe/tarjetas/ebony-64-800.avif 800w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 9584,
+        "oldBytes": 9895
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-768.avif",
+        "box": [
+          426.65625,
+          426.65625
+        ],
+        "parent": [
+          426.65625,
+          426.65625
+        ],
+        "scale": "none",
+        "fit": "contain",
+        "padding": "0px",
+        "alt": "Sequoia 74WT",
+        "sizes": "auto, (min-width: 60rem) 256px, (min-width: 40rem) 28vw, 44vw",
+        "srcset": "/img/cafe/tarjetas/sequoia-74wt-160.avif 160w, /img/cafe/tarjetas/sequoia-74wt-320.avif 320w, /img/cafe/tarjetas/sequoia-74wt-480.avif 480w, /img/cafe/tarjetas/sequoia-74wt-640.avif 640w, /img/cafe/tarjetas/sequoia-74wt-768.avif 768w",
+        "natural": [
+          427,
+          373
+        ],
+        "clipped": false,
+        "bytes": 8859,
+        "oldBytes": 9898
+      }
+    ]
+  }
+]

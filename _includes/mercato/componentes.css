@@ -66,8 +66,8 @@
   :is(a.baldosa, .ficha):hover .baldosa__foto::after { transform: scaleX(1); }
   a.baldosa:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
   .baldosa--foto .baldosa__foto img { object-fit: cover; padding: 0; mix-blend-mode: normal; }
-  /* Fotos de catálogo con mucho margen blanco: se amplían sin tocar el transform del hover */
-  .baldosa--recorte .baldosa__foto img, .ficha .baldosa__foto img { padding: 0; scale: 1.45; }
+  /* El margen de las fotos de café se prepara en el archivo; se muestra el equipo completo. */
+  .baldosa--catalogo .baldosa__foto img, .ficha .baldosa__foto img { padding: 0; }
   .baldosa--apaisada { --proporcion: 3 / 2; }
   .baldosa__meta { font-size: var(--text-sm); color: var(--color-texto-suave); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
 

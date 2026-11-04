@@ -1,0 +1,248 @@
+{
+  "mini-neo": {
+    "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+    "width": 568,
+    "height": 497,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-568.avif",
+        "width": 568
+      }
+    ]
+  },
+  "swan": {
+    "src": "/img/cafe/tarjetas/swan-480.avif",
+    "width": 552,
+    "height": 483,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/swan-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/swan-552.avif",
+        "width": 552
+      }
+    ]
+  },
+  "falcon": {
+    "src": "/img/cafe/tarjetas/falcon-480.avif",
+    "width": 528,
+    "height": 462,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/falcon-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-528.avif",
+        "width": 528
+      }
+    ]
+  },
+  "tank-1": {
+    "src": "/img/cafe/tarjetas/tank-1-480.avif",
+    "width": 528,
+    "height": 462,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/tank-1-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-1-528.avif",
+        "width": 528
+      }
+    ]
+  },
+  "tank-2": {
+    "src": "/img/cafe/tarjetas/tank-2-480.avif",
+    "width": 656,
+    "height": 574,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/tank-2-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-656.avif",
+        "width": 656
+      }
+    ]
+  },
+  "cruiser": {
+    "src": "/img/cafe/tarjetas/cruiser-480.avif",
+    "width": 640,
+    "height": 560,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/cruiser-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/cruiser-640.avif",
+        "width": 640
+      }
+    ]
+  },
+  "cedar-63c": {
+    "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+    "width": 784,
+    "height": 686,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/img/cafe/tarjetas/cedar-63c-784.avif",
+        "width": 784
+      }
+    ]
+  },
+  "oak-60": {
+    "src": "/img/cafe/tarjetas/oak-60-480.avif",
+    "width": 768,
+    "height": 672,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/oak-60-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/img/cafe/tarjetas/oak-60-768.avif",
+        "width": 768
+      }
+    ]
+  },
+  "ebony-64": {
+    "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+    "width": 800,
+    "height": 700,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/img/cafe/tarjetas/ebony-64-800.avif",
+        "width": 800
+      }
+    ]
+  },
+  "sequoia-74wt": {
+    "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+    "width": 768,
+    "height": 672,
+    "variants": [
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-160.avif",
+        "width": 160
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+        "width": 320
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/img/cafe/tarjetas/sequoia-74wt-768.avif",
+        "width": 768
+      }
+    ]
+  }
+}

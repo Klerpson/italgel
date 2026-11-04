@@ -6,9 +6,16 @@
 {%- assign equipo = include.equipo -%}
 {%- capture _url -%}/equipos-cafe/{{ equipo.slug }}/{%- endcapture -%}
 {%- capture _mensaje -%}Hola, quiero cotizar {{ equipo.nombre }} {{ equipo.referencia }} con Italgel.{%- endcapture -%}
+{%- capture _foto_alt -%}{{ include.tipo }} {{ equipo.nombre }} {{ equipo.referencia }}, uso {{ equipo.uso | downcase }}{%- endcapture -%}
+{%- capture _foto_title -%}{{ equipo.nombre }} · {{ equipo.referencia }} · {{ equipo.voltaje }}{%- endcapture -%}
+{%- if equipo.voltaje == '110 V' and include.tipo == 'Cafetera' -%}
+  {%- assign _foto_sizes = 'auto, (min-width: 90rem) 640px, (min-width: 44rem) 44vw, 92vw' -%}
+{%- else -%}
+  {%- assign _foto_sizes = 'auto, (min-width: 86rem) 304px, (min-width: 67rem) 30vw, (min-width: 44rem) 44vw, 92vw' -%}
+{%- endif -%}
 <article class="ficha" id="{{ equipo.slug }}">
   <a class="baldosa__foto" href="{{ _url | relative_url }}" title="Ficha técnica de {{ include.tipo | downcase }} {{ equipo.nombre }}" tabindex="-1" aria-hidden="true">
-    <img src="{{ '/img/cafe/' | append: equipo.slug | append: '.avif' | relative_url }}" alt="{{ include.tipo }} {{ equipo.nombre }} {{ equipo.referencia }}, uso {{ equipo.uso | downcase }}" title="{{ equipo.nombre }} · {{ equipo.referencia }} · {{ equipo.voltaje }}" width="800" height="700" loading="lazy" decoding="async">
+    {% include mercato/imagen-cafe.html slug=equipo.slug alt=_foto_alt title=_foto_title sizes=_foto_sizes %}
   </a>
   <div class="flujo">
     <p class="etiqueta punto-familia">{{ equipo.uso }}</p>

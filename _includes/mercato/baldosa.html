@@ -1,13 +1,18 @@
 {%- comment -%}
   Baldosa de producto o artículo (sistema Mercato): foto sobre papel + nombre + dato.
   Parámetros: url, img, alt, titulo, meta, sello (marca real), clase (baldosa--foto,
-  baldosa--recorte, baldosa--apaisada), ancho, alto, nivel (h3 por defecto).
+  baldosa--catalogo, baldosa--apaisada), ancho, alto, nivel (h3 por defecto).
 {%- endcomment -%}
 {%- assign _nivel = include.nivel | default: "h3" -%}
 <a class="baldosa{% if include.clase %} {{ include.clase }}{% endif %}" href="{{ include.url | relative_url }}" title="{{ include.titulo }}{% if include.meta %}: {{ include.meta }}{% endif %}">
   <span class="baldosa__foto">
     {%- if include.sello and include.sello != "" %}<span class="sello">{{ include.sello }}</span>{% endif %}
+    {%- assign _cafe_slug = include.img | split: '/' | last | remove: '.avif' -%}
+    {%- if include.img contains '/img/cafe/' and site.data.imagenes_cafe[_cafe_slug] -%}
+      {% include mercato/imagen-cafe.html slug=_cafe_slug alt=include.alt sizes=include.sizes %}
+    {%- else -%}
     <img src="{{ include.img | relative_url }}" alt="{{ include.alt }}" title="{{ include.alt }}" width="{{ include.ancho | default: 280 }}" height="{{ include.alto | default: 280 }}" loading="lazy" decoding="async">
+    {%- endif %}
   </span>
   <{{ _nivel }}>{{ include.titulo }}</{{ _nivel }}>
   {%- if include.meta %}<p class="baldosa__meta">{{ include.meta }}</p>{% endif %}
