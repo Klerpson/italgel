@@ -25,7 +25,7 @@ breadcrumb:
 {% include mercato/migas.html %}
 
 <section class="portada" data-hero aria-labelledby="titulo-portada">
-  <div class="wrapper portada__panel">
+  <div class="portada__panel">
     <div class="portada__texto flujo flujo--amplio">
       <h1 id="titulo-portada">{{ page.h1 }}</h1>
       <p class="entradilla">{{ site.posts.size }} guías de Italgel sobre producción de helado, insumos y negocio: cómo calcular el overrun, pasteurizar la mezcla, dosificar bases y variegatos, y abrir una heladería en Colombia.</p>
@@ -62,7 +62,7 @@ breadcrumb:
         <p class="medida texto-suave">{{ tema.texto }}</p>
       </div>
     </div>
-    <div class="rejilla rejilla--ancha">
+    <div class="rejilla rejilla--ancha rejilla--fija">
       {%- for p in _posts_tema %}
       {% include mercato/baldosa.html url=p.url img=p.hero alt=p.alt titulo=p.h1 meta=p.description clase="baldosa--foto baldosa--apaisada" ancho=p.hero_w alto=p.hero_h %}
       {%- endfor %}

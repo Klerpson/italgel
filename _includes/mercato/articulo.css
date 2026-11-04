@@ -6,8 +6,8 @@
   /* Caja del producto de Italgel bajo la cabecera: foto sobre papel, nombre, texto y enlaces */
   .destacado {
     display: grid; grid-template-columns: minmax(0, 6.5rem) 1fr; gap: var(--space-md) var(--space-lg); align-items: start;
-    margin-block-end: var(--space-xl); padding-block: var(--space-lg);
-    border-block: 1px solid var(--color-linea);
+    margin-block-end: var(--space-xl); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio);
+    .baldosa__foto { background: var(--color-fondo); }
     .baldosa__foto img { padding: 8%; }
     .acciones { gap: var(--space-sm) var(--space-lg); }
     @media (min-width: 40rem) { grid-template-columns: 11rem 1fr; align-items: center; }
@@ -46,7 +46,6 @@
     code { font-size: 0.9em; padding: 0.1em 0.35em; background: var(--color-papel); border-radius: var(--radio); }
     blockquote {
       display: grid; gap: var(--space-sm); padding-block: var(--space-md);
-      border-block: 1px solid var(--color-linea);
       font-family: var(--fuente-titulos); font-size: var(--text-item); line-height: 1.4;
       &::before { content: "“" / ""; font-size: 3rem; line-height: 0.6; color: var(--color-familia, var(--color-marca)); }
       cite, footer { font-family: var(--fuente-texto); font-size: var(--text-sm); font-style: normal; color: var(--color-texto-suave); }
@@ -58,11 +57,10 @@
   /* Calculadora de overrun dentro del texto: dos campos y el resultado en grande */
   .calculadora {
     display: grid; gap: var(--space-md); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio);
-    border-block-start: 3px solid var(--color-familia, var(--color-marca));
     label { display: grid; gap: 0.35rem; font-size: var(--text-sm); font-weight: 600; }
     input {
       min-block-size: 3rem; padding: 0.5rem 0.875rem; font-size: var(--text-lg); font-variant-numeric: tabular-nums;
-      background: var(--color-fondo); border: 1px solid var(--color-linea); border-radius: var(--radio);
+      background: var(--color-fondo); border: 0; border-radius: var(--radio);
       &:focus-visible { outline: 2px solid var(--color-familia, var(--color-marca)); outline-offset: 1px; }
     }
   }
@@ -76,7 +74,7 @@
   /* Firma del equipo al final del texto */
   .firma {
     display: flex; gap: var(--space-md); align-items: start;
-    padding-block-start: var(--space-lg); border-block-start: 1px solid var(--color-linea);
+    margin-block-start: var(--space-2xl);
     img { flex: none; inline-size: 4rem; block-size: 4rem; padding: 0.5rem; object-fit: contain; background: var(--color-papel); border-radius: 50%; }
   }
 }

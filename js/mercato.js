@@ -179,6 +179,33 @@ document.querySelectorAll('.sabores[data-ubicacion]').forEach((grupo) => {
   form.hidden = false;
 })();
 
+// Hero de la home, "¿Qué vas a cotizar?": la foto cambia con CSS (:has). Aquí, la familia elegida pasa al
+// mensaje y al data-location del botón del hero y del flotante (hero-<familia>, flotante-<familia>).
+// Sin elección, los dos quedan con el mensaje general de la página.
+(() => {
+  const grupo = document.querySelector('[data-familias-hero]');
+  if (!grupo) return;
+  const boton = grupo.closest('.portada')?.querySelector('a.boton');
+  const flotante = document.querySelector('[data-flotante]');
+  const titulo = flotante?.querySelector('.flotante__burbuja strong');
+  const tel = document.body.dataset.waPhone;
+  if (!boton || !tel) return;
+  const href = (texto) => `https://wa.me/${tel}?text=${encodeURIComponent(texto)}`;
+  const aplicar = (enlace, texto, ubicacion) => {
+    enlace.href = href(texto);
+    enlace.dataset.waText = texto;
+    enlace.dataset.location = ubicacion;
+  };
+  grupo.addEventListener('change', (e) => {
+    const opcion = e.target;
+    if (opcion.name !== 'familia-hero') return;
+    aplicar(boton, opcion.dataset.mensaje, `hero-${opcion.value}`);
+    if (flotante) aplicar(flotante, opcion.dataset.mensaje, `flotante-${opcion.value}`);
+    if (titulo) titulo.textContent = opcion.dataset.invitacion;
+    medirInteraccion('interaccion_hero_familia', 'home-hero-familia');
+  });
+})();
+
 // Menú en móvil: si la categoría activa queda fuera de la vista, el menú se desplaza hasta ella.
 (() => {
   const activa = document.querySelector('.menu__categoria[aria-current]');

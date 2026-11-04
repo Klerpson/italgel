@@ -14,9 +14,9 @@
 
 @layer tokens {
   @font-face {
-    font-family: "Bodoni Moda";
-    src: url("/fonts/bodoni-moda-variable.woff2") format("woff2");
-    font-weight: 400 900; font-style: normal; font-display: swap;
+    font-family: "Libre Bodoni";
+    src: url("/fonts/libre-bodoni-variable.woff2") format("woff2");
+    font-weight: 400 700; font-style: normal; font-display: swap;
   }
   @font-face {
     font-family: "DM Sans";
@@ -54,7 +54,7 @@
     --color-accion-hondo: #17A84F;
     --color-accion-texto: #06301A;
 
-    --fuente-titulos: "Bodoni Moda", "Didot", Georgia, serif;
+    --fuente-titulos: "Libre Bodoni", Georgia, serif;
     --fuente-texto: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 
     --text-display: clamp(2.25rem, 1.35rem + 3.1vw, 4rem);
@@ -101,12 +101,11 @@
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
   }
-  /* Bodoni Moda solo en tamaños grandes (H1, H2), con peso 500 para que los trazos finos no se pierdan.
-     Desde H3 hacia abajo, DM Sans seminegrita: se lee firme a cualquier tamaño. */
+  /* Libre Bodoni solo en H1 y H2: Bodoni redibujada para pantalla, con trazos finos que no se pierden
+     sobre fondos claros (Bodoni Moda se descartó por eso). Desde H3 hacia abajo, DM Sans seminegrita. */
   h1, h2 {
     font-family: var(--fuente-titulos);
     font-weight: 500;
-    font-optical-sizing: auto;
     line-height: 1.1;
     letter-spacing: -0.01em;
     text-wrap: balance;
@@ -199,14 +198,6 @@
       background-size: 220% 100%; background-position: 0% 50%;
       box-shadow: inset 0 -2px 0 rgb(6 48 26 / 0.16);
     }
-    &.boton--acento::after {
-      content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
-      background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.5) 50%, transparent 65%);
-      transform: translateX(-130%);
-    }
-    &.boton--acento:hover { background-position: 100% 50%; box-shadow: 0 12px 26px -14px rgb(18 140 74 / 0.9), inset 0 -2px 0 rgb(6 48 26 / 0.16); }
-    &.boton--acento:hover::after { transform: translateX(130%); transition: transform 750ms var(--curva); }
-    &.boton--acento:hover svg { animation: timbre 520ms var(--curva); }
     &.boton--compacto { min-height: 2.625rem; padding: 0.625rem 1.125rem; }
     .boton__corto { display: none; }
     @media (max-width: 26rem) {
@@ -215,7 +206,6 @@
       &.boton--compacto .boton__corto { display: inline; }
     }
   }
-  @keyframes timbre { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-14deg); } 50% { transform: rotate(10deg); } 75% { transform: rotate(-5deg); } }
 
   /* Cabecera: barra fija con logo + CTA; barra secundaria con el menú que se oculta al bajar */
   .cabecera-sitio { position: fixed; inset: 0 0 auto 0; z-index: 40; }
@@ -244,44 +234,40 @@
     &[aria-current] { text-decoration: underline; text-decoration-color: var(--color-marca); text-decoration-thickness: 2px; text-underline-offset: 0.45em; }
   }
   /* Submenú de productos: solo con cursor en escritorio; abre con hover o con el foco del teclado */
-  .submenu { display: none; }
-  @media (hover: hover) and (min-width: 60rem) {
-    .submenu {
-      display: grid; gap: var(--space-md); position: absolute; inset: 100% auto auto -1.25rem; z-index: 3;
-      inline-size: 21rem; padding: var(--space-md) var(--space-md) var(--space-lg) var(--space-md);
-      background: var(--color-fondo); border: 1px solid var(--color-linea); border-block-start: 3px solid var(--color-marca);
-      box-shadow: 0 18px 40px -24px rgb(28 27 25 / 0.35); white-space: normal;
-      opacity: 0; visibility: hidden; transform: translateY(6px);
-      transition: opacity 180ms var(--curva), transform 180ms var(--curva), visibility 0s linear 180ms;
-    }
-    .menu__item:hover > .submenu, .menu__item:focus-within > .submenu {
-      opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
-    }
-  }
-  .submenu__lista { list-style: none; display: grid; }
-  .submenu__producto {
-    display: grid; grid-template-columns: 3.5rem 1fr; align-items: center; gap: 0.875rem;
-    padding: 0.5rem; border-radius: var(--radio); text-decoration: none; transition: background-color var(--transicion);
-    img { inline-size: 3.5rem; block-size: 3.5rem; object-fit: contain; background: var(--color-papel); border-radius: var(--radio); }
-    strong { display: block; font-weight: 600; font-size: var(--text-sm); }
-    small { display: block; font-size: 0.8125rem; color: var(--color-texto-suave); }
-    &:hover { background: var(--color-papel); }
-  }
-  .submenu > .enlace-flecha { margin-inline-start: 0.5rem; }
+  .submenu { display: none; } /* el resto del submenú (solo con cursor) va en componentes.css */
   .cabecera-sitio.es-compacta .cabecera-sitio__secundaria { transform: translateY(-100%); opacity: 0; pointer-events: none; }
   .cabecera-sitio + main { padding-block-start: calc(var(--altura-cabecera) + var(--altura-secundaria)); }
 
-  /* Portada: panel dividido texto | foto real (en móvil, la foto va debajo del texto) */
-  .portada { padding-block: var(--space-md) var(--space-xl); }
-  /* El panel cierra con la franja de los tres colores del logo */
-  .portada__panel {
-    position: relative; display: grid; background: var(--color-papel); border-radius: var(--radio); overflow: hidden;
+  /* Portada: banda de papel a todo el ancho, como el resto de secciones. El texto se alinea con el
+     contenido de la página (--lado = margen del .wrapper) y la foto llega al borde derecho de la pantalla.
+     En móvil, la foto va debajo del texto, también a todo el ancho. Cierra con la franja tricolor. */
+  .portada {
+    position: relative; background: var(--color-papel);
     &::after { content: ""; position: absolute; inset: auto 0 0 0; z-index: 1; block-size: 4px; background: var(--tricolor); }
-    @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
   }
-  .portada__texto { align-self: center; padding: clamp(2rem, 1rem + 4vw, 4.5rem) clamp(1.25rem, 1rem + 3vw, 4rem); }
-  .portada__foto img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1; }
-  @media (min-width: 60rem) { .portada__foto:not(.portada__foto--producto) img { aspect-ratio: auto; min-height: 100%; } }
+  .migas + .portada { margin-block-start: var(--space-md); }
+  .portada__panel {
+    --lado: max(var(--margen-lateral), (100% - var(--ancho-contenido)) / 2);
+    display: grid; grid-template-columns: var(--lado) minmax(0, 1fr) var(--lado);
+    > .portada__texto { grid-column: 2; }
+    > .portada__foto { grid-column: 1 / -1; }
+    @media (min-width: 60rem) {
+      grid-template-columns: var(--lado) minmax(0, 7fr) minmax(0, 5fr) var(--lado);
+      > .portada__foto { grid-column: 3 / -1; }
+    }
+  }
+  .portada__texto {
+    align-self: center; padding-block: var(--space-xl);
+    @media (min-width: 60rem) { padding-block: clamp(3.5rem, 2rem + 4vw, 6rem); padding-inline-end: clamp(2rem, 5vw, 5rem); }
+  }
+  .portada__foto { overflow: hidden; }
+  .portada__foto img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 3; }
+  /* En escritorio la foto llena su columna sin fijar la altura de la banda: la marcan el texto y el mínimo */
+  @media (min-width: 60rem) {
+    .portada__panel { min-block-size: clamp(30rem, 68vh, 42rem); }
+    .portada__foto:not(.portada__foto--producto) { position: relative; img { position: absolute; inset: 0; aspect-ratio: auto; } }
+  }
+
   .portada__foto--producto {
     display: grid; align-content: center; justify-items: center; gap: var(--space-sm); padding: var(--space-lg);
     img { object-fit: contain; mix-blend-mode: multiply; aspect-ratio: 8 / 7; scale: 1.15; }
@@ -292,49 +278,13 @@
     li + li::before { content: "/" / ""; margin-inline-end: 0.5rem; }
     a { text-decoration: none; } a:hover { text-decoration: underline; }
   }
-  .migas + .portada { padding-block-start: var(--space-sm); }
-  /* Producto: galería sobre papel | información y cotización (en móvil, la foto va primero) */
-  .producto { padding-block: var(--space-sm) var(--space-2xl); }
-  .producto__marco {
-    display: grid; gap: var(--space-xl) clamp(2rem, 5vw, 5rem); align-items: start;
-    @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
-  }
-  .producto__galeria { display: grid; gap: var(--space-md); @media (min-width: 60rem) { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + var(--space-lg)); } }
-  .producto__foto {
-    position: relative; display: grid; place-items: center; overflow: hidden; background: var(--color-papel); border-radius: var(--radio);
-    &::after { content: ""; position: absolute; inset: auto 0 0 0; block-size: 4px; background: var(--tricolor); }
-    img { width: 100%; aspect-ratio: 8 / 7; object-fit: contain; padding: 4%; mix-blend-mode: multiply; }
-  }
-  @media (max-width: 59.99rem) { .producto__info { order: -1; } }
-  .producto__lema { font-size: var(--text-lg); font-weight: 600; line-height: 1.4; color: var(--color-texto); }
-  .producto__info h1 { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem); }
   .microgarantia { font-size: var(--text-sm); color: var(--color-texto-suave); max-width: 16rem; line-height: 1.45; }
+
   /* Flotante: fijo desde el primer pintado y oculto hasta que js/mercato.js sabe si el hero está en
      pantalla (data-listo). Sin esto aparece un instante sobre el hero y cuenta como salto de CLS. */
   .flotante { position: fixed; inset: auto 1rem 1rem auto; z-index: 30; }
   .flotante:not([data-listo]) { visibility: hidden; }
 
-  /* Cabecera del post: H1 + entradilla + resumen con fecha + CTA | foto real (en móvil, debajo) */
-  .articulo-cabecera { padding-block: var(--space-sm) var(--space-xl); }
-  .articulo-cabecera__marco {
-    display: grid; gap: var(--space-xl) clamp(2rem, 5vw, 5rem); align-items: start;
-    @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
-    h1 { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem); }
-    .etiqueta a { text-decoration: none; } .etiqueta a:hover { text-decoration: underline; }
-  }
-  .articulo-cabecera__foto {
-    position: relative; display: block; overflow: hidden; border-radius: var(--radio); background: var(--color-papel);
-    &::after { content: ""; position: absolute; inset: auto 0 0 0; block-size: 4px; background: var(--tricolor); }
-    img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
-    @media (min-width: 60rem) { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + var(--space-lg)); }
-  }
-  .resumen {
-    display: grid; gap: var(--space-sm); max-width: var(--ancho-texto);
-    padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio);
-    border-block-start: 3px solid var(--color-familia, var(--color-marca));
-  }
-  .resumen__texto { font-size: var(--text-lg); line-height: 1.6; }
-  .resumen__meta { font-size: var(--text-sm); color: var(--color-texto-suave); }
 }
 
 @layer utilidades {

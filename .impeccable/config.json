@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "_includes/mercato/componentes.css"
+        ],
+        "createdAt": "2026-11-04T15:51:33.229Z",
+        "reason": "Claude: L61 y L223 son barras horizontales a todo el ancho (inset 0 0 auto 0 / auto 0 0 0, block-size 3-4px), no bordes laterales"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "_includes/mercato/critico.css"
+        ],
+        "createdAt": "2026-11-04T19:21:58.673Z",
+        "reason": "Franja tricolor de marca a todo el ancho bajo la banda .portada (hero), no un acento lateral de tarjeta; bloque de la otra sesión"
+      }
+    ]
+  }
+}

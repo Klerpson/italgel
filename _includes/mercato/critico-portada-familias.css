@@ -1,0 +1,36 @@
+/* CSS crítico del hero de la home: fotos por familia y selector "¿Qué vas a cotizar?". head.html lo incluye solo en /. */
+@layer reset, tokens, base, primitivas, componentes, utilidades;
+
+@layer componentes {
+  /* Fotos por familia del hero de la home: se apilan y el selector muestra una (sin JS, por CSS con :has) */
+  .portada__foto--familias {
+    position: relative; overflow: hidden; aspect-ratio: 4 / 3;
+    @media (min-width: 60rem) { aspect-ratio: auto; min-block-size: 100%; }
+    > * { position: absolute; inset: 0; }
+    > :not([data-foto="maquinas"]) { display: none; }
+    > [data-foto="maquinas"] { display: grid; place-items: center; }
+    > img { margin: auto; }
+    /* La cafetera es foto de catálogo recortada: se funde sobre el papel, sin montaje ni recorte */
+    > [data-foto="cafe"] { object-fit: contain; padding: 8%; mix-blend-mode: multiply; }
+    > * { transition: opacity 220ms var(--curva), display 220ms allow-discrete; @starting-style { opacity: 0; } }
+  }
+  .portada:has([value="cafe"]:checked) .portada__foto--familias { > [data-foto="maquinas"] { display: none; } > [data-foto="cafe"] { display: block; } }
+  .portada:has([value="vitrinas"]:checked) .portada__foto--familias { > [data-foto="maquinas"] { display: none; } > [data-foto="vitrinas"] { display: block; } }
+
+  /* Selector "¿Qué vas a cotizar?": píldoras sin borde, con la bola del color de cada familia */
+  .familias-hero { border: 0; min-inline-size: 0; }
+  .familias-hero__opciones { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-block-start: var(--space-sm); }
+  .familias-hero label {
+    position: relative; display: inline-flex; align-items: center; gap: 0.6rem; min-block-size: 2.75rem; padding: 0.5rem 1.1rem;
+    border-radius: 999px; background: rgb(255 255 255 / 0.5); color: var(--color-texto-suave); font-size: var(--text-sm); cursor: pointer;
+    transition: background-color var(--transicion), color var(--transicion);
+    &::before { content: ""; flex: none; inline-size: 0.75rem; block-size: 0.75rem; border-radius: 50%; background: var(--color-marca); }
+    &:nth-child(2)::before { background: var(--color-verde); }
+    &:nth-child(3)::before { background: var(--color-turquesa); }
+    input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
+    &:hover { color: var(--color-texto); }
+    &:has(:checked) { background: var(--color-fondo); color: var(--color-texto); font-weight: 600; }
+    &:has(:focus-visible) { outline: 2px solid var(--color-texto); outline-offset: 2px; }
+  }
+  @supports not selector(:has(*)) { .familias-hero { display: none; } }
+}

@@ -1,0 +1,26 @@
+/* CSS crítico de los posts (layout post): cabecera. y resumen. Lo incluye head.html solo en los posts. */
+@layer reset, tokens, base, primitivas, componentes, utilidades;
+
+@layer componentes {
+  /* Cabecera del post: H1 + entradilla + resumen con fecha + CTA | foto real (en móvil, debajo) */
+  .articulo-cabecera { padding-block: var(--space-sm) var(--space-xl); }
+  .articulo-cabecera__marco {
+    display: grid; gap: var(--space-xl) clamp(2rem, 5vw, 5rem); align-items: start;
+    @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
+    h1 { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem); }
+    .etiqueta a { text-decoration: none; } .etiqueta a:hover { text-decoration: underline; }
+  }
+  .articulo-cabecera__foto {
+    position: relative; display: block; overflow: hidden; border-radius: var(--radio); background: var(--color-papel);
+    &::after { content: ""; position: absolute; inset: auto 0 0 0; block-size: 4px; background: var(--tricolor); }
+    img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+    @media (min-width: 60rem) { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + var(--space-lg)); }
+  }
+  /* Resumen citable ("En resumen"): bloque sobre papel, sin borde; la etiqueta lleva las tres bolas */
+  .resumen {
+    display: grid; gap: var(--space-sm); max-width: var(--ancho-texto);
+    padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio);
+  }
+  .resumen__texto { font-size: var(--text-lg); line-height: 1.6; }
+  .resumen__meta { font-size: var(--text-sm); color: var(--color-texto-suave); }
+}

@@ -23,6 +23,9 @@
     dd { font-size: var(--text-bloque); font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; font-variant-numeric: tabular-nums; }
   }
 
+  /* Rejilla de tres columnas como máximo que no estira las tarjetas: con 1 o 2, cada una conserva un tercio */
+  .rejilla.rejilla--fija { grid-template-columns: repeat(auto-fill, minmax(min(100%, max(var(--rejilla-min, 15rem), (100% - 2 * var(--space-lg)) / 3)), 1fr)); }
+
   /* Columna que acompaña al bajar (títulos de sección largos junto a tablas) */
   @media (min-width: 60rem) { .pegajoso { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + 5rem); align-self: start; } }
   .texto-suave { color: var(--color-texto-suave); }
@@ -48,6 +51,43 @@
 }
 
 @layer componentes {
+  /* Botón de WhatsApp al pasar el cursor (sale de critico.css): el degradado se corre al verde hondo,
+     un brillo lo cruza una vez y el ícono "timbra". Nunca pasa a negro. */
+  .boton.boton--acento::after {
+    content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.5) 50%, transparent 65%);
+    transform: translateX(-130%);
+  }
+  .boton.boton--acento:hover { background-position: 100% 50%; box-shadow: 0 12px 26px -14px rgb(18 140 74 / 0.9), inset 0 -2px 0 rgb(6 48 26 / 0.16); }
+  .boton.boton--acento:hover::after { transform: translateX(130%); transition: transform 750ms var(--curva); }
+  .boton.boton--acento:hover svg { animation: timbre 520ms var(--curva); }
+  @keyframes timbre { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-14deg); } 50% { transform: rotate(10deg); } 75% { transform: rotate(-5deg); } }
+
+  /* Submenú de productos (sale de critico.css: solo aparece con cursor en escritorio) */
+  @media (hover: hover) and (min-width: 60rem) {
+    .submenu {
+      display: grid; gap: var(--space-md); position: absolute; inset: 100% auto auto -1.25rem; z-index: 3;
+      inline-size: 21rem; padding: var(--space-md) var(--space-md) var(--space-lg) var(--space-md);
+      background: var(--color-fondo); border: 1px solid var(--color-linea); border-block-start: 3px solid var(--color-marca);
+      box-shadow: 0 18px 40px -24px rgb(28 27 25 / 0.35); white-space: normal;
+      opacity: 0; visibility: hidden; transform: translateY(6px);
+      transition: opacity 180ms var(--curva), transform 180ms var(--curva), visibility 0s linear 180ms;
+    }
+    .menu__item:hover > .submenu, .menu__item:focus-within > .submenu {
+      opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
+    }
+  }
+  .submenu__lista { list-style: none; display: grid; }
+  .submenu__producto {
+    display: grid; grid-template-columns: 3.5rem 1fr; align-items: center; gap: 0.875rem;
+    padding: 0.5rem; border-radius: var(--radio); text-decoration: none; transition: background-color var(--transicion);
+    img { inline-size: 3.5rem; block-size: 3.5rem; object-fit: contain; background: var(--color-papel); border-radius: var(--radio); }
+    strong { display: block; font-weight: 600; font-size: var(--text-sm); }
+    small { display: block; font-size: 0.8125rem; color: var(--color-texto-suave); }
+    &:hover { background: var(--color-papel); }
+  }
+  .submenu > .enlace-flecha { margin-inline-start: 0.5rem; }
+
   /* Baldosa de producto: foto recortada sobre papel, nombre y dato debajo */
   .baldosa {
     position: relative; display: grid; gap: 0.75rem; align-content: start; text-decoration: none;
@@ -116,7 +156,7 @@
     list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
     border-block-start: 1px solid var(--color-linea);
     > li { border-block-end: 1px solid var(--color-linea); }
-    a { display: flex; justify-content: space-between; align-items: center; gap: var(--space-md); padding: var(--space-lg) var(--space-sm) var(--space-lg) 0; text-decoration: none; font-size: var(--text-lg); font-weight: 600; }
+    a { display: flex; align-items: center; gap: var(--space-sm); padding: var(--space-lg) var(--space-sm) var(--space-lg) 0; text-decoration: none; font-size: var(--text-lg); font-weight: 600; }
     a::after { content: "→" / ""; font-family: var(--fuente-texto); font-size: var(--text-base); transition: transform var(--transicion); }
     a:hover::after { transform: translateX(4px); }
     @media (min-width: 48rem) { > li + li a { padding-inline-start: var(--space-lg); } > li + li { border-inline-start: 1px solid var(--color-linea); } }

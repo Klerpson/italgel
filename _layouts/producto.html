@@ -24,22 +24,13 @@ layout: mercato
       <figure class="producto__foto">
         <img src="{{ _img | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="{{ p.ancho | default: 800 }}" height="{{ p.alto | default: 700 }}" fetchpriority="high" decoding="async">
       </figure>
-      {%- capture _amb -%}/img/{{ page.coleccion }}/{{ p.slug }}-ambiente.avif{%- endcapture -%}
-      {%- assign _hay_amb = site.static_files | where: "path", _amb | size -%}
-      {%- if _hay_amb > 0 or p.img_detalle %}
+      {%- comment -%} Sin montajes (fotos del equipo sobre una barra): el usuario los descartó el 2026-11-04. Solo fotos reales. {%- endcomment -%}
+      {%- if p.img_detalle %}
       <div class="producto__extra">
-        {%- if _hay_amb > 0 %}
-        <figure>
-          <img src="{{ _amb | relative_url }}" alt="{{ p.nombre }} sobre una barra de cafetería, montaje ilustrativo" title="{{ p.nombre }} en una barra de cafetería (montaje ilustrativo)" width="1000" height="750" loading="lazy" decoding="async">
-          <figcaption>Montaje ilustrativo: foto real del equipo sobre una barra de cafetería.</figcaption>
-        </figure>
-        {%- endif %}
-        {%- if p.img_detalle %}
         <figure>
           <img src="{{ p.img_detalle | relative_url }}" alt="{{ page.alt_detalle }}" title="{{ page.alt_detalle }}" width="500" height="400" loading="lazy" decoding="async">
           <figcaption>{{ page.pie_detalle }}</figcaption>
         </figure>
-        {%- endif %}
       </div>
       {%- endif %}
     </div>

@@ -47,6 +47,10 @@ De los molinos:
 - ¿Qué molino recomiendan con cada cafetera?
 - ¿Venden también grecas o cafeteras de goteo?
 
+Para que Google encuentre antes las páginas de cafeteras:
+- ¿Hambach tiene en su web una página de distribuidores donde aparezca Italgel? Si no, ¿pueden pedir que los incluyan con el enlace a italgel.com.co/equipos-cafe/?
+- ¿Italgel sale en el listado de expositores de Cafés de Colombia Expo? ¿En qué fechas fue o será el evento?
+
 **7. Insumos (bases, pastas, variegatos y coberturas)**
 - Presentaciones (kg por bolsa o cubeta) y dosis recomendada de cada producto.
 - Marca de los variegatos Fiordibosco, Fiordiarancio, Salted caramel, Tiramisú y Whisky: ¿Fabbri, Quella o MEC3?
