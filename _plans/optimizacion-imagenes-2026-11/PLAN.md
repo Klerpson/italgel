@@ -1,6 +1,6 @@
 # Optimización de imágenes y maquetación por fases
 
-Inicio: 4 de noviembre de 2026. Base: auditoría local de la remodelación Mercato. Trabajo local autorizado; publicación no incluida.
+Inicio: 4 de noviembre de 2026. Base: auditoría local de la remodelación Mercato. Publicación autorizada el 4 de noviembre de 2026. Ver publicacion/RESULTADO.md.
 
 ## Criterios comunes
 
@@ -22,7 +22,7 @@ Cierre: fotografías completas, variantes existentes y seleccionadas correctamen
 
 ## Fase 2 — Peso y entrega de imágenes del blog
 
-Estado: completada localmente el 4 de noviembre de 2026; pendiente de publicación. Evidencia y límites en `fase-2/RESULTADO.md`.
+Estado: publicada y verificada el 4 de noviembre de 2026 (287 variantes de fases 2/3 comprobadas por SHA-256). Evidencia y límites en `fase-2/RESULTADO.md`.
 
 Alcance: los 12 archivos activos de más de 150 KiB, empezando por los cinco ejemplos de la auditoría. Comparar compresión por fotografía, preparar tamaños para tarjetas, cabeceras y móviles, e integrar la selección en los componentes del blog. Mantener dimensiones y detalle suficientes en las imágenes de contenido. La implementación cubre las 24 imágenes utilizadas en las cabeceras y el contenido de las 15 guías publicadas y la portada del blog; las imágenes que ya estaban ligeras conservan su archivo de mayor resolución cuando otra compresión no aporta ahorro.
 
@@ -30,7 +30,7 @@ Cierre: ahorro medido por archivo y por página representativa; revisión de tex
 
 ## Fase 3 — Resolución, encuadre e identidad del resto del catálogo
 
-Estado: completada localmente el 4 de noviembre de 2026, con límites de fuentes documentados; pendiente de publicación. Evidencia en `fase-3/RESULTADO.md`.
+Estado: publicada y verificada el 4 de noviembre de 2026, con límites de fuentes documentados. Evidencia en `fase-3/RESULTADO.md`.
 
 Alcance: comenzar por Stevia y Amarena; seguir por heros de ciudades, pastas y salsas, y las tarjetas de 280 px que se muestran grandes. Buscar fuentes de mayor calidad antes de exportar variantes. Validar el archivo compartido por Fiordiarancio y limón con la fuente del producto. Revisar también la correspondencia entre fotografía y texto de las imágenes de medición de overrun y control de porciones del blog, detectada durante la fase 2.
 
@@ -38,7 +38,7 @@ Cierre: resolver primero las ampliaciones más graves; registrar los casos que n
 
 ## Fase 4 — Maquetación, enlaces y limpieza
 
-Estado: pendiente.
+Estado: completada localmente el 4 de noviembre; ver publicacion/RESULTADO.md.
 
 Alcance: corrección mínima del contenedor de comparativas de café y verificación de sus diez fichas; revisión de las seis referencias externas con respuesta 403; coherencia de dimensiones sociales. Consolidar duplicados solo después de comprobar todos sus usos.
 
@@ -46,11 +46,11 @@ Cierre: sin desbordamiento de página en los puntos de corte revisados; mantener
 
 ## Fase 5 — Verificación integral y entrega para publicación
 
-Estado: pendiente.
+Estado: completada localmente el 4 de noviembre; ver publicacion/RESULTADO.md.
 
 Alcance: recompilar y repetir el rastreo de contenido e imágenes, revisar páginas representativas a 320/390/640/768/960/1440 px y comprobar selección de variantes a densidad 2. Resumir ahorro real, cambios de CSS y pendientes de fuentes.
 
-Cierre: resultado local revisable y lista precisa de archivos para publicar. Sin despliegue automático ni eliminación masiva de imágenes históricas.
+Cierre: resultado local revisable y lista precisa de archivos para publicar. Publicación autorizada; sin eliminación masiva de imágenes históricas.
 
 ## Evidencia
 

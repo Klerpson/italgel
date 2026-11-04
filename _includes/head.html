@@ -36,8 +36,12 @@
   <meta property="og:site_name" content="{{ site.name | escape }}">
   <meta property="og:image" content="{{ og_image }}">
   <meta property="og:image:secure_url" content="{{ og_image }}">
-  <meta property="og:image:width" content="{{ _catalogo_hero.width | default: 1200 }}">
-  <meta property="og:image:height" content="{{ _catalogo_hero.height | default: 640 }}">
+  {%- assign _social_path = og_image | remove: site.url -%}
+  {%- assign _social_dimensions = site.data.dimensiones_sociales[_social_path] -%}
+  {% if _social_dimensions %}
+  <meta property="og:image:width" content="{{ _social_dimensions.width }}">
+  <meta property="og:image:height" content="{{ _social_dimensions.height }}">
+  {% endif %}
   <meta property="og:image:alt" content="{% if page.alt %}{{ page.alt | escape }}{% else %}{{ page.title | escape }}{% endif %}">
   
   {% if page.layout == 'post' or page.collection == 'posts' %}
