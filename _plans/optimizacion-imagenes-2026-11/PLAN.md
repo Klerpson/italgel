@@ -56,10 +56,10 @@ Cierre: resultado local revisable y lista precisa de archivos para publicar. Pub
 
 Estado: nueve fotografías oficiales publicadas y verificadas el 4 de noviembre; 44 archivos contrastados por hash y 54 comprobaciones visuales públicas correctas. Siete equipos y dos presentaciones de Quella, 44 AVIF y 395.634 bytes en conjunto, sin cambios CSS. Fuentes, correcciones de identidad, pruebas y límites de los ingredientes restantes en `fase-6/RESULTADO.md`.
 
-## Evidencia
-
 ## Tanda de pastas y variegatos — Cinco sabores
 
-Estado: seis fotografías para siete referencias integradas y verificadas localmente el 4 de noviembre. Frutos del bosque, frambuesa, vainilla, coco y caramelo; 26 AVIF (297.077 bytes en conjunto), sin CSS nuevo. Stock identificado como ilustrativo, fuentes y pruebas en `fase-7/RESULTADO.md`. Publicación en comprobación.
+Estado: seis fotografías para siete referencias publicadas y verificadas el 4 de noviembre; 26 archivos correctos por hash y 48 comprobaciones visuales públicas sin errores. Frutos del bosque, frambuesa, vainilla, coco y caramelo; 26 AVIF (297.077 bytes en conjunto), sin CSS nuevo. Stock identificado como ilustrativo, fuentes y pruebas en `fase-7/RESULTADO.md`. Tanda cerrada.
+
+## Evidencia
 
 Auditoría inicial: `_plans/auditoria-visual-2026-11-04/INFORME.md`. Cada fase conserva sus fuentes, proceso y resultados en su propia carpeta dentro de este plan. El contenido de `_plans/` no se publica en la compilación de Jekyll.

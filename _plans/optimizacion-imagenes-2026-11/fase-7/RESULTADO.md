@@ -1,6 +1,6 @@
 # Pastas y variegatos: segunda tanda de ingredientes
 
-4 de noviembre de 2026. Implementación y revisión local terminadas; comprobación pública pendiente.
+4 de noviembre de 2026. Publicada y verificada en producción. Commit funcional `87bf274`; [GitHub Pages 41919553359](https://github.com/Klerpson/italgel/actions/runs/41919553359) completado correctamente.
 
 ## Alcance y fuentes
 
@@ -41,3 +41,7 @@ Se inspeccionaron las seis exportaciones máximas y la tarjeta renderizada de fr
 `descargar.cjs` recupera las fuentes MEC3, `stock.cjs` la fotografía de Unsplash, `preparar.py` comprueba hashes y exporta variantes, e `integrar.py` actualiza los textos alternativos y leyendas. `verificar.cjs [vivo] [integral] [retina]` revisa páginas y `archivos-vivo.cjs` verifica por hash los 26 AVIF publicados. `auditoria.py` rastrea la compilación completa. Los runtimes usados por los scripts de navegador están vinculados a este equipo.
 
 Los originales de trabajo, HTML de fuente y capturas permanecen en `_plans/`, excluido de Jekyll; no aumentan las descargas del sitio. Las demás imágenes del catálogo conservan la optimización de las tandas anteriores.
+
+## Verificación pública final
+
+Los 26 AVIF públicos coinciden por SHA-256 con los locales (297.077 bytes). Las ocho rutas publicadas pasaron 48 combinaciones de página/ancho, sin imágenes rotas, errores propios de JavaScript o HTTP, H1 incorrectos o desbordamiento horizontal. La revisión incluye portada, pastas, fruta, clásicas, vainilla, coberturas, salsas especiales y variegatos. Las comprobaciones de densidad 2 fueron locales. Recibos en `vivo/archivos-resumen.json` y `vivo-integral/resumen.json`. Esta tanda de los cinco sabores acordados queda cerrada.
