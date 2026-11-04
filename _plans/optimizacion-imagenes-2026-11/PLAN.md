@@ -52,10 +52,10 @@ Alcance: recompilar y repetir el rastreo de contenido e imágenes, revisar pági
 
 Cierre: resultado local revisable y lista precisa de archivos para publicar. Publicación autorizada; sin eliminación masiva de imágenes históricas.
 
-## Evidencia
-
 ## Segunda ronda — Fuentes fotográficas de fabricante
 
-Estado: nueve fotografías oficiales integradas y comprobadas localmente el 4 de noviembre; publicación en comprobación. Siete equipos y dos presentaciones de Quella, 44 AVIF y 395.634 bytes en conjunto, sin cambios CSS. Fuentes, correcciones de identidad, pruebas y límites de los ingredientes restantes en `fase-6/RESULTADO.md`.
+Estado: nueve fotografías oficiales publicadas y verificadas el 4 de noviembre; 44 archivos contrastados por hash y 54 comprobaciones visuales públicas correctas. Siete equipos y dos presentaciones de Quella, 44 AVIF y 395.634 bytes en conjunto, sin cambios CSS. Fuentes, correcciones de identidad, pruebas y límites de los ingredientes restantes en `fase-6/RESULTADO.md`.
+
+## Evidencia
 
 Auditoría inicial: `_plans/auditoria-visual-2026-11-04/INFORME.md`. Cada fase conserva sus fuentes, proceso y resultados en su propia carpeta dentro de este plan. El contenido de `_plans/` no se publica en la compilación de Jekyll.

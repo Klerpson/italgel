@@ -1,6 +1,6 @@
 # Segunda ronda fotográfica — originales de fabricante
 
-4 de noviembre de 2026. Tanda prioritaria de máquinas y dos ingredientes. Implementada y validada localmente; publicación en comprobación.
+4 de noviembre de 2026. Tanda prioritaria de máquinas y dos ingredientes. Publicada y verificada en producción. Commit funcional `c19aeed`; [GitHub Pages 41914524762](https://github.com/Klerpson/italgel/actions/runs/41914524762) completado correctamente.
 
 ## Fotografías integradas
 
@@ -49,3 +49,7 @@ Los originales de Snowy y Stargel también tienen un límite de resolución: se 
 4. Compilar Jekyll y ejecutar `verificar.cjs integral`, `verificar.cjs integral retina` y la auditoría estática de `../publicacion/`.
 
 `_plans/` y sus capturas/originales de trabajo quedan fuera del sitio generado. Solo se añadieron al sitio los 44 AVIF ligeros y los datos/componentes necesarios.
+
+## Comprobación pública
+
+Los 44 AVIF respondieron correctamente y coinciden por SHA-256 con los locales (395.634 bytes en conjunto). La comprobación del sitio público completó 54 combinaciones de nueve rutas a 320/390/640/768/960/1440 px, sin errores propios de JavaScript, imágenes rotas, respuestas HTTP propias fallidas ni desbordamiento horizontal. Evidencia: `vivo/archivos-resumen.json` y `vivo-integral/resumen.json`. Las comprobaciones de densidad 2 fueron locales.
