@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-gem "jekyll"
-gem 'github-pages'
+gem "jekyll", "~> 4.4"
 gem "webrick", "~> 1.8"
 gem 'wdm', '>= 0.1.0'

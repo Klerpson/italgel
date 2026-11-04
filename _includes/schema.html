@@ -64,7 +64,8 @@
         "name": {{ faq.question | default: faq.q | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": {{ faq.answer | default: faq.a | strip_html | jsonify }}
+          {%- assign _tel_token = '{{site.telefono}}' -%}
+          "text": {{ faq.answer | default: faq.a | replace: _tel_token, site.telefono | strip_html | jsonify }}
         }
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}

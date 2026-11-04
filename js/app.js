@@ -120,11 +120,11 @@
   };
 
   /* ================================================================
-     WHATSAPP  —  movido a js/lead-whatsapp.js
+     WHATSAPP  —  movido a js/canales.js (3.1)
      ================================================================
      Aqui vivian el numero y el mensaje escritos a mano, de modo que
      cambiarlos en _config.yml no cambiaba nada. Ademas, en movil se abria
-     dos veces (window.open y el protocolo whatsapp://), y el modal solo
+     dos veces (window.open y el protocolo de la app), y el modal solo
      salia si el navegador bloqueaba el popup, no cuando el usuario volvia
      sin haber escrito.
 

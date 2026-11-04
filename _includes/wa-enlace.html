@@ -1,0 +1,11 @@
+{%- comment -%}
+  Enlace de texto a WhatsApp (dentro de un parrafo). Igual que boton.html
+  pero sin aspecto de boton.
+
+  Parametros:
+    text      Texto del enlace.
+    location  Nombre en analitica. Por defecto enlace-N (orden en la pagina).
+    mensaje   Mensaje propio. Por defecto el de la pagina (wa-mensaje.html).
+{%- endcomment -%}
+{%- assign _wa_n = _wa_n | plus: 1 -%}
+<a href="{% include wa-href.html mensaje=include.mensaje %}" class="lead_whatsapp" target="_blank" rel="noopener noreferrer" data-location="{% if include.location %}{{ include.location }}{% else %}enlace-{{ _wa_n }}{% endif %}">{{ include.text }}</a>

@@ -481,6 +481,14 @@ table {
 }
 
 /* =================================
+   ENLACE CON FLECHA (fuente-preferida.html, al final del post)
+   ================================= */
+.enlace-flecha::after {
+  content: " →";
+  content: " →" / "";
+}
+
+/* =================================
    AUTHOR INFO (author-info.html)
    ================================= */
 .author-avatar {

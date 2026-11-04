@@ -1,0 +1,6 @@
+{%- assign fp_host = site.url | remove: 'https://' | remove: 'http://' | remove: '/' -%}
+<p>
+  <a class="enlace-flecha" href="https://www.google.com/preferences/source?q={{ fp_host }}" rel="noopener" target="_blank">
+    {%- if include.lang == "en" -%}Add {{ include.marca }} as a preferred source on Google{%- else -%}Añade a {{ include.marca }} como fuente preferida en Google{%- endif -%}
+  </a>
+</p>

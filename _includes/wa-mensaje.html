@@ -1,0 +1,14 @@
+{%- comment -%}
+  Mensaje de WhatsApp de la pagina, en texto plano: site.wa_mensaje + el h1 de
+  la pagina (o su titulo). En la portada el titulo es el SEO completo y en un
+  chat se lee mal, asi que alli va site.wa_asunto. Una sola fuente para el
+  <body data-wa-message> y para el href de todos los enlaces (wa-href.html).
+{%- endcomment -%}
+{%- capture _wa_asunto -%}
+  {%- unless page.url == '/' or page.url == '/index.html' -%}
+    {{ page.h1 | default: page.title }}
+  {%- endunless -%}
+{%- endcapture -%}
+{%- assign _wa_asunto = _wa_asunto | strip | strip_html -%}
+{%- if _wa_asunto == '' -%}{%- assign _wa_asunto = site.wa_asunto -%}{%- endif -%}
+{{- site.wa_mensaje }} {{ _wa_asunto -}}

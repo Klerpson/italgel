@@ -41,6 +41,15 @@
   box-shadow: var(--shadow-subtle);
 }
 
+/* Boton solo, centrado debajo de una seccion (antes style= en 4 paginas).
+   Doble clase para ganar a .flow > * + * sin !important. */
+.boton.boton_centro {
+  display: block;
+  margin-inline: auto;
+  max-width: max-content;
+  margin-block-start: 2rem;
+}
+
 /* Fix: botones en contenedores flex no deben expandirse */
 .flex .boton,
 .two_columns .boton,

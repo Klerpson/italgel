@@ -1,0 +1,11 @@
+{%- comment -%}
+  URL wa.me con el numero de _config.yml (site.telefono) y el mensaje de la
+  pagina (wa-mensaje.html), o el propio si se pasa mensaje="...". Funciona sin
+  JS; con JS, js/canales.js la mide y elige app o WhatsApp Web en computador.
+  Espacios como %20 (no +) para que la app los lea bien.
+{%- endcomment -%}
+{%- assign _wa_texto = include.mensaje -%}
+{%- unless _wa_texto -%}
+  {%- capture _wa_texto -%}{% include wa-mensaje.html %}{%- endcapture -%}
+{%- endunless -%}
+https://wa.me/{{ site.telefono }}?text={{ _wa_texto | strip | url_encode | replace: '+', '%20' -}}

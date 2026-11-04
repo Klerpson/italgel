@@ -1,1 +1,13 @@
-<a href="#" id="lead_whatsapp" class="boton boton_{{include.num}}" target="_blank" rel="noopener noreferrer">{{include.text | default: "Cotiza insumos para tu heladería"}}</a>
+{%- comment -%}
+  Boton de WhatsApp. href wa.me real (wa-href.html), clase lead_whatsapp y
+  data-location unico en la pagina, que canales.js manda en el evento.
+
+  Parametros:
+    num       1 (accion) | 2 (secundario). Por defecto 1.
+    text      Texto del boton.
+    class     Clases extra (ej. boton_centro).
+    location  Nombre del boton en analitica. Por defecto boton-N (orden en la pagina).
+    mensaje   Mensaje propio. Por defecto el de la pagina (wa-mensaje.html).
+{%- endcomment -%}
+{%- assign _wa_n = _wa_n | plus: 1 -%}
+<a href="{% include wa-href.html mensaje=include.mensaje %}" class="lead_whatsapp boton boton_{{ include.num | default: 1 }}{% if include.class %} {{ include.class }}{% endif %}" target="_blank" rel="noopener noreferrer" data-location="{% if include.location %}{{ include.location }}{% else %}boton-{{ _wa_n }}{% endif %}">{{ include.text | default: "Cotiza insumos para tu heladería" }}</a>
