@@ -21,7 +21,7 @@ Prioridad del cliente: máquinas de helado → cafeteras Hambach → vitrinas �
 | Turquesa del logo | `#6BB1BA` (texto `#2B6B73`) | línea y etiqueta de vitrinas |
 | Rosa del logo | `#D36576` (texto `#A14D59`) | línea y etiqueta de variegatos |
 
-**Tipografía:** Bodoni Moda (títulos), la tipografía de Bodoni, de Parma, y DM Sans (texto). Las dos van autoalojadas en woff2 variable (`/fonts/`, 46 KB y 36 KB). Fraunces se descartó porque el detector de Impeccable la marca como fuente sobreusada.
+**Tipografía:** Libre Bodoni (títulos H1 y H2), una Bodoni de Parma redibujada para pantalla, y DM Sans (texto). Las dos van autoalojadas en woff2 variable (`/fonts/`, 26 KB y 36 KB). Bodoni Moda se cambió el 2026-11-04 porque sus trazos finos se perdían sobre los fondos claros (blanco, papel). Fraunces se descartó porque el detector de Impeccable la marca como fuente sobreusada.
 
 **Formas:** esquinas de 2 px y sin sombras, salvo el flotante. Las fotos de catálogo se funden sobre el papel con `mix-blend-mode: multiply`.
 

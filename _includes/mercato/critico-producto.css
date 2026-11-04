@@ -1,0 +1,20 @@
+/* CSS crítico de la ficha de producto (layout producto): galería e información. head.html lo incluye solo en ese layout. */
+@layer reset, tokens, base, primitivas, componentes, utilidades;
+
+@layer componentes {
+  /* Producto: galería sobre papel | información y cotización (en móvil, la foto va primero) */
+  .producto { padding-block: var(--space-sm) var(--space-2xl); }
+  .producto__marco {
+    display: grid; gap: var(--space-xl) clamp(2rem, 5vw, 5rem); align-items: start;
+    @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
+  }
+  .producto__galeria { display: grid; gap: var(--space-md); @media (min-width: 60rem) { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + var(--space-lg)); } }
+  .producto__foto {
+    position: relative; display: grid; place-items: center; overflow: hidden; background: var(--color-papel); border-radius: var(--radio);
+    &::after { content: ""; position: absolute; inset: auto 0 0 0; block-size: 4px; background: var(--tricolor); }
+    img { width: 100%; aspect-ratio: 8 / 7; object-fit: contain; padding: 4%; mix-blend-mode: multiply; }
+  }
+  @media (max-width: 59.99rem) { .producto__info { order: -1; } }
+  .producto__lema { font-size: var(--text-lg); font-weight: 600; line-height: 1.4; color: var(--color-texto); }
+  .producto__info h1 { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem); }
+}

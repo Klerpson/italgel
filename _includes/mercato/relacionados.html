@@ -14,6 +14,13 @@
     {%- assign _lista = _lista | push: p -%}{%- assign _vistos = _vistos | append: p.url | append: "|" -%}
   {%- endunless -%}{%- endif -%}
 {%- endfor -%}
+{%- comment -%} Si el producto y el tema no suman 3, se completa con las guías más recientes {%- endcomment -%}
+{%- for p in site.posts -%}
+  {%- if _lista.size >= 3 -%}{%- break -%}{%- endif -%}
+  {%- unless _vistos contains p.url -%}
+    {%- assign _lista = _lista | push: p -%}{%- assign _vistos = _vistos | append: p.url | append: "|" -%}
+  {%- endunless -%}
+{%- endfor -%}
 {%- if _lista.size > 0 %}
 <section class="banda banda--papel" aria-labelledby="titulo-relacionados">
   <div class="wrapper">
@@ -21,7 +28,7 @@
       <h2 id="titulo-relacionados">Sigue con otra guía para tu heladería</h2>
       <a class="enlace-flecha" href="{{ '/blog/' | relative_url }}" title="Ver todas las guías del blog">Ver todas las guías</a>
     </div>
-    <div class="rejilla rejilla--ancha">
+    <div class="rejilla rejilla--ancha rejilla--fija">
       {%- for p in _lista limit: 3 %}
       {% include mercato/baldosa.html url=p.url img=p.hero alt=p.alt titulo=p.h1 meta=p.description clase="baldosa--foto baldosa--apaisada" ancho=p.hero_w alto=p.hero_h %}
       {%- endfor %}

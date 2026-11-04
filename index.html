@@ -15,7 +15,7 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
 {%- assign inicio = site.data.inicio -%}
 
 <section class="portada" data-hero aria-labelledby="titulo-portada">
-  <div class="wrapper portada__panel">
+  <div class="portada__panel">
     <div class="portada__texto flujo flujo--amplio">
       <h1 id="titulo-portada">{{ page.h1 }}</h1>
       <p class="entradilla">Distribuidora de máquinas soft y mantecadoras Coldelite y Valmar, vitrinas EasyBest, cafeteras espresso Hambach y variegatos italianos, con asesoría técnica para elegir el equipo según tu producción.</p>
@@ -23,11 +23,28 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
         {% include mercato/boton.html texto="Cotizar por WhatsApp" location="hero" %}
         <p class="microgarantia">Asesoría técnica sin costo para clientes de Italgel.</p>
       </div>
+      {%- comment -%}
+        Firma del hero (jurado 2026-11-04, _plans/animaciones.md): la familia elegida cambia la foto (CSS con :has)
+        y, con JS (js/mercato.js), el mensaje y el data-location del botón y del flotante. Sin elección, todo queda como antes.
+        Va debajo del botón para que en móvil el CTA quede en la primera pantalla.
+      {%- endcomment %}
+      <fieldset class="familias-hero" data-familias-hero>
+        <legend class="etiqueta">¿Qué vas a cotizar?</legend>
+        <div class="familias-hero__opciones">
+          <label><input type="radio" name="familia-hero" value="maquinas" checked data-mensaje="¡Hola! Soy dueño o encargado de una heladería y quiero cotizar una máquina de helado." data-invitacion="¿Te ayudamos a elegir tu máquina de helado?">Máquinas de helado</label>
+          <label><input type="radio" name="familia-hero" value="cafe" data-mensaje="¡Hola! Quiero cotizar una cafetera espresso Hambach." data-invitacion="¿Te ayudamos a elegir tu cafetera Hambach?">Cafeteras Hambach</label>
+          <label><input type="radio" name="familia-hero" value="vitrinas" data-mensaje="¡Hola! Soy dueño o encargado de una heladería y quiero cotizar una vitrina para helado." data-invitacion="¿Te ayudamos a elegir tu vitrina?">Vitrinas para helado</label>
+        </div>
+      </fieldset>
     </div>
-    <picture class="portada__foto">
-      <source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
-      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="584" height="584" fetchpriority="high" decoding="async">
-    </picture>
+    <div class="portada__foto portada__foto--familias">
+      <picture data-foto="maquinas">
+        <source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
+        <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="584" height="584" fetchpriority="high" decoding="async">
+      </picture>
+      <img data-foto="cafe" src="{{ '/img/cafe/tank-2.avif' | relative_url }}" alt="Cafetera espresso industrial Hambach Tank 2 de dos grupos" title="Cafetera espresso Hambach Tank 2" width="800" height="700" loading="lazy" decoding="async">
+      <img data-foto="vitrinas" src="{{ '/img/vitrina-helado-exhibicion.avif' | relative_url }}" alt="Vitrina curva de exhibición para helado artesanal en la barra de una heladería" title="Vitrina curva de exhibición para helado" width="584" height="396" loading="lazy" decoding="async">
+    </div>
   </div>
 </section>
 

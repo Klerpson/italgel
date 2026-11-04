@@ -59,8 +59,8 @@
 
   <!-- Critical CSS Inline -->
   {%- if layout.mercato %}
-  <style>{% include mercato/critico.css %}</style>
-  <link rel="preload" href="{{ '/fonts/bodoni-moda-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <style>{% include mercato/critico.css %}{% if page.layout == 'post' %}{% include mercato/critico-articulo.css %}{% endif %}{% if page.layout == 'producto' %}{% include mercato/critico-producto.css %}{% endif %}{% if page.url == '/' %}{% include mercato/critico-portada-familias.css %}{% endif %}</style>
+  <link rel="preload" href="{{ '/fonts/libre-bodoni-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/fonts/dm-sans-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   {%- else %}
   <style>
