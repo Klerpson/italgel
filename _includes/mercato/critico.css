@@ -309,6 +309,10 @@
   .producto__lema { font-size: var(--text-lg); font-weight: 600; line-height: 1.4; color: var(--color-texto); }
   .producto__info h1 { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem); }
   .microgarantia { font-size: var(--text-sm); color: var(--color-texto-suave); max-width: 16rem; line-height: 1.45; }
+  /* Flotante: fijo desde el primer pintado y oculto hasta que js/mercato.js sabe si el hero está en
+     pantalla (data-listo). Sin esto aparece un instante sobre el hero y cuenta como salto de CLS. */
+  .flotante { position: fixed; inset: auto 1rem 1rem auto; z-index: 30; }
+  .flotante:not([data-listo]) { visibility: hidden; }
 
   /* Cabecera del post: H1 + entradilla + resumen con fecha + CTA | foto real (en móvil, debajo) */
   .articulo-cabecera { padding-block: var(--space-sm) var(--space-xl); }

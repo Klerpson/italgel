@@ -446,7 +446,7 @@
      Cuando el hero sale de la vista muestra una invitación con texto durante 6 s y dos pulsos
      (js/mercato.js, clase es-invitando); después queda el ícono, y el texto vuelve con el cursor o el foco. */
   .flotante {
-    position: fixed; inset: auto clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem) auto; z-index: 30;
+    position: fixed; inset: auto clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem) auto; z-index: 30; visibility: visible;
     display: flex; align-items: center; gap: 0.75rem; text-decoration: none;
     transition: opacity var(--transicion), transform var(--transicion);
     &[data-oculto] { opacity: 0; transform: translateY(1rem); pointer-events: none; visibility: hidden; transition: opacity var(--transicion), transform var(--transicion), visibility 0s linear 220ms; }

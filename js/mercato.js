@@ -19,6 +19,17 @@
   }, { passive: true });
 })();
 
+// Flotante: se habilita (data-listo) en el mismo ciclo en que js/canales.js decide si ocultarlo sobre el hero,
+// así nunca se pinta un instante encima del hero.
+(() => {
+  const flotante = document.querySelector('[data-flotante]');
+  if (!flotante) return;
+  const hero = document.querySelector('[data-hero]');
+  if (!hero || !('IntersectionObserver' in window)) { flotante.setAttribute('data-listo', ''); return; }
+  const io = new IntersectionObserver(() => { flotante.setAttribute('data-listo', ''); io.disconnect(); });
+  io.observe(hero);
+})();
+
 // Flotante: cuando el hero sale de la vista, muestra la invitación con texto durante 6 s
 // (una vez por página). En páginas sin hero, a los 5 s.
 (() => {
