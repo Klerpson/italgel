@@ -34,7 +34,11 @@ faqs:
   <!-- Hero -->
   <section class="center text_center flow">
     <h2>¿Buscas proveedor de insumos para heladería en Barranquilla?</h2>
-    <p class="text_center"><strong>En resumen:</strong> Italgel distribuye bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional en Barranquilla y la región Caribe, con envíos desde la bodega en Bogotá según la disponibilidad del inventario. El pedido mínimo para envío es de $350.000 COP.</p>
+    <div class="sintesis">
+      <p class="etiqueta tres-bolas">En resumen</p>
+      <p class="sintesis__texto">Italgel distribuye bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional en Barranquilla y la región Caribe, con envíos desde la bodega en Bogotá según la disponibilidad del inventario. El pedido mínimo para envío es de $350.000 COP.</p>
+      <p class="sintesis__accion"><a class="lead_whatsapp enlace-flecha" href="{% include wa-href.html %}" target="_blank" rel="noopener noreferrer" data-location="resumen" title="Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)">Pide asesoría por WhatsApp<span class="visualmente-oculto"> (abre WhatsApp)</span></a></p>
+    </div>
     <p class="intro-text">Italgel te surte con <strong>entregas según la disponibilidad del inventario</strong> en toda Barranquilla y la región Caribe. Stock permanente de bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional enviados desde nuestra bodega principal en Bogotá.</p>
 
     <div class="three_columns">
@@ -43,7 +47,7 @@ faqs:
         <p><strong>Envíos</strong> en toda Barranquilla, según la disponibilidad del inventario</p>
       </article>
 
-      <article class="text_center flow borders">
+      <article class="text_center flow">
         <span class="stat-number">Caribe</span>
         <p><strong>Cobertura regional</strong> en toda la costa norte de Colombia</p>
       </article>
@@ -64,33 +68,33 @@ faqs:
       <div>
         <h4>Barranquilla Norte</h4>
         <ul>
-          <li>✓ El Prado</li>
-          <li>✓ Bello Horizonte</li>
-          <li>✓ Alto Prado</li>
-          <li>✓ Villa Country</li>
-          <li>✓ Puerto Colombia</li>
+          <li>El Prado</li>
+          <li>Bello Horizonte</li>
+          <li>Alto Prado</li>
+          <li>Villa Country</li>
+          <li>Puerto Colombia</li>
         </ul>
       </div>
 
       <div>
         <h4>Barranquilla Centro y Sur</h4>
         <ul>
-          <li>✓ Centro histórico</li>
-          <li>✓ Riomar</li>
-          <li>✓ Barrio Abajo</li>
-          <li>✓ Soledad</li>
-          <li>✓ Malambo</li>
+          <li>Centro histórico</li>
+          <li>Riomar</li>
+          <li>Barrio Abajo</li>
+          <li>Soledad</li>
+          <li>Malambo</li>
         </ul>
       </div>
 
       <div>
         <h4>Región Caribe</h4>
         <ul>
-          <li>✓ Cartagena</li>
-          <li>✓ Santa Marta</li>
-          <li>✓ Sincelejo</li>
-          <li>✓ Montería</li>
-          <li>✓ Valledupar</li>
+          <li>Cartagena</li>
+          <li>Santa Marta</li>
+          <li>Sincelejo</li>
+          <li>Montería</li>
+          <li>Valledupar</li>
         </ul>
       </div>
     </div>
@@ -116,11 +120,11 @@ faqs:
         </ul>
 
         <div class="two_columns flow">
-          {% include boton.html num="1" text="Cotizar bases en Barranquilla 📍" %}
+          {% include boton.html num="1" text="Cotizar bases en Barranquilla" %}
           <a href="{{'/bases-helado-colombia/'|relative_url}}" class="boton boton_2" title="Ver fichas técnicas">Ver fichas técnicas</a>
         </div>
       </div>
-      <img src="{{ 'img/insumos-heladeria-italgel.avif' | relative_url }}" alt="Bases para helado MEC3, insumos para heladería en Barranquilla" title="Bases MEC3 en Barranquilla" width="584" height="396" loading="lazy" decoding="async">
+      <img src="{{ 'img/insumos-heladeria-italgel.avif' | relative_url }}" alt="Bases para helado MEC3, insumos para heladería en Barranquilla" title="Bases MEC3 en Barranquilla" width="584" height="584" loading="lazy" decoding="async">
     </article>
 
     <!-- PASTAS -->
@@ -139,7 +143,7 @@ faqs:
 
         {% include boton.html num="1" text="Ver precios de pastas para heladería" %}
       </div>
-      <img src="{{ 'img/pastas-helado-italgel-colombia.avif' | relative_url }}" alt="Pastas concentradas para helado en Barranquilla" title="Pastas concentradas para helado en Barranquilla" width="584" height="396" loading="lazy" decoding="async">
+      <img src="{{ 'img/pastas-helado-italgel-colombia.avif' | relative_url }}" alt="Pastas concentradas para helado en Barranquilla" title="Pastas concentradas para helado en Barranquilla" width="584" height="584" loading="lazy" decoding="async">
     </article>
 
     <!-- COBERTURAS -->
@@ -153,9 +157,9 @@ faqs:
           <li><strong>Salsas de fruta tropical</strong> - Maracuyá, mango, fresa</li>
         </ul>
 
-        {% include boton.html num="1" text="Solicitar catálogo completo 🍫" %}
+        {% include boton.html num="1" text="Solicitar catálogo completo" %}
       </div>
-      <img src="{{ 'img/coberturas-helado-italgel-colombia.avif' | relative_url }}" alt="Coberturas Quella para heladerías en Barranquilla" title="Coberturas Quella en Barranquilla" width="584" height="396" loading="lazy" decoding="async">
+      <img src="{{ 'img/coberturas-helado-italgel-colombia.avif' | relative_url }}" alt="Coberturas Quella para heladerías en Barranquilla" title="Coberturas Quella en Barranquilla" width="584" height="584" loading="lazy" decoding="async">
     </article>
   </section>
 
@@ -213,7 +217,7 @@ faqs:
     <p>Heladerías en la región Caribe confían en Italgel para sus insumos profesionales MEC3. Calidad italiana, entrega directa, asesoría técnica incluida.</p>
 
     <div class="botones">
-      {% include boton.html num="1" text="Cotizar para Barranquilla 🏖️" %}
+      {% include boton.html num="1" text="Cotizar para Barranquilla" %}
       <a href="tel:{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar ahora</a>
     </div>
 
