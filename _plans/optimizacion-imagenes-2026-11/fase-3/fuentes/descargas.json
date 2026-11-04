@@ -1,0 +1,50 @@
+[
+  {
+    "name": "stevia",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/base%20G/base-g-creme-stevia.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 45099,
+    "sha256": "60cfdbfd7e4345e8d4dcbc0c58d9c95ab89bb6b169a929bd80f075cbaf0f1c62"
+  },
+  {
+    "name": "fruta",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/base%20G/base-g-frutte-stevia.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 35832,
+    "sha256": "5af6059a14ce4359706a02dab2ded57937c174b4c0b2f446447173a1a98ded8b"
+  },
+  {
+    "name": "naranja",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/variegati/fiordiarancio.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 81102,
+    "sha256": "0c552c44f906ac498ac8fdc12a6f531f8a50e8df9e1072719dda7056b9bec910"
+  },
+  {
+    "name": "amarena",
+    "url": "https://en.fabbri1905.com/imgpub/2043979/0/0/fabbri-amarena-fabbri22-1104-1920x800px.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 99729,
+    "sha256": "0c0ecd0c0dce5b175c5682e6f47413df7e8ff62b21f1ffc07963ad50051e7d9c"
+  },
+  {
+    "name": "yogurt",
+    "url": "https://www.mec3.com/Media/mec3-soft-serve-cream.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 36990,
+    "sha256": "38f27dfca8ed1e4a4b2c2c359b699fccd96e3be3e75f1fff1a01cd92c9b400f9"
+  },
+  {
+    "name": "quella",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/quella-family/coppette_2021/coppetta_quella_white.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 79054,
+    "sha256": "fb4acaa746e3ce5f6ee4d9bc547303e5a52a15468aa944d5256afd6a06d85490"
+  }
+]

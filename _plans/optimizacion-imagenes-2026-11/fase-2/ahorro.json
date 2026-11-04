@@ -1,0 +1,530 @@
+[
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 1,
+    "before": 1096714,
+    "after": 221178,
+    "saving": 79.8
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 1,
+    "before": 1089896,
+    "after": 214360,
+    "saving": 80.3
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 1384376,
+    "after": 547515,
+    "saving": 60.5
+  },
+  {
+    "url": "/blog/",
+    "width": 390,
+    "dpr": 1,
+    "before": 2796755,
+    "after": 265020,
+    "saving": 90.5
+  },
+  {
+    "url": "/blog/",
+    "width": 768,
+    "dpr": 1,
+    "before": 2796755,
+    "after": 286284,
+    "saving": 89.8
+  },
+  {
+    "url": "/blog/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 3125468,
+    "after": 700518,
+    "saving": 77.6
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 390,
+    "dpr": 1,
+    "before": 836133,
+    "after": 95793,
+    "saving": 88.5
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 768,
+    "dpr": 1,
+    "before": 984597,
+    "after": 147718,
+    "saving": 85.0
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 1307326,
+    "after": 508278,
+    "saving": 61.1
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 390,
+    "dpr": 1,
+    "before": 395269,
+    "after": 71029,
+    "saving": 82.0
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 768,
+    "dpr": 1,
+    "before": 636921,
+    "after": 102377,
+    "saving": 83.9
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 959650,
+    "after": 433199,
+    "saving": 54.9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 390,
+    "dpr": 1,
+    "before": 943453,
+    "after": 100640,
+    "saving": 89.3
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 768,
+    "dpr": 1,
+    "before": 1099167,
+    "after": 155226,
+    "saving": 85.9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 1423932,
+    "after": 523953,
+    "saving": 63.2
+  },
+  {
+    "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "width": 390,
+    "dpr": 1,
+    "before": 142386,
+    "after": 98095,
+    "saving": 31.1
+  },
+  {
+    "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "width": 768,
+    "dpr": 1,
+    "before": 332778,
+    "after": 117094,
+    "saving": 64.8
+  },
+  {
+    "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 628973,
+    "after": 430653,
+    "saving": 31.5
+  },
+  {
+    "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+    "width": 390,
+    "dpr": 1,
+    "before": 394648,
+    "after": 52732,
+    "saving": 86.6
+  },
+  {
+    "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+    "width": 768,
+    "dpr": 1,
+    "before": 661222,
+    "after": 108668,
+    "saving": 83.6
+  },
+  {
+    "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 989935,
+    "after": 452830,
+    "saving": 54.3
+  },
+  {
+    "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "width": 390,
+    "dpr": 1,
+    "before": 148496,
+    "after": 104205,
+    "saving": 29.8
+  },
+  {
+    "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "width": 768,
+    "dpr": 1,
+    "before": 338888,
+    "after": 123204,
+    "saving": 63.6
+  },
+  {
+    "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 628973,
+    "after": 430653,
+    "saving": 31.5
+  },
+  {
+    "url": "/blog/que-es-el-variegato-para-helado/",
+    "width": 390,
+    "dpr": 1,
+    "before": 302845,
+    "after": 70834,
+    "saving": 76.6
+  },
+  {
+    "url": "/blog/que-es-el-variegato-para-helado/",
+    "width": 768,
+    "dpr": 1,
+    "before": 558997,
+    "after": 95836,
+    "saving": 82.9
+  },
+  {
+    "url": "/blog/que-es-el-variegato-para-helado/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 877971,
+    "after": 431443,
+    "saving": 50.9
+  },
+  {
+    "url": "/blog/rentabilidad-heladeria-colombia/",
+    "width": 390,
+    "dpr": 1,
+    "before": 338470,
+    "after": 52732,
+    "saving": 84.4
+  },
+  {
+    "url": "/blog/rentabilidad-heladeria-colombia/",
+    "width": 768,
+    "dpr": 1,
+    "before": 661222,
+    "after": 108668,
+    "saving": 83.6
+  },
+  {
+    "url": "/blog/rentabilidad-heladeria-colombia/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 989935,
+    "after": 440667,
+    "saving": 55.5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 390,
+    "dpr": 1,
+    "before": 432210,
+    "after": 100383,
+    "saving": 76.8
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 768,
+    "dpr": 1,
+    "before": 821621,
+    "after": 181161,
+    "saving": 78.0
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 1150334,
+    "after": 529149,
+    "saving": 54.0
+  },
+  {
+    "url": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "width": 390,
+    "dpr": 1,
+    "before": 528552,
+    "after": 76754,
+    "saving": 85.5
+  },
+  {
+    "url": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "width": 768,
+    "dpr": 1,
+    "before": 539891,
+    "after": 98766,
+    "saving": 81.7
+  },
+  {
+    "url": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 868604,
+    "after": 456765,
+    "saving": 47.4
+  },
+  {
+    "url": "/blog/crema-de-whisky-para-helado-variegato/",
+    "width": 390,
+    "dpr": 1,
+    "before": 376410,
+    "after": 70834,
+    "saving": 81.2
+  },
+  {
+    "url": "/blog/crema-de-whisky-para-helado-variegato/",
+    "width": 768,
+    "dpr": 1,
+    "before": 558997,
+    "after": 88449,
+    "saving": 84.2
+  },
+  {
+    "url": "/blog/crema-de-whisky-para-helado-variegato/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 877971,
+    "after": 431443,
+    "saving": 50.9
+  },
+  {
+    "url": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "width": 390,
+    "dpr": 1,
+    "before": 327836,
+    "after": 98095,
+    "saving": 70.1
+  },
+  {
+    "url": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "width": 768,
+    "dpr": 1,
+    "before": 332778,
+    "after": 104403,
+    "saving": 68.6
+  },
+  {
+    "url": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 628973,
+    "after": 430653,
+    "saving": 31.5
+  },
+  {
+    "url": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "width": 390,
+    "dpr": 1,
+    "before": 323479,
+    "after": 98095,
+    "saving": 69.7
+  },
+  {
+    "url": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "width": 768,
+    "dpr": 1,
+    "before": 332778,
+    "after": 114028,
+    "saving": 65.7
+  },
+  {
+    "url": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 628973,
+    "after": 430653,
+    "saving": 31.5
+  },
+  {
+    "url": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "width": 390,
+    "dpr": 1,
+    "before": 328809,
+    "after": 104205,
+    "saving": 68.3
+  },
+  {
+    "url": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "width": 768,
+    "dpr": 1,
+    "before": 338888,
+    "after": 123169,
+    "saving": 63.7
+  },
+  {
+    "url": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 628973,
+    "after": 430653,
+    "saving": 31.5
+  },
+  {
+    "url": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "width": 390,
+    "dpr": 1,
+    "before": 630498,
+    "after": 71029,
+    "saving": 88.7
+  },
+  {
+    "url": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "width": 768,
+    "dpr": 1,
+    "before": 636921,
+    "after": 82067,
+    "saving": 87.1
+  },
+  {
+    "url": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "width": 1440,
+    "dpr": 1,
+    "before": 959650,
+    "after": 433199,
+    "saving": 54.9
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "dpr": 2,
+    "before": 1109680,
+    "after": 315082,
+    "saving": 71.6
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "dpr": 2,
+    "before": 1106327,
+    "after": 311729,
+    "saving": 71.8
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "dpr": 2,
+    "before": 1400807,
+    "after": 672997,
+    "saving": 52.0
+  },
+  {
+    "url": "/blog/",
+    "width": 390,
+    "dpr": 2,
+    "before": 2796755,
+    "after": 578073,
+    "saving": 79.3
+  },
+  {
+    "url": "/blog/",
+    "width": 768,
+    "dpr": 2,
+    "before": 2796755,
+    "after": 578073,
+    "saving": 79.3
+  },
+  {
+    "url": "/blog/",
+    "width": 1440,
+    "dpr": 2,
+    "before": 3125468,
+    "after": 955519,
+    "saving": 69.4
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 390,
+    "dpr": 2,
+    "before": 836133,
+    "after": 200346,
+    "saving": 76.0
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 768,
+    "dpr": 2,
+    "before": 984597,
+    "after": 224061,
+    "saving": 77.2
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 1440,
+    "dpr": 2,
+    "before": 1307326,
+    "after": 554796,
+    "saving": 57.6
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 390,
+    "dpr": 2,
+    "before": 395269,
+    "after": 138140,
+    "saving": 65.1
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 768,
+    "dpr": 2,
+    "before": 636921,
+    "after": 138140,
+    "saving": 78.3
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "width": 1440,
+    "dpr": 2,
+    "before": 959650,
+    "after": 479717,
+    "saving": 50.0
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 390,
+    "dpr": 2,
+    "before": 432210,
+    "after": 238070,
+    "saving": 44.9
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 768,
+    "dpr": 2,
+    "before": 821621,
+    "after": 288494,
+    "saving": 64.9
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 1440,
+    "dpr": 2,
+    "before": 1150334,
+    "after": 617207,
+    "saving": 46.3
+  }
+]

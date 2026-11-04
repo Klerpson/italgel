@@ -99,8 +99,14 @@ layout: mercato
     </div>
     {%- if page.hero %}
     <picture class="articulo-cabecera__foto">
+      {%- assign _hero_alt = page.alt | default: page.title -%}
+      {%- assign _hero_title = page.hero_title | default: page.alt -%}
+      {%- if site.data.imagenes_blog.imagenes[page.hero] -%}
+      {% include mercato/imagen-blog.html origen=page.hero alt=_hero_alt title=_hero_title contexto="hero" prioridad=true %}
+      {%- else -%}
       {%- if page.hero_s %}<source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">{% endif %}
-      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt | default: page.title }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 1200 }}" height="{{ page.hero_h | default: 640 }}" fetchpriority="high" decoding="async">
+      <img src="{{ page.hero | relative_url }}" alt="{{ _hero_alt }}" title="{{ _hero_title }}" width="{{ page.hero_w | default: 1200 }}" height="{{ page.hero_h | default: 640 }}" fetchpriority="high" decoding="async">
+      {%- endif %}
     </picture>
     {%- endif %}
   </div>

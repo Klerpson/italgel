@@ -338,6 +338,8 @@
 }
 
 @layer utilidades {
+  /* Fotografías a su proporción real; el componente limita el ancho a la fuente disponible. */
+  .foto-fiel { display: grid; place-items: center; img { height: auto; min-height: 0; aspect-ratio: auto; object-fit: contain; } }
   .visualmente-oculto { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   a.visualmente-oculto:focus { position: fixed !important; top: var(--space-sm); left: var(--space-sm); z-index: 50; width: auto; height: auto; clip-path: none; padding: var(--space-sm) var(--space-md); background: var(--color-texto); color: var(--color-fondo); }
 }

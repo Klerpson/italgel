@@ -121,7 +121,7 @@
     "description": "{{ page.description | escape }}",
     "url": "{{ page.url | absolute_url }}",
     {% if page.layout == 'products' %}
-    "image": "{{ page.hero | absolute_url | default: site.social_image | absolute_url }}",
+    "image": "{{ og_image | default: page.hero | default: site.social_image | absolute_url }}",
     {% endif %}
     "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}",
     "isPartOf": {

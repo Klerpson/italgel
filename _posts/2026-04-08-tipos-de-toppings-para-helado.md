@@ -103,7 +103,7 @@ Si quieres saber qué cobertura o salsa encaja con los sabores de tu vitrina, {%
 
 El costo por porción de un topping es el precio del empaque dividido entre las porciones que salen de él, más la merma. Es el dato que necesitas para fijar el precio adicional que cobras por cada topping.
 
-![Dosificador y cuchara medidora para servir porciones iguales de topping en heladería]({{'/img/blog/control-porciones-toppings-heladeria.avif' | relative_url}} "Porciones medidas de topping en una heladería"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/control-porciones-toppings-heladeria.avif" alt="Recipientes con distintos toppings para heladería" title="Variedad de toppings para heladería" contexto="body" %}</p>
 
 - **Sólidos (granelas, chispas, galleta):** porciones = gramos del empaque ÷ gramos que sirves. Si decides servir 30 g por copa, un empaque de 1 kg da 33 porciones; el costo por porción es el precio del kilo dividido entre 33.
 - **Salsas y coberturas:** porciones = mililitros del envase ÷ mililitros por porción. Con 40 ml por porción, un envase de 2 litros da 50 porciones.

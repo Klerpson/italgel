@@ -50,7 +50,7 @@ El overrun es el porcentaje de aumento del volumen del helado frente a la cantid
 
 El aire entra en la etapa final del mantecado, a unos −5 °C, según la guía de helados de Callebaut. Cumple dos funciones: da la estructura suave del helado y hace que se sienta menos frío en el paladar, porque las burbujas se ubican entre los cristales de hielo y los sólidos de la mezcla. Callebaut advierte que con muy poco aire el helado resulta demasiado frío al comerlo.
 
-![Proceso de mantecado incorporando aire en helado artesanal]({{'/img/blog/proceso-mantecado-incorporacion-aire.avif' | relative_url}} "El mantecado incorpora aire de forma controlada y convierte la mezcla líquida en helado"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/proceso-mantecado-incorporacion-aire.avif" alt="Proceso de mantecado incorporando aire en helado artesanal" title="El mantecado incorpora aire de forma controlada y convierte la mezcla líquida en helado" contexto="body" %}</p>
 
 ## Fórmula del overrun por volumen y por peso, con ejemplos resueltos
 
@@ -73,7 +73,7 @@ Por peso solo necesitas una balanza y un recipiente de volumen conocido. Un litr
 - **Guelph:** si 1 litro de helado pesa 560 g y el de mezcla 1.090 g → (1.090 − 560) / 560 × 100 = **94,6 %**.
 - **Callebaut:** si la mezcla pesa 1.000 g y el mismo volumen de helado 720 g → (1.000 − 720) / 720 × 100 = **38,9 %**.
 
-![Balanza digital midiendo peso de helado para calcular overrun]({{'/img/blog/medicion-peso-helado-overrun.avif' | relative_url}} "El cálculo por peso solo necesita una balanza y un recipiente de volumen conocido"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/medicion-peso-helado-overrun.avif" alt="Distintas presentaciones de helado: cono, copa, paleta y vaso" title="Presentaciones de helado artesanal" contexto="body" %}</p>
 
 ### Cuánto pesa un litro de helado según el overrun
 
@@ -113,7 +113,7 @@ Cada base de MEC3 está formulada para un tipo de helado:
 - [Base 50 MEC3]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}), base de leche para fiordilatte y cremas, según MEC3.
 - [Supergelmix]({{ '/bases-helado-colombia/supergelmix/' | relative_url }}), base para helados de fruta preparada con agua, según MEC3.
 
-![Comparación de texturas de helado con diferentes porcentajes de overrun]({{'/img/blog/comparacion-texturas-overrun-helado.avif' | relative_url}} "Cada tipo de helado trabaja con un rango de overrun distinto"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/comparacion-texturas-overrun-helado.avif" alt="Comparación de texturas de helado con diferentes porcentajes de overrun" title="Cada tipo de helado trabaja con un rango de overrun distinto" contexto="body" %}</p>
 
 ### Límite legal del overrun: Estados Unidos y Colombia
 

@@ -1,0 +1,142 @@
+[
+  {
+    "path": "img/mantecadora-valmar-gelato.avif",
+    "previous_path": "img/mantecadora-valmar-gelato.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      540,
+      810
+    ],
+    "recovered": [
+      560,
+      700
+    ],
+    "saved": true
+  },
+  {
+    "path": "img/base-50-mec3-empaque.avif",
+    "previous_path": "img/base-50-mec3-empaque.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      440,
+      550
+    ],
+    "recovered": [
+      560,
+      700
+    ],
+    "saved": true
+  },
+  {
+    "path": "img/vitrina-helado.avif",
+    "previous_path": "img/vitrina-helado.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      560,
+      700
+    ],
+    "recovered": [
+      560,
+      700
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/coberturas-salsas-quella.avif",
+    "previous_path": "img/coberturas-salsas-quella.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      280,
+      280
+    ],
+    "recovered": [
+      280,
+      280
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/bases-helado-mec3.avif",
+    "previous_path": "img/bases-helado-mec3.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      280,
+      280
+    ],
+    "recovered": [
+      280,
+      280
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/insumos-heladeria-italgel.avif",
+    "previous_path": "img/insumos-heladeria-italgel.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      584,
+      584
+    ],
+    "recovered": [
+      584,
+      584
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/equipos-heladeria-coldelite.avif",
+    "previous_path": "img/equipos-heladeria-coldelite.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      584,
+      584
+    ],
+    "recovered": [
+      584,
+      584
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/pasteurizadora-italgel.avif",
+    "previous_path": "img/pasteurizadora-italgel.png",
+    "commit": "9c6698038db626f6a93f8f8068b6c4c9933cc848",
+    "old": [
+      280,
+      280
+    ],
+    "recovered": [
+      280,
+      280
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/mantecadora-artesanal-coldelite.avif",
+    "previous_path": "img/mantecadora-artesanal-coldelite.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      280,
+      280
+    ],
+    "recovered": [
+      280,
+      280
+    ],
+    "saved": false
+  },
+  {
+    "path": "img/maquina-soft-coldelite.avif",
+    "previous_path": "img/maquina-soft-coldelite.png",
+    "commit": "57ae8dd66b00060dc68df8e137bfe8e092ffe101",
+    "old": [
+      280,
+      280
+    ],
+    "recovered": [
+      280,
+      280
+    ],
+    "saved": false
+  }
+]

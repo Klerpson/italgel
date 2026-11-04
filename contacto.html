@@ -179,15 +179,7 @@ hero_h: 720
         </ul>
         {% include boton.html num="1" text="Solicitar asesoría inicial" %}
       </div>
-      <img
-        src="{{ '/img/asesoria-tecnica-heladeria-colombia.avif' | relative_url }}"
-        alt="Asesoría técnica personalizada para heladerías profesionales de Italgel Colombia"
-        title="Asesoría técnica Italgel"
-        loading="lazy"
-        decoding="async"
-        width="584"
-        height="584"
-      />
+      {% include mercato/imagen-catalogo.html origen="/img/asesoria-tecnica-heladeria-colombia.avif" alt="Asesoría técnica personalizada para heladerías profesionales de Italgel Colombia" title="Asesoría técnica Italgel" contexto="body" %}
     </article>
   </section>
 

@@ -1,0 +1,2557 @@
+[
+  {
+    "source": "/img/asesoria-tecnica-heladeria-colombia.avif",
+    "master": "img\\asesoria-tecnica-heladeria-colombia.avif",
+    "sha256": "93665cc529e228719e1ab0c586945aeb6d36f6f4d015345a8ebcd48de969c6d1",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 45888,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/asesoria-tecnica-heladeria-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/asesoria-tecnica-heladeria-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/asesoria-tecnica-heladeria-colombia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/base-50-mec3-empaque.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\base-50-mec3-empaque.png",
+    "sha256": "009a662be30b4fa86a40e5c20eb8349de4c4e088d5c103caf5e4d182d0dbba64",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 32518,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/base-50-mec3-empaque-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-empaque-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-empaque-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/base-50-mec3-helado-profesional.avif",
+    "master": "img\\base-50-mec3-helado-profesional.avif",
+    "sha256": "e6eebc6e555ea4d8686c93eeb1218e91d76ee2157f70d30250191a8715bdc8b9",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 23794,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/base-50-mec3-helado-profesional-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/base-50-mec3-italgel.avif",
+    "master": "img\\base-50-mec3-italgel.avif",
+    "sha256": "811067e36418e1bac2de12679d11e92231d5f36e86b07401f02dc215f8ef6735",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 53393,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/base-50-mec3-italgel-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-italgel-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-italgel-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/base-divina-helado-gourmet.avif",
+    "master": "img\\base-divina-helado-gourmet.avif",
+    "sha256": "626bb2f2271acc3a8e5394ca77ebcfa3a85f7079431d0f77208c1d33a982af5b",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 38113,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/base-divina-helado-gourmet-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/bases-helado-italgel-colombia.avif",
+    "master": "img\\bases-helado-italgel-colombia.avif",
+    "sha256": "8489a243d5df9378eb1d73d8c865027869993a3889739f1aef09b49046b62f4c",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 39564,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/bases-helado-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/bases-helado-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/bases-helado-italgel-colombia-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/bases-helado-mec3.avif",
+    "master": "img\\bases-helado-mec3.avif",
+    "sha256": "74c7817b4ab6c22662a7a980159d3bd161c4a719d11bf8b304807c2dc4454dbf",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 5125,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/bases-helado-mec3-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/bases-stevia-helado.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\stevia.jpg",
+    "sha256": "60cfdbfd7e4345e8d4dcbc0c58d9c95ab89bb6b169a929bd80f075cbaf0f1c62",
+    "master_size": [
+      492,
+      492
+    ],
+    "old_bytes": 16290,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/bases-stevia-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/bases-stevia-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/bases-stevia-helado-492.avif",
+        "width": 492
+      }
+    ]
+  },
+  {
+    "source": "/img/coberturas-helado-italgel-colombia.avif",
+    "master": "img\\coberturas-helado-italgel-colombia.avif",
+    "sha256": "b862ecec4914c03eb6f6d72535ec34d29cd7c9b2230e8b0841f15e5e7264abeb",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 45798,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/coberturas-salsas-quella.avif",
+    "master": "img\\coberturas-salsas-quella.avif",
+    "sha256": "9d6c786e14267197e185130a698ded32cfc545737828c39bf5381b16aa8dfe2d",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 7542,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/coberturas-salsas-quella-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/coldelite-compacta-3-soft.avif",
+    "master": "img\\coldelite-compacta-3-soft.avif",
+    "sha256": "faa519290c4db3b9b8c689b1878a3ea660131606177171b1e81dc171e7f6bacc",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 26358,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/coldelite-compacta-3-soft-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/coldelite-compacta-3-soft-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/coldelite-compacta-3-soft.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/compresor-aspera-coldelite.avif",
+    "master": "img\\compresor-aspera-coldelite.avif",
+    "sha256": "9836a2a0dc0855d026881ca57b610438b1b1b1d3883824e39212ca84a3bb413b",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 13190,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/compresor-aspera-coldelite-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/compresor-aspera-coldelite-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/compresor-aspera-coldelite.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/contacto-italgel-colombia.avif",
+    "master": "img\\contacto-italgel-colombia.avif",
+    "sha256": "b218a5c9d14c4d78f79d821e6b1c5e9eb90c2d66db642bb61364ef5e3029710f",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 75753,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/contacto-italgel-colombia.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/easybest-refrigeracion-helados.avif",
+    "master": "img\\easybest-refrigeracion-helados.avif",
+    "sha256": "fb7caec1869c26e0f4c495f958428125010abd28a040a7916a448150d33e7d26",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 6419,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/easybest-refrigeracion-helados-300.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/equipos-heladeria-coldelite.avif",
+    "master": "img\\equipos-heladeria-coldelite.avif",
+    "sha256": "de075b1c851e06a074911596554d8067f75d4d488defd722de4eff86b04655ae",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 20080,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/fiordiamarena-variegato-cerezas.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\amarena.jpg",
+    "sha256": "0c0ecd0c0dce5b175c5682e6f47413df7e8ff62b21f1ffc07963ad50051e7d9c",
+    "master_size": [
+      1920,
+      800
+    ],
+    "old_bytes": 11929,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-1080.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/fiordiarancio-naranja-variegato.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\naranja.jpg",
+    "sha256": "0c552c44f906ac498ac8fdc12a6f531f8a50e8df9e1072719dda7056b9bec910",
+    "master_size": [
+      472,
+      472
+    ],
+    "old_bytes": 5139,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-472.avif",
+        "width": 472
+      }
+    ]
+  },
+  {
+    "source": "/img/fiordibosco-frutos-bosque.avif",
+    "master": "img\\fiordibosco-frutos-bosque.avif",
+    "sha256": "60aaf0ad8af4dcd86ac123970a59be0439f537f96e6c250a069dfe2e7303d5d4",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 7955,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/fiordifragola-variegato-fresa.avif",
+    "master": "img\\fiordifragola-variegato-fresa.avif",
+    "sha256": "8d9062fbf82d75a03376d5b671e134096c86be65cfed5b335f6c0ba6e020a18f",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 24187,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/fiordilampone-frambuesa-variegato.avif",
+    "master": "img\\fiordilampone-frambuesa-variegato.avif",
+    "sha256": "bcf91267598486a5cabea4322942ac029df14d14a1603647f0c4c14316d8cc9a",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 8895,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/helado-pistacho-bronte-sicilia.avif",
+    "master": "img\\helado-pistacho-bronte-sicilia.avif",
+    "sha256": "66fdf933e2fa0f8e6b328292cb2c13cb1cf48fc35cf221c55d352a58892039b0",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 11447,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/helado-pistacho-bronte-sicilia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/helado-pistacho-bronte-sicilia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/helado-pistacho-bronte-sicilia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/helado-soft-supergelmix.avif",
+    "master": "img\\helado-soft-supergelmix.avif",
+    "sha256": "bad3b35ecbae574e6cfb4da8dd47dfb07234087070389583084fcf7d630f2029",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 29900,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/helado-soft-supergelmix-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/helado-soft-supergelmix-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/helado-soft-supergelmix-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/helado-soft-textura-supergelmix.avif",
+    "master": "img\\helado-soft-textura-supergelmix.avif",
+    "sha256": "1e6f70918c87972742cc2c05a706230972029e1678bf314eb5bf862681c3a1c6",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 25300,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/helado-soft-textura-supergelmix-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/helado-soft-textura-supergelmix-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/helado-soft-textura-supergelmix-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/helado-vainas-vainilla-madagascar.avif",
+    "master": "img\\helado-vainas-vainilla-madagascar.avif",
+    "sha256": "b28f7a374b91d71b737133ebc9b45121c33cd7f8eab7e4a5aef7e86e154f8ab6",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 14701,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/helado-vainas-vainilla-madagascar.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/hero-insumos-heladeria-barranquilla.avif",
+    "master": "img\\contacto-italgel-colombia.avif",
+    "sha256": "b218a5c9d14c4d78f79d821e6b1c5e9eb90c2d66db642bb61364ef5e3029710f",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 18946,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/contacto-italgel-colombia.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/hero-insumos-heladeria-bucaramanga.avif",
+    "master": "img\\contacto-italgel-colombia.avif",
+    "sha256": "b218a5c9d14c4d78f79d821e6b1c5e9eb90c2d66db642bb61364ef5e3029710f",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 18946,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/contacto-italgel-colombia.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/hero-insumos-heladeria-cali.avif",
+    "master": "img\\contacto-italgel-colombia.avif",
+    "sha256": "b218a5c9d14c4d78f79d821e6b1c5e9eb90c2d66db642bb61364ef5e3029710f",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 18946,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/contacto-italgel-colombia.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/hero-insumos-heladeria-medellin.avif",
+    "master": "img\\contacto-italgel-colombia.avif",
+    "sha256": "b218a5c9d14c4d78f79d821e6b1c5e9eb90c2d66db642bb61364ef5e3029710f",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 18946,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/contacto-italgel-colombia.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/historia-italgel-colombia.avif",
+    "master": "img\\historia-italgel-colombia.avif",
+    "sha256": "e00b87f34f0acf38bc88adbbdd0ed765d319fe6fcf50afa3d281c4e1f397f383",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 17536,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/historia-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/historia-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/historia-italgel-colombia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/iceteam.avif",
+    "master": "img\\iceteam.avif",
+    "sha256": "616879072a3c504df6ee758f6e0642944578340b6fdf31f3f32dc4f16f58bbe2",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 1434,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/iceteam.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/insumos-heladeria-italgel.avif",
+    "master": "img\\insumos-heladeria-italgel.avif",
+    "sha256": "fed091ee778be01175cfe05165068ba4a8198a8f34aab97693a275b4c5b8dc0d",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 43006,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/insumos-heladeria-italgel-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/insumos-heladeria-italgel-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/insumos-heladeria-italgel-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/italgel-colombia-distribuidor-heladerias.avif",
+    "master": "img\\italgel-colombia-distribuidor-heladerias.avif",
+    "sha256": "bc45149a47f74e1db5555ecbae2411ef83a7530d1691b7a9541f8dbd26a4acd8",
+    "master_size": [
+      1080,
+      720
+    ],
+    "old_bytes": 65213,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/italgel-colombia-distribuidor-heladerias-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/italgel-colombia-distribuidor-heladerias-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/italgel-colombia-distribuidor-heladerias-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/italgel-colombia-distribuidor-heladerias-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/italgel-colombia-distribuidor-heladerias.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/mantecadora-artesanal-coldelite.avif",
+    "master": "img\\mantecadora-artesanal-coldelite.avif",
+    "sha256": "c00689110f096dddd18ec5321eec940c824364ca65d99816abc440c15ff4c4be",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 5984,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/mantecadora-artesanal-coldelite-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/mantecadora-valmar-gelato.avif",
+    "master": "img\\mantecadora-valmar-gelato.avif",
+    "sha256": "1376ea308c86be202cdbb00c3f69b789b64624d006ba7665a2d0ee1998ce98d1",
+    "master_size": [
+      540,
+      810
+    ],
+    "old_bytes": 19332,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/mantecadora-valmar-gelato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/mantecadora-valmar-gelato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/mantecadora-valmar-gelato.avif",
+        "width": 540
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-coldelite-soft-sabores.avif",
+    "master": "img\\maquina-coldelite-soft-sabores.avif",
+    "sha256": "665d5ad0b713947638c71ef84f488d0c3a19ea2b5b6918933b8e09d071ab1168",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 8161,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-coldelite-soft-sabores-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/maquina-coldelite-soft-sabores-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/maquina-coldelite-soft-sabores-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-helados-artesanal.avif",
+    "master": "img\\maquina-helados-artesanal.avif",
+    "sha256": "41ed74234cb2c0996202d81b0eac051be7e5755c1c03ec5999fcd4b2cdacc9ee",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 25773,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-helados-artesanal-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/maquina-helados-artesanal-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/maquina-helados-artesanal.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-industrial-helado.avif",
+    "master": "img\\maquina-industrial-helado.avif",
+    "sha256": "17f7cb3884baf35318701bb67a45223e8ab4b7fcc6c9730deb99ccc408a2b07c",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 22297,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-industrial-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/maquina-industrial-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/maquina-industrial-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-industrial-soft.avif",
+    "master": "img\\maquina-industrial-soft.avif",
+    "sha256": "ffba2a204a4756e73787c6047b7f7e74a83acc92a8186bfe55f9f44f05f71273",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 13957,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-industrial-soft-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/maquina-industrial-soft-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/maquina-industrial-soft.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-soft-301.avif",
+    "master": "img\\maquina-soft-301.avif",
+    "sha256": "9831704a9f47b77bc9fdcfddfaccc025a269361362c536cbacac6c33fe959e52",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 12839,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-soft-301-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-soft-coldelite.avif",
+    "master": "img\\maquina-soft-coldelite.avif",
+    "sha256": "2e90cfa2bb6d61c48ed672b39781f4739e850fc9154cfc285ef094633c7cacd7",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 3923,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-soft-coldelite-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/maquina-soft-mesa-negocio.avif",
+    "master": "img\\maquina-soft-mesa-negocio.avif",
+    "sha256": "2a8c5a433357b317613d188d50bef14d72c7594be49104e3772afdfda2ed8c3a",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 15117,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/maquinas-helado-italitanas-coldelite.avif",
+    "master": "img\\maquinas-helado-italitanas-coldelite.avif",
+    "sha256": "dceda14dd9808d486be17a317b5a328460e16fe352e00a6174f3e2f6137e048b",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 1821,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/maquinas-helado-sagi.avif",
+    "master": "img\\maquinas-helado-sagi.avif",
+    "sha256": "3fefa07cbb2dcd7d376c1fb4904d700cf2a45cb5b35f114c06e97d801d83c6eb",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 1820,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/maquinas-soft-pasmo-S121.avif",
+    "master": "img\\maquinas-soft-pasmo-S121.avif",
+    "sha256": "859ae5faeed101c9aafc3383e42331d0d5f9d1dce18cf1a4ca7c22ec51cdea7d",
+    "master_size": [
+      280,
+      344
+    ],
+    "old_bytes": 5160,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/maquinas-soft-pasmo-S121.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/neutralin-plus-helado-cremoso.avif",
+    "master": "img\\neutralin-plus-helado-cremoso.avif",
+    "sha256": "7aacd327bc28f85df7087bd9f06c06e34b65cbab31475f0fc795ea6d4a26faad",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 51164,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/neutralin-plus-helado-cremoso-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/neutralin-plus-mec3-gelato.avif",
+    "master": "img\\neutralin-plus-mec3-gelato.avif",
+    "sha256": "9941056684206bf04aa8e2bdf41157c32270ebb819692549b6e0e988131992fb",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 38900,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/neutralin-plus-mec3-gelato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/neutralin-plus-mec3-gelato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-almendras-helado-artesanal.avif",
+    "master": "img\\pasta-almendras-helado-artesanal.avif",
+    "sha256": "ef78e5c302e9669642c977751c6ee3fceedb4547a5778882cc909f8b8658ae2c",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 10721,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-arandano-helado-sorbet.avif",
+    "master": "img\\pasta-arandano-helado-sorbet.avif",
+    "sha256": "7176137a707cb7e31c999eac88cea1bc19c7845b802b72256846f5b78f469782",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 5459,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-avellana-selection-helado.avif",
+    "master": "img\\pasta-avellana-selection-helado.avif",
+    "sha256": "51f5ddca44232c08bcca7040cb30ba99ade65038f1d969402f633a6212ad01f8",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 13253,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-caramelo-helado-dulce-leche.avif",
+    "master": "img\\pasta-caramelo-helado-dulce-leche.avif",
+    "sha256": "dafc46b4ce0cad3fda3701c56f7000bafc51dee8f237d5c15f0ae290ef83d14a",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 11994,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-caramelo-helado-dulce-leche-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-chocolate-blanco-helado.avif",
+    "master": "img\\pasta-chocolate-blanco-helado.avif",
+    "sha256": "0442595b2cff5833d68002c812ddccca194ffd6bd707b568b706d0f33e8164cd",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 4720,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-chocolate-helado-artesanal.avif",
+    "master": "img\\pasta-chocolate-helado-artesanal.avif",
+    "sha256": "781fee5ec2ef8a8738591bce83c0fe888f5e6800b9d923bda6478a83ca6b5a5a",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 7459,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-coco-helado-tropical.avif",
+    "master": "img\\pasta-coco-helado-tropical.avif",
+    "sha256": "369174b47bde2d542f71a619b5bf66c7a6614e837b2e3446873905e40c002ccf",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 9272,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-coco-helado-tropical-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-dragon-summer-helado-exotico.avif",
+    "master": "img\\pasta-dragon-summer-helado-exotico.avif",
+    "sha256": "37063fa991561c20986109a4e1afaa59650e3fc37061cd05ef77882fc4c68145",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 17951,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-fresa-helado-natural.avif",
+    "master": "img\\fiordifragola-variegato-fresa.avif",
+    "sha256": "8d9062fbf82d75a03376d5b671e134096c86be65cfed5b335f6c0ba6e020a18f",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 6435,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-frutos-bosque-helado.avif",
+    "master": "img\\pasta-frutos-bosque-helado.avif",
+    "sha256": "e3d111034bcbf73590972c6fac975ff971088c3e044d969d96a2531ea5d78582",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 8134,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-frutos-bosque-helado-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-limon-siciliano-sorbet.avif",
+    "master": "img\\pasta-limon-siciliano-sorbet.avif",
+    "sha256": "cc0eca9905dafc1733b20397a18ca3eade27a02da54be048c1bb1e68df6f76ac",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 5139,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-mandarina-helado-citrico.avif",
+    "master": "img\\pasta-mandarina-helado-citrico.avif",
+    "sha256": "4d58d8b59852daddd1173f6661c40d539dcb5a7e7495a6e26088b899b6a9add6",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 10286,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-pistacho-mec3-helado.avif",
+    "master": "img\\pasta-pistacho-mec3-helado.avif",
+    "sha256": "e550580e3f20e1a9096ee26c67fc526415685790be03792d4a1f61d7a8b4c959",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 42689,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-pistacho-siciliano-mec3.avif",
+    "master": "img\\pasta-pistacho-siciliano-mec3.avif",
+    "sha256": "123db6605c34928612cb85f5e659a4879e2463d04bcba1173ee7bee34157f5c4",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 38628,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-pistacho-siciliano-mec3-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-siciliano-mec3-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-siciliano-mec3-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-stracciatella-chips-chocolate.avif",
+    "master": "img\\pasta-stracciatella-chips-chocolate.avif",
+    "sha256": "9bb27cce0c8c16cb6c39986c3e2ea58d6a4adfa64d4b922d07448bdccb0db353",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 17082,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-vainilla-bourbon-helado.avif",
+    "master": "img\\pasta-vainilla-bourbon-helado.avif",
+    "sha256": "ff038f9b8b29a9e942943fada8026eb44233a5a74fd02885c277216b882121ed",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 8272,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-helado-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pasta-vainilla-bourbon-mec3.avif",
+    "master": "img\\pasta-vainilla-bourbon-mec3.avif",
+    "sha256": "fef71c1b30dd6807b86150d3cc631780bda2bd431f0315b2e9a0751ef1308e6d",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 24122,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-mec3-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-mec3-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pastas-concentradas-mec3.avif",
+    "master": "img\\pastas-concentradas-mec3.avif",
+    "sha256": "c00911d1aa4828a3eb557b6a4d5b069ca166c3ae697f3a5170fe5ac2625d656c",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 8689,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pastas-concentradas-mec3-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pastas-fruta-helado.avif",
+    "master": "img\\pastas-fruta-helado.avif",
+    "sha256": "dcf5af5b057db7e9c8970fa25af72ee99ca99a844dcb9ec65419a9c3ee4745cb",
+    "master_size": [
+      520,
+      520
+    ],
+    "old_bytes": 39602,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "width": 520
+      }
+    ]
+  },
+  {
+    "source": "/img/pastas-helado-italgel-colombia.avif",
+    "master": "img\\pastas-helado-italgel-colombia.avif",
+    "sha256": "c9f3068e3ac27fe4ac43b73b99222ebfd5e49112319fc514f18c5661ab994321",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 33475,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pastas-premium-helado.avif",
+    "master": "img\\pastas-premium-helado.avif",
+    "sha256": "c9f3068e3ac27fe4ac43b73b99222ebfd5e49112319fc514f18c5661ab994321",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 33475,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pasteurizadora-italgel.avif",
+    "master": "img\\pasteurizadora-italgel.avif",
+    "sha256": "17fe0db443f2e9bc893a6dcf4d6350a4359af0a932bb4730bd0d41e80dc14ae6",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 13834,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pasteurizadora-italgel-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/pistacho-bronte-sicilia-helado.avif",
+    "master": "img\\pistacho-bronte-sicilia-helado.avif",
+    "sha256": "f7718aa25a422bb668984127cd2c380ab4a966a7c98a807b05f7e77c10dd3be8",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 20542,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pistacho-bronte-sicilia-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pistacho-bronte-sicilia-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pistacho-bronte-sicilia-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pistacho-bronte-sicilia.avif",
+    "master": "img\\pistacho-bronte-sicilia.avif",
+    "sha256": "4c60899c44594c71e6c671bd17d731e956de93db2b75e8658fe92eef1847520f",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 24036,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pistacho-bronte-sicilia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pistacho-bronte-sicilia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/pistacho-bronte-sicilia-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/pistacho-sicilia.avif",
+    "master": "img\\pistacho-sicilia.avif",
+    "sha256": "ed3899f6cc0b2daba6972620ac703512001f94c77fb21e74ca973ee2de6a17c7",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 23859,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/pistacho-sicilia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/pistacho-sicilia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/pistacho-sicilia.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/produccion-helado-industrial.avif",
+    "master": "img\\produccion-helado-industrial.avif",
+    "sha256": "93bd6a94f7045e45434d8191b0d1241cadc07f356ed2b2e8f66ff926b553af25",
+    "master_size": [
+      1280,
+      680
+    ],
+    "old_bytes": 35171,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-600.avif",
+        "width": 600
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-800.avif",
+        "width": 800
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-1080.avif",
+        "width": 1080
+      }
+    ]
+  },
+  {
+    "source": "/img/produccion-helado.avif",
+    "master": "img\\produccion-helado.avif",
+    "sha256": "f913459f09e7b61c8137d226d80dfd2adc720d9d6323b6f9fb59245678f93d5b",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 30386,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/produccion-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/produccion-helado.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/productos-mec3-italia-colombia.avif",
+    "master": "img\\productos-mec3-italia-colombia.avif",
+    "sha256": "4e4b6a90bceda9d6db590c851ebf1db55da41c6e9ead6ca862dd22fb6610ae4f",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 38760,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/productos-mec3-italia-colombia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/productos-mec3-italia-colombia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/proveedor-mezclas-helado-mec3.avif",
+    "master": "img\\proveedor-mezclas-helado-mec3.avif",
+    "sha256": "5ed852ed592033c26b7030275a68315f65c8c8e415ded565ae0ec43bd399fb81",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 3655,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-dark-chocolate-oscuro.avif",
+    "master": "img\\quella-dark-chocolate-oscuro.avif",
+    "sha256": "39f1992c705417f4aa907e0d6473131e1e0aaad9453823551be1311002f34725",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 6018,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-dark-chocolate-oscuro-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-family-productos.avif",
+    "master": "img\\quella-family-productos.avif",
+    "sha256": "3c9f81b3c10368b9e7c3cd6e727385d3689bae20ecdbb0330f8952394b58472f",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 65293,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-family-productos-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/quella-family-productos-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/quella-family-productos-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-family-textura.avif",
+    "master": "img\\quella-family-textura.avif",
+    "sha256": "73db7aa5a0417532d0aabf2a6c32c86aab2f7aaddb62b705f2718ae7892c9d93",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 12484,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-family-textura-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/quella-family-textura-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/quella-family-textura.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-family-variegatos.avif",
+    "master": "img\\quella-family-variegatos.avif",
+    "sha256": "109313687edacc7f0a0f532ff697ee43d8dc9ff2d004565c744f1479534d49fb",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 61605,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/quella-family-variegatos-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/quella-family-variegatos-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-original-chocolate-avellana.avif",
+    "master": "img\\quella-original-chocolate-avellana.avif",
+    "sha256": "9194fb33722191a9232ab46fe3c7534c53fec9356aa74696236d34e6a0d0d904",
+    "master_size": [
+      432,
+      432
+    ],
+    "old_bytes": 45329,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "width": 432
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-pistacchio-pistacho.avif",
+    "master": "img\\quella-pistacchio-pistacho.avif",
+    "sha256": "1d7bf48bc8d6e2b8957bc986cfa6fa235359a4ed27237cd4545dee75f4c1ef59",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 7022,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-pistacchio-pistacho-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/quella-white-chocolate-blanco.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\quella.jpg",
+    "sha256": "fb4acaa746e3ce5f6ee4d9bc547303e5a52a15468aa944d5256afd6a06d85490",
+    "master_size": [
+      492,
+      492
+    ],
+    "old_bytes": 9483,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-492.avif",
+        "width": 492
+      }
+    ]
+  },
+  {
+    "source": "/img/salsas-especiales-helado.avif",
+    "master": "img\\salsas-especiales-helado.avif",
+    "sha256": "84f5510bbd159556d0c177d2fe0ff64c97ee640a0051bf7e0d86d5a103cb946e",
+    "master_size": [
+      520,
+      520
+    ],
+    "old_bytes": 20830,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-520.avif",
+        "width": 520
+      }
+    ]
+  },
+  {
+    "source": "/img/salted-caramel-variegato.avif",
+    "master": "img\\salted-caramel-variegato.avif",
+    "sha256": "1999ce542e22e2244cbfa9d6749f61a89bfb9ae67619e7540d9ce2004f50ccee",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 9739,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/soft-textura-supergelmix.avif",
+    "master": "img\\soft-textura-supergelmix.avif",
+    "sha256": "31cdf9742f60bdc46206bd944885d0af0075bde2cd7e39afc4ce21d020131c3f",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 57372,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/soft-textura-supergelmix-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/soft-textura-supergelmix-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/soft-textura-supergelmix-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/stevia-base-g-crema.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\stevia.jpg",
+    "sha256": "60cfdbfd7e4345e8d4dcbc0c58d9c95ab89bb6b169a929bd80f075cbaf0f1c62",
+    "master_size": [
+      492,
+      492
+    ],
+    "old_bytes": 7491,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/bases-stevia-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/bases-stevia-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/bases-stevia-helado-492.avif",
+        "width": 492
+      }
+    ]
+  },
+  {
+    "source": "/img/stevia-base-g-fruta.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\fruta.jpg",
+    "sha256": "5af6059a14ce4359706a02dab2ded57937c174b4c0b2f446447173a1a98ded8b",
+    "master_size": [
+      492,
+      492
+    ],
+    "old_bytes": 9659,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/stevia-base-g-fruta-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/stevia-base-g-fruta-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/stevia-base-g-fruta-492.avif",
+        "width": 492
+      }
+    ]
+  },
+  {
+    "source": "/img/supergelmix-base-helado-soft.avif",
+    "master": "img\\supergelmix-base-helado-soft.avif",
+    "sha256": "1787f19ddc346bf8f4589224ecf06d8fb265728011c00d42d9c5145cf17bef73",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 14349,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/supergelmix-base-helado-soft-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/supergelmix-base-helado-soft.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/supergelmix-mec3-helado-soft.avif",
+    "master": "img\\supergelmix-mec3-helado-soft.avif",
+    "sha256": "f8f2e4cece9f4e7d1a1855bd9247528f3e67fdb7c7cce2e6f71a4f4ae818b22e",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 41626,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/supergelmix-mec3-helado-soft-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/supergelmix-mec3-helado-soft-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/supergelmix-mec3-helado-soft-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/tecnica-variegato.avif",
+    "master": "img\\tecnica-variegato.avif",
+    "sha256": "e43b1ef7a349175ec4034547515c1bcc07119e0417a5adad782b2a77c9a50986",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 48586,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/tecnica-variegato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/tecnica-veteado-variegato-helado.avif",
+    "master": "img\\tecnica-veteado-variegato-helado.avif",
+    "sha256": "c8ccbb9cdeed006f1c89b5f707c3d7899e1d9889f4def176c7615ac3211bbd53",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 28618,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/tecnica-veteado-variegato-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/tecnica-veteado-variegato.avif",
+    "master": "img\\tecnica-veteado-variegato.avif",
+    "sha256": "6ea76fa6146a773ebd08412e87f5e9080eabded540bce3db4398e5dc15652452",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 42807,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/textura-gelato-neutralin.avif",
+    "master": "img\\textura-gelato-neutralin.avif",
+    "sha256": "04022139578b73df873561e192b739907d17c6770be843b2b82d667fa3e2e3c4",
+    "master_size": [
+      520,
+      650
+    ],
+    "old_bytes": 50966,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/textura-gelato-neutralin-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/textura-gelato-neutralin-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/textura-gelato-neutralin-520.avif",
+        "width": 520
+      }
+    ]
+  },
+  {
+    "source": "/img/textura-neutralin.avif",
+    "master": "img\\textura-neutralin.avif",
+    "sha256": "3a4f16ba4c6ce95c37b8b6ba1fc6afa091df03a224bcf5a8d0cd478239a38618",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 12955,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/textura-neutralin-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/textura-neutralin-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/textura-neutralin.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/tiramisu-variegato-italiano.avif",
+    "master": "img\\tiramisu-variegato-italiano.avif",
+    "sha256": "a66137488e9d4bb15e638f7cdeeca9ec24bd33d9ce87647d52312ab489f9cf8e",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 4189,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/toppings-helado-valmar.avif",
+    "master": "img\\toppings-helado-valmar.avif",
+    "sha256": "2cc9dde29c2970139e6790556fb1f545010424fbfa0c331bf6c8f0ab8a8061c7",
+    "master_size": [
+      300,
+      100
+    ],
+    "old_bytes": 2110,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "source": "/img/vainas-vainilla-madagascar-helado.avif",
+    "master": "img\\vainas-vainilla-madagascar-helado.avif",
+    "sha256": "9b0bf738fcc327237d1aab668ed41625e73860da338f51c3866b3df60b54eca7",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 9949,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/vainas-vainilla-madagascar.avif",
+    "master": "img\\vainas-vainilla-madagascar.avif",
+    "sha256": "e03e44df7c5acf0b356adf832c330be88b5b8e68716f095850c37b766b2ca755",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 13520,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/vainas-vainilla.avif",
+    "master": "img\\vainas-vainilla.avif",
+    "sha256": "1b7ce7faa56080054e8deaded8c82c9954f76c13d10959f5cf700b4f8bdbe7a4",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 7930,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vainas-vainilla-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/vainas-vainilla.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/valmar-labotronic-he.avif",
+    "master": "img\\valmar-labotronic-he.avif",
+    "sha256": "370d842027006154262d5676e71f4911ddc12c8ad115b86f1597c8839da9a7e4",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 4804,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/valmar-labotronic-he-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/valmar-pastomaster.avif",
+    "master": "img\\valmar-pastomaster.avif",
+    "sha256": "5e150ab7b7fef54f9199837c98ed5a4e6deafb502c8585421c9f36a134f0b1b9",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 3948,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/valmar-pastomaster-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/valmar.avif",
+    "master": "img\\valmar.avif",
+    "sha256": "d7147de23566e7ee6e4175c9b1b6bfe7592bc44ec87f68526f4650ea8c55890d",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 5343,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/valmar-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/variegatos-helado.avif",
+    "master": "img\\variegatos-helado.avif",
+    "sha256": "3dc664d5a9546d985824659543ca48b9401addd7338e95c9cbbf9ede1daab4e9",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 37098,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/variegatos-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/variegatos-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/variegatos-helado.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/variegatos-quella-family-textura.avif",
+    "master": "img\\variegatos-quella-family-textura.avif",
+    "sha256": "5a3f93f251a78b613552b10f520ac4575f8056e23bb3c8b36f8531a90ac7b2cd",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 65249,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/variegatos-quella-textura.avif",
+    "master": "img\\variegatos-quella-textura.avif",
+    "sha256": "58b764b8674d38ef75a259598ee92b4057267274145bf42d878c65b18f3c37de",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 18658,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/veteado-variegato.avif",
+    "master": "img\\veteado-variegato.avif",
+    "sha256": "1f3861910ba9d66e8155fed59b35e119faf5a5d778636bc3e2e95d1f2c2d140e",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 35493,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/veteado-variegato-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/veteado-variegato-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/veteado-variegato.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/vitrina-helado-exhibicion.avif",
+    "master": "img\\vitrina-helado-exhibicion.avif",
+    "sha256": "78e1b011a34eb5abc2c6437c1fbabf951f86452ced0e2b0f422eea74a63fec8a",
+    "master_size": [
+      584,
+      396
+    ],
+    "old_bytes": 27456,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vitrina-helado-exhibicion-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/vitrina-helado.avif",
+    "master": "img\\vitrina-helado.avif",
+    "sha256": "ce0c366d9d7e46a67c4550a31a28160e0135eb9e2ea555f626d891286b5e5ff6",
+    "master_size": [
+      560,
+      700
+    ],
+    "old_bytes": 42552,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vitrina-helado-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "width": 560
+      }
+    ]
+  },
+  {
+    "source": "/img/vitrinas-congeladores.avif",
+    "master": "img\\vitrinas-congeladores.avif",
+    "sha256": "3a0c52d08044d3a1e52b04114c9a0bf4ee95c313b8f9d4224b1d1ad362efb85e",
+    "master_size": [
+      584,
+      584
+    ],
+    "old_bytes": 50805,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/vitrinas-congeladores-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/vitrinas-congeladores-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/vitrinas-congeladores-584.avif",
+        "width": 584
+      }
+    ]
+  },
+  {
+    "source": "/img/whisky-variegato-adultos.avif",
+    "master": "img\\whisky-variegato-adultos.avif",
+    "sha256": "35d161639c18e1e28ed5fdcf18c126096cefc25d662706b2114aa264fc9695b0",
+    "master_size": [
+      280,
+      280
+    ],
+    "old_bytes": 11466,
+    "replacement": false,
+    "variants": [
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "width": 280
+      }
+    ]
+  },
+  {
+    "source": "/img/yogo-greco-stevia.avif",
+    "master": "_plans\\optimizacion-imagenes-2026-11\\fase-3\\fuentes\\yogurt.jpg",
+    "sha256": "38f27dfca8ed1e4a4b2c2c359b699fccd96e3be3e75f1fff1a01cd92c9b400f9",
+    "master_size": [
+      492,
+      492
+    ],
+    "old_bytes": 5808,
+    "replacement": true,
+    "variants": [
+      {
+        "src": "/img/catalogo/yogo-greco-stevia-280.avif",
+        "width": 280
+      },
+      {
+        "src": "/img/catalogo/yogo-greco-stevia-400.avif",
+        "width": 400
+      },
+      {
+        "src": "/img/catalogo/yogo-greco-stevia-492.avif",
+        "width": 492
+      }
+    ]
+  }
+]

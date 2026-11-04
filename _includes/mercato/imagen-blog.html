@@ -1,0 +1,4 @@
+{%- comment -%}Variantes del blog desde un mismo archivo maestro conservado. Sin cambios de encuadre.{%- endcomment -%}
+{%- assign _foto_blog = site.data.imagenes_blog.imagenes[include.origen] -%}
+{%- assign _sizes_blog = _foto_blog.sizes[include.contexto] | default: site.data.imagenes_blog.sizes[include.contexto] | default: site.data.imagenes_blog.sizes.card -%}
+<img src="{{ _foto_blog.src | relative_url }}" srcset="{% include mercato/blog-srcset.html imagen=_foto_blog %}" sizes="{{ include.sizes | default: _sizes_blog }}" alt="{{ include.alt | escape }}" title="{{ include.title | default: include.alt | escape }}" width="{{ _foto_blog.width }}" height="{{ _foto_blog.height }}"{% if include.prioridad %} loading="eager" fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async">

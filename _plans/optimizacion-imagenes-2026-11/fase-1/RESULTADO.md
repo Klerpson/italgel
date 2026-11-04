@@ -2,6 +2,8 @@
 
 Completada localmente el 4 de noviembre de 2026. Sin commit, push ni publicación.
 
+Actualización del 4 de noviembre de 2026: Camilo publicó los cambios y se verificó la fase en producción. Las 44 variantes coinciden por hash y las 48 comprobaciones de tarjetas pasaron. El desbordamiento de las tablas de tablet continúa pendiente. Detalle en `produccion-2026-11-04/VALIDACION.md`. El resto de este documento conserva la evidencia de la implementación local inicial.
+
 ## Cambios
 
 - Diez fotografías reales recuperadas de los catálogos originales: seis cafeteras y cuatro molinos. Se seleccionaron las fotografías de producto, excluyendo el árbol decorativo del catálogo de molinos y las fotografías de detalle que no corresponden a la vista principal.

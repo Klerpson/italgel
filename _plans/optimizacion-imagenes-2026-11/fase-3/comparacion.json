@@ -1,0 +1,1291 @@
+{
+  "checks": 111,
+  "errors": [],
+  "enlarged_before": 65,
+  "enlarged_after": 0,
+  "enlarged": {
+    "antes": [
+      {
+        "url": "/",
+        "width": 768,
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/",
+        "width": 768,
+        "src": "/img/mantecadora-valmar-gelato.avif",
+        "scale": 1.31
+      },
+      {
+        "url": "/",
+        "width": 768,
+        "src": "/img/vitrina-helado.avif",
+        "scale": 1.26
+      },
+      {
+        "url": "/bases-helado-colombia/",
+        "width": 768,
+        "src": "/img/bases-helado-italgel-colombia.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/bases-helado-colombia/",
+        "width": 1440,
+        "src": "/img/stevia-base-g-crema.avif",
+        "scale": 1.2
+      },
+      {
+        "url": "/bases-helado-colombia/",
+        "width": 1440,
+        "src": "/img/stevia-base-g-fruta.avif",
+        "scale": 1.2
+      },
+      {
+        "url": "/bases-helado-colombia/",
+        "width": 1440,
+        "src": "/img/yogo-greco-stevia.avif",
+        "scale": 1.2
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 768,
+        "src": "/img/coberturas-helado-italgel-colombia.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/fiordibosco-frutos-bosque.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/fiordiarancio-naranja-variegato.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/quella-original-chocolate-avellana.avif",
+        "scale": 1.26
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/quella-white-chocolate-blanco.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/quella-dark-chocolate-oscuro.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/quella-pistacchio-pistacho.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/whisky-variegato-adultos.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/tiramisu-variegato-italiano.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/",
+        "width": 1440,
+        "src": "/img/salted-caramel-variegato.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/equipos/",
+        "width": 768,
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/equipos/",
+        "width": 1440,
+        "src": "/img/mantecadora-artesanal-coldelite.avif",
+        "scale": 1.15
+      },
+      {
+        "url": "/equipos/",
+        "width": 1440,
+        "src": "/img/maquina-soft-coldelite.avif",
+        "scale": 1.15
+      },
+      {
+        "url": "/equipos/",
+        "width": 1440,
+        "src": "/img/pasteurizadora-italgel.avif",
+        "scale": 1.15
+      },
+      {
+        "url": "/insumos/",
+        "width": 768,
+        "src": "/img/insumos-heladeria-italgel.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/insumos/",
+        "width": 1440,
+        "src": "/img/insumos-heladeria-italgel.avif",
+        "scale": 1.12
+      },
+      {
+        "url": "/insumos/",
+        "width": 1440,
+        "src": "/img/bases-helado-mec3.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/insumos/",
+        "width": 1440,
+        "src": "/img/pastas-concentradas-mec3.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/insumos/",
+        "width": 1440,
+        "src": "/img/coberturas-salsas-quella.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/insumos-heladeria-barranquilla/",
+        "width": 768,
+        "src": "/img/hero-insumos-heladeria-barranquilla.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/insumos-heladeria-bucaramanga/",
+        "width": 768,
+        "src": "/img/hero-insumos-heladeria-bucaramanga.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/insumos-heladeria-cali/",
+        "width": 768,
+        "src": "/img/hero-insumos-heladeria-cali.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/insumos-heladeria-medellin/",
+        "width": 768,
+        "src": "/img/hero-insumos-heladeria-medellin.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/maquinas-helado-artesanal/",
+        "width": 768,
+        "src": "/img/maquina-helados-artesanal.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/maquinas-helado-artesanal/",
+        "width": 1440,
+        "src": "/img/valmar-labotronic-he.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/maquinas-helado-artesanal/",
+        "width": 1440,
+        "src": "/img/valmar.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/maquinas-helado-artesanal/",
+        "width": 1440,
+        "src": "/img/valmar-pastomaster.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/maquinas-helado-industrial/",
+        "width": 768,
+        "src": "/img/maquina-industrial-helado.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/maquinas-helado-soft/",
+        "width": 768,
+        "src": "/img/maquina-industrial-soft.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/maquinas-helado-soft/",
+        "width": 1440,
+        "src": "/img/maquina-soft-301.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/maquinas-helado-soft/",
+        "width": 1440,
+        "src": "/img/maquinas-soft-pasmo-S121.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/pastas-sabores-helado/",
+        "width": 768,
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/productos-quella/",
+        "width": 768,
+        "src": "/img/quella-family-variegatos.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/variegatos-helado/",
+        "width": 768,
+        "src": "/img/variegatos-helado.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/vitrinas-congeladores/",
+        "width": 768,
+        "src": "/img/vitrinas-congeladores.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/bases-helado-colombia/base-50-mec3/",
+        "width": 768,
+        "src": "/img/base-50-mec3-italgel.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 390,
+        "src": "/img/bases-stevia-helado.avif",
+        "scale": 1.19
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 768,
+        "src": "/img/bases-stevia-helado.avif",
+        "scale": 2.36
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 1440,
+        "src": "/img/bases-stevia-helado.avif",
+        "scale": 1.82
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 1440,
+        "src": "/img/stevia-base-g-crema.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 1440,
+        "src": "/img/stevia-base-g-fruta.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/bases-helado-colombia/bases-stevia/",
+        "width": 1440,
+        "src": "/img/yogo-greco-stevia.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/bases-helado-colombia/neutralin-plus/",
+        "width": 768,
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/bases-helado-colombia/supergelmix/",
+        "width": 768,
+        "src": "/img/supergelmix-mec3-helado-soft.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/coberturas-salsas-helado/amarena-fabbri/",
+        "width": 768,
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "scale": 1.78
+      },
+      {
+        "url": "/coberturas-salsas-helado/amarena-fabbri/",
+        "width": 1440,
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "scale": 1.48
+      },
+      {
+        "url": "/coberturas-salsas-helado/salsas-especiales/",
+        "width": 768,
+        "src": "/img/salsas-especiales-helado.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/coberturas-salsas-helado/salsas-especiales/",
+        "width": 1440,
+        "src": "/img/salsas-especiales-helado.avif",
+        "scale": 1.13
+      },
+      {
+        "url": "/coberturas-salsas-helado/salsas-especiales/",
+        "width": 1440,
+        "src": "/img/whisky-variegato-adultos.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/salsas-especiales/",
+        "width": 1440,
+        "src": "/img/tiramisu-variegato-italiano.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/coberturas-salsas-helado/salsas-especiales/",
+        "width": 1440,
+        "src": "/img/salted-caramel-variegato.avif",
+        "scale": 1.25
+      },
+      {
+        "url": "/maquinas-helado-soft/coldelite-compacta-3/",
+        "width": 768,
+        "src": "/img/coldelite-compacta-3-soft.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/pastas-sabores-helado/pasta-pistacho/",
+        "width": 768,
+        "src": "/img/pasta-pistacho-siciliano-mec3.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/pastas-sabores-helado/pasta-vainilla/",
+        "width": 768,
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/pastas-sabores-helado/pastas-clasicas/",
+        "width": 768,
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "scale": 1.21
+      },
+      {
+        "url": "/pastas-sabores-helado/pastas-fruta/",
+        "width": 768,
+        "src": "/img/pastas-fruta-helado.avif",
+        "scale": 1.36
+      },
+      {
+        "url": "/pastas-sabores-helado/pastas-premium/",
+        "width": 768,
+        "src": "/img/pastas-premium-helado.avif",
+        "scale": 1.21
+      }
+    ],
+    "despues": []
+  },
+  "rows": [
+    {
+      "url": "/",
+      "width": 390,
+      "dpr": 1,
+      "before": 221178,
+      "after": 193190,
+      "saving": 12.7
+    },
+    {
+      "url": "/",
+      "width": 768,
+      "dpr": 1,
+      "before": 214360,
+      "after": 202880,
+      "saving": 5.4
+    },
+    {
+      "url": "/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 547515,
+      "after": 563661,
+      "saving": -2.9
+    },
+    {
+      "url": "/bases-helado-colombia/",
+      "width": 390,
+      "dpr": 1,
+      "before": 168588,
+      "after": 117420,
+      "saving": 30.4
+    },
+    {
+      "url": "/bases-helado-colombia/",
+      "width": 768,
+      "dpr": 1,
+      "before": 208152,
+      "after": 131257,
+      "saving": 36.9
+    },
+    {
+      "url": "/bases-helado-colombia/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 522039,
+      "after": 497315,
+      "saving": 4.7
+    },
+    {
+      "url": "/coberturas-salsas-helado/",
+      "width": 390,
+      "dpr": 1,
+      "before": 179099,
+      "after": 135905,
+      "saving": 24.1
+    },
+    {
+      "url": "/coberturas-salsas-helado/",
+      "width": 768,
+      "dpr": 1,
+      "before": 224897,
+      "after": 152013,
+      "saving": 32.4
+    },
+    {
+      "url": "/coberturas-salsas-helado/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 499623,
+      "after": 499048,
+      "saving": 0.1
+    },
+    {
+      "url": "/contacto/",
+      "width": 390,
+      "dpr": 1,
+      "before": 142284,
+      "after": 64934,
+      "saving": 54.4
+    },
+    {
+      "url": "/contacto/",
+      "width": 768,
+      "dpr": 1,
+      "before": 142284,
+      "after": 118986,
+      "saving": 16.4
+    },
+    {
+      "url": "/contacto/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 470997,
+      "after": 430764,
+      "saving": 8.5
+    },
+    {
+      "url": "/equipos/",
+      "width": 390,
+      "dpr": 1,
+      "before": 85946,
+      "after": 61616,
+      "saving": 28.3
+    },
+    {
+      "url": "/equipos/",
+      "width": 768,
+      "dpr": 1,
+      "before": 85946,
+      "after": 69877,
+      "saving": 18.7
+    },
+    {
+      "url": "/equipos/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 385051,
+      "after": 379459,
+      "saving": 1.5
+    },
+    {
+      "url": "/insumos/",
+      "width": 390,
+      "dpr": 1,
+      "before": 112511,
+      "after": 70819,
+      "saving": 37.1
+    },
+    {
+      "url": "/insumos/",
+      "width": 768,
+      "dpr": 1,
+      "before": 155517,
+      "after": 87305,
+      "saving": 43.9
+    },
+    {
+      "url": "/insumos/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 461752,
+      "after": 437709,
+      "saving": 5.2
+    },
+    {
+      "url": "/insumos-heladeria-barranquilla/",
+      "width": 390,
+      "dpr": 1,
+      "before": 144609,
+      "after": 83601,
+      "saving": 42.2
+    },
+    {
+      "url": "/insumos-heladeria-barranquilla/",
+      "width": 768,
+      "dpr": 1,
+      "before": 144609,
+      "after": 116880,
+      "saving": 19.2
+    },
+    {
+      "url": "/insumos-heladeria-barranquilla/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 473322,
+      "after": 461252,
+      "saving": 2.6
+    },
+    {
+      "url": "/insumos-heladeria-bucaramanga/",
+      "width": 390,
+      "dpr": 1,
+      "before": 144609,
+      "after": 83601,
+      "saving": 42.2
+    },
+    {
+      "url": "/insumos-heladeria-bucaramanga/",
+      "width": 768,
+      "dpr": 1,
+      "before": 144609,
+      "after": 116880,
+      "saving": 19.2
+    },
+    {
+      "url": "/insumos-heladeria-bucaramanga/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 473322,
+      "after": 460536,
+      "saving": 2.7
+    },
+    {
+      "url": "/insumos-heladeria-cali/",
+      "width": 390,
+      "dpr": 1,
+      "before": 164689,
+      "after": 95420,
+      "saving": 42.1
+    },
+    {
+      "url": "/insumos-heladeria-cali/",
+      "width": 768,
+      "dpr": 1,
+      "before": 164689,
+      "after": 128699,
+      "saving": 21.9
+    },
+    {
+      "url": "/insumos-heladeria-cali/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 493402,
+      "after": 465224,
+      "saving": 5.7
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 390,
+      "dpr": 1,
+      "before": 22330,
+      "after": 22560,
+      "saving": -1.0
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 768,
+      "dpr": 1,
+      "before": 22330,
+      "after": 55839,
+      "saving": -150.1
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 351043,
+      "after": 367617,
+      "saving": -4.7
+    },
+    {
+      "url": "/maquinas-helado-artesanal/",
+      "width": 390,
+      "dpr": 1,
+      "before": 62584,
+      "after": 42820,
+      "saving": 31.6
+    },
+    {
+      "url": "/maquinas-helado-artesanal/",
+      "width": 768,
+      "dpr": 1,
+      "before": 62584,
+      "after": 53652,
+      "saving": 14.3
+    },
+    {
+      "url": "/maquinas-helado-artesanal/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 387349,
+      "after": 386269,
+      "saving": 0.3
+    },
+    {
+      "url": "/maquinas-helado-industrial/",
+      "width": 390,
+      "dpr": 1,
+      "before": 91238,
+      "after": 47169,
+      "saving": 48.3
+    },
+    {
+      "url": "/maquinas-helado-industrial/",
+      "width": 768,
+      "dpr": 1,
+      "before": 91238,
+      "after": 70320,
+      "saving": 22.9
+    },
+    {
+      "url": "/maquinas-helado-industrial/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 419951,
+      "after": 419138,
+      "saving": 0.2
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 390,
+      "dpr": 1,
+      "before": 58618,
+      "after": 41251,
+      "saving": 29.6
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 768,
+      "dpr": 1,
+      "before": 58618,
+      "after": 41980,
+      "saving": 28.4
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 387331,
+      "after": 377127,
+      "saving": 2.6
+    },
+    {
+      "url": "/nosotros/",
+      "width": 390,
+      "dpr": 1,
+      "before": 100382,
+      "after": 68154,
+      "saving": 32.1
+    },
+    {
+      "url": "/nosotros/",
+      "width": 768,
+      "dpr": 1,
+      "before": 142152,
+      "after": 92448,
+      "saving": 35.0
+    },
+    {
+      "url": "/nosotros/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 470865,
+      "after": 426487,
+      "saving": 9.4
+    },
+    {
+      "url": "/pastas-sabores-helado/",
+      "width": 390,
+      "dpr": 1,
+      "before": 199163,
+      "after": 137615,
+      "saving": 30.9
+    },
+    {
+      "url": "/pastas-sabores-helado/",
+      "width": 768,
+      "dpr": 1,
+      "before": 232638,
+      "after": 153385,
+      "saving": 34.1
+    },
+    {
+      "url": "/pastas-sabores-helado/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 544438,
+      "after": 500410,
+      "saving": 8.1
+    },
+    {
+      "url": "/productos-quella/",
+      "width": 390,
+      "dpr": 1,
+      "before": 161380,
+      "after": 90697,
+      "saving": 43.8
+    },
+    {
+      "url": "/productos-quella/",
+      "width": 768,
+      "dpr": 1,
+      "before": 161380,
+      "after": 112064,
+      "saving": 30.6
+    },
+    {
+      "url": "/productos-quella/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 471435,
+      "after": 447804,
+      "saving": 5.0
+    },
+    {
+      "url": "/variegatos-helado/",
+      "width": 390,
+      "dpr": 1,
+      "before": 195986,
+      "after": 102334,
+      "saving": 47.8
+    },
+    {
+      "url": "/variegatos-helado/",
+      "width": 768,
+      "dpr": 1,
+      "before": 195986,
+      "after": 120327,
+      "saving": 38.6
+    },
+    {
+      "url": "/variegatos-helado/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 524699,
+      "after": 506810,
+      "saving": 3.4
+    },
+    {
+      "url": "/vitrinas-congeladores/",
+      "width": 390,
+      "dpr": 1,
+      "before": 124197,
+      "after": 64694,
+      "saving": 47.9
+    },
+    {
+      "url": "/vitrinas-congeladores/",
+      "width": 768,
+      "dpr": 1,
+      "before": 124197,
+      "after": 83604,
+      "saving": 32.7
+    },
+    {
+      "url": "/vitrinas-congeladores/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 452910,
+      "after": 439947,
+      "saving": 2.9
+    },
+    {
+      "url": "/bases-helado-colombia/base-50-mec3/",
+      "width": 390,
+      "dpr": 1,
+      "before": 55379,
+      "after": 42904,
+      "saving": 22.5
+    },
+    {
+      "url": "/bases-helado-colombia/base-50-mec3/",
+      "width": 768,
+      "dpr": 1,
+      "before": 108772,
+      "after": 56283,
+      "saving": 48.3
+    },
+    {
+      "url": "/bases-helado-colombia/base-50-mec3/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 385490,
+      "after": 395902,
+      "saving": -2.7
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 390,
+      "dpr": 1,
+      "before": 42632,
+      "after": 41029,
+      "saving": 3.8
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 768,
+      "dpr": 1,
+      "before": 42632,
+      "after": 50441,
+      "saving": -18.3
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 371345,
+      "after": 389437,
+      "saving": -4.9
+    },
+    {
+      "url": "/bases-helado-colombia/neutralin-plus/",
+      "width": 390,
+      "dpr": 1,
+      "before": 87201,
+      "after": 62873,
+      "saving": 27.9
+    },
+    {
+      "url": "/bases-helado-colombia/neutralin-plus/",
+      "width": 768,
+      "dpr": 1,
+      "before": 126101,
+      "after": 80714,
+      "saving": 36.0
+    },
+    {
+      "url": "/bases-helado-colombia/neutralin-plus/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 396018,
+      "after": 390469,
+      "saving": 1.4
+    },
+    {
+      "url": "/bases-helado-colombia/supergelmix/",
+      "width": 390,
+      "dpr": 1,
+      "before": 137279,
+      "after": 85293,
+      "saving": 37.9
+    },
+    {
+      "url": "/bases-helado-colombia/supergelmix/",
+      "width": 768,
+      "dpr": 1,
+      "before": 178905,
+      "after": 109189,
+      "saving": 39.0
+    },
+    {
+      "url": "/bases-helado-colombia/supergelmix/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 444669,
+      "after": 466967,
+      "saving": -5.0
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 390,
+      "dpr": 1,
+      "before": 15313,
+      "after": 9994,
+      "saving": 34.7
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 768,
+      "dpr": 1,
+      "before": 15313,
+      "after": 20699,
+      "saving": -35.2
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 332097,
+      "after": 343792,
+      "saving": -3.5
+    },
+    {
+      "url": "/coberturas-salsas-helado/salsas-especiales/",
+      "width": 390,
+      "dpr": 1,
+      "before": 49608,
+      "after": 29569,
+      "saving": 40.4
+    },
+    {
+      "url": "/coberturas-salsas-helado/salsas-especiales/",
+      "width": 768,
+      "dpr": 1,
+      "before": 49608,
+      "after": 33847,
+      "saving": 31.8
+    },
+    {
+      "url": "/coberturas-salsas-helado/salsas-especiales/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 368582,
+      "after": 362560,
+      "saving": 1.6
+    },
+    {
+      "url": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "width": 390,
+      "dpr": 1,
+      "before": 31656,
+      "after": 28448,
+      "saving": 10.1
+    },
+    {
+      "url": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "width": 768,
+      "dpr": 1,
+      "before": 58014,
+      "after": 38897,
+      "saving": 33.0
+    },
+    {
+      "url": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 371645,
+      "after": 371645,
+      "saving": 0.0
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-pistacho/",
+      "width": 390,
+      "dpr": 1,
+      "before": 102830,
+      "after": 69932,
+      "saving": 32.0
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-pistacho/",
+      "width": 768,
+      "dpr": 1,
+      "before": 141458,
+      "after": 84330,
+      "saving": 40.4
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-pistacho/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 411981,
+      "after": 442106,
+      "saving": -7.3
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-vainilla/",
+      "width": 390,
+      "dpr": 1,
+      "before": 62359,
+      "after": 54919,
+      "saving": 11.9
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-vainilla/",
+      "width": 768,
+      "dpr": 1,
+      "before": 86481,
+      "after": 63800,
+      "saving": 26.2
+    },
+    {
+      "url": "/pastas-sabores-helado/pasta-vainilla/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 378197,
+      "after": 378197,
+      "saving": 0.0
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-clasicas/",
+      "width": 390,
+      "dpr": 1,
+      "before": 92821,
+      "after": 61335,
+      "saving": 33.9
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-clasicas/",
+      "width": 768,
+      "dpr": 1,
+      "before": 92821,
+      "after": 77105,
+      "saving": 16.9
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-clasicas/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 421534,
+      "after": 405818,
+      "saving": 3.7
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-fruta/",
+      "width": 390,
+      "dpr": 1,
+      "before": 99227,
+      "after": 61179,
+      "saving": 38.3
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-fruta/",
+      "width": 768,
+      "dpr": 1,
+      "before": 99227,
+      "after": 77068,
+      "saving": 22.3
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-fruta/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 427940,
+      "after": 405781,
+      "saving": 5.2
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-premium/",
+      "width": 390,
+      "dpr": 1,
+      "before": 103522,
+      "after": 63287,
+      "saving": 38.9
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-premium/",
+      "width": 768,
+      "dpr": 1,
+      "before": 103522,
+      "after": 79057,
+      "saving": 23.6
+    },
+    {
+      "url": "/pastas-sabores-helado/pastas-premium/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 432235,
+      "after": 426082,
+      "saving": 1.4
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "width": 390,
+      "dpr": 1,
+      "before": 95793,
+      "after": 95793,
+      "saving": 0.0
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "width": 768,
+      "dpr": 1,
+      "before": 147718,
+      "after": 147718,
+      "saving": 0.0
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 508278,
+      "after": 508278,
+      "saving": 0.0
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "width": 390,
+      "dpr": 1,
+      "before": 100383,
+      "after": 100383,
+      "saving": 0.0
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "width": 768,
+      "dpr": 1,
+      "before": 181161,
+      "after": 181161,
+      "saving": 0.0
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "width": 1440,
+      "dpr": 1,
+      "before": 529149,
+      "after": 529149,
+      "saving": 0.0
+    },
+    {
+      "url": "/",
+      "width": 390,
+      "dpr": 2,
+      "before": 315082,
+      "after": 318743,
+      "saving": -1.2
+    },
+    {
+      "url": "/",
+      "width": 768,
+      "dpr": 2,
+      "before": 311729,
+      "after": 305777,
+      "saving": 1.9
+    },
+    {
+      "url": "/",
+      "width": 1440,
+      "dpr": 2,
+      "before": 672997,
+      "after": 694671,
+      "saving": -3.2
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 390,
+      "dpr": 2,
+      "before": 22330,
+      "after": 55839,
+      "saving": -150.1
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 768,
+      "dpr": 2,
+      "before": 22330,
+      "after": 79137,
+      "saving": -254.4
+    },
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 1440,
+      "dpr": 2,
+      "before": 351043,
+      "after": 407850,
+      "saving": -16.2
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 390,
+      "dpr": 2,
+      "before": 58618,
+      "after": 48414,
+      "saving": 17.4
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 768,
+      "dpr": 2,
+      "before": 58618,
+      "after": 48414,
+      "saving": 17.4
+    },
+    {
+      "url": "/maquinas-helado-soft/",
+      "width": 1440,
+      "dpr": 2,
+      "before": 387331,
+      "after": 377127,
+      "saving": 2.6
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 390,
+      "dpr": 2,
+      "before": 42632,
+      "after": 60724,
+      "saving": -42.4
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 768,
+      "dpr": 2,
+      "before": 42632,
+      "after": 60724,
+      "saving": -42.4
+    },
+    {
+      "url": "/bases-helado-colombia/bases-stevia/",
+      "width": 1440,
+      "dpr": 2,
+      "before": 371345,
+      "after": 389437,
+      "saving": -4.9
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 390,
+      "dpr": 2,
+      "before": 15313,
+      "after": 20699,
+      "saving": -35.2
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 768,
+      "dpr": 2,
+      "before": 15313,
+      "after": 30883,
+      "saving": -101.7
+    },
+    {
+      "url": "/coberturas-salsas-helado/amarena-fabbri/",
+      "width": 1440,
+      "dpr": 2,
+      "before": 332097,
+      "after": 359596,
+      "saving": -8.3
+    }
+  ]
+}

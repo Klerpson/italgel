@@ -10,6 +10,10 @@
     {%- assign _cafe_slug = include.img | split: '/' | last | remove: '.avif' -%}
     {%- if include.img contains '/img/cafe/' and site.data.imagenes_cafe[_cafe_slug] -%}
       {% include mercato/imagen-cafe.html slug=_cafe_slug alt=include.alt sizes=include.sizes %}
+    {%- elsif site.data.imagenes_blog.imagenes[include.img] -%}
+      {% include mercato/imagen-blog.html origen=include.img alt=include.alt sizes=include.sizes contexto="card" %}
+    {%- elsif site.data.imagenes_catalogo.imagenes[include.img] -%}
+      {% include mercato/imagen-catalogo.html origen=include.img alt=include.alt sizes=include.sizes contexto="card" %}
     {%- else -%}
     <img src="{{ include.img | relative_url }}" alt="{{ include.alt }}" title="{{ include.alt }}" width="{{ include.ancho | default: 280 }}" height="{{ include.alto | default: 280 }}" loading="lazy" decoding="async">
     {%- endif %}

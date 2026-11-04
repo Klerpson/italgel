@@ -50,7 +50,7 @@ La pasteurización es el punto de control biológico de la fabricación de helad
 - **Reduce las bacterias que deterioran el producto**, como las psicrótrofas, que crecen en refrigeración.
 - **Hidrata componentes de la mezcla**, como las proteínas y los [estabilizantes]({{ '/blog/emulsionantes-estabilizantes-helados-heladeria/' | relative_url }}). Eso influye después en la textura y en el aire que retiene el helado.
 
-![Proceso de pasteurización de mezcla de helado]({{'/img/blog/proceso-pasteurizacion-helado-artesanal.avif' | relative_url}} "La pasteurización destruye patógenos e hidrata proteínas y estabilizantes de la mezcla"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/proceso-pasteurizacion-helado-artesanal.avif" alt="Proceso de pasteurización de mezcla de helado" title="La pasteurización destruye patógenos e hidrata proteínas y estabilizantes de la mezcla" contexto="body" %}</p>
 
 ## Helado pasteurizado en Colombia: qué dice la Resolución 2310 de 1986
 
@@ -70,7 +70,7 @@ La temperatura para pasteurizar la mezcla de helado depende del método. El manu
 | Continuo HTST (alta temperatura, corto tiempo) | 80 °C | 25 segundos | Intercambiador de calor con secciones de calentamiento, enfriamiento y regeneración |
 | Ultrapasteurización (UHT) | No menos de 132 °C | Al menos 1 segundo, con envasado aséptico | Industrial (definición de la Resolución 2310 de 1986) |
 
-![Control de temperatura en pasteurización de helado]({{'/img/blog/control-temperatura-pasteurizacion-helado.avif' | relative_url}} "Un termómetro calibrado es la herramienta que asegura la temperatura de pasteurización"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/control-temperatura-pasteurizacion-helado.avif" alt="Control de temperatura en pasteurización de helado" title="Un termómetro calibrado es la herramienta que asegura la temperatura de pasteurización" contexto="body" %}</p>
 
 ### Pasteurización por lotes: el método de la heladería artesanal
 
@@ -93,7 +93,7 @@ Este procedimiento aplica a la pasteurización por lotes, la más común en hela
 5. **Enfría rápido hasta unos 4 °C.** Usa un intercambiador, un baño de hielo o recipientes poco profundos.
 6. **Madura la mezcla en frío.** Al menos 4 horas, y casi siempre toda la noche, a 5 °C o menos, según el mismo manual. La maduración mejora el batido y también el [overrun que obtendrás en el mantecado]({{ '/blog/como-calcular-overrun-helado-artesanal/' | relative_url }}).
 
-![Enfriamiento rápido después de pasteurización]({{'/img/blog/enfriamiento-rapido-mezcla-helado.avif' | relative_url}} "El enfriamiento rápido de la mezcla después de pasteurizar"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/enfriamiento-rapido-mezcla-helado.avif" alt="Enfriamiento rápido después de pasteurización" title="El enfriamiento rápido de la mezcla después de pasteurizar" contexto="body" %}</p>
 
 ## Cinco errores que arruinan la pasteurización del helado
 
@@ -109,7 +109,7 @@ Una base en polvo cambia el proceso porque trae el sistema de emulsionantes y es
 
 Con las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}), como la [Base 50]({{ '/bases-helado-colombia/base-50-mec3/' | relative_url }}) o [Neutralin Plus]({{ '/bases-helado-colombia/neutralin-plus/' | relative_url }}), el paso que más se simplifica es la formulación: no hay que pesar emulsionantes ni gomas por separado. Si vas a pasteurizar en tu heladería y no sabes qué capacidad necesitas, {% include wa-enlace.html text="pregúntanos por WhatsApp por las pasteurizadoras Valmar" location="post-medio" %} y te ayudamos a dimensionarla.
 
-![Bases profesionales para helado]({{'/img/blog/bases-profesionales-pasteurizadas-helado.avif' | relative_url}} "Las bases MEC3 traen el sistema de emulsionantes y estabilizantes dosificado"){:loading="lazy" decoding="async" width="900" height="400"}
+<p>{% include mercato/imagen-blog.html origen="/img/blog/bases-profesionales-pasteurizadas-helado.avif" alt="Bases profesionales para helado" title="Las bases MEC3 traen el sistema de emulsionantes y estabilizantes dosificado" contexto="body" %}</p>
 
 Los sorbetes de fruta sin lácteos también se benefician del calentamiento, porque ayuda a disolver los azúcares y a hidratar los estabilizantes de la mezcla.
 

@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-11-04T19:05:24.367Z",
+  "base": "https://italgel.com.co",
+  "assetCount": 44,
+  "assetFailures": [],
+  "browserChecks": 48,
+  "browserFailures": [],
+  "overflow": [
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/swan/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/falcon/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/tank-1/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/tank-2/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/cruiser/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/cedar-63c/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 771
+    },
+    {
+      "url": "/equipos-cafe/oak-60/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 771
+    },
+    {
+      "url": "/equipos-cafe/ebony-64/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 771
+    },
+    {
+      "url": "/equipos-cafe/sequoia-74wt/",
+      "width": 768,
+      "dpr": 1,
+      "scrollWidth": 771
+    },
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 768,
+      "dpr": 2,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/cedar-63c/",
+      "width": 768,
+      "dpr": 2,
+      "scrollWidth": 771
+    }
+  ]
+}

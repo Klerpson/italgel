@@ -1,0 +1,29 @@
+{
+  "changed": [
+    {
+      "file": "insumos-heladeria-barranquilla.html",
+      "images": 0
+    },
+    {
+      "file": "insumos-heladeria-bucaramanga.html",
+      "images": 0
+    },
+    {
+      "file": "insumos-heladeria-cali.html",
+      "images": 0
+    },
+    {
+      "file": "insumos-heladeria-medellin.html",
+      "images": 0
+    },
+    {
+      "file": "pastas-sabores-helado/index.html",
+      "images": 0
+    },
+    {
+      "file": "pastas-sabores-helado/pastas-clasicas.html",
+      "images": 0
+    }
+  ],
+  "skipped": []
+}

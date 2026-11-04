@@ -24,9 +24,8 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
         <p class="microgarantia">Asesoría técnica sin costo para clientes de Italgel.</p>
       </div>
     </div>
-    <picture class="portada__foto">
-      <source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">
-      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="584" height="584" fetchpriority="high" decoding="async">
+    <picture class="portada__foto foto-fiel">
+      {% include mercato/imagen-catalogo.html origen=page.hero alt=page.alt contexto="hero" prioridad=true %}
     </picture>
   </div>
 </section>
@@ -40,8 +39,8 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
 
 <section class="banda banda--papel familia-maquinas" aria-labelledby="titulo-maquinas">
   <div class="wrapper columnas columnas--5-7 columnas--centro">
-    <picture class="figura">
-      <img src="{{ '/img/mantecadora-valmar-gelato.avif' | relative_url }}" alt="Mantecadora Valmar para gelato artesanal" title="Mantecadora Valmar para gelato artesanal" width="540" height="810" loading="lazy" decoding="async">
+    <picture class="figura foto-fiel">
+      {% include mercato/imagen-catalogo.html origen="/img/mantecadora-valmar-gelato.avif" alt="Mantecadora Valmar para gelato artesanal" contexto="body" %}
     </picture>
     <div class="flujo flujo--amplio">
       <div class="flujo">
@@ -87,8 +86,8 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
       </div>
       <a class="enlace-flecha" href="{{ '/vitrinas-congeladores/' | relative_url }}" title="Ver las vitrinas para helado y sus fichas">Ver las vitrinas para helado y sus fichas</a>
     </div>
-    <picture class="figura">
-      <img src="{{ '/img/vitrina-helado.avif' | relative_url }}" alt="Vitrina para helado artesanal con bandejas de sabores a la vista" title="Vitrina para helado artesanal con bandejas de sabores a la vista" width="560" height="700" loading="lazy" decoding="async">
+    <picture class="figura foto-fiel">
+      {% include mercato/imagen-catalogo.html origen="/img/vitrina-helado.avif" alt="Vitrina para helado artesanal con bandejas de sabores a la vista" contexto="body" %}
     </picture>
   </div>
 </section>

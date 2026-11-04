@@ -48,14 +48,7 @@ faqs:
   <div class="three_columns">
     <article class="product-card">
       <div class="product-img principal">
-        <img
-          src="{{'/img/bases-helado-mec3.avif'|relative_url}}"
-          alt="Bases para helado MEC3"
-          title="Bases MEC3"
-          width="280"
-          height="280"
-          loading="eager"
-        />
+        {% include mercato/imagen-catalogo.html origen="/img/bases-helado-mec3.avif" alt="Bases para helado MEC3" title="Bases MEC3" contexto="body" %}
       </div>
       <div class="product-content flow">
         <h3>Bases para helado: insumos clave para tu heladería</h3>
@@ -73,14 +66,7 @@ faqs:
 
     <article class="product-card">
       <div class="product-img secundario">
-        <img
-          src="{{'/img/pastas-concentradas-mec3.avif'|relative_url}}"
-          alt="Pastas concentradas para helado"
-          title="Pastas concentradas MEC3"
-          width="280"
-          height="280"
-          loading="eager"
-        />
+        {% include mercato/imagen-catalogo.html origen="/img/pastas-concentradas-mec3.avif" alt="Pastas concentradas para helado" title="Pastas concentradas MEC3" contexto="body" %}
       </div>
       <div class="product-content flow">
         <h3>Pastas concentradas</h3>
@@ -97,14 +83,7 @@ faqs:
 
     <article class="product-card">
       <div class="product-img pink">
-        <img
-          src="{{'/img/coberturas-salsas-quella.avif'|relative_url}}"
-          alt="Coberturas y salsas Quella"
-          title="Coberturas Quella"
-          width="280"
-          height="280"
-          loading="eager"
-        />
+        {% include mercato/imagen-catalogo.html origen="/img/coberturas-salsas-quella.avif" alt="Coberturas y salsas Quella" title="Coberturas Quella" contexto="body" %}
       </div>
       <div class="product-content flow">
         <h3>Coberturas y salsas</h3>
@@ -147,14 +126,7 @@ faqs:
     <a href="{{'/productos-quella/'|relative_url}}" class="boton boton_2" title="Quella Family: variegatos y coberturas para helado">Conocer línea Quella</a
     >
   </div>
-  <img
-    src="{{'/img/quella-family-productos.avif'|relative_url}}"
-    alt="Productos Quella Family para heladería profesional"
-    title="Línea Quella Family"
-    loading="lazy"
-    width="560"
-    height="700"
-  />
+  {% include mercato/imagen-catalogo.html origen="/img/quella-family-productos.avif" alt="Productos Quella Family para heladería profesional" title="Línea Quella Family" contexto="body" %}
 </article>
 
 <section class="wrapper center flow">

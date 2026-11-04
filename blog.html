@@ -35,7 +35,7 @@ breadcrumb:
       </div>
     </div>
     <picture class="portada__foto">
-      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="{{ page.hero_w }}" height="{{ page.hero_h }}" fetchpriority="high" decoding="async">
+      {% include mercato/imagen-blog.html origen=page.hero alt=page.alt contexto="hero" prioridad=true %}
     </picture>
   </div>
 </section>

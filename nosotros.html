@@ -116,15 +116,7 @@ hero_title: "Equipo Italgel Colombia"
           class="boton boton_2" title="Bases para helado MEC3 en Colombia">Ver catálogo MEC3</a
         >
       </div>
-      <img
-        src="{{ '/img/productos-mec3-italia-colombia.avif' | relative_url }}"
-        alt="Productos MEC3 Italia distribuidos por Italgel en Colombia para heladería profesional"
-        title="Productos MEC3 en Colombia"
-        loading="lazy"
-        decoding="async"
-        width="584"
-        height="584"
-      />
+      {% include mercato/imagen-catalogo.html origen="/img/productos-mec3-italia-colombia.avif" alt="Productos MEC3 Italia distribuidos por Italgel en Colombia para heladería profesional" title="Productos MEC3 en Colombia" contexto="body" %}
     </article>
   </section>
 
@@ -134,15 +126,7 @@ hero_title: "Equipo Italgel Colombia"
     </div>
 
     <article class="flex">
-      <img
-        src="{{ '/img/historia-italgel-colombia.avif' | relative_url }}"
-        alt="Historia de Italgel como distribuidor de insumos para heladería en Colombia"
-        title="Historia Italgel"
-        loading="lazy"
-        decoding="async"
-        width="584"
-        height="584"
-      />
+      {% include mercato/imagen-catalogo.html origen="/img/historia-italgel-colombia.avif" alt="Historia de Italgel como distribuidor de insumos para heladería en Colombia" title="Historia Italgel" contexto="body" %}
       <div class="flow">
         <h3>Un distribuidor especializado en heladería, fundado por heladeros</h3>
         <p>

@@ -14,7 +14,7 @@ Inicio: 4 de noviembre de 2026. Base: auditoría local de la remodelación Merca
 
 ## Fase 1 — Fotografías de catálogo de café
 
-Estado: completada localmente el 4 de noviembre de 2026. Evidencia y límites en `fase-1/RESULTADO.md`.
+Estado: completada y verificada en producción el 4 de noviembre de 2026, después de la publicación realizada por Camilo. Evidencia local y límites en `fase-1/RESULTADO.md`; comprobación pública en `fase-1/produccion-2026-11-04/VALIDACION.md`.
 
 Alcance: seis cafeteras y cuatro molinos. Recuperar las fotografías de los catálogos originales, normalizar márgenes para tarjetas sin recortar el equipo y exportar AVIF con variantes de tamaño. Integrar en la categoría, inicio y productos relacionados. Retirar la ampliación general de 1,45× de esas tarjetas, conservando el comportamiento compartido de ajuste de imagen.
 
@@ -22,17 +22,17 @@ Cierre: fotografías completas, variantes existentes y seleccionadas correctamen
 
 ## Fase 2 — Peso y entrega de imágenes del blog
 
-Estado: pendiente.
+Estado: completada localmente el 4 de noviembre de 2026; pendiente de publicación. Evidencia y límites en `fase-2/RESULTADO.md`.
 
-Alcance: los 12 archivos activos de más de 150 KiB, empezando por los cinco ejemplos de la auditoría. Comparar compresión por fotografía, preparar tamaños para tarjetas, cabeceras y móviles, e integrar la selección en los componentes del blog. Mantener dimensiones y detalle suficientes en las imágenes de contenido.
+Alcance: los 12 archivos activos de más de 150 KiB, empezando por los cinco ejemplos de la auditoría. Comparar compresión por fotografía, preparar tamaños para tarjetas, cabeceras y móviles, e integrar la selección en los componentes del blog. Mantener dimensiones y detalle suficientes en las imágenes de contenido. La implementación cubre las 24 imágenes utilizadas en las cabeceras y el contenido de las 15 guías publicadas y la portada del blog; las imágenes que ya estaban ligeras conservan su archivo de mayor resolución cuando otra compresión no aporta ahorro.
 
 Cierre: ahorro medido por archivo y por página representativa; revisión de texturas y rótulos; selección correcta a densidades 1 y 2. No recomprimir sucesivamente un derivado ya optimizado.
 
 ## Fase 3 — Resolución, encuadre e identidad del resto del catálogo
 
-Estado: pendiente.
+Estado: completada localmente el 4 de noviembre de 2026, con límites de fuentes documentados; pendiente de publicación. Evidencia en `fase-3/RESULTADO.md`.
 
-Alcance: comenzar por Stevia y Amarena; seguir por heros de ciudades, pastas y salsas, y las tarjetas de 280 px que se muestran grandes. Buscar fuentes de mayor calidad antes de exportar variantes. Validar el archivo compartido por Fiordiarancio y limón con la fuente del producto.
+Alcance: comenzar por Stevia y Amarena; seguir por heros de ciudades, pastas y salsas, y las tarjetas de 280 px que se muestran grandes. Buscar fuentes de mayor calidad antes de exportar variantes. Validar el archivo compartido por Fiordiarancio y limón con la fuente del producto. Revisar también la correspondencia entre fotografía y texto de las imágenes de medición de overrun y control de porciones del blog, detectada durante la fase 2.
 
 Cierre: resolver primero las ampliaciones más graves; registrar los casos que necesitan una fuente adicional. Si no existe fuente suficiente, evaluar un tamaño visual apropiado usando las reglas compartidas, sin inventar detalle ni añadir excepciones por producto.
 

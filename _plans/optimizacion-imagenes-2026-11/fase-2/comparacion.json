@@ -1,0 +1,224 @@
+{
+  "comparisons": 66,
+  "text_and_alt_checks": 66,
+  "errors": [],
+  "source_resolution_limits": [
+    {
+      "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+      "viewport": 768,
+      "dpr": 1,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1032
+    },
+    {
+      "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+      "viewport": 768,
+      "dpr": 1,
+      "source": "/img/blog/pasta-pistacho-helado-profesional.avif",
+      "available": 920,
+      "required": 1032
+    },
+    {
+      "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+      "viewport": 1440,
+      "dpr": 1,
+      "source": "/img/blog/rentabilidad-heladeria-colombia-margenes.avif",
+      "available": 1080,
+      "required": 1312
+    },
+    {
+      "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+      "viewport": 768,
+      "dpr": 1,
+      "source": "/img/blog/pasta-pistacho-helado-profesional.avif",
+      "available": 920,
+      "required": 1032
+    },
+    {
+      "url": "/blog/rentabilidad-heladeria-colombia/",
+      "viewport": 1440,
+      "dpr": 1,
+      "source": "/img/blog/como-abrir-heladeria-colombia.avif",
+      "available": 1080,
+      "required": 1312
+    },
+    {
+      "url": "/blog/",
+      "viewport": 390,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1046
+    },
+    {
+      "url": "/blog/",
+      "viewport": 390,
+      "dpr": 2,
+      "source": "/img/blog/pasta-pistacho-helado-profesional.avif",
+      "available": 920,
+      "required": 1046
+    },
+    {
+      "url": "/blog/",
+      "viewport": 390,
+      "dpr": 2,
+      "source": "/img/blog/pasta-pistacho-helado-profesional.avif",
+      "available": 920,
+      "required": 1046
+    },
+    {
+      "url": "/blog/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog-itagel.avif",
+      "available": 1080,
+      "required": 1861
+    },
+    {
+      "url": "/blog/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog-itagel.avif",
+      "available": 1080,
+      "required": 1448
+    },
+    {
+      "url": "/blog/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/rentabilidad-heladeria-colombia-margenes.avif",
+      "available": 1080,
+      "required": 1280
+    },
+    {
+      "url": "/blog/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/como-abrir-heladeria-colombia.avif",
+      "available": 1080,
+      "required": 1280
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 390,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1046
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/calcular-overrun-helado-artesanal.avif",
+      "available": 1080,
+      "required": 1413
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/proceso-mantecado-incorporacion-aire.avif",
+      "available": 920,
+      "required": 1413
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/medicion-peso-helado-overrun.avif",
+      "available": 920,
+      "required": 1413
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/comparacion-texturas-overrun-helado.avif",
+      "available": 920,
+      "required": 1413
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/proceso-mantecado-incorporacion-aire.avif",
+      "available": 920,
+      "required": 1628
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/medicion-peso-helado-overrun.avif",
+      "available": 920,
+      "required": 1628
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/comparacion-texturas-overrun-helado.avif",
+      "available": 920,
+      "required": 1628
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1215
+    },
+    {
+      "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+      "viewport": 390,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1046
+    },
+    {
+      "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 2064
+    },
+    {
+      "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/diferencia-gelato-helado-artesanal.avif",
+      "available": 920,
+      "required": 1509
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/tipos-toppings-para-helado-profesional.avif",
+      "available": 1080,
+      "required": 1413
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "viewport": 768,
+      "dpr": 2,
+      "source": "/img/blog/control-porciones-toppings-heladeria.avif",
+      "available": 920,
+      "required": 1413
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "viewport": 1440,
+      "dpr": 2,
+      "source": "/img/blog/control-porciones-toppings-heladeria.avif",
+      "available": 920,
+      "required": 1628
+    }
+  ],
+  "weight_regressions": []
+}

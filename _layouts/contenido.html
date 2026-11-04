@@ -21,9 +21,14 @@ layout: mercato
       </div>
     </div>
     {%- if page.hero %}
-    <picture class="portada__foto">
+    {%- assign _catalogo_key = page.hero | relative_url -%}
+    <picture class="portada__foto{% if site.data.imagenes_catalogo.imagenes[_catalogo_key] %} foto-fiel{% endif %}">
+      {%- if site.data.imagenes_catalogo.imagenes[_catalogo_key] -%}
+      {% include mercato/imagen-catalogo.html origen=page.hero alt=page.alt title=page.hero_title contexto="hero" prioridad=true %}
+      {%- else -%}
       {%- if page.hero_s %}<source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">{% endif %}
       <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 584 }}" height="{{ page.hero_h | default: 584 }}" fetchpriority="high" decoding="async">
+      {%- endif %}
     </picture>
     {%- endif %}
   </div>

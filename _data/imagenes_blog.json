@@ -1,0 +1,584 @@
+{
+  "sizes": {
+    "hero": "(min-width: 88rem) 540px, (min-width: 60rem) 40vw, (min-width: 25rem) 92vw, calc(100vw - 32px)",
+    "card": "auto, (min-width: 88rem) 432px, (min-width: 60rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+    "body": "auto, (min-width: 88rem) 810px, (min-width: 60rem) 65vw, 92vw"
+  },
+  "imagenes": {
+    "/img/blog-itagel.avif": {
+      "src": "/img/blog/optimizadas/blog-itagel-600.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/blog-itagel-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/blog-itagel-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog-itagel.avif",
+          "width": 1080
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 711.220px, (min-width: 60rem) 52.683vw, (min-width: 25rem) 121.171vw, calc(131.707vw - 42.146px)"
+      }
+    },
+    "/img/blog/amarena-fabbri-heladeria-gelato.avif": {
+      "src": "/img/blog/optimizadas/amarena-fabbri-heladeria-gelato-600.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/amarena-fabbri-heladeria-gelato-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/amarena-fabbri-heladeria-gelato-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/amarena-fabbri-heladeria-gelato.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif": {
+      "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/bases-profesionales-pasteurizadas-helado.avif": {
+      "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/calcular-overrun-helado-artesanal.avif": {
+      "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/como-abrir-heladeria-colombia.avif": {
+      "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/comparacion-texturas-overrun-helado.avif": {
+      "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/control-porciones-toppings-heladeria.avif": {
+      "src": "/img/blog/optimizadas/control-porciones-toppings-heladeria-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/control-porciones-toppings-heladeria-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/control-porciones-toppings-heladeria-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/control-porciones-toppings-heladeria-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/control-porciones-toppings-heladeria-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/control-temperatura-pasteurizacion-helado.avif": {
+      "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/diferencia-gelato-helado-artesanal.avif": {
+      "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif": {
+      "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/enfriamiento-rapido-mezcla-helado.avif": {
+      "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/helados-sin-azucar-stevia-heladeria.avif": {
+      "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/medicion-peso-helado-overrun.avif": {
+      "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/pasta-pistacho-helado-profesional.avif": {
+      "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/pasta-vainilla-helado-artesanal.avif": {
+      "src": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/pasta-vainilla-helado-artesanal.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/pasteurizacion-mezcla-helado-artesanal.avif": {
+      "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/proceso-mantecado-incorporacion-aire.avif": {
+      "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/proceso-pasteurizacion-helado-artesanal.avif": {
+      "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-800.avif",
+      "width": 920,
+      "height": 420,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-920.avif",
+          "width": 920
+        }
+      ],
+      "sizes": {
+        "hero": "(min-width: 88rem) 788.571px, (min-width: 60rem) 58.413vw, (min-width: 25rem) 134.349vw, calc(146.032vw - 46.730px)",
+        "card": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw"
+      }
+    },
+    "/img/blog/rentabilidad-heladeria-colombia-margenes.avif": {
+      "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/sorbete-artesanal-frutas-colombia.avif": {
+      "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/sorbete-artesanal-frutas-colombia.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/tipos-toppings-para-helado-profesional.avif": {
+      "src": "/img/blog/optimizadas/tipos-toppings-para-helado-profesional-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/tipos-toppings-para-helado-profesional-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/tipos-toppings-para-helado-profesional-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/tipos-toppings-para-helado-profesional-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/tipos-toppings-para-helado-profesional-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/variegato-para-helado-profesional.avif": {
+      "src": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+      "width": 1080,
+      "height": 820,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-1080.avif",
+          "width": 1080
+        }
+      ]
+    },
+    "/img/blog/variegato-whisky-helado-premium.avif": {
+      "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+      "width": 1080,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-1080.avif",
+          "width": 1080
+        }
+      ]
+    }
+  }
+}
