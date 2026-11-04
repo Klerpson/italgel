@@ -26,4 +26,10 @@ La nitidez máxima sigue dependiendo de las fuentes disponibles. Para aumentar e
 
 `verificar.cjs [vivo] [integral] [retina]` comprueba navegación y presentación; `archivos-vivo.cjs` verifica las 287 variantes públicas; `auditoria-final.py` revisa enlaces, imágenes y metadatos de la compilación. Los JSON de resumen documentan cada ejecución. Rutas de runtime específicas del equipo; `_plans/` está excluido del sitio publicado.
 
-Estado de la continuación: validada localmente; comprobación de publicación pendiente al redactar este informe.
+## Verificación final en producción
+
+Continuación publicada en `fe898d5`; [GitHub Pages 41911826190](https://github.com/Klerpson/italgel/actions/runs/41911826190) finalizó correctamente. La comprobación pública posterior completó 102 combinaciones de página/ancho sin errores ni desbordamiento, incluidas las diez fichas de café y el desplazamiento interno de las tablas.
+
+Se consultaron las 85 rutas públicas: todas respondieron 200. Las 60 páginas con Open Graph muestran dimensiones correctas; las 24 redirecciones HTML conservan su destino y la tarjeta de contacto independiente conserva su título. Ver `vivo-integral/resumen.json`, `vivo/paginas-resumen.json` y `vivo/archivos-resumen.json`.
+
+Fases 1–5 completadas dentro del alcance verificable. Los límites de fuentes fotográficas y de acceso externo descritos arriba siguen documentados; no equivalen a afirmar que todos los originales tengan resolución suficiente para ampliaciones futuras.

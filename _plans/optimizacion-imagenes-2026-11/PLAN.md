@@ -38,7 +38,7 @@ Cierre: resolver primero las ampliaciones más graves; registrar los casos que n
 
 ## Fase 4 — Maquetación, enlaces y limpieza
 
-Estado: completada localmente el 4 de noviembre; ver publicacion/RESULTADO.md.
+Estado: completada, publicada y verificada en producción el 4 de noviembre; límites y evidencia en publicacion/RESULTADO.md.
 
 Alcance: corrección mínima del contenedor de comparativas de café y verificación de sus diez fichas; revisión de las seis referencias externas con respuesta 403; coherencia de dimensiones sociales. Consolidar duplicados solo después de comprobar todos sus usos.
 
@@ -46,7 +46,7 @@ Cierre: sin desbordamiento de página en los puntos de corte revisados; mantener
 
 ## Fase 5 — Verificación integral y entrega para publicación
 
-Estado: completada localmente el 4 de noviembre; ver publicacion/RESULTADO.md.
+Estado: completada, publicada y verificada en producción el 4 de noviembre; límites y evidencia en publicacion/RESULTADO.md.
 
 Alcance: recompilar y repetir el rastreo de contenido e imágenes, revisar páginas representativas a 320/390/640/768/960/1440 px y comprobar selección de variantes a densidad 2. Resumir ahorro real, cambios de CSS y pendientes de fuentes.
 
