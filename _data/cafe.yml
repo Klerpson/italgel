@@ -13,6 +13,9 @@ cafeteras:
     voltaje: 110 V
     potencia: 1550 W
     dimensiones: 290 × 390 × 385 mm
+    calentamiento: "Doble termobloque: café, agua caliente y vapor"
+    bomba: "Doble bomba vibratoria Ulka"
+    agua: "Tanque de 0,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Doble termobloque para extracción de café, agua caliente y vapor.
@@ -32,6 +35,9 @@ cafeteras:
     voltaje: 110 V
     potencia: 1500 W
     dimensiones: 345 × 430 × 375 mm
+    calentamiento: "Caldera de 600 ml para grupo y agua caliente; termobloque para vapor"
+    bomba: "Doble bomba vibratoria Ulka"
+    agua: "Tanque de 1,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Caldera de 600 ml para el grupo y agua caliente; termobloque dedicado para vapor.
@@ -51,6 +57,9 @@ cafeteras:
     voltaje: 220 V
     potencia: 2,8 kW
     dimensiones: 312 × 415 × 403 mm
+    calentamiento: "Termobloque para café y agua caliente; caldera de 1 L para vapor"
+    bomba: "Bomba vibratoria Ulka"
+    agua: "Tanque de 1,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Termobloque para extracción de café y agua caliente; caldera de 1 L para vapor extra seco.
@@ -70,6 +79,9 @@ cafeteras:
     voltaje: 220 V
     potencia: 3,2 kW
     dimensiones: 383 × 575 × 533 mm
+    calentamiento: "Calderín de 550 ml e intercambiador de calor de 3 L"
+    bomba: "Bomba rotativa Fluid-O-Tech"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín de 550 ml para saturar el grupo.
@@ -89,6 +101,9 @@ cafeteras:
     voltaje: 220 V
     potencia: 4,2 kW
     dimensiones: 714 × 535 × 451 mm
+    calentamiento: "Calderín de 550 ml por grupo y caldera de 9 L"
+    bomba: "Bomba rotativa Fluid-O-Tech con medidor de caudal"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín doble de 550 ml por cada grupo saturado.
@@ -108,6 +123,9 @@ cafeteras:
     voltaje: 220 V
     potencia: 4,2 kW
     dimensiones: 846 × 645 × 572 mm
+    calentamiento: "Calderín de 550 ml por grupo e intercambiador de calor de 9 L"
+    bomba: "Bomba rotativa Fluid-O-Tech con medidor de caudal"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín doble de 550 ml por cada grupo saturado.

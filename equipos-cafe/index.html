@@ -46,6 +46,7 @@ breadcrumb:
     <ol>
       <li><a href="#casa" title="Cafeteras espresso para casa">Para casa</a></li>
       <li><a href="#negocio" title="Cafeteras industriales para negocio">Para negocio</a></li>
+      <li><a href="#comparar" title="Comparar dos cafeteras Hambach">Comparar</a></li>
       <li><a href="#molinos" title="Molinos de café">Molinos de café</a></li>
       <li><a href="#eleccion" title="Cómo elegir">Cómo elegir</a></li>
       <li><a href="#cotizar" title="Cotizar">Cotizar</a></li>
@@ -89,6 +90,67 @@ breadcrumb:
   </div>
 </section>
 
+{%- comment -%}
+  Comparador de cafeteras (idea: "Spec Sheet" de 21st, reescrita en tabla nativa + 2 select).
+  Sin JS se ve la tabla completa con las seis cafeteras; con JS se eligen dos y se puede
+  ocultar lo que tienen igual. Los datos salen de _data/cafe.yml (catálogo Hambach).
+{%- endcomment -%}
+<section class="banda" id="comparar" aria-labelledby="titulo-comparar">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta tres-bolas">Comparador de cafeteras Hambach</p>
+        <h2 id="titulo-comparar">Compara dos cafeteras Hambach: alimentación, potencia, caldera y bomba</h2>
+        <p class="medida texto-suave">Las seis usan portafiltros de 58 mm y PID por grupo. Elige dos modelos y mira en qué cambian.</p>
+      </div>
+    </div>
+    <div class="comparador" data-comparador>
+      <div class="comparador__controles" data-comparador-controles hidden>
+        <label class="comparador__campo"><span>Cafetera 1</span>
+          <select data-columna="a" title="Primera cafetera que quieres comparar">
+            {%- for e in cafe.cafeteras %}<option value="{{ e.slug }}"{% if e.slug == "swan" %} selected{% endif %}>{{ e.nombre }}</option>{% endfor %}
+          </select>
+        </label>
+        <label class="comparador__campo"><span>Cafetera 2</span>
+          <select data-columna="b" title="Segunda cafetera que quieres comparar">
+            {%- for e in cafe.cafeteras %}<option value="{{ e.slug }}"{% if e.slug == "falcon" %} selected{% endif %}>{{ e.nombre }}</option>{% endfor %}
+          </select>
+        </label>
+        <label class="interruptor">
+          <input type="checkbox" data-solo-diferencias>
+          <span>Ver solo lo que cambia</span>
+        </label>
+      </div>
+      <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Comparador de cafeteras Hambach">
+        <table class="comparativa comparador__tabla">
+          <thead>
+            <tr>
+              <th scope="col"><span class="visualmente-oculto">Característica</span></th>
+              {%- for e in cafe.cafeteras %}<th scope="col" data-col="{{ e.slug }}"><a href="{{ '/equipos-cafe/' | append: e.slug | append: '/' | relative_url }}" title="Ficha técnica de la cafetera {{ e.nombre }}">{{ e.nombre }}</a><small>{{ e.referencia }}</small></th>{% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {%- assign _filas = "uso:Uso|voltaje:Alimentación|potencia:Potencia|dimensiones:Dimensiones (alto al final)|calentamiento:Caldera y calentamiento|bomba:Bomba|agua:Agua" | split: "|" %}
+            {%- for f in _filas %}{% assign _par = f | split: ":" %}{% assign _campo = _par[0] %}
+            <tr data-fila="{{ _campo }}">
+              <th scope="row">{{ _par[1] }}</th>
+              {%- for e in cafe.cafeteras %}<td data-col="{{ e.slug }}">{{ e[_campo] }}</td>{% endfor %}
+            </tr>
+            {%- endfor %}
+            <tr>
+              <th scope="row">Cotizar</th>
+              {%- for e in cafe.cafeteras %}
+              {%- capture _wa_e -%}Hola, quiero cotizar la cafetera {{ e.nombre }} {{ e.referencia }} con Italgel.{%- endcapture %}
+              <td data-col="{{ e.slug }}"><a class="lead_whatsapp enlace-texto" href="{% include wa-href.html mensaje=_wa_e %}" target="_blank" rel="noopener noreferrer" data-location="comparador-{{ e.slug }}" title="Cotizar la cafetera {{ e.nombre }} por WhatsApp (abre WhatsApp)">Cotizar {{ e.nombre }}<span class="visualmente-oculto"> (abre WhatsApp)</span></a></td>
+              {%- endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="banda banda--papel" id="molinos" aria-labelledby="titulo-molinos">
   <div class="wrapper">
     <div class="encabezado">
@@ -125,6 +187,7 @@ breadcrumb:
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">Cotiza tu cafetera Hambach y tu molino por WhatsApp</h2>
     <p class="medida">Cuéntanos si el equipo es para casa o para tu negocio y qué conexión eléctrica tienes. Te confirmamos precio, disponibilidad y configuración de la referencia.</p>
+    {% include mercato/pasos-compra.html %}
     <div class="acciones">
       {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" mensaje=_wa_cafe %}
     </div>

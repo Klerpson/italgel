@@ -176,21 +176,29 @@ layout: mercato
       </div>
       <a class="enlace-flecha" href="{{ page.categoria_url | relative_url }}" title="Ver {{ page.categoria_nombre }}">Ver {{ page.categoria_nombre }}</a>
     </div>
-    <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Comparativa de {{ page.grupo_nombre }}">
-      <table class="comparativa">
-        <thead>
-          <tr><th scope="col">Modelo</th><th scope="col">Uso</th>{% for col in page.comparar_columnas %}<th scope="col">{{ col.titulo }}</th>{% endfor %}</tr>
-        </thead>
-        <tbody>
-          {%- for item in grupo %}
-          <tr{% if item.slug == p.slug %} class="comparativa__actual" aria-current="true"{% endif %}>
-            <th scope="row">{% if item.slug == p.slug %}{{ item.nombre }}{% else %}<a href="{{ page.categoria_url | append: item.slug | append: '/' | relative_url }}" title="{{ item.nombre }}">{{ item.nombre }}</a>{% endif %}</th>
-            <td>{{ item.uso }}</td>
-            {%- for col in page.comparar_columnas %}<td>{{ item[col.campo] }}</td>{% endfor %}
-          </tr>
-          {%- endfor %}
-        </tbody>
-      </table>
+    <div class="comparativa-bloque" data-comparativa>
+      <label class="interruptor">
+        <input type="checkbox" data-resaltar data-ubicacion="producto-comparativa">
+        <span>Resaltar lo que cambia frente a {{ p.nombre }}</span>
+      </label>
+      <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Comparativa de {{ page.grupo_nombre }}">
+        <table class="comparativa comparativa--apilable">
+          <thead>
+            <tr><th scope="col">Modelo</th><th scope="col">Uso</th>{% for col in page.comparar_columnas %}<th scope="col">{{ col.titulo }}</th>{% endfor %}<th scope="col">Cotizar</th></tr>
+          </thead>
+          <tbody>
+            {%- for item in grupo %}
+            {%- capture _wa_item -%}Hola, quiero cotizar {{ item.nombre }}{% if item.referencia %} {{ item.referencia }}{% endif %} con Italgel.{%- endcapture %}
+            <tr{% if item.slug == p.slug %} class="comparativa__actual" aria-current="true"{% endif %}>
+              <th scope="row">{% if item.slug == p.slug %}{{ item.nombre }}{% else %}<a href="{{ page.categoria_url | append: item.slug | append: '/' | relative_url }}" title="Ficha técnica de {{ item.nombre }}">{{ item.nombre }}</a>{% endif %}</th>
+              <td data-etiqueta="Uso"{% if item.slug != p.slug and item.uso == p.uso %} data-igual{% endif %}>{{ item.uso }}</td>
+              {%- for col in page.comparar_columnas %}<td data-etiqueta="{{ col.titulo }}"{% if item.slug != p.slug and item[col.campo] == p[col.campo] %} data-igual{% endif %}>{{ item[col.campo] }}</td>{% endfor %}
+              <td class="comparativa__cotizar"><a class="lead_whatsapp enlace-texto" href="{% include wa-href.html mensaje=_wa_item %}" target="_blank" rel="noopener noreferrer" data-location="comparativa-{{ item.slug }}" title="Cotizar {{ item.nombre }} por WhatsApp (abre WhatsApp)">Cotizar {{ item.nombre }}<span class="visualmente-oculto"> (abre WhatsApp)</span></a></td>
+            </tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="rejilla rejilla--par producto__otros">
       {%- for item in grupo %}{% unless item.slug == p.slug %}
@@ -206,6 +214,7 @@ layout: mercato
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">Cotiza {{ p.nombre }} por WhatsApp</h2>
     <p class="medida">{{ page.cierre_texto | default: "Cuéntanos para qué negocio es y en qué ciudad estás. Un asesor de Italgel te confirma precio, disponibilidad y configuración." }}</p>
+    {% include mercato/pasos-compra.html %}
     <div class="acciones">
       {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" mensaje=_wa %}
     </div>

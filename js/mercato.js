@@ -84,6 +84,90 @@
   });
 })();
 
+// Medición de las interacciones de catálogo: un evento por tipo y vista (GA4 vía dataLayer).
+const medirInteraccion = (() => {
+  const hechos = new Set();
+  return (evento, ubicacion) => {
+    if (hechos.has(evento)) return;
+    hechos.add(evento);
+    (window.dataLayer = window.dataLayer || []).push({ event: evento, ubicacion, pagina: location.pathname });
+  };
+})();
+
+// Comparativa de la ficha de producto: el interruptor resalta lo que cambia (CSS con :has). Aquí solo se mide.
+document.querySelectorAll('[data-resaltar]').forEach((casilla) => {
+  casilla.addEventListener('change', () => medirInteraccion('interaccion_comparativa', casilla.dataset.ubicacion));
+});
+
+// Selector de sabores de la home: la vitrina se enciende con CSS (:has). Aquí solo se mide.
+document.querySelectorAll('.sabores[data-ubicacion]').forEach((grupo) => {
+  grupo.addEventListener('change', () => medirInteraccion('interaccion_vitrina', grupo.dataset.ubicacion));
+});
+
+// Comparador de cafeteras (/equipos-cafe/): sin JS se ve la tabla completa; con JS se eligen dos columnas
+// y el interruptor oculta las filas que las dos tienen igual.
+(() => {
+  const comparador = document.querySelector('[data-comparador]');
+  if (!comparador) return;
+  const controles = comparador.querySelector('[data-comparador-controles]');
+  const selA = comparador.querySelector('select[data-columna="a"]');
+  const selB = comparador.querySelector('select[data-columna="b"]');
+  const filas = [...comparador.querySelectorAll('tbody tr[data-fila]')];
+  const celdas = [...comparador.querySelectorAll('[data-col]')];
+  let previoA = selA.value;
+  let previoB = selB.value;
+  const aplicar = () => {
+    const a = selA.value;
+    const b = selB.value;
+    celdas.forEach((c) => { c.hidden = c.dataset.col !== a && c.dataset.col !== b; });
+    // Orden de lectura: la columna A siempre antes que la B
+    comparador.querySelectorAll('tr').forEach((tr) => {
+      const ca = tr.querySelector(`[data-col="${a}"]`);
+      const cb = tr.querySelector(`[data-col="${b}"]`);
+      if (ca && cb && (ca.compareDocumentPosition(cb) & Node.DOCUMENT_POSITION_PRECEDING)) tr.insertBefore(ca, cb);
+    });
+    filas.forEach((tr) => {
+      const va = tr.querySelector(`[data-col="${a}"]`)?.textContent.trim();
+      const vb = tr.querySelector(`[data-col="${b}"]`)?.textContent.trim();
+      tr.toggleAttribute('data-igual', va === vb);
+    });
+  };
+  // Si se elige el mismo modelo en las dos listas, la otra toma el modelo que había antes.
+  selA.addEventListener('change', () => { if (selA.value === selB.value) selB.value = previoA; previoA = selA.value; previoB = selB.value; aplicar(); medirInteraccion('interaccion_comparador', 'cafe-comparador'); });
+  selB.addEventListener('change', () => { if (selB.value === selA.value) selA.value = previoB; previoA = selA.value; previoB = selB.value; aplicar(); medirInteraccion('interaccion_comparador', 'cafe-comparador'); });
+  comparador.querySelector('[data-solo-diferencias]')?.addEventListener('change', () => medirInteraccion('interaccion_comparador', 'cafe-comparador'));
+  controles.hidden = false;
+  comparador.classList.add('es-activo');
+  aplicar();
+})();
+
+// Arma tu mensaje (cierre de la home): compone el texto de WhatsApp y lo pone en el botón de cierre.
+(() => {
+  const form = document.querySelector('[data-armar-mensaje]');
+  if (!form) return;
+  const boton = form.closest('.cierre')?.querySelector('a[data-location="cierre"]');
+  const vista = form.querySelector('[data-mensaje-vista]');
+  if (!boton || !vista) return;
+  const base = new URL(boton.href);
+  const general = base.searchParams.get('text') || vista.textContent.trim();
+  const lista = (items) => items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} y ${items.at(-1)}`;
+  const componer = () => {
+    const intereses = [...form.querySelectorAll('input[name="interes"]:checked')].map((i) => i.value);
+    const ciudad = form.elements.ciudad.value;
+    let texto = general;
+    if (intereses.length || ciudad) {
+      texto = `Hola, quiero cotizar ${intereses.length ? lista(intereses) : 'equipos o insumos para heladería'} con Italgel.`;
+      if (ciudad) texto += ` Mi negocio está en ${ciudad}.`;
+    }
+    vista.value = texto;
+    vista.textContent = texto;
+    boton.href = `${base.origin}${base.pathname}?text=${encodeURIComponent(texto)}`;
+  };
+  form.addEventListener('submit', (e) => e.preventDefault());
+  form.addEventListener('change', () => { componer(); medirInteraccion('interaccion_mensaje', form.dataset.ubicacion); });
+  form.hidden = false;
+})();
+
 // Menú en móvil: si la categoría activa queda fuera de la vista, el menú se desplaza hasta ella.
 (() => {
   const activa = document.querySelector('.menu__categoria[aria-current]');

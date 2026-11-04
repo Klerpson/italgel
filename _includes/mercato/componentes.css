@@ -231,6 +231,185 @@
   .producto__otros { @media (max-width: 40rem) { --rejilla-min: 9rem; gap: var(--space-md); } }
   .comparativa__actual { background: color-mix(in srgb, var(--color-familia, var(--color-marca)) 10%, var(--color-fondo)); box-shadow: inset 4px 0 0 var(--color-familia, var(--color-marca)); }
 
+  /* Interruptor (checkbox nativo con forma de switch): resaltar diferencias, ver solo lo que cambia */
+  .interruptor {
+    display: inline-flex; align-items: center; gap: 0.75rem; min-block-size: 2.75rem; cursor: pointer;
+    font-size: var(--text-sm); font-weight: 600;
+    input {
+      appearance: none; position: relative; flex: none; margin: 0; cursor: pointer;
+      inline-size: 2.75rem; block-size: 1.5rem; border-radius: 999px; background: var(--color-linea);
+      transition: background-color var(--transicion);
+      &::after {
+        content: ""; position: absolute; inset: 3px auto auto 3px; inline-size: 1.125rem; block-size: 1.125rem; border-radius: 50%;
+        background: var(--color-fondo); box-shadow: 0 1px 2px rgb(28 27 25 / 0.25); transition: translate var(--transicion);
+      }
+      &:checked { background: var(--color-verde); }
+      &:checked::after { translate: 1.25rem 0; }
+      &:focus-visible { outline: 2px solid var(--color-texto); outline-offset: 3px; }
+    }
+  }
+
+  /* Comparativa de la ficha: con el interruptor, lo igual al producto actual se apaga y lo distinto se marca */
+  .comparativa-bloque { display: grid; gap: var(--space-md); }
+  .comparativa td { transition: opacity var(--transicion), background-color var(--transicion); }
+  [data-comparativa]:has([data-resaltar]:checked) .comparativa tbody tr:not(.comparativa__actual) {
+    td[data-igual] { opacity: 0.4; }
+    td:not([data-igual], .comparativa__cotizar) { background: color-mix(in srgb, var(--color-familia, var(--color-marca)) 16%, transparent); font-weight: 600; color: var(--color-texto); }
+  }
+  .comparativa__cotizar a { white-space: nowrap; }
+  /* En móvil la tabla pasa a tarjetas: cada modelo con sus datos en pares etiqueta-valor */
+  @media (max-width: 39.99rem) {
+    .tabla-desplazable:has(.comparativa--apilable) { overflow: visible; }
+    .comparativa--apilable {
+      min-inline-size: 0;
+      thead { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+      tbody, tr, th, td { display: block; }
+      tr { display: grid; gap: 0.5rem; padding: var(--space-md) var(--space-md) var(--space-md) 1.25rem; border-block-end: 1px solid var(--color-linea); }
+      tbody tr:last-child { border-block-end: 0; }
+      th, td { padding: 0; border: 0; }
+      td[data-etiqueta] { display: grid; grid-template-columns: minmax(6.5rem, 38%) 1fr; gap: var(--space-sm); }
+      td[data-etiqueta]::before { content: attr(data-etiqueta); font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: 0.04em; color: var(--color-texto-suave); padding-block-start: 0.15rem; }
+      .comparativa__cotizar { padding-block-start: 0.25rem; }
+    }
+  }
+
+  /* Comparador de cafeteras (/equipos-cafe/): dos selectores e interruptor sobre una tabla real */
+  .comparador { display: grid; gap: var(--space-lg); }
+  .comparador__controles { display: flex; flex-wrap: wrap; align-items: end; gap: var(--space-md) var(--space-lg); }
+  .comparador__campo {
+    display: grid; gap: 0.375rem; font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave);
+    select {
+      min-block-size: 2.75rem; min-inline-size: 11rem; padding: 0.5rem 2.25rem 0.5rem 0.875rem;
+      font: 600 var(--text-base) / 1.2 var(--fuente-texto); letter-spacing: 0; text-transform: none; color: var(--color-texto);
+      background: var(--color-fondo); border: 1px solid var(--color-texto); border-radius: var(--radio); cursor: pointer;
+    }
+    select:focus-visible { outline: 2px solid var(--color-texto); outline-offset: 2px; }
+  }
+  .comparador__tabla {
+    thead th small { display: block; margin-block-start: 0.25rem; font-weight: 400; letter-spacing: 0.04em; }
+    thead th a { color: var(--color-texto); text-decoration: none; font-size: var(--text-sm); letter-spacing: 0; text-transform: none; }
+    thead th a:hover { text-decoration: underline; }
+    tbody th { font-size: var(--text-sm); color: var(--color-texto-suave); font-weight: 600; inline-size: 11rem; }
+    tr[data-igual] td { color: var(--color-texto-suave); }
+    [data-col]:not([hidden]) { animation: aparecer 220ms var(--curva); }
+  }
+  .comparador.es-activo .tabla-desplazable { max-inline-size: 58rem; }
+  .comparador.es-activo .comparador__tabla { min-inline-size: 0; table-layout: fixed; }
+  .comparador.es-activo .comparador__tabla tbody th { inline-size: 32%; }
+  .comparador:has([data-solo-diferencias]:checked) tr[data-igual] { display: none; }
+  @keyframes aparecer { from { opacity: 0; } }
+  @media (max-width: 39.99rem) {
+    .comparador.es-activo .comparador__tabla { th, td { padding: 0.875rem 0.75rem; } tbody th { inline-size: 30%; } }
+    .comparador__campo { flex: 1 1 9rem; select { min-inline-size: 0; inline-size: 100%; } }
+  }
+
+  /* Selector de sabores de la home: tres opciones con una píldora que se desliza y la vitrina que se enciende */
+  .vitrinas-elegir { display: grid; gap: var(--space-lg); }
+  .sabores {
+    display: grid; gap: var(--space-md); margin: 0; padding: 0; border: 0; min-inline-size: 0;
+    legend { padding: 0; margin-block-end: var(--space-md); font-weight: 600; }
+  }
+  .segmentos {
+    position: relative; display: inline-grid; grid-template-columns: repeat(3, 1fr); inline-size: min(100%, 27rem);
+    padding: 4px; background: var(--color-fondo); border: 1px solid var(--color-linea); border-radius: 999px;
+    &::before {
+      content: ""; position: absolute; inset-block: 4px; inset-inline-start: 4px; inline-size: calc((100% - 8px) / 3);
+      border-radius: 999px; background: var(--color-verde); transition: translate 280ms var(--curva);
+    }
+    &:has(.segmentos__opcion:nth-child(2) input:checked)::before { translate: 100% 0; }
+    &:has(.segmentos__opcion:nth-child(3) input:checked)::before { translate: 200% 0; }
+  }
+  .segmentos__opcion {
+    position: relative; cursor: pointer;
+    input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
+    span { position: relative; display: grid; place-items: center; min-block-size: 2.75rem; padding-inline: 0.5rem; border-radius: 999px; font-size: var(--text-sm); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; transition: color var(--transicion); }
+    input:checked + span { color: var(--color-marfil); }
+    input:focus-visible + span { outline: 2px solid var(--color-texto); outline-offset: 3px; }
+  }
+  .bandejas {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; inline-size: min(100%, 27rem); padding: 10px;
+    background: color-mix(in srgb, var(--color-turquesa) 16%, var(--color-fondo)); border-radius: var(--radio);
+    border-block-start: 3px solid var(--color-turquesa);
+    span {
+      aspect-ratio: 4 / 3; border-radius: 3px; background: var(--color-fondo); border: 1px dashed color-mix(in srgb, var(--color-turquesa-texto) 35%, transparent);
+      transition: background-color 260ms var(--curva), border-color 260ms var(--curva), scale 260ms var(--curva);
+    }
+    span:nth-child(n + 7) { transition-delay: 50ms; }
+    span:nth-child(n + 13) { transition-delay: 100ms; }
+  }
+  /* Bandejas encendidas: los sabores toman los tres colores del logo */
+  .sabores:has(input[value="8"]:checked) .bandejas span:nth-child(-n + 8),
+  .sabores:has(input[value="12"]:checked) .bandejas span:nth-child(-n + 12),
+  .sabores:has(input[value="18"]:checked) .bandejas span {
+    border-color: transparent; scale: 1;
+    /* Ciclo de 4 sobre 6 columnas: los colores quedan en diagonal, como sabores reales en la vitrina */
+    &:nth-child(4n + 1) { background: color-mix(in srgb, var(--color-marca) 55%, var(--color-mantequilla)); }
+    &:nth-child(4n + 2) { background: color-mix(in srgb, var(--color-rosa) 50%, var(--color-fondo)); }
+    &:nth-child(4n + 3) { background: color-mix(in srgb, var(--color-turquesa) 55%, var(--color-fondo)); }
+    &:nth-child(4n) { background: var(--color-marfil-suave); }
+  }
+  .bandejas span { scale: 0.86; }
+  .vitrinas-lista > div { transition: background-color var(--transicion), box-shadow var(--transicion); padding-inline: var(--space-md); margin-inline: calc(var(--space-md) * -1); }
+  .vitrinas-elegir:has(input[value="8"]:checked) [data-bandejas="8"],
+  .vitrinas-elegir:has(input[value="12"]:checked) [data-bandejas="12"],
+  .vitrinas-elegir:has(input[value="18"]:checked) [data-bandejas="18"] {
+    background: color-mix(in srgb, var(--color-turquesa) 14%, transparent); box-shadow: inset 3px 0 0 var(--color-turquesa);
+  }
+  .vitrinas-lista dd .enlace-texto { display: inline-block; margin-inline-start: 0.25rem; }
+
+  /* Arma tu mensaje (cierre de la home, banda verde): chips y ciudad que escriben el WhatsApp */
+  .armar {
+    display: grid; gap: var(--space-md); justify-items: center; inline-size: min(100%, 44rem);
+    fieldset { margin: 0; padding: 0; border: 0; min-inline-size: 0; }
+    legend, .armar__ciudad > span { padding: 0; margin-block-end: 0.75rem; font-size: var(--text-sm); font-weight: 600; }
+  }
+  .armar__chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+  .chip {
+    position: relative; cursor: pointer;
+    input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
+    span {
+      display: inline-flex; align-items: center; min-block-size: 2.75rem; padding-inline: 1.125rem; border-radius: 999px;
+      border: 1px solid rgb(237 232 220 / 0.45); font-size: var(--text-sm); font-weight: 600;
+      transition: background-color var(--transicion), color var(--transicion), border-color var(--transicion);
+    }
+    &:hover span { border-color: var(--color-marfil); }
+    input:checked + span { background: var(--color-marfil); color: var(--color-verde); border-color: var(--color-marfil); }
+    input:focus-visible + span { outline: 2px solid var(--color-marfil); outline-offset: 3px; }
+  }
+  .armar__ciudad {
+    display: grid; justify-items: center;
+    select {
+      min-block-size: 2.75rem; min-inline-size: 14rem; padding: 0.5rem 2.25rem 0.5rem 1rem; font: 600 var(--text-sm) / 1.2 var(--fuente-texto);
+      color: var(--color-verde); background: var(--color-marfil); border: 0; border-radius: 999px; cursor: pointer;
+    }
+    select:focus-visible { outline: 2px solid var(--color-marfil); outline-offset: 3px; }
+  }
+  .armar__vista {
+    max-inline-size: 38rem; padding: 0.75rem 1.125rem; font-size: var(--text-sm); color: var(--color-marfil);
+    background: rgb(237 232 220 / 0.08); border-radius: var(--radio); border-inline-start: 3px solid var(--color-accion);
+    text-align: start;
+    > span { color: var(--color-texto-suave); }
+  }
+
+  /* Cómo se compra: tres pasos numerados en la banda de cierre */
+  .pasos {
+    counter-reset: paso; list-style: none; display: grid; gap: var(--space-md); inline-size: min(100%, 60rem); padding: 0;
+    text-align: start; font-size: var(--text-sm); color: var(--color-texto-suave);
+    @media (min-width: 48rem) { grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }
+    li {
+      counter-increment: paso; position: relative; padding-inline-start: 3rem; min-block-size: 2.25rem;
+      &::before {
+        content: counter(paso); position: absolute; inset: 0 auto auto 0;
+        display: grid; place-items: center; inline-size: 2.25rem; aspect-ratio: 1; border-radius: 50%;
+        font-weight: 600; font-variant-numeric: tabular-nums; color: var(--color-verde); background: var(--color-marfil);
+      }
+      &:nth-child(1)::before { box-shadow: 0 0 0 3px var(--color-marca); }
+      &:nth-child(2)::before { box-shadow: 0 0 0 3px var(--color-rosa); }
+      &:nth-child(3)::before { box-shadow: 0 0 0 3px var(--color-turquesa); }
+    }
+    strong { display: block; color: var(--color-marfil); font-size: var(--text-base); }
+  }
+
   /* Cierre de conversión */
   .cierre { text-align: center; > * { margin-inline: auto; } .acciones { justify-content: center; } }
   /* Banda con las tres bolas del logo a gran escala, recortadas en la esquina: la firma de marca */

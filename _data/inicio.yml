@@ -28,10 +28,13 @@ maquinas:
 
 vitrinas:
   - modelo: EasyBox 8
+    bandejas: 8
     detalle: 8 cubetas en formato pozzetti · 115 × 71 × 125 cm · para cafeterías, kioscos y food trucks
   - modelo: July 12
+    bandejas: 12
     detalle: 12 bandejas 1/3 GN · 123 × 109 × 119 cm · para gelaterías con 10 a 12 sabores
   - modelo: July 18
+    bandejas: 18
     detalle: 18 bandejas 1/3 GN · 175 × 109 × 119 cm · para 15 a 18 sabores permanentes
 
 cafe:

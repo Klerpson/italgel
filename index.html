@@ -67,11 +67,24 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
         <h2 id="titulo-vitrinas">Vitrinas para helado EasyBest de 8, 12 y 18 bandejas</h2>
         <p class="medida">Vitrinas refrigeradas <strong>de −16 °C a −18 °C</strong> con vidrio templado anti-condensación y control Dixell, para que el cliente vea el helado antes de pedirlo.</p>
       </div>
-      <dl class="ficha-lista">
-        {%- for vitrina in inicio.vitrinas %}
-        <div><dt>{{ vitrina.modelo }}</dt><dd>{{ vitrina.detalle }}</dd></div>
-        {%- endfor %}
-      </dl>
+      {%- comment -%} Selector de sabores (idea: "Segmented Control" de 21st). Solo CSS con :has(); las tres vitrinas siguen visibles en la lista. {%- endcomment %}
+      <div class="vitrinas-elegir">
+        <fieldset class="sabores" data-ubicacion="home-vitrina">
+          <legend>¿Cuántos sabores vas a exhibir?</legend>
+          <div class="segmentos">
+            {%- for vitrina in inicio.vitrinas %}
+            <label class="segmentos__opcion" title="Vitrina para {{ vitrina.bandejas }} sabores: {{ vitrina.modelo }}"><input type="radio" name="sabores" value="{{ vitrina.bandejas }}"{% if vitrina.bandejas == 12 %} checked{% endif %}><span>{{ vitrina.bandejas }} sabores</span></label>
+            {%- endfor %}
+          </div>
+          <div class="bandejas" aria-hidden="true">{% for i in (1..18) %}<span></span>{% endfor %}</div>
+        </fieldset>
+        <dl class="ficha-lista vitrinas-lista">
+          {%- for vitrina in inicio.vitrinas %}
+          {%- capture _wa_v -%}Hola, quiero cotizar la vitrina EasyBest {{ vitrina.modelo }} de {{ vitrina.bandejas }} sabores con Italgel.{%- endcapture %}
+          <div data-bandejas="{{ vitrina.bandejas }}"><dt>{{ vitrina.modelo }}</dt><dd>{{ vitrina.detalle }} <a class="lead_whatsapp enlace-texto" href="{% include wa-href.html mensaje=_wa_v %}" target="_blank" rel="noopener noreferrer" data-location="home-vitrina-{{ vitrina.bandejas }}" title="Cotizar la vitrina {{ vitrina.modelo }} por WhatsApp (abre WhatsApp)">Cotizar {{ vitrina.modelo }}<span class="visualmente-oculto"> (abre WhatsApp)</span></a></dd></div>
+          {%- endfor %}
+        </dl>
+      </div>
       <a class="enlace-flecha" href="{{ '/vitrinas-congeladores/' | relative_url }}" title="Ver las vitrinas para helado y sus fichas">Ver las vitrinas para helado y sus fichas</a>
     </div>
     <picture class="figura">
@@ -199,6 +212,27 @@ alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">Cotiza tu máquina de helado, vitrina o cafetera por WhatsApp</h2>
     <p class="medida">Cuéntanos qué vendes, cuántos litros haces al día y en qué ciudad está tu negocio. Un asesor de Italgel te responde con la referencia que te sirve y su precio.</p>
+    {%- comment -%} Arma tu mensaje: solo con JS (sin JS el botón lleva el mensaje general). Reescribe el href del botón de cierre. {%- endcomment %}
+    <form class="armar" data-armar-mensaje data-ubicacion="home-mensaje" hidden>
+      <fieldset>
+        <legend>¿Qué quieres cotizar?</legend>
+        <div class="armar__chips">
+          {%- assign _opciones = "una máquina de helado|una vitrina para helado|una cafetera Hambach|variegatos e insumos" | split: "|" %}
+          {%- for o in _opciones %}
+          <label class="chip" title="Cotizar {{ o }}"><input type="checkbox" name="interes" value="{{ o }}"><span>{{ o | slice: 0 | upcase }}{{ o | slice: 1, 80 }}</span></label>
+          {%- endfor %}
+        </div>
+      </fieldset>
+      <label class="armar__ciudad"><span>Ciudad de tu negocio</span>
+        <select name="ciudad" title="Ciudad de tu negocio">
+          <option value="">Elige tu ciudad</option>
+          {%- assign _ciudades = "Bogotá|Medellín|Cali|Barranquilla|Bucaramanga" | split: "|" %}
+          {%- for c in _ciudades %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+          <option value="otra ciudad">Otra ciudad</option>
+        </select>
+      </label>
+      <p class="armar__vista" aria-live="polite"><span>Tu mensaje:</span> <output name="vista" data-mensaje-vista>{% include wa-mensaje.html %}</output></p>
+    </form>
     <div class="acciones">
       {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" %}
     </div>

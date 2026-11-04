@@ -38,6 +38,7 @@ layout: mercato
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">{{ page.cierre_titulo | default: "Cotiza por WhatsApp con un asesor técnico de Italgel" }}</h2>
     <p class="medida">{{ page.cierre_texto | default: "Cuéntanos qué vendes, cuánto produces y en qué ciudad está tu negocio. Te respondemos con la referencia que te sirve, su precio y la disponibilidad del inventario." }}</p>
+    {% include mercato/pasos-compra.html %}
     <div class="acciones">
       {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" %}
     </div>
