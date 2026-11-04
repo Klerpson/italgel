@@ -82,8 +82,12 @@
   /* Franja de marcas */
   .marcas {
     list-style: none; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--space-lg) clamp(2rem, 5vw, 4.5rem);
-    img { width: auto; height: clamp(2rem, 1.6rem + 1.4vw, 2.75rem); filter: grayscale(1); opacity: 0.7; mix-blend-mode: multiply; transition: opacity var(--transicion), filter var(--transicion); }
-    li:hover img { filter: none; opacity: 1; }
+    img { width: auto; height: clamp(2rem, 1.6rem + 1.4vw, 2.75rem); mix-blend-mode: multiply; }
+    /* En gris solo donde hay cursor: el hover devuelve el color. En táctil se ven a color siempre */
+    @media (hover: hover) and (pointer: fine) {
+      img { filter: grayscale(1); opacity: 0.7; transition: opacity var(--transicion), filter var(--transicion); }
+      li:hover img { filter: none; opacity: 1; }
+    }
   }
 
   /* Ficha técnica en lista: modelos con medidas, línea superior del color de la familia */
