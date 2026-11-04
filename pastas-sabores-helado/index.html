@@ -33,7 +33,11 @@ faqs:
 <!-- Categorías de pastas -->
 <div class="section center">
 
-  <p class="text_center"><strong>En resumen:</strong> Italgel distribuye pastas concentradas MEC3 (Pistacho, Vainilla Bourbon, Almendras, Chocolate) con concentración real de fruto seco, cacao o vainilla, no extracto ni saborizante. Sin abrir duran 18-24 meses; abiertas y refrigeradas, entre 6 y 12 meses (las de frutos secos, hasta 6 meses por oxidación).</p>
+  <div class="sintesis">
+      <p class="etiqueta tres-bolas">En resumen</p>
+      <p class="sintesis__texto">Italgel distribuye pastas concentradas MEC3 (Pistacho, Vainilla Bourbon, Almendras, Chocolate) con concentración real de fruto seco, cacao o vainilla, no extracto ni saborizante. Sin abrir duran 18-24 meses; abiertas y refrigeradas, entre 6 y 12 meses (las de frutos secos, hasta 6 meses por oxidación).</p>
+      <p class="sintesis__accion"><a class="lead_whatsapp enlace-flecha" href="{% include wa-href.html %}" target="_blank" rel="noopener noreferrer" data-location="resumen" title="Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)">Pide asesoría por WhatsApp<span class="visualmente-oculto"> (abre WhatsApp)</span></a></p>
+    </div>
 
   <h2 class="text_center">Catálogo de pastas por categoría</h2>
   <p class="text_center">
@@ -71,7 +75,7 @@ faqs:
       </p>
 
       <div class="botones">
-        {% include boton.html num="1" text="Cotizar Pasta Pistacho 🥜" %}
+        {% include boton.html num="1" text="Cotizar Pasta Pistacho" %}
         <a
           href="{{'/pastas-sabores-helado/pasta-pistacho/'|relative_url}}"
           class="boton boton_2"
@@ -113,7 +117,7 @@ faqs:
         sabor hasta 18 meses.
       </p>
 
-      {% include boton.html num="1" text="Ver precio Pasta Avellana 🌰" %}
+      {% include boton.html num="1" text="Ver precio Pasta Avellana" %}
     </div>
     <img
       src="{{ 'img/pasta-avellana-selection-helado.avif' | relative_url }}"

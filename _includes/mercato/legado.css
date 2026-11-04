@@ -7,19 +7,17 @@
   .contenido-legado {
     /* Cada bloque de primer nivel es una banda con su propio ancho y aire */
     > :is(section, div, article, aside):not(.pqr-overlay) { width: min(100% - 2 * var(--margen-lateral), var(--ancho-contenido)); margin-inline: auto; padding-block: var(--space-xl); }
-    > :is(section, div, article, aside):nth-child(even of :is(section, div, article, aside)):not(.bg_grey, .bg_grey_light, .pqr-overlay) { border-block-start: 1px solid var(--color-linea); }
 
     .wrapper, .section, .page-wrapper { padding-block: var(--space-xl); }
     .wrapper .wrapper, .section .wrapper { width: 100%; padding-block: var(--space-md); }
     .padding_block { padding-block: var(--space-lg); }
-    /* Las secciones dentro de .page-wrapper también son bandas: aire arriba y abajo y una línea entre ellas */
+    /* Las secciones dentro de .page-wrapper también son bandas: aire arriba y abajo */
     .page-wrapper > :is(section, aside, article, div):not(.pqr-overlay) { padding-block: var(--space-xl); }
-    .page-wrapper > :is(section, aside, article, div) + :is(section, aside, article, div):not(.bg_grey, .bg_grey_light, .bg_pink, .pqr-overlay) { border-block-start: 1px solid var(--color-linea); }
     .page-wrapper > :is(.bg_grey, .bg_grey_light, .bg_pink) { margin-block: var(--space-lg); }
 
     /* Ritmo vertical dentro de cada bloque (el contenido heredado dependía de márgenes del CSS anterior).
        No se aplica a contenedores flex o grid de varias columnas, donde el espacio lo pone gap. */
-    :is(section, article, aside, div):not(.flex, .flex_left, .two_columns, .three_columns, .four_columns, .products-grid, .botones, .product-img, .tabla-desplazable, .icons) {
+    :is(section, article, aside, div):not(.flex, .flex_left, .two_columns, .three_columns, .four_columns, .products-grid, .botones, .product-img, .tabla-desplazable, .icons, .cafe-destacado, .flujo, .columnas, .rejilla, .acciones, .sintesis, .faq, .faq__lista, .faq__item, .faq__contacto, .cta) {
       > * + * { margin-block-start: var(--space-md); }
       > * + h2 { margin-block-start: var(--space-xl); }
       > * + :is(h3, h4) { margin-block-start: var(--space-lg); }
@@ -56,14 +54,29 @@
     /* Columnas y rejillas */
     .flex { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xl) clamp(2rem, 4vw, 4rem); }
     .flex > * { flex: 1 1 20rem; min-width: 0; }
-    .flex > img { flex: 1 1 18rem; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+    /* La foto conserva su proporción (vertical, cuadrada o apaisada): nunca se recorta el producto.
+       Las verticales se limitan en alto y quedan centradas en su columna. */
+    .flex > img { flex: 1 1 18rem; width: 100%; height: auto; max-block-size: 34rem; object-fit: contain; align-self: center; }
+
+    /* Banda de café Hambach en /equipos/ (include cafe-destacado.html): verde, texto | cafetera en baldosa clara */
+    > .cafe-destacado {
+      display: grid; gap: var(--space-xl); align-items: center; padding: var(--space-xl) clamp(1.25rem, 4vw, 3.5rem);
+      background: var(--color-verde); color: var(--color-marfil); border-radius: var(--radio);
+      --color-texto: var(--color-marfil); --color-texto-suave: var(--color-marfil-suave); --color-linea: rgb(237 232 220 / 0.18);
+      @media (min-width: 60rem) { grid-template-columns: 7fr 5fr; }
+      p, strong { color: inherit; }
+      .medida { color: var(--color-marfil-suave); }
+      a:not(.boton) { color: var(--color-marfil); }
+    }
+    .cafe-destacado__foto {
+      display: grid; place-items: center; padding: var(--space-lg); background: var(--color-marfil); border-radius: var(--radio);
+      img { inline-size: auto; max-inline-size: 100%; max-block-size: 20rem; object-fit: contain; mix-blend-mode: multiply; border-radius: 0; }
+    }
     @media (min-width: 60rem) { .flex_left { flex-direction: row-reverse; } }
     :is(.two_columns, .three_columns, .four_columns, .products-grid) { display: grid; gap: var(--space-xl) var(--space-lg); }
     .two_columns { grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
     .three_columns, .products-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); }
     .four_columns { grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
-    .borders { border-inline: 1px solid var(--color-linea); padding-inline: var(--space-lg); }
-    @media (max-width: 60rem) { .borders { border-inline: 0; padding-inline: 0; } }
 
     /* Fondos: escalones de tono del sistema */
     :is(.bg_grey, .bg_grey_light) { background: var(--color-papel); border-radius: var(--radio); padding: var(--space-xl) clamp(1.25rem, 4vw, 3rem); }
@@ -75,31 +88,30 @@
     .product-card { display: grid; align-content: start; gap: var(--space-md); }
     .product-img {
       display: grid; place-items: center; overflow: hidden; aspect-ratio: 1; background: var(--color-papel); border-radius: var(--radio);
-      border-block-end: 3px solid var(--color-familia, var(--color-marca));
       img { width: 100%; height: 100%; object-fit: contain; padding: 8%; mix-blend-mode: multiply; }
     }
-    .product-img.pink { border-block-end-color: var(--color-rosa); }
-    .product-img.secundario { border-block-end-color: var(--color-turquesa); }
     .product-content { display: grid; gap: var(--space-sm); align-content: start; }
     .product-content.text_center { text-align: start; }
     .product-badge { display: inline-block; font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
 
-    /* Tarjeta de serie o línea de producto (vitrinas, Quella): ficha sobre papel con la franja de un color del logo */
+    /* Tarjeta de serie o línea de producto (vitrinas, Quella): ficha sobre papel, el título lleva la bola de un color del logo */
     .product-category {
       display: grid; align-content: start; gap: var(--space-sm); padding: var(--space-lg) clamp(1.25rem, 4vw, 2rem);
-      background: var(--color-papel); border-radius: var(--radio); border-block-start: 3px solid var(--color-marca);
-      &:nth-child(3n + 2) { border-block-start-color: var(--color-rosa); }
-      &:nth-child(3n) { border-block-start-color: var(--color-turquesa); }
+      background: var(--color-papel); border-radius: var(--radio); --punto: var(--color-marca);
+      &:nth-child(3n + 2) { --punto: var(--color-rosa); }
+      &:nth-child(3n) { --punto: var(--color-turquesa); }
+      > h3::before { content: ""; display: inline-block; inline-size: 0.625rem; block-size: 0.625rem; margin-inline-end: 0.625rem; border-radius: 50%; background: var(--punto); vertical-align: 0.1em; }
       ul { margin-block: var(--space-sm); }
       small { color: var(--color-texto-suave); }
       .boton { margin-block-start: var(--space-sm); }
     }
 
     /* Cifras destacadas con la bola del color del logo */
-    .datos { display: grid; gap: var(--space-sm); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); border-block-start: 3px solid var(--color-marca); text-align: start; }
-    .datos.pink { border-block-start-color: var(--color-rosa); }
-    .datos.secundario { border-block-start-color: var(--color-turquesa); }
-    .datos.gris { border-block-start-color: var(--color-texto-suave); }
+    .datos { display: grid; gap: var(--space-sm); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); text-align: start; --punto: var(--color-marca); }
+    .datos::before { content: ""; inline-size: 0.75rem; block-size: 0.75rem; border-radius: 50%; background: var(--punto); }
+    .datos.pink { --punto: var(--color-rosa); }
+    .datos.secundario { --punto: var(--color-turquesa); }
+    .datos.gris { --punto: var(--color-marfil-suave); }
     .datos > span, .stat-number { font-size: var(--text-bloque); font-weight: 600; color: var(--color-texto); letter-spacing: -0.015em; }
     .flex:has(> .datos) { align-items: stretch; }
     .flex:has(> .datos) > .datos { flex: 1 1 14rem; }
@@ -130,11 +142,80 @@
     }
 
     /* Citas */
-    blockquote { padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); border-block-start: 2px solid var(--color-rosa); }
+    blockquote { padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); }
     cite { display: block; margin-block-start: var(--space-sm); font-style: normal; font-weight: 600; font-size: var(--text-sm); color: var(--color-texto); }
 
-    /* FAQ visibles (include faqs.html) */
-    .faq-item { display: grid; gap: var(--space-sm); padding-block: var(--space-lg); border-block-end: 1px solid var(--color-linea); flex: 1 1 22rem; align-self: start; }
+    /* Síntesis "En resumen" (idea "Bold Stats" de 21st): la respuesta corta de la página en grande, con su acción */
+    .sintesis {
+      display: grid; gap: var(--space-md); inline-size: 100%; padding: var(--space-xl) clamp(1.25rem, 4vw, 3.5rem);
+      background: var(--color-mantequilla); border-radius: var(--radio); text-align: start;
+      @media (min-width: 60rem) {
+        grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--space-2xl); align-items: end;
+        > .etiqueta { grid-column: 1 / -1; }
+      }
+    }
+    .sintesis__texto { font-size: var(--text-lg); line-height: 1.65; color: var(--color-texto); max-inline-size: 64ch; }
+    .sintesis__accion { margin: 0; .enlace-flecha { color: #0E6B37; white-space: nowrap; } }
+
+    /* Preguntas frecuentes (idea "Two-Column FAQ" de 21st, sin acordeón): contacto a un lado, preguntas numeradas al otro */
+    .faq {
+      display: grid; gap: var(--space-xl); inline-size: 100%; text-align: start;
+      @media (min-width: 60rem) { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); align-items: start; column-gap: var(--space-2xl); }
+    }
+    .faq__contacto {
+      display: grid; gap: var(--space-sm); padding: var(--space-lg); border-radius: var(--radio);
+      background: var(--color-verde); color: var(--color-marfil);
+      p { color: var(--color-marfil-suave); }
+      .faq__contacto-titulo { color: var(--color-marfil); font-size: var(--text-lg); font-weight: 600; }
+      .enlace-flecha { color: var(--color-marfil); margin-block-start: var(--space-sm); }
+      @media (max-width: 59.99rem) { order: 2; }
+      @media (min-width: 60rem) { position: sticky; top: calc(var(--altura-cabecera) + var(--space-lg)); }
+    }
+    .faq__lista { counter-reset: faq; display: grid; gap: var(--space-xl); }
+    /* En escritorio el título de la sección sube a la columna izquierda, sobre la tarjeta de contacto */
+    @media (min-width: 60rem) {
+      :is(section, div):has(> .faq) {
+        display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); column-gap: var(--space-2xl); align-items: start; justify-items: stretch;
+        > h2 { grid-column: 1; grid-row: 1; text-align: start; margin: 0; max-inline-size: none; }
+        > .faq { display: contents; }
+        .faq__contacto { grid-column: 1; grid-row: 2; margin-block-start: var(--space-lg); }
+        .faq__lista { grid-column: 2; grid-row: 1 / span 2; }
+      }
+    }
+    .faq__item {
+      counter-increment: faq; display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); column-gap: var(--space-md); row-gap: var(--space-sm);
+      &::before {
+        content: counter(faq, decimal-leading-zero); grid-row: 1 / span 2; padding-block-start: 0.2rem;
+        font-weight: 600; font-size: var(--text-sm); font-variant-numeric: tabular-nums; color: var(--color-marca-texto);
+      }
+      &:nth-child(3n + 2)::before { color: var(--color-rosa-texto); }
+      &:nth-child(3n)::before { color: var(--color-turquesa-texto); }
+      h3 { font-size: var(--text-lg); font-weight: 600; color: var(--color-texto); }
+    }
+    .faq__respuesta > * + * { margin-block-start: 0.75rem; }
+
+    /* Llamado a la acción intermedio (.cta): tarjeta con el texto a un lado y las acciones agrupadas al otro */
+    .cta {
+      display: grid; gap: var(--space-md); justify-items: start; text-align: start;
+      inline-size: 100%; max-width: none; padding: var(--space-xl) clamp(1.25rem, 4vw, 3.5rem); background: var(--color-mantequilla); border-radius: var(--radio);
+      > :is(.two_columns, .three_columns, .botones, .flex) { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-md) var(--space-xl); margin-block: var(--space-sm); }
+      > * { margin-inline: 0; }
+      small, i { font-style: normal; color: var(--color-texto-suave); }
+      @media (min-width: 60rem) {
+        grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--space-2xl); align-items: center;
+        > * { grid-column: 1; }
+        > :is(.two_columns, .three_columns, .botones, .flex) { grid-column: 2; grid-row: 1 / span 4; flex-direction: column; align-items: start; justify-self: start; }
+      }
+    }
+
+    /* Tarjetas de texto en rejilla (sin foto): papel, aire y la bola de color en el título */
+    :is(.two_columns, .three_columns, .four_columns) > :is(div, article):not(.datos, .product-category, :has(img), .faq__item) {
+      padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); text-align: start; --punto: var(--color-marca);
+      &:nth-child(3n + 2) { --punto: var(--color-rosa); }
+      &:nth-child(3n) { --punto: var(--color-turquesa); }
+      > h3:first-child::before { content: ""; display: inline-block; inline-size: 0.625rem; block-size: 0.625rem; margin-inline-end: 0.625rem; border-radius: 50%; background: var(--punto); vertical-align: 0.1em; }
+      :is(.bg_grey, .bg_grey_light) & { background: var(--color-fondo); }
+    }
     .aviso-b2b, .intro-text, .text-highlight { padding: var(--space-lg); background: var(--color-mantequilla); border-radius: var(--radio); }
     .icons { display: none; }
   }

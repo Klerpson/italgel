@@ -13,11 +13,17 @@ hero: "img/contacto-italgel-colombia.avif"
 jpg: "img/contacto-italgel-colombia.jpg"
 alt: "Contacto Italgel Colombia - Asesoría técnica y cotizaciones de insumos y equipos para heladería"
 hero_title: "Contacto Italgel"
+hero_w: 1080
+hero_h: 720
 ---
 
 <div class="page-wrapper">
   <section class="section center flow">
-    <p class="text_center"><strong>En resumen:</strong> Podés contactar a Italgel por WhatsApp, teléfono o email (respuesta en menos de 24 horas hábiles), o visitar el showroom con cita previa. El horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM y sábados de 9:00 AM a 12:00 PM, con soporte técnico 24/7 para clientes.</p>
+    <div class="sintesis">
+      <p class="etiqueta tres-bolas">En resumen</p>
+      <p class="sintesis__texto">Podés contactar a Italgel por WhatsApp, teléfono o email (respuesta en menos de 24 horas hábiles), o visitar el showroom con cita previa. El horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM y sábados de 9:00 AM a 12:00 PM, con soporte técnico 24/7 para clientes.</p>
+      <p class="sintesis__accion"><a class="lead_whatsapp enlace-flecha" href="{% include wa-href.html %}" target="_blank" rel="noopener noreferrer" data-location="resumen" title="Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)">Pide asesoría por WhatsApp<span class="visualmente-oculto"> (abre WhatsApp)</span></a></p>
+    </div>
   </section>
 
   <section class="center flow">
@@ -49,7 +55,7 @@ hero_title: "Contacto Italgel"
               target="_blank" title="Llamar a Italgel">+57 {{ site.telefono }}</a
             >
           </p>
-          {% include boton.html num="1" text="Escríbenos por WhatsApp 📱" %}
+          {% include boton.html num="1" text="Escríbenos por WhatsApp" %}
         </div>
       </article>
 
@@ -104,7 +110,7 @@ hero_title: "Contacto Italgel"
           asesoría técnica de rendimiento y dosificación incluida.
         </p>
       </div>
-      <div class="text_center borders flow center">
+      <div class="text_center flow center">
         
         <h3>Asesoría en equipos</h3>
         <p>
@@ -138,7 +144,7 @@ hero_title: "Contacto Italgel"
           premium y coberturas.
         </p>
       </div>
-      <div class="text_center borders flow center">
+      <div class="text_center flow center">
         <h3>Medellín, Cali, Barranquilla</h3>
         <p>
           Entregas según la disponibilidad del inventario. Coordinamos envíos semanales con
@@ -171,7 +177,7 @@ hero_title: "Contacto Italgel"
           <li>Pastas y coberturas recomendadas para tus sabores</li>
           <li>Cantidades iniciales de compra según tu rotación</li>
         </ul>
-        {% include boton.html num="1" text="Solicitar asesoría inicial 🧠" %}
+        {% include boton.html num="1" text="Solicitar asesoría inicial" %}
       </div>
       <img
         src="{{ '/img/asesoria-tecnica-heladeria-colombia.avif' | relative_url }}"
@@ -180,7 +186,7 @@ hero_title: "Contacto Italgel"
         loading="lazy"
         decoding="async"
         width="584"
-        height="396"
+        height="584"
       />
     </article>
   </section>
@@ -209,8 +215,8 @@ hero_title: "Contacto Italgel"
       recomendamos bases MEC3 y equipos profesionales para tu heladería.
     </p>
     <div class="two_columns">
-      {% include boton.html num="1" text="Cotizar por WhatsApp 📋" %}
-      <a href="tel:+57{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar ahora 📞</a
+      {% include boton.html num="1" text="Cotizar por WhatsApp" %}
+      <a href="tel:+57{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar ahora</a
       >
     </div>
     <small

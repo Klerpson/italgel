@@ -21,7 +21,11 @@ faqs:
 ---
 
 <div class="wrapper bg_grey_light">
-  <p class="text_center"><strong>En resumen:</strong> Italgel distribuye tres categorías de insumos para heladería: bases (Base 50, Neutralin, Supergelmix, línea Stevia, overrun 25-100%), pastas concentradas y coberturas/salsas Quella. Los despachos a las principales ciudades se coordinan según la disponibilidad del inventario.</p>
+  <div class="sintesis">
+      <p class="etiqueta tres-bolas">En resumen</p>
+      <p class="sintesis__texto">Italgel distribuye tres categorías de insumos para heladería: bases (Base 50, Neutralin, Supergelmix, línea Stevia, overrun 25-100%), pastas concentradas y coberturas/salsas Quella. Los despachos a las principales ciudades se coordinan según la disponibilidad del inventario.</p>
+      <p class="sintesis__accion"><a class="lead_whatsapp enlace-flecha" href="{% include wa-href.html %}" target="_blank" rel="noopener noreferrer" data-location="resumen" title="Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)">Pide asesoría por WhatsApp<span class="visualmente-oculto"> (abre WhatsApp)</span></a></p>
+    </div>
   <div class="text_center center flow">
     <h2>
       La diferencia entre una heladería rentable y una que apenas sobrevive está
@@ -215,7 +219,7 @@ faqs:
       </p>
     </div>
 
-    <div class="text_center flow center borders">
+    <div class="text_center flow center">
       
       <h3>Asesoría técnica sin costo adicional</h3>
       <p>
@@ -286,7 +290,7 @@ faqs:
     rentabilidad.
   </p>
   <div class="botones">
-    {% include boton.html num="1" text="Solicitar asesoría por WhatsApp 💬" %}
+    {% include boton.html num="1" text="Solicitar asesoría por WhatsApp" %}
     <a
       href="tel:{{site.telefono}}"
       rel="nofollow noopener noreferrer"

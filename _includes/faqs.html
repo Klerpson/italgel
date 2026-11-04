@@ -3,11 +3,31 @@
   escribe <a data-wa>texto</a> y aqui recibe el href wa.me de _config.yml, la
   clase lead_whatsapp y un data-location por pregunta. {{site.telefono}}
   escrito en una respuesta se cambia por el numero real.
+  En el diseño Mercato (todo menos layout evento) sigue el patrón "Two-Column FAQ" de 21st sin acordeón:
+  tarjeta de contacto a un lado y preguntas numeradas, todas visibles, al otro.
 {%- endcomment -%}
 {%- capture _wa_faq_href -%}{% include wa-href.html %}{%- endcapture -%}
 {%- assign _tel_token = '{{site.telefono}}' -%}
 {% assign faq_data = page.faqs | default: page.faq %}
 {% if faq_data %}
+{%- if page.layout != "evento" %}
+<div class="faq">
+  <aside class="faq__contacto">
+    <p class="faq__contacto-titulo">¿No está tu pregunta?</p>
+    <p>Escríbenos por WhatsApp y un asesor de Italgel te responde con la referencia y el dato exacto.</p>
+    <a class="lead_whatsapp enlace-flecha" href="{{ _wa_faq_href }}" target="_blank" rel="noopener noreferrer" data-location="faq-contacto" title="Hacer otra pregunta por WhatsApp (abre WhatsApp)">Hacer otra pregunta<span class="visualmente-oculto"> (abre WhatsApp)</span></a>
+  </aside>
+  <div class="faq__lista">
+    {%- for faq in faq_data %}
+    <article class="faq__item">
+      <h3>{{ faq.question | default: faq.q }}</h3>
+      {%- capture _wa_faq_a -%}<a href="{{ _wa_faq_href }}" class="lead_whatsapp" title="Escribir a Italgel por WhatsApp (abre WhatsApp)" target="_blank" rel="noopener noreferrer" data-location="faq-{{ forloop.index }}">{%- endcapture %}
+      <div class="faq__respuesta">{{ faq.answer | default: faq.a | replace: _tel_token, site.telefono | replace: '<a data-wa>', _wa_faq_a | markdownify }}</div>
+    </article>
+    {%- endfor %}
+  </div>
+</div>
+{%- else %}
 <div class="flex">
   {% for faq in faq_data %}
   <article class="faq-item">
@@ -17,4 +37,5 @@
   </article>
   {% endfor %}
 </div>
+{%- endif %}
 {% endif %}

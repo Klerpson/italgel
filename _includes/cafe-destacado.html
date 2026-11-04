@@ -1,9 +1,17 @@
-<section class="cafe-shell cafe-promo" aria-labelledby="cafe-destacado-titulo">
-  <div>
-    <p class="cafe-eyebrow">Equipos de café Hambach</p>
-    <h2 id="cafe-destacado-titulo">Importadores exclusivos de Hambach para Colombia</h2>
-    <p>Cafeteras espresso y molinos para casa, cafeterías, restaurantes y pastelerías. Conoce las fichas de los diez modelos y cotiza con Italgel.</p>
-    <a class="boton boton_1" href="{{ '/equipos-cafe/' | relative_url }}" title="Cafeteras espresso Hambach y molinos de café">Explorar equipos de café</a>
+{%- comment -%}
+  Banda de café Hambach dentro de /equipos/ (contenido heredado). Usa los componentes Mercato:
+  banda verde, texto a la izquierda y la cafetera recortada sobre una baldosa clara a la derecha.
+{%- endcomment -%}
+<section class="cafe-destacado" aria-labelledby="cafe-destacado-titulo">
+  <div class="flujo flujo--amplio">
+    <div class="flujo">
+      <p class="etiqueta tres-bolas">Equipos de café Hambach</p>
+      <h2 id="cafe-destacado-titulo">Importadores exclusivos de Hambach para Colombia</h2>
+      <p class="medida">Cafeteras espresso y molinos para casa, cafeterías, restaurantes y pastelerías. Conoce las fichas de los diez modelos y cotiza con Italgel.</p>
+    </div>
+    <a class="enlace-flecha" href="{{ '/equipos-cafe/' | relative_url }}" title="Cafeteras espresso Hambach y molinos de café">Explorar equipos de café</a>
   </div>
-  <img src="{{ '/img/cafe/tank-2.avif' | relative_url }}" alt="Cafetera espresso Hambach Tank 2" title="Cafetera espresso Hambach Tank 2" width="800" height="700" loading="lazy" decoding="async">
+  <figure class="cafe-destacado__foto">
+    <img src="{{ '/img/cafe/tank-2.avif' | relative_url }}" alt="Cafetera espresso Hambach Tank 2" title="Cafetera espresso Hambach Tank 2" width="800" height="700" loading="lazy" decoding="async">
+  </figure>
 </section>
