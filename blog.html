@@ -44,7 +44,7 @@ breadcrumb:
   <div class="wrapper">
     <ol>
       {%- for tema in _blog.temas %}
-      <li><a href="#tema-{{ tema.id }}">{{ tema.nombre }}</a></li>
+      <li><a href="#tema-{{ tema.id }}" title="Guías de {{ tema.nombre | downcase }}">{{ tema.nombre }}</a></li>
       {%- endfor %}
     </ol>
   </div>

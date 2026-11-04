@@ -51,6 +51,21 @@ layout: mercato
   {%- endcapture -%}
 {%- endif -%}
 {%- assign _faq_titulo = _faq_titulo | default: "Preguntas que nos hacen los heladeros sobre este tema" -%}
+{%- comment -%} Enlaces del cuerpo sin title (Markdown): title = texto del enlace (convención del sitio) {%- endcomment -%}
+{%- assign _enl = _cuerpo | split: '<a href="' -%}
+{%- capture _cuerpo -%}
+  {%- for t in _enl -%}
+    {%- if forloop.first -%}{{ t }}{%- else -%}
+      {%- assign _etq = t | split: '>' | first -%}
+      {%- if _etq contains 'title=' -%}<a href="{{ t }}{%- else -%}
+        {%- capture _cierre_etq -%}{{ _etq }}>{%- endcapture -%}
+        {%- assign _resto = t | remove_first: _cierre_etq -%}
+        {%- assign _txt_enl = _resto | split: '</a>' | first | strip_html | strip | escape -%}
+        <a href="{{ _etq }} title="{{ _txt_enl }}">{{ _resto }}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
 {%- assign _cuerpo = _cuerpo | replace: '<table>', '<div class="tabla-desplazable" tabindex="0" role="region" aria-label="Tabla del artículo"><table class="comparativa">' | replace: '</table>', '</table></div>' -%}
 
 {%- comment -%} Índice: H2 del cuerpo + secciones fijas {%- endcomment -%}
@@ -117,9 +132,9 @@ layout: mercato
       {%- for t in _h2s offset: 1 %}
       {%- assign _id = t | split: '"' | first -%}
       {%- assign _txt = t | split: '</h2>' | first | remove_first: _id | remove_first: '">' | strip_html | strip %}
-      <li><a href="#{{ _id }}">{{ _txt }}</a></li>
+      <li><a href="#{{ _id }}" title="Ir a: {{ _txt | escape }}">{{ _txt }}</a></li>
       {%- endfor %}
-      {%- if page.faq %}<li><a href="#preguntas">Preguntas frecuentes</a></li>{% endif %}
+      {%- if page.faq %}<li><a href="#preguntas" title="Ir a: {{ _faq_titulo | escape }}">Preguntas frecuentes</a></li>{% endif %}
     </ol>
   </nav>
   {%- endif %}
@@ -147,7 +162,7 @@ layout: mercato
       <h2 id="titulo-fuentes">Fuentes consultadas para este artículo</h2>
       <ol class="fuentes">
         {%- for ref in page.referencias %}{% for par in ref %}
-        <li><a href="{{ par[1] }}" rel="noopener" target="_blank">{{ par[0] }}</a></li>
+        <li><a href="{{ par[1] }}" rel="noopener" target="_blank" title="{{ par[0] | escape }} (fuente externa)">{{ par[0] }}</a></li>
         {%- endfor %}{% endfor %}
       </ol>
     </section>
