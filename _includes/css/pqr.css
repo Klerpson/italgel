@@ -356,3 +356,6 @@
   border-bottom-color: var(--color-secundario);
 }
 
+
+/* Estado inicial del botón "atrás": oculto hasta el paso 2 (js/app.js lo muestra). */
+.pqr-btn-atras { visibility: hidden; }

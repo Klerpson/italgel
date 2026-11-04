@@ -1,156 +1,101 @@
 ---
-layout: blog
-title: "Blog de Heladería | Guías y Técnicas - Italgel"
-last_modified_at: "2026-09-21"
-description: "Guías técnicas de producción, rentabilidad y recetas para heladería profesional. Contenido actualizado para heladeros en Colombia."
-hero: img/blog-itagel.avif
-h1: Blog de heladería profesional
-intro: Técnicas de producción, análisis de costos, tendencias del mercado y casos de éxito de heladerías colombianas. Todo lo que necesitas saber para hacer tu negocio más rentable.
-alt: Blog de Italgel Colombia - Guías técnicas y estrategias de negocio para heladerías profesionales
+layout: mercato
+title: "Blog de heladería: guías técnicas y de negocio | Italgel"
+keyword: "blog de heladería"
+last_modified_at: "2026-11-04"
+description: "Blog de heladería de Italgel: guías de overrun, pasteurización, bases y variegatos, y cómo abrir y hacer rentable una heladería en Colombia."
+h1: Blog de heladería profesional en Colombia
+hero: /img/blog-itagel.avif
+hero_w: 1080
+hero_h: 820
+alt: Blog de heladería de Italgel con guías técnicas y de negocio, sobre una vitrina de gelato
 hero_title: "Blog Italgel"
-noindex: false
 permalink: /blog/
+breadcrumb:
+  - name: Inicio
+    url: /
+  - name: Blog
+    url: /blog/
 ---
+{%- comment -%}
+  Índice del blog en el sistema Mercato (2026-11-04). Todos los posts se ven en el HTML,
+  agrupados por los temas de _data/blog.yml (sin "cargar más" ni posts ocultos).
+{%- endcomment -%}
+{%- assign _blog = site.data.blog -%}
+{% include mercato/migas.html %}
 
-<main class="page-wrapper">
-  <section class="section center flow">
-    <p class="text_center"><strong>En resumen:</strong> El blog de Italgel reúne guías técnicas de producción, costos y recetas para heladería profesional, con nuevos artículos cada mes basados en casos reales de heladerías colombianas. Actualmente cuenta con {{site.posts.size}} artículos, resultado de 15 años de experiencia documentada en el gremio heladero.</p>
-  </section>
-
-  <section class="center">
-    <h2 class="text_center">Artículos más leídos</h2>
-
-    <div class="three_columns">
-      {%- comment -%}
-        Fase 1.2 (SEO tecnico / performance, sep 2026): antes, TODAS las
-        imagenes de posts destacados cargaban con loading="eager" sin
-        fetchpriority, compitiendo entre si por prioridad de red apenas
-        habia mas de un destacado -- eso explicaba el LCP de 7.8s de esta
-        pagina (vs 3.6-5.6s de cualquier post individual). Ahora solo la
-        PRIMERA imagen destacada que se renderiza es eager+fetchpriority
-        alto (candidata real a LCP); el resto de destacados carga lazy,
-        igual que el resto de imagenes del sitio.
-      {%- endcomment -%}
-      {% assign primer_destacado_asignado = false %}
-      {% for post in site.posts %} {% if post.featured %}
-      <article class="product-card">
-        <div class="product-img principal">
-          {% assign post_img = post.jpg | default: post.image | default: post.hero | default: '/img/blog-itagel.avif' %}
-          <picture>
-            {% if post.hero %}
-            <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
-            {% endif %}
-            {% if primer_destacado_asignado %}
-            <img
-              src="{{ post_img | relative_url }}"
-              alt="{{ post.hero_alt | default: post.title }}"
-              width="280"
-              height="280"
-              loading="lazy"
-              decoding="async"
-            />
-            {% else %}
-            <img
-              src="{{ post_img | relative_url }}"
-              alt="{{ post.hero_alt | default: post.title }}"
-              width="280"
-              height="280"
-              loading="eager"
-              fetchpriority="high"
-              decoding="async"
-            />
-            {% assign primer_destacado_asignado = true %}
-            {% endif %}
-          </picture>
-        </div>
-        <div class="product-content flow">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.excerpt }}</p>
-          <a href="{{ post.url | relative_url }}" class="boton boton_2"
-            >Leer artículo →</a
-          >
-        </div>
-      </article>
-      {% endif %} {% endfor %}
+<section class="portada" data-hero aria-labelledby="titulo-portada">
+  <div class="wrapper portada__panel">
+    <div class="portada__texto flujo flujo--amplio">
+      <h1 id="titulo-portada">{{ page.h1 }}</h1>
+      <p class="entradilla">{{ site.posts.size }} guías de Italgel sobre producción de helado, insumos y negocio: cómo calcular el overrun, pasteurizar la mezcla, dosificar bases y variegatos, y abrir una heladería en Colombia.</p>
+      <div class="acciones">
+        {% include mercato/boton.html texto="Cotizar por WhatsApp" location="hero" %}
+        <p class="microgarantia">Asesoría técnica sin costo para clientes de Italgel.</p>
+      </div>
     </div>
-  </section>
+    <picture class="portada__foto">
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="{{ page.hero_w }}" height="{{ page.hero_h }}" fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+</section>
 
-  <section class="wrapper flex">
-    <article class="pink datos center text_center">
-      <span>{{site.posts.size}} artículos</span>
-      <p>Guías técnicas sobre producción, negocio y recetas rentables</p>
-    </article>
-    <article class="principal datos center text_center">
-      <span>4 publicaciones</span>
-      <p>Nuevos artículos cada mes basados en casos reales colombianos</p>
-    </article>
-    <article class="secundario datos center text_center">
-      <span>15 años</span>
-      <p>De experiencia documentada en el gremio heladero</p>
-    </article>
-  </section>
+<nav class="indice" aria-label="Temas del blog" data-indice>
+  <div class="wrapper">
+    <ol>
+      {%- for tema in _blog.temas %}
+      <li><a href="#tema-{{ tema.id }}" title="Guías de {{ tema.nombre | downcase }}">{{ tema.nombre }}</a></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</nav>
 
-  <section class="center flow padding_block" id="all-posts">
-    <h2 class="text_center">Todos los artículos</h2>
-
-    <div id="posts-container" class="flow">
-      {% for post in site.posts %}
-        {% unless post.featured %}
-        <article class="flex bg_grey_light post-item {% cycle '', 'flex_left' %}" style="display: none;">
-          <div class="flow">
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-            <a href="{{ post.url | relative_url }}" class="boton boton_2">Leer artículo &rarr;</a>
-          </div>
-          {% assign post_img = post.jpg | default: post.image | default: post.hero | default: '/img/blog-itagel.avif' %}
-          <picture>
-            {% if post.hero %}
-            <source srcset="{{ post.hero | relative_url }}" type="image/avif" />
-            {% endif %}
-            <img src="{{ post_img | relative_url }}" alt="{{ post.hero_alt | default: post.title }}" loading="lazy" width="400" height="300" />
-          </picture>
-        </article>
-        {% endunless %}
-      {% endfor %}
+{%- for tema in _blog.temas %}
+{%- assign _posts_tema = site.posts | where: "tema", tema.id %}
+{%- if _posts_tema.size > 0 %}
+<section class="banda {{ tema.fondo }} {{ tema.familia }}" id="tema-{{ tema.id }}" aria-labelledby="titulo-{{ tema.id }}">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta {{ tema.etiqueta }} punto-familia">{{ tema.nombre }} · {{ _posts_tema.size }} guías</p>
+        <h2 id="titulo-{{ tema.id }}">{{ tema.titulo }}</h2>
+        <p class="medida texto-suave">{{ tema.texto }}</p>
+      </div>
     </div>
-
-    <div class="text_center" style="margin-block: 3rem;">
-      <button id="load-more-btn" class="boton boton_1" style="display: none;">Cargar posts más antiguos &darr;</button>
+    <div class="rejilla rejilla--ancha">
+      {%- for p in _posts_tema %}
+      {% include mercato/baldosa.html url=p.url img=p.hero alt=p.alt titulo=p.h1 meta=p.description clase="baldosa--foto baldosa--apaisada" ancho=p.hero_w alto=p.hero_h %}
+      {%- endfor %}
     </div>
-  </section>
+  </div>
+</section>
+{%- endif %}
+{%- endfor %}
 
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+  <div class="wrapper cierre flujo flujo--amplio">
+    <h2 id="titulo-cierre" class="medida">Cotiza tu máquina de helado, vitrina o insumos con Italgel</h2>
+    <p class="medida">Cuéntanos qué vendes, cuántos litros haces al día y en qué ciudad está tu negocio. Un asesor de Italgel te responde con la referencia que te sirve y su precio.</p>
+    <div class="acciones">
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" %}
+    </div>
+    <p class="microgarantia">Entregamos en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga; para otras ciudades, consulta el envío.</p>
+  </div>
+</section>
 
-
-  <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const posts = document.querySelectorAll(".post-item");
-    const loadMoreBtn = document.getElementById("load-more-btn");
-    let currentVisible = 0;
-    const showCount = 7;
-
-    function showNextPosts() {
-      let nextVisible = currentVisible + showCount;
-      for(let i = currentVisible; i < nextVisible && i < posts.length; i++) {
-          posts[i].style.display = "flex";
-      }
-      currentVisible = nextVisible;
-      
-      if (currentVisible >= posts.length) {
-         if(loadMoreBtn) loadMoreBtn.style.display = "none";
-      } else {
-         if(loadMoreBtn) loadMoreBtn.style.display = "inline-flex";
-      }
-    }
-
-    if (posts.length > 0) {
-      showNextPosts();
-    }
-    
-    if(loadMoreBtn) {
-       loadMoreBtn.addEventListener("click", showNextPosts);
-    }
-  });
-  </script>
-
-
-</main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog de Italgel",
+  "url": {{ page.url | absolute_url | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "inLanguage": "es-CO",
+  "publisher": { "@id": "{{ site.url }}/#organizacion" },
+  "blogPost": [
+    {%- for p in site.posts %}
+    { "@type": "BlogPosting", "headline": {{ p.h1 | default: p.title | truncate: 110 | jsonify }}, "url": {{ p.url | absolute_url | jsonify }}, "datePublished": "{{ p.date | date: '%Y-%m-%d' }}", "dateModified": "{{ p.last_modified_at | default: p.date | date: '%Y-%m-%d' }}" }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>

@@ -1,11 +1,16 @@
 ---
 layout: post
+tema: ingredientes
+producto: bases
+keyword: "helados sin azúcar"
+keyword_imagen: "helado artesanal sin azúcar"
+faq_titulo: "Dudas sobre el helado sin azúcar con stevia"
 title: "Helados sin azúcar para heladería: bases con Stevia"
-description: "Bases MEC3 con Stevia para helado sin azúcar: dosificación, edulcorantes profesionales y cómo posicionar el helado light en el mercado saludable de Colombia."
-excerpt: "El helado sin azúcar no es un helado al que le quitaste el azúcar. Es un producto reformulado con edulcorantes que replican las funciones del azúcar en textura y punto de congelación. Esta guía explica cómo producirlo bien."
+description: "Helados sin azúcar para heladería: bases MEC3 con Stevia, dosificación, edulcorantes profesionales y cómo ofrecer helado light en Colombia."
+excerpt: "Un helado sin azúcar añadido necesita una base reformulada, porque el azúcar también controla la textura y la congelación. Esta guía explica cómo hacerlo con las bases MEC3 con stevia."
 h1: "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionales"
 date: 2026-04-29 12:00:00 -0500
-last_modified_at: 2026-04-29 12:00:00 -0500
+last_modified_at: 2026-11-04 10:00:00 -0500
 author: Equipo Técnico Italgel
 categories: [heladeria-artesanal, tecnica]
 hero: /img/blog/helados-sin-azucar-stevia-heladeria.avif
@@ -16,107 +21,93 @@ jpg: /img/blog/helados-sin-azucar-stevia-heladeria.jpg
 alt: "Helado artesanal sin azúcar con base Stevia MEC3 en vitrina de heladería colombiana con etiqueta de producto saludable"
 hero_title: "Helado sin azúcar con stevia"
 schema_type: Article
+referencias:
+  - "MEC3, ficha de Base G para helados de crema": https://www.mec3.com/en/products/gelato/bases/cream-bases/base-g-cream
+  - "MEC3, ficha de Base G para helados de fruta": https://www.mec3.com/en/products/gelato/bases/fruit-bases/base-g-fruit-gelato
 faq:
-  - q: "¿El helado con Stevia se hace igual que el helado normal?"
-    a: "El proceso de mantecado es idéntico. La diferencia está en la base: se usa Stevia Base G Crema o Stevia Base G Fruta en lugar de las bases estándar. No necesitas cambiar tu mantecadora, tu técnica de pasteurizado ni tu proceso de vitrina. El ajuste es solo en la formulación del insumo."
-  - q: "¿La base Stevia MEC3 es apta para diabéticos?"
-    a: "La Stevia no eleva la glucosa en sangre y el eritritol presente en las bases Stevia MEC3 tiene efecto mínimo sobre glucemia. Sin embargo, el helado contiene otros ingredientes (leche, crema) que sí aportan carbohidratos. Para hacer declaraciones de salud a clientes diabéticos, consulta siempre con un profesional de salud y usa la ficha técnica completa del producto."
-  - q: "¿Cuánto más caro es producir un helado sin azúcar?"
-    a: "Las bases Stevia MEC3 tienen un precio ligeramente superior a las bases estándar (10-20% mayor dependiendo del volumen). Sin embargo, el precio de venta del helado sin azúcar puede ser 20-40% mayor que el estándar. El margen real del helado sin azúcar es comparable o superior al del helado estándar en la mayoría de los puntos de venta."
-  - q: "¿Puedo mezclar base Stevia con variegatos normales?"
-    a: "Sí. Los variegatos estándar (caramelo, frutos rojos, chocolate) son compatibles con bases Stevia. El helado resultante no puede llamarse 'sin azúcar' porque el variegato sí contiene azúcar, pero sí puede etiquetarse como 'con base Stevia'. Verifica que tus variegatos no cambien la promesa del producto antes de comunicarlo al cliente."
+  - q: "¿El helado con stevia se hace igual que el helado normal?"
+    a: "El mantecado es el mismo. Lo que cambia es la base: en lugar de una base estándar se usa una base con stevia, como la Base G de MEC3, preparada según la proporción del fabricante. No necesitas otra mantecadora."
+  - q: "¿Cómo se prepara la Base G de MEC3 para helado de crema?"
+    a: "MEC3 indica 1 sobre de Base G (0,9 kg) con 2,85 litros de leche, 150 g de crema de leche y la pasta del sabor. Por ejemplo, 480 g de pasta de pistacho de Sicilia o 390 g de crema de cacao."
+  - q: "¿Un helado con Base G es 'sin azúcar'?"
+    a: "MEC3 presenta la Base G como base sin azúcares añadidos y aclara que contiene azúcares presentes de forma natural, como los de la leche o la fruta. Por eso es más preciso anunciar 'sin azúcar añadida'. Antes de rotular el producto, revisa la norma de etiquetado vigente en Colombia."
+  - q: "¿Puedo mezclar una base con stevia con variegatos normales?"
+    a: "Sí, pero el helado deja de ser 'sin azúcar añadida' si el variegato lleva azúcar. Revisa la etiqueta de cada variegato o pasta antes de comunicar la promesa al cliente."
 ---
 
-**En resumen:** Un helado sin azúcar para heladería profesional requiere una base formulada con edulcorantes que repliquen las funciones del azúcar: control del punto de congelación, textura y overrun. Las bases MEC3 con Stevia (Stevia Base G Crema, Stevia Base G Fruta, Yogo Greco Stevia) permiten producir helado sin sacarosa con margen comparable al helado estándar, sin cambiar el proceso de producción ni el equipo.
+**En resumen:** Un helado sin azúcar para heladería profesional necesita una base formulada para reemplazar al azúcar, porque el azúcar también controla la congelación y la textura. MEC3 fabrica la Base G con glucósidos de esteviol, un edulcorante de la planta de stevia que, según el fabricante, endulza hasta 270 veces más que la sacarosa y no aporta calorías. Hay una Base G para helados de crema y otra para helados de fruta, y el mantecado es el mismo de siempre.
 
----
+## Por qué los helados sin azúcar son una opción que tu heladería puede ofrecer
 
-Hay dos razones frecuentes por las que una heladería decide ignorar el segmento sin azúcar: "ese cliente no compra helado" y "es difícil de hacer". Ambas son incorrectas.
+Los helados sin azúcar añadida son una forma de atender al cliente que limita el azúcar por salud, por dieta o por preferencia. Sin una opción para él, el grupo con el que llega puede elegir otra heladería.
 
-El cliente con diabetes, dieta cetogénica o restricción de azúcar sí quiere helado. Lo que no quiere es la versión de supermercado — industrial, sin carácter, con edulcorantes que dejan retrogusto químico. Ese cliente busca una heladería artesanal que tenga una opción real.
+Con la base correcta, producir helado sin azúcar añadida no exige otra máquina ni otro proceso. Cambia la base y, con ella, la forma de anunciar el producto.
 
-Y en cuanto a la dificultad técnica: con las bases correctas, producir helado sin azúcar requiere exactamente el mismo proceso que el helado estándar.
+## El problema técnico de quitarle el azúcar al helado
 
-## El mercado de helados sin azúcar en Colombia: oportunidad real o nicho pequeño
-
-Las búsquedas de "helado light" y "helados dietéticos" tienen 500 búsquedas mensuales en Colombia (Google Keyword Planner, 2026) con competencia baja. Ese volumen parece pequeño. Pero hay que leer el dato correctamente.
-
-El 95% de esas búsquedas lleva a marcas de consumo masivo (Crepes & Waffles, Popsy, Colanta). El segmento que busca helado sin azúcar artesanal, de heladería profesional, no está siendo capturado por nadie en Google. La competencia en SEO para ese nicho específico es mínima.
-
-Fuera de Google, la dinámica es más clara. En cualquier heladería artesanal de Bogotá o Medellín, el cliente con diabetes o restricción dietética que entra y pregunta "¿tienen algo sin azúcar?" recibe una de dos respuestas: "no" o "tenemos sorbetes". El primero se va. El segundo a veces se queda, pero la respuesta correcta debería ser: "sí, tenemos bases Stevia con el mismo proceso artesanal".
-
-### El argumento de diferenciación real
-
-No se trata de que el helado sin azúcar sea el más vendido del menú. Se trata de que su presencia cambia la decisión de compra del grupo que viene con alguien que tiene restricción dietética.
-
-Una familia de cuatro. Uno tiene diabetes. Si la heladería no tiene opción para él, los cuatro van a otro lado. Con opción sin azúcar, los cuatro se quedan. El impacto no está en el helado sin azúcar vendido — está en los tres helados estándar que se venden porque el cuarto miembro del grupo tuvo opción.
-
-## El problema técnico de reemplazar el azúcar en helado
-
-Aquí está el malentendido que produce malos helados sin azúcar: mucha gente cree que el azúcar en el helado es solo dulzor. No lo es.
+El azúcar en el helado cumple más funciones que endulzar. Si se quita sin reformular la mezcla, el helado cambia de textura.
 
 ### Las tres funciones del azúcar en heladería
 
-**Control del punto de congelación:** El azúcar disuelto en agua baja el punto de congelación de la mezcla. Sin azúcar, el helado congela demasiado duro a temperaturas normales de vitrina. Un helado que a -14°C debería estar servible queda como piedra si se quitó el azúcar sin ajustar la fórmula.
+- **Baja el punto de congelación.** El azúcar disuelto hace que la mezcla congele a una temperatura más baja. Sin él, el helado queda más duro a la temperatura de la vitrina.
+- **Da cuerpo y textura.** El azúcar disuelto aporta cuerpo a la mezcla y ayuda a que el helado salga cremoso de la mantecadora.
+- **Influye en la conservación.** El azúcar reduce el agua disponible en la mezcla, y quitarlo cambia cómo se comporta el helado en la vitrina.
 
-**Textura y cremosidad:** El azúcar aporta cuerpo a la mezcla. En la mantecadora, la viscosidad del azúcar disuelto ayuda a la incorporación de aire (overrun). Sin esa viscosidad, el helado puede quedar más denso de lo esperado o con overrun irregular.
+### Qué pasa si solo quitas el azúcar
 
-**Conservación en vitrina:** El azúcar inhibe el crecimiento microbiano. Un helado sin azúcar tiene menor vida útil en vitrina si no se compensa con otros ingredientes.
+Sin reformular la mezcla, el resultado suele ser un helado más duro, con cristales de hielo más grandes y una textura que cambia de la primera a la última bola de la cubeta. Ese defecto viene de la formulación, y una base pensada para trabajar sin azúcar añadida lo evita.
 
-### Qué pasa si solo quitas el azúcar sin ajustar la fórmula
+### Qué edulcorantes reemplazan las funciones del azúcar
 
-Resultado: helado demasiado duro, con cristales de hielo grandes, overrun irregular y vida útil en vitrina reducida. La textura de la primera copa es diferente a la de la última del mismo recipiente porque el helado sin azúcar pierde estructura más rápido.
+- **Stevia (glucósidos de esteviol):** edulcorante de la planta de stevia. MEC3 indica que su poder edulcorante es hasta 270 veces mayor que el de la sacarosa y que no aporta calorías. Por sí sola endulza, pero no aporta el cuerpo que da el azúcar.
+- **Polioles (eritritol, maltitol y otros):** edulcorantes que, además de endulzar, aportan cuerpo y ayudan a controlar la congelación. Cada uno se comporta distinto en el helado.
 
-Ese es exactamente el resultado que desacredita los helados sin azúcar en el mercado y que produce el comentario "el sin azúcar no sabe igual". No sabe igual porque estaba mal formulado, no porque la Stevia sea inferior al azúcar.
+Una base comercial combina estos ingredientes para que la mezcla se comporte como una mezcla con azúcar. Consulta la ficha técnica de cada base para conocer su composición exacta.
 
-### Los edulcorantes que sí reemplazan las funciones del azúcar
+## Bases MEC3 con stevia para helados de crema y de fruta
 
-**Stevia (Steviol glucósido):** Edulcorante de origen vegetal, 200-300 veces más dulce que la sacarosa. No aporta calorías ni afecta la glucemia. Su limitación técnica: no aporta viscosidad ni modifica el punto de congelación por sí sola. Se usa en combinación con otros edulcorantes o polioles.
+MEC3 fabrica dos bases de su línea G con glucósidos de esteviol, y las dos se presentan sin azúcares añadidos. El fabricante aclara que contienen azúcares presentes de forma natural.
 
-**Eritritol:** Poliol de fermentación. Aporta 0.2 kcal/g vs. 4 kcal/g de la sacarosa. Apto para dieta cetogénica. Su ventaja técnica: sí modifica el punto de congelación (aunque menos que la sacarosa) y aporta cierta viscosidad. Produce un ligero efecto refrescante en boca que funciona bien en helado.
+### Base G para helados de crema
 
-**Maltitol:** Poliol con comportamiento más cercano a la sacarosa en términos de punto de congelación y textura. 2.4 kcal/g. No es apto para dietas cetogénicas pero sí para diabéticos (índice glucémico bajo). Produce el helado sin azúcar con textura más similar al helado estándar.
+La Base G de crema sirve para fiordilatte, chocolate, avellana, pistacho o café. La proporción de MEC3 para cada sobre de 0,9 kg es:
 
-La formulación efectiva combina estos ingredientes: Stevia para el dulzor, eritritol para la textura y control de congelación, maltitol para la viscosidad. Esa es exactamente la combinación que usan las bases Stevia MEC3.
+| Sabor | Proporción del fabricante |
+|---|---|
+| Avellana | 1 sobre + 2,85 litros de leche + 150 g de crema + 480 g de pasta de avellana |
+| Pistacho | 1 sobre + 2,85 litros de leche + 150 g de crema + 480 g de pasta 100 % Pistacho de Sicilia |
+| Café | 1 sobre + 2,85 litros de leche + 150 g de crema + 70 g de café liofilizado |
+| Chocolate | 1 sobre + 2,85 litros de leche + 150 g de crema + 390 g de crema de cacao |
 
-## Bases MEC3 con Stevia disponibles en Colombia
+Fuente: [ficha de MEC3 de la Base G para helados de crema](https://www.mec3.com/en/products/gelato/bases/cream-bases/base-g-cream).
 
-Las tres bases Stevia de MEC3 disponibles en el portafolio de Italgel cubren los casos de uso principales:
+### Base G para helados de fruta
 
-### Stevia Base G Crema — para helados cremosos sin azúcar
+La Base G de fruta está pensada para helados hechos solo con fruta fresca. Según MEC3, no lleva derivados lácteos añadidos y es apta para veganos. Sus proporciones para cada sobre de 1,05 kg:
 
-Es la base equivalente a la Base 50 estándar, formulada con el sistema Stevia + eritritol + maltitol. Produce helado cremoso, con overrun 40-60%, textura similar al helado estándar y perfil de dulzor equilibrado sin retrogusto.
+| Fruta | Proporción del fabricante |
+|---|---|
+| Fruta con pulpa | 1 sobre + 2 kg de fruta + 1 litro de agua |
+| Limón | 1 sobre + 1,013 kg de jugo de limón + 1,9871 litros de agua |
+| Naranja | 1 sobre + 2,55 kg de jugo de naranja + 0,45 litros de agua |
 
-Dosificación: siguiendo las instrucciones del fabricante con leche fresca y crema. El proceso de mantecado es idéntico al de cualquier base cremosa.
+Fuente: [ficha de MEC3 de la Base G para helados de fruta](https://www.mec3.com/en/products/gelato/bases/fruit-bases/base-g-fruit-gelato).
 
-### Stevia Base G Fruta — para helados y sorbetes de fruta sin azúcar
+Las [bases con stevia que distribuye Italgel en Colombia]({{ '/bases-helado-colombia/bases-stevia/' | relative_url }}) incluyen estas bases G y, en el catálogo, Yogo Greco Stevia para yogur helado. Si quieres saber cuál conviene para tu carta, {% include wa-enlace.html text="pregúntale a un asesor de Italgel por WhatsApp" location="post-medio" %}.
 
-Formulada para producir helados de fruta y sorbetes sin sacarosa añadida. Aprovecha los azúcares naturales de la pulpa de fruta y complementa con el sistema Stevia para alcanzar el dulzor y la textura correctos.
+## Cómo anunciar el helado sin azúcar en tu carta
 
-Es la opción para heladerías que quieren expandir el menú sin azúcar a sabores de fruta sin perder la característica "natural" del sorbete.
+La forma de anunciar el helado sin azúcar cambia cómo lo percibe el cliente. Etiquetas como "dietético" o "para diabéticos" lo hacen ver como un producto de segunda o medicinal.
 
-### Yogo Greco Stevia — para yogurt helado sin azúcar
+Opciones más precisas para la pizarra:
 
-Para heladerías que producen yogurt helado (frozen yogurt), el Yogo Greco Stevia permite ofrecer esa categoría sin azúcar añadida. El yogurt griego base aporta acidez natural que complementa el perfil de la Stevia sin generar retrogusto.
+- **"Sin azúcar añadida":** coincide con cómo MEC3 presenta la Base G, que contiene azúcares naturales de la leche o la fruta.
+- **"Con base de stevia":** comunica el ingrediente que lo diferencia.
 
-Las [bases Stevia MEC3 disponibles en Colombia](/bases-helado-colombia/bases-stevia/) tienen ficha técnica completa con dosificación, información nutricional por 100g de producto terminado y guía de etiquetado para comunicar correctamente "sin azúcar añadida" vs. "sin azúcar" al consumidor.
+Evita afirmaciones de salud, como "apto para diabéticos", sin el respaldo de un profesional de la salud y de la ficha nutricional del producto terminado. Revisa también la norma de etiquetado de alimentos vigente en Colombia antes de imprimir la carta o el rótulo.
 
-## Cómo posicionar el helado sin azúcar en tu menú
+Sobre el precio: anunciarlo igual o un poco por encima del helado estándar evita que se perciba como la opción barata.
 
-El error de posicionamiento más común: llamarlo "helado dietético" o "helado para diabéticos". Esas etiquetas funcionan en supermercado. En heladería artesanal, generan la percepción de que es inferior o de que es un producto medicinal.
+### Sorbetes y helados sin azúcar en la misma carta
 
-El posicionamiento correcto en carta y pizarra:
-
-- **"Helado con base Stevia"** — comunica el diferenciador sin la connotación negativa de "light" o "dietético"
-- **"Sin azúcar añadida"** — más preciso técnicamente y más apetecible que "sin azúcar" (que suena a privación)
-- **"Apto para dieta ceto / bajo en carbohidratos"** — para heladerías en zonas con audiencia fitness
-
-El precio debe ser igual o ligeramente superior al estándar. Un helado sin azúcar más barato genera la percepción de que es el "helado de segunda". A precio igual o mayor, el cliente lo percibe como una opción premium por restricción o elección.
-
-### Combinaciones con sorbetes
-
-El sorbete de frutas es naturalmente libre de azúcar añadida (el dulzor viene de la pulpa natural) y de lácteos. En carta, puede complementar la línea sin azúcar sin necesidad de formulación especial.
-
-La combinación de **copa sorbete de guanábana + bola de Stevia Base G Crema** crea una experiencia mixta que funciona para el cliente con restricción total de azúcar y para el que simplemente busca opciones más ligeras.
-
-Para ver más sobre la técnica de sorbetes y las bases disponibles, lee nuestra guía sobre [qué es un sorbete y cómo diferenciarlo del helado artesanal](/blog/que-es-un-sorbete-diferencias-helado-artesanal/).
+El sorbete de fruta se prepara sin leche, pero lleva azúcar en su receta habitual. Para una línea de fruta sin azúcar añadida se usa la Base G de fruta. Para entender cómo se diferencia un sorbete de un helado, lee la guía [qué es un sorbete y en qué se diferencia del helado artesanal](/blog/que-es-un-sorbete-diferencias-helado-artesanal/).

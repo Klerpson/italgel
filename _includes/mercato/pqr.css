@@ -1,0 +1,34 @@
+/* Formulario PQR (/contacto/) dentro del sistema Mercato: las variables del CSS heredado
+   (_includes/css/pqr.css) apuntan a los tokens nuevos y todo queda en la capa de componentes. */
+@layer reset, tokens, base, primitivas, componentes, utilidades;
+@layer componentes {
+  .pqr-overlay {
+    --color-principal: var(--color-marca);
+    --color-secundario: var(--color-turquesa-texto);
+    --color-accent: var(--color-accion-hondo);
+    --color-accent-light: var(--color-mantequilla);
+    --color-border: var(--color-linea);
+    --color-text-primary: var(--color-texto);
+    --color-text-secondary: var(--color-texto-suave);
+    --color-text-tertiary: var(--color-texto-suave);
+    --color-bg-surface: var(--color-fondo);
+    --color-bg-secondary: var(--color-papel);
+    --fuenteTitulos: var(--fuente-titulos);
+    --fuenteCuerpo: var(--fuente-texto);
+    --radius-md: var(--radio);
+    --radius-lg: var(--radio);
+    --radius-pill: 999px;
+    --shadow-subtle: 0 2px 8px rgb(28 27 25 / 0.08);
+    --shadow-medium: 0 8px 24px rgb(28 27 25 / 0.12);
+    --shadow-large: 0 24px 48px rgb(28 27 25 / 0.18);
+    --transition: all var(--transicion);
+  }
+{% include css/pqr.css %}
+  /* Botones del formulario: acción verde del sistema (dentro del PQR es la acción principal del paso) */
+  .pqr-overlay .boton {
+    color: var(--color-accion-texto); border: 0;
+    background-image: linear-gradient(120deg, var(--color-accion), var(--color-accion-medio) 50%, var(--color-accion-hondo));
+    background-size: 220% 100%; transition: background-position 450ms var(--curva);
+    &:hover { background-position: 100% 50%; }
+  }
+}

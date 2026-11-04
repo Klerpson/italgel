@@ -1,0 +1,38 @@
+{%- comment -%}
+  Cabecera de dos barras. Principal (fija): logo + un CTA siempre visible y en una línea.
+  Secundaria: el menú, se oculta al bajar y reaparece al subir (js/mercato.js). Sin JS queda visible.
+  En escritorio cada categoría abre (cursor o foco) sus productos con página propia + "ver más".
+  En táctil el menú se desplaza en horizontal y la categoría lleva directo a su página.
+{%- endcomment -%}
+<header class="cabecera-sitio" data-cabecera>
+  <div class="cabecera-sitio__barra">
+    <div class="wrapper">
+      <a class="cabecera-sitio__logo" href="{{ '/' | relative_url }}" title="Italgel, ir al inicio"><img src="{{ '/img/logo-nav.avif' | relative_url }}" alt="" width="60" height="60"><span>Italgel</span></a>
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" texto_corto="Cotizar" clase="boton--compacto" location="cabecera" icono=false %}
+    </div>
+  </div>
+  <nav class="cabecera-sitio__secundaria" aria-label="Principal">
+    <div class="wrapper">
+      <ul class="menu">
+        {%- for item in site.data.navegacion.principal %}
+        {%- assign _activo = "" -%}
+        {%- for prod in item.productos -%}{%- if page.url == prod.url -%}{%- assign _activo = "true" -%}{%- endif -%}{%- endfor -%}
+        {%- if page.url == item.url -%}{%- assign _activo = "page" -%}{%- endif %}
+        <li class="menu__item">
+          <a class="menu__categoria" href="{{ item.url | relative_url }}"{% if _activo != "" %} aria-current="{{ _activo }}"{% endif %} title="{{ item.titulo }}">{{ item.titulo }}</a>
+          {%- if item.productos %}
+          <div class="submenu">
+            <ul class="submenu__lista" role="list">
+              {%- for prod in item.productos %}
+              <li><a class="submenu__producto" href="{{ prod.url | relative_url }}" title="{{ prod.titulo }} {{ prod.meta }}"><img src="{{ prod.img | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async"><span><strong>{{ prod.titulo }}</strong><small>{{ prod.meta }}</small></span></a></li>
+              {%- endfor %}
+            </ul>
+            <a class="enlace-flecha" href="{{ item.url | relative_url }}" title="{{ item.ver_mas }}">{{ item.ver_mas }}</a>
+          </div>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

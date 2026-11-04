@@ -1,5 +1,7 @@
 ---
 layout: post
+tema: maquinas
+producto: mantecadoras
 published: false
 title: "Mantecadora italiana vs asiática: ¿cuál elegir para tu heladería?"
 description: "Comparativa entre mantecadora italiana y máquina china de helado: precio, durabilidad, overrun, costo a 10 años. ¿Cuál conviene más en Colombia?"

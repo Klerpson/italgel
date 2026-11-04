@@ -1,42 +1,195 @@
 ---
-layout: cafe
-title: "Cafeteras Hambach y molinos en Colombia | Italgel"
-description: "Italgel, importadores exclusivos de Hambach para Colombia. Conoce seis cafeteras espresso y cuatro molinos, consulta sus fichas técnicas y cotiza."
-h1: "Equipos de café Hambach en Colombia"
-last_modified_at: "2026-10-26"
+layout: mercato
+wa_mensaje: "Hola, quiero cotizar equipos de café Hambach con Italgel."
+title: "Cafeteras espresso Hambach y molinos de café | Italgel"
+keyword: "cafeteras espresso"
+keyword_imagen: "cafetera"
+description: "Equipos para cafetería de Hambach, importador exclusivo en Colombia: 6 cafeteras espresso, de la Mini Neo a la Tank 2 de 2 grupos, y 4 molinos de café."
+h1: "Cafeteras espresso Hambach y molinos de café en Colombia"
+last_modified_at: "2026-11-04"
 hero: /img/cafe/tank-2.avif
-alt: "Cafetera espresso Hambach Tank 2 DR 7209A"
+alt: "Cafetera industrial de 2 grupos Hambach Tank 2 DR 7209A"
+flotante_titulo: "¿Dudas entre dos cafeteras?"
+flotante_texto: "Te ayudamos a elegir por WhatsApp."
 breadcrumb:
   - name: Inicio
     url: /
   - name: Equipos
     url: /equipos/
-  - name: Equipos de café
+  - name: Cafeteras Hambach y molinos
     url: /equipos-cafe/
 ---
-<main class="cafe-main">
-  {% include breadcrumb.html %}
-  <section class="cafe-shell cafe-section" id="cafeteras" aria-labelledby="cafeteras-titulo">
-    <div class="cafe-section-heading">
-      <p class="cafe-eyebrow">La extracción</p>
-      <h2 id="cafeteras-titulo">Cafeteras espresso Hambach</h2>
-      <p>Desde la Mini Neo para casa hasta equipos de uso comercial. Compara el uso indicado, la alimentación eléctrica y el sistema de cada modelo.</p>
+{%- assign cafe = site.data.cafe -%}
+{%- assign _wa_cafe = "Hola, quiero cotizar equipos de café Hambach con Italgel." -%}
+
+{% include mercato/migas.html %}
+
+<section class="portada" data-hero aria-labelledby="titulo-portada">
+  <div class="wrapper portada__panel">
+    <div class="portada__texto flujo flujo--amplio">
+      <h1 id="titulo-portada">{{ page.h1 }}</h1>
+      <p class="entradilla">Somos <strong>importadores exclusivos de Hambach en Colombia</strong>: seis máquinas de café espresso, de la Mini Neo para casa a la Tank 2 de dos grupos, y cuatro molinos. Cada modelo tiene su ficha técnica completa.</p>
+      <div class="acciones">
+        {% include mercato/boton.html texto="Cotizar por WhatsApp" location="hero" mensaje=_wa_cafe %}
+        <p class="microgarantia">Precio, disponibilidad y configuración de cada referencia por WhatsApp.</p>
+      </div>
     </div>
-    {% include cafe-productos.html equipos=site.data.cafe.cafeteras tipo="Cafetera espresso Hambach" %}
-  </section>
-  <section class="cafe-shell cafe-section" id="molinos" aria-labelledby="molinos-titulo">
-    <div class="cafe-section-heading">
-      <p class="cafe-eyebrow">La molienda</p>
-      <h2 id="molinos-titulo">Molinos para café</h2>
-      <p>Cuatro modelos con ajuste continuo de molienda: dosificación por tiempo, por demanda o por peso, según la referencia.</p>
+    <figure class="portada__foto portada__foto--producto">
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="800" height="700" fetchpriority="high" decoding="async">
+      <figcaption class="etiqueta">Tank 2 · DR 7209A · uso comercial</figcaption>
+    </figure>
+  </div>
+</section>
+
+<nav class="indice" aria-label="En esta página" data-indice>
+  <div class="wrapper">
+    <ol>
+      <li><a href="#casa" title="Cafeteras espresso para casa">Para casa</a></li>
+      <li><a href="#negocio" title="Cafeteras industriales para negocio">Para negocio</a></li>
+      <li><a href="#comparar" title="Comparar dos cafeteras Hambach">Comparar</a></li>
+      <li><a href="#molinos" title="Molinos de café">Molinos de café</a></li>
+      <li><a href="#eleccion" title="Cómo elegir">Cómo elegir</a></li>
+      <li><a href="#cotizar" title="Cotizar">Cotizar</a></li>
+    </ol>
+  </div>
+</nav>
+
+<section class="banda" id="casa" aria-labelledby="titulo-casa">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta punto-familia">Cafeteras espresso Hambach para casa</p>
+        <h2 id="titulo-casa">Cafetera espresso para casa a 110 V: Mini Neo y Swan</h2>
+        <p class="medida texto-suave">Se conectan a un <strong>tomacorriente común de 110 V</strong>, traen tanque de agua y usan portafiltros profesional de 58 mm. La Swan también sirve para un negocio pequeño.</p>
+      </div>
+      <a class="enlace-flecha" href="#negocio" title="Ver cafeteras industriales para negocio">Ver cafeteras para negocio</a>
     </div>
-    {% include cafe-productos.html equipos=site.data.cafe.molinos tipo="Molino para café" %}
-  </section>
-  <section class="cafe-shell cafe-help" aria-labelledby="cafe-ayuda-titulo">
-    <p class="cafe-eyebrow">Conversemos sobre tu barra</p>
-    <h2 id="cafe-ayuda-titulo">¿Qué cafetera y molino necesitas?</h2>
-    <p>Cuéntanos si el equipo es para casa o para tu negocio y qué conexión eléctrica tienes. Consulta con Italgel el precio, la disponibilidad y la configuración de la referencia que te interesa.</p>
-    <a class="boton boton_1" href="https://wa.me/{{ site.telefono }}?text={{ 'Hola, quiero asesoría para elegir una cafetera y un molino con Italgel.' | uri_escape }}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
-    <p class="cafe-source">Características tomadas de los catálogos de cafeteras Hambach y molinos. Consulta las opciones de tolva y la configuración antes de comprar.</p>
-  </section>
-</main>
+    <div class="rejilla rejilla--ancha rejilla--tres">
+      {%- for equipo in cafe.cafeteras %}{% if equipo.voltaje == "110 V" %}
+      {% include mercato/ficha-cafe.html equipo=equipo tipo="Cafetera" %}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="banda banda--mantequilla" id="negocio" aria-labelledby="titulo-negocio">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta punto-familia">Máquinas de café para negocio</p>
+        <h2 id="titulo-negocio">Cafetera industrial espresso para negocio a 220 V: Falcon, Tank 1, Tank 2 y Cruiser</h2>
+        <p class="medida texto-suave">Para restaurantes, pastelerías y cafeterías. Trabajan a <strong>220 V</strong>, con caldera para vapor o calderín por grupo, y la Tank 2 y la Cruiser llevan <strong>bomba rotativa Fluid-O-Tech</strong> y medidor de caudal.</p>
+      </div>
+      <a class="enlace-flecha" href="#molinos" title="Ver los molinos de café">Ver los molinos de café</a>
+    </div>
+    <div class="rejilla rejilla--ancha rejilla--tres">
+      {%- for equipo in cafe.cafeteras %}{% if equipo.voltaje == "220 V" %}
+      {% include mercato/ficha-cafe.html equipo=equipo tipo="Cafetera" %}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%}
+  Comparador de cafeteras (idea: "Spec Sheet" de 21st, reescrita en tabla nativa + 2 select).
+  Sin JS se ve la tabla completa con las seis cafeteras; con JS se eligen dos y se puede
+  ocultar lo que tienen igual. Los datos salen de _data/cafe.yml (catálogo Hambach).
+{%- endcomment -%}
+<section class="banda" id="comparar" aria-labelledby="titulo-comparar">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta tres-bolas">Comparador de cafeteras Hambach</p>
+        <h2 id="titulo-comparar">Compara dos cafeteras Hambach: alimentación, potencia, caldera y bomba</h2>
+        <p class="medida texto-suave">Las seis usan portafiltros de 58 mm y PID por grupo. Elige dos modelos y mira en qué cambian.</p>
+      </div>
+    </div>
+    <div class="comparador" data-comparador>
+      <div class="comparador__controles" data-comparador-controles hidden>
+        <label class="comparador__campo"><span>Cafetera 1</span>
+          <select data-columna="a" title="Primera cafetera que quieres comparar">
+            {%- for e in cafe.cafeteras %}<option value="{{ e.slug }}"{% if e.slug == "swan" %} selected{% endif %}>{{ e.nombre }}</option>{% endfor %}
+          </select>
+        </label>
+        <label class="comparador__campo"><span>Cafetera 2</span>
+          <select data-columna="b" title="Segunda cafetera que quieres comparar">
+            {%- for e in cafe.cafeteras %}<option value="{{ e.slug }}"{% if e.slug == "falcon" %} selected{% endif %}>{{ e.nombre }}</option>{% endfor %}
+          </select>
+        </label>
+        <label class="interruptor">
+          <input type="checkbox" data-solo-diferencias>
+          <span>Ver solo lo que cambia</span>
+        </label>
+      </div>
+      <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Comparador de cafeteras Hambach">
+        <table class="comparativa comparador__tabla">
+          <thead>
+            <tr>
+              <th scope="col"><span class="visualmente-oculto">Característica</span></th>
+              {%- for e in cafe.cafeteras %}<th scope="col" data-col="{{ e.slug }}"><a href="{{ '/equipos-cafe/' | append: e.slug | append: '/' | relative_url }}" title="Ficha técnica de la cafetera {{ e.nombre }}">{{ e.nombre }}</a><small>{{ e.referencia }}</small></th>{% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {%- assign _filas = "uso:Uso|voltaje:Alimentación|potencia:Potencia|dimensiones:Dimensiones (alto al final)|calentamiento:Caldera y calentamiento|bomba:Bomba|agua:Agua" | split: "|" %}
+            {%- for f in _filas %}{% assign _par = f | split: ":" %}{% assign _campo = _par[0] %}
+            <tr data-fila="{{ _campo }}">
+              <th scope="row">{{ _par[1] }}</th>
+              {%- for e in cafe.cafeteras %}<td data-col="{{ e.slug }}">{{ e[_campo] }}</td>{% endfor %}
+            </tr>
+            {%- endfor %}
+            <tr>
+              <th scope="row">Cotizar</th>
+              {%- for e in cafe.cafeteras %}
+              {%- capture _wa_e -%}Hola, quiero cotizar la cafetera {{ e.nombre }} {{ e.referencia }} con Italgel.{%- endcapture %}
+              <td data-col="{{ e.slug }}"><a class="lead_whatsapp enlace-texto" href="{% include wa-href.html mensaje=_wa_e %}" target="_blank" rel="noopener noreferrer" data-location="comparador-{{ e.slug }}" title="Cotizar la cafetera {{ e.nombre }} por WhatsApp (abre WhatsApp)">Cotizar {{ e.nombre }}<span class="visualmente-oculto"> (abre WhatsApp)</span></a></td>
+              {%- endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="banda banda--papel" id="molinos" aria-labelledby="titulo-molinos">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <p class="etiqueta punto-familia">{{ cafe.molinos.size }} molinos de café</p>
+        <h2 id="titulo-molinos">Molinos de café eléctricos: por tiempo, por demanda o por peso</h2>
+        <p class="medida texto-suave">Los cuatro tienen cuerpo en aluminio y ajuste continuo de la molienda; cambian las muelas, la forma de dosificar y la tolva.</p>
+      </div>
+      <a class="enlace-flecha" href="#negocio" title="Ver las cafeteras para negocio">Ver las cafeteras para negocio</a>
+    </div>
+    <div class="rejilla rejilla--ancha">
+      {%- for equipo in cafe.molinos %}
+      {% include mercato/ficha-cafe.html equipo=equipo tipo="Molino" %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="banda banda--mantequilla" id="eleccion" aria-labelledby="titulo-eleccion">
+  <div class="wrapper columnas columnas--5-7">
+    <div class="flujo">
+      <h2 id="titulo-eleccion">Equipos para cafetería: qué cafetera Hambach necesita tu casa o tu negocio</h2>
+      <p class="texto-suave">El uso y la conexión eléctrica definen el modelo. <strong>Los equipos de 110 V se conectan a un tomacorriente común; los de 220 V necesitan una toma de 220 V.</strong></p>
+    </div>
+    <dl class="ficha-lista">
+      <div><dt>Para casa</dt><dd><a href="{{ '/equipos-cafe/mini-neo/' | relative_url }}" title="Mini Neo">Mini Neo</a> y <a href="{{ '/equipos-cafe/swan/' | relative_url }}" title="Swan">Swan</a>, a 110 V.</dd></div>
+      <div><dt>Pastelería o café pequeño</dt><dd><a href="{{ '/equipos-cafe/swan/' | relative_url }}" title="Swan">Swan</a> (110 V) y <a href="{{ '/equipos-cafe/falcon/' | relative_url }}" title="Falcon">Falcon</a> (220 V), para uso comercial ligero.</dd></div>
+      <div><dt>Cafetería y restaurante</dt><dd><a href="{{ '/equipos-cafe/tank-1/' | relative_url }}" title="Tank 1">Tank 1</a>, <a href="{{ '/equipos-cafe/tank-2/' | relative_url }}" title="Tank 2">Tank 2</a> y <a href="{{ '/equipos-cafe/cruiser/' | relative_url }}" title="Cruiser">Cruiser</a>, cafeteras industriales para negocio a 220 V.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+  <div class="wrapper cierre flujo flujo--amplio">
+    <h2 id="titulo-cierre" class="medida">Cotiza tu cafetera Hambach y tu molino por WhatsApp</h2>
+    <p class="medida">Cuéntanos si el equipo es para casa o para tu negocio y qué conexión eléctrica tienes. Te confirmamos precio, disponibilidad y configuración de la referencia.</p>
+    {% include mercato/pasos-compra.html %}
+    <div class="acciones">
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" mensaje=_wa_cafe %}
+    </div>
+  </div>
+</section>

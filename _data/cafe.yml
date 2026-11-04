@@ -1,12 +1,21 @@
+# Equipos de café. Fuente: catálogos del fabricante (cafeteras Hambach; molinos sin marca en su catálogo).
+# dimensiones: en el orden del catálogo; la última medida es el alto.
 cafeteras:
   - nombre: Mini Neo
     referencia: DR 7121A
     slug: mini-neo
+    clave_etiqueta: Portafiltros
+    clave_valor: 58 mm
+    lema: "Compacta, elegante y funcional."
+    descripcion: "Diseñada para quienes disfrutan del café de especialidad en casa: combina un formato compacto con tecnología profesional, como el doble termobloque y el PID por grupo."
     uso: Residencial
-    resumen: Café de especialidad en casa, con doble termobloque y formato compacto.
+    resumen: "Café de especialidad en casa, con doble termobloque y formato compacto."
     voltaje: 110 V
     potencia: 1550 W
     dimensiones: 290 × 390 × 385 mm
+    calentamiento: "Doble termobloque: café, agua caliente y vapor"
+    bomba: "Doble bomba vibratoria Ulka"
+    agua: "Tanque de 0,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Doble termobloque para extracción de café, agua caliente y vapor.
@@ -17,11 +26,18 @@ cafeteras:
   - nombre: Swan
     referencia: DR 7102C
     slug: swan
+    clave_etiqueta: Portafiltros
+    clave_valor: 58 mm
+    lema: "Compacta, potente y versátil."
+    descripcion: "Combina rendimiento profesional y versatilidad: sirve para elevar el café en casa o en un negocio pequeño, y permite variar la presión de forma instantánea con su regulador manual."
     uso: Residencial o comercial ligero
-    resumen: Para casa o pequeños negocios, con regulación manual instantánea de presión.
+    resumen: "Para casa o pequeños negocios, con regulación manual instantánea de presión."
     voltaje: 110 V
     potencia: 1500 W
     dimensiones: 345 × 430 × 375 mm
+    calentamiento: "Caldera de 600 ml para grupo y agua caliente; termobloque para vapor"
+    bomba: "Doble bomba vibratoria Ulka"
+    agua: "Tanque de 1,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Caldera de 600 ml para el grupo y agua caliente; termobloque dedicado para vapor.
@@ -32,11 +48,18 @@ cafeteras:
   - nombre: Falcon
     referencia: DR 7118A
     slug: falcon
+    clave_etiqueta: Portafiltros
+    clave_valor: 58 mm
+    lema: "Eficiencia sin sacrificar calidad."
+    descripcion: "Diseñada para restaurantes, pastelerías y cafés pequeños que buscan eficiencia sin sacrificar calidad ni rendimiento. Separa el café del vapor: termobloque para la extracción y caldera de 1 L para vapor extra seco."
     uso: Comercial ligero
-    resumen: Para restaurantes, pastelerías y pequeños cafés, con caldera de vapor de 1 L.
+    resumen: "Para restaurantes, pastelerías y pequeños cafés, con caldera de vapor de 1 L."
     voltaje: 220 V
     potencia: 2,8 kW
     dimensiones: 312 × 415 × 403 mm
+    calentamiento: "Termobloque para café y agua caliente; caldera de 1 L para vapor"
+    bomba: "Bomba vibratoria Ulka"
+    agua: "Tanque de 1,8 L o línea directa"
     detalles:
       - Portafiltros de 58 mm.
       - Termobloque para extracción de café y agua caliente; caldera de 1 L para vapor extra seco.
@@ -47,11 +70,18 @@ cafeteras:
   - nombre: Tank 1
     referencia: DR 7005A
     slug: tank-1
+    clave_etiqueta: Portafiltros
+    clave_valor: 58 mm
+    lema: "Robusta y confiable."
+    descripcion: "Diseñada para baristas exigentes que buscan consistencia, control y durabilidad ante la alta demanda. Cada componente, desde la bomba rotativa Fluid-O-Tech hasta el intercambiador de 3 L, se eligió para sostener el rendimiento en cada taza."
     uso: Comercial
-    resumen: Equipo con bomba rotativa y calderín de 550 ml para saturar el grupo.
+    resumen: "Equipo con bomba rotativa y calderín de 550 ml para saturar el grupo."
     voltaje: 220 V
     potencia: 3,2 kW
     dimensiones: 383 × 575 × 533 mm
+    calentamiento: "Calderín de 550 ml e intercambiador de calor de 3 L"
+    bomba: "Bomba rotativa Fluid-O-Tech"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín de 550 ml para saturar el grupo.
@@ -62,11 +92,18 @@ cafeteras:
   - nombre: Tank 2
     referencia: DR 7209A
     slug: tank-2
+    clave_etiqueta: Grupos
+    clave_valor: 2, de 58 mm
+    lema: "Excelencia en cada extracción."
+    descripcion: "Diseñada para cafeterías y cadenas de café que exigen rendimiento superior, precisión y confiabilidad en cada extracción: dos grupos, cada uno con su calderín saturado de 550 ml, y caldera de 9 L."
     uso: Comercial
-    resumen: Para cafeterías y cadenas de café, con caldera de 9 L y medidor de caudal.
+    resumen: "Para cafeterías y cadenas de café, con caldera de 9 L y medidor de caudal."
     voltaje: 220 V
     potencia: 4,2 kW
     dimensiones: 714 × 535 × 451 mm
+    calentamiento: "Calderín de 550 ml por grupo y caldera de 9 L"
+    bomba: "Bomba rotativa Fluid-O-Tech con medidor de caudal"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín doble de 550 ml por cada grupo saturado.
@@ -77,11 +114,18 @@ cafeteras:
   - nombre: Cruiser
     referencia: DR 7208
     slug: cruiser
+    clave_etiqueta: Portafiltros
+    clave_valor: 58 mm
+    lema: "Máxima productividad y control total."
+    descripcion: "La expresión más alta de la línea en tecnología y consistencia, pensada para cafeterías y cadenas muy concurridas: estabilidad térmica con calderín doble de 550 ml por grupo e intercambiador de calor de 9 L."
     uso: Comercial
-    resumen: Para cafeterías y cadenas concurridas, con intercambiador de calor de 9 L.
+    resumen: "Para cafeterías y cadenas concurridas, con intercambiador de calor de 9 L."
     voltaje: 220 V
     potencia: 4,2 kW
     dimensiones: 846 × 645 × 572 mm
+    calentamiento: "Calderín de 550 ml por grupo e intercambiador de calor de 9 L"
+    bomba: "Bomba rotativa Fluid-O-Tech con medidor de caudal"
+    agua: "No indicado en el catálogo"
     detalles:
       - Portafiltros de 58 mm.
       - Calderín doble de 550 ml por cada grupo saturado.
@@ -93,8 +137,13 @@ molinos:
   - nombre: Cedar 63C
     referencia: LD 029 V2
     slug: cedar-63c
+    clave_etiqueta: Muelas
+    clave_valor: Cónicas de 63 mm
+    lema: "Single dose o por tiempo."
+    descripcion: "Molino de cuerpo en aluminio con muelas cónicas de 63 mm. Muele dosis individuales o programa la molienda por tiempo, con ajuste continuo y velocidad regulable de 300 a 800 r/min."
+    img_detalle: /img/cafe/cedar-63c-muelas.avif
     uso: Single dose o por tiempo
-    resumen: Muelas cónicas de 63 mm y velocidad ajustable de 300 a 800 r/min.
+    resumen: "Muelas cónicas de 63 mm y velocidad ajustable de 300 a 800 r/min."
     voltaje: 110 V
     potencia: 300 W
     dimensiones: 220 × 120 × 411 mm
@@ -108,8 +157,13 @@ molinos:
   - nombre: Oak 60
     referencia: LD 022
     slug: oak-60
+    clave_etiqueta: Muelas
+    clave_valor: Planas de 60 mm
+    lema: "Molienda por demanda."
+    descripcion: "Molino de cuerpo en aluminio con muelas planas de acero inoxidable de 60 mm, pantalla LED y molienda por demanda programable. La tolva viene en 75 g, 250 g o 750 g."
+    img_detalle: /img/cafe/oak-60-muelas.avif
     uso: Molienda por demanda
-    resumen: Muelas planas de acero inoxidable de 60 mm y pantalla LED.
+    resumen: "Muelas planas de acero inoxidable de 60 mm y pantalla LED."
     voltaje: 110 V
     potencia: 200 W
     dimensiones: 220 × 140 × 470 mm
@@ -122,14 +176,19 @@ molinos:
   - nombre: Ebony 64
     referencia: LD 027 MAX
     slug: ebony-64
+    clave_etiqueta: Muelas
+    clave_valor: Planas DLC de 64 mm
+    lema: "Molienda por demanda."
+    descripcion: "Molino de cuerpo en aluminio con muelas planas de 64 mm en titanio con recubrimiento DLC, pantalla táctil y motor sin escobillas. La tolva viene en 250 g, 750 g o 1000 g."
+    img_detalle: /img/cafe/ebony-64-muelas.avif
     uso: Molienda por demanda
-    resumen: Muelas planas de 64 mm con recubrimiento DLC y velocidad ajustable.
+    resumen: "Muelas planas de 64 mm con recubrimiento DLC y velocidad ajustable."
     voltaje: 110 V
     potencia: 250 W
     dimensiones: 240 × 150 × 480 mm
     detalles:
       - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
-      - Muelas planas sin huecos en titanio con recubrimiento DLC de 64 mm, según catálogo.
+      - Muelas planas sin huecos en titanio con recubrimiento DLC de 64 mm.
       - Pantalla táctil LED de alta definición y molienda por demanda programable.
       - Motor sin escobillas (brushless).
       - Velocidad ajustable de 1200 a 1800 r/min.
@@ -137,15 +196,20 @@ molinos:
   - nombre: Sequoia 74WT
     referencia: LD 037 V1WT
     slug: sequoia-74wt
+    clave_etiqueta: Muelas
+    clave_valor: Planas DLC de 74 mm
+    lema: "Molienda por peso."
+    descripcion: "Molino con báscula integrada de precisión de 0,1 g que dosifica por peso. Muelas planas de 74 mm en titanio con recubrimiento DLC, pantalla táctil y tolva de 1000 g."
+    img_detalle: /img/cafe/sequoia-74wt-muelas.avif
     uso: Dosificación por peso
-    resumen: Báscula integrada de precisión de 0,1 g y muelas planas de 74 mm.
+    resumen: "Báscula integrada de precisión de 0,1 g y muelas planas de 74 mm."
     voltaje: 110 V
     potencia: 320 W
     dimensiones: 270 × 180 × 530 mm
     detalles:
       - Dosificación por peso con báscula integrada de precisión de 0,1 g.
       - Cuerpo en aluminio y ajustes de molienda continuos (stepless).
-      - Muelas planas sin huecos en titanio con recubrimiento DLC de 74 mm, según catálogo.
+      - Muelas planas sin huecos en titanio con recubrimiento DLC de 74 mm.
       - Pantalla táctil LED de alta definición y molienda por demanda programable.
       - Motor sin escobillas y velocidad ajustable de 1200 a 1800 r/min.
       - Capacidad de tolva de 1000 g.

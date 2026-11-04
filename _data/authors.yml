@@ -1,11 +1,14 @@
+# Autores del blog. El servicio técnico de Italgel es una red de técnicos aliados (subcontratados)
+# que trabajan con la empresa desde hace más de 10 años en distintas ciudades de Colombia.
+# No hay un técnico con nombre: el autor es el equipo, y en el schema va como Organization.
 tecnico_italgel:
   name: "Equipo Técnico Italgel"
-  title: "Especialistas en Heladería Profesional"
-  bio: "Expertos con más de 15 años de experiencia en la industria del gelato y helado soft en Colombia. Brindamos asesoría técnica en formulación, optimización de overrun y selección de maquinaria."
+  tipo: Organization
+  title: "Asesoría técnica para heladerías"
+  bio: "El equipo de Italgel asesora a heladerías de Colombia en la elección de máquinas, la formulación con bases MEC3 y el control del overrun. El servicio técnico lo presta una red de técnicos aliados que trabajan con Italgel desde hace más de 10 años en distintas ciudades del país."
   avatar: "/img/logo-nav.avif"
-  expertise: "Producción de helado artesanal, Bases MEC3, Cálculo de overrun"
+  expertise: "Producción de helado artesanal, bases MEC3, cálculo de overrun, selección de maquinaria"
   credentials: "Distribuidor autorizado MEC3"
-  years_experience: "15"
   knowsAbout:
     [
       "Producción de helado artesanal",

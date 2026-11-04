@@ -1,5 +1,7 @@
 ---
 layout: post
+tema: negocio
+producto: bases
 published: false
 title: "¿Cuánto cuesta producir un helado artesanal en Colombia? Guía 2026"
 description: "Costo real de producción de helado artesanal en Colombia: desglose por litro, margen de ganancia y rentabilidad. Base 50 MEC3 vs insumos genéricos."

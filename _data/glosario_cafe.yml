@@ -1,0 +1,63 @@
+# Glosario técnico de equipos de café. Cada ficha muestra los términos que aparecen en sus
+# "detalles" (_data/cafe.yml): busca: texto en minúscula que debe estar en algún detalle.
+# Definiciones generales del oficio, sin datos propios de un modelo.
+- termino: Portafiltros de 58 mm
+  busca: "58 mm"
+  definicion: "Es la medida estándar de la cafetería profesional: hay canastillas, tampers y accesorios de muchas marcas para este diámetro."
+- termino: PID por grupo
+  busca: "pid"
+  definicion: "Es un control electrónico de temperatura. Mantiene estable el agua con la que se extrae el café y, en estas cafeteras, permite ajustar la extracción, la temperatura y la preinfusión de cada grupo."
+- termino: Preinfusión
+  busca: "preinfusión"
+  definicion: "Humedece el café molido unos segundos antes de la extracción completa, para que el agua lo atraviese de forma pareja."
+- termino: Termobloque
+  busca: "termobloque"
+  definicion: "Calienta el agua al paso por un bloque metálico, en lugar de mantener una caldera llena. Llega rápido a temperatura."
+- termino: Caldera de vapor
+  busca: "caldera de 1 l"
+  definicion: "Es un depósito que mantiene agua a presión para producir el vapor con el que se texturiza la leche."
+- termino: Calderín saturado
+  busca: "calderín"
+  definicion: "Es una pequeña caldera dedicada al grupo, que lo mantiene lleno de agua caliente. Da una temperatura de extracción más estable de un café al siguiente."
+- termino: Intercambiador de calor
+  busca: "intercambiador"
+  definicion: "Es un tubo dentro de la caldera principal que calienta el agua fresca del café mientras la caldera produce vapor. Permite extraer café y vaporizar leche al mismo tiempo."
+- termino: Bomba vibratoria Ulka
+  busca: "vibratoria"
+  definicion: "Es una bomba compacta de fabricación italiana, habitual en cafeteras para casa y de uso ligero."
+- termino: Bomba rotativa Fluid-O-Tech
+  busca: "rotativa"
+  definicion: "Es una bomba italiana de uso comercial, más silenciosa y de presión estable en trabajo continuo."
+- termino: Medidor de caudal
+  busca: "caudal"
+  definicion: "Mide el volumen de agua que pasa por el grupo. Es la base para dosificar el café por volumen."
+- termino: PTC y sensor NTC
+  busca: "ptc"
+  definicion: "El PTC es una resistencia que mantiene caliente el grupo. El NTC es un sensor que mide la temperatura en la lanceta de vapor."
+- termino: Regulador manual de presión
+  busca: "regulador manual"
+  definicion: "Permite cambiar la presión de extracción en el momento, para ajustar el perfil de cada café."
+- termino: Muelas cónicas
+  busca: "muelas cónicas"
+  definicion: "Son una muela en forma de cono que gira dentro de un anillo. Muelen a baja velocidad y calientan poco el café."
+- termino: Muelas planas
+  busca: "muelas planas"
+  definicion: "Son dos discos enfrentados que muelen el grano entre sus dientes. Dan una molienda muy uniforme, apreciada para espresso."
+- termino: Recubrimiento DLC
+  busca: "dlc"
+  definicion: "Es una capa de carbono tipo diamante sobre las muelas, que reduce el desgaste y mantiene el filo por más tiempo."
+- termino: Ajuste continuo (stepless)
+  busca: "stepless"
+  definicion: "Permite elegir cualquier punto de molienda entre fino y grueso, sin saltos entre posiciones fijas."
+- termino: Single dose
+  busca: "single dose"
+  definicion: "Se muele solo la dosis que se va a usar, sin dejar café guardado en la tolva."
+- termino: Molienda por demanda
+  busca: "por demanda"
+  definicion: "El molino muele en el momento en que se pide la dosis, sin café molido acumulado."
+- termino: Dosificación por peso
+  busca: "por peso"
+  definicion: "Una báscula integrada detiene la molienda al llegar a los gramos programados, en lugar de calcular la dosis por tiempo."
+- termino: Motor sin escobillas (brushless)
+  busca: "sin escobillas"
+  definicion: "Es un motor sin escobillas que se desgasten. No requiere ese mantenimiento y trabaja más frío y silencioso."

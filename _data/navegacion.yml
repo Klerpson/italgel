@@ -1,0 +1,105 @@
+# Menú del sistema Mercato (cabecera secundaria y pie). Orden = prioridad del cliente.
+# productos: hasta 5 por categoría, solo URLs que existen. En escritorio se muestran al pasar el
+# cursor o al enfocar la categoría; en táctil, la categoría lleva directo a su página.
+principal:
+  - titulo: Máquinas de helado
+    url: /equipos/
+    ver_mas: Ver todas las máquinas de helado
+    productos:
+      - titulo: Coldelite Compacta 3
+        meta: Máquina de helado soft
+        url: /maquinas-helado-soft/coldelite-compacta-3/
+        img: /img/coldelite-compacta-1.avif
+      - titulo: Máquinas de helado soft
+        meta: De mesa o de piso
+        url: /maquinas-helado-soft/
+        img: /img/maquina-coldelite-soft-3-sabores.avif
+      - titulo: Mantecadoras
+        meta: Helado artesanal y gelato
+        url: /maquinas-helado-artesanal/
+        img: /img/mantecadora-artesanal-coldelite.avif
+      - titulo: Máquinas industriales
+        meta: Pasteurizadoras y líneas
+        url: /maquinas-helado-industrial/
+        img: /img/valmar-pastomaster.avif
+  - titulo: Vitrinas para helado
+    url: /vitrinas-congeladores/
+  - titulo: Cafeteras Hambach
+    url: /equipos-cafe/
+    ver_mas: Ver las 10 cafeteras y molinos
+    productos:
+      - titulo: Mini Neo
+        meta: Cafetera para casa
+        url: /equipos-cafe/mini-neo/
+        img: /img/cafe/mini-neo.avif
+      - titulo: Falcon
+        meta: Comercial ligero, 220 V
+        url: /equipos-cafe/falcon/
+        img: /img/cafe/falcon.avif
+      - titulo: Tank 2
+        meta: Dos grupos, uso comercial
+        url: /equipos-cafe/tank-2/
+        img: /img/cafe/tank-2.avif
+      - titulo: Cruiser
+        meta: Uso comercial
+        url: /equipos-cafe/cruiser/
+        img: /img/cafe/cruiser.avif
+      - titulo: Sequoia 74WT
+        meta: Molino con báscula
+        url: /equipos-cafe/sequoia-74wt/
+        img: /img/cafe/sequoia-74wt.avif
+  - titulo: Variegatos
+    url: /variegatos-helado/
+    ver_mas: Ver todos los variegatos
+    productos:
+      - titulo: Amarena Fabbri
+        meta: Cerezas en almíbar
+        url: /coberturas-salsas-helado/amarena-fabbri/
+        img: /img/fiordiamarena-variegato-cerezas.avif
+      - titulo: Salsas especiales
+        meta: Whisky, tiramisú, caramelo
+        url: /coberturas-salsas-helado/salsas-especiales/
+        img: /img/salted-caramel-variegato.avif
+      - titulo: Quella Family
+        meta: Variegatos italianos
+        url: /productos-quella/
+        img: /img/variegatos-quella-textura.avif
+      - titulo: Coberturas y salsas
+        meta: Para copa y veteado
+        url: /coberturas-salsas-helado/
+        img: /img/fiordibosco-frutos-bosque.avif
+  - titulo: Insumos
+    url: /insumos/
+    ver_mas: Ver todos los insumos
+    productos:
+      - titulo: Base 50 MEC3
+        meta: Base para helado artesanal
+        url: /bases-helado-colombia/base-50-mec3/
+        img: /img/base-50-mec3-empaque.avif
+      - titulo: Neutralin Plus
+        meta: Base para gelato
+        url: /bases-helado-colombia/neutralin-plus/
+        img: /img/neutralin-plus-mec3-gelato.avif
+      - titulo: Supergelmix
+        meta: Base para helado soft
+        url: /bases-helado-colombia/supergelmix/
+        img: /img/supergelmix-mec3-helado-soft.avif
+      - titulo: Pasta de pistacho
+        meta: Pistacho siciliano
+        url: /pastas-sabores-helado/pasta-pistacho/
+        img: /img/pasta-pistacho-siciliano-mec3.avif
+      - titulo: Pasta de vainilla
+        meta: Vainilla bourbon
+        url: /pastas-sabores-helado/pasta-vainilla/
+        img: /img/pasta-vainilla-bourbon-mec3.avif
+  - titulo: Blog
+    url: /blog/
+  - titulo: Contacto
+    url: /contacto/
+legal:
+  - titulo: Nosotros
+    url: /nosotros/
+  - titulo: Aviso legal
+    url: /legal/
+  - titulo: PQR
+    url: /contacto/#pqr

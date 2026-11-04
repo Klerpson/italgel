@@ -1,8 +1,11 @@
 {%- comment -%}
+  page.wa_mensaje reemplaza el mensaje completo (fichas de producto y café).
   Mensaje de WhatsApp de la pagina, en texto plano: site.wa_mensaje + el h1 de
   la pagina (o su titulo). En la portada el titulo es el SEO completo y en un
   chat se lee mal, asi que alli va site.wa_asunto. Una sola fuente para el
   <body data-wa-message> y para el href de todos los enlaces (wa-href.html).
+  Posts: "Vengo del artículo «H1» y quiero cotizar …" con el producto de
+  site.data.blog.productos[page.producto], para que el asesor sepa de dónde viene.
 {%- endcomment -%}
 {%- capture _wa_asunto -%}
   {%- unless page.url == '/' or page.url == '/index.html' -%}
@@ -11,4 +14,7 @@
 {%- endcapture -%}
 {%- assign _wa_asunto = _wa_asunto | strip | strip_html -%}
 {%- if _wa_asunto == '' -%}{%- assign _wa_asunto = site.wa_asunto -%}{%- endif -%}
-{{- site.wa_mensaje }} {{ _wa_asunto -}}
+{%- assign _wa_prod = site.data.blog.productos[page.producto] -%}
+{%- if page.wa_mensaje -%}{{ page.wa_mensaje }}
+{%- elsif page.collection == 'posts' -%}¡Hola! Vengo del artículo «{{ _wa_asunto }}» de Italgel y quiero cotizar {{ _wa_prod.cotizar | default: site.wa_asunto }}.
+{%- else -%}{{- site.wa_mensaje }} {{ _wa_asunto -}}{%- endif -%}

@@ -1,0 +1,13 @@
+{%- comment -%}
+  Botón sólido de WhatsApp (sistema Mercato). Uno solo por pantalla: el resto
+  de enlaces van como .enlace-flecha. Mide con js/canales.js por el destino wa.me.
+  Parámetros:
+    texto        Texto del botón.
+    texto_corto  Versión para pantallas de menos de 26rem (el botón nunca se parte).
+    mensaje      Mensaje propio; por defecto el de la página (wa-mensaje.html).
+    location     data-location único en la página (hero, cierre, cabecera…).
+    clase        Clases extra (boton--compacto).
+    icono        false para quitar el ícono (la cabecera va sin ícono).
+{%- endcomment -%}
+{%- assign _wa_n = _wa_n | plus: 1 -%}
+<a class="lead_whatsapp boton boton--acento{% if include.clase %} {{ include.clase }}{% endif %}" href="{% include wa-href.html mensaje=include.mensaje %}" target="_blank" rel="noopener noreferrer" data-location="{% if include.location %}{{ include.location }}{% else %}boton-{{ _wa_n }}{% endif %}" title="{{ include.titulo | default: include.texto }} (abre WhatsApp)">{% unless include.icono == false %}{% include mercato/icono-whatsapp.svg %}{% endunless %}{% if include.texto_corto %}<span class="boton__largo">{{ include.texto }}</span><span class="boton__corto">{{ include.texto_corto }}</span>{% else %}{{ include.texto }}{% endif %}<span class="visualmente-oculto"> (abre WhatsApp)</span></a>

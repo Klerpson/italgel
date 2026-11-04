@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Aviso Legal | Italgel Colombia"
+title: "Aviso legal | Italgel Colombia"
+keyword: "aviso legal"
 last_modified_at: "2026-09-21"
 description: "Aviso legal y política de privacidad de Italgel Colombia, distribuidor de MEC3 para heladería profesional."
 permalink: /legal/
@@ -10,7 +11,7 @@ hero_title: "Italgel Colombia"
 hero_w: 1080
 hero_h: 720
 hero_s: img/italgel-colombia-distribuidor-heladerias-mobile.avif
-h1: Avisos, condiciones y cláusulas del sitio web italgel.com.co
+h1: "Aviso legal, privacidad y condiciones de venta de Italgel"
 ---
 
 ## Información de la empresa
@@ -29,15 +30,15 @@ h1: Avisos, condiciones y cláusulas del sitio web italgel.com.co
 
 ---
 
-## Distribuidor Autorizado MEC3
+## Distribuidor autorizado MEC3
 
-Italgel Colombia es distribuidor autorizado de **MEC3 - The Genuine Company** en Colombia. MEC3 es una empresa italiana fundada en 1984, líder mundial en la producción de ingredientes para heladería y repostería.
+Italgel Colombia es distribuidor autorizado de **MEC3 - The Genuine Company** en Colombia. MEC3 es una empresa italiana fundada en 1984 que produce ingredientes para heladería y repostería.
 
 Todos los productos MEC3 comercializados por Italgel son originales, cuentan con certificación de calidad y están disponibles para entrega en todo el territorio nacional colombiano.
 
 ---
 
-## Política de Privacidad y Tratamiento de Datos Personales
+## Política de privacidad y tratamiento de datos personales
 
 En cumplimiento de la **Ley 1581 de 2012** y el Decreto 1377 de 2013 sobre protección de datos personales (Habeas Data), informamos sobre el tratamiento de la información que recolectamos.
 
@@ -78,7 +79,7 @@ Para ejercer estos derechos, envíe un mensaje por WhatsApp al número +{{ site.
 
 ---
 
-## Términos de Uso del Sitio Web
+## Términos de uso del sitio web
 
 ### Propiedad Intelectual
 
@@ -98,12 +99,12 @@ Este sitio web puede contener enlaces a sitios de terceros (fabricantes de maqui
 
 ---
 
-## Política de Ventas
+## Política de ventas
 
 ### Pedidos y Entregas
 
 - **Stock permanente** en Bogotá con entregas en principales ciudades de Colombia
-- **Tiempos de entrega:** 24-72 horas según ubicación
+- **Tiempos de entrega:** según la disponibilidad del inventario y la ubicación
 - **Formas de pago:** Transferencia bancaria, contraentrega, crédito para clientes calificados
 
 ### Garantías y Devoluciones

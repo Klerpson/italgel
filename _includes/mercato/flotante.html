@@ -1,0 +1,12 @@
+{%- comment -%}
+  Botón flotante de WhatsApp. js/canales.js lo oculta (data-oculto + inert) mientras el
+  elemento [data-hero] está en pantalla. js/mercato.js muestra la invitación una vez por página.
+  Texto propio por página: page.flotante_titulo y page.flotante_texto.
+  En los posts, la invitación nombra el producto del artículo (site.data.blog.productos[page.producto]).
+{%- endcomment -%}
+{%- assign _flot_prod = site.data.blog.productos[page.producto] -%}
+{%- if _flot_prod -%}{%- capture _flot_def -%}¿Te ayudamos a elegir {{ _flot_prod.corto }}?{%- endcapture -%}{%- else -%}{%- assign _flot_def = "¿Te ayudamos a elegir tu equipo?" -%}{%- endif -%}
+<a class="lead_whatsapp flotante" href="{% include wa-href.html %}" target="_blank" rel="noopener noreferrer" data-location="flotante" data-flotante title="Cotizar por WhatsApp (abre WhatsApp)">
+  <span class="flotante__burbuja"><strong>{{ page.flotante_titulo | default: _flot_def }}</strong><span class="flotante__extra">{{ page.flotante_texto | default: "Escríbenos por WhatsApp y cotiza con un asesor." }}</span><span class="visualmente-oculto"> (abre WhatsApp)</span></span>
+  <span class="flotante__icono">{% include mercato/icono-whatsapp.svg %}</span>
+</a>

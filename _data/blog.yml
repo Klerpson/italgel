@@ -1,0 +1,153 @@
+# Blog en el sistema Mercato (2026-11-04).
+# temas: los 4 grupos del blog. Cada post declara `tema:` y `producto:` en su front matter.
+# productos: la caja de producto que va bajo el resumen, el mensaje de WhatsApp y el cierre.
+#   cotizar  completa "Vengo del artículo «…» y quiero cotizar ___".
+#   Solo productos que Italgel vende (no toppings ni helado listo).
+
+migas:
+  - name: Inicio
+    url: /
+  - name: Blog
+    url: /blog/
+
+temas:
+  - id: maquinas
+    nombre: Máquinas y producción de helado
+    titulo: "Producción de helado: overrun, pasteurización y elección de la máquina"
+    fondo: banda--papel
+    familia: familia-maquinas
+    etiqueta: etiqueta--naranja
+    texto: Overrun, pasteurización, mantecado y cómo elegir la máquina según los litros que produces.
+  - id: ingredientes
+    nombre: Bases, pastas y variegatos
+    titulo: "Bases, pastas, emulsionantes y variegatos: cómo dosificarlos en el helado"
+    fondo: ""
+    familia: familia-variegatos
+    etiqueta: etiqueta--rosa
+    texto: Cómo dosificar bases, pastas, emulsionantes y variegatos para que el helado salga estable.
+  - id: negocio
+    nombre: Montar y hacer rentable una heladería
+    titulo: "Abrir una heladería en Colombia: requisitos, inversión y rentabilidad"
+    fondo: banda--mantequilla
+    familia: familia-vitrinas
+    etiqueta: etiqueta--turquesa
+    texto: Requisitos, inversión, márgenes y costos para abrir o crecer una heladería en Colombia.
+
+productos:
+  mantecadoras:
+    nombre: Mantecadoras para gelato Coldelite y Valmar
+    corto: mantecadoras
+    cotizar: una mantecadora para gelato
+    texto: Mantecadoras para gelato y helado duro artesanal. Te ayudamos a elegir la capacidad según los litros que vendes al día.
+    url: /maquinas-helado-artesanal/
+    enlace: Ver las mantecadoras para gelato
+    img: /img/mantecadora-artesanal-coldelite.avif
+    alt: Mantecadora Coldelite para gelato y helado duro artesanal
+    ancho: 560
+    alto: 700
+    sello: Coldelite · Valmar
+    familia: familia-maquinas
+  soft:
+    nombre: Máquinas de helado suave Coldelite
+    corto: máquinas de helado suave
+    cotizar: una máquina de helado suave
+    texto: Máquinas de helado suave (soft) de mesa o de piso, para copas y conos con servicio rápido.
+    url: /maquinas-helado-soft/
+    enlace: Ver las máquinas de helado suave
+    img: /img/maquina-coldelite-soft-3-sabores.avif
+    alt: Máquina de helado suave (soft) Coldelite de tres sabores para negocio
+    ancho: 280
+    alto: 280
+    sello: Coldelite
+    familia: familia-maquinas
+  industrial:
+    nombre: Pasteurizadoras y máquinas industriales Valmar
+    corto: pasteurizadoras
+    cotizar: una pasteurizadora o una línea de producción
+    texto: Pasteurizadoras y máquinas para fabricar helado en volumen, con asesoría para dimensionar la línea.
+    url: /maquinas-helado-industrial/
+    enlace: Ver las máquinas industriales
+    img: /img/valmar-pastomaster.avif
+    alt: Pasteurizadora Valmar Pastomaster para producción industrial de helado
+    ancho: 280
+    alto: 280
+    sello: Valmar
+    familia: familia-maquinas
+  vitrinas:
+    nombre: Vitrinas para helado EasyBest
+    corto: vitrinas para helado
+    cotizar: una vitrina para helado
+    texto: Vitrinas de 8, 12 y 18 bandejas, de −16 °C a −18 °C, con vidrio templado anti-condensación y control Dixell.
+    url: /vitrinas-congeladores/
+    enlace: Ver las vitrinas para helado
+    img: /img/vitrina-helado.avif
+    alt: Vitrina para helado artesanal con bandejas de sabores a la vista
+    ancho: 560
+    alto: 700
+    sello: EasyBest
+    familia: familia-vitrinas
+  bases:
+    nombre: Bases para helado MEC3
+    corto: bases para helado
+    cotizar: bases para helado
+    texto: Base 50, Neutralin Plus y Supergelmix de MEC3, cada una con su ficha técnica de preparación para el tipo de helado que vas a producir.
+    url: /bases-helado-colombia/
+    enlace: Ver las bases para helado
+    img: /img/base-50-mec3-empaque.avif
+    alt: Empaque de Base 50 MEC3 para helado artesanal
+    ancho: 280
+    alto: 280
+    sello: MEC3
+    familia: familia-variegatos
+  pastas:
+    nombre: Pastas y sabores MEC3 para helado
+    corto: pastas para helado
+    cotizar: pastas para helado
+    texto: Pastas concentradas de pistacho, vainilla, frutas y cremas para dar sabor a la base.
+    url: /pastas-sabores-helado/
+    enlace: Ver las pastas para helado
+    img: /img/pasta-pistacho-siciliano-mec3.avif
+    alt: Pasta de pistacho siciliano MEC3 para helado
+    ancho: 280
+    alto: 280
+    sello: MEC3
+    familia: familia-variegatos
+  variegatos:
+    nombre: Variegatos italianos para helado
+    corto: variegatos
+    cotizar: variegatos para helado
+    texto: Salsas que se mantienen fluidas a −18 °C para formar la veta dentro del helado.
+    url: /variegatos-helado/
+    enlace: Ver los variegatos
+    img: /img/salted-caramel-variegato.avif
+    alt: Variegato salted caramel en cubeta de helado
+    ancho: 280
+    alto: 280
+    sello: Quella · MEC3
+    familia: familia-variegatos
+  coberturas:
+    nombre: Coberturas y salsas para helado
+    corto: coberturas y salsas
+    cotizar: coberturas y salsas para helado
+    texto: Coberturas que hacen costra sobre el helado y salsas para copas y conos, en formato de heladería.
+    url: /coberturas-salsas-helado/
+    enlace: Ver las coberturas y salsas
+    img: /img/coberturas-salsas-quella.avif
+    alt: Coberturas y salsas Quella para helado
+    ancho: 280
+    alto: 280
+    sello: Quella · Fabbri
+    familia: familia-variegatos
+  equipo-completo:
+    nombre: Equipos e insumos para abrir tu heladería
+    corto: equipos e insumos
+    cotizar: los equipos e insumos para abrir una heladería
+    texto: Máquina, vitrina e insumos según el tipo de helado que vas a vender, con asesoría técnica para elegir la capacidad.
+    url: /equipos/
+    enlace: Ver las máquinas de helado
+    img: /img/equipos-heladeria-coldelite.avif
+    alt: Máquinas de helado Coldelite exhibidas bajo el logo de Italgel
+    ancho: 584
+    alto: 584
+    sello: Coldelite · Valmar
+    familia: familia-maquinas
