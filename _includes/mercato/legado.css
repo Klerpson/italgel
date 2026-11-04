@@ -12,8 +12,24 @@
     .wrapper, .section, .page-wrapper { padding-block: var(--space-xl); }
     .wrapper .wrapper, .section .wrapper { width: 100%; padding-block: var(--space-md); }
     .padding_block { padding-block: var(--space-lg); }
+    /* Las secciones dentro de .page-wrapper también son bandas: aire arriba y abajo y una línea entre ellas */
+    .page-wrapper > :is(section, aside, article, div):not(.pqr-overlay) { padding-block: var(--space-xl); }
+    .page-wrapper > :is(section, aside, article, div) + :is(section, aside, article, div):not(.bg_grey, .bg_grey_light, .bg_pink, .pqr-overlay) { border-block-start: 1px solid var(--color-linea); }
+    .page-wrapper > :is(.bg_grey, .bg_grey_light, .bg_pink) { margin-block: var(--space-lg); }
 
-    h2 { margin-block-end: var(--space-md); }
+    /* Ritmo vertical dentro de cada bloque (el contenido heredado dependía de márgenes del CSS anterior).
+       No se aplica a contenedores flex o grid de varias columnas, donde el espacio lo pone gap. */
+    :is(section, article, aside, div):not(.flex, .flex_left, .two_columns, .three_columns, .four_columns, .products-grid, .botones, .product-img, .tabla-desplazable, .icons) {
+      > * + * { margin-block-start: var(--space-md); }
+      > * + h2 { margin-block-start: var(--space-xl); }
+      > * + :is(h3, h4) { margin-block-start: var(--space-lg); }
+      > :is(h2, h3, h4) + * { margin-block-start: var(--space-sm); }
+      > h2 + * { margin-block-start: var(--space-md); }
+      > :is(h2, h3) + :is(h3, h4) { margin-block-start: var(--space-md); }
+      > * + :is(table, .two_columns, .three_columns, .four_columns, .products-grid, .flex) { margin-block-start: var(--space-lg); }
+      > :is(table, .two_columns, .three_columns, .four_columns, .products-grid, .flex) + * { margin-block-start: var(--space-lg); }
+    }
+
     h3 { font-size: var(--text-item); }
     h4 { font-size: var(--text-lg); }
     p, li { color: var(--color-texto-suave); }
@@ -51,7 +67,8 @@
 
     /* Fondos: escalones de tono del sistema */
     :is(.bg_grey, .bg_grey_light) { background: var(--color-papel); border-radius: var(--radio); padding: var(--space-xl) clamp(1.25rem, 4vw, 3rem); }
-    .bg_grey_light + .bg_grey_light { margin-block-start: var(--space-lg); }
+    :not(.flex, .flex_left, .two_columns, .three_columns) > .bg_grey_light + .bg_grey_light { margin-block-start: var(--space-lg); }
+    :is(.flex, .flex_left):has(> .bg_grey_light + .bg_grey_light) { align-items: stretch; }
     .bg_pink { background: var(--color-mantequilla); border-radius: var(--radio); padding: var(--space-xl) clamp(1.25rem, 4vw, 3rem); }
 
     /* Tarjeta de producto: foto sobre papel y texto debajo */
@@ -84,7 +101,8 @@
     .datos.secundario { border-block-start-color: var(--color-turquesa); }
     .datos.gris { border-block-start-color: var(--color-texto-suave); }
     .datos > span, .stat-number { font-size: var(--text-bloque); font-weight: 600; color: var(--color-texto); letter-spacing: -0.015em; }
-    .wrapper.flex:has(> .datos) > .datos { flex: 1 1 14rem; }
+    .flex:has(> .datos) { align-items: stretch; }
+    .flex:has(> .datos) > .datos { flex: 1 1 14rem; }
 
     /* Enlaces con aspecto de botón dentro del contenido: enlace con flecha (el botón sólido es el del hero y el cierre) */
     .boton:not(.pqr-overlay *) {
@@ -103,7 +121,13 @@
     th, td { padding: 0.85rem 1rem; text-align: start; border-block-end: 1px solid var(--color-linea); vertical-align: top; }
     thead th { font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
     tbody th { font-weight: 600; }
-    @media (max-width: 48rem) { table { display: block; overflow-x: auto; white-space: nowrap; } }
+    /* En móvil: las tablas de dos columnas (dato | valor) caben y parten línea; las de tres o más
+       se desplazan de lado con columnas de ancho mínimo legible, nunca con el texto cortado */
+    @media (max-width: 48rem) {
+      th, td { padding: 0.75rem 0.875rem; }
+      table:not(:has(tr > :nth-child(3))) { tr > :first-child { inline-size: 42%; } }
+      table:has(tr > :nth-child(3)) { display: block; overflow-x: auto; th, td { min-inline-size: 8.5rem; } }
+    }
 
     /* Citas */
     blockquote { padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); border-block-start: 2px solid var(--color-rosa); }
