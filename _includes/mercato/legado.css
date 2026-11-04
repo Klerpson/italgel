@@ -29,6 +29,13 @@
     .center > * { max-inline-size: 100%; }
     .text_center { text-align: center; margin-inline: auto; max-width: min(100%, 52rem); }
     .text_center > * { margin-inline: auto; }
+    /* Centrado solo en títulos: el texto corrido se lee alineado a la izquierda */
+    :is(p, ul, ol, small, .product-content, .datos > p):is(.text_center, .text_center *) { text-align: start; }
+    /* En móvil todo el contenido heredado se alinea a la izquierda, como el resto del sistema */
+    @media (max-width: 47.99rem) {
+      .center { justify-items: stretch; }
+      .text_center, .center { text-align: start; }
+    }
 
     /* Columnas y rejillas */
     .flex { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xl) clamp(2rem, 4vw, 4rem); }
@@ -58,7 +65,18 @@
     .product-img.secundario { border-block-end-color: var(--color-turquesa); }
     .product-content { display: grid; gap: var(--space-sm); align-content: start; }
     .product-content.text_center { text-align: start; }
-    .product-badge, .product-category { display: inline-block; font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
+    .product-badge { display: inline-block; font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
+
+    /* Tarjeta de serie o línea de producto (vitrinas, Quella): ficha sobre papel con la franja de un color del logo */
+    .product-category {
+      display: grid; align-content: start; gap: var(--space-sm); padding: var(--space-lg) clamp(1.25rem, 4vw, 2rem);
+      background: var(--color-papel); border-radius: var(--radio); border-block-start: 3px solid var(--color-marca);
+      &:nth-child(3n + 2) { border-block-start-color: var(--color-rosa); }
+      &:nth-child(3n) { border-block-start-color: var(--color-turquesa); }
+      ul { margin-block: var(--space-sm); }
+      small { color: var(--color-texto-suave); }
+      .boton { margin-block-start: var(--space-sm); }
+    }
 
     /* Cifras destacadas con la bola del color del logo */
     .datos { display: grid; gap: var(--space-sm); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); border-block-start: 3px solid var(--color-marca); text-align: start; }
