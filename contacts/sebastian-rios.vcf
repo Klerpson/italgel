@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /contacts/sebastian-rios.vcf
+contacto: sebastian-rios
+noindex: true
+sitemap: false
+---
+{%- assign c = site.data.contactos[page.contacto] -%}
+BEGIN:VCARD
+VERSION:3.0
+N:{{ c.apellido }};{{ c.nombre }};;;
+FN:{{ c.nombre }} {{ c.apellido }}
+ORG:{{ c.empresa }}
+TITLE:{{ c.cargo }}
+TEL;TYPE=CELL,VOICE:{{ c.telefono }}
+EMAIL;TYPE=INTERNET,WORK:{{ c.email }}
+URL:{{ c.web }}
+ADR;TYPE=WORK:;;{{ c.calle }};{{ c.ciudad }};;;{{ c.pais }}
+END:VCARD

@@ -1,0 +1,16 @@
+# Tarjetas de contacto (NFC). Cada clave es el "slug" de la persona.
+# Para agregar a alguien: nuevo bloque aquí + copiar contacts/sebastian-rios.html
+# y contacts/sebastian-rios.vcf cambiando el nombre del archivo, el permalink y "contacto:".
+sebastian-rios:
+  nombre: "Sebastián"
+  apellido: "Rios"
+  cargo: "Asesor comercial"
+  empresa: "ItalGel SAS"
+  email: "srios@mec3.co"
+  telefono: "+573166926111"
+  whatsapp: "573166926111"
+  mensaje_whatsapp: "Hola Sebastián, te escribo desde tu tarjeta de Italgel."
+  web: "https://italgel.com.co"
+  calle: "Carrera 68H No. 75-33"
+  ciudad: "Bogotá"
+  pais: "Colombia"
