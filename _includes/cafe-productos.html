@@ -17,7 +17,9 @@
         <ul>{% for detalle in equipo.detalles %}<li>{{ detalle }}</li>{% endfor %}</ul>
       </details>
       {% capture mensaje %}Hola, quiero cotizar {{ equipo.nombre }} {{ equipo.referencia }} con Italgel.{% endcapture %}
-      <a class="boton boton_2" href="https://wa.me/{{ site.telefono }}?text={{ mensaje | strip | uri_escape }}" target="_blank" rel="noopener noreferrer">Cotizar {{ equipo.nombre }}</a>
+      {% capture boton_texto %}Cotizar {{ equipo.nombre }}{% endcapture %}
+      {% capture boton_ubicacion %}cotizar-{{ equipo.slug }}{% endcapture %}
+      {% include boton.html num="2" text=boton_texto location=boton_ubicacion mensaje=mensaje %}
     </div>
   </article>
   {% endfor %}

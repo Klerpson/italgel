@@ -6,7 +6,7 @@
       <p class="cafe-exclusive">Importadores exclusivos de Hambach para Colombia</p>
       <p>Cafeteras espresso y molinos para preparar café en casa o equipar tu negocio. Conoce los modelos y encuentra la combinación para tu barra.</p>
       <div class="cafe-actions">
-        <a class="boton boton_1" href="https://wa.me/{{ site.telefono }}?text={{ 'Hola, quiero cotizar equipos de café Hambach con Italgel.' | uri_escape }}" target="_blank" rel="noopener noreferrer">Cotizar con Italgel</a>
+        {% include boton.html num="1" text="Cotizar con Italgel" location="hero-cafe" mensaje="Hola, quiero cotizar equipos de café Hambach con Italgel." %}
       </div>
       <div class="cafe-browse">
         <a href="#cafeteras">Ver cafeteras →</a>
