@@ -1,0 +1,267 @@
+[
+  {
+    "name": "bosque",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/fruit-flavours/wild-berries-paste",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/frutte/frutti-di-bosco.jpg",
+    "file": "bosque.jpg",
+    "status": 200,
+    "bytes": 79392,
+    "sha256": "aeb31499320b7b1a64f8bbb8a34f5fb68c422279c4ae283ee633334d7d152aac",
+    "source_size": [
+      492,
+      492
+    ],
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-frutos-bosque-helado.avif",
+      "/img/fiordibosco-frutos-bosque.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/bosque-160.avif",
+        "width": 160,
+        "bytes": 3574
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "width": 280,
+        "bytes": 7766
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "width": 400,
+        "bytes": 12802
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-492.avif",
+        "width": 492,
+        "bytes": 18100
+      }
+    ]
+  },
+  {
+    "name": "vainilla",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/bourbon",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/_MG_5510.jpg",
+    "file": "vainilla.jpg",
+    "status": 200,
+    "bytes": 46056,
+    "sha256": "11c31042bf55f99fe7e339f63c3f2a51716b2f21654058b4a4345b8021d531fd",
+    "source_size": [
+      492,
+      492
+    ],
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-vainilla-bourbon-helado.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-160.avif",
+        "width": 160,
+        "bytes": 5322
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "width": 280,
+        "bytes": 10777
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "width": 400,
+        "bytes": 16511
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-492.avif",
+        "width": 492,
+        "bytes": 24237
+      }
+    ]
+  },
+  {
+    "name": "caramelo",
+    "page": "https://www.mec3.com/it/prodotti/gelato/paste-e-polveri-aromatizzanti/gusti-creme/caramel",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/kit/Butter-Caramel_0998.png",
+    "file": "caramelo.jpg",
+    "status": 200,
+    "bytes": 73441,
+    "sha256": "4b31d49d539023342e2966bfa2a337553e88426dfa87b78bd420339ead76dc25",
+    "source_size": [
+      492,
+      492
+    ],
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-caramelo-helado-dulce-leche.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-160.avif",
+        "width": 160,
+        "bytes": 3804
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "width": 280,
+        "bytes": 8393
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "width": 400,
+        "bytes": 14112
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-492.avif",
+        "width": 492,
+        "bytes": 19479
+      }
+    ]
+  },
+  {
+    "name": "coco",
+    "page": "https://www.mec3.com/it/prodotti/gelato/paste-e-polveri-aromatizzanti/gusti-creme/cocco-fine-pasta",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/cocco.jpg",
+    "file": "coco.jpg",
+    "status": 200,
+    "bytes": 49668,
+    "sha256": "d0da0a0dbffda9b84c6d63c1c0f0bd66c2891d82741f8c01845b99a89b632127",
+    "source_size": [
+      492,
+      492
+    ],
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-coco-helado-tropical.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/coco-160.avif",
+        "width": 160,
+        "bytes": 1904
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "width": 280,
+        "bytes": 3897
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "width": 400,
+        "bytes": 6232
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-492.avif",
+        "width": 492,
+        "bytes": 8455
+      }
+    ]
+  },
+  {
+    "name": "salted",
+    "page": "https://www.mec3.com/it/prodotti/gelato/variegati/variegati-creme/variegato-popcorn-salty-caramel",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/kit/2023_kit-letspop.jpg",
+    "file": "salted.jpg",
+    "status": 200,
+    "bytes": 64386,
+    "sha256": "08c9b429702c75fbc6849fd82ce099d00510a861024fe106cf6f5b01ccb8a284",
+    "source_size": [
+      492,
+      492
+    ],
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/salted-caramel-variegato.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/salted-160.avif",
+        "width": 160,
+        "bytes": 3330
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "width": 280,
+        "bytes": 7821
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "width": 400,
+        "bytes": 14178
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-492.avif",
+        "width": 492,
+        "bytes": 21056
+      }
+    ]
+  },
+  {
+    "name": "frambuesas-stock",
+    "file": "frambuesas-stock.jpg",
+    "page": "https://unsplash.com/photos/red-raspberry-on-white-background-jHcKq383ibg",
+    "url": "https://images.unsplash.com/photo-1615484476889-2830f980a5e3?fit=max&w=1600&q=95&fm=jpg",
+    "author": "Mockup Graphics",
+    "license": "https://unsplash.com/license",
+    "status": 200,
+    "bytes": 290075,
+    "sha256": "5dedd509e0b53d7bab501f0fcd69d6725065991c1ef08d455488535dcfeb344c",
+    "source_size": [
+      1600,
+      2134
+    ],
+    "output_size": [
+      1000,
+      1000
+    ],
+    "aliases": [
+      "/img/fiordilampone-frambuesa-variegato.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-160.avif",
+        "width": 160,
+        "bytes": 1916
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-280.avif",
+        "width": 280,
+        "bytes": 4055
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-400.avif",
+        "width": 400,
+        "bytes": 7075
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-600.avif",
+        "width": 600,
+        "bytes": 14181
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-800.avif",
+        "width": 800,
+        "bytes": 23161
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-1000.avif",
+        "width": 1000,
+        "bytes": 34939
+      }
+    ]
+  }
+]

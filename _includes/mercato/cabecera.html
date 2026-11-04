@@ -24,7 +24,12 @@
           <div class="submenu">
             <ul class="submenu__lista" role="list">
               {%- for prod in item.productos %}
-              <li><a class="submenu__producto" href="{{ prod.url | relative_url }}" title="{{ prod.titulo }} {{ prod.meta }}"><img src="{{ prod.img | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async"><span><strong>{{ prod.titulo }}</strong><small>{{ prod.meta }}</small></span></a></li>
+              {%- assign _menu_img = prod.img -%}
+              {%- if site.data.imagenes_ingredientes.imagenes[prod.img] -%}
+                {%- assign _menu_variante = site.data.imagenes_ingredientes.imagenes[prod.img].variants | first -%}
+                {%- assign _menu_img = _menu_variante.src -%}
+              {%- endif %}
+              <li><a class="submenu__producto" href="{{ prod.url | relative_url }}" title="{{ prod.titulo }} {{ prod.meta }}"><img src="{{ _menu_img | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async"><span><strong>{{ prod.titulo }}</strong><small>{{ prod.meta }}</small></span></a></li>
               {%- endfor %}
             </ul>
             <a class="enlace-flecha" href="{{ item.url | relative_url }}" title="{{ item.ver_mas }}">{{ item.ver_mas }}</a>

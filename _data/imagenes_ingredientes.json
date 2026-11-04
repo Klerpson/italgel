@@ -1,0 +1,173 @@
+{
+  "imagenes": {
+    "/img/pasta-frutos-bosque-helado.avif": {
+      "src": "/img/catalogo/ingredientes/bosque-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/bosque-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/fiordibosco-frutos-bosque.avif": {
+      "src": "/img/catalogo/ingredientes/bosque-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/bosque-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/pasta-vainilla-bourbon-helado.avif": {
+      "src": "/img/catalogo/ingredientes/vainilla-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/pasta-caramelo-helado-dulce-leche.avif": {
+      "src": "/img/catalogo/ingredientes/caramelo-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/pasta-coco-helado-tropical.avif": {
+      "src": "/img/catalogo/ingredientes/coco-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/coco-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/coco-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/coco-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/coco-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/salted-caramel-variegato.avif": {
+      "src": "/img/catalogo/ingredientes/salted-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/salted-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/salted-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/salted-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/salted-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/fiordilampone-frambuesa-variegato.avif": {
+      "src": "/img/catalogo/ingredientes/frambuesas-stock-600.avif",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/ingredientes/frambuesas-stock-1000.avif",
+          "width": 1000
+        }
+      ]
+    }
+  }
+}

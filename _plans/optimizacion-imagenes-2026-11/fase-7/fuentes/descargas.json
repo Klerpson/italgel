@@ -1,0 +1,53 @@
+[
+  {
+    "name": "bosque",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/fruit-flavours/wild-berries-paste",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/frutte/frutti-di-bosco.jpg",
+    "file": "bosque.jpg",
+    "status": 200,
+    "bytes": 79392,
+    "sha256": "aeb31499320b7b1a64f8bbb8a34f5fb68c422279c4ae283ee633334d7d152aac"
+  },
+  {
+    "name": "vainilla",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/bourbon",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/_MG_5510.jpg",
+    "file": "vainilla.jpg",
+    "status": 200,
+    "bytes": 46056,
+    "sha256": "11c31042bf55f99fe7e339f63c3f2a51716b2f21654058b4a4345b8021d531fd"
+  },
+  {
+    "name": "caramelo",
+    "page": "https://www.mec3.com/it/prodotti/gelato/paste-e-polveri-aromatizzanti/gusti-creme/caramel",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/kit/Butter-Caramel_0998.png",
+    "file": "caramelo.jpg",
+    "status": 200,
+    "bytes": 73441,
+    "sha256": "4b31d49d539023342e2966bfa2a337553e88426dfa87b78bd420339ead76dc25"
+  },
+  {
+    "name": "frambuesa",
+    "page": "https://www.mec3.com/it/prodotti/gelato/variegati/variegati-frutta/fiordilampone",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/prodotti.jpg",
+    "rejected": "Imagen generica del fabricante; descartada"
+  },
+  {
+    "name": "coco",
+    "page": "https://www.mec3.com/it/prodotti/gelato/paste-e-polveri-aromatizzanti/gusti-creme/cocco-fine-pasta",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/cocco.jpg",
+    "file": "coco.jpg",
+    "status": 200,
+    "bytes": 49668,
+    "sha256": "d0da0a0dbffda9b84c6d63c1c0f0bd66c2891d82741f8c01845b99a89b632127"
+  },
+  {
+    "name": "salted",
+    "page": "https://www.mec3.com/it/prodotti/gelato/variegati/variegati-creme/variegato-popcorn-salty-caramel",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/kit/2023_kit-letspop.jpg",
+    "file": "salted.jpg",
+    "status": 200,
+    "bytes": 64386,
+    "sha256": "08c9b429702c75fbc6849fd82ce099d00510a861024fe106cf6f5b01ccb8a284"
+  }
+]
