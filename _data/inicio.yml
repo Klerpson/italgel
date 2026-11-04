@@ -1,0 +1,135 @@
+# Contenido repetido de la portada (sistema Mercato). Cada producto enlaza a su página real.
+# sello: solo la marca real del producto; vacío si no aplica.
+maquinas:
+  - titulo: Máquinas de helado suave (soft)
+    meta: De mesa o de piso
+    sello: Coldelite
+    url: /maquinas-helado-soft/
+    img: /img/maquina-coldelite-soft-3-sabores.avif
+    alt: Máquina de helado suave (soft) Coldelite de tres sabores para negocio
+    ancho: 280
+    alto: 280
+  - titulo: Mantecadoras para gelato
+    meta: Gelato y helado duro artesanal
+    sello: Coldelite · Valmar
+    url: /maquinas-helado-artesanal/
+    img: /img/mantecadora-artesanal-coldelite.avif
+    alt: Mantecadora Coldelite para gelato y helado duro artesanal
+    ancho: 560
+    alto: 700
+  - titulo: Máquinas industriales y pasteurizadoras
+    meta: Líneas de producción de helado
+    sello: Valmar
+    url: /maquinas-helado-industrial/
+    img: /img/valmar-pastomaster.avif
+    alt: Pasteurizadora Valmar Pastomaster para producción industrial de helado
+    ancho: 280
+    alto: 280
+
+vitrinas:
+  - modelo: EasyBox 8
+    detalle: 8 cubetas en formato pozzetti · 115 × 71 × 125 cm · para cafeterías, kioscos y food trucks
+  - modelo: July 12
+    detalle: 12 bandejas 1/3 GN · 123 × 109 × 119 cm · para gelaterías con 10 a 12 sabores
+  - modelo: July 18
+    detalle: 18 bandejas 1/3 GN · 175 × 109 × 119 cm · para 15 a 18 sabores permanentes
+
+cafe:
+  - titulo: Mini Neo
+    meta: Cafetera espresso residencial
+    url: /equipos-cafe/mini-neo/
+    img: /img/cafe/mini-neo.avif
+    ancho: 800
+    alto: 700
+    alt: Cafetera espresso Hambach Mini Neo para casa
+  - titulo: Falcon
+    meta: Cafetera para uso comercial ligero
+    url: /equipos-cafe/falcon/
+    img: /img/cafe/falcon.avif
+    ancho: 800
+    alto: 700
+    alt: Cafetera espresso Hambach Falcon para restaurantes y pastelerías
+  - titulo: Tank 2
+    meta: Cafetera industrial para negocio
+    url: /equipos-cafe/tank-2/
+    img: /img/cafe/tank-2.avif
+    ancho: 800
+    alto: 700
+    alt: Cafetera industrial Hambach Tank 2 de dos grupos
+
+variegatos:
+  - titulo: Salted caramel
+    meta: Caramelo con sal de mar
+    url: /coberturas-salsas-helado/salsas-especiales/
+    img: /img/salted-caramel-variegato.avif
+    alt: Variegato salted caramel en cubeta de helado
+  - titulo: Tiramisú
+    meta: Café, cacao y mascarpone
+    url: /coberturas-salsas-helado/salsas-especiales/
+    img: /img/tiramisu-variegato-italiano.avif
+    alt: Variegato de tiramisú para helado artesanal
+  - titulo: Fiordibosco
+    meta: Frutos del bosque
+    url: /coberturas-salsas-helado/
+    img: /img/fiordibosco-frutos-bosque.avif
+    alt: Variegato Fiordibosco de frutos del bosque en cubeta
+  - titulo: Fiordiarancio
+    meta: Naranja
+    url: /coberturas-salsas-helado/
+    img: /img/fiordiarancio-naranja-variegato.avif
+    alt: Variegato Fiordiarancio de naranja en cubeta de helado
+
+insumos:
+  - titulo: Bases para helado
+    url: /bases-helado-colombia/
+  - titulo: Pastas y sabores
+    url: /pastas-sabores-helado/
+  - titulo: Coberturas y salsas
+    url: /coberturas-salsas-helado/
+  - titulo: Quella Family
+    url: /productos-quella/
+
+blog:
+  - como-abrir-una-heladeria-en-colombia
+  - rentabilidad-heladeria-colombia
+  - que-es-el-variegato-para-helado
+
+# Qué necesita cada tipo de heladería (contenido de la home anterior, sin cifras sin fuente).
+tipos:
+  - titulo: Heladería de gelato artesanal
+    subtitulo: Equipos e insumos para gelato
+    familia: familia-maquinas
+    texto: "Producción diaria en lotes pequeños, con una carta de sabores que rota y foco en la calidad."
+    necesita:
+      - texto: Mantecadora para gelato
+        url: /maquinas-helado-artesanal/
+      - texto: Bases neutras (Base 50, Neutralin Plus)
+        url: /bases-helado-colombia/
+      - texto: Pastas concentradas de pistacho o vainilla
+        url: /pastas-sabores-helado/
+      - texto: Variegatos para vetear el helado
+        url: /variegatos-helado/
+      - texto: Vitrina para exhibir los sabores
+        url: /vitrinas-congeladores/
+  - titulo: Punto de helado suave (soft)
+    subtitulo: Equipos e insumos para helado suave
+    familia: familia-variegatos
+    texto: "Servicio rápido, pocos sabores fijos y alto volumen de copas y conos."
+    necesita:
+      - texto: Máquina de helado suave de mesa o de piso
+        url: /maquinas-helado-soft/
+      - texto: Base para helado soft (Supergelmix)
+        url: /bases-helado-colombia/supergelmix/
+      - texto: Coberturas y salsas para la copa
+        url: /coberturas-salsas-helado/
+  - titulo: Fabricación industrial de helado
+    subtitulo: Equipos e insumos para fabricar en volumen
+    familia: familia-vitrinas
+    texto: "Producción mayorista para distribución, con varios sabores y empaque para reventa."
+    necesita:
+      - texto: Pasteurizadora y mantecadora industrial
+        url: /maquinas-helado-industrial/
+      - texto: Bases en presentación de cubeta
+        url: /bases-helado-colombia/
+      - texto: Pastas y variegatos en formato cubeta
+        url: /pastas-sabores-helado/

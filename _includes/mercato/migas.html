@@ -1,0 +1,24 @@
+{%- comment -%}
+  Migas de pan con BreadcrumbList (microdatos). Usa page.breadcrumb.
+  include.items reemplaza a page.breadcrumb; include.actual añade la página actual como último paso
+  (los posts pasan Inicio / Blog desde el layout y su H1 corto como actual).
+{%- endcomment -%}
+{%- assign _migas = include.items | default: page.breadcrumb -%}
+{%- if _migas %}
+<nav class="migas wrapper" aria-label="Ruta">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    {%- for item in _migas %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      {%- if forloop.last and include.actual == nil %}<span itemprop="name" aria-current="page">{{ item.name }}</span>{% else %}<a itemprop="item" href="{{ item.url | relative_url }}" title="{{ item.name }}"><span itemprop="name">{{ item.name }}</span></a>{% endif %}
+      <meta itemprop="position" content="{{ forloop.index }}">
+    </li>
+    {%- endfor %}
+    {%- if include.actual %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name" aria-current="page">{{ include.actual }}</span>
+      <meta itemprop="position" content="{{ _migas.size | plus: 1 }}">
+    </li>
+    {%- endif %}
+  </ol>
+</nav>
+{%- endif %}

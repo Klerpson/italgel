@@ -1,0 +1,27 @@
+{%- comment -%}
+  Tarjeta de catálogo de un equipo de café (datos en _data/cafe.yml). Todo visible: nombre,
+  resumen y datos clave; la ficha técnica completa vive en la página del producto.
+  Parámetros: equipo, tipo (prefijo del alt).
+{%- endcomment -%}
+{%- assign equipo = include.equipo -%}
+{%- capture _url -%}/equipos-cafe/{{ equipo.slug }}/{%- endcapture -%}
+{%- capture _mensaje -%}Hola, quiero cotizar {{ equipo.nombre }} {{ equipo.referencia }} con Italgel.{%- endcapture -%}
+<article class="ficha" id="{{ equipo.slug }}">
+  <a class="baldosa__foto" href="{{ _url | relative_url }}" title="Ficha técnica de {{ include.tipo | downcase }} {{ equipo.nombre }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ '/img/cafe/' | append: equipo.slug | append: '.avif' | relative_url }}" alt="{{ include.tipo }} {{ equipo.nombre }} {{ equipo.referencia }}, uso {{ equipo.uso | downcase }}" title="{{ equipo.nombre }} · {{ equipo.referencia }} · {{ equipo.voltaje }}" width="800" height="700" loading="lazy" decoding="async">
+  </a>
+  <div class="flujo">
+    <p class="etiqueta punto-familia">{{ equipo.uso }}</p>
+    <h3><a href="{{ _url | relative_url }}" title="{{ include.tipo }} {{ equipo.nombre }}">{{ include.tipo }} {{ equipo.nombre }}</a><small>{{ equipo.referencia }} · {{ equipo.voltaje }} · {{ equipo.potencia }}</small></h3>
+    <p>{{ equipo.resumen }}</p>
+  </div>
+  <dl class="ficha__datos">
+    <div><dt>Alimentación</dt><dd>{{ equipo.voltaje }} / 60 Hz</dd></div>
+    <div><dt>Potencia</dt><dd>{{ equipo.potencia }}</dd></div>
+    <div><dt>{{ equipo.clave_etiqueta }}</dt><dd>{{ equipo.clave_valor }}</dd></div>
+  </dl>
+  <div class="ficha__acciones">
+    <a class="enlace-flecha" href="{{ _url | relative_url }}" title="Ver la ficha técnica de {{ equipo.nombre }}">Ver la ficha técnica de {{ equipo.nombre }}</a>
+    <a class="lead_whatsapp enlace-texto" href="{% include wa-href.html mensaje=_mensaje %}" target="_blank" rel="noopener noreferrer" data-location="cotizar-{{ equipo.slug }}" title="Cotizar {{ equipo.nombre }} por WhatsApp (abre WhatsApp)">Cotizar por WhatsApp<span class="visualmente-oculto"> (abre WhatsApp)</span></a>
+  </div>
+</article>

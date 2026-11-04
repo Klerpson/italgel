@@ -15,6 +15,11 @@ wa_asunto: "insumos o equipos"
 email: info@mec3.co
 direccion: "Carrera 68H No. 75 - 33, Bogotá, Colombia"
 nit: "9006898237"
+redes:
+  - nombre: Facebook
+    url: https://www.facebook.com/Mec3.Italgel
+  - nombre: Instagram
+    url: https://www.instagram.com/mec3colombia/
 
 markdown: kramdown
 
@@ -25,6 +30,7 @@ permalink: :slug/
 # Por eso listamos TODO explícitamente.
 exclude:
   - ".kilo"
+  - ".remember"
   - ".claude"
   - ".agents"
   - "plans" # legado: la carpeta se renombro a _plans (ya excluida por Jekyll por el guion bajo)

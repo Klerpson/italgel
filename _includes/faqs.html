@@ -12,7 +12,7 @@
   {% for faq in faq_data %}
   <article class="faq-item">
     <h3>{{ faq.question | default: faq.q }}</h3>
-    {%- capture _wa_faq_a -%}<a href="{{ _wa_faq_href }}" class="lead_whatsapp" target="_blank" rel="noopener noreferrer" data-location="faq-{{ forloop.index }}">{%- endcapture %}
+    {%- capture _wa_faq_a -%}<a href="{{ _wa_faq_href }}" class="lead_whatsapp" title="Escribir a Italgel por WhatsApp (abre WhatsApp)" target="_blank" rel="noopener noreferrer" data-location="faq-{{ forloop.index }}">{%- endcapture %}
     {{ faq.answer | default: faq.a | replace: _tel_token, site.telefono | replace: '<a data-wa>', _wa_faq_a | markdownify }}
   </article>
   {% endfor %}

@@ -1,13 +1,29 @@
 ---
-layout: default
+layout: mercato
 permalink: /404.html
-title: "Página no encontrada"
-description: "La página que buscas no existe."
+title: "Página no encontrada | Italgel"
+description: "La página que buscas no existe. Te dejamos las máquinas de helado, cafeteras Hambach, vitrinas, variegatos e insumos de Italgel."
 noindex: true
 ---
+<section class="portada" data-hero aria-labelledby="titulo-portada">
+  <div class="wrapper portada__panel">
+    <div class="portada__texto flujo flujo--amplio">
+      <h1 id="titulo-portada">Esta página no existe, pero el catálogo de Italgel sí</h1>
+      <p class="entradilla">Puede que la dirección haya cambiado con el rediseño. Elige la categoría que buscabas o escríbenos por WhatsApp.</p>
+      <div class="acciones">
+        {% include mercato/boton.html texto="Cotizar por WhatsApp" location="hero" %}
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="wrapper flow">
-    <h1>404 - Página no encontrada</h1>
-    <p>Lo sentimos, la página que buscas no existe.</p>
-    <a href="/" class="boton">Volver al inicio</a>
+<section class="banda" aria-labelledby="titulo-categorias">
+  <div class="wrapper flujo flujo--amplio">
+    <h2 id="titulo-categorias">Máquinas de helado, cafeteras, vitrinas e insumos</h2>
+    <ul class="accesos" role="list">
+      {%- for item in site.data.navegacion.principal %}
+      <li><a href="{{ item.url | relative_url }}" title="{{ item.titulo }}">{{ item.titulo }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
 </section>

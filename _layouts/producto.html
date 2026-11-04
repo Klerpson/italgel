@@ -1,0 +1,227 @@
+---
+layout: mercato
+---
+{%- comment -%}
+  Página de producto del catálogo (sistema Mercato). Toma el producto de
+  site.data[page.coleccion][page.grupo] por page.slug. Todo el contenido queda visible:
+  sin acordeones ni pestañas.
+  Front matter de cada página: coleccion, grupo, slug, title, description, h1, keyword,
+  categoria_url, categoria_nombre, grupo_nombre (plural para la comparativa), breadcrumb.
+  Campos del producto: nombre, referencia, uso, lema, descripcion, detalles, clave_etiqueta,
+  clave_valor, img (opcional; por defecto /img/<coleccion>/<slug>.avif), img_detalle,
+  y la ficha: voltaje, potencia, dimensiones (café) o una lista ficha [{etiqueta, valor}].
+{%- endcomment -%}
+{%- assign grupo = site.data[page.coleccion][page.grupo] -%}
+{%- assign p = grupo | where: "slug", page.slug | first -%}
+{%- capture _img -%}{% if p.img %}{{ p.img }}{% else %}/img/{{ page.coleccion }}/{{ p.slug }}.avif{% endif %}{%- endcapture -%}
+{%- capture _wa -%}Hola, quiero cotizar {{ p.nombre }}{% if p.referencia %} {{ p.referencia }}{% endif %} con Italgel.{%- endcapture -%}
+
+{% include mercato/migas.html %}
+
+<section class="producto {{ page.familia }}" data-hero aria-labelledby="titulo-producto">
+  <div class="wrapper producto__marco">
+    <div class="producto__galeria">
+      <figure class="producto__foto">
+        <img src="{{ _img | relative_url }}" alt="{{ page.alt }}" title="{{ page.alt }}" width="{{ p.ancho | default: 800 }}" height="{{ p.alto | default: 700 }}" fetchpriority="high" decoding="async">
+      </figure>
+      {%- capture _amb -%}/img/{{ page.coleccion }}/{{ p.slug }}-ambiente.avif{%- endcapture -%}
+      {%- assign _hay_amb = site.static_files | where: "path", _amb | size -%}
+      {%- if _hay_amb > 0 or p.img_detalle %}
+      <div class="producto__extra">
+        {%- if _hay_amb > 0 %}
+        <figure>
+          <img src="{{ _amb | relative_url }}" alt="{{ p.nombre }} sobre una barra de cafetería, montaje ilustrativo" title="{{ p.nombre }} en una barra de cafetería (montaje ilustrativo)" width="1000" height="750" loading="lazy" decoding="async">
+          <figcaption>Montaje ilustrativo: foto real del equipo sobre una barra de cafetería.</figcaption>
+        </figure>
+        {%- endif %}
+        {%- if p.img_detalle %}
+        <figure>
+          <img src="{{ p.img_detalle | relative_url }}" alt="{{ page.alt_detalle }}" title="{{ page.alt_detalle }}" width="500" height="400" loading="lazy" decoding="async">
+          <figcaption>{{ page.pie_detalle }}</figcaption>
+        </figure>
+        {%- endif %}
+      </div>
+      {%- endif %}
+    </div>
+    <div class="producto__info flujo flujo--amplio">
+      <div class="flujo">
+        <h1 id="titulo-producto">{{ page.h1 }}</h1>
+        <p class="producto__lema punto-familia">{% if page.grupo == "cafeteras" %}Uso {{ p.uso | downcase }}{% if p.lema %} · {{ p.lema }}{% endif %}{% else %}{{ p.lema | default: p.uso }}{% endif %}</p>
+        <p class="entradilla">{{ p.descripcion }}</p>
+      </div>
+      <dl class="datos datos--producto">
+        {%- if p.voltaje %}<div><dt>Alimentación</dt><dd>{{ p.voltaje }}</dd></div>{% endif %}
+        {%- if p.potencia %}<div><dt>Potencia</dt><dd>{{ p.potencia }}</dd></div>{% endif %}
+        {%- if p.clave_etiqueta %}<div><dt>{{ p.clave_etiqueta }}</dt><dd>{{ p.clave_valor }}</dd></div>{% endif %}
+      </dl>
+      <div class="acciones">
+        {% include mercato/boton.html texto="Cotizar por WhatsApp" location="hero" mensaje=_wa %}
+        <p class="microgarantia">{% if page.marca == "Hambach" %}Importadores exclusivos de Hambach en Colombia. {% endif %}Te confirmamos precio, disponibilidad y configuración por WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="indice {{ page.familia }}" aria-label="En esta página" data-indice>
+  <div class="wrapper">
+    <ol>
+      <li><a href="#ficha" title="Ficha técnica de {{ p.nombre }}">Ficha técnica</a></li>
+      <li><a href="#instalar" title="Qué necesitas para instalar {{ p.nombre }}">Instalación</a></li>
+      <li><a href="#caracteristicas" title="Qué significa cada característica de {{ p.nombre }}">Características</a></li>
+      <li><a href="#preguntas" title="Preguntas sobre {{ p.nombre }}">Preguntas</a></li>
+      <li><a href="#comparar" title="Comparar {{ p.nombre }} con otros modelos">Comparar modelos</a></li>
+      <li><a href="#cotizar" title="Cotizar {{ p.nombre }} por WhatsApp">Cotizar</a></li>
+    </ol>
+  </div>
+</nav>
+
+<section class="banda {{ page.familia }}" id="ficha" aria-labelledby="titulo-ficha">
+  <div class="wrapper columnas columnas--5-7">
+    <div class="flujo pegajoso">
+      <h2 id="titulo-ficha">Ficha técnica de {{ p.nombre }}{% if p.referencia %} {{ p.referencia }}{% endif %}</h2>
+      <p class="texto-suave">{{ page.nota_ficha | default: "Datos tomados del catálogo del fabricante." }}</p>
+    </div>
+    <div class="flujo flujo--amplio">
+      <dl class="tabla-datos">
+        {%- if p.referencia %}<div><dt>Referencia</dt><dd>{{ p.referencia }}</dd></div>{% endif %}
+        <div><dt>Uso</dt><dd>{{ p.uso }}</dd></div>
+        {%- if p.ficha %}
+        {%- for fila in p.ficha %}<div><dt>{{ fila.etiqueta }}</dt><dd>{{ fila.valor }}</dd></div>{% endfor %}
+        {%- else %}
+        <div><dt>Alimentación</dt><dd>{{ p.voltaje }} / 60 Hz</dd></div>
+        <div><dt>Potencia</dt><dd>{{ p.potencia }}</dd></div>
+        <div><dt>Dimensiones</dt><dd>{{ p.dimensiones }} (la última medida es el alto)</dd></div>
+        {%- endif %}
+      </dl>
+      {%- if p.detalles %}
+      <ul class="lista-check" role="list">
+        {%- for detalle in p.detalles %}<li>{{ detalle }}</li>{% endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+{%- assign _det = p.detalles | join: " " | downcase -%}
+{%- assign _agua = "" -%}
+{%- for d in p.detalles %}{% assign _dd = d | downcase %}{% if _dd contains "tanque de agua" %}{% assign _agua = d %}{% endif %}{% endfor -%}
+<section class="banda banda--mantequilla {{ page.familia }}" id="instalar" aria-labelledby="titulo-instalar">
+  <div class="wrapper columnas columnas--5-7">
+    <div class="flujo">
+      <h2 id="titulo-instalar">Antes de instalar {{ p.nombre }}: {% if page.grupo == "cafeteras" %}corriente, agua y espacio{% else %}corriente y espacio{% endif %}</h2>
+      <p class="texto-suave">Revisa estos puntos en tu cocina o tu barra antes de cotizar.</p>
+    </div>
+    <dl class="ficha-lista">
+      <div><dt>Corriente</dt><dd>{% if p.voltaje == "110 V" %}Trabaja a <strong>110 V / 60 Hz</strong>: se conecta a un tomacorriente común.{% else %}Trabaja a <strong>{{ p.voltaje }} / 60 Hz</strong>: necesita una toma de 220 V; no funciona en un tomacorriente común de 110 V.{% endif %}</dd></div>
+      {%- if page.grupo == "cafeteras" %}
+      <div><dt>Agua</dt><dd>{% if _agua != "" %}{{ _agua }}{% else %}Confirma con el asesor la conexión a la red de agua y el filtro que necesitas.{% endif %}</dd></div>
+      {%- endif %}
+      <div><dt>Espacio</dt><dd>Ocupa <strong>{{ p.dimensiones }}</strong>; la última medida es el alto. Mide el espacio disponible antes de cotizar.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="banda {{ page.familia }}" id="caracteristicas" aria-labelledby="titulo-caracteristicas">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <h2 id="titulo-caracteristicas">Qué significa cada característica de {{ p.nombre }}</h2>
+        <p class="medida texto-suave">Los términos de la ficha técnica, explicados para decidir sin ser barista.</p>
+      </div>
+    </div>
+    <dl class="glosario">
+      {%- for g in site.data.glosario_cafe %}{% if _det contains g.busca %}
+      <div><dt>{{ g.termino }}</dt><dd>{{ g.definicion }}</dd></div>
+      {%- endif %}{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="banda banda--papel {{ page.familia }}" id="preguntas" aria-labelledby="titulo-preguntas">
+  <div class="wrapper columnas columnas--5-7">
+    <div class="flujo pegajoso">
+      <h2 id="titulo-preguntas">Preguntas sobre {{ p.nombre }} antes de cotizar</h2>
+    </div>
+    <div class="preguntas">
+      <div class="flujo">
+        <h3>¿{{ p.nombre }} funciona a 110 V?</h3>
+        <p>{% if p.voltaje == "110 V" %}Sí. {{ p.nombre }} trabaja a <strong>110 V / 60 Hz</strong> y se conecta a un tomacorriente común.{% else %}No. {{ p.nombre }} trabaja a <strong>{{ p.voltaje }} / 60 Hz</strong>, así que necesita una toma de 220 V.{% endif %}</p>
+      </div>
+      <div class="flujo">
+        <h3>¿Cuánto cuesta {{ p.nombre }} en Colombia?</h3>
+        <p>Italgel cotiza {{ p.nombre }} por WhatsApp. El precio depende de la configuración y de la <strong>disponibilidad del inventario</strong>.</p>
+      </div>
+      {%- if p.clave_etiqueta %}
+      <div class="flujo">
+        <h3>¿Qué {{ p.clave_etiqueta | downcase }} tiene {{ p.nombre }}?</h3>
+        <p>{{ p.clave_etiqueta }}: <strong>{{ p.clave_valor }}</strong>, según el catálogo del fabricante.</p>
+      </div>
+      {%- endif %}
+      {%- if page.marca == "Hambach" %}
+      <div class="flujo">
+        <h3>¿Quién importa las cafeteras Hambach en Colombia?</h3>
+        <p>Italgel es el <strong>importador exclusivo de Hambach en Colombia</strong> y te asesora para elegir el modelo según tu negocio.</p>
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+<section class="banda {{ page.familia }}" id="comparar" aria-labelledby="titulo-comparar">
+  <div class="wrapper">
+    <div class="encabezado">
+      <div class="flujo">
+        <h2 id="titulo-comparar">{{ p.nombre }} frente a {{ page.comparar_titulo }}</h2>
+        <p class="medida texto-suave">{{ page.comparar_texto }}</p>
+      </div>
+      <a class="enlace-flecha" href="{{ page.categoria_url | relative_url }}" title="Ver {{ page.categoria_nombre }}">Ver {{ page.categoria_nombre }}</a>
+    </div>
+    <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Comparativa de {{ page.grupo_nombre }}">
+      <table class="comparativa">
+        <thead>
+          <tr><th scope="col">Modelo</th><th scope="col">Uso</th>{% for col in page.comparar_columnas %}<th scope="col">{{ col.titulo }}</th>{% endfor %}</tr>
+        </thead>
+        <tbody>
+          {%- for item in grupo %}
+          <tr{% if item.slug == p.slug %} class="comparativa__actual" aria-current="true"{% endif %}>
+            <th scope="row">{% if item.slug == p.slug %}{{ item.nombre }}{% else %}<a href="{{ page.categoria_url | append: item.slug | append: '/' | relative_url }}" title="{{ item.nombre }}">{{ item.nombre }}</a>{% endif %}</th>
+            <td>{{ item.uso }}</td>
+            {%- for col in page.comparar_columnas %}<td>{{ item[col.campo] }}</td>{% endfor %}
+          </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="rejilla rejilla--par producto__otros">
+      {%- for item in grupo %}{% unless item.slug == p.slug %}
+      {%- capture _img_otro -%}{% if item.img %}{{ item.img }}{% else %}/img/{{ page.coleccion }}/{{ item.slug }}.avif{% endif %}{%- endcapture %}
+      {%- capture _url_otro -%}{{ page.categoria_url }}{{ item.slug }}/{%- endcapture %}
+      {% include mercato/baldosa.html url=_url_otro img=_img_otro alt=item.nombre titulo=item.nombre meta=item.uso clase=page.clase_otros ancho=item.ancho alto=item.alto %}
+      {%- endunless %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+  <div class="wrapper cierre flujo flujo--amplio">
+    <h2 id="titulo-cierre" class="medida">Cotiza {{ p.nombre }} por WhatsApp</h2>
+    <p class="medida">{{ page.cierre_texto | default: "Cuéntanos para qué negocio es y en qué ciudad estás. Un asesor de Italgel te confirma precio, disponibilidad y configuración." }}</p>
+    <div class="acciones">
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" mensaje=_wa %}
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ p.nombre | append: " " | append: p.referencia | strip | jsonify }},
+  {%- if page.marca %}"brand": { "@type": "Brand", "name": {{ page.marca | jsonify }} },{% endif %}
+  {%- if p.referencia %}"mpn": {{ p.referencia | jsonify }},{% endif %}
+  "category": {{ page.grupo_nombre | jsonify }},
+  "image": [{{ _img | absolute_url | jsonify }}{% if p.img_detalle %}, {{ p.img_detalle | absolute_url | jsonify }}{% endif %}],
+  "description": {{ p.descripcion | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }}
+}
+</script>

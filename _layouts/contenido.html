@@ -1,0 +1,46 @@
+---
+layout: mercato
+---
+{%- comment -%}
+  Páginas de contenido migradas al sistema Mercato (categorías, productos de insumos, ciudades,
+  institucionales). Hero de conversión con los campos de siempre (h1, intro, hero, hero_s, alt),
+  el contenido heredado dentro de .contenido-legado (re-estilizado en _includes/mercato/legado.css)
+  y el cierre de WhatsApp. page.no_cta quita el cierre.
+{%- endcomment -%}
+{% include mercato/migas.html %}
+
+<section class="portada" data-hero aria-labelledby="titulo-portada">
+  <div class="wrapper portada__panel">
+    <div class="portada__texto flujo flujo--amplio">
+      <h1 id="titulo-portada">{{ page.h1 | default: page.title }}</h1>
+      {%- if page.intro %}<p class="entradilla">{{ page.intro }}</p>{% endif %}
+      <div class="acciones">
+        {%- assign _cta = page.cta_texto | default: "Cotizar por WhatsApp" %}
+        {% include mercato/boton.html texto=_cta location="hero" %}
+        <p class="microgarantia">{{ page.microgarantia | default: "Asesoría técnica sin costo para clientes de Italgel." }}</p>
+      </div>
+    </div>
+    {%- if page.hero %}
+    <picture class="portada__foto">
+      {%- if page.hero_s %}<source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">{% endif %}
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 584 }}" height="{{ page.hero_h | default: 584 }}" fetchpriority="high" decoding="async">
+    </picture>
+    {%- endif %}
+  </div>
+</section>
+
+<div class="contenido-legado">
+  {{ content }}
+</div>
+
+{%- unless page.no_cta %}
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+  <div class="wrapper cierre flujo flujo--amplio">
+    <h2 id="titulo-cierre" class="medida">{{ page.cierre_titulo | default: "Cotiza por WhatsApp con un asesor técnico de Italgel" }}</h2>
+    <p class="medida">{{ page.cierre_texto | default: "Cuéntanos qué vendes, cuánto produces y en qué ciudad está tu negocio. Te respondemos con la referencia que te sirve, su precio y la disponibilidad del inventario." }}</p>
+    <div class="acciones">
+      {% include mercato/boton.html texto="Cotizar por WhatsApp" location="cierre" %}
+    </div>
+  </div>
+</section>
+{%- endunless %}

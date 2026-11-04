@@ -1,0 +1,29 @@
+{%- comment -%}
+  Pie mínimo centrado: marca, contacto (de _config.yml), enlaces y legales.
+  El crédito de juli.com.co solo va en /contacto/, como en el pie heredado.
+{%- endcomment -%}
+<footer class="pie-sitio">
+  <div class="wrapper flujo flujo--amplio">
+    <a class="pie-sitio__marca" href="{{ '/' | relative_url }}" title="Italgel, ir al inicio"><img src="{{ '/img/logo-nav.avif' | relative_url }}" alt="" width="60" height="60" loading="lazy"><span>Italgel</span></a>
+    <address class="flujo flujo--corto texto-suave">
+      <p>{{ site.direccion }}</p>
+      <p>{%- capture _wa_pie -%}WhatsApp +{{ site.telefono }}{%- endcapture -%}{% include wa-enlace.html text=_wa_pie location="pie" %} · <a href="mailto:{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a></p>
+    </address>
+    <nav aria-label="Pie">
+      <ul role="list">
+        {%- for item in site.data.navegacion.principal %}
+        <li><a href="{{ item.url | relative_url }}" title="{{ item.titulo }}">{{ item.titulo }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <ul role="list">
+      {%- for red in site.redes %}
+      <li><a href="{{ red.url }}" rel="me noopener" target="_blank" title="Italgel en {{ red.nombre }} (abre en una pestaña nueva)">{{ red.nombre }}</a></li>
+      {%- endfor %}
+      {%- for item in site.data.navegacion.legal %}
+      <li><a href="{{ item.url | relative_url }}" title="{{ item.titulo }}">{{ item.titulo }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p class="pie-sitio__legal">© {{ 'now' | date: '%Y' }} Italgel · NIT {{ site.nit }}{% if page.url == "/contacto/" %} · Página web y SEO: <a href="https://juli.com.co" title="juli.com.co">juli.com.co</a>{% endif %}</p>
+  </div>
+</footer>

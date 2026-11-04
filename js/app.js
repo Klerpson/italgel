@@ -1,6 +1,6 @@
 /* =======================================================================
    app.js — Italgel Colombia
-   Módulos: MobileNav · SocialProof · WhatsApp · ScrollBtn · PQR
+   Módulos: MobileNav · WhatsApp · ScrollBtn · PQR
    ======================================================================= */
 (() => {
   'use strict';
@@ -62,60 +62,6 @@
       });
       btn.setAttribute('aria-expanded', String(!isOpen));
       btn.nextElementSibling?.classList.toggle('active', !isOpen);
-    }
-  };
-
-  /* ================================================================
-     SOCIAL PROOF TOAST
-     ================================================================ */
-  const SocialProof = {
-    msgs: [
-      'Máquina soft comprada en Cali',
-      '12 bases MEC3 compradas en Bogotá',
-      'Pasta pistacho comprada en Medellín',
-      '5 variegatos comprados en Barranquilla',
-      'Cobertura chocolate comprada en Bucaramanga',
-      'Toppings comprados en Pereira',
-      'Máquina artesanal comprada en Cartagena',
-      'Base Supergelmix comprada en Cúcuta',
-      '8 pastas compradas en Ibagué',
-      'Toppings fruta comprados en Santa Marta',
-      'Base Neutralin comprada en Manizales',
-      'Vitrina comprada en Armenia',
-      '4 salsas especiales compradas en Neiva',
-      'Máquina soft comprada en Villavicencio',
-      'Bases completas compradas en Pasto',
-      'Granelas cookies compradas en Popayán',
-      'Pasta vainilla comprada en Valledupar',
-      '6 coberturas compradas en Montería',
-      'Toppings premium comprados en Sincelejo'
-    ],
-    shown: new Set(),
-
-    init() {
-      const toast = $('#socialProofToast');
-      const text  = toast?.querySelector('.social-proof-text');
-      if (!toast || !text) return;
-      this.toast = toast;
-      this.text  = text;
-      this.schedule();
-    },
-
-    pick() {
-      const available = this.msgs.filter(m => !this.shown.has(m));
-      if (!available.length) this.shown.clear();
-      const pool = available.length ? available : this.msgs;
-      return pool[Math.floor(Math.random() * pool.length)];
-    },
-
-    schedule() {
-      setTimeout(() => {
-        const msg = this.pick();
-        this.text.textContent = msg;
-        this.toast.classList.add('show');
-        this.shown.add(msg);
-        setTimeout(() => { this.toast.classList.remove('show'); this.schedule(); }, 5000);
-      }, Math.random() * 15000 + 20000);
     }
   };
 
@@ -372,7 +318,6 @@
   /* ── Boot ─────────────────────────────────────────────────────────── */
   const boot = () => {
     MobileNav.init();
-    SocialProof.init();
     ScrollBtn.init();
     PQR.init();
   };

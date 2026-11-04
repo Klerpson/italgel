@@ -165,44 +165,8 @@
     height: 50px;
   }
 
-  /* Social proof toast */
-  .social-proof-toast {
-    bottom: 1.5rem;
-    left: 1rem;
-    right: 1rem;
-    max-width: calc(100% - 2rem);
-    transform: translateY(150%);
-  }
-
-  .social-proof-toast.show {
-    transform: translateY(0);
-  }
-
-  .social-proof-text {
-    font-size: 0.8rem;
-  }
-
   .whatsapp-float[data-tooltip]::before {
     display: none;
-  }
-}
-
-/* --- Slider mobile (width <= 768px) --- */
-@media (width <= 768px) {
-  .slide-container {
-    gap: 2rem;
-    width: calc(
-      var(--items-count, 20) * 200px + var(--items-count, 20) * 2rem
-    );
-  }
-
-  .slide-container figure {
-    width: 200px;
-  }
-
-  .slide-container img {
-    height: 80px;
-    max-width: 200px;
   }
 }
 

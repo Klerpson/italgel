@@ -1,0 +1,295 @@
+/* Componentes "Mercato italiano" bajo el pliegue. Se sirven en css/mercato.css. */
+@layer reset, tokens, base, primitivas, componentes, utilidades;
+
+@layer primitivas {
+  /* Encabezado de sección: título a la izquierda, enlace a la derecha, línea debajo */
+  .encabezado {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: var(--space-lg) var(--space-xl);
+    padding-block-end: var(--space-lg); margin-block-end: var(--space-xl);
+    border-block-end: 1px solid var(--color-linea);
+    > :first-child { flex: 1 1 26rem; min-width: 0; }
+  }
+
+  .figura {
+    display: block; overflow: hidden; border-radius: var(--radio); background: var(--color-papel);
+    img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: var(--proporcion, 4 / 5); transition: transform 600ms var(--curva); }
+  }
+
+  /* Datos cortos en fila: etiqueta arriba, valor en serif */
+  .datos {
+    display: flex; flex-wrap: wrap; gap: var(--space-lg) var(--space-xl);
+    > div { display: grid; gap: 0.35rem; }
+    dt { font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
+    dd { font-size: var(--text-bloque); font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; font-variant-numeric: tabular-nums; }
+  }
+
+  /* Columna que acompaña al bajar (títulos de sección largos junto a tablas) */
+  @media (min-width: 60rem) { .pegajoso { position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria) + 5rem); align-self: start; } }
+  .texto-suave { color: var(--color-texto-suave); }
+
+  /* Familias de producto: cada una toma un color del logo para sus puntos, barras y sellos */
+  .familia-maquinas { --color-familia: var(--color-marca); }
+  .familia-vitrinas { --color-familia: var(--color-turquesa); }
+  .familia-variegatos { --color-familia: var(--color-rosa); }
+
+  /* Marcador de familia: una bola del logo delante de la etiqueta */
+  .punto-familia {
+    display: flex; align-items: center; gap: 0.625rem;
+    &::before { content: ""; flex: none; inline-size: 0.75rem; block-size: 0.75rem; border-radius: 50%; background: var(--color-familia, var(--color-marca)); }
+  }
+  /* Las tres bolas del logo: firma de marca en etiquetas generales */
+  .tres-bolas {
+    display: flex; align-items: center; gap: 0.625rem;
+    &::before {
+      content: ""; flex: none; inline-size: 0.75rem; block-size: 0.75rem; border-radius: 50%; margin-inline-end: 1.6rem;
+      background: var(--color-marca); box-shadow: 0.8rem 0 0 var(--color-rosa), 1.6rem 0 0 var(--color-turquesa);
+    }
+  }
+}
+
+@layer componentes {
+  /* Baldosa de producto: foto recortada sobre papel, nombre y dato debajo */
+  .baldosa {
+    position: relative; display: grid; gap: 0.75rem; align-content: start; text-decoration: none;
+    h3 { font-size: var(--text-item); margin-block-start: 0.25rem; }
+  }
+  .baldosa__foto {
+    position: relative; display: grid; place-items: center; overflow: hidden;
+    aspect-ratio: var(--proporcion, 1); background: var(--color-papel); border-radius: var(--radio);
+    img { width: 100%; height: 100%; object-fit: contain; padding: 10%; mix-blend-mode: multiply; transition: transform 400ms var(--curva); }
+    /* Barra del color de la familia que crece al pasar el cursor */
+    &::after { content: ""; position: absolute; inset: auto 0 0 0; block-size: 3px; background: var(--color-familia, var(--color-marca)); transform: scaleX(0); transform-origin: left; transition: transform 350ms var(--curva); }
+    .banda--papel & { background: var(--color-fondo); }
+    .banda--verde & { background: var(--color-marfil); }
+  }
+  :is(a.baldosa, .ficha):hover .baldosa__foto img { transform: scale(1.04); }
+  :is(a.baldosa, .ficha):hover .baldosa__foto::after { transform: scaleX(1); }
+  a.baldosa:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+  .baldosa--foto .baldosa__foto img { object-fit: cover; padding: 0; mix-blend-mode: normal; }
+  /* Fotos de catálogo con mucho margen blanco: se amplían sin tocar el transform del hover */
+  .baldosa--recorte .baldosa__foto img, .ficha .baldosa__foto img { padding: 0; scale: 1.45; }
+  .baldosa--apaisada { --proporcion: 3 / 2; }
+  .baldosa__meta { font-size: var(--text-sm); color: var(--color-texto-suave); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+
+  /* Sello de marca sobre la foto (solo marcas reales del producto), teñido con el color de la familia */
+  .sello {
+    position: absolute; inset: 0.75rem auto auto 0.75rem; z-index: 1;
+    padding: 0.3rem 0.65rem; border-radius: var(--radio);
+    background: color-mix(in srgb, var(--color-familia, var(--color-marca)) 18%, var(--color-fondo)); color: var(--color-texto);
+    font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  }
+
+  /* Franja de marcas */
+  .marcas {
+    list-style: none; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--space-lg) clamp(2rem, 5vw, 4.5rem);
+    img { width: auto; height: clamp(2rem, 1.6rem + 1.4vw, 2.75rem); filter: grayscale(1); opacity: 0.7; mix-blend-mode: multiply; transition: opacity var(--transicion), filter var(--transicion); }
+    li:hover img { filter: none; opacity: 1; }
+  }
+
+  /* Ficha técnica en lista: modelos con medidas, línea superior del color de la familia */
+  .ficha-lista {
+    display: grid; border-block-start: 2px solid var(--color-familia, var(--color-marca));
+    > div { display: grid; gap: 0.35rem var(--space-lg); padding-block: var(--space-lg); border-block-end: 1px solid var(--color-linea); }
+    dt { font-size: var(--text-lg); font-weight: 600; line-height: 1.3; }
+    dt a { text-decoration: none; } dt a:hover { text-decoration: underline; }
+    dd { color: var(--color-texto-suave); }
+    @media (min-width: 40rem) { > div { grid-template-columns: 12rem 1fr; align-items: baseline; } }
+  }
+
+  /* Garantías: tres columnas separadas, cada una con una bola del logo en su línea superior */
+  .garantias {
+    list-style: none; display: grid; gap: var(--space-xl) clamp(2rem, 5vw, 5rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    > li { display: grid; align-content: start; gap: var(--space-md); padding-block-start: var(--space-lg); border-block-start: 2px solid var(--color-marca); }
+    > li:nth-child(2) { border-color: var(--color-rosa); }
+    > li:nth-child(3) { border-color: var(--color-turquesa); }
+    h3 { font-size: var(--text-item); }
+    p { color: var(--color-texto-suave); max-width: 24rem; }
+  }
+
+  /* Accesos secundarios (insumos de base) */
+  .accesos {
+    list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    border-block-start: 1px solid var(--color-linea);
+    > li { border-block-end: 1px solid var(--color-linea); }
+    a { display: flex; justify-content: space-between; align-items: center; gap: var(--space-md); padding: var(--space-lg) var(--space-sm) var(--space-lg) 0; text-decoration: none; font-size: var(--text-lg); font-weight: 600; }
+    a::after { content: "→" / ""; font-family: var(--fuente-texto); font-size: var(--text-base); transition: transform var(--transicion); }
+    a:hover::after { transform: translateX(4px); }
+    @media (min-width: 48rem) { > li + li a { padding-inline-start: var(--space-lg); } > li + li { border-inline-start: 1px solid var(--color-linea); } }
+  }
+
+  /* Ficha de catálogo: foto, nombre y resumen, datos clave y paso a la página del producto.
+     Todo visible, sin desplegables. Las 4 piezas se alinean entre tarjetas con subgrid. */
+  .ficha {
+    display: grid; gap: var(--space-lg); align-content: start;
+    @supports (grid-template-rows: subgrid) { grid-row: span 4; grid-template-rows: subgrid; }
+    .baldosa__foto { --proporcion: 8 / 7; }
+    h3 { font-size: var(--text-item); }
+    h3 a { text-decoration: none; } h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+    h3 small { display: block; margin-block-start: 0.35rem; font-family: var(--fuente-texto); font-size: var(--text-sm); color: var(--color-texto-suave); letter-spacing: 0; }
+  }
+  .ficha__datos {
+    display: grid; font-size: var(--text-sm); align-content: start;
+    > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1rem; padding-block: 0.8rem; border-block-start: 1px solid var(--color-linea); }
+    > div:last-child { border-block-end: 1px solid var(--color-linea); }
+    dt { color: var(--color-texto-suave); }
+    dd { font-weight: 600; text-align: end; }
+  }
+  .ficha__acciones { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-md) var(--space-lg); align-self: end; }
+  .enlace-texto { font-size: var(--text-sm); color: var(--color-texto-suave); text-underline-offset: 0.25em; }
+  .enlace-texto:hover { color: var(--color-texto); }
+
+  /* Índice de la página: dónde estoy y qué sigue. Se pega bajo la cabecera y marca la sección visible. */
+  .indice {
+    position: sticky; top: calc(var(--altura-cabecera) + var(--altura-secundaria)); z-index: 20;
+    background: color-mix(in srgb, var(--color-fondo) 94%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-block-end: 1px solid var(--color-linea);
+    transition: transform 300ms var(--curva);
+    ol { list-style: none; counter-reset: indice; display: flex; gap: clamp(1.25rem, 3vw, 2.75rem); overflow-x: auto; scrollbar-width: none; white-space: nowrap; }
+    ol::-webkit-scrollbar { display: none; }
+    li { counter-increment: indice; }
+    a {
+      display: flex; align-items: baseline; gap: 0.5rem; padding-block: 0.9rem 0.75rem;
+      font-size: var(--text-sm); text-decoration: none; color: var(--color-texto-suave);
+      border-block-end: 2px solid transparent; transition: color var(--transicion), border-color var(--transicion);
+      &::before { content: counter(indice, decimal-leading-zero); font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: 0.06em; }
+      &:hover { color: var(--color-texto); }
+      &[aria-current="true"] { color: var(--color-texto); border-block-end-color: var(--color-familia, var(--color-marca)); }
+    }
+  }
+  body:has(.cabecera-sitio.es-compacta) .indice { transform: translateY(calc(-1 * var(--altura-secundaria))); }
+
+  /* Producto: foto de detalle y datos destacados */
+  .producto__extra {
+    display: grid; gap: var(--space-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    figure { display: grid; gap: var(--space-sm); align-content: start; }
+    img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radio); background: var(--color-papel); }
+    figcaption { font-size: var(--text-sm); color: var(--color-texto-suave); }
+  }
+  .datos--producto {
+    padding-block: var(--space-lg); border-block: 1px solid var(--color-linea);
+    dd { font-size: var(--text-item); }
+  }
+
+  /* Tabla de datos (ficha técnica): todo visible, filas con aire */
+  .tabla-datos {
+    display: grid; border-block-start: 2px solid var(--color-familia, var(--color-marca));
+    > div { display: grid; gap: 0.25rem var(--space-lg); padding-block: var(--space-md); border-block-end: 1px solid var(--color-linea); }
+    dt { color: var(--color-texto-suave); font-size: var(--text-sm); }
+    dd { font-weight: 600; }
+    @media (min-width: 40rem) { > div { grid-template-columns: 11rem 1fr; } }
+  }
+  /* Lista de características con una bola del color de la familia */
+  .lista-check {
+    list-style: none; display: grid; gap: var(--space-md);
+    > li { position: relative; padding-inline-start: 1.75rem; }
+    > li::before { content: ""; position: absolute; inset: 0.5em auto auto 0; inline-size: 0.625rem; block-size: 0.625rem; border-radius: 50%; background: var(--color-familia, var(--color-marca)); }
+  }
+
+  /* Tipos de heladería: tres tarjetas con el color de su familia y lo que necesita cada una */
+  .tipos { display: grid; gap: var(--space-lg); grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  .tipo {
+    display: grid; align-content: start; gap: var(--space-md); padding: var(--space-xl) var(--space-lg);
+    background: var(--color-fondo); border-radius: var(--radio); border-block-start: 3px solid var(--color-familia, var(--color-marca));
+    > p { color: var(--color-texto-suave); }
+    h4 { margin-block-start: var(--space-sm); font-size: var(--text-etiqueta); letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
+    .lista-check { gap: 0.75rem; }
+    a { text-decoration-color: var(--color-linea); } a:hover { text-decoration-color: currentColor; }
+  }
+
+  /* Glosario técnico: términos en tarjetas sobre papel, todo visible */
+  .glosario {
+    display: grid; gap: var(--space-lg); grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    > div { display: grid; align-content: start; gap: var(--space-sm); padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); border-block-start: 2px solid var(--color-familia, var(--color-marca)); }
+    dt { font-weight: 600; font-size: var(--text-lg); }
+    dd { color: var(--color-texto-suave); }
+  }
+  /* Preguntas visibles: pregunta en H3 y respuesta, separadas por líneas */
+  .preguntas {
+    display: grid;
+    > div { padding-block: var(--space-lg); border-block-end: 1px solid var(--color-linea); }
+    > div:first-child { padding-block-start: 0; }
+    p { color: var(--color-texto-suave); }
+  }
+
+  /* Comparativa entre modelos: tabla real, desplazable en móvil, fila del producto actual marcada */
+  .tabla-desplazable { overflow-x: auto; margin-block-end: var(--space-2xl); border: 1px solid var(--color-linea); border-radius: var(--radio); background: var(--color-fondo); }
+  .tabla-desplazable:focus-visible { outline: 2px solid var(--color-texto); outline-offset: 2px; }
+  .comparativa {
+    inline-size: 100%; min-inline-size: 40rem; border-collapse: collapse; font-size: var(--text-sm);
+    th, td { padding: 1rem 1.25rem; text-align: start; border-block-end: 1px solid var(--color-linea); vertical-align: middle; }
+    thead th { font-size: var(--text-etiqueta); font-weight: 600; letter-spacing: var(--tracking-ancho); text-transform: uppercase; color: var(--color-texto-suave); }
+    tbody th { font-size: var(--text-base); font-weight: 600; }
+    tbody th a { text-decoration: none; } tbody th a:hover { text-decoration: underline; }
+    tbody tr:last-child > * { border-block-end: 0; }
+  }
+  /* Otros modelos: en móvil, dos por fila para no alargar la ficha */
+  .producto__otros { @media (max-width: 40rem) { --rejilla-min: 9rem; gap: var(--space-md); } }
+  .comparativa__actual { background: color-mix(in srgb, var(--color-familia, var(--color-marca)) 10%, var(--color-fondo)); box-shadow: inset 4px 0 0 var(--color-familia, var(--color-marca)); }
+
+  /* Cierre de conversión */
+  .cierre { text-align: center; > * { margin-inline: auto; } .acciones { justify-content: center; } }
+  /* Banda con las tres bolas del logo a gran escala, recortadas en la esquina: la firma de marca */
+  .banda--marca {
+    position: relative; overflow: hidden; isolation: isolate;
+    &::before {
+      content: ""; position: absolute; z-index: -1; pointer-events: none;
+      inline-size: clamp(11rem, 6rem + 22vw, 26rem); aspect-ratio: 1;
+      inset: auto clamp(-7rem, -6vw, -3rem) clamp(-8rem, -7vw, -4rem) auto;
+      background:
+        radial-gradient(circle at 50% 30%, var(--color-marca) 0 23%, transparent 23.5%),
+        radial-gradient(circle at 31% 64%, var(--color-rosa) 0 23%, transparent 23.5%),
+        radial-gradient(circle at 69% 64%, var(--color-turquesa) 0 23%, transparent 23.5%);
+    }
+    @media (max-width: 40rem) { &::before { inset: clamp(-5rem, -12vw, -3rem) -3.5rem auto auto; opacity: 0.85; } }
+  }
+
+  /* Pie: abre con la franja de los tres colores del logo */
+  .pie-sitio {
+    position: relative; padding-block: var(--space-2xl) var(--space-lg);
+    text-align: center; font-size: var(--text-sm);
+    &::before { content: ""; position: absolute; inset: 0 0 auto 0; block-size: 4px; background: var(--tricolor); }
+    address { font-style: normal; }
+    > .wrapper > * { margin-inline: auto; }
+    ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-sm) var(--space-lg); }
+    a { display: inline-block; padding-block: 0.75rem; text-decoration: none; color: var(--color-texto-suave); }
+    address a { padding-block: 0.25rem; }
+    a:hover { color: var(--color-texto); text-decoration: underline; }
+  }
+  .pie-sitio__marca { display: inline-flex; align-items: center; gap: 0.625rem; font-family: var(--fuente-titulos); font-weight: 600; font-size: 1.75rem; text-decoration: none; img { width: 3rem; height: 3rem; } }
+  .pie-sitio__legal { padding-block-start: var(--space-lg); border-block-start: 1px solid var(--color-linea); color: var(--color-texto-suave); font-size: var(--text-etiqueta); }
+
+  /* Botón flotante de WhatsApp. Oculto mientras se ve el hero (js/canales.js pone data-oculto).
+     Cuando el hero sale de la vista muestra una invitación con texto durante 6 s y dos pulsos
+     (js/mercato.js, clase es-invitando); después queda el ícono, y el texto vuelve con el cursor o el foco. */
+  .flotante {
+    position: fixed; inset: auto clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem) auto; z-index: 30;
+    display: flex; align-items: center; gap: 0.75rem; text-decoration: none;
+    transition: opacity var(--transicion), transform var(--transicion);
+    &[data-oculto] { opacity: 0; transform: translateY(1rem); pointer-events: none; visibility: hidden; transition: opacity var(--transicion), transform var(--transicion), visibility 0s linear 220ms; }
+  }
+  .flotante__icono {
+    position: relative; display: grid; place-items: center; flex: none; inline-size: 3.5rem; block-size: 3.5rem; border-radius: 50%;
+    color: var(--color-accion-texto);
+    background-image: linear-gradient(135deg, var(--color-accion), var(--color-accion-hondo));
+    box-shadow: 0 12px 30px -10px rgb(18 140 74 / 0.75);
+    transition: transform 300ms var(--curva);
+    svg { width: 1.6rem; height: 1.6rem; }
+    &::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--color-accion); opacity: 0; }
+  }
+  .flotante__burbuja {
+    position: relative; max-inline-size: min(17rem, calc(100vw - 7rem)); padding: 0.75rem 1rem;
+    background: var(--color-fondo); color: var(--color-texto); border: 1px solid var(--color-linea); border-radius: 0.875rem 0.875rem 0.25rem 0.875rem;
+    box-shadow: 0 14px 34px -18px rgb(28 27 25 / 0.45);
+    font-size: var(--text-sm); line-height: 1.4;
+    opacity: 0; transform: translateX(0.5rem) scale(0.96); transform-origin: right center; pointer-events: none;
+    transition: opacity 250ms var(--curva), transform 250ms var(--curva);
+    strong { display: block; font-weight: 600; }
+    @media (max-width: 40rem) { max-inline-size: 12.5rem; padding: 0.6rem 0.8rem; .flotante__extra { display: none; } }
+  }
+  .flotante:is(:hover, :focus-visible, .es-invitando) .flotante__burbuja { opacity: 1; transform: none; }
+  .flotante:hover .flotante__icono { transform: scale(1.06); }
+  .flotante.es-invitando .flotante__icono::after { animation: pulso 1.4s var(--curva) 2; }
+  .flotante.es-invitando .flotante__icono svg { animation: timbre 520ms var(--curva) 2 400ms; }
+  @keyframes pulso { 0% { transform: scale(1); opacity: 0.7; } 100% { transform: scale(1.7); opacity: 0; } }
+}
