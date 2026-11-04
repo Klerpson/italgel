@@ -1,0 +1,47 @@
+{%- comment -%}
+  Tarjeta de contacto para NFC. Pagina minima e independiente (sin nav, footer ni GTM)
+  a proposito: carga instantanea en el movil y no se indexa (noindex).
+  Datos en _data/contactos.yml; el .vcf lo genera contacts/<slug>.vcf con los mismos datos.
+{%- endcomment -%}
+{%- assign c = site.data.contactos[page.contacto] -%}
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#C37033">
+  <title>{{ c.nombre }} {{ c.apellido }} | {{ c.empresa }}</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:16px;background:#f4f1ee;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#2b2b2b}
+    .card{background:#fff;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.1);padding:28px 24px;width:100%;max-width:380px;text-align:center}
+    .marca{margin:0 0 6px;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#6b4a2f}
+    h1{margin:0 0 4px;font-size:1.6rem;line-height:1.2}
+    .rol{margin:0 0 22px;color:#555}
+    .btn{display:block;margin:10px 0;padding:14px 16px;border-radius:8px;background:#a55a22;color:#fff;text-decoration:none;font-weight:700;font-size:1.05rem}
+    .btn.wa{background:#0f7a4d}
+    .btn.sec{background:#fff;color:#7a3f12;border:2px solid #a55a22}
+    .btn:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}
+    .datos{margin:20px 0 0;padding:0;list-style:none;font-size:.95rem;line-height:1.7}
+    .datos a{color:#7a3f12}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <p class="marca">{{ c.empresa }}</p>
+    <h1>{{ c.nombre }} {{ c.apellido }}</h1>
+    <p class="rol">{{ c.cargo }}</p>
+
+    <a class="btn" href="/contacts/{{ page.contacto }}.vcf">Guardar en mis contactos</a>
+    <a class="btn wa" href="https://wa.me/{{ c.whatsapp }}?text={{ c.mensaje_whatsapp | url_encode | replace: '+', '%20' }}" rel="noopener">Enviar WhatsApp</a>
+    <a class="btn sec" href="tel:{{ c.telefono }}">Llamar</a>
+
+    <ul class="datos">
+      <li><a href="mailto:{{ c.email }}">{{ c.email }}</a></li>
+      <li><a href="{{ c.web }}">{{ c.web | remove: 'https://' }}</a></li>
+      <li>{{ c.calle }}, {{ c.ciudad }}</li>
+    </ul>
+  </main>
+</body>
+</html>
