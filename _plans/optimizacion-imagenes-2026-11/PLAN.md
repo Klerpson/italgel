@@ -62,7 +62,7 @@ Estado: seis fotografías para siete referencias publicadas y verificadas el 4 d
 
 ## Frutas restantes y chocolates
 
-Estado: siete imágenes integradas en tres páginas; comprobación de publicación en curso el 5 de noviembre. Arándano, limón, mandarina, pitaya, chocolate, stracciatella y chocolate blanco. 32 AVIF (651.708 bytes en conjunto), sin cambios CSS. Fuentes y evidencia en `fase-8/RESULTADO.md`.
+Estado: siete imágenes publicadas y verificadas en tres páginas el 5 de noviembre; 24 comprobaciones locales, 18 públicas y 32 archivos correctos por hash. Arándano, limón, mandarina, pitaya, chocolate, stracciatella y chocolate blanco. 32 AVIF (651.708 bytes en conjunto), sin cambios CSS. Fuentes y evidencia en `fase-8/RESULTADO.md`.
 
 ## Evidencia
 

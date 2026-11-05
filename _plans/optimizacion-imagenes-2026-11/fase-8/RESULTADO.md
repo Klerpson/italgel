@@ -1,6 +1,6 @@
 # Frutas pendientes y chocolates — Tanda finalizada el 5 de noviembre de 2026
 
-Preparación iniciada el 4 de noviembre y retomada el 5 tras la interrupción del servicio de revisión de permisos. Siete fotografías integradas en tres páginas; publicación en comprobación.
+Preparación iniciada el 4 de noviembre y retomada el 5 tras la interrupción del servicio de revisión de permisos. Siete fotografías publicadas y verificadas en tres páginas. Commit funcional `ff88bf3`; [GitHub Pages 42035586159](https://github.com/Klerpson/italgel/actions/runs/42035586159) completado correctamente.
 
 ## Correspondencia y procedencia
 
@@ -42,3 +42,7 @@ La validación comprueba carga de imágenes, JavaScript propio, respuestas HTTP 
 ## Resultado local final
 
 Compilación del 5 de noviembre correcta. Las 18 combinaciones a densidad 1 y seis a densidad 2 pasaron sin fallos ni desbordamientos. El rastreo de los 85 HTML terminó con cero enlaces internos, anclas, recursos CSS, imágenes indecodificables o dimensiones sociales incorrectas. Las capturas se inspeccionaron; la cabecera fija puede aparecer superpuesta al capturar una sección larga mientras la página está desplazada. No forma parte de las imágenes de producto.
+
+## Cierre en producción
+
+Verificación del 5 de noviembre: los 32 archivos públicos respondieron correctamente y sus SHA-256 coinciden con los locales (651.708 bytes). Las tres páginas pasaron 18 combinaciones de ancho sin imágenes rotas, errores propios de JavaScript/HTTP ni desbordamiento. Se inspeccionó también una captura renderizada del catálogo clásico publicado. Los recibos están en `vivo/archivos-resumen.json` y `vivo-integral/resumen.json`. Las pruebas de densidad 2 fueron locales. Tanda cerrada.
