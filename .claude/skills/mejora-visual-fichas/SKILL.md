@@ -58,9 +58,9 @@ Decidir qué mostrar, dónde y para qué: producto real, detalle, aplicación o 
 
 Buscar primero activos existentes de calidad y material autorizado del fabricante. Usar stock con licencia comprobada para aplicaciones o escenas ilustrativas; guardar URL, autor, licencia y transformaciones en texto. No copiar medios de una referencia estética, como YouTube Premium.
 
-Para movimiento, convertir un fragmento de video real a GIF; no animar una foto con zoom como sustituto de la acción solicitada. Camilo aceptó la escena luminosa de playa con cono y descartó la toma formal de terraza; usar esa elección como referencia de ambiente, no como obligación de repetir la playa en todas las fichas.
+Para movimiento, convertir un fragmento de video real a GIF; no animar una foto con zoom como sustituto de la acción solicitada. Italgel vende insumos y equipos, no helados al consumidor final: priorizar preparación/aplicación y productos reales. Camilo corrigió el uso de la escena de playa en Medellín; no repetir escenas de personas consumiendo helado como recurso principal de las fichas de insumos.
 
-No generar ni redibujar equipos, envases o modelos comerciales para reemplazar fotografías reales. No atribuir una demostración de otra máquina al modelo vendido, ni presentar personas de stock como clientes que recomiendan Italgel. La escena de disfrute sirve a insumos/ciudades; para equipos, preferir una acción pertinente al tema.
+No generar ni redibujar equipos, envases o modelos comerciales para reemplazar fotografías reales. No atribuir una demostración de otra máquina al modelo vendido, ni presentar personas de stock como clientes que recomiendan Italgel. En insumos/ciudades, destacar empaques e ingredientes y su preparación; en equipos, una acción pertinente al modelo o aplicación. Las fotos de helado terminado pueden apoyar como resultado de uso, sin desplazar a los productos que se venden.
 
 ### 4. Preparar imágenes y GIF
 

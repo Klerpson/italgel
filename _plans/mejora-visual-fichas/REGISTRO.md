@@ -2,7 +2,7 @@
 
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
-| /insumos-heladeria-medellin/ | Publicado y verificado en vivo | 2026-11-05 | Tres fotos de aplicación después de la introducción; GIF aprobado de disfrute junto al CTA final | Fotos máximas: 24.237 + 44.972 + 18.100 bytes; GIF: 583.741 bytes; alternativa fija: 16.414 bytes | Comparaciones local y pública sin diferencias protegidas; otras páginas HTML sin cambios |
+| /insumos-heladeria-medellin/ | Corrección comercial validada local; publicación en curso | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparación local sin diferencias protegidas; otras páginas HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -39,3 +39,13 @@ Se conserva la tarjeta «En resumen». El párrafo inmediatamente inferior deja 
 La revisión local pasó las 13 combinaciones, incluyendo comprobaciones de posición de las seis tarjetas, además de los modos sin JavaScript. Se inspeccionaron resumen y cobertura en móvil y escritorio. La comparación de SEO/contenido continúa sin diferencias, y no cambia el HTML de otras páginas. No se añaden imágenes: la cobertura se presenta mediante listas legibles; la galería y el GIF existentes aportan el apoyo fotográfico.
 
 Publicado en `6089462feae4f16429f2e57bda3ede9d53ddde63`, despliegue `42067077669` correcto. Se repitieron las 13 combinaciones y ambos modos sin JavaScript en vivo, sin fallos. Se inspeccionaron las secciones publicadas y se confirmó nuevamente la igualdad del contenido y SEO protegidos. Capturas temporales eliminadas al cerrar esta revisión.
+
+### Corrección de coherencia comercial: insumos, no consumo final
+
+Camilo aclaró que Italgel vende insumos y no helados al consumidor final. Se sustituye la galería del piloto por dos fotografías de empaques ya existentes en el catálogo: conjunto de productos MEC3 y envase Quella. Se reemplaza el GIF de playa por preparación de chocolate, identificada como escena ilustrativa, sin atribuirla a una receta o producto de MEC3/Quella.
+
+Fuente de video: Anna Tarazevich en Pexels, https://www.pexels.com/video/person-mixing-chocolate-in-a-bowl-6112841/, licencia https://www.pexels.com/license/. Fuente, hash y parámetros de conversión en `_data/animacion_insumos.json`. GIF de 400 × 300 px, diez fotogramas, dos segundos, 565.298 bytes, sin JavaScript nuevo. Se retiraron del repositorio el GIF de playa, su imagen fija y sus datos, ya sin consumidores de producción.
+
+Se actualiza la skill para priorizar insumos y preparación en esta campaña. Esta corrección solicitada cambia los alt y pies de los medios añadidos por el piloto; conserva los atributos de la imagen original y el resto del contenido protegido. No se reescribe el texto comercial ni el SEO.
+
+Trece comprobaciones locales y ambos modos sin JavaScript correctos. Galería y cierre inspeccionados en móvil y escritorio; comparación protegida y HTML de otras páginas sin diferencias.

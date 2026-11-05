@@ -1,0 +1,31 @@
+{
+  "src": "/img/animaciones/preparacion-chocolate.gif",
+  "poster": "/img/animaciones/preparacion-chocolate-poster.avif",
+  "width": 400,
+  "height": 300,
+  "frames": 10,
+  "duration_ms": 2000,
+  "bytes": 565298,
+  "alt": "Manos mezclando chocolate en un recipiente de acero durante su preparación",
+  "caption": "Preparación de chocolate. Escena ilustrativa.",
+  "control_label": "Reproducir la preparación de chocolate",
+  "source": {
+    "author": "Anna Tarazevich",
+    "page": "https://www.pexels.com/video/person-mixing-chocolate-in-a-bowl-6112841/",
+    "download": "https://videos.pexels.com/video-files/6112841/6112841-hd_1080_1928_25fps.mp4",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "sha256": "b4302c7e4b65edbe6c5a3dd4de3000879b59cf634a35e91566bf6e4534fc35ae"
+  },
+  "processing": {
+    "start_seconds": 2,
+    "seconds": 2,
+    "fps": 5,
+    "crop": "720:540:0:500",
+    "scale": "400:300",
+    "colors": 256,
+    "dither": "bayer, escala 3",
+    "denoise": "hqdn3d=2:2:3:3"
+  },
+  "usage": "Ilustración de preparación de un ingrediente; no se atribuye a una receta ni producto MEC3/Quella específico."
+}

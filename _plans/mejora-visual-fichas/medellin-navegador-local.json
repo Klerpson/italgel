@@ -7,7 +7,7 @@
       "javaScript": false,
       "reduced": false,
       "gifRequests": 1,
-      "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+      "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
       "pause": true,
       "keyboard": true
     },
@@ -15,7 +15,7 @@
       "javaScript": false,
       "reduced": true,
       "gifRequests": 0,
-      "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa-poster.avif",
+      "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate-poster.avif",
       "pause": true,
       "keyboard": true
     }
@@ -38,25 +38,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
           "width": 288,
           "height": 288,
           "naturalWidth": 288
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
           "width": 288,
           "height": 288,
-          "naturalWidth": 288
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "width": 288,
-          "height": 288,
-          "naturalWidth": 288
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 248,
           "height": 186,
           "naturalWidth": 400
@@ -68,54 +62,50 @@
           "bytes": 3384
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
-          "bytes": 16511
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
+          "bytes": 20471
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
-          "bytes": 32056
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "bytes": 12802
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 16,
-            "y": -6344.28125,
+            "y": -5993.28125,
             "width": 288
           },
           {
             "x": 16,
-            "y": -6111.90625,
+            "y": -5760.90625,
             "width": 288
           },
           {
             "x": 16,
-            "y": -5879.53125,
+            "y": -5528.53125,
             "width": 288
           }
         ],
         [
           {
             "x": 36,
-            "y": -4326.703125,
+            "y": -4326.796875,
             "width": 248
           },
           {
             "x": 36,
-            "y": -4027.359375,
+            "y": -4027.453125,
             "width": 248
           },
           {
             "x": 36,
-            "y": -3728.015625,
+            "y": -3728.109375,
             "width": 248
           }
         ]
@@ -138,25 +128,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
           "width": 358,
           "height": 358,
           "naturalWidth": 358
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
           "width": 358,
           "height": 358,
-          "naturalWidth": 358
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "width": 358,
-          "height": 358,
-          "naturalWidth": 358
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 318,
           "height": 238.5,
           "naturalWidth": 400
@@ -168,54 +152,50 @@
           "bytes": 3384
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
-          "bytes": 16511
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
+          "bytes": 20471
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
-          "bytes": 32056
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "bytes": 12802
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 16,
-            "y": -6083.625,
+            "y": -5662.625,
             "width": 358
           },
           {
             "x": 16,
-            "y": -5851.25,
+            "y": -5430.25,
             "width": 358
           },
           {
             "x": 16,
-            "y": -5618.875,
+            "y": -5197.875,
             "width": 358
           }
         ],
         [
           {
             "x": 36,
-            "y": -3908.4375,
+            "y": -3908.53125,
             "width": 318
           },
           {
             "x": 36,
-            "y": -3609.09375,
+            "y": -3609.1875,
             "width": 318
           },
           {
             "x": 36,
-            "y": -3309.75,
+            "y": -3309.84375,
             "width": 318
           }
         ]
@@ -238,25 +218,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
           "width": 337.265625,
           "height": 337.265625,
           "naturalWidth": 337
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
           "width": 337.28125,
           "height": 337.28125,
-          "naturalWidth": 337
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "width": 337.265625,
-          "height": 337.265625,
-          "naturalWidth": 337
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 400,
           "height": 300,
           "naturalWidth": 400
@@ -268,54 +242,50 @@
           "bytes": 3384
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-400.avif",
-          "bytes": 16511
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-400.avif",
+          "bytes": 20471
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-400.avif",
-          "bytes": 32056
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-400.avif",
-          "bytes": 12802
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 30.71875,
-            "y": -3525.90625,
+            "y": -3125.90625,
             "width": 224.84375
           },
           {
             "x": 271.5625,
-            "y": -3525.90625,
+            "y": -3125.90625,
             "width": 224.84375
           },
           {
             "x": 512.40625,
-            "y": -3525.90625,
+            "y": -3125.90625,
             "width": 224.84375
           }
         ],
         [
           {
             "x": 61.4375,
-            "y": -2240.734375,
+            "y": -2241.09375,
             "width": 193.703125
           },
           {
             "x": 287.140625,
-            "y": -2240.734375,
+            "y": -2241.09375,
             "width": 193.703125
           },
           {
             "x": 512.84375,
-            "y": -2240.734375,
+            "y": -2241.09375,
             "width": 193.703125
           }
         ]
@@ -338,25 +308,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-280.avif",
-          "width": 273.0625,
-          "height": 273.0625,
-          "naturalWidth": 273
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "width": 425.59375,
+          "height": 425.59375,
+          "naturalWidth": 425
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-280.avif",
-          "width": 273.0625,
-          "height": 273.0625,
-          "naturalWidth": 273
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "width": 425.59375,
+          "height": 425.59375,
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-280.avif",
-          "width": 273.0625,
-          "height": 273.0625,
-          "naturalWidth": 273
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 298.671875,
           "height": 224,
           "naturalWidth": 400
@@ -392,40 +356,44 @@
           "bytes": 14167
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
-          "bytes": 23624
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/cruiser.avif",
           "bytes": 19852
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/sequoia-74wt.avif",
-          "bytes": 9898
+          "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
+          "bytes": 23624
         },
         {
           "url": "http://127.0.0.1:4178/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
         },
         {
+          "url": "http://127.0.0.1:4178/img/cafe/sequoia-74wt.avif",
+          "bytes": 9898
+        },
+        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
           "bytes": 3330
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
         },
         {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
+        },
+        {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
@@ -436,58 +404,50 @@
           "bytes": 38628
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "bytes": 34659
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-280.avif",
-          "bytes": 10777
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-280.avif",
-          "bytes": 17873
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-280.avif",
-          "bytes": 7766
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 64,
-            "y": -2667.3125,
+            "y": -2820.3125,
             "width": 266.65625
           },
           {
             "x": 346.65625,
-            "y": -2667.3125,
+            "y": -2820.3125,
             "width": 266.671875
           },
           {
             "x": 629.328125,
-            "y": -2667.3125,
+            "y": -2820.3125,
             "width": 266.65625
           }
         ],
         [
           {
             "x": 76.796875,
-            "y": -1818.609375,
+            "y": -1819.078125,
             "width": 247.46875
           },
           {
             "x": 356.265625,
-            "y": -1818.609375,
+            "y": -1819.078125,
             "width": 247.46875
           },
           {
             "x": 635.734375,
-            "y": -1818.609375,
+            "y": -1819.078125,
             "width": 247.46875
           }
         ]
@@ -510,25 +470,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "width": 432,
+          "height": 432,
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "width": 432,
+          "height": 432,
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 400,
           "height": 300,
           "naturalWidth": 400
@@ -544,16 +498,16 @@
           "bytes": 4900
         },
         {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
+        },
+        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
           "bytes": 1818
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
-          "bytes": 1627
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
@@ -588,16 +542,8 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
@@ -608,41 +554,45 @@
           "bytes": 41626
         },
         {
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
+        },
+        {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
-          "bytes": 44972
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "bytes": 24237
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "bytes": 34659
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "bytes": 18100
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 304,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.65625
           },
           {
             "x": 586.65625,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.671875
           },
           {
             "x": 869.328125,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.65625
           }
         ],
@@ -682,25 +632,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
           "width": 358,
           "height": 358,
           "naturalWidth": 358
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
           "width": 358,
           "height": 358,
-          "naturalWidth": 358
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "width": 358,
-          "height": 358,
-          "naturalWidth": 358
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 318,
           "height": 238.5,
           "naturalWidth": 400
@@ -712,54 +656,50 @@
           "bytes": 3384
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "bytes": 24237
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "bytes": 34659
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
-          "bytes": 44972
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "bytes": 18100
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 16,
-            "y": -6083.625,
+            "y": -5662.625,
             "width": 358
           },
           {
             "x": 16,
-            "y": -5851.25,
+            "y": -5430.25,
             "width": 358
           },
           {
             "x": 16,
-            "y": -5618.875,
+            "y": -5197.875,
             "width": 358
           }
         ],
         [
           {
             "x": 36,
-            "y": -3908.4375,
+            "y": -3908.53125,
             "width": 318
           },
           {
             "x": 36,
-            "y": -3609.09375,
+            "y": -3609.1875,
             "width": 318
           },
           {
             "x": 36,
-            "y": -3309.75,
+            "y": -3309.84375,
             "width": 318
           }
         ]
@@ -782,25 +722,19 @@
       "broken": [],
       "images": [
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
+          "src": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "width": 432,
+          "height": 432,
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
+          "src": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "width": 432,
+          "height": 432,
+          "naturalWidth": 432
         },
         {
-          "src": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "width": 416,
-          "height": 416,
-          "naturalWidth": 416
-        },
-        {
-          "src": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
+          "src": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
           "width": 400,
           "height": 300,
           "naturalWidth": 400
@@ -872,10 +806,6 @@
           "bytes": 38900
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
-        },
-        {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
           "bytes": 41626
         },
@@ -884,37 +814,37 @@
           "bytes": 38628
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "bytes": 24237
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
-          "bytes": 44972
+          "url": "http://127.0.0.1:4178/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "bytes": 34659
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
-          "bytes": 18100
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
-          "bytes": 583741
+          "url": "http://127.0.0.1:4178/img/animaciones/preparacion-chocolate.gif",
+          "bytes": 565298
         }
       ],
       "cardLayout": [
         [
           {
             "x": 304,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.65625
           },
           {
             "x": 586.65625,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.671875
           },
           {
             "x": 869.328125,
-            "y": -2438.859375,
+            "y": -2454.859375,
             "width": 266.65625
           }
         ],
@@ -963,12 +893,12 @@
           "bytes": 1434
         },
         {
-          "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
-          "bytes": 1820
-        },
-        {
           "url": "http://127.0.0.1:4178/img/easybest-refrigeracion-helados.avif",
           "bytes": 6419
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
+          "bytes": 1820
         },
         {
           "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
@@ -1082,12 +1012,12 @@
           "bytes": 1627
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
-          "bytes": 14167
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
           "bytes": 15658
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
+          "bytes": 14167
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
@@ -1114,40 +1044,40 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
-        },
-        {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
         },
         {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
+        },
+        {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
           "bytes": 41626
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
+          "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
+          "bytes": 1820
         },
         {
           "url": "http://127.0.0.1:4178/img/iceteam.avif",
           "bytes": 1434
         },
         {
-          "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
-          "bytes": 1821
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
         },
         {
-          "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
-          "bytes": 1820
+          "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
+          "bytes": 1821
         },
         {
           "url": "http://127.0.0.1:4178/img/easybest-refrigeracion-helados.avif",
@@ -1210,12 +1140,12 @@
           "bytes": 5668
         },
         {
-          "url": "http://127.0.0.1:4178/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
-          "bytes": 23548
-        },
-        {
           "url": "http://127.0.0.1:4178/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
           "bytes": 31658
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+          "bytes": 23548
         },
         {
           "url": "http://127.0.0.1:4178/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
@@ -1249,12 +1179,12 @@
           "bytes": 20998
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
-          "bytes": 22338
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/pastas-helado-italgel-colombia-400.avif",
           "bytes": 17705
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+          "bytes": 22338
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/equipos-heladeria-coldelite-400.avif",
@@ -1292,12 +1222,12 @@
           "bytes": 1818
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
-          "bytes": 1627
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
@@ -1328,24 +1258,24 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
-          "bytes": 38628
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
+          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
+          "bytes": 38628
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
@@ -1470,20 +1400,20 @@
           "bytes": 9898
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
-        },
-        {
           "url": "http://127.0.0.1:4178/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
         },
         {
-          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
-          "bytes": 18658
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",

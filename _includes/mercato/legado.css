@@ -221,6 +221,7 @@
       img { display: block; inline-size: 100%; block-size: auto; }
       figcaption { margin-block-start: var(--space-sm); font-size: var(--text-sm); color: var(--color-texto-suave); }
     }
+    .muestras-visuales--insumos { max-inline-size: 58rem; figure { max-inline-size: 27rem; } }
     .cta--visual {
       > .demo-helado { max-inline-size: 25rem; margin-block-start: 0; }
       @media (min-width: 60rem) {
