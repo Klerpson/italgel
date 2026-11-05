@@ -35,17 +35,17 @@
         [
           {
             "x": 16,
-            "y": -6408.984375,
+            "y": -6520.453125,
             "width": 288
           },
           {
             "x": 16,
-            "y": -5144.09375,
+            "y": -5255.5625,
             "width": 288
           },
           {
             "x": 16,
-            "y": -3881.8125,
+            "y": -3881.625,
             "width": 288
           }
         ]
@@ -56,8 +56,12 @@
           "bytes": 3384
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-400.avif",
-          "bytes": 20889
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato-poster.avif",
+          "bytes": 9498
         },
         {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-280.avif",
@@ -68,8 +72,8 @@
           "bytes": 43941
         },
         {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
+          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-280.avif",
+          "bytes": 13027
         },
         {
           "url": "https://italgel.com.co/img/catalogo/veteado-variegato-280.avif",
@@ -78,10 +82,6 @@
         {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-helado-280.avif",
           "bytes": 11116
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-280.avif",
-          "bytes": 13027
         }
       ]
     },
@@ -97,17 +97,17 @@
         [
           {
             "x": 16,
-            "y": -5729.03125,
+            "y": -6010.296875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -4592.703125,
+            "y": -4873.96875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -3509.15625,
+            "y": -3509.203125,
             "width": 358
           }
         ]
@@ -118,6 +118,10 @@
           "bytes": 3384
         },
         {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
+        },
+        {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-400.avif",
           "bytes": 20889
         },
@@ -126,16 +130,12 @@
           "bytes": 43941
         },
         {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
+          "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+          "bytes": 17217
         },
         {
           "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-400.avif",
           "bytes": 22489
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
-          "bytes": 17217
         },
         {
           "url": "https://italgel.com.co/img/catalogo/veteado-variegato-400.avif",
@@ -155,17 +155,17 @@
         [
           {
             "x": 30.71875,
-            "y": -3424.484375,
+            "y": -3302.4375,
             "width": 214.171875
           },
           {
             "x": 276.890625,
-            "y": -3424.484375,
+            "y": -3302.4375,
             "width": 214.1875
           },
           {
             "x": 523.078125,
-            "y": -3424.484375,
+            "y": -3302.4375,
             "width": 214.1875
           }
         ]
@@ -180,16 +180,12 @@
           "bytes": 20889
         },
         {
-          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
-          "bytes": 43941
-        },
-        {
           "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
           "bytes": 584104
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-400.avif",
-          "bytes": 22489
+          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
@@ -198,6 +194,10 @@
         {
           "url": "https://italgel.com.co/img/catalogo/veteado-variegato-400.avif",
           "bytes": 19250
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-400.avif",
+          "bytes": 22489
         }
       ]
     },
@@ -213,17 +213,17 @@
         [
           {
             "x": 38.40625,
-            "y": -2907.03125,
+            "y": -2865.859375,
             "width": 273.0625
           },
           {
             "x": 343.46875,
-            "y": -2907.03125,
+            "y": -2865.859375,
             "width": 273.0625
           },
           {
             "x": 648.53125,
-            "y": -2907.03125,
+            "y": -2865.859375,
             "width": 273.0625
           }
         ]
@@ -246,24 +246,32 @@
           "bytes": 1818
         },
         {
+          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
+          "bytes": 15658
+        },
+        {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
         },
         {
-          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
-          "bytes": 15658
+          "url": "https://italgel.com.co/img/cafe/falcon.avif",
+          "bytes": 14167
         },
         {
           "url": "https://italgel.com.co/img/cafe/tank-2.avif",
           "bytes": 23624
         },
         {
+          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
+          "bytes": 9898
+        },
+        {
           "url": "https://italgel.com.co/img/cafe/cruiser.avif",
           "bytes": 19852
         },
         {
-          "url": "https://italgel.com.co/img/cafe/falcon.avif",
-          "bytes": 14167
+          "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
+          "bytes": 11929
         },
         {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
@@ -274,20 +282,8 @@
           "bytes": 18658
         },
         {
-          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
-          "bytes": 9898
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
-        },
-        {
-          "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
-          "bytes": 11929
-        },
-        {
-          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
         },
         {
           "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
@@ -298,12 +294,20 @@
           "bytes": 32518
         },
         {
+          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
           "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
         },
         {
           "url": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
           "bytes": 24122
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
         },
         {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-400.avif",
@@ -314,20 +318,16 @@
           "bytes": 43941
         },
         {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
           "bytes": 17217
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-400.avif",
-          "bytes": 22489
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/veteado-variegato-400.avif",
           "bytes": 19250
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-400.avif",
+          "bytes": 22489
         }
       ]
     },
@@ -343,17 +343,17 @@
         [
           {
             "x": 64,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           },
           {
             "x": 512,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           },
           {
             "x": 960,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           }
         ]
@@ -368,12 +368,12 @@
           "bytes": 4900
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
-          "bytes": 1818
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+          "bytes": 1818
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
@@ -392,40 +392,36 @@
           "bytes": 23624
         },
         {
-          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
-          "bytes": 9898
-        },
-        {
           "url": "https://italgel.com.co/img/cafe/cruiser.avif",
           "bytes": 19852
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
+          "bytes": 9898
         },
         {
           "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
         },
         {
-          "url": "https://italgel.com.co/img/variegatos-quella-textura.avif",
-          "bytes": 18658
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
           "bytes": 3330
+        },
+        {
+          "url": "https://italgel.com.co/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
         },
         {
-          "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
-        },
-        {
           "url": "https://italgel.com.co/img/base-50-mec3-empaque.avif",
           "bytes": 32518
         },
         {
-          "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
-          "bytes": 38628
+          "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
@@ -436,16 +432,20 @@
           "bytes": 24122
         },
         {
+          "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
+          "bytes": 38628
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
+        },
+        {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-584.avif",
           "bytes": 34339
         },
         {
           "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
           "bytes": 43941
-        },
-        {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
         },
         {
           "url": "https://italgel.com.co/img/tecnica-veteado-variegato-helado.avif",
@@ -473,17 +473,17 @@
         [
           {
             "x": 16,
-            "y": -5729.03125,
+            "y": -6010.296875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -4592.703125,
+            "y": -4873.96875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -3509.15625,
+            "y": -3509.203125,
             "width": 358
           }
         ]
@@ -494,6 +494,14 @@
           "bytes": 3384
         },
         {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato-poster.avif",
+          "bytes": 9498
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
+        },
+        {
           "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-584.avif",
           "bytes": 34339
         },
@@ -502,20 +510,16 @@
           "bytes": 43941
         },
         {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
-        },
-        {
           "url": "https://italgel.com.co/img/tecnica-veteado-variegato-helado.avif",
           "bytes": 28618
         },
         {
-          "url": "https://italgel.com.co/img/veteado-variegato.avif",
-          "bytes": 35493
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/tecnica-variegato-584.avif",
           "bytes": 39165
+        },
+        {
+          "url": "https://italgel.com.co/img/veteado-variegato.avif",
+          "bytes": 35493
         }
       ]
     },
@@ -531,17 +535,17 @@
         [
           {
             "x": 64,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           },
           {
             "x": 512,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           },
           {
             "x": 960,
-            "y": -2797.6875,
+            "y": -3163.78125,
             "width": 416
           }
         ]
@@ -552,60 +556,40 @@
           "bytes": 3384
         },
         {
-          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
-          "bytes": 43941
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-584.avif",
-          "bytes": 34339
-        },
-        {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
-        },
-        {
-          "url": "https://italgel.com.co/img/animaciones/capas-variegato-poster.avif",
-          "bytes": 9498
-        },
-        {
           "url": "https://italgel.com.co/img/coldelite-compacta-1.avif",
           "bytes": 4900
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
-          "bytes": 2091
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
-          "bytes": 1627
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
           "bytes": 1818
         },
         {
-          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
-          "bytes": 15658
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
         },
         {
-          "url": "https://italgel.com.co/img/cafe/tank-2.avif",
-          "bytes": 23624
-        },
-        {
-          "url": "https://italgel.com.co/img/cafe/cruiser.avif",
-          "bytes": 19852
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+          "bytes": 2091
         },
         {
           "url": "https://italgel.com.co/img/cafe/falcon.avif",
           "bytes": 14167
         },
         {
+          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
+          "bytes": 15658
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/cruiser.avif",
+          "bytes": 19852
+        },
+        {
           "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
           "bytes": 9898
         },
         {
-          "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
-          "bytes": 11929
+          "url": "https://italgel.com.co/img/cafe/tank-2.avif",
+          "bytes": 23624
         },
         {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
@@ -620,24 +604,40 @@
           "bytes": 32518
         },
         {
-          "url": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
+          "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
+          "bytes": 11929
         },
         {
           "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
         },
         {
-          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
         },
         {
+          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
+          "url": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
+        },
+        {
           "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "bytes": 34339
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
+        },
+        {
+          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
           "url": "https://italgel.com.co/img/tecnica-veteado-variegato-helado.avif",
@@ -703,16 +703,12 @@
           "bytes": 3384
         },
         {
-          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
-          "bytes": 43941
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/productos-mec3-italia-colombia-584.avif",
-          "bytes": 34659
-        },
-        {
           "url": "https://italgel.com.co/img/coldelite-compacta-1.avif",
           "bytes": 4900
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+          "bytes": 2091
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
@@ -721,10 +717,6 @@
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
-        },
-        {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
-          "bytes": 2091
         },
         {
           "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
@@ -743,20 +735,16 @@
           "bytes": 19852
         },
         {
-          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
-          "bytes": 9898
-        },
-        {
           "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
+          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
+          "bytes": 9898
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "https://italgel.com.co/img/variegatos-quella-textura.avif",
@@ -767,20 +755,32 @@
           "bytes": 32518
         },
         {
-          "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
-          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
         },
         {
+          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
+          "url": "https://italgel.com.co/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
+        },
+        {
           "url": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
           "bytes": 24122
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "bytes": 34659
         },
         {
           "url": "https://italgel.com.co/img/animaciones/preparacion-chocolate.gif",
@@ -807,12 +807,16 @@
           "bytes": 1434
         },
         {
+          "url": "https://italgel.com.co/img/easybest-refrigeracion-helados.avif",
+          "bytes": 6419
+        },
+        {
           "url": "https://italgel.com.co/img/maquinas-helado-sagi.avif",
           "bytes": 1820
         },
         {
-          "url": "https://italgel.com.co/img/easybest-refrigeracion-helados.avif",
-          "bytes": 6419
+          "url": "https://italgel.com.co/img/toppings-helado-valmar.avif",
+          "bytes": 2110
         },
         {
           "url": "https://italgel.com.co/img/maquinas-helado-italitanas-coldelite.avif",
@@ -821,10 +825,6 @@
         {
           "url": "https://italgel.com.co/img/proveedor-mezclas-helado-mec3.avif",
           "bytes": 3655
-        },
-        {
-          "url": "https://italgel.com.co/img/toppings-helado-valmar.avif",
-          "bytes": 2110
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
@@ -863,12 +863,12 @@
           "bytes": 14506
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-400.avif",
-          "bytes": 12802
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/tiramisu-variegato-italiano-280.avif",
           "bytes": 3325
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-400.avif",
+          "bytes": 12802
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
@@ -946,20 +946,16 @@
           "bytes": 4900
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
-          "bytes": 1818
-        },
-        {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
-          "bytes": 1627
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+          "bytes": 1818
         },
         {
-          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
-          "bytes": 15658
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
         },
         {
           "url": "https://italgel.com.co/img/cafe/falcon.avif",
@@ -974,16 +970,20 @@
           "bytes": 9898
         },
         {
+          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
+          "bytes": 15658
+        },
+        {
           "url": "https://italgel.com.co/img/cafe/cruiser.avif",
           "bytes": 19852
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
-        },
-        {
           "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
@@ -1018,16 +1018,16 @@
           "bytes": 8496
         },
         {
-          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
-          "bytes": 7942
+          "url": "https://italgel.com.co/img/animaciones/flujo-soft.gif",
+          "bytes": 20158
         },
         {
           "url": "https://italgel.com.co/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
           "bytes": 24113
         },
         {
-          "url": "https://italgel.com.co/img/animaciones/flujo-soft.gif",
-          "bytes": 20158
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "bytes": 7942
         },
         {
           "url": "https://italgel.com.co/img/maquina-soft-mesa-negocio.avif",
