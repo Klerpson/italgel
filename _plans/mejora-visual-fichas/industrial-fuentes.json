@@ -1,0 +1,13 @@
+{
+  "hero_source": "https://valmar.eu/",
+  "hero_asset": "https://valmar.eu/wp-content/uploads/2015/06/slider-home-2.jpg",
+  "author": "Valmar Global, fotografía pública de fabricante",
+  "original_dimensions": [
+    1600,
+    909
+  ],
+  "download_sha256": "a8a13ab8102f88884939d59acb0dd2eb8550ba171e650a33916cd1518b53678c",
+  "usage": "Detalle fotográfico de operación de un equipo Valmar para ilustrar la categoría. No acredita una configuración concreta ni los modelos o cifras del texto. Se conserva el alt y los metadatos originales.",
+  "processing": "AVIF 400/800/1600 px; variante máxima conserva resolución original con quality=72. sizes de cabecera tiene en cuenta el recorte vertical de cover en escritorio para no servir una imagen insuficiente. No se redibuja ni amplía el equipo.",
+  "discarded": "Descartados Dosy3 (modelo distinto), gama de baja resolución y una compresión GIF con mayor peso. Solo los activos usados se conservan."
+}

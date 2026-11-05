@@ -66,6 +66,8 @@ No generar ni redibujar equipos, envases o modelos comerciales para reemplazar f
 
 ### 4. Preparar imágenes y GIF
 
+**Calidad primero, por petición de Camilo:** optimizar el peso sin degradación visual apreciable al tamaño de uso, también en móvil de densidad 2. Los presupuestos son orientativos. Si una reducción empeora detalle, encuadre o movimiento, conservar la versión de calidad y reducir coste mediante otra fuente, variantes responsive, menor duración útil o menos recursos redundantes. Registrar la carga inicial y la carga tras recorrer la página; no prometer mejoras de velocidad sin medirlas.
+
 Recortar márgenes vacíos innecesarios, conservar proporciones y preparar resolución suficiente para el tamaño real de presentación. No ampliar un archivo pequeño para aparentar nitidez. Si el fondo blanco resulta inadecuado, valorar recorte con transparencia o integración visual; una mezcla CSS no crea transparencia en el archivo. Revisar que los colores y detalles del producto no se alteren.
 
 Usar AVIF/WebP para fotos y variantes responsive cuando corresponda. Mantener intactos originales/rutas existentes que tengan otros consumidores. Para imágenes nuevas, usar nombres descriptivos y carpetas de activos del proyecto.
@@ -96,6 +98,8 @@ Añadir loading="lazy" al GIF fuera de cabecera, dimensiones y decoding="async".
 - Si se tocó un componente compartido, comprobar además páginas consumidoras representativas fuera de la tanda. No repetir una batería completa sin una razón concreta.
 
 ### 7. Registrar y entregar
+
+**Condición de cierre obligatoria para esta campaña:** cada entrega debe haber pasado el recorrido visual completo en móvil y escritorio, corrección de los hallazgos, comprobación de contenido/SEO y medición de carga. Tras la publicación autorizada, repetir en la URL real las comprobaciones afectadas y mirar las capturas en contexto, con cabecera y elementos flotantes visibles. Una batería automática correcta no aprueba por sí sola el diseño. No dar la ficha por terminada ni avanzar a otra con defectos conocidos sin resolver; declarar cualquier impedimento real y su alcance.
 
 Mantener un único registro textual de campaña en _plans con una fila por URL: estado, activos, fuente/licencia, peso del GIF/fotos, verificación visual y de SEO, fecha y publicación si corresponde. Estados útiles: pendiente, preparación, revisión local, validado local, publicado, verificado en vivo. Un piloto o una imagen preparada no equivale a publicación.
 

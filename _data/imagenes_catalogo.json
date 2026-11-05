@@ -1924,6 +1924,27 @@
         }
       ],
       "encuadre": "ambiente"
+    },
+    "/img/industrial-valmar-linea.avif": {
+      "src": "/img/industrial-valmar-linea.avif",
+      "width": 1600,
+      "height": 909,
+      "variants": [
+        {
+          "src": "/img/catalogo/industrial-valmar-linea-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/industrial-valmar-linea-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/industrial-valmar-linea.avif",
+          "width": 1600
+        }
+      ],
+      "encuadre": "ambiente",
+      "sizes_hero": "(min-width: 60rem) 1100px, 100vw"
     }
   }
 }

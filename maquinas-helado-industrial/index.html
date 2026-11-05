@@ -11,6 +11,7 @@ intro: Equipamiento que convierte tu operación artesanal en planta de distribuc
 
 # Imagen hero
 hero: img/maquina-industrial-helado.avif
+hero_visual: /img/industrial-valmar-linea.avif
 alt: "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala"
 hero_title: "Máquinas para helado industrial"
 
@@ -129,7 +130,7 @@ faqs:
 <section class="wrapper bg_grey center">
   <h2 class="text_center">Componentes de una línea industrial completa</h2>
 
-  <div class="three_columns">
+  <div class="three_columns filas-locales">
     <div class="flow text_center">
       <h3>Pasteurizadora industrial</h3>
       <p>
@@ -165,7 +166,8 @@ faqs:
 <section class="wrapper flow center">
   <h2 class="text_center">Configuraciones de línea según volumen objetivo</h2>
 
-  <table>
+  <p class="tabla-ayuda" id="ayuda-tabla-industrial" data-visual-nuevo>Desliza para ver las cinco columnas →<span class="visualmente-oculto"> Con teclado, enfoca la tabla y usa las flechas.</span></p>
+  <table tabindex="0" aria-label="Configuraciones de línea según volumen objetivo" aria-describedby="ayuda-tabla-industrial">
     <thead>
       <tr>
         <th>Configuración</th>
@@ -281,33 +283,37 @@ faqs:
     Instalación, capacitación y soporte para equipamiento industrial
   </h2>
 
-  <div class="three_columns">
-    <div class="flow text_center">
-      <h3>Instalación llave en mano</h3>
-      <p>
-        Instalación eléctrica (trifásico), plomería (agua + drenajes), montaje
-        de equipos, calibración inicial. Incluye coordinación con tu
-        electricista/plomero local. Plazo: 5-10 días hábiles.
-      </p>
+  <div class="columnas columnas--7-5 columnas--centro">
+    <div class="flujo">
+      <div class="flow">
+        <h3>Instalación llave en mano</h3>
+        <p>
+          Instalación eléctrica (trifásico), plomería (agua + drenajes), montaje
+          de equipos, calibración inicial. Incluye coordinación con tu
+          electricista/plomero local. Plazo: 5-10 días hábiles.
+        </p>
+      </div>
+
+      <div class="flow">
+        <h3>Capacitación operativa</h3>
+        <p>
+          Entrenamiento de 3-5 días para tu equipo: operación, limpieza,
+          mantenimiento preventivo, detección de fallas. Manuales en español +
+          soporte telefónico primeros 6 meses sin costo.
+        </p>
+      </div>
+
+      <div class="flow">
+        <h3>Plan de mantenimiento industrial</h3>
+        <p>
+          Visitas trimestrales programadas. Revisión de compresores, sensores,
+          sistema eléctrico, calibración. Repuestos críticos en stock. Tiempo de
+          respuesta para fallas: 24-48 horas en ciudades principales.
+        </p>
+      </div>
     </div>
 
-    <div class="flow text_center">
-      <h3>Capacitación operativa</h3>
-      <p>
-        Entrenamiento de 3-5 días para tu equipo: operación, limpieza,
-        mantenimiento preventivo, detección de fallas. Manuales en español +
-        soporte telefónico primeros 6 meses sin costo.
-      </p>
-    </div>
-
-    <div class="flow text_center">
-      <h3>Plan de mantenimiento industrial</h3>
-      <p>
-        Visitas trimestrales programadas. Revisión de compresores, sensores,
-        sistema eléctrico, calibración. Repuestos críticos en stock. Tiempo de
-        respuesta para fallas: 24-48 horas en ciudades principales.
-      </p>
-    </div>
+    {% include mercato/helado-animado.html demo=site.data.animacion_industrial nuevo=true ancla="animacion-industrial" activar_movimiento=true %}
   </div>
 
   {% include boton.html num="1" text="Solicitar estudio de viabilidad sin costo" class="boton_centro" location="estudio-de-viabilidad-2" %}

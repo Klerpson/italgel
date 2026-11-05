@@ -1,0 +1,32 @@
+{
+  "src": "/img/animaciones/operacion-industrial.gif",
+  "poster": "/img/animaciones/operacion-industrial-poster.avif",
+  "width": 480,
+  "height": 254,
+  "frames": 12,
+  "duration_ms": 2000,
+  "bytes": 792323,
+  "alt": "Manejo con espátula del producto a la salida de un equipo de elaboración de helado",
+  "caption": "Manejo del producto a la salida del equipo. Escena ilustrativa; no corresponde a un modelo Valmar específico.",
+  "control_label": "Reproducir la escena de manejo del producto",
+  "source": {
+    "platform": "Pexels",
+    "author": "ROMAN ODINTSOV",
+    "video_id": 5659388,
+    "page": "https://www.pexels.com/video/processed-ice-cream-mix-out-of-the-machine-5659388/",
+    "download": "https://videos.pexels.com/video-files/5659388/5659388-uhd_4096_2160_30fps.mp4",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "sha256": "ec96dcd52afeba241d99c6a2a4770698a1356dec4f264d5a376fe3c7d4df3f35"
+  },
+  "processing": {
+    "start_seconds": 25,
+    "seconds": 2,
+    "fps": 6,
+    "scale": "480:-2",
+    "colors": 256,
+    "dither": "none",
+    "denoise": "hqdn3d=2:2:3:3"
+  },
+  "usage": "Apoyo visual en capacitación operativa; no representa una línea continua, una instalación de Italgel ni prestaciones o un modelo comercial concretos."
+}

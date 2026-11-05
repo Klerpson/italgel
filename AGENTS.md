@@ -8,6 +8,8 @@
 - No volver a acumular imágenes de evidencia, aunque estén excluidas de Git o de Jekyll.
 - Priorizar el diseño y la revisión en móvil: Camilo indica que es la principal vía de llegada de clientes. Alternar contenido y medios; evitar fotos y GIF consecutivos sin explicación entre ellos, también en los límites de secciones. Comprobar el recorrido completo antes de publicar.
 - Variar la ubicación y composición de los GIF entre fichas según lo que ilustran. No insertarlos automáticamente en la misma sección de todas las páginas; contrastar las fichas anteriores y mantener la coherencia con el contenido, el orden de lectura y el SEO.
+- Entregar cada ficha terminada: recorrerla completa en móvil y escritorio, corregir los hallazgos visuales y funcionales, comprobar contenido/SEO y peso de carga, publicar cuando esté autorizado y repetir la revisión en vivo. Las pruebas automáticas o una captura aislada no sustituyen la aprobación visual de la página completa; si queda algo pendiente, declararlo y no marcarla completa.
+- La calidad visual tiene prioridad sobre el ahorro de bytes. Mantener la página liviana con fuentes nítidas, tamaños responsive, formatos adecuados y carga diferida fuera de cabecera; no aceptar desenfoque, artefactos, imágenes diminutas o movimiento pobre para cumplir un presupuesto de peso.
 
 ## 📍 Descripción del Proyecto: ItalGel
 
