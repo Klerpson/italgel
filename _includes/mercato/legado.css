@@ -218,7 +218,7 @@
     .muestras-visuales {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-lg);
       figure { inline-size: 100%; max-inline-size: 30.75rem; justify-self: center; }
-      img { display: block; inline-size: 100%; block-size: auto; }
+      > figure > img { display: block; inline-size: 100%; block-size: auto; }
       figcaption { margin-block-start: var(--space-sm); font-size: var(--text-sm); color: var(--color-texto-suave); }
     }
     .muestras-visuales--insumos { max-inline-size: 58rem; figure { max-inline-size: 27rem; } }

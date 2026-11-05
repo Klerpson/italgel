@@ -4,6 +4,7 @@
 |---|---|---|---|---|---|
 | /insumos-heladeria-medellin/ | Corrección comercial publicada y verificada en vivo | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
 | /maquinas-helado-soft/ | Publicado y verificado en vivo | 2026-11-05 | Fotografías reales conservadas; catálogo y servicio técnico en filas equilibradas; esquema GIF de mezcla → equipo → servicio | GIF: 20.158 bytes; alternativa SVG: 2.214 bytes | Comparaciones local/pública sin diferencias protegidas; otras páginas HTML sin cambios |
+| /variegatos-helado/ | Validado local; publicación en curso | 2026-11-05 | Envase Quella y GIF ilustrativo de trabajo por capas; familias del catálogo en columnas equilibradas | GIF: 584.104 bytes; fotograma: 9.498 bytes; foto de envase existente: 43.941 bytes | Referencia previa local/publicada coincidente; comparación sin cambios de contenido/SEO ni HTML de otras páginas |
 
 ## Piloto Medellín
 
@@ -72,3 +73,15 @@ Publicado en `7fffd327579f01eeb36260eeeeb2b9cfce91eb8d`, despliegue `42105540889
 El montaje antiguo de 584 × 584 px se sustituye visualmente por una composición SVG de 1600 × 1600, con las fotos originales de fabricante de 1200 px de los modelos 301 INOX y 603 BIB, embebidas sin redibujar ni deformar los equipos. Archivo de 55.709 bytes; no añade solicitudes separadas a sus fotos. Se revisó a 390/1440 px con densidad 2.
 
 El campo `hero_visual` cambia únicamente la imagen visible del layout de contenido. El campo hero, las imágenes sociales y sus dimensiones, el alt, title y todos los demás elementos de SEO/contenido se conservan. La comparación admite solo la sustitución visual explícita y sus dimensiones; el resto permanece idéntico. Se comprobó que ninguna otra página cambia su HTML. Los dos archivos fuente de fabricante ya eran activos de producción.
+
+Cabecera publicada en `9867c18f3f6c167ddc85a9bd531b875b54a55690`, despliegue `42112404282` correcto. La comparación pública admite únicamente el recurso de cabecera solicitado y confirma que los demás elementos protegidos se mantienen.
+
+## Tercera URL: Variegatos
+
+Se incorpora una fotografía de envase Quella ya existente en el proyecto, junto a una escena de trabajo por capas en una cubeta con vetas visibles. No se presenta como demostración de un producto/receta concretos ni como medición de dosis. GIF nativo de 480 × 254 px, diez fotogramas y dos segundos; se mantiene el encuadre original, sin recortes forzados. Archivo de 584.104 bytes y fotograma AVIF de 9.498 bytes.
+
+Fuente comprobada: descarga pública Pexels `https://www.pexels.com/download/video/5660347/`, que redirige al original documentado en `_data/animacion_variegatos.json`. Licencia general Pexels verificada; la ficha individual no estuvo accesible y no se inventa atribución de autor. Hash y procesamiento registrados en los datos. El original descargado no se conserva en el repositorio.
+
+Las familias del catálogo aprovechan tres columnas iguales desde tablet y una columna en móvil. Se amplía su contenedor para evitar un catálogo innecesariamente estrecho, sin cambiar palabras, encabezados, enlaces, alt existentes, metadatos o schema. El componente GIF conserva ahora la proporción física de cada recurso; no se añade CSS por formato. Se acota la regla de imágenes de galería a sus fotos directas para que no interfiera con el fotograma oculto del GIF.
+
+Diez combinaciones locales correctas: siete de Variegatos, y regresiones de Medellín, portada y máquinas soft. Dos modos adicionales sin JavaScript comprueban control con teclado y movimiento reducido sin petición del GIF. Se inspeccionaron medios y catálogo en móvil/escritorio. Referencia `variegatos-antes.json` y comparación de elementos protegidos sin diferencias; el HTML de otras páginas se conserva.

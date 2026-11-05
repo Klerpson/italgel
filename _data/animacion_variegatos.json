@@ -1,0 +1,33 @@
+{
+  "src": "/img/animaciones/capas-variegato.gif",
+  "poster": "/img/animaciones/capas-variegato-poster.avif",
+  "width": 480,
+  "height": 254,
+  "frames": 10,
+  "duration_ms": 2000,
+  "bytes": 584104,
+  "alt": "Trabajo por capas sobre helado con vetas de salsa visibles en una cubeta",
+  "caption": "Trabajo por capas en cubeta. Escena ilustrativa.",
+  "control_label": "Reproducir el trabajo por capas en cubeta",
+  "source": {
+    "platform": "Pexels",
+    "video_id": 5660347,
+    "download_page": "https://www.pexels.com/download/video/5660347/",
+    "download": "https://videos.pexels.com/video-files/5660347/5660347-uhd_4096_2160_30fps.mp4",
+    "author": null,
+    "author_status": "No confirmado; no se inventa atribución. Fuente pública y licencia general verificadas.",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "sha256": "a3872241328ebb343276d7413ca06b8dde58f10df74171889e2faf7e5b53efd3"
+  },
+  "processing": {
+    "start_seconds": 16,
+    "seconds": 2,
+    "fps": 5,
+    "colors": 192,
+    "dither": "none",
+    "scale": "480:-2",
+    "denoise": "hqdn3d=2:2:3:3"
+  },
+  "usage": "Ilustra el trabajo por capas y las vetas; no acredita marca, receta ni dosificación de un producto concreto."
+}

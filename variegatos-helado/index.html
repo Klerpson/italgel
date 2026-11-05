@@ -94,11 +94,19 @@ faqs:
     </article>
   </section>
 
+  <div class="muestras-visuales muestras-visuales--insumos rejilla" style="align-items: center" data-visual-nuevo>
+    <figure>
+      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" style="max-width: min(100%, 432px); aspect-ratio: 1" loading="lazy" decoding="async">
+      <figcaption>Crema Quella de MEC3</figcaption>
+    </figure>
+    {% include mercato/helado-animado.html demo=site.data.animacion_variegatos nuevo=true %}
+  </div>
+
   <!-- Catálogo por sabor -->
-  <section class="center text_center">
+  <section class="center">
     <h2>Catálogo de variegatos según perfil de sabor</h2>
 
-    <div class="three_columns">
+    <div class="three_columns filas-locales">
       <div class="flow">
         <h3>Familia dulce: caramelos y dulce de leche</h3>
 
