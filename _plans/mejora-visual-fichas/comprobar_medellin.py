@@ -35,15 +35,16 @@ def public():
 def write(name, obj):
     (OUT / name).write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding='utf8')
 
-if sys.argv[1] == 'antes':
+if len(sys.argv) > 1 and sys.argv[1] == 'antes':
     local = (ROOT / '_site/insumos-heladeria-medellin/index.html').read_bytes()
     live = public()
     assert fingerprint(local) == fingerprint(live), 'Resolver divergencia local/vivo antes de editar'
     source = (ROOT / 'insumos-heladeria-medellin.html').read_text(encoding='utf8')
     write('medellin-antes.json', dict(protected=fingerprint(live), front_matter=source.split('---', 2)[1], html_sha256={p.relative_to(ROOT / '_site').as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT / '_site').rglob('*.html')}))
     print('Referencia local y publicada coinciden; referencia guardada.')
-else:
-    baseline = json.loads((OUT / 'medellin-antes.json').read_text(encoding='utf8'))
+elif len(sys.argv) > 1 and sys.argv[1] in ['local', 'vivo']:
+    reference = sys.argv[2] if len(sys.argv) > 2 else 'medellin-antes.json'
+    baseline = json.loads((OUT / reference).read_text(encoding='utf8'))
     mode = sys.argv[1]
     data = public() if mode == 'vivo' else (ROOT / '_site/insumos-heladeria-medellin/index.html').read_bytes()
     actual = json.loads(json.dumps(fingerprint(data), ensure_ascii=False))
@@ -59,7 +60,7 @@ else:
             p = ROOT / '_site' / rel
             if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest() != sha:
                 other.append(rel)
-    result = dict(modo=mode, diferencias_protegidas=diffs, otras_paginas_html_modificadas=other)
+    result = dict(modo=mode, referencia=reference, diferencias_protegidas=diffs, otras_paginas_html_modificadas=other)
     write('medellin-protegido-' + mode + '.json', result)
     print(json.dumps(result, ensure_ascii=False))
     if diffs or other:

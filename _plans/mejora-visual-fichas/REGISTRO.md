@@ -49,3 +49,5 @@ Fuente de video: Anna Tarazevich en Pexels, https://www.pexels.com/video/person-
 Se actualiza la skill para priorizar insumos y preparación en esta campaña. Esta corrección solicitada cambia los alt y pies de los medios añadidos por el piloto; conserva los atributos de la imagen original y el resto del contenido protegido. No se reescribe el texto comercial ni el SEO.
 
 Trece comprobaciones locales y ambos modos sin JavaScript correctos. Galería y cierre inspeccionados en móvil y escritorio; comparación protegida y HTML de otras páginas sin diferencias.
+
+Antes de publicar se integraron los cambios remotos `7718722` (buscador) y `8869c4c` (codificación de Máquinas soft), sin conflictos ni sobrescrituras. Para no atribuir esos cambios a esta intervención visual, se compiló el remoto `8869c4c` en un temporal aislado y se guardó la referencia textual `medellin-antes-insumos.json`. La comparación contra esa referencia confirma cero cambios propios en SEO/contenido protegido y cero cambios de HTML en otras páginas. Se conserva la referencia original de la campaña.
