@@ -8,14 +8,18 @@
       "javaScript": false,
       "gifRequests": 1,
       "src": "http://127.0.0.1:4178/img/animaciones/capas-variegato.gif",
-      "keyboard": true
+      "keyboard": true,
+      "optIn": true,
+      "gifAfterActivation": 1
     },
     {
       "reduced": true,
       "javaScript": false,
       "gifRequests": 0,
       "src": "http://127.0.0.1:4178/img/animaciones/capas-variegato-poster.avif",
-      "keyboard": true
+      "keyboard": true,
+      "optIn": true,
+      "gifAfterActivation": 1
     }
   ],
   "results": [
@@ -278,16 +282,16 @@
           "bytes": 3574
         },
         {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
@@ -368,20 +372,20 @@
           "bytes": 2091
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
-          "bytes": 15658
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
-          "bytes": 14167
+          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
+          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
           "bytes": 23624
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
+          "bytes": 14167
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/cruiser.avif",
@@ -392,6 +396,10 @@
           "bytes": 9898
         },
         {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
+        },
+        {
           "url": "http://127.0.0.1:4178/img/fiordiamarena-variegato-cerezas.avif",
           "bytes": 11929
         },
@@ -400,20 +408,16 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
         },
         {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
-        },
-        {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
@@ -548,6 +552,10 @@
           "bytes": 4900
         },
         {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+          "bytes": 1818
+        },
+        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
         },
@@ -556,16 +564,12 @@
           "bytes": 1627
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
-          "bytes": 1818
+          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
+          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
           "bytes": 14167
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
-          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
@@ -596,12 +600,12 @@
           "bytes": 3574
         },
         {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
-        },
-        {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
@@ -731,24 +735,24 @@
           "bytes": 11929
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
@@ -791,12 +795,12 @@
           "bytes": 3384
         },
         {
-          "url": "http://127.0.0.1:4178/img/iceteam.avif",
-          "bytes": 1434
-        },
-        {
           "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
           "bytes": 1820
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/iceteam.avif",
+          "bytes": 1434
         },
         {
           "url": "http://127.0.0.1:4178/img/easybest-refrigeracion-helados.avif",
@@ -922,12 +926,12 @@
       ],
       "images": [
         {
-          "url": "http://127.0.0.1:4178/img/logo-nav.avif",
-          "bytes": 3384
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/soft-mesa-piso.svg",
           "bytes": 55709
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/logo-nav.avif",
+          "bytes": 3384
         },
         {
           "url": "http://127.0.0.1:4178/img/coldelite-compacta-1.avif",
@@ -970,12 +974,12 @@
           "bytes": 11929
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
-          "bytes": 3330
-        },
-        {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
@@ -986,20 +990,20 @@
           "bytes": 32518
         },
         {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
-        },
-        {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
@@ -1010,12 +1014,12 @@
           "bytes": 7942
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
-          "bytes": 24113
-        },
-        {
           "url": "http://127.0.0.1:4178/img/animaciones/flujo-soft.gif",
           "bytes": 20158
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "bytes": 24113
         },
         {
           "url": "http://127.0.0.1:4178/img/maquina-soft-mesa-negocio.avif",

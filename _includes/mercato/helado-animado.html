@@ -1,14 +1,16 @@
 {%- assign demo = include.demo | default: site.data.animacion_helado -%}
-<figure class="demo-helado"{% if include.nuevo %} data-visual-nuevo{% endif %}>
+<figure class="demo-helado"{% if include.ancla %} id="{{ include.ancla | escape }}"{% endif %}{% if include.nuevo %} data-visual-nuevo{% endif %}>
   <div class="demo-helado__imagen">
     <picture class="demo-helado__animada">
       <source media="(prefers-reduced-motion: reduce)" srcset="{{ demo.poster | relative_url }}">
       <img src="{{ demo.src | relative_url }}" alt="{{ demo.alt | escape }}" width="{{ demo.width }}" height="{{ demo.height }}" loading="lazy" decoding="async">
     </picture>
     <img class="demo-helado__estatica" src="{{ demo.poster | relative_url }}" alt="{{ demo.alt | escape }}" width="{{ demo.width }}" height="{{ demo.height }}" loading="lazy" decoding="async">
+    {% if include.activar_movimiento %}<object class="demo-helado__manual" type="image/gif" data="{{ demo.src | relative_url }}" width="{{ demo.width }}" height="{{ demo.height }}" style="aspect-ratio: {{ demo.width }} / {{ demo.height }}" role="img" aria-label="{{ demo.alt | escape }}" hidden><a href="{{ demo.src | relative_url }}">Abrir GIF</a></object>{% endif %}
   </div>
   <figcaption>
     <label class="interruptor"><input type="checkbox" role="switch" checked aria-label="{{ demo.control_label | default: 'Reproducir la animación de servicio de helado' | escape }}"><span>Ver animación</span></label>
+    {% if include.activar_movimiento %}<label class="interruptor demo-helado__activar" hidden><input type="checkbox" role="switch" aria-label="Activar la animación aunque esté configurado reducir movimiento"><span>Activar animación</span></label>{% endif %}
     <small>{{ demo.caption | default: 'Servicio de helado. Imagen ilustrativa.' }}</small>
   </figcaption>
 </figure>

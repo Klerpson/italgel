@@ -55,7 +55,9 @@ else:
     if front_matter != record['front_matter']:
         differences.append('front_matter')
     other = [rel for rel, sha in record['html_sha256'].items() if rel != route and (not (ROOT / '_site' / rel).exists() or hashlib.sha256((ROOT / '_site' / rel).read_bytes()).hexdigest() != sha)] if mode == 'local' else []
-    result = dict(mode=mode, cambios_visuales_autorizados=visual_changes, diferencias_protegidas=differences, otras_paginas_html_modificadas=other)
+    in_batch = [rel for rel in other if '--dos-gifs' in saved and rel in ['maquinas-helado-soft/index.html', 'variegatos-helado/index.html']]
+    other = [rel for rel in other if rel not in in_batch]
+    result = dict(mode=mode, cambios_visuales_autorizados=visual_changes, diferencias_protegidas=differences, otras_paginas_html_modificadas=other, otra_pagina_de_la_tanda=in_batch)
     (OUT / (page_name + '-protegido-' + mode + '.json')).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf8')
     print(json.dumps(result))
     if differences or other:

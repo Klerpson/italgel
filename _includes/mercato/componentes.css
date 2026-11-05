@@ -1,4 +1,19 @@
 /* Componentes "Mercato italiano" bajo el pliegue. Se sirven en css/mercato.css. */
+@layer componentes {
+  .demo-helado {
+    scroll-margin-block-start: calc(var(--altura-cabecera) + var(--altura-secundaria, 0px) + var(--space-lg));
+    .demo-helado__manual, .demo-helado__activar { display: none; }
+    .demo-helado__manual { inline-size: 100%; block-size: auto; }
+    @media (prefers-reduced-motion: reduce) {
+      .interruptor:not(.demo-helado__activar) { display: none; }
+      .demo-helado__activar { display: flex; }
+      &:has(.demo-helado__activar input:checked) {
+        .demo-helado__animada, .demo-helado__estatica { display: none; }
+        .demo-helado__manual { display: block; }
+      }
+    }
+  }
+}
 @layer reset, tokens, base, primitivas, componentes, utilidades;
 
 @layer primitivas {
@@ -22,7 +37,7 @@
     .demo-helado__imagen { overflow: hidden; border-radius: var(--radio); }
     img { width: 100%; height: auto; object-fit: cover; }
     .demo-helado__estatica { display: none; }
-    &:has(input:not(:checked)) {
+    &:has(.interruptor:first-child input:not(:checked)) {
       .demo-helado__animada { display: none; }
       .demo-helado__estatica { display: block; }
     }
