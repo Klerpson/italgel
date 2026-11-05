@@ -1,6 +1,6 @@
 # Corrección de proporciones y GIF de servicio de helado
 
-5 de noviembre de 2026. Corrección solicitada a partir de las capturas de Camilo. Revisión local terminada; publicación en comprobación.
+5 de noviembre de 2026. Corrección solicitada a partir de las capturas de Camilo. Implementada y publicada en el sitio.
 
 ## Fallo detectado y corrección
 
@@ -27,3 +27,11 @@ Se inspeccionó la [referencia de YouTube Premium](https://www.youtube.com/premi
 48 combinaciones de página, ancho y densidad en Edge: ocho rutas a 320/390/768/960/1440 px y cuatro de ellas también a densidad 2 en 390/1440 px. Sin imágenes rotas, errores propios de JavaScript/HTTP, H1 incorrectos ni desbordamientos. Comprobación explícita de proporción de la máquina, fondo del contenedor, mezcla de la imagen y cambio entre GIF y fotograma.
 
 Se inspeccionaron capturas temporales de los dos bloques corregidos. El rastreo de los 85 HTML generados terminó sin enlaces internos, anclas, recursos CSS, imágenes indecodificables o dimensiones sociales incorrectas. `_plans/` conserva cero imágenes.
+
+## Publicación y verificación en vivo
+
+Publicado en `b130a3e73ce1e6a177c6eaf1bce80088c9e932b5`; despliegue de GitHub Pages `42059220507` completado correctamente. GIF y fotograma responden HTTP 200 y coinciden byte por byte con los archivos locales (489.810 y 13.948 bytes).
+
+Se inspeccionaron visualmente ambos bloques en producción. La máquina mide 517 × 517 px en escritorio y desapareció el recuadro blanco. Se verificaron en vivo el interruptor con JavaScript desactivado y la selección exclusiva del AVIF con movimiento reducido, sin solicitudes al GIF. Las capturas y las conversiones de trabajo se conservan únicamente en temporales del sistema durante la revisión y se eliminan al cerrar esta entrega.
+
+Las 48 combinaciones de rutas, anchos y densidades se repitieron en producción sin fallos. El recorrido inicial omitía ocasionalmente una imagen de `/equipos/` al filtrar por visibilidad antes de recorrer las secciones diferidas; se corrigió la prueba para recorrer todas las imágenes y esperar su decodificación. No fue necesario modificar esa fotografía ni su URL.
