@@ -1,0 +1,27 @@
+{
+  "src": "/img/animaciones/servicio-helado.gif",
+  "poster": "/img/animaciones/servicio-helado-poster.avif",
+  "width": 480,
+  "height": 360,
+  "frames": 9,
+  "duration_ms": 1800,
+  "bytes": 489810,
+  "alt": "Una cuchara forma una porción de helado de fresa",
+  "source": {
+    "author": "Pixabay",
+    "page": "https://www.pexels.com/video/video-of-scooping-icecream-855128/",
+    "download": "https://videos.pexels.com/video-files/855128/855128-hd_1280_720_24fps.mp4",
+    "license": "CC0, indicada en la ficha de Pexels",
+    "license_url": "https://www.pexels.com/creative-commons-images/",
+    "sha256": "53bddba12e94150c5bffc733e05ea903f27ebd72833c1d0f5ba535a9e35983d9"
+  },
+  "processing": {
+    "start_seconds": 6,
+    "seconds": 1.8,
+    "fps": 5,
+    "crop": "centro, 4:3",
+    "colors": 128,
+    "dither": "none",
+    "denoise": "hqdn3d=3:3:5:5"
+  }
+}
