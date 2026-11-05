@@ -1,0 +1,158 @@
+[
+  {
+    "file": "img/catalogo/ingredientes/bosque-160.avif",
+    "status": 200,
+    "bytes": 3574,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/vainilla-160.avif",
+    "status": 200,
+    "bytes": 5322,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/bosque-280.avif",
+    "status": 200,
+    "bytes": 7766,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/bosque-400.avif",
+    "status": 200,
+    "bytes": 12802,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/bosque-492.avif",
+    "status": 200,
+    "bytes": 18100,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/vainilla-400.avif",
+    "status": 200,
+    "bytes": 16511,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/vainilla-280.avif",
+    "status": 200,
+    "bytes": 10777,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/vainilla-492.avif",
+    "status": 200,
+    "bytes": 24237,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/caramelo-160.avif",
+    "status": 200,
+    "bytes": 3804,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/caramelo-280.avif",
+    "status": 200,
+    "bytes": 8393,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/caramelo-492.avif",
+    "status": 200,
+    "bytes": 19479,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/coco-280.avif",
+    "status": 200,
+    "bytes": 3897,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/coco-160.avif",
+    "status": 200,
+    "bytes": 1904,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/coco-400.avif",
+    "status": 200,
+    "bytes": 6232,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/caramelo-400.avif",
+    "status": 200,
+    "bytes": 14112,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/coco-492.avif",
+    "status": 200,
+    "bytes": 8455,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/salted-160.avif",
+    "status": 200,
+    "bytes": 3330,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/salted-280.avif",
+    "status": 200,
+    "bytes": 7821,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/salted-400.avif",
+    "status": 200,
+    "bytes": 14178,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-160.avif",
+    "status": 200,
+    "bytes": 1916,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-280.avif",
+    "status": 200,
+    "bytes": 4055,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-400.avif",
+    "status": 200,
+    "bytes": 7075,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/salted-492.avif",
+    "status": 200,
+    "bytes": 21056,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-600.avif",
+    "status": 200,
+    "bytes": 14181,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-800.avif",
+    "status": 200,
+    "bytes": 23161,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/ingredientes/frambuesas-stock-1000.avif",
+    "status": 200,
+    "bytes": 34939,
+    "match": true
+  }
+]

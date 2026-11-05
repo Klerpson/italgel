@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-04T20:55:25.210Z",
+  "base": "http://127.0.0.1:4176",
+  "checks": 27,
+  "failures": [],
+  "overflow": [
+    {
+      "url": "/equipos-cafe/mini-neo/",
+      "width": 768,
+      "scrollWidth": 781
+    },
+    {
+      "url": "/equipos-cafe/cedar-63c/",
+      "width": 768,
+      "scrollWidth": 771
+    }
+  ]
+}

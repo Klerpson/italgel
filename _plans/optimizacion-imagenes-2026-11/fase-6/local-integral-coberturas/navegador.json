@@ -1,0 +1,566 @@
+[
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-280.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 248,
+        "height": 103
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-280.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 248,
+        "height": 248
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 318,
+        "height": 132
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 318,
+        "height": 318
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-600.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 538,
+        "height": 224
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 432,
+        "height": 432
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-280.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 291,
+        "height": 121
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 291,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 368,
+        "height": 153
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 368,
+        "height": 368
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-280.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-600.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 563,
+        "height": 234
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/fiordilampone-frambuesa-variegato.avif",
+        "alt": "Variegato de frambuesa Fiordilampone",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-472.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 415,
+        "height": 415
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 432,
+        "height": 432
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-492.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Salted caramel variegato dulce de leche salado",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  }
+]

@@ -1,0 +1,3470 @@
+[
+  {
+    "url": "/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 288,
+        "height": 360
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 222,
+        "height": 222
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 222,
+        "height": 222
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 222,
+        "height": 222
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 288,
+        "height": 218
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 358,
+        "height": 447
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 208,
+        "height": 208
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 208,
+        "height": 208
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 208,
+        "height": 208
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 358,
+        "height": 272
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 549,
+        "height": 549
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 229,
+        "height": 229
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 589,
+        "height": 447
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 589,
+        "height": 447
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 589,
+        "height": 447
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 549,
+        "height": 549
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 211,
+        "height": 211
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 211,
+        "height": 211
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 211,
+        "height": 211
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 276,
+        "height": 276
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 337,
+        "height": 256
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 337,
+        "height": 256
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 337,
+        "height": 256
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 348,
+        "height": 348
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 348,
+        "height": 435
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 226,
+        "height": 226
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 426,
+        "height": 323
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 426,
+        "height": 323
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 426,
+        "height": 323
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 516,
+        "height": 516
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 517,
+        "height": 646
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/catalogo/salted-caramel-variegato-280.avif",
+        "alt": "Variegato salted caramel en cubeta de helado",
+        "width": 217,
+        "height": 217
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 217,
+        "height": 217
+      },
+      {
+        "src": "/img/catalogo/fiordibosco-frutos-bosque-280.avif",
+        "alt": "Variegato Fiordibosco de frutos del bosque en cubeta",
+        "width": 217,
+        "height": 217
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 253,
+        "height": 253
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 416,
+        "height": 316
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 416,
+        "height": 316
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 416,
+        "height": 316
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/equipos/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-280.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 248,
+        "height": 310
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 325,
+        "height": 325
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 325,
+        "height": 325
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 325,
+        "height": 325
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 318,
+        "height": 397
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-600.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 538,
+        "height": 538
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 538,
+        "height": 538
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 538,
+        "height": 538
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 537,
+        "height": 672
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 307,
+        "height": 307
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 307,
+        "height": 307
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 307,
+        "height": 307
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 291,
+        "height": 363
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 387,
+        "height": 387
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 387,
+        "height": 387
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 387,
+        "height": 387
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 368,
+        "height": 460
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas para hacer helado Coldelite y Valmar distribuidas por Italgel en Colombia",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso Hambach Tank 2",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora artesanal Coldelite",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina de helado soft Coldelite",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "alt": "Máquina de helado soft generando ingresos en cafetería",
+        "width": 560,
+        "height": 700
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-helados-artesanal-400.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 248,
+        "height": 248
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-400.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-helados-artesanal-400.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 318,
+        "height": 318
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-400.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-helados-artesanal.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 538,
+        "height": 538
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-280.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 549,
+        "height": 549
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-helados-artesanal.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 291,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-400.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 321,
+        "height": 321
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-helados-artesanal-400.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 368,
+        "height": 368
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-280.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 406,
+        "height": 406
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-helados-artesanal.avif",
+        "alt": "Máquinas de helado artesanal y soft en el obrador de una heladería",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora profesional para gelato artesanal",
+        "width": 549,
+        "height": 549
+      },
+      {
+        "src": "/img/catalogo/fabricantes/promag-stargel-4-608.avif",
+        "alt": "Mantecadora de mesa Promag Stargel 4",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar Snowy 7 M sobre fondo blanco",
+        "width": 549,
+        "height": 549
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-soft-400.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 248,
+        "height": 248
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-280.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 248,
+        "height": 310
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-soft-400.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 318,
+        "height": 318
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 318,
+        "height": 397
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-soft.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 538,
+        "height": 538
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-280.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 537,
+        "height": 672
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-soft.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 291,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 291,
+        "height": 363
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-soft-400.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 368,
+        "height": 368
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-280.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/maquina-soft-mesa-negocio-400.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 368,
+        "height": 460
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-soft.avif",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "width": 563,
+        "height": 563
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "width": 560,
+        "height": 700
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 6
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-helado-400.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-400.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 288,
+        "height": 360
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-280.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 248,
+        "height": 131
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-helado-400.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-400.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 358,
+        "height": 447
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-400.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 318,
+        "height": 168
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-helado.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/produccion-helado.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-600.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 538,
+        "height": 286
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-helado.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-400.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 321,
+        "height": 401
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-800.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 645,
+        "height": 342
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/maquina-industrial-helado-400.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/produccion-helado.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 405,
+        "height": 507
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-1080.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 806,
+        "height": 428
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/maquina-industrial-helado.avif",
+        "alt": "Máquinas de helado industrial: línea de producción Valmar para fabricación a gran escala",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/produccion-helado.avif",
+        "alt": "Línea de producción continua de helado para fabricación industrial",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/catalogo/produccion-helado-industrial-1080.avif",
+        "alt": "Equipos industriales de acero inoxidable instalados en planta de helado",
+        "width": 1080,
+        "height": 574
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-400.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 248,
+        "height": 310
+      },
+      {
+        "src": "/img/catalogo/quella-family-textura-280.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 248,
+        "height": 310
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-280.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 248,
+        "height": 310
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-400.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 318,
+        "height": 397
+      },
+      {
+        "src": "/img/catalogo/quella-family-textura-400.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 318,
+        "height": 397
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 318,
+        "height": 397
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-584.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 537,
+        "height": 672
+      },
+      {
+        "src": "/img/quella-family-textura.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 537,
+        "height": 672
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 537,
+        "height": 672
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-584.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 291,
+        "height": 363
+      },
+      {
+        "src": "/img/catalogo/quella-family-textura-400.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 291,
+        "height": 363
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 291,
+        "height": 363
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-400.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 368,
+        "height": 460
+      },
+      {
+        "src": "/img/catalogo/quella-family-textura-400.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 368,
+        "height": 460
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 368,
+        "height": 460
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/productos-quella/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/quella-family-variegatos-584.avif",
+        "alt": "Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+        "alt": "Envase de crema de chocolate Quella sobre fondo verde ilustrado",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/quella-family-textura.avif",
+        "alt": "Vaso de helado de crema Quella White",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "Vaso de helado con crema de caramelo y chocolate Quella",
+        "width": 560,
+        "height": 700
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-400.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-400.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-400.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 288,
+        "height": 192
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 429,
+        "height": 196
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 288,
+        "height": 218
+      }
+    ],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 544,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 87,
+        "height": 87
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-400.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-400.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-400.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 358,
+        "height": 238
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 523,
+        "height": 239
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 358,
+        "height": 272
+      }
+    ],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 544,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 588,
+        "height": 447
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-600.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-600.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-600.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 589,
+        "height": 392
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-920.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 859,
+        "height": 392
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 589,
+        "height": 447
+      }
+    ],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 587,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-800.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 706,
+        "height": 536
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-800.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-800.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-800.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 337,
+        "height": 224
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 493,
+        "height": 225
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 337,
+        "height": 256
+      }
+    ],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 705,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 384,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-600.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-600.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-600.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 426,
+        "height": 284
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 420,
+        "height": 192
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 426,
+        "height": 323
+      }
+    ],
+    "tables": [
+      {
+        "width": 593,
+        "scrollWidth": 593,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 540,
+        "height": 410
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-mantecado-incorporacion-aire-920.avif",
+        "alt": "Proceso de mantecado incorporando aire en helado artesanal",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/blog/optimizadas/medicion-peso-helado-overrun-920.avif",
+        "alt": "Distintas presentaciones de helado: cono, copa, paleta y vaso",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/blog/optimizadas/comparacion-texturas-overrun-helado-920.avif",
+        "alt": "Comparación de texturas de helado con diferentes porcentajes de overrun",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 416,
+        "height": 277
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-800.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 630,
+        "height": 287
+      },
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 416,
+        "height": 316
+      }
+    ],
+    "tables": [
+      {
+        "width": 812,
+        "scrollWidth": 812,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 8
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-400.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-400.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-400.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-400.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 288,
+        "height": 131
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 288,
+        "height": 192
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 429,
+        "height": 196
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 288,
+        "height": 218
+      }
+    ],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 553,
+        "moved": 20,
+        "overflow": "auto"
+      },
+      {
+        "width": 286,
+        "scrollWidth": 544,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 87,
+        "height": 87
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-400.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-400.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-400.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-400.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 358,
+        "height": 163
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 358,
+        "height": 238
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 523,
+        "height": 239
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 358,
+        "height": 272
+      }
+    ],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 553,
+        "moved": 20,
+        "overflow": "auto"
+      },
+      {
+        "width": 356,
+        "scrollWidth": 544,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 588,
+        "height": 447
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-600.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-600.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-600.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-600.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 589,
+        "height": 268
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 589,
+        "height": 392
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-920.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 859,
+        "height": 392
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 589,
+        "height": 447
+      }
+    ],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 587,
+        "moved": 0,
+        "overflow": "auto"
+      },
+      {
+        "width": 587,
+        "scrollWidth": 587,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 706,
+        "height": 536
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-800.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-800.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-800.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-800.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 707,
+        "height": 322
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-400.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 337,
+        "height": 224
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 493,
+        "height": 225
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-400.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 337,
+        "height": 256
+      }
+    ],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 705,
+        "moved": 0,
+        "overflow": "auto"
+      },
+      {
+        "width": 705,
+        "scrollWidth": 705,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-400.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 384,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-600.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-600.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-600.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-600.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 594,
+        "height": 271
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 426,
+        "height": 284
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-600.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 420,
+        "height": 192
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 426,
+        "height": 323
+      }
+    ],
+    "tables": [
+      {
+        "width": 593,
+        "scrollWidth": 593,
+        "moved": 0,
+        "overflow": "auto"
+      },
+      {
+        "width": 593,
+        "scrollWidth": 593,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+        "alt": "Termómetro digital durante la pasteurización de la mezcla para helado en una marmita profesional",
+        "width": 540,
+        "height": 410
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 148,
+        "height": 148
+      },
+      {
+        "src": "/img/blog/optimizadas/proceso-pasteurizacion-helado-artesanal-920.avif",
+        "alt": "Proceso de pasteurización de mezcla de helado",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/blog/optimizadas/control-temperatura-pasteurizacion-helado-920.avif",
+        "alt": "Control de temperatura en pasteurización de helado",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/blog/optimizadas/enfriamiento-rapido-mezcla-helado-920.avif",
+        "alt": "Enfriamiento rápido después de pasteurización",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/blog/optimizadas/bases-profesionales-pasteurizadas-helado-920.avif",
+        "alt": "Bases profesionales para helado",
+        "width": 814,
+        "height": 371
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "Logo de Italgel",
+        "width": 104,
+        "height": 104
+      },
+      {
+        "src": "/img/blog/optimizadas/sorbete-artesanal-frutas-colombia-600.avif",
+        "alt": "Sorbetes artesanales de frutas tropicales en vitrina de heladería: guanábana, mango y maracuyá",
+        "width": 416,
+        "height": 277
+      },
+      {
+        "src": "/img/blog/optimizadas/diferencia-gelato-helado-artesanal-800.avif",
+        "alt": "Gelato italiano denso en vitrina pozzetti junto a helado artesanal en vitrina vertical",
+        "width": 630,
+        "height": 287
+      },
+      {
+        "src": "/img/blog/optimizadas/calcular-overrun-helado-artesanal-600.avif",
+        "alt": "Heladero artesanal midiendo overrun en mantecadora profesional con medidor de densidad",
+        "width": 416,
+        "height": 316
+      }
+    ],
+    "tables": [
+      {
+        "width": 812,
+        "scrollWidth": 812,
+        "moved": 0,
+        "overflow": "auto"
+      },
+      {
+        "width": 812,
+        "scrollWidth": 812,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 9
+  }
+]

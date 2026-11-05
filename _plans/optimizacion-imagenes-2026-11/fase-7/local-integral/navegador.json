@@ -1,0 +1,3818 @@
+[
+  {
+    "url": "/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 288,
+        "height": 360
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 288,
+        "height": 252
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 222,
+        "height": 222
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 230,
+        "height": 230
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 288,
+        "height": 218
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 288,
+        "height": 218
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 358,
+        "height": 447
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-480.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-480.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-480.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 358,
+        "height": 313
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 208,
+        "height": 208
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 286,
+        "height": 286
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 358,
+        "height": 272
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 358,
+        "height": 272
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 549,
+        "height": 549
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 149,
+        "height": 149
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 186,
+        "height": 162
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 229,
+        "height": 229
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 229,
+        "height": 229
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 229,
+        "height": 229
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 589,
+        "height": 447
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 589,
+        "height": 447
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 589,
+        "height": 447
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 549,
+        "height": 549
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 225,
+        "height": 196
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 276,
+        "height": 276
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 211,
+        "height": 211
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 276,
+        "height": 276
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 276,
+        "height": 276
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-400.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 337,
+        "height": 256
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-400.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 337,
+        "height": 256
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-400.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 337,
+        "height": 256
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/catalogo/equipos-heladeria-coldelite-400.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 348,
+        "height": 348
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 189,
+        "height": 189
+      },
+      {
+        "src": "/img/catalogo/vitrina-helado-400.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 348,
+        "height": 435
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 236,
+        "height": 206
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 226,
+        "height": 226
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 223,
+        "height": 223
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 226,
+        "height": 226
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 226,
+        "height": 226
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 426,
+        "height": 323
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 426,
+        "height": 323
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 426,
+        "height": 323
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "photos": [
+      {
+        "src": "/img/equipos-heladeria-coldelite.avif",
+        "alt": "Máquinas de helado Coldelite exhibidas bajo el logo de Italgel",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "Cafetera espresso industrial Hambach Tank 2 de dos grupos",
+        "width": 800,
+        "height": 700
+      },
+      {
+        "src": "/img/vitrina-helado-exhibicion.avif",
+        "alt": "Vitrina curva de exhibición para helado artesanal en la barra de una heladería",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "src": "/img/iceteam.avif",
+        "alt": "Logo de Iceteam 1927",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-sagi.avif",
+        "alt": "Logo de Sagi",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/easybest-refrigeracion-helados.avif",
+        "alt": "Logo de EasyBest",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/maquinas-helado-italitanas-coldelite.avif",
+        "alt": "Logo de Coldelite",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/proveedor-mezclas-helado-mec3.avif",
+        "alt": "Logo de MEC3",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/toppings-helado-valmar.avif",
+        "alt": "Logo de Valmar",
+        "width": 300,
+        "height": 100
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+        "alt": "Mantecadora Valmar para gelato artesanal",
+        "width": 516,
+        "height": 516
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+        "alt": "Máquina de helado suave (soft) Coldelite de tres sabores para negocio",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+        "alt": "Mantecadora Coldelite para gelato y helado duro artesanal",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+        "alt": "Pasteurizadora Valmar Sweety 60 Quick para mezcla de helado",
+        "width": 184,
+        "height": 184
+      },
+      {
+        "src": "/img/vitrina-helado.avif",
+        "alt": "Vitrina para helado artesanal con bandejas de sabores a la vista",
+        "width": 517,
+        "height": 646
+      },
+      {
+        "src": "/img/cafe/tarjetas/mini-neo-320.avif",
+        "alt": "Cafetera espresso Hambach Mini Neo para casa",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/cafe/tarjetas/falcon-320.avif",
+        "alt": "Cafetera espresso Hambach Falcon para restaurantes y pastelerías",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/cafe/tarjetas/tank-2-320.avif",
+        "alt": "Cafetera industrial Hambach Tank 2 de dos grupos",
+        "width": 230,
+        "height": 201
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 253,
+        "height": 253
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Variegato de tiramisú para helado artesanal",
+        "width": 217,
+        "height": 217
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 253,
+        "height": 253
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja en cubeta de helado",
+        "width": 253,
+        "height": 253
+      },
+      {
+        "src": "/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
+        "alt": "Heladería artesanal profesional en Colombia con vitrina de gelato, equipos Coldelite y carta de sabores visible",
+        "width": 416,
+        "height": 316
+      },
+      {
+        "src": "/img/blog/optimizadas/rentabilidad-heladeria-colombia-margenes-600.avif",
+        "alt": "Heladero colombiano con la calculadora de costos para medir la rentabilidad de una heladería, con la vitrina de helado al fondo",
+        "width": 416,
+        "height": 316
+      },
+      {
+        "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+        "alt": "Variegato para helado de frambuesa aplicado en capas sobre helado artesanal en una heladería",
+        "width": 416,
+        "height": 316
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-280.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 248,
+        "height": 310
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-280.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-280.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 195
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 318,
+        "height": 397
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 242
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 537,
+        "height": 672
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 188
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 291,
+        "height": 363
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 228
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 368,
+        "height": 460
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 185
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 205
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/pasta-arandano-helado-sorbet-280.avif",
+        "alt": "Pasta de arándano para sorbete natural",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-limon-siciliano-sorbet-280.avif",
+        "alt": "Pasta de limón siciliano para sorbete",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-mandarina-helado-citrico-280.avif",
+        "alt": "Pasta de mandarina para helado cítrico",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-dragon-summer-helado-exotico-280.avif",
+        "alt": "Pasta Dragon Summer para helado de pitaya",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 195
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 242
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 188
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 228
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 185
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-helado-artesanal-280.avif",
+        "alt": "Pasta de chocolate para helado profesional",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 205
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/pasta-stracciatella-chips-chocolate-280.avif",
+        "alt": "Pasta stracciatella con chips de chocolate",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/pasta-chocolate-blanco-helado-280.avif",
+        "alt": "Pasta de chocolate blanco para helado cremoso",
+        "width": 280,
+        "height": 280
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-mec3-400.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-280.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-280.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-280.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-280.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 248,
+        "height": 168
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-mec3-400.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-400.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-400.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 318,
+        "height": 215
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar-helado.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/vainas-vainilla.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/helado-vainas-vainilla-madagascar.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 537,
+        "height": 364
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-400.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-400.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 291,
+        "height": 197
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pasta-vainilla-bourbon-mec3-400.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-madagascar-helado-400.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/vainas-vainilla-400.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/helado-vainas-vainilla-madagascar-400.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 368,
+        "height": 249
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "Pasta de Vainilla Bourbon MEC3 con caviar de vainilla natural distribuida por Italgel Colombia",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar.avif",
+        "alt": "Bolas de helado de vainilla en canasta de barquillo",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/vainas-vainilla-madagascar-helado.avif",
+        "alt": "Helado cremoso de vainilla trabajado con espátula",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/vainas-vainilla.avif",
+        "alt": "Textura cremosa de helado de vainilla recién servido",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/helado-vainas-vainilla-madagascar.avif",
+        "alt": "Bolas de helado de vainilla con vaina de vainilla sobre mesa de madera",
+        "width": 563,
+        "height": 381
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-280.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 248,
+        "height": 103
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-400.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-280.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 248,
+        "height": 248
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 318,
+        "height": 132
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-400.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 318,
+        "height": 318
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-600.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 538,
+        "height": 224
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-280.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 432,
+        "height": 432
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-280.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 291,
+        "height": 121
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-400.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-400.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 291,
+        "height": 291
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-400.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 337,
+        "height": 337
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-400.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 368,
+        "height": 153
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-280.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 368,
+        "height": 368
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-280.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+        "alt": "Coberturas y salsas para helado: paleta bañada en cobertura y helados con salsa de chocolate",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/fiordiamarena-variegato-cerezas-600.avif",
+        "alt": "Helado con cerezas Amarena Fabbri y su almíbar",
+        "width": 563,
+        "height": 234
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "alt": "Variegato Fiordifragola de fresa natural",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/catalogo/ingredientes/frambuesas-stock-600.avif",
+        "alt": "Frambuesa fresca sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-492.avif",
+        "alt": "Helado de frutos del bosque; imagen ilustrativa del sabor",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fiordiarancio-naranja-variegato-472.avif",
+        "alt": "Variegato Fiordiarancio de naranja",
+        "width": 415,
+        "height": 415
+      },
+      {
+        "src": "/img/catalogo/quella-original-chocolate-avellana-432.avif",
+        "alt": "Quella Original chocolate con avellana para helado",
+        "width": 432,
+        "height": 432
+      },
+      {
+        "src": "/img/catalogo/quella-white-chocolate-blanco-492.avif",
+        "alt": "Quella White chocolate blanco",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+        "alt": "Presentación de crema Quella Dark publicada por MEC3",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+        "alt": "Presentación de crema Quella Pistacchio publicada por MEC3",
+        "width": 416,
+        "height": 416
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-492.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 416,
+        "height": 416
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 13
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-400.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-400.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-520.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-520.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-400.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 337,
+        "height": 337
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-400.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-280.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/salsas-especiales-helado-520.avif",
+        "alt": "Salsas para helado de chocolate y caramelo sobre bolas de chocolate, frutos rojos y vainilla",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/whisky-variegato-adultos-280.avif",
+        "alt": "Whisky variegato para helado adultos",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/tiramisu-variegato-italiano-280.avif",
+        "alt": "Tiramisú variegato para gelato italiano",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-492.avif",
+        "alt": "Helado decorado con caramelo y palomitas; imagen ilustrativa",
+        "width": 416,
+        "height": 416
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/variegatos-helado-400.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-280.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-280.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-280.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/veteado-variegato-280.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 248,
+        "height": 168
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/variegatos-helado-400.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-400.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-400.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/veteado-variegato-400.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 318,
+        "height": 215
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/variegatos-helado.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/tecnica-veteado-variegato-helado.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-584.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/veteado-variegato.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 537,
+        "height": 364
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/variegatos-helado.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-400.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-400.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/veteado-variegato-400.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 291,
+        "height": 197
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/variegatos-helado-400.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-400.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-400.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/veteado-variegato-400.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 368,
+        "height": 249
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/variegatos-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/variegatos-helado.avif",
+        "alt": "Variegatos para helado: bandejas de helado artesanal con vetas de colores",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+        "alt": "Bandejas de helado artesanal veteado con variegato en vitrina",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/tecnica-veteado-variegato-helado.avif",
+        "alt": "Helados veteados con chocolate y caramelo en vitrina de gelatería",
+        "width": 556,
+        "height": 377
+      },
+      {
+        "src": "/img/catalogo/tecnica-variegato-584.avif",
+        "alt": "Variedad de helados artesanales con vetas de variegato en bandejas",
+        "width": 532,
+        "height": 360
+      },
+      {
+        "src": "/img/veteado-variegato.avif",
+        "alt": "Helados cremosos con veteado de chocolate en vitrina de gelatería",
+        "width": 522,
+        "height": 353
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  }
+]

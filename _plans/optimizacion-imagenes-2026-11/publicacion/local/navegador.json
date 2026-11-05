@@ -1,0 +1,419 @@
+[
+  {
+    "url": "/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/blog/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 781,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 771,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  }
+]

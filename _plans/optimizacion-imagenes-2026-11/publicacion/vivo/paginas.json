@@ -1,0 +1,511 @@
+[
+  {
+    "url": "/author-admin/",
+    "status": 200,
+    "redirect": "/blog/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/author/admin/",
+    "status": 200,
+    "redirect": "/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/base-50-mec3-2kg/",
+    "status": 200,
+    "redirect": "/bases-helado-colombia/base-50-mec3/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/404.html",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.jpg",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/base-50-mec3/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/base-50-mec3-italgel-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/bases-stevia-helado-492.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/bases-helado-italgel-colombia-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/supergelmix/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/supergelmix-mec3-helado-soft-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/bases-helado-colombia/neutralin-plus/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/amarena-fabbri-heladeria-gelato.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/base-50-mec3-vs-supergelmix-comparativa.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/como-abrir-heladeria-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/como-calcular-overrun-helado-artesanal/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/calcular-overrun-helado-artesanal.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/como-elegir-maquina-helado-negocio/",
+    "status": 200,
+    "redirect": "/equipos/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/conservacion-bases-helado-mec3/",
+    "status": 200,
+    "redirect": "/bases-helado-colombia/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/crema-de-whisky-para-helado-variegato/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/variegato-whisky-helado-premium.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog-itagel.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/pasta-pistacho-helado-profesional.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/pasteurizacion-mezcla-helado-artesanal.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/pasta-vainilla-helado-artesanal.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/proveedores-insumos-heladeria-colombia/",
+    "status": 200,
+    "redirect": "/insumos/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/diferencia-gelato-helado-artesanal.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/que-son-las-granelas-para-helado/",
+    "status": 200,
+    "redirect": "/blog/tipos-de-toppings-para-helado/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/sorbete-artesanal-frutas-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/rentabilidad-heladeria-colombia/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/rentabilidad-heladeria-colombia-margenes.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/que-es-el-variegato-para-helado/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/variegato-para-helado-profesional.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/tipo-de-toppings-para-helado/",
+    "status": 200,
+    "redirect": "/blog/tipos-de-toppings-para-helado/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/toppings-helado-mas-vendidos/",
+    "status": 200,
+    "redirect": "/blog/tipos-de-toppings-para-helado/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/blog/tipos-toppings-para-helado-profesional.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/blog/toppings-para-helado-mas-rentables/",
+    "status": 200,
+    "redirect": "/blog/tipos-de-toppings-para-helado/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/cafes-de-colombia-expo/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/heladeria-artesanal-italgel-cafes-de-colombia-expo-2026.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/fiordiamarena-variegato-cerezas-1080.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/contactenos/",
+    "status": 200,
+    "redirect": "/contacto/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/coberturas-salsas-helado/salsas-especiales/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/salsas-especiales-helado-520.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/coberturas-salsas-helado/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/coberturas-helado-italgel-colombia-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/contacts/sebastian-rios/",
+    "status": 200,
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/elementor-hf/footer/",
+    "status": 200,
+    "redirect": "/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/elementor-hf/header/",
+    "status": 200,
+    "redirect": "/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/contacto/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/equipos-heladeria-coldelite.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/cedar-63c.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/cruiser.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/ebony-64.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/falcon.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/tank-2.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/mini-neo.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/oak-60.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/tank-1.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/swan.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/cafe/tank-2.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/hello-world/",
+    "status": 200,
+    "redirect": "/blog/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/equipos-heladeria-coldelite.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos/bases-para-helado/",
+    "status": 200,
+    "redirect": "/bases-helado-colombia/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/insumos-heladeria-italgel-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos-heladeria-barranquilla/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos-heladeria-bucaramanga/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos-heladeria-medellín/",
+    "status": 200,
+    "redirect": "/insumos-heladeria-medellin/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/granelas-decoracion/",
+    "status": 200,
+    "redirect": "/variegatos-helado/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/italgel/blog/",
+    "status": 200,
+    "redirect": "/blog/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/insumos-heladeria-cali/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/contacto-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/italgel/contacto/",
+    "status": 200,
+    "redirect": "/contacto/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/italgel/pastas-sabores-helado/pastas-fruta/",
+    "status": 200,
+    "redirect": "/pastas-sabores-helado/pastas-fruta/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/legal/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/italgel-colombia-distribuidor-heladerias.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-artesanales/",
+    "status": 200,
+    "redirect": "/maquinas-helado-artesanal/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-helado-industrial/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/maquina-industrial-helado.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-helado-soft/coldelite-compacta-3/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/coldelite-compacta-3-soft.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-helado-soft/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/maquina-industrial-soft.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-helado-artesanal/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/maquina-helados-artesanal.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/maquinas-soft/",
+    "status": 200,
+    "redirect": "/maquinas-helado-soft/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/nosotros/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/italgel-colombia-distribuidor-heladerias.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-pistacho/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/pasta-pistacho-siciliano-mec3-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/pasta-vainilla/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/pastas-fruta-helado.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-premium/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/vitrinas/",
+    "status": 200,
+    "redirect": "/vitrinas-congeladores/",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/variegatos-helado/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/variegatos-helado.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/vitrinas-congeladores/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/vitrinas-congeladores-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/productos-quella/",
+    "status": 200,
+    "image": "https://italgel.com.co/img/catalogo/quella-family-variegatos-584.avif",
+    "dimensionsCorrect": true
+  },
+  {
+    "url": "/wp-includes/",
+    "status": 200,
+    "redirect": "/404.html",
+    "dimensionsCorrect": true
+  }
+]

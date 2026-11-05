@@ -1,0 +1,398 @@
+[
+  {
+    "path": "/img/cafe/tarjetas/mini-neo-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 6537,
+    "sha256": "a8e5c514a0bb7cbcecffe73b72b1a7f6c56b6094ab24c8d252b9b277021021c7",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/swan-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 3556,
+    "sha256": "0a652fbacd0b22a99d913114b139a5315e45c21f007f5d4c1d5f22b1178c370b",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/mini-neo-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 11684,
+    "sha256": "37d797c9a8fa4df32746d85ba553fb3fc7ab86770726bba80b38ebb0cfb674c3",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/mini-neo-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2674,
+    "sha256": "bdb31631bb5a0a766e8dd392020da3ca279c59fa0cb36a22ce6bc91fb81462df",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/mini-neo-568.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 14995,
+    "sha256": "1f4079a5890f096a081384191f84c9817db507d2d5b3e599c12cd3c4238fd1ea",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/swan-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 17265,
+    "sha256": "8197f3d91c577a66f312448d268ea4cc77659b87050bd72a66d31a4461e6cd11",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/falcon-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2607,
+    "sha256": "6aa77cde94225fbb4fd7e4790162dafddf9dc31fbe6a18ad70ccfa9ae656bff6",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/falcon-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 6585,
+    "sha256": "d12bb00295995bf0cd772591faedf5f648bd2ee812e79d1bcd12a884cef2cb3c",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/swan-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 9931,
+    "sha256": "cb6d46626a95fe9ec2218f1c4e0fd61f34a0aebc6437d5c4349bfd64247a38c2",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/swan-552.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 21339,
+    "sha256": "1b94db0d2d71e5cd7760654a7af3abde0955607b4acb48a1805fcc75ec4d288e",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/falcon-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 11482,
+    "sha256": "07f73e521fbf59a87d0a98404af98adfd3a797d4a4a4bf91aa23ca95914d2122",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/falcon-528.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 13314,
+    "sha256": "2351ab9cb01dd149beba316acc2abc7e0c9b79f0d616c8e37a44deedd18a0512",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-1-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 3445,
+    "sha256": "2f2a37a901a6d2c392f2b5f3662f35b5a109b005b5c8fb99f97ecffd8dae130f",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-1-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 9297,
+    "sha256": "98c3401a0a8b2c87cf2a1e72a477c451e50ac8ffa07e3663086a19383d3a7181",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-1-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 16177,
+    "sha256": "032bd37877a8971256e20361ba9934604dd4a02c4eda5399a639fb8b0da36b9d",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-2-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 3067,
+    "sha256": "dc800bb8562c6780e1c24615fe9af637ad040fae8dfb7b0adcaa4a272480acc8",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-1-528.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 18891,
+    "sha256": "4c8216787d89969d24528f71c9a647e955b65fb432a10f43b066494b65d87010",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-2-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 8119,
+    "sha256": "c209570ac1d785925dca2d714d0fac08a4c7d033f81dfbe9f63a328f163316f1",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-2-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 14506,
+    "sha256": "f8a8fdb0730f00d592a53831d80bc33e2861c8b698794368dfbdbd2808d0eabc",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/tank-2-656.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 22329,
+    "sha256": "0208e756a6a050750ef8c4d714adbc6649df48c49a51ae175d8db9e466f0fe48",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cruiser-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2793,
+    "sha256": "78e41399a0cbb7e6bff4efa3a6e910749c0d8eeb332f6abb9d98462ccaafbef6",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cruiser-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 7088,
+    "sha256": "43f3c8dc25fc1db958aaa43e660c4d82a7314aa25b83757bd339e9e8cad3976f",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cruiser-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 12250,
+    "sha256": "c8cb06e112d8c8448a8fe77063510e5ad2d0720c765ee0794f586d967817d726",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cedar-63c-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 1359,
+    "sha256": "78882d12fc39bc597e5c00fb54d6e73285a744ec27a4af56a8fc5a5da4a1857f",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cruiser-640.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 18304,
+    "sha256": "0d985b52303b5a05a71b0b437c1f27bd2ab66937f5502b0ad00723fd59114e63",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cedar-63c-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2841,
+    "sha256": "5787d0fc14e4cbf0e03fb02121f88af520ef00a1c5c953dd2c20c7c1422ae75a",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cedar-63c-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 4763,
+    "sha256": "2ad57dfbc226058795f9a3e0db16ed04f16a8d0cf7a1bcaafe6039e408b8ed15",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cedar-63c-640.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 6682,
+    "sha256": "44f386d3f37896cebbb7bc97e9f005e9a461b344bbde7cb2e1f360fa69d756be",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/cedar-63c-784.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 8685,
+    "sha256": "83f89ad053d0f937a94d53b200440e974525acdcade02ffe8ef2991b0e840899",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/oak-60-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 1355,
+    "sha256": "3499fc1d6e5cab59832887b703c44836d803dee82f80f83c8a8a64ae783dba88",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/oak-60-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2721,
+    "sha256": "35a3bff7e05f0d9ea3f2458cddbc20d8b11a5305aa5bf61f54e28ea3520b3838",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/oak-60-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 4636,
+    "sha256": "bd68a4f352eb3255da9ba62d3a27cfc5287911ac9fdf5ea97af078e1d3eaa72b",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/ebony-64-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 1352,
+    "sha256": "7e29646460417b4652d255144cc4ed95330dbb56ff6adb5dc440cfd73f908f49",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/oak-60-640.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 6619,
+    "sha256": "8b4b592b4eeac8500a3990af914d503e4b5bb9d964e3c2f634f1f668ad05da56",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/ebony-64-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2794,
+    "sha256": "6c64a365cf659dbd6299e48c5a54b885b942a4e07bf3ad45aee33478511a11c2",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/ebony-64-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 4974,
+    "sha256": "a9560a426d1295a95a77ea42cd7471baf29d76bb61cc9029a2d752468bbe62d7",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/ebony-64-640.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 7386,
+    "sha256": "b7e62ec9e40710356fa09e32adbac90475f49cb328acdb2edf0ce8cb3ba2fc5a",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/ebony-64-800.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 9584,
+    "sha256": "e2304b593d418b9ae79c0d7d5a16e818a0d125b163092f8dd628b3c67758f728",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/sequoia-74wt-160.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 1369,
+    "sha256": "522a5a7834265f9bca109d80f5a56cf49f896650a977397458d60d940b1e75fb",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/sequoia-74wt-320.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 2801,
+    "sha256": "4e24b089493f6caf98f8cfb326aada3d68864673e36fd065aae573ed5d6eaa6a",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/sequoia-74wt-640.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 6964,
+    "sha256": "12fb47e11ad3849ee0d9c9c4aa210baa5bf6032db515f8a60001efbb64cedd17",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/sequoia-74wt-768.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 8859,
+    "sha256": "b411cc3a7a9518fb2aba4087c54c837a02f62fe273230626766b6b172ad75fef",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/sequoia-74wt-480.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 4697,
+    "sha256": "ff4c049747ef3353f7ab945dae45225bde0b0bacf11cce3fbbede982027588de",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  },
+  {
+    "path": "/img/cafe/tarjetas/oak-60-768.avif",
+    "status": 200,
+    "type": "image/avif",
+    "bytes": 8385,
+    "sha256": "b027ce355c97bfbdf09e749a345fd7f774ab9fe1b62deb4e7f8cc34af1b04f5c",
+    "matchesLocal": true,
+    "cache": "max-age=600"
+  }
+]

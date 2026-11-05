@@ -1,0 +1,866 @@
+{
+  "https://maps.googleapis.com": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://www.googletagmanager.com": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://fonts.googleapis.com": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://fonts.gstatic.com": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://www.googletagmanager.com/ns.html?id=GTM-TH788DQN": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20P%C3%A1gina%20no%20encontrada%20%7C%20Italgel": [
+    "/404.html"
+  ],
+  "https://www.facebook.com/Mec3.Italgel": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://www.instagram.com/mec3colombia/": [
+    "/",
+    "/404.html",
+    "/bases-helado-colombia/",
+    "/bases-helado-colombia/base-50-mec3/",
+    "/bases-helado-colombia/bases-stevia/",
+    "/bases-helado-colombia/neutralin-plus/",
+    "/bases-helado-colombia/supergelmix/",
+    "/blog/",
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/cafes-de-colombia-expo/",
+    "/coberturas-salsas-helado/",
+    "/coberturas-salsas-helado/amarena-fabbri/",
+    "/coberturas-salsas-helado/salsas-especiales/",
+    "/contacto/",
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/",
+    "/equipos/",
+    "/insumos-heladeria-barranquilla/",
+    "/insumos-heladeria-bucaramanga/",
+    "/insumos-heladeria-cali/",
+    "/insumos-heladeria-medellin/",
+    "/insumos/",
+    "/legal/",
+    "/maquinas-helado-artesanal/",
+    "/maquinas-helado-industrial/",
+    "/maquinas-helado-soft/",
+    "/maquinas-helado-soft/coldelite-compacta-3/",
+    "/nosotros/",
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pasta-pistacho/",
+    "/pastas-sabores-helado/pasta-vainilla/",
+    "/pastas-sabores-helado/pastas-clasicas/",
+    "/pastas-sabores-helado/pastas-fruta/",
+    "/pastas-sabores-helado/pastas-premium/",
+    "/productos-quella/",
+    "/variegatos-helado/",
+    "/vitrinas-congeladores/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20insumos%20o%20equipos": [
+    "/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20vitrina%20EasyBest%20EasyBox%208%20de%208%20sabores%20con%20Italgel.": [
+    "/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20vitrina%20EasyBest%20July%2012%20de%2012%20sabores%20con%20Italgel.": [
+    "/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20vitrina%20EasyBest%20July%2018%20de%2018%20sabores%20con%20Italgel.": [
+    "/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix": [
+    "/bases-helado-colombia/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Blog%20de%20helader%C3%ADa%20profesional%20en%20Colombia": [
+    "/blog/"
+  ],
+  "https://cdn.lordicon.com": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20una%20entrada%20gratis%20para%20visitar%20a%20Italgel%20en%20Caf%C3%A9s%20de%20Colombia%20Expo": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://cafesdecolombiaexpo.com/": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://cafesdecolombiaexpo.com/es/preregistro": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://cdn.lordicon.com/eaegfqtv.json": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://cdn.lordicon.com/jdgfsfzr.json": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://cdn.lordicon.com/byupthur.json": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Te%20esperamos%20en%20Caf%C3%A9s%20de%20Colombia%20Expo%202026": [
+    "/cafes-de-colombia-expo/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Coberturas%20y%20salsas%20para%20helado%3A%20Quella%20y%20Fabbri": [
+    "/coberturas-salsas-helado/"
+  ],
+  "https://unsplash.com/photos/red-raspberry-on-white-background-jHcKq383ibg": [
+    "/coberturas-salsas-helado/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Contacto%20Italgel%3A%20cotiza%20m%C3%A1quinas%2C%20cafeteras%20e%20insumos%20para%20helader%C3%ADa": [
+    "/contacto/"
+  ],
+  "https://juli.com.co": [
+    "/contacto/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20para%20hacer%20helado%20y%20equipos%20para%20helader%C3%ADa%20en%20Colombia": [
+    "/equipos/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20equipos%20de%20caf%C3%A9%20Hambach%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Mini%20Neo%20DR%207121A%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Swan%20DR%207102C%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Falcon%20DR%207118A%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Tank%201%20DR%207005A%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Tank%202%20DR%207209A%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Cruiser%20DR%207208%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cruiser/",
+    "/equipos-cafe/falcon/",
+    "/equipos-cafe/mini-neo/",
+    "/equipos-cafe/swan/",
+    "/equipos-cafe/tank-1/",
+    "/equipos-cafe/tank-2/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Mini%20Neo%20DR%207121A%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Swan%20DR%207102C%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Falcon%20DR%207118A%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Tank%201%20DR%207005A%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Tank%202%20DR%207209A%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20la%20cafetera%20Cruiser%20DR%207208%20con%20Italgel.": [
+    "/equipos-cafe/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Cedar%2063C%20LD%20029%20V2%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Oak%2060%20LD%20022%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Ebony%2064%20LD%20027%20MAX%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/"
+  ],
+  "https://wa.me/573192346788?text=Hola%2C%20quiero%20cotizar%20Sequoia%2074WT%20LD%20037%20V1WT%20con%20Italgel.": [
+    "/equipos-cafe/",
+    "/equipos-cafe/cedar-63c/",
+    "/equipos-cafe/ebony-64/",
+    "/equipos-cafe/oak-60/",
+    "/equipos-cafe/sequoia-74wt/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Colombia%3A%20bases%2C%20pastas%2C%20variegatos%20y%20coberturas": [
+    "/insumos/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Barranquilla": [
+    "/insumos-heladeria-barranquilla/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Bucaramanga": [
+    "/insumos-heladeria-bucaramanga/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Cali": [
+    "/insumos-heladeria-cali/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn": [
+    "/insumos-heladeria-medellin/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Aviso%20legal%2C%20privacidad%20y%20condiciones%20de%20venta%20de%20Italgel": [
+    "/legal/"
+  ],
+  "https://www.google.com/preferences/source?q=italgel.com.co": [
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+    "/blog/como-abrir-una-heladeria-en-colombia/",
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/crema-de-whisky-para-helado-variegato/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+    "/blog/pasta-pistacho-helado-guia-tecnica/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/",
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+    "/blog/rentabilidad-heladeria-colombia/",
+    "/blog/tipos-de-toppings-para-helado/",
+    "/legal/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20artesanal%20y%20mantecadoras%20para%20gelato%20en%20Colombia": [
+    "/maquinas-helado-artesanal/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20industrial%3A%20pasteurizadoras%20y%20l%C3%ADneas%20de%20producci%C3%B3n": [
+    "/maquinas-helado-industrial/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%83%C2%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia": [
+    "/maquinas-helado-soft/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Italgel%3A%20distribuidor%20autorizado%20MEC3%2C%20Coldelite%2C%20Valmar%20e%20importador%20de%20Hambach%20en%20Colombia": [
+    "/nosotros/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos": [
+    "/pastas-sabores-helado/"
+  ],
+  "https://www.pexels.com/photo/blueberries-on-white-surface-12716480/": [
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pastas-fruta/"
+  ],
+  "https://www.pexels.com/photo/sliced-lemon-on-white-table-7214594/": [
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pastas-fruta/"
+  ],
+  "https://pixnio.com/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background": [
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pastas-fruta/"
+  ],
+  "https://unsplash.com/photos/a-dragon-fruit-cut-in-half-on-a-white-background-IbRkYrIgrWo": [
+    "/pastas-sabores-helado/",
+    "/pastas-sabores-helado/pastas-fruta/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Quella%20Family%3A%20variegatos%20y%20coberturas%20italianas%20para%20helado": [
+    "/productos-quella/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Variegatos%20para%20helado%20artesanal%3A%20Quella%20y%20MEC3": [
+    "/variegatos-helado/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Vitrinas%20para%20helado%20artesanal%20EasyBest%20en%20Colombia": [
+    "/vitrinas-congeladores/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Base%2050%20MEC3%20de%202%20kg%3A%20base%20para%20helado%20artesanal%20y%20gelato": [
+    "/bases-helado-colombia/base-50-mec3/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20con%20stevia%20para%20helado%20sin%20az%C3%BAcar": [
+    "/bases-helado-colombia/bases-stevia/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Neutralin%20Plus%20MEC3%20de%202%20kg%3A%20base%20para%20gelato%20cremoso": [
+    "/bases-helado-colombia/neutralin-plus/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Supergelmix%20MEC3%3A%20base%20para%20m%C3%A1quinas%20de%20helado%20soft": [
+    "/bases-helado-colombia/supergelmix/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABAmarena%20Fabbri%20para%20helader%C3%ADa%3A%20qu%C3%A9%20es%2C%20c%C3%B3mo%20se%20usa%20y%20por%20qu%C3%A9%20es%20diferente%20a%20la%20cereza%20est%C3%A1ndar%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20coberturas%20y%20salsas%20para%20helado.": [
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/"
+  ],
+  "https://en.fabbri1905.com/about-us": [
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/"
+  ],
+  "https://en.wikipedia.org/wiki/Amarena_cherry": [
+    "/blog/amarena-fabbri-heladeria-usos-dosificacion/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABBase%2050%20MEC3%20vs%20Supergelmix%3A%20cu%C3%A1l%20es%20la%20diferencia%20y%20cu%C3%A1l%20necesita%20tu%20helader%C3%ADa%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20bases%20para%20helado.": [
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/"
+  ],
+  "https://www.mec3.com/en/products/gelato/bases/cream-bases/base-50mb": [
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/"
+  ],
+  "https://www.mec3.com/en/products/gelato/bases/fruit-bases/supergelmix": [
+    "/blog/base-50-mec3-vs-supergelmix-comparativa/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABC%C3%B3mo%20abrir%20una%20helader%C3%ADa%20en%20Colombia%3A%20requisitos%20legales%2C%20equipos%20por%20modelo%20y%20qu%C3%A9%20incluye%20la%20inversi%C3%B3n%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20los%20equipos%20e%20insumos%20para%20abrir%20una%20helader%C3%ADa.": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://www.sdp.gov.co/": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://bogota.gov.co/mi-ciudad/gobierno/conoce-que-requisitos-debes-cumplir-para-abrir-un-negocio-en-bogota": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=54030": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://www.dian.gov.co/": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://www.ccb.org.co/": [
+    "/blog/como-abrir-una-heladeria-en-colombia/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABOverrun%20del%20helado%3A%20qu%C3%A9%20es%2C%20f%C3%B3rmula%20para%20calcularlo%20y%20rangos%20por%20tipo%20de%20helado%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20una%20mantecadora%20para%20gelato.": [
+    "/blog/como-calcular-overrun-helado-artesanal/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/overrun-calculations/": [
+    "/blog/como-calcular-overrun-helado-artesanal/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/ageing-of-mix/": [
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://www.callebaut.com/en/ice-cream-chocolate/making-ice-cream/aerating": [
+    "/blog/como-calcular-overrun-helado-artesanal/"
+  ],
+  "https://www.law.cornell.edu/cfr/text/21/135.110": [
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/"
+  ],
+  "https://normograma.invima.gov.co/compilacion/docs/resolucion_minsalud_2310_1986.htm": [
+    "/blog/como-calcular-overrun-helado-artesanal/",
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABCrema%20de%20whisky%20para%20helado%20artesanal%3A%20c%C3%B3mo%20usarla%20como%20variegato%20y%20salsa%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20variegatos%20para%20helado.": [
+    "/blog/crema-de-whisky-para-helado-variegato/"
+  ],
+  "https://www.mec3.com/en/products/gelato/ripple-sauces/creamy-ripples/whisky-flavoured-variegate": [
+    "/blog/crema-de-whisky-para-helado-variegato/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABEmulsionante%20y%20estabilizante%20para%20helados%3A%20qu%C3%A9%20hace%20cada%20uno%2C%20cu%C3%A1les%20se%20usan%20y%20cu%C3%A1nto%20llevan%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20bases%20para%20helado.": [
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/emulsifiers/": [
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/stabilizers/": [
+    "/blog/emulsionantes-estabilizantes-helados-heladeria/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABHelados%20sin%20az%C3%BAcar%20para%20helader%C3%ADa%20artesanal%3A%20gu%C3%ADa%20de%20bases%20con%20Stevia%20y%20edulcorantes%20profesionales%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20bases%20para%20helado.": [
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/"
+  ],
+  "https://www.mec3.com/en/products/gelato/bases/cream-bases/base-g-cream": [
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/"
+  ],
+  "https://www.mec3.com/en/products/gelato/bases/fruit-bases/base-g-fruit-gelato": [
+    "/blog/helados-sin-azucar-heladeria-bases-stevia/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABPasta%20de%20vainilla%20para%20helado%3A%20tipos%2C%20dosificaci%C3%B3n%20y%20por%20qu%C3%A9%20la%20vainilla%20Bourbon%20Madagascar%20es%20diferente%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20pastas%20para%20helado.": [
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/"
+  ],
+  "https://www.law.cornell.edu/cfr/text/21/169.175": [
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/"
+  ],
+  "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/bourbon": [
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/"
+  ],
+  "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/vanilla-madagascar": [
+    "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABPasta%20de%20pistacho%20para%20helado%3A%20dosificaci%C3%B3n%20correcta%2C%20marcas%20y%20por%20qu%C3%A9%20es%20el%20sabor%20m%C3%A1s%20rentable%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20pastas%20para%20helado.": [
+    "/blog/pasta-pistacho-helado-guia-tecnica/"
+  ],
+  "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/pure-sicilian-pistachio": [
+    "/blog/pasta-pistacho-helado-guia-tecnica/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABPasteurizaci%C3%B3n%20de%20la%20mezcla%20para%20helado%3A%20por%20qu%C3%A9%20se%20hace%2C%20a%20qu%C3%A9%20temperatura%20y%20cu%C3%A1nto%20tiempo%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20una%20pasteurizadora%20o%20una%20l%C3%ADnea%20de%20producci%C3%B3n.": [
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/pasteurization-of-mix/": [
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://books.lib.uoguelph.ca/icecreamtechnologyebook/chapter/homogenization-of-mix/": [
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://normograma.invima.gov.co/compilacion/docs/resolucion_minsaludps_1407_2022.htm": [
+    "/blog/pasteurizacion-mezcla-helado-correcta/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%AB%C2%BFQu%C3%A9%20es%20el%20variegato%20para%20helado%3F%20La%20veta%20dentro%20de%20la%20cubeta%20y%20c%C3%B3mo%20se%20aplica%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20variegatos%20para%20helado.": [
+    "/blog/que-es-el-variegato-para-helado/"
+  ],
+  "https://it.wiktionary.org/wiki/variegato": [
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/tipos-de-toppings-para-helado/"
+  ],
+  "https://us.fabbri1905.com/professionals/gelato/products/topping.kl": [
+    "/blog/que-es-el-variegato-para-helado/",
+    "/blog/tipos-de-toppings-para-helado/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABGelato%20vs%20helado%20artesanal%3A%20las%20diferencias%20t%C3%A9cnicas%20que%20cambian%20tu%20producci%C3%B3n%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20una%20mantecadora%20para%20gelato.": [
+    "/blog/que-es-gelato-vs-helado-diferencias/"
+  ],
+  "https://www.psu.edu/news/research/story/probing-question-what-difference-between-ice-cream-and-gelato": [
+    "/blog/que-es-gelato-vs-helado-diferencias/",
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/"
+  ],
+  "https://es.wikipedia.org/wiki/Mantecado": [
+    "/blog/que-es-gelato-vs-helado-diferencias/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%AB%C2%BFQu%C3%A9%20es%20un%20sorbete%3F%20Significado%20y%20diferencia%20t%C3%A9cnica%20con%20el%20helado%20artesanal%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20una%20mantecadora%20para%20gelato.": [
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/"
+  ],
+  "https://www.law.cornell.edu/cfr/text/21/135.160": [
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/"
+  ],
+  "https://www.law.cornell.edu/cfr/text/21/135.140": [
+    "/blog/que-es-un-sorbete-diferencias-helado-artesanal/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABRentabilidad%20de%20una%20helader%C3%ADa%20en%20Colombia%3A%20lo%20que%20ganas%2C%20lo%20que%20gastas%20y%20c%C3%B3mo%20mejorar%20el%20margen%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20los%20equipos%20e%20insumos%20para%20abrir%20una%20helader%C3%ADa.": [
+    "/blog/rentabilidad-heladeria-colombia/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Vengo%20del%20art%C3%ADculo%20%C2%ABTipos%20de%20toppings%20para%20helado%3A%20cu%C3%A1les%20son%2C%20qu%C3%A9%20son%20las%20granelas%20y%20c%C3%B3mo%20calcular%20su%20costo%C2%BB%20de%20Italgel%20y%20quiero%20cotizar%20coberturas%20y%20salsas%20para%20helado.": [
+    "/blog/tipos-de-toppings-para-helado/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Amarena%20Fabbri%3A%20el%20variegato%20de%20cereza%20italiana%20para%20helader%C3%ADa%20profesional": [
+    "/coberturas-salsas-helado/amarena-fabbri/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Salsas%20para%20helado%3A%20whisky%2C%20caramelo%20y%20tiramis%C3%BA%20para%20copas%20gourmet": [
+    "/coberturas-salsas-helado/salsas-especiales/"
+  ],
+  "https://wa.me/573166926111?text=Hola%20Sebasti%C3%A1n%2C%20te%20escribo%20desde%20tu%20tarjeta%20de%20Italgel.": [
+    "/contacts/sebastian-rios/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Coldelite%20Compacta%203%3A%20m%C3%A1quina%20de%20helado%20soft%20para%20negocio": [
+    "/maquinas-helado-soft/coldelite-compacta-3/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pasta%20de%20pistacho%20siciliano%20para%20helado": [
+    "/pastas-sabores-helado/pasta-pistacho/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pasta%20de%20vainilla%20bourbon%20para%20helado": [
+    "/pastas-sabores-helado/pasta-vainilla/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20cl%C3%A1sicas%20para%20helado%3A%20vainilla%2C%20chocolate%20y%20caf%C3%A9": [
+    "/pastas-sabores-helado/pastas-clasicas/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20de%20fruta%20para%20helado%3A%20coco%2C%20lim%C3%B3n%20y%20pitaya": [
+    "/pastas-sabores-helado/pastas-fruta/"
+  ],
+  "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20premium%20de%20frutos%20secos%20para%20helado%20artesanal": [
+    "/pastas-sabores-helado/pastas-premium/"
+  ]
+}

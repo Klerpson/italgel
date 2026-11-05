@@ -1,0 +1,2024 @@
+[
+  {
+    "url": "/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [
+      {
+        "value": "cafe",
+        "visible": [
+          "cafe"
+        ],
+        "location": "hero-cafe"
+      },
+      {
+        "value": "vitrinas",
+        "visible": [
+          "vitrinas"
+        ],
+        "location": "hero-vitrinas"
+      },
+      {
+        "value": "maquinas",
+        "visible": [
+          "maquinas"
+        ],
+        "location": "hero-maquinas"
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 15
+  },
+  {
+    "url": "/blog/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/blog/tipos-de-toppings-para-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/bases-helado-colombia/bases-stevia/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 4
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/coberturas-salsas-helado/amarena-fabbri/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 2
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/insumos-heladeria-medellin/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 1
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 288,
+        "moved": 2,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 587,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 705,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 926,
+        "scrollWidth": 926,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 10
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/mini-neo/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cedar-63c/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/cruiser/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/ebony-64/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/falcon/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/oak-60/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 758,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/sequoia-74wt/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 3
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/swan/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-1/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 286,
+        "scrollWidth": 286,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 356,
+        "scrollWidth": 356,
+        "moved": 0,
+        "overflow": "visible"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 587,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 705,
+        "scrollWidth": 768,
+        "moved": 20,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 881,
+        "scrollWidth": 881,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  },
+  {
+    "url": "/equipos-cafe/tank-2/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "tables": [
+      {
+        "width": 1310,
+        "scrollWidth": 1310,
+        "moved": 0,
+        "overflow": "auto"
+      }
+    ],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 5
+  }
+]

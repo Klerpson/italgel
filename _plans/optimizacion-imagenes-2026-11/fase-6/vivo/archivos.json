@@ -1,0 +1,266 @@
+[
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+    "status": 200,
+    "bytes": 1627,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-snowy-7-m-160.avif",
+    "status": 200,
+    "bytes": 2082,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
+    "status": 200,
+    "bytes": 9795,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-snowy-7-m-400.avif",
+    "status": 200,
+    "bytes": 6378,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-snowy-7-m-280.avif",
+    "status": 200,
+    "bytes": 4014,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-400.avif",
+    "status": 200,
+    "bytes": 5136,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-800.avif",
+    "status": 200,
+    "bytes": 11983,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-280.avif",
+    "status": 200,
+    "bytes": 3218,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-600.avif",
+    "status": 200,
+    "bytes": 8690,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/valmar-sweety-60-quick-972.avif",
+    "status": 200,
+    "bytes": 16047,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/promag-stargel-4-160.avif",
+    "status": 200,
+    "bytes": 2891,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/promag-stargel-4-400.avif",
+    "status": 200,
+    "bytes": 7781,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/promag-stargel-4-608.avif",
+    "status": 200,
+    "bytes": 14237,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/promag-stargel-4-280.avif",
+    "status": 200,
+    "bytes": 5328,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/pasmo-s121-gravity-160.avif",
+    "status": 200,
+    "bytes": 3041,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/pasmo-s121-gravity-280.avif",
+    "status": 200,
+    "bytes": 6808,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/pasmo-s121-gravity-400.avif",
+    "status": 200,
+    "bytes": 12740,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-160.avif",
+    "status": 200,
+    "bytes": 1695,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+    "status": 200,
+    "bytes": 24113,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif",
+    "status": 200,
+    "bytes": 4557,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif",
+    "status": 200,
+    "bytes": 3079,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif",
+    "status": 200,
+    "bytes": 11654,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif",
+    "status": 200,
+    "bytes": 19326,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+    "status": 200,
+    "bytes": 7942,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+    "status": 200,
+    "bytes": 1818,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-280.avif",
+    "status": 200,
+    "bytes": 3313,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-400.avif",
+    "status": 200,
+    "bytes": 5050,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+    "status": 200,
+    "bytes": 8496,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+    "status": 200,
+    "bytes": 12755,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/iceteam-603-bib-1200.avif",
+    "status": 200,
+    "bytes": 22076,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+    "status": 200,
+    "bytes": 2091,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-280.avif",
+    "status": 200,
+    "bytes": 4286,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-400.avif",
+    "status": 200,
+    "bytes": 7187,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-600.avif",
+    "status": 200,
+    "bytes": 12615,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-800.avif",
+    "status": 200,
+    "bytes": 19019,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/coldelite-compacta-vario-12-1200.avif",
+    "status": 200,
+    "bytes": 33726,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-dark-160.avif",
+    "status": 200,
+    "bytes": 3305,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-dark-400.avif",
+    "status": 200,
+    "bytes": 11293,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-dark-280.avif",
+    "status": 200,
+    "bytes": 6798,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-dark-492.avif",
+    "status": 200,
+    "bytes": 16116,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-pistacchio-160.avif",
+    "status": 200,
+    "bytes": 2847,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-pistacchio-280.avif",
+    "status": 200,
+    "bytes": 5840,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-pistacchio-400.avif",
+    "status": 200,
+    "bytes": 9655,
+    "match": true
+  },
+  {
+    "file": "img/catalogo/fabricantes/mec3-quella-pistacchio-492.avif",
+    "status": 200,
+    "bytes": 13186,
+    "match": true
+  }
+]

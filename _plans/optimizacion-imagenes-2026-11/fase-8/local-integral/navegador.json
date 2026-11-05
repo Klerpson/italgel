@@ -1,0 +1,1370 @@
+[
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-280.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 248,
+        "height": 310
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-280.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-280.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 248,
+        "height": 168
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 195
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 318,
+        "height": 397
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 318,
+        "height": 215
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 242
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 537,
+        "height": 672
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 537,
+        "height": 364
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 188
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 291,
+        "height": 363
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 291,
+        "height": 197
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 228
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 337,
+        "height": 337
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-400.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 368,
+        "height": 460
+      },
+      {
+        "src": "/img/catalogo/pasta-avellana-selection-helado-400.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/pasta-almendras-helado-artesanal-400.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 368,
+        "height": 249
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 185
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "width": 560,
+        "height": 700
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "alt": "Pasta concentrada de almendras para helado",
+        "width": 563,
+        "height": 381
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 205
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 304,
+        "height": 304
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 16
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 337,
+        "height": 337
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-fruta-helado-400.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-280.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-280.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-fruta/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-fruta-helado.avif",
+        "alt": "Bolas de helado de cereza con trozos de chocolate, cerezas y flores",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-400.avif",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-400.avif",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": 304,
+        "height": 304
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 320,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 294,
+        "height": 294
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 288,
+        "height": 195
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 288,
+        "height": 288
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 288,
+        "height": 288
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 320,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 390,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 358,
+        "height": 242
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 358,
+        "height": 358
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 358,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 390,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 640,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 588,
+        "height": 588
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 278,
+        "height": 188
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 278,
+        "height": 278
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 278,
+        "height": 278
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 640,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 768,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 706,
+        "height": 706
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 337,
+        "height": 228
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 337,
+        "height": 337
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 337,
+        "height": 337
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 768,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 960,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-280.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-280.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 273,
+        "height": 185
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-280.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 273,
+        "height": 273
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 273,
+        "height": 273
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 960,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  },
+  {
+    "url": "/pastas-sabores-helado/pastas-clasicas/",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "bad": [],
+    "families": [],
+    "photos": [
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "alt": "Helados cremosos preparados con pastas clásicas para heladería",
+        "width": 550,
+        "height": 550
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "width": 304,
+        "height": 205
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": 304,
+        "height": 304
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": 304,
+        "height": 304
+      }
+    ],
+    "tables": [],
+    "h1": 1,
+    "scrollWidth": 1440,
+    "font": "\"Libre Bodoni\", Georgia, serif",
+    "broken": [],
+    "optimized": 7
+  }
+]

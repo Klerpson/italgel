@@ -1,0 +1,74 @@
+{
+  "checks": 66,
+  "failures": [],
+  "bytes": [
+    {
+      "url": "/",
+      "bytes": 1096714
+    },
+    {
+      "url": "/blog/",
+      "bytes": 2796755
+    },
+    {
+      "url": "/blog/como-calcular-overrun-helado-artesanal/",
+      "bytes": 836133
+    },
+    {
+      "url": "/blog/que-es-gelato-vs-helado-diferencias/",
+      "bytes": 395269
+    },
+    {
+      "url": "/blog/pasteurizacion-mezcla-helado-correcta/",
+      "bytes": 943453
+    },
+    {
+      "url": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+      "bytes": 142386
+    },
+    {
+      "url": "/blog/como-abrir-una-heladeria-en-colombia/",
+      "bytes": 394648
+    },
+    {
+      "url": "/blog/pasta-pistacho-helado-guia-tecnica/",
+      "bytes": 148496
+    },
+    {
+      "url": "/blog/que-es-el-variegato-para-helado/",
+      "bytes": 302845
+    },
+    {
+      "url": "/blog/rentabilidad-heladeria-colombia/",
+      "bytes": 338470
+    },
+    {
+      "url": "/blog/tipos-de-toppings-para-helado/",
+      "bytes": 432210
+    },
+    {
+      "url": "/blog/amarena-fabbri-heladeria-usos-dosificacion/",
+      "bytes": 528552
+    },
+    {
+      "url": "/blog/crema-de-whisky-para-helado-variegato/",
+      "bytes": 376410
+    },
+    {
+      "url": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+      "bytes": 327836
+    },
+    {
+      "url": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+      "bytes": 323479
+    },
+    {
+      "url": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+      "bytes": 328809
+    },
+    {
+      "url": "/blog/que-es-un-sorbete-diferencias-helado-artesanal/",
+      "bytes": 630498
+    }
+  ]
+}
