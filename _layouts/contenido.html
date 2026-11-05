@@ -21,13 +21,14 @@ layout: mercato
       </div>
     </div>
     {%- if page.hero %}
-    {%- assign _catalogo_key = page.hero | relative_url -%}
+    {%- assign _hero_visual = page.hero_visual | default: page.hero -%}
+    {%- assign _catalogo_key = _hero_visual | relative_url -%}
     <picture class="portada__foto{% if site.data.imagenes_catalogo.imagenes[_catalogo_key] %} foto-fiel{% endif %}">
       {%- if site.data.imagenes_catalogo.imagenes[_catalogo_key] -%}
-      {% include mercato/imagen-catalogo.html origen=page.hero alt=page.alt title=page.hero_title contexto="hero" prioridad=true %}
+      {% include mercato/imagen-catalogo.html origen=_hero_visual alt=page.alt title=page.hero_title contexto="hero" prioridad=true %}
       {%- else -%}
       {%- if page.hero_s %}<source media="(max-width: 767px)" srcset="{{ page.hero_s | relative_url }}" type="image/avif">{% endif %}
-      <img src="{{ page.hero | relative_url }}" alt="{{ page.alt }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 584 }}" height="{{ page.hero_h | default: 584 }}" fetchpriority="high" decoding="async">
+      <img src="{{ _hero_visual | relative_url }}" alt="{{ page.alt }}" title="{{ page.hero_title | default: page.alt }}" width="{{ page.hero_w | default: 584 }}" height="{{ page.hero_h | default: 584 }}" fetchpriority="high" decoding="async">
       {%- endif %}
     </picture>
     {%- endif %}

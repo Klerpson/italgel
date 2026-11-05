@@ -1893,6 +1893,17 @@
           "width": 492
         }
       ]
+    },
+    "/img/catalogo/fabricantes/soft-mesa-piso.svg": {
+      "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+      "width": 1600,
+      "height": 1600,
+      "variants": [
+        {
+          "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+          "width": 1600
+        }
+      ]
     }
   }
 }

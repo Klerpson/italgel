@@ -35,11 +35,26 @@ if mode == 'antes':
 else:
     record = json.loads(reference.read_text(encoding='utf8'))
     actual = normal(public() if mode == 'vivo' else local)
+    visual_changes = []
+    if '--cabecera' in sys.argv:
+        old_images = record['protected']['images']
+        for index, image in enumerate(actual['images']):
+            if image.get('src') == '/img/catalogo/fabricantes/soft-mesa-piso.svg':
+                before = old_images[index]
+                assert before.get('src') == '/img/maquina-industrial-soft.avif'
+                allowed = {'src', 'srcset', 'width', 'height', 'style'}
+                assert {k: v for k, v in image.items() if k not in allowed} == {k: v for k, v in before.items() if k not in allowed}
+                actual['images'][index] = before
+                visual_changes.append('Recurso/dimensiones de cabecera; alt, title y demás atributos conservados')
+        assert len(visual_changes) == 1, 'No se encontró exactamente una sustitución de cabecera'
     differences = [k for k in actual if actual[k] != record['protected'][k]]
-    if source.split('---', 2)[1] != record['front_matter']:
+    front_matter = source.split('---', 2)[1]
+    if '--cabecera' in sys.argv:
+        front_matter = front_matter.replace('hero_visual: /img/catalogo/fabricantes/soft-mesa-piso.svg\n', '')
+    if front_matter != record['front_matter']:
         differences.append('front_matter')
     other = [rel for rel, sha in record['html_sha256'].items() if rel != route and (not (ROOT / '_site' / rel).exists() or hashlib.sha256((ROOT / '_site' / rel).read_bytes()).hexdigest() != sha)] if mode == 'local' else []
-    result = dict(mode=mode, diferencias_protegidas=differences, otras_paginas_html_modificadas=other)
+    result = dict(mode=mode, cambios_visuales_autorizados=visual_changes, diferencias_protegidas=differences, otras_paginas_html_modificadas=other)
     (OUT / ('soft-protegido-' + mode + '.json')).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf8')
     print(json.dumps(result))
     if differences or other:
