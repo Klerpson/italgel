@@ -75,6 +75,8 @@ faqs:
           la cremosidad.
         </p>
 
+        {% include mercato/helado-animado.html demo=site.data.animacion_variegatos nuevo=true ancla="animacion-variegatos" activar_movimiento=true %}
+
         <h3>Dosificación correcta de variegatos: menos es más</h3>
         <p>
           Error común: agregar demasiado variegato pensando que "más sabor =
@@ -93,14 +95,6 @@ faqs:
       {% include mercato/imagen-catalogo.html origen="/img/tecnica-veteado-variegato.avif" alt="Bandejas de helado artesanal veteado con variegato en vitrina" title="Dosificación de variegato" contexto="body" %}
     </article>
   </section>
-
-  <div class="muestras-visuales muestras-visuales--insumos rejilla" style="align-items: center" data-visual-nuevo>
-    <figure>
-      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" style="max-width: min(100%, 432px); aspect-ratio: 1" loading="lazy" decoding="async">
-      <figcaption>Crema Quella de MEC3</figcaption>
-    </figure>
-    {% include mercato/helado-animado.html demo=site.data.animacion_variegatos nuevo=true ancla="animacion-variegatos" activar_movimiento=true %}
-  </div>
 
   <!-- Catálogo por sabor -->
   <section class="center">
@@ -140,6 +134,11 @@ faqs:
 
       <div class="flow">
         <h3>Familia chocolate: del fondente al gianduja</h3>
+
+        <figure class="flujo" data-visual-nuevo>
+          <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" style="max-width: min(100%, 432px); aspect-ratio: 1" loading="lazy" decoding="async">
+          <figcaption>Crema Quella de MEC3</figcaption>
+        </figure>
 
         <h4>Variegato Cioccolato Fondente</h4>
         <p>62% cacao. Contraste visual marcado: vetas oscuras sobre bases claras. No excesivamente dulce — el cacao predomina.</p>
@@ -304,8 +303,6 @@ faqs:
     </article>
 
     <article class="flex bg_grey_light">
-      {% include mercato/imagen-catalogo.html origen="/img/tecnica-variegato.avif" alt="Variedad de helados artesanales con vetas de variegato en bandejas" title="Sabores veteados en vitrina" contexto="body" %}
-
       <div class="flow">
         <h3>2. Yogurt griego con frutos rojos</h3>
         <p>
@@ -323,6 +320,7 @@ faqs:
           justifica precio premium. Perfil ácido-dulce balanceado.
         </p>
       </div>
+      {% include mercato/imagen-catalogo.html origen="/img/tecnica-variegato.avif" alt="Variedad de helados artesanales con vetas de variegato en bandejas" title="Sabores veteados en vitrina" contexto="body" %}
     </article>
 
     <article class="flex bg_grey_light">

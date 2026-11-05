@@ -47,7 +47,9 @@ Guardar en texto los elementos protegidos y el peso de los recursos actuales. Id
 
 ### 2. Definir una intervención concreta
 
-Decidir qué mostrar, dónde y para qué: producto real, detalle, aplicación o resultado. Mantener una foto estática en cabecera y reservar el GIF para después de la explicación inicial o junto a un bloque de aplicación existente.
+Decidir qué mostrar, dónde y para qué: producto real, detalle, aplicación o resultado. Mantener una foto estática en cabecera. Elegir la ubicación del GIF por su relación con el contenido de cada ficha: aplicación, proceso, detalle de producto o explicación técnica. Camilo pide variedad entre páginas: no repetir automáticamente la misma sección, posición o composición del GIF. Comparar con las fichas anteriores antes de elegir; variar con sentido, conservando el orden del texto y el SEO, y comprobar el resultado primero en móvil.
+
+**Prioridad móvil expresada por Camilo:** diseñar y revisar primero el recorrido vertical a 360–390 px; después adaptar escritorio. Camilo indica que la mayoría de sus clientes llegan desde móvil. Alternar explicación útil y apoyo visual: no apilar una foto de resultado, un envase y un GIF como bloques consecutivos. Distribuirlos entre las secciones existentes según su función, sin inventar encabezados o texto separador que cambie el SEO. Revisar también los límites entre secciones: una imagen al final de una y otra al inicio de la siguiente crean el mismo problema. Corregir el orden del HTML cuando mejore la lectura, conservando el orden del texto, encabezados y enlaces; no disimular la acumulación encogiendo imágenes o mediante CSS order.
 
 - Categorías/servicios: orientar a 3–5 fotos útiles en páginas pobres en imágenes, sin imponer esa cantidad a catálogos extensos.
 - Ciudades: mostrar familias de insumos, preparación o disfrute. No representar una foto de stock como sede, cliente o entrega local de Italgel.
@@ -87,6 +89,7 @@ Añadir loading="lazy" al GIF fuera de cabecera, dimensiones y decoding="async".
 
 - Compilar Jekyll y revisar en navegador al menos 390 y 1440 px; incluir 320 px si hay controles o filas estrechas y densidad 2 cuando importe la nitidez.
 - Ver en movimiento el GIF y comprobar foto, encuadre, proporción, legibilidad, ausencia de recortes del producto y desbordamientos.
+- Recorrer primero toda la página en móvil, incluidos los cambios de sección, y comprobar que no haya bloques visuales consecutivos sin contenido útil entre ellos. Una captura aislada del GIF o la galería no valida el orden de la página.
 - Comprobar imágenes cargadas, enlaces/CTA conservados, control con teclado, funcionamiento con JavaScript desactivado y movimiento reducido sin petición del GIF.
 - Medir archivos y transferencia de la página en un contexto limpio; distinguir carga inicial, carga al desplazarse y caché. Comparar con la referencia, sin afirmar mejoras de Core Web Vitals sin medición.
 - Comparar fuente y HTML antes/después: igualdad de todos los elementos protegidos, no solo de los títulos. Excluir de la comparación únicamente los nuevos controles, alt/pies de medios y wrappers visuales permitidos. Si aparece una diferencia de SEO o contenido, corregirla antes de dar la página por terminada.

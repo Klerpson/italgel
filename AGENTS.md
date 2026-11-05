@@ -6,6 +6,8 @@
 - Revisar las imágenes en el navegador o en memoria. Cuando el procesamiento requiera archivos de trabajo, usar el temporal del sistema y eliminarlos al terminar.
 - Conservar en el proyecto únicamente las imágenes que utiliza la web, en sus carpetas de activos. `_plans/` puede conservar informes, fuentes documentales y resultados de comprobaciones en texto.
 - No volver a acumular imágenes de evidencia, aunque estén excluidas de Git o de Jekyll.
+- Priorizar el diseño y la revisión en móvil: Camilo indica que es la principal vía de llegada de clientes. Alternar contenido y medios; evitar fotos y GIF consecutivos sin explicación entre ellos, también en los límites de secciones. Comprobar el recorrido completo antes de publicar.
+- Variar la ubicación y composición de los GIF entre fichas según lo que ilustran. No insertarlos automáticamente en la misma sección de todas las páginas; contrastar las fichas anteriores y mantener la coherencia con el contenido, el orden de lectura y el SEO.
 
 ## 📍 Descripción del Proyecto: ItalGel
 

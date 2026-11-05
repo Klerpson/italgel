@@ -99,3 +99,11 @@ Las nuevas clases se sitúan en la capa de componentes para que las reglas del i
 Publicado en `579803ee101d0e0f71b2375cbe71a8ddeeca8c86`, despliegue `42115707136` correcto. Las diecinueve combinaciones y los cuatro modos se repitieron en vivo sin fallos. Con movimiento reducido se registran cero solicitudes al GIF al abrir y una después de activarlo; la desactivación restaura la imagen fija. Las comparaciones públicas de SEO/contenido pasan. Se inspeccionó la activación en móvil y se eliminaron las capturas temporales al terminar.
 
 Enlaces directos: https://italgel.com.co/maquinas-helado-soft/#animacion-soft y https://italgel.com.co/variegatos-helado/#animacion-variegatos.
+
+## Orden móvil y variedad de ubicación
+
+Camilo señaló tres medios consecutivos en Variegatos y pidió priorizar móvil, además de variar la sección de los GIF entre fichas. El GIF de capas pasa al interior de la explicación técnica; la foto Quella pasa a la familia de chocolate del catálogo. La segunda receta coloca su foto después del texto para evitar que se acumule con la foto final de la receta anterior. Se conservan todos los medios, los textos y su orden, encabezados, enlaces y elementos SEO; no se añade CSS, JavaScript ni peso de imágenes. Soft mantiene su esquema junto al catálogo: no se impone una posición uniforme.
+
+Preferencias guardadas por petición expresa en una nota de memoria, AGENTS.md y la skill mejora-visual-fichas. La skill deja de reservar una sección fija para los GIF y exige contrastar las fichas anteriores y recorrer la página completa primero en móvil.
+
+Validación local: diez combinaciones de navegador y dos modos sin JavaScript correctos; comparación protegida de ambas fichas sin diferencias (solo la sustitución de cabecera soft ya autorizada). Revisión adicional del orden a 360, 390 y 1440 px sin desbordamiento ni pares de imágenes consecutivas sin contenido intermedio; capturas completas de sección técnica y catálogo inspeccionadas en móvil. El informe de orden registra las secciones y texto entre cada par de imágenes; no evalúa calidad comercial por cantidad de palabras.
