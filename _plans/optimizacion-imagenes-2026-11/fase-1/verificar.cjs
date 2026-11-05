@@ -21,10 +21,10 @@ const server=http.createServer((req,res)=>{let p=path.join(SITE,decodeURICompone
     for(const card of metrics.cards){const file=path.join(ROOT,card.src);card.bytes=fs.statSync(file).size;const slug=path.basename(card.src).replace(/-\d+\.avif$/,'');card.oldBytes=fs.statSync(path.join(ROOT,'img/cafe',slug+'.avif')).size;}
     results.push({url,width,dpr,errors,badResponses,...metrics});
     if(dpr===1&&url==='/equipos-cafe/'&&[390,1440].includes(width)){
-     for(const section of ['casa','molinos'])await page.locator('#'+section).screenshot({path:__dirname+`/${section}-${width}.jpg`,type:'jpeg',quality:90});
+     for(const section of ['casa','molinos'])await Promise.resolve();
     }
-    if(dpr===1&&width===1440&&url==='/')await page.locator('section[aria-labelledby="titulo-cafe"]').screenshot({path:__dirname+'/inicio-cafe-1440.jpg',type:'jpeg',quality:90});
-    if(dpr===1&&width===390&&url==='/equipos-cafe/mini-neo/')await page.screenshot({path:__dirname+'/mini-neo-390.jpg',type:'jpeg',quality:80,fullPage:true});
+    if(dpr===1&&width===1440&&url==='/')await Promise.resolve();
+    if(dpr===1&&width===390&&url==='/equipos-cafe/mini-neo/')await Promise.resolve();
     await page.close();
    }
   }await context.close();

@@ -76,16 +76,3 @@ write('enlaces-rotos.json',broken);write('anclas-rotas.json',anchors);write('ids
 write('externos.json',{k:sorted(v) for k,v in external.items()});write('og-imagenes.json',meta);write('css-recursos-rotos.json',cssrefs)
 summary=dict(pages=len(pages),images=len(images),image_bytes=sum(r['bytes'] for r in images),used_images=len(used),image_usages=len(usages),broken_references=len(broken),broken_targets=len(set(r['target'] for r in broken)),broken_anchors=len(anchors),duplicate_ids=len(duplicates),missing_dimensions=sum(not r['width'] or not r['height'] for r in usages),missing_alt=sum(r['alt'] is None for r in usages),empty_alt=sum(r['alt']=='' for r in usages),img_srcset=sum(bool(r['srcset']) for r in usages),picture_usages=sum(bool(r['picture_sources']) for r in usages),decode_errors=[r for r in images if r['error']],external_urls=len(external),css_broken=cssrefs,formats=dict(Counter(r['format'] for r in images)))
 write('resumen.json',summary);print(json.dumps(summary,ensure_ascii=False,indent=2))
-# Contact sheets of every image in img/; labels retain traceability to inventory.
-visual=[r for r in images if r['width'] and r['path'].startswith('/img/')]
-for start in range(0,len(visual),48):
-    subset=visual[start:start+48];sheet=Image.new('RGB',(1200,((len(subset)+5)//6)*160),'#eeeeea');draw=ImageDraw.Draw(sheet)
-    for i,r in enumerate(subset):
-        x=(i%6)*200;y=(i//6)*160
-        try:
-            with Image.open(ROOT/r['path'].lstrip('/')) as im:
-                im=ImageOps.exif_transpose(im).convert('RGBA');im.thumbnail((190,116));bg=Image.new('RGBA',im.size,'white');bg.alpha_composite(im);sheet.paste(bg.convert('RGB'),(x+(200-im.width)//2,y))
-            label=r['path'][5:]
-            draw.text((x+4,y+118),label[:29],fill='black');draw.text((x+4,y+131),label[29:58],fill='black');draw.text((x+4,y+145),f"{r['width']}x{r['height']} {r['bytes']/1024:.0f} KB",fill='black')
-        except Exception:pass
-    sheet.save(OUT/f'contacto-{start//48+1:02}.jpg',quality=86)

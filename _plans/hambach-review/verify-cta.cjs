@@ -12,7 +12,7 @@ const {chromium}=require('C:/Users/Camilo/.cache/codex-runtimes/codex-primary-ru
   });
   console.log(JSON.stringify({width,...result}));
   if(result.texto!=='Cotizar con Italgel'||!result.principal||!result.destino.startsWith('https://wa.me/573192346788')||!result.visible||result.desbordamiento)throw Error('CTA incorrecto');
-  await page.screenshot({path:'C:/Users/Camilo/.codex/visualizations/2026/10/26/01a17952-c6f3-7341-9635-824b4183d88a/cta-italgel-'+width+(process.env.CTA_BASE?'-produccion':'-local')+'.png'});
+  await Promise.resolve();
  }
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

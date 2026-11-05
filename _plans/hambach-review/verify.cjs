@@ -11,7 +11,7 @@ const out = 'C:/Users/Camilo/.codex/visualizations/2026/10/26/01a17952-c6f3-7341
   await page.locator('.cafe-main img, .cafe-hero img').evaluateAll(async els => {
     await Promise.all(els.map(async img => { img.loading = 'eager'; await img.decode(); }));
   });
-  await page.screenshot({path:out+'/hambach-escritorio'+suffix+'.png',fullPage:true});
+  await Promise.resolve();
   const report = {h1:await page.locator('h1').allTextContents(),cards:await page.locator('.cafe-card').count(),brokenImages:await page.locator('.cafe-main img, .cafe-hero img').evaluateAll(els=>els.filter(e=>!e.complete||!e.naturalWidth).map(e=>e.src)),desktopOverflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)};
   await page.locator('#mini-neo summary').click();
   report.fichaAbierta = await page.locator('#mini-neo details').getAttribute('open') !== null;
@@ -24,7 +24,7 @@ const out = 'C:/Users/Camilo/.codex/visualizations/2026/10/26/01a17952-c6f3-7341
   });
   report.mobileViewport = await page.evaluate(()=>innerWidth);
   report.mobileOverflow = await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
-  await page.screenshot({path:out+'/hambach-movil'+suffix+'.png',fullPage:true});
+  await Promise.resolve();
   await page.locator('#hamburger').click();
   await page.locator('.mobile-accordion-btn').filter({hasText:'Equipos'}).click();
   report.mobileCoffeeLink = await page.locator('.mobile-menu a[href="/equipos-cafe/"]').isVisible();

@@ -1,7 +1,10 @@
 import json,hashlib
 from pathlib import Path
+import tempfile,shutil
 from PIL import Image,ImageOps,ImageChops
 HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
+CACHE=Path(tempfile.gettempdir())/'italgel-imagenes'/HERE.name
+CACHE.mkdir(parents=True,exist_ok=True)
 DEST=ROOT/'img/catalogo/ingredientes-2';DEST.mkdir(exist_ok=True)
 aliases={
  'arandano-stock':['/img/pasta-arandano-helado-sorbet.avif'],
@@ -16,7 +19,7 @@ metadata={};receipts=[]
 for row in downloads:
  name=row['name']
  if name not in aliases:continue
- source=HERE/'fuentes'/row['file'];assert hashlib.sha256(source.read_bytes()).hexdigest()==row['sha256']
+ source=CACHE/row['file'];assert hashlib.sha256(source.read_bytes()).hexdigest()==row['sha256']
  with Image.open(source) as im:
   rgba=ImageOps.exif_transpose(im).convert('RGBA');bg=Image.new('RGBA',rgba.size,'white');bg.alpha_composite(rgba);photo=bg.convert('RGB');original=photo.size
  crop=None
@@ -42,3 +45,7 @@ for row in downloads:
 (ROOT/'_data/imagenes_ingredientes_extra.json').write_text(json.dumps({'imagenes':metadata},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 (HERE/'procedencia.json').write_text(json.dumps(receipts,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print(json.dumps({'photos':len(receipts),'variants':sum(len(r['variants']) for r in receipts),'bytes':sum(v['bytes'] for r in receipts for v in r['variants']),'max_bytes':{r['name']:r['variants'][-1]['bytes'] for r in receipts}},indent=2))
+
+# Eliminar las fuentes de trabajo al terminar; nunca conservarlas en el proyecto.
+assert CACHE.resolve().parent == (Path(tempfile.gettempdir())/'italgel-imagenes').resolve()
+shutil.rmtree(CACHE)

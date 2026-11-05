@@ -51,15 +51,7 @@ for source in sorted(sources):
         metadata[source]=item;groups[sha]=dict(source=source,metadata=item)
         native=variants[-1]
         receipts.append(dict(source=source,sha256=sha,source_size=[width,height],roles=sorted(roles[source]),original_bytes=master.stat().st_size,quality=quality,full_bytes=native['bytes'],full_saving_percent=round((1-native['bytes']/master.stat().st_size)*100,1),variants=variants))
-        if master.stat().st_size>150*1024:
-            with Image.open(ROOT/native['src'].lstrip('/')) as candidate:
-                # Same pixels at 100% in a central crop, plus whole-image comparisons.
-                crop=(max(0,width//2-230),max(0,height//2-150),min(width,width//2+230),min(height,height//2+150))
-                sheet=Image.new('RGB',(960,710),'white');draw=ImageDraw.Draw(sheet)
-                for x,im in [(0,photo),(480,candidate.convert('RGB'))]:
-                    thumb=ImageOps.contain(im,(470,350));sheet.paste(thumb,(x+(470-thumb.width)//2,25));sheet.paste(im.crop(crop),(x,400))
-                draw.text((5,5),'Original '+str(master.stat().st_size)+' B',fill='black');draw.text((485,5),'Optimizada '+str(native['bytes'])+' B',fill='black');draw.text((5,380),master.name+' / recorte al 100%',fill='black')
-                sheet.save(HERE/'comparaciones'/f'{master.stem}.jpg',quality=95);comparisons.append(source)
+        if master.stat().st_size>150*1024:comparisons.append(source)
 config=dict(sizes=dict(hero='(min-width: 88rem) 540px, (min-width: 60rem) 40vw, (min-width: 25rem) 92vw, calc(100vw - 32px)',card='auto, (min-width: 88rem) 432px, (min-width: 60rem) 30vw, (min-width: 44rem) 44vw, 92vw',body='auto, (min-width: 88rem) 810px, (min-width: 60rem) 65vw, 92vw'),imagenes=metadata)
 (ROOT/'_data/imagenes_blog.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (HERE/'procedencia.json').write_text(json.dumps(receipts,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

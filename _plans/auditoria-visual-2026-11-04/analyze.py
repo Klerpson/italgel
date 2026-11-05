@@ -40,9 +40,10 @@ ext=read('externos-estados.json')
 result=dict(content_pages=len(real),redirect_pages=len(redirects),redirects=redirects,viewports=sum(len(x['viewports']) for x in real),broken_browser_images=sum(i['bad'] for x in real for v in x['viewports'] for i in v['images']),page_js_errors=[x['url'] for x in real if x['errors']],overflow=[dict(page=x['url'],width=v['width'],scrollWidth=v['scrollWidth']) for x in real for v in x['viewports'] if v['scrollWidth']>v['width']+2],upscaled_images=len([x for x in actions if x['max_scale_DPR1']>1.1]),retina_review=len([x for x in actions if x['max_scale_DPR1']>.55]),active_over150KB=len([x for x in actions if x['max_scale_DPR1'] and x['bytes']>150*1024]),active_src=len(metrics),external_statuses=dict(Counter(str(x.get('status','error')) for x in ext)),external_not200=[dict(url=x['url'],status=x.get('status'),error=x.get('error'),pages=x.get('pages')) for x in ext if x.get('status')!=200],exact_duplicate_groups=len(dups))
 write('resultados.json',result);print(json.dumps(result,ensure_ascii=False,indent=2))
 # Compression trials are review-only; production files remain untouched.
-trials=[];(P/'muestras').mkdir(exist_ok=True)
+from io import BytesIO
+trials=[]
 for name in ['tipos-toppings-para-helado-profesional.avif','rentabilidad-heladeria-colombia-margenes.avif','como-abrir-heladeria-colombia.avif','variegato-para-helado-profesional.avif','diferencia-gelato-helado-artesanal.avif']:
-    src=R/'img/blog'/name;dst=P/'muestras'/name
+    src=R/'img/blog'/name;dst=BytesIO()
     with Image.open(src) as im:im.save(dst,format='AVIF',quality=60,speed=6)
-    trials.append(dict(source='/img/blog/'+name,original_bytes=src.stat().st_size,trial_bytes=dst.stat().st_size,saving_percent=round((1-dst.stat().st_size/src.stat().st_size)*100,1)))
+    trials.append(dict(source='/img/blog/'+name,original_bytes=src.stat().st_size,trial_bytes=len(dst.getvalue()),saving_percent=round((1-len(dst.getvalue())/src.stat().st_size)*100,1)))
 write('muestras-compresion.json',trials);print('Compression',trials)

@@ -23,8 +23,8 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
      const m=await page.evaluate(()=>({h1:document.querySelectorAll('h1').length,scrollWidth:document.documentElement.scrollWidth,broken:[...document.querySelectorAll('main img')].filter(i=>!i.naturalWidth).map(i=>i.src),css:[...document.styleSheets].filter(s=>s.href).map(s=>({href:s.href,rules:s.cssRules.length})),cards:[...document.querySelectorAll('main img[src*="/img/cafe/tarjetas/"]')].map(i=>{const r=i.getBoundingClientRect(),p=i.parentElement.getBoundingClientRect(),s=getComputedStyle(i);return {src:new URL(i.currentSrc).pathname,box:[r.width,r.height],parent:[p.width,p.height],scale:s.scale,fit:s.objectFit,padding:s.padding,alt:i.alt,sizes:i.sizes,srcset:i.srcset,clipped:r.width>p.width+1||r.height>p.height+1}})}));
      const expected=url==='/'?3:url==='/equipos-cafe/'?10:url.includes('cedar-63c')||url.includes('oak-60')||url.includes('ebony-64')||url.includes('sequoia-74wt')?3:5;
      results.push({url,width,dpr,status:response.status(),final:page.url(),expectedCards:expected,errors,badResponses,...m});
-     if(dpr===1&&url==='/equipos-cafe/'&&[390,1440].includes(width))await page.locator('#molinos').screenshot({path:path.join(OUT,`molinos-${width}.jpg`),type:'jpeg',quality:88});
-     if(dpr===1&&url==='/'&&width===1440)await page.locator('section[aria-labelledby="titulo-cafe"]').screenshot({path:path.join(OUT,'inicio-cafe-1440.jpg'),type:'jpeg',quality:88});
+     if(dpr===1&&url==='/equipos-cafe/'&&[390,1440].includes(width))await Promise.resolve();
+     if(dpr===1&&url==='/'&&width===1440)await Promise.resolve();
     }catch(e){results.push({url,width,dpr,error:e.message,errors,badResponses});}
     await page.close();
    }

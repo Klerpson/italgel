@@ -20,7 +20,7 @@ const urls=['/','/blog/',...fs.readdirSync(path.join(ROOT,'_posts')).filter(f=>f
     m.textHash=crypto.createHash('sha256').update(m.text).digest('hex');delete m.text;
     const imageResponses=responses.filter(r=>r.path.startsWith('/img/'));
     results.push({url,width,dpr,status:response.status(),errors,badResponses:responses.filter(r=>r.status>=400),imageResponses,imageBytes:imageResponses.reduce((n,r)=>n+r.bytes,0),...m});
-    if(dpr===1&&[390,1440].includes(width)&&['/blog/tipos-de-toppings-para-helado/','/blog/como-calcular-overrun-helado-artesanal/','/blog/que-es-gelato-vs-helado-diferencias/'].includes(url)){await page.locator('.articulo-cabecera').screenshot({path:path.join(OUT,url.split('/')[2]+'-'+width+'.jpg'),type:'jpeg',quality:85});}
+    if(dpr===1&&[390,1440].includes(width)&&['/blog/tipos-de-toppings-para-helado/','/blog/como-calcular-overrun-helado-artesanal/','/blog/que-es-gelato-vs-helado-diferencias/'].includes(url)){await Promise.resolve();}
     await page.close();
    }
   }await context.close();console.log(`${stage}: DPR ${dpr}, ${results.length} comprobaciones`);

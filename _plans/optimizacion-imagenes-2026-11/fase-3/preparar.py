@@ -1,8 +1,11 @@
 import json,hashlib,re
 from pathlib import Path
+import tempfile,shutil
 from PIL import Image,ImageOps
 from lxml import html
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2];SITE=ROOT/'_site';DEST=ROOT/'img/catalogo'
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2];SITE=ROOT/'_site';CACHE=Path(tempfile.gettempdir())/'italgel-imagenes'/HERE.name
+CACHE.mkdir(parents=True,exist_ok=True)
+DEST=ROOT/'img/catalogo'
 DEST.mkdir(exist_ok=True)
 for old_variant in DEST.glob('*.avif'):
     assert old_variant.resolve().parent==DEST.resolve()
@@ -25,11 +28,11 @@ receipts=[];images={};groups={}
 for source in scope['sources']:
     old=ROOT/source.lstrip('/');stem=old.stem
     if stem.startswith('logo') or not old.is_file():continue
-    master=HERE/'fuentes'/(replacements[stem]+'.jpg') if stem in replacements else old
+    master=CACHE/(replacements[stem]+'.jpg') if stem in replacements else old
     if stem.startswith('hero-insumos-heladeria-'):master=ROOT/'img/contacto-italgel-colombia.avif'
     if stem=='pasta-fresa-helado-natural':master=ROOT/'img/fiordifragola-variegato-fresa.avif'
     # The recovered Base 50 image shows the same ice-cream display at a larger size.
-    if stem=='base-50-mec3-empaque':master=HERE/'fuentes/base-50-mec3-empaque.png'
+    if stem=='base-50-mec3-empaque':master=CACHE/'base-50-mec3-empaque.png'
     sha=hashlib.sha256(master.read_bytes()).hexdigest()
     with Image.open(master) as im:
         rgba=ImageOps.exif_transpose(im).convert('RGBA')
@@ -53,8 +56,12 @@ for source in scope['sources']:
         variants.sort(key=lambda v:v['width']);full=variants[-1];fallback=min(variants,key=lambda v:abs(v['width']-600))
         item=dict(src=fallback['src'],width=full['width'],height=full['height'],variants=[dict(src=v['src'],width=v['width']) for v in variants]);groups[sha]=item
     images[source]=item
-    receipts.append(dict(source=source,master=str(master.relative_to(ROOT)),sha256=sha,master_size=[w,h],old_bytes=old.stat().st_size,replacement=master!=old,variants=item['variants']))
+    receipts.append(dict(source=source,master=str(master),sha256=sha,master_size=[w,h],old_bytes=old.stat().st_size,replacement=master!=old,variants=item['variants']))
 config=dict(sizes=dict(hero='(min-width: 88rem) 550px, (min-width: 60rem) 40vw, 92vw',card='auto, (min-width: 88rem) 350px, (min-width: 60rem) 30vw, 84vw',body='auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw'),imagenes=images)
 (ROOT/'_data/imagenes_catalogo.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (HERE/'procedencia.json').write_text(json.dumps(receipts,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(dict(pages=len(scope['pages']),sources=len(images),unique=len(groups),files=len(list(DEST.glob('*.avif'))),bytes=sum(x.stat().st_size for x in DEST.glob('*.avif'))),indent=2))
+
+# Eliminar las fuentes de trabajo al terminar; nunca conservarlas en el proyecto.
+assert CACHE.resolve().parent == (Path(tempfile.gettempdir())/'italgel-imagenes').resolve()
+shutil.rmtree(CACHE)

@@ -1,4 +1,5 @@
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const CACHE=path.join(require('os').tmpdir(),'italgel-imagenes',path.basename(__dirname));fs.mkdirSync(CACHE,{recursive:true});
 const out=path.join(__dirname,'fuentes');fs.mkdirSync(out,{recursive:true});
 const pages={coldelite301:'https://www.iceteam1927.it/en/products/soft-ice-cream/bib/301-inox',coldelite603:'https://www.iceteam1927.it/en/products/soft-ice-cream/bib/603-bib',compacta:'https://www.iceteam1927.it/prodotti/macchine-gelato-artigianale/combinate/compacta-vario',fiordilampone:'https://www.mec3.com/it/prodotti/gelato/variegati/variegati-frutta/fiordilampone',quella:'https://www.mec3.com/en/products/gelato/quella-family'};
 pages.quellaDark='https://www.mec3.com/en/products/gelato/quella-dark';pages.quellaPistacho='https://www.mec3.com/en/products/gelato/ripple-sauces/quella-pistachio';
@@ -7,5 +8,5 @@ const assets={snowy:'https://valmar.eu/wp-content/uploads/2016/10/valmar-manteca
  if(['fiordilampone','quellaDark','quellaPistacho'].includes(name)){const tag=s.match(/<img\b[^>]*class="product-details__image"[^>]*>/)?.[0],src=tag?.match(/src="([^"]+)"/)?.[1];if(src)assets[name]=new URL(src,url).href;}
  if(name==='quella')console.log([...new Set([...s.matchAll(/href="([^"]*quella[^"#]*)"/g)].map(m=>m[1]))].filter(x=>x.match(/dark|pistac/)).join('\n'));
  }
- const rows=await Promise.all(Object.entries(assets).map(async([name,url])=>{const r=await fetch(url,{signal:AbortSignal.timeout(25000)}),b=Buffer.from(await r.arrayBuffer()),type=r.headers.get('content-type'),file=name+(type?.includes('png')?'.png':'.jpg');if(r.ok&&type?.startsWith('image/'))fs.writeFileSync(path.join(out,file),b);return {name,url,status:r.status,type,file,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex')};}));fs.writeFileSync(path.join(out,'descargas.json'),JSON.stringify(rows,null,2));console.log(rows);
+ const rows=await Promise.all(Object.entries(assets).map(async([name,url])=>{const r=await fetch(url,{signal:AbortSignal.timeout(25000)}),b=Buffer.from(await r.arrayBuffer()),type=r.headers.get('content-type'),file=name+(type?.includes('png')?'.png':'.jpg');if(r.ok&&type?.startsWith('image/'))fs.writeFileSync(path.join(CACHE,file),b);return {name,url,status:r.status,type,file,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex')};}));fs.writeFileSync(path.join(out,'descargas.json'),JSON.stringify(rows,null,2));console.log(rows);
 })().catch(e=>{console.error(e);process.exit(1)});

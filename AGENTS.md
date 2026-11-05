@@ -1,5 +1,12 @@
 # AGENTS.md - Archivo Maestro de Skills para ItalGel
 
+## Archivos de revisión: preferencia expresa de Camilo
+
+- No guardar imágenes, capturas de pantalla, galerías, comparativas ni copias de fuentes en `_plans/`.
+- Revisar las imágenes en el navegador o en memoria. Cuando el procesamiento requiera archivos de trabajo, usar el temporal del sistema y eliminarlos al terminar.
+- Conservar en el proyecto únicamente las imágenes que utiliza la web, en sus carpetas de activos. `_plans/` puede conservar informes, fuentes documentales y resultados de comprobaciones en texto.
+- No volver a acumular imágenes de evidencia, aunque estén excluidas de Git o de Jekyll.
+
 ## 📍 Descripción del Proyecto: ItalGel
 
 ItalGel (italgel.com.co) es una tienda online desarrollada en Jekyll, especializada en la venta de insumos, máquinas y equipos para heladerías artesanales e industriales en Colombia.

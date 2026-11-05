@@ -1,5 +1,7 @@
 # Optimización de imágenes y maquetación por fases
 
+Nota de limpieza, 5 de noviembre de 2026: por petición de Camilo se eliminaron las imágenes de trabajo, fuentes descargadas y capturas de `_plans/`. Las referencias históricas a esas capturas no implican que sigan guardadas. Los scripts ya no exportan capturas o galerías; las fuentes necesarias para procesar imágenes se descargan al temporal del sistema y se eliminan tras su exportación. Se conservan los activos de la web y la documentación textual de procedencia y resultados.
+
 Inicio: 4 de noviembre de 2026. Base: auditoría local de la remodelación Mercato. Publicación autorizada el 4 de noviembre de 2026. Ver publicacion/RESULTADO.md.
 
 ## Criterios comunes

@@ -24,7 +24,7 @@ const server=http.createServer((req,res)=>{let p=path.join(site,decodeURICompone
     return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('main *')].filter(e=>{let b=e.getBoundingClientRect();return b.width>0&&(b.right>innerWidth+2||b.left<-2)&&getComputedStyle(e).position!=='fixed'}).slice(0,12).map(e=>({tag:e.tagName,cls:e.className,text:e.textContent.trim().slice(0,60)})),images,h1:document.querySelectorAll('h1').length,css:[...document.styleSheets].filter(s=>s.href).map(s=>({href:s.href,rules:s.cssRules.length})),main:!!document.querySelector('main')};
    });result.viewports.push(r);
    const shotPages=['/','/equipos-cafe/','/vitrinas-congeladores/','/insumos/','/equipos/','/nosotros/','/contacto/','/blog/','/equipos-cafe/mini-neo/','/maquinas-helado-soft/','/blog/como-abrir-una-heladeria-en-colombia/'];
-   if(shotPages.includes(url)&&width!==768){const name=url==='/'?'inicio':url.replace(/^\//,'').replace(/\/$/,'').replaceAll('/','--');await page.screenshot({path:path.join(out,`${name}-${width}.jpg`),fullPage:true,type:'jpeg',quality:75});}
+   if(shotPages.includes(url)&&width!==768){const name=url==='/'?'inicio':url.replace(/^\//,'').replace(/\/$/,'').replaceAll('/','--');await Promise.resolve();}
   }
   results.push(result);await page.close();n++;if(n%20===0)console.log(`${n}/${pages.length}`);
  }

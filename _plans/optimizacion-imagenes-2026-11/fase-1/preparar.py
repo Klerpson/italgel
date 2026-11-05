@@ -1,6 +1,7 @@
 """Exportaciones técnicas del catálogo: píxeles de origen, sin generación ni escalado al alza."""
 import hashlib,json,math
 from pathlib import Path
+import tempfile,shutil
 from io import BytesIO
 from PIL import Image,ImageOps,ImageDraw,ImageChops,ImageFilter
 import numpy as np
@@ -8,7 +9,9 @@ from pypdf import PdfReader
 
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
-SOURCES=HERE/'fuentes'
+CACHE=Path(tempfile.gettempdir())/'italgel-imagenes'/HERE.name
+CACHE.mkdir(parents=True,exist_ok=True)
+SOURCES=CACHE
 DEST=ROOT/'img/cafe/tarjetas'
 SOURCES.mkdir(exist_ok=True);DEST.mkdir(exist_ok=True)
 catalogs=[('Catalogo Hambach.pdf',['mini-neo','swan','falcon','tank-1','tank-2','cruiser'],0),('Catalogo Molinos.pdf',['cedar-63c','oak-60','ebony-64','sequoia-74wt'],1)]
@@ -48,7 +51,7 @@ for name,slugs,image_index in catalogs:
         assert subject.width<=crop.width and subject.height<=crop.height
         canvas=Image.new('RGBA',(width,height),'white')
         canvas.alpha_composite(subject,((width-subject.width)//2,(height-subject.height)//2))
-        canvas=canvas.convert('RGB');canvas.save(HERE/(slug+'-normalizada.png'));previews.append((slug,canvas))
+        canvas=canvas.convert('RGB')
         widths=sorted(set([w for w in [160,320,480,640] if w<=width-48]+[width]))
         for previous in DEST.glob(f'{slug}-*.avif'):
             assert previous.resolve().parent==DEST.resolve()
@@ -63,9 +66,8 @@ for name,slugs,image_index in catalogs:
         receipts.append(dict(slug=slug,pdf=str(pdf),pdf_sha256=pdf_hash,page=number,object=key,source_size=list(photo.size),source_sha256=hashlib.sha256((SOURCES/(slug+'.png')).read_bytes()).hexdigest(),removed_extraction_speckle_pixels=removed,crop=list(bbox),canvas=[width,height],subject=list(subject.size),old_bytes=(ROOT/'img/cafe'/f'{slug}.avif').stat().st_size,variants=variants))
 (ROOT/'_data/imagenes_cafe.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (HERE/'procedencia.json').write_text(json.dumps(receipts,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-sheet=Image.new('RGB',(1500,700),'#efede7');draw=ImageDraw.Draw(sheet)
-for i,(slug,canvas) in enumerate(previews):
-    thumb=ImageOps.contain(canvas,(290,300));x=(i%5)*300;y=(i//5)*350
-    sheet.paste(thumb,(x+(300-thumb.width)//2,y));draw.text((x+6,y+310),slug,fill='black');draw.text((x+6,y+327),f'{canvas.width} x {canvas.height}',fill='black')
-sheet.save(HERE/'catalogo-normalizado.jpg',quality=92)
 print(json.dumps([dict(slug=x['slug'],canvas=x['canvas'],old=x['old_bytes'],variants=[(v['width'],v['bytes']) for v in x['variants']]) for x in receipts],indent=2))
+
+# Eliminar las fuentes de trabajo al terminar; nunca conservarlas en el proyecto.
+assert CACHE.resolve().parent == (Path(tempfile.gettempdir())/'italgel-imagenes').resolve()
+shutil.rmtree(CACHE)

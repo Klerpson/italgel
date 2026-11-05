@@ -34,3 +34,16 @@ Thumbs.db
 
 # Temporary files
 *.tmp
+
+# Las imágenes de trabajo no se guardan en _plans (preferencia del propietario).
+_plans/**/*.png
+_plans/**/*.jpg
+_plans/**/*.jpeg
+_plans/**/*.avif
+_plans/**/*.webp
+_plans/**/*.gif
+_plans/**/*.bmp
+_plans/**/*.tif
+_plans/**/*.tiff
+_plans/**/*.svg
+_plans/**/*.ico

@@ -1,9 +1,12 @@
 """Derivados desde originales de fabricante: fondo blanco, sin aumentar el equipo."""
 import json, hashlib
 from pathlib import Path
+import tempfile,shutil
 from PIL import Image, ImageOps, ImageChops
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
+CACHE=Path(tempfile.gettempdir())/'italgel-imagenes'/HERE.name
+CACHE.mkdir(parents=True,exist_ok=True)
 DEST=ROOT/'img/catalogo/fabricantes'
 DEST.mkdir(exist_ok=True)
 names={'snowy':'valmar-snowy-7-m','sweety':'valmar-sweety-60-quick','stargel':'promag-stargel-4','pasmo':'pasmo-s121-gravity','coldelite301':'iceteam-301-bib-inox','coldelite603':'iceteam-603-bib','compacta':'coldelite-compacta-vario-12','quellaDark':'mec3-quella-dark','quellaPistacho':'mec3-quella-pistacchio'}
@@ -12,7 +15,7 @@ data={};rows=[];keys={}
 for row in downloads:
     name=row['name']
     if name not in names: continue
-    source=HERE/'fuentes'/row['file']
+    source=CACHE/row['file']
     assert hashlib.sha256(source.read_bytes()).hexdigest()==row['sha256']
     with Image.open(source) as im:
         rgba=ImageOps.exif_transpose(im).convert('RGBA')
@@ -48,3 +51,7 @@ for row in downloads:
 (HERE/'procedencia.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 (HERE/'claves.json').write_text(json.dumps(keys,indent=2)+'\n',encoding='utf8')
 print(json.dumps({'photos':len(rows),'variants':sum(len(r['variants']) for r in rows),'bytes':sum(v['bytes'] for r in rows for v in r['variants']),'keys':keys},indent=2))
+
+# Eliminar las fuentes de trabajo al terminar; nunca conservarlas en el proyecto.
+assert CACHE.resolve().parent == (Path(tempfile.gettempdir())/'italgel-imagenes').resolve()
+shutil.rmtree(CACHE)
