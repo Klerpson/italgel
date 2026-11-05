@@ -1,0 +1,42 @@
+[
+  {
+    "name": "arandano",
+    "code": "18081A",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/fruit-flavours/blueberry-paste",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/prodotti.jpg",
+    "rejected": "Imagen generica"
+  },
+  {
+    "name": "chocolate",
+    "code": "14073A",
+    "product": "CHOCOLATE CREAM",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/chocolate-cream",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/crema-cioccolato.jpg",
+    "file": "chocolate.jpg",
+    "status": 200,
+    "bytes": 338325,
+    "sha256": "c774a81aa8d4eda1a7ceb8be99c3ca9e1169a97de4e42dbf1e59081fa09d6b2b"
+  },
+  {
+    "name": "stracciatella",
+    "code": "14028",
+    "product": "STRACCIATELLA",
+    "page": "https://www.mec3.com/en/products/gelato/ripple-sauces/creamy-ripples/stracciatella",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/variegati/stracciatella.jpg",
+    "file": "stracciatella.jpg",
+    "status": 200,
+    "bytes": 50394,
+    "sha256": "d7e23cb868e791f1d0e886eb07684cc20ded53534a9fc2e7bc4bc131a22cbf68"
+  },
+  {
+    "name": "blanco",
+    "code": "14092A",
+    "product": "Biancocioc",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/biancocioc",
+    "url": "https://www.mec3.com/Media/Gusti/cioccolato-bianco.png",
+    "file": "blanco.jpg",
+    "status": 200,
+    "bytes": 156989,
+    "sha256": "53605c10ac81fff5253c2fd0bde30f10b1ca5eec79c8bcc2cc929c49e4ea5cb2"
+  }
+]

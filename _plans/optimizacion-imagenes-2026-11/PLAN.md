@@ -60,6 +60,10 @@ Estado: nueve fotografías oficiales publicadas y verificadas el 4 de noviembre;
 
 Estado: seis fotografías para siete referencias publicadas y verificadas el 4 de noviembre; 26 archivos correctos por hash y 48 comprobaciones visuales públicas sin errores. Frutos del bosque, frambuesa, vainilla, coco y caramelo; 26 AVIF (297.077 bytes en conjunto), sin CSS nuevo. Stock identificado como ilustrativo, fuentes y pruebas en `fase-7/RESULTADO.md`. Tanda cerrada.
 
+## Frutas restantes y chocolates
+
+Estado: siete imágenes integradas en tres páginas; comprobación de publicación en curso el 5 de noviembre. Arándano, limón, mandarina, pitaya, chocolate, stracciatella y chocolate blanco. 32 AVIF (651.708 bytes en conjunto), sin cambios CSS. Fuentes y evidencia en `fase-8/RESULTADO.md`.
+
 ## Evidencia
 
 Auditoría inicial: `_plans/auditoria-visual-2026-11-04/INFORME.md`. Cada fase conserva sus fuentes, proceso y resultados en su propia carpeta dentro de este plan. El contenido de `_plans/` no se publica en la compilación de Jekyll.

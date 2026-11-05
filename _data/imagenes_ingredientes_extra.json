@@ -1,0 +1,181 @@
+{
+  "imagenes": {
+    "/img/pasta-chocolate-helado-artesanal.avif": {
+      "src": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/pasta-stracciatella-chips-chocolate.avif": {
+      "src": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+      "width": 492,
+      "height": 492,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "width": 492
+        }
+      ]
+    },
+    "/img/pasta-chocolate-blanco-helado.avif": {
+      "src": "/img/catalogo/ingredientes-2/blanco-540.avif",
+      "width": 540,
+      "height": 540,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "width": 540
+        }
+      ]
+    },
+    "/img/pasta-arandano-helado-sorbet.avif": {
+      "src": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-800.avif",
+          "width": 800
+        }
+      ]
+    },
+    "/img/pasta-limon-siciliano-sorbet.avif": {
+      "src": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-800.avif",
+          "width": 800
+        }
+      ]
+    },
+    "/img/pasta-mandarina-helado-citrico.avif": {
+      "src": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-800.avif",
+          "width": 800
+        }
+      ]
+    },
+    "/img/pasta-dragon-summer-helado-exotico.avif": {
+      "src": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-160.avif",
+          "width": 160
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+          "width": 280
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+          "width": 600
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-800.avif",
+          "width": 800
+        }
+      ]
+    }
+  }
+}

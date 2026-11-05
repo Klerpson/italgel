@@ -1,0 +1,364 @@
+[
+  {
+    "name": "chocolate",
+    "code": "14073A",
+    "product": "CHOCOLATE CREAM",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/chocolate-cream",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/creme/crema-cioccolato.jpg",
+    "file": "chocolate.jpg",
+    "status": 200,
+    "bytes": 338325,
+    "sha256": "c774a81aa8d4eda1a7ceb8be99c3ca9e1169a97de4e42dbf1e59081fa09d6b2b",
+    "source_size": [
+      492,
+      492
+    ],
+    "quality": 62,
+    "crop": null,
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-chocolate-helado-artesanal.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-160.avif",
+        "width": 160,
+        "bytes": 5605
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-280.avif",
+        "width": 280,
+        "bytes": 17873
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+        "width": 400,
+        "bytes": 32056
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+        "width": 492,
+        "bytes": 44972
+      }
+    ]
+  },
+  {
+    "name": "stracciatella",
+    "code": "14028",
+    "product": "STRACCIATELLA",
+    "page": "https://www.mec3.com/en/products/gelato/ripple-sauces/creamy-ripples/stracciatella",
+    "url": "https://www.mec3.com/Media/prodottigelato-basi/variegati/stracciatella.jpg",
+    "file": "stracciatella.jpg",
+    "status": 200,
+    "bytes": 50394,
+    "sha256": "d7e23cb868e791f1d0e886eb07684cc20ded53534a9fc2e7bc4bc131a22cbf68",
+    "source_size": [
+      492,
+      492
+    ],
+    "quality": 66,
+    "crop": null,
+    "output_size": [
+      492,
+      492
+    ],
+    "aliases": [
+      "/img/pasta-stracciatella-chips-chocolate.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-160.avif",
+        "width": 160,
+        "bytes": 6430
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-280.avif",
+        "width": 280,
+        "bytes": 13821
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+        "width": 400,
+        "bytes": 22939
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+        "width": 492,
+        "bytes": 33528
+      }
+    ]
+  },
+  {
+    "name": "blanco",
+    "code": "14092A",
+    "product": "Biancocioc",
+    "page": "https://www.mec3.com/en/products/gelato/flavouring-pastes/milk-gelato-flavours/biancocioc",
+    "url": "https://www.mec3.com/Media/Gusti/cioccolato-bianco.png",
+    "file": "blanco.jpg",
+    "status": 200,
+    "bytes": 156989,
+    "sha256": "53605c10ac81fff5253c2fd0bde30f10b1ca5eec79c8bcc2cc929c49e4ea5cb2",
+    "source_size": [
+      540,
+      540
+    ],
+    "quality": 66,
+    "crop": null,
+    "output_size": [
+      540,
+      540
+    ],
+    "aliases": [
+      "/img/pasta-chocolate-blanco-helado.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-160.avif",
+        "width": 160,
+        "bytes": 4040
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-280.avif",
+        "width": 280,
+        "bytes": 9122
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+        "width": 400,
+        "bytes": 15434
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-540.avif",
+        "width": 540,
+        "bytes": 28451
+      }
+    ]
+  },
+  {
+    "name": "arandano-stock",
+    "author": "Alina Vilchenko",
+    "page": "https://www.pexels.com/photo/blueberries-on-white-surface-12716480/",
+    "license": "https://www.pexels.com/license/",
+    "url": "https://images.pexels.com/photos/12716480/pexels-photo-12716480.jpeg?auto=compress&cs=srgb&w=1600",
+    "file": "arandano-stock.jpg",
+    "status": 200,
+    "bytes": 523141,
+    "sha256": "29ff817afc34b6bc1ef015a19dda4087653ec6755f1212c0fa8c7fabbd0063b0",
+    "source_size": [
+      1600,
+      2400
+    ],
+    "quality": 62,
+    "crop": [
+      0,
+      400,
+      1600,
+      2000
+    ],
+    "output_size": [
+      800,
+      800
+    ],
+    "aliases": [
+      "/img/pasta-arandano-helado-sorbet.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-160.avif",
+        "width": 160,
+        "bytes": 5528
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-280.avif",
+        "width": 280,
+        "bytes": 11487
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+        "width": 400,
+        "bytes": 19595
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+        "width": 600,
+        "bytes": 37185
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-800.avif",
+        "width": 800,
+        "bytes": 59325
+      }
+    ]
+  },
+  {
+    "name": "limon-stock",
+    "author": "Hanna Pad",
+    "page": "https://www.pexels.com/photo/sliced-lemon-on-white-table-7214594/",
+    "license": "https://www.pexels.com/license/",
+    "url": "https://images.pexels.com/photos/7214594/pexels-photo-7214594.jpeg?auto=compress&cs=srgb&w=1600",
+    "file": "limon-stock.jpg",
+    "status": 200,
+    "bytes": 114832,
+    "sha256": "02f071e4a096d6c2c8b091f7e0a984fb63b66c4df4de71995f4c0f551c96d0ba",
+    "source_size": [
+      1600,
+      1067
+    ],
+    "quality": 66,
+    "crop": [
+      414,
+      83,
+      1314,
+      983
+    ],
+    "output_size": [
+      800,
+      800
+    ],
+    "aliases": [
+      "/img/pasta-limon-siciliano-sorbet.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-160.avif",
+        "width": 160,
+        "bytes": 2789
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-280.avif",
+        "width": 280,
+        "bytes": 6540
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+        "width": 400,
+        "bytes": 11729
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+        "width": 600,
+        "bytes": 23274
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-800.avif",
+        "width": 800,
+        "bytes": 35332
+      }
+    ]
+  },
+  {
+    "name": "mandarina-stock",
+    "author": "Paolo Neo",
+    "page": "https://pixnio.com/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://pixnio.com/free-images/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background.jpg",
+    "file": "mandarina-stock.jpg",
+    "status": 200,
+    "bytes": 298122,
+    "sha256": "ffb33c6f6ddc0f174fb86aabf5fbc07cf9554009f600d3bdd7278cc41132e667",
+    "source_size": [
+      2048,
+      1536
+    ],
+    "quality": 62,
+    "crop": [
+      365,
+      72,
+      1669,
+      1425
+    ],
+    "output_size": [
+      800,
+      800
+    ],
+    "aliases": [
+      "/img/pasta-mandarina-helado-citrico.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-160.avif",
+        "width": 160,
+        "bytes": 3413
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-280.avif",
+        "width": 280,
+        "bytes": 7403
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+        "width": 400,
+        "bytes": 12674
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+        "width": 600,
+        "bytes": 28190
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-800.avif",
+        "width": 800,
+        "bytes": 57386
+      }
+    ]
+  },
+  {
+    "name": "pitaya-stock",
+    "author": "Bermix Studio",
+    "page": "https://unsplash.com/photos/a-dragon-fruit-cut-in-half-on-a-white-background-IbRkYrIgrWo",
+    "license": "https://unsplash.com/license",
+    "url": "https://images.unsplash.com/photo-1676630034207-5e6e627420d9?fit=max&w=1600&q=95&fm=jpg",
+    "file": "pitaya-stock.jpg",
+    "status": 200,
+    "bytes": 189625,
+    "sha256": "e4712ecba87a672d52cdc3a25a2153f0881f26b05376197df5aeddb08e7e7a6e",
+    "source_size": [
+      1600,
+      1067
+    ],
+    "quality": 66,
+    "crop": [
+      228,
+      178,
+      1285,
+      915
+    ],
+    "output_size": [
+      800,
+      800
+    ],
+    "aliases": [
+      "/img/pasta-dragon-summer-helado-exotico.avif"
+    ],
+    "variants": [
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-160.avif",
+        "width": 160,
+        "bytes": 4172
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-280.avif",
+        "width": 280,
+        "bytes": 8982
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+        "width": 400,
+        "bytes": 14661
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+        "width": 600,
+        "bytes": 26784
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-800.avif",
+        "width": 800,
+        "bytes": 40988
+      }
+    ]
+  }
+]

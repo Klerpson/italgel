@@ -1,0 +1,46 @@
+[
+  {
+    "name": "arandano-stock",
+    "author": "Alina Vilchenko",
+    "page": "https://www.pexels.com/photo/blueberries-on-white-surface-12716480/",
+    "license": "https://www.pexels.com/license/",
+    "url": "https://images.pexels.com/photos/12716480/pexels-photo-12716480.jpeg?auto=compress&cs=srgb&w=1600",
+    "file": "arandano-stock.jpg",
+    "status": 200,
+    "bytes": 523141,
+    "sha256": "29ff817afc34b6bc1ef015a19dda4087653ec6755f1212c0fa8c7fabbd0063b0"
+  },
+  {
+    "name": "limon-stock",
+    "author": "Hanna Pad",
+    "page": "https://www.pexels.com/photo/sliced-lemon-on-white-table-7214594/",
+    "license": "https://www.pexels.com/license/",
+    "url": "https://images.pexels.com/photos/7214594/pexels-photo-7214594.jpeg?auto=compress&cs=srgb&w=1600",
+    "file": "limon-stock.jpg",
+    "status": 200,
+    "bytes": 114832,
+    "sha256": "02f071e4a096d6c2c8b091f7e0a984fb63b66c4df4de71995f4c0f551c96d0ba"
+  },
+  {
+    "name": "mandarina-stock",
+    "author": "Paolo Neo",
+    "page": "https://pixnio.com/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://pixnio.com/free-images/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background.jpg",
+    "file": "mandarina-stock.jpg",
+    "status": 200,
+    "bytes": 298122,
+    "sha256": "ffb33c6f6ddc0f174fb86aabf5fbc07cf9554009f600d3bdd7278cc41132e667"
+  },
+  {
+    "name": "pitaya-stock",
+    "author": "Bermix Studio",
+    "page": "https://unsplash.com/photos/a-dragon-fruit-cut-in-half-on-a-white-background-IbRkYrIgrWo",
+    "license": "https://unsplash.com/license",
+    "url": "https://images.unsplash.com/photo-1676630034207-5e6e627420d9?fit=max&w=1600&q=95&fm=jpg",
+    "file": "pitaya-stock.jpg",
+    "status": 200,
+    "bytes": 189625,
+    "sha256": "e4712ecba87a672d52cdc3a25a2153f0881f26b05376197df5aeddb08e7e7a6e"
+  }
+]
