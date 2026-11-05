@@ -2,7 +2,7 @@
 
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
-| /insumos-heladeria-medellin/ | Corrección comercial validada local; publicación en curso | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparación local sin diferencias protegidas; otras páginas HTML sin cambios |
+| /insumos-heladeria-medellin/ | Corrección comercial publicada y verificada en vivo | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -51,3 +51,5 @@ Se actualiza la skill para priorizar insumos y preparación en esta campaña. Es
 Trece comprobaciones locales y ambos modos sin JavaScript correctos. Galería y cierre inspeccionados en móvil y escritorio; comparación protegida y HTML de otras páginas sin diferencias.
 
 Antes de publicar se integraron los cambios remotos `7718722` (buscador) y `8869c4c` (codificación de Máquinas soft), sin conflictos ni sobrescrituras. Para no atribuir esos cambios a esta intervención visual, se compiló el remoto `8869c4c` en un temporal aislado y se guardó la referencia textual `medellin-antes-insumos.json`. La comparación contra esa referencia confirma cero cambios propios en SEO/contenido protegido y cero cambios de HTML en otras páginas. Se conserva la referencia original de la campaña.
+
+Despliegue `42099296797` completado correctamente para `24dd5e405dbf7f8ff1daab4f4042511c7927a2b0` (corrección visual en `1ca43d7`). Las 13 combinaciones de navegador y los dos modos sin JavaScript pasaron en vivo; se inspeccionaron galería y cierre publicados. Comparación pública sin diferencias protegidas frente a la referencia `8869c4c`. Los activos GIF/AVIF responden HTTP 200 y coinciden en hash con los locales. Los originales descargados, la compilación de referencia y las capturas temporales se eliminan al terminar.

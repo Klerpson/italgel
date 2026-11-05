@@ -1,14 +1,14 @@
 [
   {
-    "archivo": "img/animaciones/disfrutar-helado-playa.gif",
+    "archivo": "img/animaciones/preparacion-chocolate.gif",
     "http": 200,
-    "bytes": 583741,
+    "bytes": 565298,
     "coincide_local": true
   },
   {
-    "archivo": "img/animaciones/disfrutar-helado-playa-poster.avif",
+    "archivo": "img/animaciones/preparacion-chocolate-poster.avif",
     "http": 200,
-    "bytes": 16414,
+    "bytes": 10449,
     "coincide_local": true
   }
 ]
