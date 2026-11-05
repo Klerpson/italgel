@@ -1,0 +1,20 @@
+[
+  {
+    "archivo": "img/animaciones/capas-variegato.gif",
+    "http": 200,
+    "bytes": 584104,
+    "coincide_local": true
+  },
+  {
+    "archivo": "img/animaciones/capas-variegato-poster.avif",
+    "http": 200,
+    "bytes": 9498,
+    "coincide_local": true
+  },
+  {
+    "archivo": "img/catalogo/fabricantes/soft-mesa-piso.svg",
+    "http": 200,
+    "bytes": 55709,
+    "coincide_local": true
+  }
+]
