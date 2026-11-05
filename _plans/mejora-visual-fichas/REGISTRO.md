@@ -3,7 +3,7 @@
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
 | /insumos-heladeria-medellin/ | Corrección comercial publicada y verificada en vivo | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
-| /maquinas-helado-soft/ | Validado local; publicación en curso | 2026-11-05 | Fotografías reales conservadas; catálogo y servicio técnico en filas equilibradas; esquema GIF de mezcla → equipo → servicio | GIF: 20.158 bytes; alternativa SVG: 2.214 bytes | Referencia local/publicada guardada; comparación local sin diferencias protegidas; otras páginas HTML sin cambios |
+| /maquinas-helado-soft/ | Publicado y verificado en vivo | 2026-11-05 | Fotografías reales conservadas; catálogo y servicio técnico en filas equilibradas; esquema GIF de mezcla → equipo → servicio | GIF: 20.158 bytes; alternativa SVG: 2.214 bytes | Comparaciones local/pública sin diferencias protegidas; otras páginas HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -64,3 +64,5 @@ No se encontró entre las escenas de stock revisadas una toma adecuada de dispen
 GIF nativo de 480 × 360 px, doce fotogramas y 2,4 s; 20.158 bytes. El SVG original de 2.214 bytes se utiliza como alternativa fija, seleccionada por picture con movimiento reducido. No se añade JavaScript al sitio ni texto comercial o schema. Datos en `_data/animacion_soft.json`; activos GIF y SVG en `img/animaciones/`.
 
 La compilación local pasó y la comparación con `soft-antes.json` no detecta diferencias de SEO/contenido protegido, front matter o HTML de otras páginas. Nueve comprobaciones de navegador: siete combinaciones de ancho/densidad en soft (320/390/768/960/1440 px y densidad 2 en 390/1440), más regresiones de Medellín y portada. Dos contextos extra con JavaScript desactivado verifican teclado/control y movimiento reducido sin solicitud del GIF. Se inspeccionaron catálogo y esquema en móvil y escritorio, corrigiendo una ampliación excesiva antes de publicar. Los scripts guardan únicamente JSON en esta carpeta y capturas en temporales.
+
+Publicado en `7fffd327579f01eeb36260eeeeb2b9cfce91eb8d`, despliegue `42105540889` correcto. Se repitieron en producción las nueve comprobaciones y los dos modos sin JavaScript, sin fallos; se inspeccionaron las capturas temporales. La comparación pública de elementos protegidos pasó y los dos activos responden HTTP 200 con hashes iguales a los locales. Los candidatos de stock descartados y las capturas de trabajo se eliminan al terminar.

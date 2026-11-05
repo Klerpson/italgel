@@ -1,0 +1,14 @@
+[
+  {
+    "archivo": "img/animaciones/flujo-soft.gif",
+    "http": 200,
+    "bytes": 20158,
+    "coincide_local": true
+  },
+  {
+    "archivo": "img/animaciones/flujo-soft.svg",
+    "http": 200,
+    "bytes": 2214,
+    "coincide_local": true
+  }
+]
