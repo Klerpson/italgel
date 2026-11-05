@@ -2,7 +2,7 @@
 
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
-| /insumos-heladeria-medellin/ | Validado local; publicación en curso | 2026-11-05 | Tres fotos de aplicación después de la introducción; GIF aprobado de disfrute junto al CTA final | Fotos máximas: 24.237 + 44.972 + 18.100 bytes; GIF: 583.741 bytes; alternativa fija: 16.414 bytes | Comparación local sin diferencias protegidas; otras páginas HTML sin cambios |
+| /insumos-heladeria-medellin/ | Publicado y verificado en vivo | 2026-11-05 | Tres fotos de aplicación después de la introducción; GIF aprobado de disfrute junto al CTA final | Fotos máximas: 24.237 + 44.972 + 18.100 bytes; GIF: 583.741 bytes; alternativa fija: 16.414 bytes | Comparaciones local y pública sin diferencias protegidas; otras páginas HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -23,3 +23,11 @@ El include existente de animación admite ahora datos por parámetro y conserva 
 - `comprobar_medellin.py` compara la referencia publicada previa y el HTML local: cero diferencias en elementos protegidos, y ninguna otra página HTML cambia. Los estilos compartidos sí reciben las reglas delimitadas del piloto.
 
 Los JSON de navegador registran recursos de imágenes y sus bytes codificados antes y después del recorrido, en contextos nuevos. Son observaciones de la comprobación, no resultados de Core Web Vitals ni una promesa de descarga idéntica entre dispositivos.
+
+### Publicación y validación pública
+
+Publicado en `f45b3e1695f0e4b90df9cb4cb2085e1f32fe6308`, despliegue de GitHub Pages `42065696110` completado correctamente. URL: https://italgel.com.co/insumos-heladeria-medellin/.
+
+Se repitieron las 13 combinaciones de navegador y los dos modos sin JavaScript en producción. La única alerta fue una respuesta 503 puntual de una miniatura preexistente del menú, ajena a los nuevos medios: `valmar-sweety-60-quick-160.avif`, a 960 px. Se conservó el resultado original y se repitió únicamente esa combinación: sin errores; petición directa posterior HTTP 200. No se modificó esa miniatura.
+
+Se inspeccionaron los bloques publicados en móvil y escritorio. GIF y fotograma responden HTTP 200 y sus hashes coinciden con los archivos optimizados locales. Teclado y control visual correctos; movimiento reducido hace cero peticiones al GIF. La comparación pública con la referencia anterior da cero diferencias en SEO/contenido protegido. Los temporales de revisión se eliminan al terminar; _plans sigue sin imágenes.

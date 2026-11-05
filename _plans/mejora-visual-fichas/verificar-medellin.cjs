@@ -4,7 +4,9 @@ const live=process.argv.includes('vivo'),base=live?'https://italgel.com.co':'htt
 const temp=path.join(os.tmpdir(),'italgel-piloto-medellin');fs.mkdirSync(temp,{recursive:true});
 (async()=>{
  const browser=await chromium.launch({headless:true,channel:'msedge'}),results=[];
- const cases=[...[320,390,768,960,1440].map(width=>({url:'/insumos-heladeria-medellin/',width,dpr:1})),...[390,1440].map(width=>({url:'/insumos-heladeria-medellin/',width,dpr:2})),...['/','/insumos-heladeria-cali/','/pastas-sabores-helado/pasta-vainilla/'].flatMap(url=>[390,1440].map(width=>({url,width,dpr:1})))];
+ let cases=[...[320,390,768,960,1440].map(width=>({url:'/insumos-heladeria-medellin/',width,dpr:1})),...[390,1440].map(width=>({url:'/insumos-heladeria-medellin/',width,dpr:2})),...['/','/insumos-heladeria-cali/','/pastas-sabores-helado/pasta-vainilla/'].flatMap(url=>[390,1440].map(width=>({url,width,dpr:1})))];
+ const retry=process.argv.includes('--solo-fallos');
+ if(retry)cases=JSON.parse(fs.readFileSync(path.join(__dirname,`medellin-navegador-${mode}.json`),'utf8')).failures.map(({url,width,dpr})=>({url,width,dpr}));
  for(const test of cases){
   const ctx=await browser.newContext({viewport:{width:test.width,height:1000},deviceScaleFactor:test.dpr});
   await ctx.route('**/*',r=>['127.0.0.1','italgel.com.co','www.italgel.com.co'].includes(new URL(r.request().url()).hostname)?r.continue():r.abort());
@@ -31,5 +33,5 @@ const temp=path.join(os.tmpdir(),'italgel-piloto-medellin');fs.mkdirSync(temp,{r
  }
  await browser.close();
  const failures=results.filter(r=>r.status!==200||r.errors.length||r.bad.length||r.broken.length||r.overflow||r.images.some(i=>Math.abs(i.width/i.height-(i.src.includes('.gif')?4/3:1))>.02));
- const summary={mode,checks:results.length,failures,accessible,results};fs.writeFileSync(path.join(__dirname,`medellin-navegador-${mode}.json`),JSON.stringify(summary,null,2));console.log(JSON.stringify({mode,checks:results.length,failures,accessible},null,2));if(failures.length||accessible.some(x=>!x.pause||!x.keyboard||(x.reduced&&x.gifRequests)))process.exitCode=1;
+ const summary={mode,checks:results.length,failures,accessible,results};fs.writeFileSync(path.join(__dirname,`medellin-navegador-${mode}${retry?'-reintento':''}.json`),JSON.stringify(summary,null,2));console.log(JSON.stringify({mode,checks:results.length,failures,accessible},null,2));if(failures.length||accessible.some(x=>!x.pause||!x.keyboard||(x.reduced&&x.gifRequests)))process.exitCode=1;
 })().catch(e=>{console.error(e);process.exit(1)});

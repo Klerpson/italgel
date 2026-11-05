@@ -1,0 +1,185 @@
+{
+  "mode": "vivo",
+  "checks": 1,
+  "failures": [],
+  "accessible": [
+    {
+      "javaScript": false,
+      "reduced": false,
+      "gifRequests": 1,
+      "src": "https://italgel.com.co/img/animaciones/disfrutar-helado-playa.gif",
+      "pause": true,
+      "keyboard": true
+    },
+    {
+      "javaScript": false,
+      "reduced": true,
+      "gifRequests": 0,
+      "src": "https://italgel.com.co/img/animaciones/disfrutar-helado-playa-poster.avif",
+      "pause": true,
+      "keyboard": true
+    }
+  ],
+  "results": [
+    {
+      "url": "/insumos-heladeria-medellin/",
+      "width": 960,
+      "dpr": 1,
+      "status": 200,
+      "errors": [],
+      "bad": [],
+      "initialImages": [
+        {
+          "url": "https://italgel.com.co/img/logo-nav.avif",
+          "bytes": 3384
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/vainilla-400.avif",
+          "bytes": 0
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "bytes": 0
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-400.avif",
+          "bytes": 0
+        }
+      ],
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "https://italgel.com.co/img/catalogo/ingredientes/vainilla-280.avif",
+          "width": 273.0625,
+          "height": 273.0625,
+          "naturalWidth": 273
+        },
+        {
+          "src": "https://italgel.com.co/img/catalogo/ingredientes-2/chocolate-280.avif",
+          "width": 273.0625,
+          "height": 273.0625,
+          "naturalWidth": 273
+        },
+        {
+          "src": "https://italgel.com.co/img/catalogo/ingredientes/bosque-280.avif",
+          "width": 273.0625,
+          "height": 273.0625,
+          "naturalWidth": 273
+        },
+        {
+          "src": "https://italgel.com.co/img/animaciones/disfrutar-helado-playa.gif",
+          "width": 298.671875,
+          "height": 224,
+          "naturalWidth": 400
+        }
+      ],
+      "imageResources": [
+        {
+          "url": "https://italgel.com.co/img/logo-nav.avif",
+          "bytes": 3384
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/vainilla-400.avif",
+          "bytes": 0
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "bytes": 0
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-400.avif",
+          "bytes": 0
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/vainilla-280.avif",
+          "bytes": 10777
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes-2/chocolate-280.avif",
+          "bytes": 17873
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-280.avif",
+          "bytes": 7766
+        },
+        {
+          "url": "https://italgel.com.co/img/coldelite-compacta-1.avif",
+          "bytes": 4900
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+          "bytes": 2091
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+          "bytes": 1818
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/mini-neo.avif",
+          "bytes": 15658
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/falcon.avif",
+          "bytes": 14167
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/cruiser.avif",
+          "bytes": 19852
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/sequoia-74wt.avif",
+          "bytes": 9898
+        },
+        {
+          "url": "https://italgel.com.co/img/cafe/tank-2.avif",
+          "bytes": 23624
+        },
+        {
+          "url": "https://italgel.com.co/img/fiordiamarena-variegato-cerezas.avif",
+          "bytes": 11929
+        },
+        {
+          "url": "https://italgel.com.co/img/variegatos-quella-textura.avif",
+          "bytes": 18658
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/salted-160.avif",
+          "bytes": 3330
+        },
+        {
+          "url": "https://italgel.com.co/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
+        },
+        {
+          "url": "https://italgel.com.co/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
+        },
+        {
+          "url": "https://italgel.com.co/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
+        },
+        {
+          "url": "https://italgel.com.co/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
+        },
+        {
+          "url": "https://italgel.com.co/img/pasta-pistacho-siciliano-mec3.avif",
+          "bytes": 38628
+        },
+        {
+          "url": "https://italgel.com.co/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
+          "url": "https://italgel.com.co/img/animaciones/disfrutar-helado-playa.gif",
+          "bytes": 583741
+        }
+      ]
+    }
+  ]
+}

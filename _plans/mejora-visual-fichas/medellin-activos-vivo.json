@@ -1,0 +1,14 @@
+[
+  {
+    "archivo": "img/animaciones/disfrutar-helado-playa.gif",
+    "http": 200,
+    "bytes": 583741,
+    "coincide_local": true
+  },
+  {
+    "archivo": "img/animaciones/disfrutar-helado-playa-poster.avif",
+    "http": 200,
+    "bytes": 16414,
+    "coincide_local": true
+  }
+]
