@@ -1,0 +1,22 @@
+{
+  "src": "/img/animaciones/flujo-soft.gif",
+  "poster": "/img/animaciones/flujo-soft.svg",
+  "width": 480,
+  "height": 360,
+  "frames": 12,
+  "duration_ms": 2400,
+  "bytes": 20158,
+  "alt": "Esquema animado del recorrido de la mezcla al equipo soft y al servicio en cono",
+  "caption": "Mezcla, equipo y servicio. Esquema ilustrativo.",
+  "control_label": "Reproducir el esquema de preparación y servicio soft",
+  "source": {
+    "type": "Esquema vectorial original para Italgel",
+    "file": "/img/animaciones/flujo-soft.svg"
+  },
+  "processing": {
+    "fps": 5,
+    "colors": 128,
+    "dither": "none"
+  },
+  "scope": "Diagrama conceptual, sin representar el mecanismo ni acreditar el rendimiento de un modelo concreto."
+}

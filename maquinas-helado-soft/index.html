@@ -91,7 +91,7 @@ faqs:
     Catálogo de máquinas soft según tu modelo de negocio
   </h2>
 
-  <div class="three_columns">
+  <div class="three_columns filas-locales">
     <article class="product-card">
       <div class="product-img principal">
         {% include mercato/imagen-catalogo.html origen="/img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif" alt="Máquina Coldelite 301 BIB para helado soft" title="Coldelite 301 BIB" contexto="body" %}
@@ -138,6 +138,10 @@ faqs:
     </article>
   </div>
 </section>
+
+<div class="wrapper rejilla" data-visual-nuevo>
+  {% include mercato/helado-animado.html demo=site.data.animacion_soft nuevo=true %}
+</div>
 
 <!-- Tabla comparativa -->
 <section class="wrapper center">
@@ -250,7 +254,7 @@ faqs:
     Servicio técnico y reparación de máquinas soft en Colombia
   </h2>
 
-  <div class="three_columns">
+  <div class="three_columns filas-locales">
     <div class="flow text_center">
       <h3>Capacitación operativa incluida</h3>
       <p>

@@ -3,6 +3,7 @@
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
 | /insumos-heladeria-medellin/ | Corrección comercial publicada y verificada en vivo | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
+| /maquinas-helado-soft/ | Validado local; publicación en curso | 2026-11-05 | Fotografías reales conservadas; catálogo y servicio técnico en filas equilibradas; esquema GIF de mezcla → equipo → servicio | GIF: 20.158 bytes; alternativa SVG: 2.214 bytes | Referencia local/publicada guardada; comparación local sin diferencias protegidas; otras páginas HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -53,3 +54,13 @@ Trece comprobaciones locales y ambos modos sin JavaScript correctos. Galería y 
 Antes de publicar se integraron los cambios remotos `7718722` (buscador) y `8869c4c` (codificación de Máquinas soft), sin conflictos ni sobrescrituras. Para no atribuir esos cambios a esta intervención visual, se compiló el remoto `8869c4c` en un temporal aislado y se guardó la referencia textual `medellin-antes-insumos.json`. La comparación contra esa referencia confirma cero cambios propios en SEO/contenido protegido y cero cambios de HTML en otras páginas. Se conserva la referencia original de la campaña.
 
 Despliegue `42099296797` completado correctamente para `24dd5e405dbf7f8ff1daab4f4042511c7927a2b0` (corrección visual en `1ca43d7`). Las 13 combinaciones de navegador y los dos modos sin JavaScript pasaron en vivo; se inspeccionaron galería y cierre publicados. Comparación pública sin diferencias protegidas frente a la referencia `8869c4c`. Los activos GIF/AVIF responden HTTP 200 y coinciden en hash con los locales. Los originales descargados, la compilación de referencia y las capturas temporales se eliminan al terminar.
+
+## Segunda URL: máquinas de helado soft
+
+Se conservan todas las fotografías existentes de equipos, sus atributos y el contenido de la ficha. Las dos rejillas de catálogo y servicio técnico usan el patrón ya probado de tres columnas iguales desde tablet y una columna en móvil, sin CSS adicional ni cambios de enlaces/encabezados.
+
+No se encontró entre las escenas de stock revisadas una toma adecuada de dispensado soft: se descartaron procesos de gelato, consumo final y una escena generada de helado derritiéndose. En lugar de atribuir a los modelos vendidos un video de otro proceso, se creó un **esquema conceptual original**, no una demostración física: mezcla → equipo soft → servicio. La máquina dibujada es un símbolo genérico, no una reproducción de un modelo concreto. Se comunica como esquema ilustrativo dentro de la imagen y en su pie.
+
+GIF nativo de 480 × 360 px, doce fotogramas y 2,4 s; 20.158 bytes. El SVG original de 2.214 bytes se utiliza como alternativa fija, seleccionada por picture con movimiento reducido. No se añade JavaScript al sitio ni texto comercial o schema. Datos en `_data/animacion_soft.json`; activos GIF y SVG en `img/animaciones/`.
+
+La compilación local pasó y la comparación con `soft-antes.json` no detecta diferencias de SEO/contenido protegido, front matter o HTML de otras páginas. Nueve comprobaciones de navegador: siete combinaciones de ancho/densidad en soft (320/390/768/960/1440 px y densidad 2 en 390/1440), más regresiones de Medellín y portada. Dos contextos extra con JavaScript desactivado verifican teclado/control y movimiento reducido sin solicitud del GIF. Se inspeccionaron catálogo y esquema en móvil y escritorio, corrigiendo una ampliación excesiva antes de publicar. Los scripts guardan únicamente JSON en esta carpeta y capturas en temporales.

@@ -1,0 +1,1323 @@
+{
+  "protected": {
+    "title": "Máquinas de helado soft en Colombia | Italgel",
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, minimal-ui"
+      },
+      {
+        "name": "description",
+        "content": "Venta de máquinas de helado soft profesionales en Colombia. Compresores italianos de alta capacidad, garantía local y soporte técnico. Cotiza precios hoy."
+      },
+      {
+        "name": "author",
+        "content": "Sebastián Rios"
+      },
+      {
+        "name": "theme-color",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "application-name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:locale",
+        "content": "es_CO"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "property": "og:title",
+        "content": "Máquinas de helado soft en Colombia | Italgel"
+      },
+      {
+        "property": "og:description",
+        "content": "Venta de máquinas de helado soft profesionales en Colombia. Compresores italianos de alta capacidad, garantía local y soporte técnico. Cotiza precios hoy."
+      },
+      {
+        "property": "og:url",
+        "content": "https://italgel.com.co/maquinas-helado-soft/"
+      },
+      {
+        "property": "og:site_name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:image",
+        "content": "https://italgel.com.co/img/maquina-industrial-soft.avif"
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://italgel.com.co/img/maquina-industrial-soft.avif"
+      },
+      {
+        "property": "og:image:width",
+        "content": "584"
+      },
+      {
+        "property": "og:image:height",
+        "content": "584"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "Máquinas de helado soft de mesa y de piso para heladería"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Máquinas de helado soft en Colombia | Italgel"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Venta de máquinas de helado soft profesionales en Colombia. Compresores italianos de alta capacidad, garantía local y soporte técnico. Cotiza precios hoy."
+      },
+      {
+        "name": "twitter:site",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://italgel.com.co/img/maquina-industrial-soft.avif"
+      }
+    ],
+    "seo_links": [
+      {
+        "rel": "canonical",
+        "href": "https://italgel.com.co/maquinas-helado-soft/"
+      },
+      {
+        "rel": "alternate",
+        "type": "application/rss+xml",
+        "title": "Italgel | Insumos y Equipos para Heladería en Colombia",
+        "href": "https://italgel.com.co/feed.xml"
+      },
+      {
+        "rel": "sitemap",
+        "type": "application/xml",
+        "title": "Sitemap",
+        "href": "/sitemap.xml"
+      }
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://italgel.com.co/#organizacion",
+        "name": "Italgel Colombia",
+        "url": "https://italgel.com.co",
+        "logo": "https://italgel.com.co/img/logo.avif",
+        "description": "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida.",
+        "foundingDate": "2008",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        "serviceType": [
+          "Distribución de insumos para heladería",
+          "Asesoría técnica",
+          "Venta de máquinas profesionales"
+        ],
+        "award": "Distribuidor autorizado MEC3 - The Genuine Company",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "573192346788",
+          "contactType": "sales",
+          "email": "info@mec3.co",
+          "availableLanguage": [
+            "Spanish",
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.facebook.com/Mec3.Italgel",
+          "https://www.instagram.com/mec3colombia/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencia hay entre una máquina de $6M y una de $18M?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo usar cualquier mezcla o solo las que vende Italgel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo se tarda en limpiar la máquina diariamente?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde encuentro técnicos para reparación de máquinas de helado soft?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Italgel cuenta con servicio técnico especializado en máquinas soft Coldelite a través de la red de técnicos aliados que trabaja con Italgel desde hace más de 10 años en distintas ciudades de Colombia. El tiempo de atención depende de la ciudad y de la disponibilidad de repuestos, y también ofrecemos plan de mantenimiento preventivo trimestral para evitar paros no planificados. Los equipos nuevos incluyen 12 meses de garantía."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Máquinas de helado soft en Colombia | Italgel",
+        "description": "Venta de máquinas de helado soft profesionales en Colombia. Compresores italianos de alta capacidad, garantía local y soporte técnico. Cotiza precios hoy.",
+        "url": "https://italgel.com.co/maquinas-helado-soft/",
+        "dateModified": "2026-09-07",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "italgel.com.co",
+          "url": "https://italgel.com.co"
+        }
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        {
+          "id": "titulo-portada"
+        },
+        "Máquinas de helado soft para negocio en Colombia"
+      ],
+      [
+        "h2",
+        {},
+        "Por qué las heladerías profesionales eligen elite sobre otras marcas"
+      ],
+      [
+        "h3",
+        {},
+        "Máquinas de helado soft: ingeniería italiana enfocada en rentabilidad operativa"
+      ],
+      [
+        "h4",
+        {},
+        "Overrun ajustable de 40-80% y repuestos: cómo la máquina soft baja tu costo por cono"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Catálogo de máquinas soft según tu modelo de negocio"
+      ],
+      [
+        "h3",
+        {},
+        "Coldelite 301 BIB (1 sabor)"
+      ],
+      [
+        "h3",
+        {},
+        "Coldelite 603 BIB (2 sabores + twist)"
+      ],
+      [
+        "h3",
+        {},
+        "Pasmo S121 (2 sabores + twist)"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Comparativa: ¿qué máquina necesitas según tu proyección de ventas?"
+      ],
+      [
+        "h2",
+        {},
+        "Análisis de rentabilidad: números reales de un punto de helado soft"
+      ],
+      [
+        "h3",
+        {},
+        "Caso ejemplo: Cafetería en centro comercial con 603 BIB"
+      ],
+      [
+        "h4",
+        {},
+        "Inversión inicial:"
+      ],
+      [
+        "h4",
+        {},
+        "Operación mensual (proyección conservadora):"
+      ],
+      [
+        "h4",
+        {},
+        "Estructura de costos por cono:"
+      ],
+      [
+        "h4",
+        {},
+        "Resultado mensual:"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Servicio técnico y reparación de máquinas soft en Colombia"
+      ],
+      [
+        "h3",
+        {},
+        "Capacitación operativa incluida"
+      ],
+      [
+        "h3",
+        {},
+        "Mantenimiento preventivo"
+      ],
+      [
+        "h3",
+        {},
+        "Garantía y repuestos"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Preguntas frecuentes sobre máquinas de helado soft"
+      ],
+      [
+        "h3",
+        {},
+        "¿Qué diferencia hay entre una máquina de $6M y una de $18M?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Puedo usar cualquier mezcla o solo las que vende Italgel?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuánto tiempo se tarda en limpiar la máquina diariamente?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Dónde encuentro técnicos para reparación de máquinas de helado soft?"
+      ],
+      [
+        "h2",
+        {
+          "id": "titulo-cierre",
+          "class": "medida"
+        },
+        "Cotiza por WhatsApp con un asesor técnico de Italgel"
+      ]
+    ],
+    "links": [
+      [
+        {
+          "class": "visualmente-oculto",
+          "href": "#contenido",
+          "title": "Saltar al contenido"
+        },
+        "Saltar al contenido"
+      ],
+      [
+        {
+          "class": "cabecera-sitio__logo",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento boton--compacto",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cabecera",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsAppCotizar (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos/",
+          "aria-current": "true",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+          "title": "Coldelite Compacta 3 Máquina de helado soft"
+        },
+        "Coldelite Compacta 3Máquina de helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/",
+          "title": "Máquinas de helado soft De mesa o de piso"
+        },
+        "Máquinas de helado softDe mesa o de piso"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-artesanal/",
+          "title": "Mantecadoras Helado artesanal y gelato"
+        },
+        "MantecadorasHelado artesanal y gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-industrial/",
+          "title": "Máquinas industriales Pasteurizadoras y líneas"
+        },
+        "Máquinas industrialesPasteurizadoras y líneas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/",
+          "title": "Ver todas las máquinas de helado"
+        },
+        "Ver todas las máquinas de helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/mini-neo/",
+          "title": "Mini Neo Cafetera para casa"
+        },
+        "Mini NeoCafetera para casa"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/falcon/",
+          "title": "Falcon Comercial ligero, 220 V"
+        },
+        "FalconComercial ligero, 220 V"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/tank-2/",
+          "title": "Tank 2 Dos grupos, uso comercial"
+        },
+        "Tank 2Dos grupos, uso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/cruiser/",
+          "title": "Cruiser Uso comercial"
+        },
+        "CruiserUso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/sequoia-74wt/",
+          "title": "Sequoia 74WT Molino con báscula"
+        },
+        "Sequoia 74WTMolino con báscula"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/",
+          "title": "Ver las 10 cafeteras y molinos"
+        },
+        "Ver las 10 cafeteras y molinos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/amarena-fabbri/",
+          "title": "Amarena Fabbri Cerezas en almíbar"
+        },
+        "Amarena FabbriCerezas en almíbar"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/salsas-especiales/",
+          "title": "Salsas especiales Whisky, tiramisú, caramelo"
+        },
+        "Salsas especialesWhisky, tiramisú, caramelo"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/productos-quella/",
+          "title": "Quella Family Variegatos italianos"
+        },
+        "Quella FamilyVariegatos italianos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/",
+          "title": "Coberturas y salsas Para copa y veteado"
+        },
+        "Coberturas y salsasPara copa y veteado"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/variegatos-helado/",
+          "title": "Ver todos los variegatos"
+        },
+        "Ver todos los variegatos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/base-50-mec3/",
+          "title": "Base 50 MEC3 Base para helado artesanal"
+        },
+        "Base 50 MEC3Base para helado artesanal"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/neutralin-plus/",
+          "title": "Neutralin Plus Base para gelato"
+        },
+        "Neutralin PlusBase para gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/supergelmix/",
+          "title": "Supergelmix Base para helado soft"
+        },
+        "SupergelmixBase para helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-pistacho/",
+          "title": "Pasta de pistacho Pistacho siciliano"
+        },
+        "Pasta de pistachoPistacho siciliano"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "title": "Pasta de vainilla Vainilla bourbon"
+        },
+        "Pasta de vainillaVainilla bourbon"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/",
+          "title": "Ver todos los insumos"
+        },
+        "Ver todos los insumos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "class": "buscador-boton",
+          "href": "/buscar/",
+          "data-buscador-abrir": "",
+          "aria-keyshortcuts": "Control+K Meta+K /"
+        },
+        "Buscar"
+      ],
+      [
+        {
+          "itemprop": "item",
+          "href": "/",
+          "title": "Inicio"
+        },
+        "Inicio"
+      ],
+      [
+        {
+          "itemprop": "item",
+          "href": "/equipos/",
+          "title": "Equipos"
+        },
+        "Equipos"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "hero",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "resumen",
+          "title": "Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)"
+        },
+        "Pide asesoría por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-1"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-2"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-3"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "title": "Agendar visita técnica de evaluación (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "agendar-visita-tecnica-de-evaluacion"
+        },
+        "Agendar visita técnica de evaluación"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-contacto",
+          "title": "Hacer otra pregunta por WhatsApp (abre WhatsApp)"
+        },
+        "Hacer otra pregunta (abre WhatsApp)"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cierre",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "pie-sitio__marca",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "class": "lead_whatsapp",
+          "title": "WhatsApp +573192346788 (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "pie"
+        },
+        "WhatsApp +573192346788 (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "mailto:info@mec3.co",
+          "title": "info@mec3.co"
+        },
+        "info@mec3.co"
+      ],
+      [
+        {
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "href": "https://www.facebook.com/Mec3.Italgel",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Facebook (abre en una pestaña nueva)"
+        },
+        "Facebook"
+      ],
+      [
+        {
+          "href": "https://www.instagram.com/mec3colombia/",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Instagram (abre en una pestaña nueva)"
+        },
+        "Instagram"
+      ],
+      [
+        {
+          "href": "/nosotros/",
+          "title": "Nosotros"
+        },
+        "Nosotros"
+      ],
+      [
+        {
+          "href": "/legal/",
+          "title": "Aviso legal"
+        },
+        "Aviso legal"
+      ],
+      [
+        {
+          "href": "/contacto/#pqr",
+          "title": "PQR"
+        },
+        "PQR"
+      ],
+      [
+        {
+          "class": "lead_whatsapp flotante",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "flotante",
+          "data-flotante": "",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "¿Te ayudamos a elegir tu equipo?Escríbenos por WhatsApp y cotiza con un asesor. (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+          "data-buscador-consulta": "máquina de helado soft"
+        },
+        "máquina de helado soft"
+      ],
+      [
+        {
+          "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+          "data-buscador-consulta": "insumos para heladería"
+        },
+        "insumos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/"
+        },
+        "Máquinas para hacer helado y equipos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/"
+        },
+        "Insumos para heladería: bases, pastas, variegatos y coberturas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/"
+        },
+        "Cafeteras espresso Hambach y molinos de café"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/buscar/",
+          "data-buscador-todos": "/buscar/",
+          "hidden": ""
+        },
+        "Ver todos los resultados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/contacto/"
+        },
+        "Contacto Italgel: cotiza máquinas, cafeteras e insumos"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/vitrinas-congeladores/"
+        },
+        "Vitrinas para helado artesanal EasyBest"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/blog/"
+        },
+        "Blog de heladería profesional en Colombia"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-sin-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20M%C3%A1quinas%20de%20helado%20soft%20para%20negocio%20en%20Colombia",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ]
+    ],
+    "images": [
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "src": "/img/coldelite-compacta-1.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/mini-neo.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/falcon.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/cruiser.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/sequoia-74wt.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/base-50-mec3-empaque.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/supergelmix-mec3-helado-soft.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-pistacho-siciliano-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/maquina-industrial-soft.avif",
+        "srcset": "/img/catalogo/maquina-industrial-soft-280.avif 280w, /img/catalogo/maquina-industrial-soft-400.avif 400w, /img/maquina-industrial-soft.avif 584w",
+        "sizes": "(min-width: 88rem) 550px, (min-width: 60rem) 40vw, 92vw",
+        "alt": "Máquinas de helado soft de mesa y de piso para heladería",
+        "title": "Máquinas de helado soft",
+        "width": "584",
+        "height": "584",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 584",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "srcset": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif 160w, /img/catalogo/fabricantes/iceteam-603-bib-280.avif 280w, /img/catalogo/fabricantes/iceteam-603-bib-400.avif 400w, /img/catalogo/fabricantes/iceteam-603-bib-600.avif 600w, /img/catalogo/fabricantes/iceteam-603-bib-800.avif 800w, /img/catalogo/fabricantes/iceteam-603-bib-1200.avif 1200w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Máquina Coldelite helado soft 3 sabores profesional",
+        "title": "Coldelite 3 sabores",
+        "width": "1200",
+        "height": "1200",
+        "style": "max-width: min(100%, 1200px); aspect-ratio: 1200 / 1200",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+        "srcset": "/img/catalogo/fabricantes/iceteam-301-bib-inox-160.avif 160w, /img/catalogo/fabricantes/iceteam-301-bib-inox-280.avif 280w, /img/catalogo/fabricantes/iceteam-301-bib-inox-400.avif 400w, /img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif 600w, /img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif 800w, /img/catalogo/fabricantes/iceteam-301-bib-inox-1200.avif 1200w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Máquina Coldelite 301 BIB para helado soft",
+        "title": "Coldelite 301 BIB",
+        "width": "1200",
+        "height": "1200",
+        "style": "max-width: min(100%, 1200px); aspect-ratio: 1200 / 1200",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+        "srcset": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif 160w, /img/catalogo/fabricantes/iceteam-603-bib-280.avif 280w, /img/catalogo/fabricantes/iceteam-603-bib-400.avif 400w, /img/catalogo/fabricantes/iceteam-603-bib-600.avif 600w, /img/catalogo/fabricantes/iceteam-603-bib-800.avif 800w, /img/catalogo/fabricantes/iceteam-603-bib-1200.avif 1200w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Máquina Coldelite 603 BIB para helado soft",
+        "title": "Máquina Coldelite 603 BIB para helado soft",
+        "width": "1200",
+        "height": "1200",
+        "style": "max-width: min(100%, 1200px); aspect-ratio: 1200 / 1200",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+        "srcset": "/img/catalogo/fabricantes/pasmo-s121-gravity-160.avif 160w, /img/catalogo/fabricantes/pasmo-s121-gravity-280.avif 280w, /img/catalogo/fabricantes/pasmo-s121-gravity-400.avif 400w, /img/catalogo/fabricantes/pasmo-s121-gravity-600.avif 600w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Máquina de mesa Pasmo S121 Gravity para helado soft",
+        "title": "Pasmo S121 Gravity",
+        "width": "600",
+        "height": "600",
+        "style": "max-width: min(100%, 600px); aspect-ratio: 600 / 600",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/maquina-soft-mesa-negocio.avif",
+        "srcset": "/img/catalogo/maquina-soft-mesa-negocio-280.avif 280w, /img/catalogo/maquina-soft-mesa-negocio-400.avif 400w, /img/maquina-soft-mesa-negocio.avif 560w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Máquina de helado soft de mesa operando en local comercial",
+        "title": "Soft en punto de venta",
+        "width": "560",
+        "height": "700",
+        "style": "max-width: min(100%, 560px); aspect-ratio: 560 / 700",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60",
+        "loading": "lazy"
+      }
+    ],
+    "ids": [
+      "contenido",
+      "titulo-portada",
+      "cotizar",
+      "titulo-cierre",
+      "buscador",
+      "buscador-q",
+      "buscador-datos"
+    ],
+    "main_text": "Inicio Equipos Máquinas helado soft Máquinas de helado soft para negocio en ColombiaEquipos Coldelite con tecnología italiana y soporte técnico en Colombia Cotizar por WhatsApp (abre WhatsApp) Asesoría técnica sin costo para clientes de Italgel. En resumen Italgel distribuye máquinas de helado soft (línea elite/Coldelite) con overrun ajustable entre 40% y 80%, cilindros de acero inoxidable con vida útil de 20+ años (frente a 8-10 años en aluminio) y compresores hasta 30% más eficientes que equipos chinos equivalentes. Con margen de 75-85% por copa, la inversión suele recuperarse en 4-8 meses. Pide asesoría por WhatsApp (abre WhatsApp) Por qué las heladerías profesionales eligen elite sobre otras marcas Máquinas de helado soft: ingeniería italiana enfocada en rentabilidad operativa elite no es la marca más económica del mercado. Es la que menor costo operativo por litro producido ofrece a largo plazo. Sus compresores de alta eficiencia consumen hasta 30% menos energía que máquinas chinas equivalentes. Overrun ajustable de 40-80% y repuestos: cómo la máquina soft baja tu costo por cono Overrun controlado electrónicamente: Puedes configurar entre 40-80% de overrun según tu receta. Más overrun = más producto terminado con la misma mezcla base. Competidores económicos tienen overrun fijo no ajustable. Sistema de pre-cooling: Enfría la mezcla antes de batir, reduciendo tiempo de espera entre tandas de 8 min a 3 min. En hora pico, esto significa atender 15 clientes vs 8 clientes. Cilindros de acero inoxidable (no aluminio): Mayor durabilidad (20+ años vs 8-10 años), mejor transferencia de frío, más fácil limpieza. Sin óxido ni sabores metálicos transferidos al helado. Repuestos con stock en Colombia: No esperas 60-90 días importación desde China. Italgel gestiona los repuestos críticos (compresores, tarjetas electrónicas, válvulas, bombas) según la disponibilidad del inventario. Catálogo de máquinas soft según tu modelo de negocio Coldelite 301 BIB (1 sabor) Máquina compacta de mesa para un sabor. Producción 18-30 litros/hora. Ideal para cafeterías y negocios con espacio limitado. Ver precio Coldelite 603 BIB (2 sabores + twist) Máquina compacta de piso para 2 sabores + twist. Producción 28-60 litros/hora. Perfecta para heladerías urbanas y centros comerciales y franquicias. Ver precio Pasmo S121 (2 sabores + twist) Máquina de mesa para 2 sabores + twist. Producción 20-50 litros/hora. Para heladerías con poco espacio y que desean alto volumen. Ver precio Comparativa: ¿qué máquina necesitas según tu proyección de ventas? Modelo Tipo Sabores Producción L/h Espacio ROI esperado Pasmo S121 Mesa 2 + twist 20–50 L/h 0.5 m² 6–10 meses Coldelite 301 BIB Mesa 1 18–30 L/h 0.7 m² 7–12 meses Coldelite 603 BIB Suelo 2 + twist 28–60 L/h 1.2 m² 4–6 meses * ROI calculado asumiendo precio de venta $4.500/cono, costo insumos $600/cono, operación 6 días/semana. Análisis de rentabilidad: números reales de un punto de helado soft Caso ejemplo: Cafetería en centro comercial con 603 BIB Inversión inicial: Máquina Pasmo S121 BIB: Consultar precio Stock inicial insumos (mezcla + conos + servilletas): $450.000 COP Capacitación operativa: incluida Inversión total: Consultar Operación mensual (proyección conservadora): Ventas promedio: 150 conos/día x 26 días = 3.900 conos/mes Precio venta: $4.800 COP/cono (tamaño mediano) Facturación mensual: $18.720.000 COP Estructura de costos por cono: Mezcla Supergelmix: $420 COP (60g de mezcla + 80ml agua) Cono + servilleta: $180 COP Energía eléctrica: $45 COP (proporcional) Costo total: $645 COP | Margen bruto: $4.155 COP (86.5%) Resultado mensual: Margen bruto total: $16.204.500 COP Menos: Personal (si aplica), arriendo proporcional, mantenimiento Utilidad neta estimada: $12M - $14M COP/mes Servicio técnico y reparación de máquinas soft en Colombia Capacitación operativa incluida Entrenamos a tu equipo en operación, limpieza diaria, detección de problemas comunes. Sesión de 4 horas presencial o videollamada. Manuales en español. Mantenimiento preventivo Plan de mantenimiento trimestral disponible. Revisión de compresores, lubricación, limpieza profunda, calibración de temperaturas. Evita paros no planificados. Garantía y repuestos 12 meses de garantía en equipo nuevo. El servicio técnico lo presta la red de técnicos aliados que trabaja con Italgel desde hace más de 10 años en distintas ciudades de Colombia. Agendar visita técnica de evaluación Preguntas frecuentes sobre máquinas de helado soft ¿No está tu pregunta? Escríbenos por WhatsApp y un asesor de Italgel te responde con la referencia y el dato exacto. Hacer otra pregunta (abre WhatsApp) ¿Qué diferencia hay entre una máquina de $6M y una de $18M? Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial. ¿Puedo usar cualquier mezcla o solo las que vende Italgel? Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas. ¿Cuánto tiempo se tarda en limpiar la máquina diariamente? Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo. ¿Dónde encuentro técnicos para reparación de máquinas de helado soft? Italgel cuenta con servicio técnico especializado en máquinas soft Coldelite a través de la red de técnicos aliados que trabaja con Italgel desde hace más de 10 años en distintas ciudades de Colombia. El tiempo de atención depende de la ciudad y de la disponibilidad de repuestos, y también ofrecemos plan de mantenimiento preventivo trimestral para evitar paros no planificados. Los equipos nuevos incluyen 12 meses de garantía. Cotiza por WhatsApp con un asesor técnico de Italgel Cuéntanos qué vendes, cuánto produces y en qué ciudad está tu negocio. Te respondemos con la referencia que te sirve, su precio y la disponibilidad del inventario. Escribes por WhatsApp Cuéntanos qué necesitas y en qué ciudad está tu negocio. Recibes la cotización Con la referencia, el precio y la disponibilidad del inventario. Despachamos tu pedido Los equipos los instala la red de técnicos aliados de Italgel. Cotizar por WhatsApp (abre WhatsApp)"
+  },
+  "front_matter": "\nlayout: main\ntitle: \"Máquinas de helado soft en Colombia | Italgel\"\nkeyword: \"máquinas de helado soft\"\nlast_modified_at: \"2026-09-07\"\ndescription: \"Venta de máquinas de helado soft profesionales en Colombia. Compresores italianos de alta capacidad, garantía local y soporte técnico. Cotiza precios hoy.\"\nh1: \"Máquinas de helado soft para negocio en Colombia\"\nintro: Equipos Coldelite con tecnología italiana y soporte técnico en Colombia\nhero: img/maquina-industrial-soft.avif\nalt: \"Máquinas de helado soft de mesa y de piso para heladería\"\nhero_title: \"Máquinas de helado soft\"\nbreadcrumb:\n  - name: Inicio\n    url: /\n  - name: Equipos\n    url: /equipos/\n  - name: Máquinas helado soft\n    url: /maquinas-helado-soft/\nbreadcrumb_include: true\nfaqs:\n  - question: \"¿Qué diferencia hay entre una máquina de $6M y una de $18M?\"\n    answer: \"Principalmente: capacidad de producción, durabilidad del compresor y componentes electrónicos. Una máquina económica china funciona bien los primeros 6-12 meses, luego empiezan fallas frecuentes (fugas de gas, compresores quemados, tarjetas dañadas). Una Coldelite está diseñada para 20+ años de operación continua con mantenimiento básico. El costo/litro producido a 5 años es menor con Coldelite a pesar de la mayor inversión inicial.\"\n  - question: \"¿Puedo usar cualquier mezcla o solo las que vende Italgel?\"\n    answer: \"Las máquinas Coldelite funcionan con cualquier mezcla comercial líquida o en polvo (como Supergelmix). No estás atado a comprar insumos con nosotros. Recomendamos Supergelmix MEC3 por su relación precio-calidad y porque está optimizada para máquinas italianas, pero puedes usar otras marcas.\"\n  - question: \"¿Cuánto tiempo se tarda en limpiar la máquina diariamente?\"\n    answer: \"Limpieza básica diaria: 15-20 minutos. Incluye desmontar piezas frontales, lavar con agua y detergente, sanitizar y rearmar. Una vez a la semana, limpieza profunda de 45 minutos (incluye circuitos internos). Es más simple de lo que parece, en la capacitación te enseñamos el proceso completo.\"\n  - question: \"¿Dónde encuentro técnicos para reparación de máquinas de helado soft?\"\n    answer: \"Italgel cuenta con servicio técnico especializado en máquinas soft Coldelite a través de la red de técnicos aliados que trabaja con Italgel desde hace más de 10 años en distintas ciudades de Colombia. El tiempo de atención depende de la ciudad y de la disponibilidad de repuestos, y también ofrecemos plan de mantenimiento preventivo trimestral para evitar paros no planificados. Los equipos nuevos incluyen 12 meses de garantía.\"\n",
+  "html_sha256": {
+    "404.html": "9265d3bf806b3e8ec4b97e9742e55d1612940c28ab14aa3ad2f32f70434a7c1d",
+    "index.html": "24925f5458a885157922e5971b8ef5eb4c1a550cfe6c2e596bcb4b0e4a412c3e",
+    "author-admin/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "bases-helado-colombia/index.html": "736a916225df104102bacbe64ec47996a9c58fb77b36cc97ec47651a65a434cd",
+    "blog/index.html": "1a6dfc7f6d631340a127078b81821bf1af9e1025d90f88d861682f6d5efce692",
+    "buscar/index.html": "e161a2d1e28a3889f98da5e08fd60089474f21999e385f5c7ed8e96396ba10f5",
+    "cafes-de-colombia-expo/index.html": "567f70b9bddf7c726629c089f0cf7fd5782f7771448b20229059b07e2d475072",
+    "coberturas-salsas-helado/index.html": "f4ff1360ebdd3fc3e8acb8d57dd3580787657ce957fd36cd42be540e47c64d1f",
+    "contactenos/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "contacto/index.html": "151007888bbfb5ec44f8c6ebffac391aef9c6e0ec75db40058d001d5d375fbf7",
+    "equipos/index.html": "df4f259a097b0921add5ca56584431d9f24b52fdd28d08d55c7fdab9dfe8751e",
+    "equipos-cafe/index.html": "ac5f202966bf77f0efa2ad1668d428ee3abcfbd1dfd0d58c003110424871423c",
+    "granelas-decoracion/index.html": "170a0f13411ad75c5722f591640d4b0a9e3c1f9f301374a619ad3e4e4525f686",
+    "hello-world/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "insumos/index.html": "2f5677d16f7428b6399d1b613bfce5c3e8708219574f7ce9c7aa5e60bd7c9aba",
+    "insumos-heladeria-barranquilla/index.html": "6722aa7fc6d29bb3fb6c3ba9f7cb8ad678ab547f639b00cbf3db34fb854bef0e",
+    "insumos-heladeria-bucaramanga/index.html": "6f9af5f77e96fae7902a034fa660f91a61b78c0b0dc7075676fa7a5e2b38964f",
+    "insumos-heladeria-cali/index.html": "963d6a60e641500c9a67f8dd95433749322166a9c73d95a6a3c0370205fc6a33",
+    "insumos-heladeria-medellin/index.html": "b2738ab817d61d4cbe310394a0764db696ab75ebe6fa0b8111ad52ba9a1fd97b",
+    "insumos-heladeria-medellín/index.html": "1d6191ca5b61c4978c1fe012ae5447ee30fabdbcf72e81b81ccb5d9af1f840f5",
+    "legal/index.html": "821bbfa20a2033af016a421d90af49fc463c459c3070a39b73f80b57c2530568",
+    "maquinas-artesanales/index.html": "538e0824539cbdfba4c7887df0eb4be2fcef1e97037c6a41827588e43cacbf5c",
+    "maquinas-helado-artesanal/index.html": "fcaa54e32e6c64d1fdf49a57d3683d957bfe45fec1e05e1635d4f701ec258709",
+    "maquinas-helado-industrial/index.html": "9af42d7a53e59e58b80d6c26dc521d22a003e6b186f43792ef17656997d48a2b",
+    "maquinas-helado-soft/index.html": "795d79c58241a07e626733567d24153058634995404e6c7fef46ad38bcc5b05a",
+    "maquinas-soft/index.html": "7c5fd3b88278a86627711e4b1ae0546432bd7e6c97bae4db3501310367201736",
+    "nosotros/index.html": "37fb36dd7bd5b1116ccea3e1695de916cbe58b043d5b7d658a24604c6035a722",
+    "pastas-sabores-helado/index.html": "3a191c9a0497e352df34761679e38788e89619701a7d2e61df72f5ed78a70304",
+    "productos-quella/index.html": "5b2f9e6264761990023863b784b201015167f898ad6cfe2b4a97d22e8f32b51e",
+    "variegatos-helado/index.html": "8af6730ad32e9c28d7da333729f0125e746a055cc724c516d285e7a385ba7acd",
+    "vitrinas/index.html": "18e8ccda530c66c9bce53d567871edfca6796dd0eb77bb6b897b40e209d94dad",
+    "vitrinas-congeladores/index.html": "e7231ec98347502d3a4220899ebb5ae0289525680a00fce8cd6ce80564e5ab23",
+    "wp-includes/index.html": "b82bb3f42a4d4347afbd53103f85eb8a733dddd6594e5638031e91dd67e2429b",
+    "author/admin/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "bases-helado-colombia/base-50-mec3/index.html": "93ace63020781d34e38906ef2e58638bcd98b659d470fd265c486469a253b62f",
+    "bases-helado-colombia/base-50-mec3-2kg/index.html": "216270dfc28c0587cb56fad9dda0af67e616e6ffba9742bf1eacc78d3fd43c80",
+    "bases-helado-colombia/bases-stevia/index.html": "678b8d16884e605c949be49b698162ddcd969bfac3428042172cbd7889157db9",
+    "bases-helado-colombia/neutralin-plus/index.html": "6565186c3c7fdc76706bc99d559d006543320a2108cdcc3ce6b2f71ed51f1641",
+    "bases-helado-colombia/supergelmix/index.html": "7b08cef8d8d53f317377ff038ff48637b8a73cb86e9c8c09fb2a114706e7908f",
+    "blog/amarena-fabbri-heladeria-usos-dosificacion/index.html": "448e55b5c7485cc1c059d2eda9e08b9466ef12c62bd3340c2e9604b596aa9d6e",
+    "blog/base-50-mec3-vs-supergelmix-comparativa/index.html": "133ee38f3e2d96d257b5845705a75ee54ca57e2228d88e080be70bfec528b22b",
+    "blog/como-abrir-una-heladeria-en-colombia/index.html": "ef0558d0bdd8149307e7e6c1bd5573ed9d10627acd764423610575ef7c8cfd67",
+    "blog/como-calcular-overrun-helado-artesanal/index.html": "724363e2b661d92f0a47be492283b89c4f0cf216ed28c0216d29e6826c8680bc",
+    "blog/como-elegir-maquina-helado-negocio/index.html": "09f9f157cf5e944ff8319c436edd9d08268ac09553e72ddebb00473fda9a7566",
+    "blog/conservacion-bases-helado-mec3/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "blog/crema-de-whisky-para-helado-variegato/index.html": "876fd7c091eaa6dd3b6dcbb5c9f5c01ee2b67f6a4a9b8a0367e0cb92f2915111",
+    "blog/emulsionantes-estabilizantes-helados-heladeria/index.html": "07288062d6d214064df4c1e66850dce4e2b51d5d4fee869205737db70ea8588d",
+    "blog/helados-sin-azucar-heladeria-bases-stevia/index.html": "ebe017119bb1c86d14491d5452bc62e13ade8504f8295505454c53d659007296",
+    "blog/pasta-de-vainilla-para-helado-tipos-dosificacion/index.html": "d2c990ac645bf8545bfe1c8318c0413eb15b8030ef2b6e6cd290ccbf58208a76",
+    "blog/pasta-pistacho-helado-guia-tecnica/index.html": "f42c54cac482c1a666af55b3b6ed00c475a5c582b57db2de84a97345312c1c22",
+    "blog/pasteurizacion-mezcla-helado-correcta/index.html": "ec7f2cfeed479b5908fb544888e350a5c962b986ca7fa7ce662908c9347529d2",
+    "blog/proveedores-insumos-heladeria-colombia/index.html": "7822a49041e30d0574e18c2c189a684a5c148749fb8cd10f5c9a0d4a6bf0d180",
+    "blog/que-es-el-variegato-para-helado/index.html": "48f6b7dd422127a001ea00c51152f5472f3481a34fdddc212b9ab9c1e5d51447",
+    "blog/que-es-gelato-vs-helado-diferencias/index.html": "b37687ed5d570211f96fc87b3741652c1de8290a9e684ec0799d9741f3cfde3f",
+    "blog/que-es-un-sorbete-diferencias-helado-artesanal/index.html": "06e33a458fc88769eddc97ae09f992f53a03c6ee2190c55940709fd4ef625e02",
+    "blog/que-son-las-granelas-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/rentabilidad-heladeria-colombia/index.html": "e20cff893b603d54bb23985e5d4ff24126c94ba8c1c1e26771683d044df658e9",
+    "blog/tipo-de-toppings-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/tipos-de-toppings-para-helado/index.html": "1d8bf20c5b0b2e82f0518795c33695b2793eedc09aa0c6a344a31dcf4a17070f",
+    "blog/toppings-helado-mas-vendidos/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/toppings-para-helado-mas-rentables/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "coberturas-salsas-helado/amarena-fabbri/index.html": "fe8649291b0fc27cf9340eca540e03cbc787d53a35c969ec243cdac090274a49",
+    "coberturas-salsas-helado/salsas-especiales/index.html": "a1694f05c4187f1636421db3c6eafcf487b7cb4b35c1cf8bc754a386a14ee792",
+    "contacts/sebastian-rios/index.html": "1e2e05df156c78f78b3d47ba97a122506f3889790a1fd63a5ca9260bc366d442",
+    "elementor-hf/footer/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "elementor-hf/header/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "equipos-cafe/cedar-63c/index.html": "97cd2b87363a1b437447399ceb0b8167e0a5904404a642d1c6a0d683854f5bab",
+    "equipos-cafe/cruiser/index.html": "d148a920965a6c990627e0007eeba909c4bd93b1fe74da280db04e5e67da6752",
+    "equipos-cafe/ebony-64/index.html": "53e5c905d44ca3da2e370ddd804d4387566e49cc09cf2424f62310e1535fe8d7",
+    "equipos-cafe/falcon/index.html": "e1a18ae12eb7172abd5c139d0d39976c115e27e88e9d51161e66ecfed5288ec1",
+    "equipos-cafe/mini-neo/index.html": "d4deaa4a3136a81f896926be167f062f8998dee952833b5d9fc7f839af26ea2a",
+    "equipos-cafe/oak-60/index.html": "a83c56db08a2def6034cbbd1e02e97fa23c0151e33f2a5365f5651077789c7cd",
+    "equipos-cafe/sequoia-74wt/index.html": "22bc5096c1bc33d9cd2a722a3d1b7f18905f8a985249385822550ca23b10d2c1",
+    "equipos-cafe/swan/index.html": "c60c1e6dc791d72363de8af091eea867ce01c0b22ae84f55af4a438cfcb86f92",
+    "equipos-cafe/tank-1/index.html": "85158fe7a02e5481f1c1b2ed7e974e3819bc5ce0861a864c3865f2ccecf6a34f",
+    "equipos-cafe/tank-2/index.html": "239d2579d5f2e0f73e13cf53a57593611dc1fa8d095b9bb29cc400cc33e1de44",
+    "insumos/bases-para-helado/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "italgel/blog/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "italgel/contacto/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "italgel/pastas-sabores-helado/pastas-fruta/index.html": "7e8936fa1fd6ea89794a8791a3bd221570db92eeaed2d06105094eef20b77661",
+    "maquinas-helado-soft/coldelite-compacta-3/index.html": "d47208c94dfbe56aa459fe2b51559613bd5e69270541a323ffc790a2f11d9a7c",
+    "pastas-sabores-helado/pasta-pistacho/index.html": "ce6c9c01c65dbbefd2812a7f7bc52afb996c312077557094bf01d609abf7d77c",
+    "pastas-sabores-helado/pasta-vainilla/index.html": "4d889de366c0e297bf3e74ff2fecd5eb4984bfa9f45d7fe013413f9c81161936",
+    "pastas-sabores-helado/pastas-clasicas/index.html": "3c19be23e041634b189215c7d08b5fae4faf328fa7ad584a10a6fb1b52b1d34e",
+    "pastas-sabores-helado/pastas-fruta/index.html": "191a6c3353007d132eea45b14f613a547e737139fccd677b4a2d8c8385d6bc9a",
+    "pastas-sabores-helado/pastas-premium/index.html": "c3d36005e32db06ad3d260f8e5c8afae13fd8f4e3840b407220bb8880f0d4137"
+  }
+}
