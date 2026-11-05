@@ -1,0 +1,25 @@
+{%- comment -%}
+  Atributos del <main> (layout mercato) que meten la página en el índice de Pagefind y le ponen tipo.
+  En cuanto una página lleva data-pagefind-body, Pagefind ignora las que no lo llevan: una
+  página sale del índice solo con no recibirlo. Fuera: noindex o sitemap: false (404, /buscar/),
+  redirecciones, vcard y la landing del evento (esas tres no usan el layout mercato, pero se
+  excluyen aquí también por si cambian). El layout default (legado) no lleva este include.
+  El tipo alimenta los filtros y los pesos de js/buscador.js (_data/buscador.yml → tipos, pesos).
+{%- endcomment -%}
+{%- assign bi_fuera = false -%}
+{%- if page.noindex or page.sitemap == false or page.layout == "redirections" or page.layout == "vcard" or page.layout == "evento" -%}
+  {%- assign bi_fuera = true -%}
+{%- endif -%}
+{%- unless bi_fuera -%}
+  {%- assign bi_slug = page.url | split: '/' | last | replace: '.html', '' -%}
+  {%- if page.url == "/" or page.url == "/blog/" or page.url == "/contacto/" or page.url == "/nosotros/" or page.url == "/legal/" or page.url contains "/insumos-heladeria-" -%}
+    {%- assign bi_tipo = "Página" -%}
+  {%- elsif page.layout == "producto" or page.layout == "products" or bi_slug == "amarena-fabbri" -%}
+    {%- assign bi_tipo = "Producto" -%}
+  {%- elsif page.layout == "post" or bi_slug == "comparativa-base-50-vs-base-100-mec3" or bi_slug == "diferencia-entre-variegato-y-salsa" -%}
+    {%- assign bi_tipo = "Guía" -%}
+  {%- else -%}
+    {%- assign bi_tipo = "Categoría" -%}
+  {%- endif -%}
+  {{- ' data-pagefind-body data-pagefind-filter="tipo:' | append: bi_tipo | append: '"' -}}
+{%- endunless -%}

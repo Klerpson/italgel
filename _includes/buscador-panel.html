@@ -1,0 +1,62 @@
+{%- comment -%}
+  Panel del buscador, compartido por el diálogo (buscador-dialogo.html) y /buscar/.
+  Todo lo que el visitante lee antes y después de buscar va aquí como HTML; js/buscador.js
+  solo llena la lista de resultados y muestra u oculta los bloques.
+  El <template> lleva el único botón sólido del panel (buscador-cta.html, data-location
+  "buscador-resultados"). Parámetro: id, prefijo único para el name de los radios.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: 'es' -%}
+{%- assign b = site.data.buscador[lang] -%}
+<div class="buscador-panel" data-buscador-panel>
+  <div data-buscador-inicio>
+    <p class="buscador-panel__etiqueta etiqueta">{{ b.t.populares }}</p>
+    <ul class="buscador-chips">
+      {%- for q in b.populares %}
+      <li><a href="{{ b.url_pagina | relative_url }}?q={{ q | url_encode }}" data-buscador-consulta="{{ q }}">{{ q }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p class="buscador-panel__etiqueta etiqueta">{{ b.t.atajos }}</p>
+    <ul class="buscador-enlaces">
+      {%- for l in b.atajos %}
+      <li><a class="enlace-flecha" href="{{ l.url | relative_url }}">{{ l.texto }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+
+  <p class="buscador-panel__estado" data-buscador-estado aria-live="polite"></p>
+
+  <fieldset class="buscador-filtros" data-buscador-filtros hidden>
+    <legend class="visualmente-oculto">{{ b.t.filtrar }}</legend>
+    <label><input type="radio" name="{{ include.id }}-tipo" value="todos" checked> {{ b.t.todos }}</label>
+    {%- for tipo in b.tipos %}
+    <label data-tipo="{{ tipo }}" hidden><input type="radio" name="{{ include.id }}-tipo" value="{{ tipo }}"> {{ tipo }}<span data-cuenta></span></label>
+    {%- endfor %}
+  </fieldset>
+
+  <ol class="buscador-resultados" data-buscador-resultados></ol>
+  <p class="buscador-todos-envoltura"><a class="enlace-flecha" href="{{ b.url_pagina | relative_url }}" data-buscador-todos="{{ b.url_pagina | relative_url }}" hidden>{{ b.t.ver_mas }}</a></p>
+
+  <div class="buscador-vacio" data-buscador-vacio hidden>
+    <p class="buscador-vacio__titulo">{{ b.t.sin_resultados }} “<span data-buscador-termino></span>”</p>
+    <p>{{ b.t.prueba }}</p>
+    <ul class="buscador-chips">
+      {%- for q in b.populares limit: 4 %}
+      <li><a href="{{ b.url_pagina | relative_url }}?q={{ q | url_encode }}" data-buscador-consulta="{{ q }}">{{ q }}</a></li>
+      {%- endfor %}
+    </ul>
+    <ul class="buscador-enlaces">
+      {%- for l in b.respaldo %}
+      <li><a class="enlace-flecha" href="{{ l.url | relative_url }}">{{ l.texto }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p>{{ b.t.vacio_cta }}</p>
+    <div data-buscador-cta-vacio>{% include buscador-cta.html location="buscador-sin-resultados" %}</div>
+  </div>
+
+  <template data-buscador-cta>
+    <li class="buscador-cta">
+      <p>{{ b.t.cta }}</p>
+      {% include buscador-cta.html location="buscador-resultados" %}
+    </li>
+  </template>
+</div>

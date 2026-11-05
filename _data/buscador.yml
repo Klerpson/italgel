@@ -1,0 +1,111 @@
+# Buscador del sitio (js/buscador.js, _includes/buscador-*.html, buscar.html).
+# Los textos de las tarjetas salen del H1 y la description de cada página destino:
+# nada inventado. Las búsquedas populares salen de Search Console (90 días a 2026-11-02),
+# sin la marca.
+#
+# promos: tarjeta fija arriba de los resultados. `match` es una lista de palabras o frases
+# completas (minúsculas, las tildes dan igual); gana la primera promo con una coincidencia,
+# por eso las de insumos van antes que las de máquinas ("base para helado soft" es una base)
+# y la de contacto/precio va al final (no hay página de precios: el precio se cotiza por WhatsApp).
+# `conversion: true` marca la tarjeta que ya es la conversión: entonces no se repite el CTA.
+# pesos: multiplicador del puntaje de Pagefind por tipo (los tipos los pone buscador-indice.html).
+# wa: mensaje de WhatsApp del CTA del buscador; {q} es lo que buscó la persona.
+
+es:
+  url_pagina: /buscar/
+  populares:
+    - máquina de helados
+    - toppings para helados
+    - emulsionante para helados
+    - mantecadora de helados
+    - máquina de helado soft
+    - insumos para heladería
+  atajos:
+    - texto: Máquinas para hacer helado y equipos para heladería
+      url: /equipos/
+    - texto: "Insumos para heladería: bases, pastas, variegatos y coberturas"
+      url: /insumos/
+    - texto: Cafeteras espresso Hambach y molinos de café
+      url: /equipos-cafe/
+  respaldo:
+    - texto: "Contacto Italgel: cotiza máquinas, cafeteras e insumos"
+      url: /contacto/
+    - texto: Vitrinas para helado artesanal EasyBest
+      url: /vitrinas-congeladores/
+    - texto: Blog de heladería profesional en Colombia
+      url: /blog/
+  tipos: [Producto, Categoría, Guía, Página]
+  pesos:
+    Producto: 1.6
+    Categoría: 1.4
+  promos:
+    - match: [base, bases, emulsionante, emulsionantes, emulsificante, emulsificantes, estabilizante, estabilizantes, neutro, neutralin, supergelmix, stevia]
+      titulo: "Bases para helado MEC3: Base 50, Neutralin Plus y Supergelmix"
+      texto: "Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería."
+      url: /bases-helado-colombia/
+    - match: [pasta, pastas, sabor, sabores, pistacho, vainilla, avellana, almendra, chocolate]
+      titulo: "Pastas para helado concentradas: pistacho, vainilla, fruta y frutos secos"
+      texto: "Pastas para helado MEC3: pistacho, vainilla bourbon, almendras y chocolate. Concentración 1:20."
+      url: /pastas-sabores-helado/
+    - match: [variegato, variegatos, veteado, quella]
+      titulo: "Variegatos para helado artesanal: Quella y MEC3"
+      texto: "Variegatos fluidos a -18°C: caramelo salado, chocolate, frutos rojos y dulce de leche."
+      url: /variegatos-helado/
+    - match: [cobertura, coberturas, salsa, salsas, topping, toppings, granela, granelas, fabbri, amarena]
+      titulo: "Coberturas y salsas para helado: Quella y Fabbri"
+      texto: "Variegatos para veteado, amarena, chocolate, caramelo y frutos rojos. Cotiza con Italgel en Colombia."
+      url: /coberturas-salsas-helado/
+    - match: [vitrina, vitrinas, congelador, congeladores, exhibidor, exhibidores, nevera]
+      titulo: "Vitrinas para helado artesanal EasyBest en Colombia"
+      texto: "Vitrinas de 8 a 24 bandejas, de -16°C a -18°C. EasyBest (Grupo Clabo). Venta e instalación en Colombia."
+      url: /vitrinas-congeladores/
+    - match: [cafe, cafetera, cafeteras, espresso, molino, molinos, hambach, barista, cafeteria]
+      titulo: "Cafeteras espresso Hambach y molinos de café en Colombia"
+      texto: "Importador exclusivo en Colombia: 6 cafeteras espresso, de la Mini Neo a la Tank 2 de 2 grupos, y 4 molinos de café."
+      url: /equipos-cafe/
+    - match: [soft, suave, coldelite]
+      titulo: "Máquinas de helado soft para negocio en Colombia"
+      texto: "Máquinas de helado soft profesionales en Colombia: compresores italianos de alta capacidad, garantía local y soporte técnico."
+      url: /maquinas-helado-soft/
+    - match: [industrial, industriales, pasteurizadora, pasteurizadoras, valmar, linea de produccion]
+      titulo: "Máquinas de helado industrial: pasteurizadoras y líneas de producción"
+      texto: "Líneas de 100-500 L/h, pasteurizadoras, mantecadoras continuas y túneles de congelación Valmar en Colombia."
+      url: /maquinas-helado-industrial/
+    - match: [artesanal, mantecadora, mantecadoras, gelato]
+      titulo: "Máquinas de helado artesanal y mantecadoras para gelato en Colombia"
+      texto: "Mantecadoras y máquinas de helado artesanal profesional. Importadores directos de marcas italianas con asesoría técnica."
+      url: /maquinas-helado-artesanal/
+    - match: [maquina, maquinas, equipo, equipos, heladora, heladoras]
+      titulo: "Máquinas para hacer helado y equipos para heladería en Colombia"
+      texto: "Mantecadoras, equipos soft, líneas industriales y vitrinas Coldelite y Valmar, con asesoría técnica en Colombia."
+      url: /equipos/
+    - match: [insumo, insumos, proveedor, proveedores, distribuidor, distribuidora, mec3, materia prima]
+      titulo: "Insumos para heladería en Colombia: bases, pastas, variegatos y coberturas"
+      texto: "Bases MEC3, pastas concentradas, variegatos y coberturas Quella. Distribuidor con asesoría técnica."
+      url: /insumos/
+    - match: [precio, precios, costo, costos, cuesta, cuanto, vale, valor, cotizar, cotizacion, presupuesto, comprar, contacto, contactar, whatsapp, telefono, celular, direccion, asesor, asesoria]
+      titulo: "Contacto Italgel: cotiza máquinas, cafeteras e insumos para heladería"
+      texto: "Cotiza por WhatsApp máquinas de helado, cafeteras Hambach e insumos MEC3. Oficina en Bogotá y envíos a toda Colombia."
+      url: /contacto/
+      conversion: true
+  wa: "¡Hola! Busqué «{q}» en la web de Italgel y quiero cotizar."
+  t:
+    etiqueta: Buscar en Italgel
+    boton: Buscar
+    placeholder: Busca máquinas, insumos y guías
+    cerrar: Cerrar
+    populares: Búsquedas populares
+    atajos: Ir directo a
+    filtrar: Filtrar resultados por tipo
+    todos: Todos
+    resultado: resultado
+    resultados: resultados
+    para: para
+    ver_mas: Ver todos los resultados
+    ver_todos: "Ver los {n} resultados"
+    sin_resultados: No hay resultados para
+    prueba: "Prueba con una palabra más corta o más general, o con una de estas:"
+    vacio_cta: "¿No lo encuentras? Pregúntale a un asesor de Italgel por WhatsApp."
+    cta: "<strong>¿Quieres precio y disponibilidad?</strong> Un asesor de Italgel te cotiza por WhatsApp."
+    no_disponible: El buscador no está disponible en este momento.
+    tipo_defecto: Página

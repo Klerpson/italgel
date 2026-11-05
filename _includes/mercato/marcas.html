@@ -1,5 +1,5 @@
 {%- comment -%} Franja estática de marcas (_data/marcas.yml). Reemplaza al carrusel heredado slider.html. {%- endcomment -%}
-<ul class="marcas" role="list">
+<ul class="marcas" role="list" data-pagefind-ignore>
   {%- for marca in site.data.marcas %}
   <li><img src="{{ marca.img | relative_url }}" alt="Logo de {{ marca.nombre }}" title="{{ marca.title | default: marca.nombre }}" width="300" height="100" loading="lazy" decoding="async"></li>
   {%- endfor %}

@@ -222,11 +222,13 @@
     transition: transform 300ms var(--curva), opacity 300ms;
   }
   .menu {
-    list-style: none; display: flex; align-items: center; gap: clamp(1.25rem, 3vw, 2.5rem);
+    flex: 1; min-width: 0; list-style: none; display: flex; align-items: center; gap: clamp(1.25rem, 3vw, 2.5rem);
     height: var(--altura-secundaria); overflow-x: auto; scrollbar-width: none; white-space: nowrap;
     &::-webkit-scrollbar { display: none; }
     @media (min-width: 60rem) { overflow: visible; }
   }
+  .cabecera-sitio__secundaria > .wrapper { display: flex; align-items: center; gap: var(--space-md); }
+  .buscador-boton { flex: none; display: inline-grid; place-items: center; width: 2.5rem; height: 2.5rem; color: var(--color-texto-suave); }
   .menu__item { position: relative; display: flex; align-items: center; height: 100%; }
   .menu__categoria {
     display: flex; align-items: center; block-size: 100%; min-block-size: 2.75rem; font-size: var(--text-sm); text-decoration: none; color: var(--color-texto-suave); transition: color var(--transicion);

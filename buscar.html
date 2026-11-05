@@ -1,0 +1,26 @@
+---
+layout: mercato
+title: "Buscar en Italgel: máquinas, insumos y guías de heladería"
+description: "Busca en Italgel máquinas de helado, cafeteras Hambach, bases, pastas, variegatos y guías de heladería desde una sola caja."
+permalink: /buscar/
+sitemap: false
+noindex: true
+wa_mensaje: "¡Hola! Soy dueño o encargado de una heladería y quiero cotizar insumos o equipos"
+---
+{%- comment -%}
+  Buscador a página completa (/buscar/?q=). Mismo panel que el diálogo de la cabecera;
+  noindex (head.html), fuera del sitemap y del índice de Pagefind (buscador-indice.html salta los noindex).
+  wa_mensaje: el mensaje general del sitio (site.wa_mensaje + site.wa_asunto) en vez de "… Buscar en Italgel".
+{%- endcomment -%}
+<section class="buscador-pagina" data-buscador-pagina>
+  <h1>Buscar en Italgel</h1>
+  <form class="buscador-form" action="{{ '/buscar/' | relative_url }}" method="get" role="search">
+    <label for="buscador-pagina-q" class="visualmente-oculto">Buscar en Italgel</label>
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+    <input id="buscador-pagina-q" name="q" type="search" placeholder="Busca máquinas, insumos y guías" autocomplete="off" spellcheck="false" enterkeyhint="search" data-buscador-input>
+  </form>
+  <noscript>
+    <p class="buscador-pagina__sin-js">El buscador necesita JavaScript. Revisa las <a href="{{ '/equipos/' | relative_url }}">máquinas para hacer helado</a>, los <a href="{{ '/insumos/' | relative_url }}">insumos para heladería</a> o las <a href="{{ '/equipos-cafe/' | relative_url }}">cafeteras espresso Hambach</a>.</p>
+  </noscript>
+  {% include buscador-panel.html id="pagina" %}
+</section>

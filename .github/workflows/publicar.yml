@@ -1,0 +1,54 @@
+# Publica el sitio en GitHub Pages: Jekyll (versión del Gemfile.lock) + índice del buscador (Pagefind).
+# Sustituye al build clásico de Pages, que no permite pasos después de Jekyll.
+# Requisitos: Settings → Pages → Source = "GitHub Actions" (gh api -X PUT repos/<dueño>/<repo>/pages
+# -f build_type=workflow) y el Gemfile.lock con la plataforma x86_64-linux
+# (bundle lock --add-platform x86_64-linux). El dominio propio sigue en la configuración de Pages.
+name: Publicar sitio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      # Versión fijada: subirla a mano y probar. Qué páginas entran lo decide
+      # _includes/buscador-indice.html.
+      - name: Índice del buscador (Pagefind)
+        run: npx -y pagefind@1.5.2 --site _site
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -6,3 +6,4 @@ noindex: true
 {% include mercato/legado.css %}
 {% include mercato/pqr.css %}
 {% include mercato/articulo.css %}
+{% include mercato/buscador.css %}

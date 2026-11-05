@@ -1,0 +1,6 @@
+{%- comment -%}
+  Conversión del buscador: el botón de WhatsApp del sitio (mercato/boton.html), el único botón
+  sólido del panel. Parámetro: location (buscador-resultados | buscador-sin-resultados).
+  js/buscador.js le pone al mensaje el término buscado (_data/buscador.yml → wa).
+{%- endcomment -%}
+{% include mercato/boton.html texto="Cotizar por WhatsApp" location=include.location %}

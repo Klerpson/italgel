@@ -1,0 +1,23 @@
+{%- comment -%}
+  Buscador: <dialog> nativo que abre buscador-boton.html (o Ctrl/⌘K y "/").
+  Esc, la trampa de foco y el botón Cerrar (formmethod="dialog") los pone el navegador.
+  Enter envía a /buscar/?q= con la lista completa. Pagefind (/pagefind/, generado después
+  de Jekyll en .github/workflows/publicar.yml) se descarga solo al abrir el diálogo.
+  Va una vez por página, fuera de la cabecera fija (layouts/mercato.html).
+{%- endcomment -%}
+{%- assign lang = page.lang | default: 'es' -%}
+{%- assign b = site.data.buscador[lang] -%}
+{%- comment -%} En /buscar/ el panel ya está en la página: sin diálogo (data-location únicos). {%- endcomment -%}
+{%- unless page.url == b.url_pagina %}
+<dialog class="buscador" id="buscador" aria-label="{{ b.t.etiqueta }}" closedby="any">
+  <form class="buscador-form" action="{{ b.url_pagina | relative_url }}" method="get" role="search">
+    <label for="buscador-q" class="visualmente-oculto">{{ b.t.etiqueta }}</label>
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+    <input id="buscador-q" name="q" type="search" placeholder="{{ b.t.placeholder }}" autocomplete="off" spellcheck="false" enterkeyhint="search" data-buscador-input>
+    <button class="buscador-form__cerrar" type="submit" formmethod="dialog" formnovalidate>{{ b.t.cerrar }}</button>
+  </form>
+  {% include buscador-panel.html id="dialogo" %}
+</dialog>
+{%- endunless %}
+<script type="application/json" id="buscador-datos">{"promos":{{ b.promos | jsonify }},"pesos":{{ b.pesos | jsonify }},"t":{{ b.t | jsonify }},"wa":{{ b.wa | jsonify }}}</script>
+<script src="{{ '/js/buscador.js' | relative_url }}" defer></script>

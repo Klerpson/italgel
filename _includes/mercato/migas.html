@@ -5,7 +5,7 @@
 {%- endcomment -%}
 {%- assign _migas = include.items | default: page.breadcrumb -%}
 {%- if _migas %}
-<nav class="migas wrapper" aria-label="Ruta">
+<nav class="migas wrapper" aria-label="Ruta" data-pagefind-ignore>
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {%- for item in _migas %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">

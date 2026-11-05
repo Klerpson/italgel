@@ -13,11 +13,12 @@ mercato: true
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH788DQN" height="0" width="0" hidden title="Google Tag Manager"></iframe></noscript>
   <a class="visualmente-oculto" href="#contenido" title="Saltar al contenido">Saltar al contenido</a>
   {% include mercato/cabecera.html %}
-  <main id="contenido">
+  <main id="contenido"{% include buscador-indice.html %}>
     {{ content }}
   </main>
   {% include mercato/pie.html %}
   {% include mercato/flotante.html %}
+  {% include buscador-dialogo.html %}
   <script src="{{ '/js/mercato.js' | relative_url }}" defer></script>
   <script src="{{ '/js/canales.js' | relative_url }}" defer></script>
   {%- if page.pqr %}<script src="{{ '/js/app.js' | relative_url }}" defer></script>{% endif %}

@@ -191,7 +191,7 @@ layout: mercato
         </table>
       </div>
     </div>
-    <div class="rejilla rejilla--par producto__otros">
+    <div class="rejilla rejilla--par producto__otros" data-pagefind-ignore>
       {%- for item in grupo %}{% unless item.slug == p.slug %}
       {%- capture _img_otro -%}{% if item.img %}{{ item.img }}{% else %}/img/{{ page.coleccion }}/{{ item.slug }}.avif{% endif %}{%- endcapture %}
       {%- capture _url_otro -%}{{ page.categoria_url }}{{ item.slug }}/{%- endcapture %}
@@ -201,7 +201,7 @@ layout: mercato
   </div>
 </section>
 
-<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre" data-pagefind-ignore>
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">Cotiza {{ p.nombre }} por WhatsApp</h2>
     <p class="medida">{{ page.cierre_texto | default: "Cuéntanos para qué negocio es y en qué ciudad estás. Un asesor de Italgel te confirma precio, disponibilidad y configuración." }}</p>

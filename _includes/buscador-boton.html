@@ -1,0 +1,12 @@
+{%- comment -%}
+  Botón del buscador. Es un enlace real a /buscar/ (funciona sin JS); js/buscador.js abre el
+  diálogo en su lugar. Ctrl/⌘K y "/" también lo abren.
+  Va con el menú (barra secundaria o menú móvil), nunca en la barra fija de logo + CTA.
+  Parámetro opcional: con_texto=true muestra la etiqueta junto a la lupa (menú móvil); sin él, solo lupa.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: 'es' -%}
+{%- assign b = site.data.buscador[lang] -%}
+<a class="buscador-boton" href="{{ b.url_pagina | relative_url }}" data-buscador-abrir aria-keyshortcuts="Control+K Meta+K /">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+  {%- if include.con_texto %} <span>{{ b.t.etiqueta }}</span>{% else %}<span class="visualmente-oculto">{{ b.t.boton }}</span>{% endif %}
+</a>

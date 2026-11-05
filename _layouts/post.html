@@ -113,7 +113,7 @@ layout: mercato
 </header>
 
 {%- if _prod %}
-<aside class="wrapper destacado {{ _prod.familia }}" aria-label="Producto de Italgel para aplicar esta guía">
+<aside class="wrapper destacado {{ _prod.familia }}" aria-label="Producto de Italgel para aplicar esta guía" data-pagefind-ignore>
   <span class="baldosa__foto">
     {%- if _prod.sello %}<span class="sello">{{ _prod.sello }}</span>{% endif %}
     {% if site.data.imagenes_fabricantes.imagenes[_prod.img] or site.data.imagenes_ingredientes.imagenes[_prod.img] %}
@@ -136,7 +136,7 @@ layout: mercato
 
 <div class="wrapper articulo {{ _familia }}">
   {%- if _h2s.size > 2 %}
-  <nav class="indice indice--lateral" aria-label="En este artículo" data-indice>
+  <nav class="indice indice--lateral" aria-label="En este artículo" data-indice data-pagefind-ignore>
     <p class="etiqueta">En este artículo</p>
     <ol>
       {%- for t in _h2s offset: 1 %}
@@ -178,7 +178,7 @@ layout: mercato
     </section>
     {%- endif %}
 
-    <footer class="firma">
+    <footer class="firma" data-pagefind-ignore>
       <img src="{{ _autor.avatar | relative_url }}" alt="Logo de Italgel" title="{{ _autor.name }}" width="64" height="64" loading="lazy" decoding="async">
       <div class="flujo flujo--corto">
         <p><strong>{{ _autor.name }}</strong> · {{ _autor.title }}</p>
@@ -191,7 +191,7 @@ layout: mercato
 
 {% include mercato/relacionados.html %}
 
-<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre">
+<section class="banda banda--verde banda--marca" id="cotizar" aria-labelledby="titulo-cierre" data-pagefind-ignore>
   <div class="wrapper cierre flujo flujo--amplio">
     <h2 id="titulo-cierre" class="medida">{{ page.cierre_titulo | default: _cierre_def }}</h2>
     <p class="medida">{{ page.cierre_texto | default: "Cuéntanos qué vendes, cuántos litros haces al día y en qué ciudad está tu negocio. Un asesor de Italgel te responde con la referencia que te sirve y su precio." }}</p>
