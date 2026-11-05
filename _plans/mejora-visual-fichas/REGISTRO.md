@@ -31,3 +31,9 @@ Publicado en `f45b3e1695f0e4b90df9cb4cb2085e1f32fe6308`, despliegue de GitHub Pa
 Se repitieron las 13 combinaciones de navegador y los dos modos sin JavaScript en producción. La única alerta fue una respuesta 503 puntual de una miniatura preexistente del menú, ajena a los nuevos medios: `valmar-sweety-60-quick-160.avif`, a 960 px. Se conservó el resultado original y se repitió únicamente esa combinación: sin errores; petición directa posterior HTTP 200. No se modificó esa miniatura.
 
 Se inspeccionaron los bloques publicados en móvil y escritorio. GIF y fotograma responden HTTP 200 y sus hashes coinciden con los archivos optimizados locales. Teclado y control visual correctos; movimiento reducido hace cero peticiones al GIF. La comparación pública con la referencia anterior da cero diferencias en SEO/contenido protegido. Los temporales de revisión se eliminan al terminar; _plans sigue sin imágenes.
+
+### Ajuste solicitado de resumen y cobertura
+
+Se conserva la tarjeta «En resumen». El párrafo inmediatamente inferior deja de usar la clase de tarjeta `intro-text`, sin modificar una palabra. Las cifras y los tres grupos de zonas comparten una rejilla de tres columnas iguales desde 768 px, y una sola columna en móvil. En cobertura se retira el centrado del contenedor que restringía la anchura de la rejilla.
+
+La revisión local pasó las 13 combinaciones, incluyendo comprobaciones de posición de las seis tarjetas, además de los modos sin JavaScript. Se inspeccionaron resumen y cobertura en móvil y escritorio. La comparación de SEO/contenido continúa sin diferencias, y no cambia el HTML de otras páginas. No se añaden imágenes: la cobertura se presenta mediante listas legibles; la galería y el GIF existentes aportan el apoyo fotográfico.

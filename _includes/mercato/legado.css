@@ -208,6 +208,12 @@
       }
     }
 
+    /* Grupos locales de tres: una columna en móvil y una fila equilibrada desde tablet. */
+    .filas-locales {
+      inline-size: 100%; grid-template-columns: minmax(0, 1fr);
+      @media (min-width: 48rem) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
     /* Fotografías de aplicación y cierre con GIF: activados solo en las fichas elegidas. */
     .muestras-visuales {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-lg);

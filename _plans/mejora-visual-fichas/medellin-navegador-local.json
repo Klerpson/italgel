@@ -83,6 +83,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 16,
+            "y": -6344.28125,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -6111.90625,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -5879.53125,
+            "width": 288
+          }
+        ],
+        [
+          {
+            "x": 36,
+            "y": -4326.703125,
+            "width": 248
+          },
+          {
+            "x": 36,
+            "y": -4027.359375,
+            "width": 248
+          },
+          {
+            "x": 36,
+            "y": -3728.015625,
+            "width": 248
+          }
+        ]
       ]
     },
     {
@@ -147,6 +183,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 16,
+            "y": -6083.625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5851.25,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5618.875,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 36,
+            "y": -3908.4375,
+            "width": 318
+          },
+          {
+            "x": 36,
+            "y": -3609.09375,
+            "width": 318
+          },
+          {
+            "x": 36,
+            "y": -3309.75,
+            "width": 318
+          }
+        ]
       ]
     },
     {
@@ -211,6 +283,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 30.71875,
+            "y": -3525.90625,
+            "width": 224.84375
+          },
+          {
+            "x": 271.5625,
+            "y": -3525.90625,
+            "width": 224.84375
+          },
+          {
+            "x": 512.40625,
+            "y": -3525.90625,
+            "width": 224.84375
+          }
+        ],
+        [
+          {
+            "x": 61.4375,
+            "y": -2240.734375,
+            "width": 193.703125
+          },
+          {
+            "x": 287.140625,
+            "y": -2240.734375,
+            "width": 193.703125
+          },
+          {
+            "x": 512.84375,
+            "y": -2240.734375,
+            "width": 193.703125
+          }
+        ]
       ]
     },
     {
@@ -272,12 +380,12 @@
           "bytes": 2091
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
-          "bytes": 15658
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
+          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
@@ -304,24 +412,24 @@
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
-          "bytes": 18658
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
           "bytes": 3574
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
@@ -347,6 +455,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 64,
+            "y": -2667.3125,
+            "width": 266.65625
+          },
+          {
+            "x": 346.65625,
+            "y": -2667.3125,
+            "width": 266.671875
+          },
+          {
+            "x": 629.328125,
+            "y": -2667.3125,
+            "width": 266.65625
+          }
+        ],
+        [
+          {
+            "x": 76.796875,
+            "y": -1818.609375,
+            "width": 247.46875
+          },
+          {
+            "x": 356.265625,
+            "y": -1818.609375,
+            "width": 247.46875
+          },
+          {
+            "x": 635.734375,
+            "y": -1818.609375,
+            "width": 247.46875
+          }
+        ]
       ]
     },
     {
@@ -436,12 +580,12 @@
           "bytes": 11929
         },
         {
-          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
-          "bytes": 18658
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
           "bytes": 3330
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
@@ -452,6 +596,10 @@
           "bytes": 3574
         },
         {
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
+        },
+        {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
         },
@@ -460,20 +608,16 @@
           "bytes": 41626
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
-        },
-        {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
-          "bytes": 24237
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes-2/chocolate-492.avif",
           "bytes": 44972
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/vainilla-492.avif",
+          "bytes": 24237
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-492.avif",
@@ -483,6 +627,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 304,
+            "y": -2438.859375,
+            "width": 266.65625
+          },
+          {
+            "x": 586.65625,
+            "y": -2438.859375,
+            "width": 266.671875
+          },
+          {
+            "x": 869.328125,
+            "y": -2438.859375,
+            "width": 266.65625
+          }
+        ],
+        [
+          {
+            "x": 112,
+            "y": -1391.625,
+            "width": 384
+          },
+          {
+            "x": 528,
+            "y": -1391.625,
+            "width": 384
+          },
+          {
+            "x": 944,
+            "y": -1391.625,
+            "width": 384
+          }
+        ]
       ]
     },
     {
@@ -547,6 +727,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 16,
+            "y": -6083.625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5851.25,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5618.875,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 36,
+            "y": -3908.4375,
+            "width": 318
+          },
+          {
+            "x": 36,
+            "y": -3609.09375,
+            "width": 318
+          },
+          {
+            "x": 36,
+            "y": -3309.75,
+            "width": 318
+          }
+        ]
       ]
     },
     {
@@ -640,20 +856,20 @@
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
-        },
-        {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
@@ -683,6 +899,42 @@
           "url": "http://127.0.0.1:4178/img/animaciones/disfrutar-helado-playa.gif",
           "bytes": 583741
         }
+      ],
+      "cardLayout": [
+        [
+          {
+            "x": 304,
+            "y": -2438.859375,
+            "width": 266.65625
+          },
+          {
+            "x": 586.65625,
+            "y": -2438.859375,
+            "width": 266.671875
+          },
+          {
+            "x": 869.328125,
+            "y": -2438.859375,
+            "width": 266.65625
+          }
+        ],
+        [
+          {
+            "x": 112,
+            "y": -1391.625,
+            "width": 384
+          },
+          {
+            "x": 528,
+            "y": -1391.625,
+            "width": 384
+          },
+          {
+            "x": 944,
+            "y": -1391.625,
+            "width": 384
+          }
+        ]
       ]
     },
     {
@@ -830,12 +1082,12 @@
           "bytes": 1627
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
-          "bytes": 15658
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
           "bytes": 14167
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
+          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
@@ -862,24 +1114,24 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
@@ -890,6 +1142,10 @@
           "bytes": 1434
         },
         {
+          "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
+          "bytes": 1821
+        },
+        {
           "url": "http://127.0.0.1:4178/img/maquinas-helado-sagi.avif",
           "bytes": 1820
         },
@@ -898,16 +1154,12 @@
           "bytes": 6419
         },
         {
-          "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
-          "bytes": 1821
+          "url": "http://127.0.0.1:4178/img/toppings-helado-valmar.avif",
+          "bytes": 2110
         },
         {
           "url": "http://127.0.0.1:4178/img/proveedor-mezclas-helado-mec3.avif",
           "bytes": 3655
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/toppings-helado-valmar.avif",
-          "bytes": 2110
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-snowy-7-m-549.avif",
@@ -950,12 +1202,12 @@
           "bytes": 3325
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
-          "bytes": 5668
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-280.avif",
           "bytes": 7766
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/fiordiarancio-naranja-variegato-280.avif",
+          "bytes": 5668
         },
         {
           "url": "http://127.0.0.1:4178/img/blog/optimizadas/como-abrir-heladeria-colombia-600.avif",
@@ -997,12 +1249,12 @@
           "bytes": 20998
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/pastas-helado-italgel-colombia-400.avif",
-          "bytes": 17705
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/coberturas-helado-italgel-colombia-400.avif",
           "bytes": 22338
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/pastas-helado-italgel-colombia-400.avif",
+          "bytes": 17705
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/equipos-heladeria-coldelite-400.avif",
@@ -1080,12 +1332,20 @@
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
         },
         {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
+          "bytes": 38628
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
@@ -1094,14 +1354,6 @@
         {
           "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
           "bytes": 24122
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
-          "bytes": 38628
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/insumos-heladeria-italgel-584.avif",
@@ -1190,12 +1442,12 @@
           "bytes": 1818
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
-          "bytes": 1627
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+          "bytes": 1627
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",

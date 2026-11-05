@@ -19,8 +19,12 @@ const temp=path.join(os.tmpdir(),'italgel-piloto-medellin');fs.mkdirSync(temp,{r
   }
   const data=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+2,broken:[...document.querySelectorAll('main img')].filter(i=>getComputedStyle(i).display!=='none'&&!i.naturalWidth).map(i=>i.src),images:[...document.querySelectorAll('.muestras-visuales img,.cta--visual picture img')].map(i=>({src:i.currentSrc,width:i.getBoundingClientRect().width,height:i.getBoundingClientRect().height,naturalWidth:i.naturalWidth})),imageResources:performance.getEntriesByType('resource').filter(x=>x.initiatorType==='img').map(x=>({url:x.name,bytes:x.encodedBodySize}))}));
   if(test.url==='/insumos-heladeria-medellin/'){
+   const layout=await page.locator('.filas-locales').evaluateAll(groups=>groups.map(group=>[...group.children].map(card=>({x:card.getBoundingClientRect().x,y:card.getBoundingClientRect().y,width:card.getBoundingClientRect().width}))));
+   if(layout.length!==2||layout.some(cards=>cards.length!==3||cards.some(card=>card.width<=0)||(test.width>=768?cards.some(card=>Math.abs(card.y-cards[0].y)>1):cards.some(card=>Math.abs(card.x-cards[0].x)>1))))errors.push('Distribución de tres tarjetas incorrecta');
+   if(await page.locator('.sintesis + p').evaluate(p=>getComputedStyle(p).backgroundColor!=='rgba(0, 0, 0, 0)'))errors.push('El párrafo inferior conserva fondo de tarjeta');
+   data.cardLayout=layout;
    await page.locator('.demo-helado input').uncheck();if(!await page.locator('.demo-helado__estatica').isVisible()||await page.locator('.demo-helado__animada').isVisible())errors.push('Pausa visual incorrecta');await page.locator('.demo-helado input').check();
-   if([390,1440].includes(test.width)&&test.dpr===1){await page.addStyleTag({content:'.cabecera-sitio,.flotante{visibility:hidden!important}'});for(const [name,selector] of [['galeria','.muestras-visuales'],['cierre','.cta--visual']])await page.locator(selector).screenshot({path:path.join(temp,`${mode}-${name}-${test.width}.png`)});}
+   if([390,1440].includes(test.width)&&test.dpr===1){await page.addStyleTag({content:'.cabecera-sitio,.flotante{visibility:hidden!important}'});for(const [name,selector] of [['resumen','.contenido-legado > section:first-child'],['cobertura','.cobertura-local'],['galeria','.muestras-visuales'],['cierre','.cta--visual']])await page.locator(selector).screenshot({path:path.join(temp,`${mode}-${name}-${test.width}.png`)});}
   }
   results.push({...test,status:response.status(),errors,bad,initialImages:initial,...data});await ctx.close();
  }
