@@ -37,6 +37,13 @@ Este archivo maestro (`AGENTS.md`) es la columna vertebral para la toma de decis
 
 A continuación, se detalla cada skill, su propósito y cómo debe ser activada por la IA:
 
+#### 0. `mejora-visual-fichas`
+
+- **Ubicación:** [SKILL.md](.claude/skills/mejora-visual-fichas/SKILL.md).
+- **Descripción:** Mejora visual paso a paso de páginas comerciales, categorías, ciudades y fichas de producto, con fotografías y GIF reales livianos, sin modificar el SEO ni el contenido existente.
+- **Activación:** Usar para «mejorar lo visual», «añadir GIF», «imágenes de las fichas» o continuar la campaña visual de servicios/productos de Italgel. Priorizar esta skill sobre `seo-onpage` o `copywriter` cuando el encargo se limite a lo visual; apoyarse en `dev-jekyll` para implementación.
+- **Límite de esta campaña:** Conservar metadatos, URLs, encabezados, texto, FAQs, schema, enlaces y alt existentes. La creación de la skill no inicia cambios en las páginas.
+
 #### 1. `competitor-analysis`
 
 - **Descripción:** Análisis de competencia en SERPs para una keyword específica.

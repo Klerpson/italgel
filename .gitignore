@@ -2,7 +2,10 @@
 plans/
 claude/
 Claude outputs/
-.claude/
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/mejora-visual-fichas/
 
 # Jekyll
 _site/
