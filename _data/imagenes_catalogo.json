@@ -1904,6 +1904,26 @@
           "width": 1600
         }
       ]
+    },
+    "/img/variegatos-vitrina-hero.avif": {
+      "src": "/img/variegatos-vitrina-hero.avif",
+      "width": 1200,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/variegatos-vitrina-hero-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/variegatos-vitrina-hero.avif",
+          "width": 1200
+        }
+      ],
+      "encuadre": "ambiente"
     }
   }
 }

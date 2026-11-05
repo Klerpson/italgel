@@ -14,8 +14,8 @@ const temp=path.join(os.tmpdir(),'italgel-soft');fs.mkdirSync(temp,{recursive:tr
   if(test.url===target){
    if(await page.locator('.demo-helado__estatica').isVisible()||!await page.locator('.demo-helado__animada').isVisible())errors.push('GIF y fotograma se muestran simultáneamente');
    const gifSize=await page.locator('.demo-helado picture img').evaluate(i=>({width:i.getBoundingClientRect().width,height:i.getBoundingClientRect().height,ratio:Number(i.getAttribute('width'))/Number(i.getAttribute('height'))}));if(gifSize.width>480.5||Math.abs(gifSize.width/gifSize.height-gifSize.ratio)>.02)errors.push('GIF ampliado o deformado');
-   if(data.groups.length!==(isVariegatos?1:2)||data.groups.some(g=>g.length!==3||g.some(c=>c.width<=0)||(test.width>=768?g.some(c=>Math.abs(c.y-g[0].y)>1):g.some(c=>Math.abs(c.x-g[0].x)>1))))errors.push('Columnas desalineadas');
-   if([390,1440].includes(test.width)&&test.dpr===1){await page.addStyleTag({content:'.cabecera-sitio,.flotante{visibility:hidden!important}'});await page.locator('[data-visual-nuevo]').first().screenshot({path:path.join(temp,`${pageName}-${mode}-gif-${test.width}.png`)});await page.locator(isVariegatos?'section:has(> .filas-locales)':'section:has(.product-card)').screenshot({path:path.join(temp,`${pageName}-${mode}-catalogo-${test.width}.png`)});}
+   if(data.groups.length!==(isVariegatos?3:2)||data.groups.some(g=>g.length!==3||g.some(c=>c.width<=0)||(test.width>=768?g.some(c=>Math.abs(c.y-g[0].y)>1):g.some(c=>Math.abs(c.x-g[0].x)>1))))errors.push('Columnas desalineadas');
+   if([390,1440].includes(test.width)&&test.dpr===1){await page.addStyleTag({content:'.cabecera-sitio,.flotante{visibility:hidden!important}'});await page.locator('[data-visual-nuevo]').first().screenshot({path:path.join(temp,`${pageName}-${mode}-gif-${test.width}.png`)});await page.locator(isVariegatos?'section:has(> .catalogo-familias)':'section:has(.product-card)').screenshot({path:path.join(temp,`${pageName}-${mode}-catalogo-${test.width}.png`)});}
   }
   results.push({...test,status:response.status(),errors,...data});await ctx.close();
  }

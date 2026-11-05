@@ -37,12 +37,16 @@ else:
     record = json.loads(reference.read_text(encoding='utf8'))
     actual = normal(public() if mode == 'vivo' else local)
     visual_changes = []
-    if '--cabecera' in sys.argv:
+    if '--cabecera' in sys.argv or '--cabecera-variegatos' in sys.argv:
+        is_var_hero = '--cabecera-variegatos' in sys.argv
+        assert is_var_hero == (page_name == 'variegatos')
+        new_hero = '/img/variegatos-vitrina-hero.avif' if is_var_hero else '/img/catalogo/fabricantes/soft-mesa-piso.svg'
+        old_hero = '/img/variegatos-helado.avif' if is_var_hero else '/img/maquina-industrial-soft.avif'
         old_images = record['protected']['images']
         for index, image in enumerate(actual['images']):
-            if image.get('src') == '/img/catalogo/fabricantes/soft-mesa-piso.svg':
+            if image.get('src') == new_hero:
                 before = old_images[index]
-                assert before.get('src') == '/img/maquina-industrial-soft.avif'
+                assert before.get('src') == old_hero
                 allowed = {'src', 'srcset', 'width', 'height', 'style'}
                 assert {k: v for k, v in image.items() if k not in allowed} == {k: v for k, v in before.items() if k not in allowed}
                 actual['images'][index] = before
@@ -52,6 +56,8 @@ else:
     front_matter = source.split('---', 2)[1]
     if '--cabecera' in sys.argv:
         front_matter = front_matter.replace('hero_visual: /img/catalogo/fabricantes/soft-mesa-piso.svg\n', '')
+    if '--cabecera-variegatos' in sys.argv:
+        front_matter = front_matter.replace('hero_visual: /img/variegatos-vitrina-hero.avif\n', '')
     if front_matter != record['front_matter']:
         differences.append('front_matter')
     other = [rel for rel, sha in record['html_sha256'].items() if rel != route and (not (ROOT / '_site' / rel).exists() or hashlib.sha256((ROOT / '_site' / rel).read_bytes()).hexdigest() != sha)] if mode == 'local' else []

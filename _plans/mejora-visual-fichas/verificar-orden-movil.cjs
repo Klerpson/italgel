@@ -26,7 +26,7 @@ const mode=process.argv.includes('vivo')?'vivo':'local',base=mode==='vivo'?'http
   if(width===390){
    await page.addStyleTag({content:'.cabecera-sitio,.flotante{visibility:hidden!important}'});
    await page.locator('section:has(#animacion-variegatos)').screenshot({path:path.join(temp,mode+'-tecnica.png')});
-   await page.locator('section:has(> .filas-locales)').screenshot({path:path.join(temp,mode+'-catalogo.png')});
+   await page.locator('section:has(> .catalogo-familias)').screenshot({path:path.join(temp,mode+'-catalogo.png')});
   }
   await page.close();
  }

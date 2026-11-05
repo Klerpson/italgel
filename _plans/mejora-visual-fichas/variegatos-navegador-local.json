@@ -35,22 +35,60 @@
         [
           {
             "x": 16,
-            "y": -6520.453125,
+            "y": -7338.125,
             "width": 288
           },
           {
             "x": 16,
-            "y": -5255.5625,
+            "y": -6928.21875,
             "width": 288
           },
           {
             "x": 16,
-            "y": -3881.625,
+            "y": -6462.53125,
+            "width": 288
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -5520.84375,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -5058.15625,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -4595.46875,
+            "width": 288
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -4026.5625,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -3613.65625,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -3174.359375,
             "width": 288
           }
         ]
       ],
       "images": [
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-400.avif",
+          "bytes": 14180
+        },
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
@@ -93,22 +131,60 @@
         [
           {
             "x": 16,
-            "y": -6010.296875,
+            "y": -6728.296875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -4873.96875,
+            "y": -6341.78125,
             "width": 358
           },
           {
             "x": 16,
-            "y": -3509.203125,
+            "y": -5928.875,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -4943.578125,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -4530.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -4144.15625,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -3654.03125,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -3267.515625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -2854.609375,
             "width": 358
           }
         ]
       ],
       "images": [
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-400.avif",
+          "bytes": 14180
+        },
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
@@ -126,12 +202,12 @@
           "bytes": 43941
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
-          "bytes": 17217
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/tecnica-variegato-400.avif",
           "bytes": 22489
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
+          "bytes": 17217
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/veteado-variegato-400.avif",
@@ -151,17 +227,51 @@
         [
           {
             "x": 30.71875,
-            "y": -3302.4375,
+            "y": -4279.578125,
             "width": 214.171875
           },
           {
             "x": 276.890625,
-            "y": -3302.4375,
+            "y": -4279.578125,
             "width": 214.1875
           },
           {
             "x": 523.078125,
-            "y": -3302.4375,
+            "y": -4279.578125,
+            "width": 214.1875
+          }
+        ],
+        [
+          {
+            "x": 30.71875,
+            "y": -3019.21875,
+            "width": 214.171875
+          },
+          {
+            "x": 276.890625,
+            "y": -3019.21875,
+            "width": 214.1875
+          },
+          {
+            "x": 523.078125,
+            "y": -3019.21875,
+            "width": 214.1875
+          }
+        ],
+        [
+          {
+            "x": 30.71875,
+            "y": -2202.46875,
+            "width": 214.171875
+          },
+          {
+            "x": 276.890625,
+            "y": -2202.46875,
+            "width": 214.1875
+          },
+          {
+            "x": 523.078125,
+            "y": -2202.46875,
             "width": 214.1875
           }
         ]
@@ -172,16 +282,20 @@
           "bytes": 3384
         },
         {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "bytes": 36926
+        },
+        {
           "url": "http://127.0.0.1:4178/img/animaciones/capas-variegato.gif",
           "bytes": 584104
         },
         {
-          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
-          "bytes": 43941
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/tecnica-veteado-variegato-400.avif",
           "bytes": 20889
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
+          "bytes": 43941
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/tecnica-veteado-variegato-helado-400.avif",
@@ -208,23 +322,61 @@
       "groups": [
         [
           {
-            "x": 38.40625,
-            "y": -2865.859375,
-            "width": 273.0625
+            "x": 298.796875,
+            "y": -3823.859375,
+            "width": 186.265625
           },
           {
-            "x": 343.46875,
-            "y": -2865.859375,
-            "width": 273.0625
+            "x": 517.0625,
+            "y": -3823.859375,
+            "width": 186.265625
           },
           {
-            "x": 648.53125,
-            "y": -2865.859375,
-            "width": 273.0625
+            "x": 735.328125,
+            "y": -3823.859375,
+            "width": 186.265625
+          }
+        ],
+        [
+          {
+            "x": 298.796875,
+            "y": -3029.0625,
+            "width": 186.265625
+          },
+          {
+            "x": 517.0625,
+            "y": -3029.0625,
+            "width": 186.265625
+          },
+          {
+            "x": 735.328125,
+            "y": -3029.0625,
+            "width": 186.265625
+          }
+        ],
+        [
+          {
+            "x": 298.796875,
+            "y": -2207.875,
+            "width": 186.265625
+          },
+          {
+            "x": 517.0625,
+            "y": -2207.875,
+            "width": 186.265625
+          },
+          {
+            "x": 735.328125,
+            "y": -2207.875,
+            "width": 186.265625
           }
         ]
       ],
       "images": [
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-400.avif",
+          "bytes": 14180
+        },
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
@@ -238,12 +390,12 @@
           "bytes": 1818
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
-          "bytes": 2091
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+          "bytes": 2091
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
@@ -274,20 +426,20 @@
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
-        },
-        {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
-          "bytes": 32518
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
+          "bytes": 32518
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
@@ -338,19 +490,53 @@
       "groups": [
         [
           {
-            "x": 64,
-            "y": -3163.78125,
-            "width": 416
+            "x": 440,
+            "y": -3361.78125,
+            "width": 290.65625
           },
           {
-            "x": 512,
-            "y": -3163.78125,
-            "width": 416
+            "x": 762.65625,
+            "y": -3361.78125,
+            "width": 290.671875
           },
           {
-            "x": 960,
-            "y": -3163.78125,
-            "width": 416
+            "x": 1085.328125,
+            "y": -3361.78125,
+            "width": 290.65625
+          }
+        ],
+        [
+          {
+            "x": 440,
+            "y": -2769.703125,
+            "width": 290.65625
+          },
+          {
+            "x": 762.65625,
+            "y": -2769.703125,
+            "width": 290.671875
+          },
+          {
+            "x": 1085.328125,
+            "y": -2769.703125,
+            "width": 290.65625
+          }
+        ],
+        [
+          {
+            "x": 440,
+            "y": -2180.625,
+            "width": 290.65625
+          },
+          {
+            "x": 762.65625,
+            "y": -2180.625,
+            "width": 290.671875
+          },
+          {
+            "x": 1085.328125,
+            "y": -2180.625,
+            "width": 290.65625
           }
         ]
       ],
@@ -358,6 +544,10 @@
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "bytes": 36926
         },
         {
           "url": "http://127.0.0.1:4178/img/coldelite-compacta-1.avif",
@@ -404,18 +594,6 @@
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
-          "bytes": 38628
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
-        },
-        {
           "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
           "bytes": 18658
         },
@@ -428,16 +606,28 @@
           "bytes": 32518
         },
         {
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
+        },
+        {
           "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
           "bytes": 24122
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/animaciones/capas-variegato.gif",
+          "bytes": 584104
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/tecnica-veteado-variegato-584.avif",
           "bytes": 34339
         },
         {
-          "url": "http://127.0.0.1:4178/img/animaciones/capas-variegato.gif",
-          "bytes": 584104
+          "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
+          "bytes": 38628
         },
         {
           "url": "http://127.0.0.1:4178/img/crema-quella-helado-italgel.avif",
@@ -469,22 +659,60 @@
         [
           {
             "x": 16,
-            "y": -6010.296875,
+            "y": -6728.296875,
             "width": 358
           },
           {
             "x": 16,
-            "y": -4873.96875,
+            "y": -6341.78125,
             "width": 358
           },
           {
             "x": 16,
-            "y": -3509.203125,
+            "y": -5928.875,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -4943.578125,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -4530.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -4144.15625,
+            "width": 358
+          }
+        ],
+        [
+          {
+            "x": 16,
+            "y": -3654.03125,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -3267.515625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -2854.609375,
             "width": 358
           }
         ]
       ],
       "images": [
+        {
+          "url": "http://127.0.0.1:4178/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "bytes": 36926
+        },
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
@@ -526,23 +754,61 @@
       "groups": [
         [
           {
-            "x": 64,
-            "y": -3163.78125,
-            "width": 416
+            "x": 440,
+            "y": -3361.78125,
+            "width": 290.65625
           },
           {
-            "x": 512,
-            "y": -3163.78125,
-            "width": 416
+            "x": 762.65625,
+            "y": -3361.78125,
+            "width": 290.671875
           },
           {
-            "x": 960,
-            "y": -3163.78125,
-            "width": 416
+            "x": 1085.328125,
+            "y": -3361.78125,
+            "width": 290.65625
+          }
+        ],
+        [
+          {
+            "x": 440,
+            "y": -2769.703125,
+            "width": 290.65625
+          },
+          {
+            "x": 762.65625,
+            "y": -2769.703125,
+            "width": 290.671875
+          },
+          {
+            "x": 1085.328125,
+            "y": -2769.703125,
+            "width": 290.65625
+          }
+        ],
+        [
+          {
+            "x": 440,
+            "y": -2180.625,
+            "width": 290.65625
+          },
+          {
+            "x": 762.65625,
+            "y": -2180.625,
+            "width": 290.671875
+          },
+          {
+            "x": 1085.328125,
+            "y": -2180.625,
+            "width": 290.65625
           }
         ]
       ],
       "images": [
+        {
+          "url": "http://127.0.0.1:4178/img/variegatos-vitrina-hero.avif",
+          "bytes": 63165
+        },
         {
           "url": "http://127.0.0.1:4178/img/logo-nav.avif",
           "bytes": 3384
@@ -596,20 +862,20 @@
           "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
-        },
-        {
           "url": "http://127.0.0.1:4178/img/base-50-mec3-empaque.avif",
           "bytes": 32518
         },
         {
-          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
-          "bytes": 38900
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
           "bytes": 41626
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
+          "bytes": 38900
         },
         {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
@@ -703,16 +969,16 @@
           "bytes": 1818
         },
         {
+          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
+          "bytes": 15658
+        },
+        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
           "bytes": 1627
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
           "bytes": 2091
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/cafe/mini-neo.avif",
-          "bytes": 15658
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
@@ -727,16 +993,20 @@
           "bytes": 19852
         },
         {
-          "url": "http://127.0.0.1:4178/img/fiordiamarena-variegato-cerezas.avif",
-          "bytes": 11929
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/sequoia-74wt.avif",
           "bytes": 9898
         },
         {
+          "url": "http://127.0.0.1:4178/img/fiordiamarena-variegato-cerezas.avif",
+          "bytes": 11929
+        },
+        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
           "bytes": 3330
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
           "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
@@ -749,10 +1019,6 @@
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
           "bytes": 38900
-        },
-        {
-          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
-          "bytes": 18658
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
@@ -803,16 +1069,16 @@
           "bytes": 1820
         },
         {
-          "url": "http://127.0.0.1:4178/img/easybest-refrigeracion-helados.avif",
-          "bytes": 6419
-        },
-        {
           "url": "http://127.0.0.1:4178/img/maquinas-helado-italitanas-coldelite.avif",
           "bytes": 1821
         },
         {
           "url": "http://127.0.0.1:4178/img/proveedor-mezclas-helado-mec3.avif",
           "bytes": 3655
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/easybest-refrigeracion-helados.avif",
+          "bytes": 6419
         },
         {
           "url": "http://127.0.0.1:4178/img/toppings-helado-valmar.avif",
@@ -839,12 +1105,12 @@
           "bytes": 489810
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/tarjetas/mini-neo-480.avif",
-          "bytes": 11684
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/tarjetas/falcon-480.avif",
           "bytes": 11482
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/tarjetas/mini-neo-480.avif",
+          "bytes": 11684
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/tarjetas/tank-2-480.avif",
@@ -926,12 +1192,12 @@
       ],
       "images": [
         {
-          "url": "http://127.0.0.1:4178/img/logo-nav.avif",
-          "bytes": 3384
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/soft-mesa-piso.svg",
           "bytes": 55709
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/logo-nav.avif",
+          "bytes": 3384
         },
         {
           "url": "http://127.0.0.1:4178/img/coldelite-compacta-1.avif",
@@ -954,12 +1220,12 @@
           "bytes": 15658
         },
         {
-          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
-          "bytes": 14167
-        },
-        {
           "url": "http://127.0.0.1:4178/img/cafe/tank-2.avif",
           "bytes": 23624
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/cafe/falcon.avif",
+          "bytes": 14167
         },
         {
           "url": "http://127.0.0.1:4178/img/cafe/cruiser.avif",
@@ -974,20 +1240,16 @@
           "bytes": 11929
         },
         {
-          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
-          "bytes": 18658
-        },
-        {
           "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/salted-160.avif",
           "bytes": 3330
         },
         {
-          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
-          "bytes": 3574
+          "url": "http://127.0.0.1:4178/img/variegatos-quella-textura.avif",
+          "bytes": 18658
         },
         {
-          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
-          "bytes": 41626
+          "url": "http://127.0.0.1:4178/img/catalogo/ingredientes/bosque-160.avif",
+          "bytes": 3574
         },
         {
           "url": "http://127.0.0.1:4178/img/neutralin-plus-mec3-gelato.avif",
@@ -998,12 +1260,16 @@
           "bytes": 32518
         },
         {
-          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
-          "bytes": 24122
-        },
-        {
           "url": "http://127.0.0.1:4178/img/pasta-pistacho-siciliano-mec3.avif",
           "bytes": 38628
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/supergelmix-mec3-helado-soft.avif",
+          "bytes": 41626
+        },
+        {
+          "url": "http://127.0.0.1:4178/img/pasta-vainilla-bourbon-mec3.avif",
+          "bytes": 24122
         },
         {
           "url": "http://127.0.0.1:4178/img/catalogo/fabricantes/iceteam-603-bib-600.avif",

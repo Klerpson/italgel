@@ -23,7 +23,7 @@ layout: mercato
     {%- if page.hero %}
     {%- assign _hero_visual = page.hero_visual | default: page.hero -%}
     {%- assign _catalogo_key = _hero_visual | relative_url -%}
-    <picture class="portada__foto{% if site.data.imagenes_catalogo.imagenes[_catalogo_key] %} foto-fiel{% endif %}">
+    <picture class="portada__foto{% if site.data.imagenes_catalogo.imagenes[_catalogo_key] and site.data.imagenes_catalogo.imagenes[_catalogo_key].encuadre != 'ambiente' %} foto-fiel{% endif %}">
       {%- if site.data.imagenes_catalogo.imagenes[_catalogo_key] -%}
       {% include mercato/imagen-catalogo.html origen=_hero_visual alt=page.alt title=page.hero_title contexto="hero" prioridad=true %}
       {%- else -%}

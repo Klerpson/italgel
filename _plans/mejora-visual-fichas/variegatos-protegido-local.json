@@ -1,6 +1,8 @@
 {
   "mode": "local",
-  "cambios_visuales_autorizados": [],
+  "cambios_visuales_autorizados": [
+    "Recurso/dimensiones de cabecera; alt, title y demás atributos conservados"
+  ],
   "diferencias_protegidas": [],
   "otras_paginas_html_modificadas": [],
   "otra_pagina_de_la_tanda": [

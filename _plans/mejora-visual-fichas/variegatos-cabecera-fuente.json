@@ -1,0 +1,9 @@
+{
+  "source": "https://www.pexels.com/photo/gelato-ice-creams-on-display-5061192/",
+  "download": "https://images.pexels.com/photos/5061192/pexels-photo-5061192.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "author": "ROMAN ODINTSOV",
+  "license": "https://www.pexels.com/license/",
+  "download_sha256": "1382fbb79faccea7aa1794bb8c8fe9616cabd3860a7fa78bb215bd94f6073c41",
+  "usage": "Escena ilustrativa de bandejas con helado veteado. No representa una sede, cliente ni demostración certificada de un producto Italgel. Solo sustituye la imagen visible de cabecera; hero social y alt originales conservados.",
+  "processing": "Sin recorte ni ampliación. AVIF quality=62, speed=6; 400, 800 y 1200 px. La foto de ambiente llena el panel con object-fit cover existente; no se aplica este encuadre a equipos o envases."
+}
