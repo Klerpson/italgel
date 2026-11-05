@@ -208,6 +208,21 @@
       }
     }
 
+    /* Fotografías de aplicación y cierre con GIF: activados solo en las fichas elegidas. */
+    .muestras-visuales {
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-lg);
+      figure { inline-size: 100%; max-inline-size: 30.75rem; justify-self: center; }
+      img { display: block; inline-size: 100%; block-size: auto; }
+      figcaption { margin-block-start: var(--space-sm); font-size: var(--text-sm); color: var(--color-texto-suave); }
+    }
+    .cta--visual {
+      > .demo-helado { max-inline-size: 25rem; margin-block-start: 0; }
+      @media (min-width: 60rem) {
+        > .botones { grid-column: 1; grid-row: auto; flex-direction: row; }
+        > .demo-helado { grid-column: 2; grid-row: 1 / span 4; }
+      }
+    }
+
     /* Tarjetas de texto en rejilla (sin foto): papel, aire y la bola de color en el título */
     :is(.two_columns, .three_columns, .four_columns) > :is(div, article):not(.datos, .product-category, :has(img), .faq__item) {
       padding: var(--space-lg); background: var(--color-papel); border-radius: var(--radio); text-align: start; --punto: var(--color-marca);

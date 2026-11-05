@@ -1,0 +1,30 @@
+{
+  "author": "Katya Wolf",
+  "source": "https://www.pexels.com/video/woman-eating-ice-cream-on-a-beach-8731181/",
+  "download": "https://videos.pexels.com/video-files/8731181/8731181-hd_1080_1920_24fps.mp4",
+  "license": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "source_sha256": "3ba10be952c0afb9dd6b39808302a4b7bd2c32661f669bd2ad0a8f83ac4da086",
+  "gif_bytes": 583741,
+  "width": 400,
+  "height": 300,
+  "frames": 10,
+  "duration_ms": 2000,
+  "fps": 5,
+  "colors": 256,
+  "src": "/img/animaciones/disfrutar-helado-playa.gif",
+  "poster": "/img/animaciones/disfrutar-helado-playa-poster.avif",
+  "alt": "Una persona disfruta un cono de helado al aire libre junto al mar",
+  "caption": "Disfrutar un helado. Escena ilustrativa.",
+  "control_label": "Reproducir la escena de disfrute de helado",
+  "processing": {
+    "crop": "720:540:0:430",
+    "scale": "400:300",
+    "start_seconds": 0,
+    "seconds": 2,
+    "fps": 5,
+    "colors": 256,
+    "dither": "bayer, escala 3",
+    "denoise": "hqdn3d=2:2:3:3"
+  }
+}

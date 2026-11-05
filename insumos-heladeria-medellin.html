@@ -55,6 +55,21 @@ faqs:
     </div>
   </section>
 
+  <div class="muestras-visuales rejilla" data-visual-nuevo>
+    <figure>
+      {% include mercato/imagen-catalogo.html origen="/img/pasta-vainilla-bourbon-helado.avif" alt="Helado de vainilla con virutas de chocolate" sizes="auto, (min-width: 60rem) 380px, (min-width: 48rem) 29vw, 92vw" %}
+      <figcaption>Vainilla</figcaption>
+    </figure>
+    <figure>
+      {% include mercato/imagen-catalogo.html origen="/img/pasta-chocolate-helado-artesanal.avif" alt="Detalle de la textura de un helado de chocolate" sizes="auto, (min-width: 60rem) 380px, (min-width: 48rem) 29vw, 92vw" %}
+      <figcaption>Chocolate</figcaption>
+    </figure>
+    <figure>
+      {% include mercato/imagen-catalogo.html origen="/img/pasta-frutos-bosque-helado.avif" alt="Cubeta de helado decorada con frutos del bosque" sizes="auto, (min-width: 60rem) 380px, (min-width: 48rem) 29vw, 92vw" %}
+      <figcaption>Frutos del bosque</figcaption>
+    </figure>
+  </div>
+
   <!-- Zonas de entrega -->
   <section class="wrapper center bg_grey_light">
     <h3>Cobertura de entrega en Medellín</h3>
@@ -164,7 +179,7 @@ faqs:
   </section>
 
   <!-- CTA Final -->
-  <section class="wrapper flow cta">
+  <section class="wrapper flow cta cta--visual">
     <h2>Haz tu pedido de insumos en Medellín ahora</h2>
     <p>Más de 35 heladerías en Medellín confían en nuestra puntualidad, calidad y asesoría técnica. Únete a ellas y optimiza tu producción con insumos profesionales MEC3.</p>
 
@@ -174,4 +189,5 @@ faqs:
     </div>
 
     <small><i>Horario de atención Medellín: Lunes a Viernes 8:00 AM - 6:00 PM | Sábados 9:00 AM - 1:00 PM</i></small>
+    {% include mercato/helado-animado.html demo=site.data.animacion_disfrute nuevo=true %}
   </section>

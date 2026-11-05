@@ -1,0 +1,1049 @@
+{
+  "protected": {
+    "title": "Insumos para heladería en Medellín | Italgel",
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, minimal-ui"
+      },
+      {
+        "name": "description",
+        "content": "Insumos para heladería en Medellín: bases MEC3, pastas, coberturas y máquinas. Envíos a El Poblado, Envigado, Laureles y el área metropolitana."
+      },
+      {
+        "name": "author",
+        "content": "Sebastián Rios"
+      },
+      {
+        "name": "theme-color",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "application-name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:locale",
+        "content": "es_CO"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "property": "og:title",
+        "content": "Insumos para heladería en Medellín | Italgel"
+      },
+      {
+        "property": "og:description",
+        "content": "Insumos para heladería en Medellín: bases MEC3, pastas, coberturas y máquinas. Envíos a El Poblado, Envigado, Laureles y el área metropolitana."
+      },
+      {
+        "property": "og:url",
+        "content": "https://italgel.com.co/insumos-heladeria-medellin/"
+      },
+      {
+        "property": "og:site_name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:image",
+        "content": "https://italgel.com.co/img/contacto-italgel-colombia.avif"
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://italgel.com.co/img/contacto-italgel-colombia.avif"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1080"
+      },
+      {
+        "property": "og:image:height",
+        "content": "720"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "Exhibición de productos para heladería en un stand de MEC3"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Insumos para heladería en Medellín | Italgel"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Insumos para heladería en Medellín: bases MEC3, pastas, coberturas y máquinas. Envíos a El Poblado, Envigado, Laureles y el área metropolitana."
+      },
+      {
+        "name": "twitter:site",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://italgel.com.co/img/contacto-italgel-colombia.avif"
+      }
+    ],
+    "seo_links": [
+      {
+        "rel": "canonical",
+        "href": "https://italgel.com.co/insumos-heladeria-medellin/"
+      },
+      {
+        "rel": "alternate",
+        "type": "application/rss+xml",
+        "title": "Italgel | Insumos y Equipos para Heladería en Colombia",
+        "href": "https://italgel.com.co/feed.xml"
+      },
+      {
+        "rel": "sitemap",
+        "type": "application/xml",
+        "title": "Sitemap",
+        "href": "/sitemap.xml"
+      }
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://italgel.com.co/#organizacion",
+        "name": "Italgel Colombia",
+        "url": "https://italgel.com.co",
+        "logo": "https://italgel.com.co/img/logo.avif",
+        "description": "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida.",
+        "foundingDate": "2008",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        "serviceType": [
+          "Distribución de insumos para heladería",
+          "Asesoría técnica",
+          "Venta de máquinas profesionales"
+        ],
+        "award": "Distribuidor autorizado MEC3 - The Genuine Company",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "573192346788",
+          "contactType": "sales",
+          "email": "info@mec3.co",
+          "availableLanguage": [
+            "Spanish",
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.facebook.com/Mec3.Italgel",
+          "https://www.instagram.com/mec3colombia/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuál es el pedido mínimo para envío sin costo en Medellín?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El pedido mínimo es $200,000 COP para envío sin costo adicional en toda el área metropolitana de Medellín. Pedidos menores tienen recargo de $15,000 COP por transporte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Entregan los fines de semana en Medellín?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Entregas de lunes a viernes. Pedidos urgentes para sábado deben solicitarse antes del jueves al mediodía. No realizamos entregas domingos ni festivos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo recoger directamente en bodega en Medellín?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Actualmente no tenemos punto de retiro en Medellín. Todas las ventas son con entrega programada. Nuestra bodega principal está en Bogotá."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay servicio técnico para máquinas en Medellín?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, contamos con técnico certificado en Medellín para instalación, capacitación y mantenimiento de maquinaria Coldelite, Valmar y vitrinas EasyBest. Visitas programadas con 48h de anticipación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué formas de pago aceptan en Medellín?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Transferencia bancaria, contraentrega (efectivo o datáfono), consignación. Para clientes frecuentes ofrecemos crédito a 15-30 días."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Insumos para heladería en Medellín | Italgel",
+        "description": "Insumos para heladería en Medellín: bases MEC3, pastas, coberturas y máquinas. Envíos a El Poblado, Envigado, Laureles y el área metropolitana.",
+        "url": "https://italgel.com.co/insumos-heladeria-medellin/",
+        "dateModified": "2026-09-07",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "italgel.com.co",
+          "url": "https://italgel.com.co"
+        }
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        {
+          "id": "titulo-portada"
+        },
+        "Insumos para heladería en Medellín"
+      ],
+      [
+        "h2",
+        {},
+        "¿Buscas proveedor de insumos para heladería en Medellín?"
+      ],
+      [
+        "h3",
+        {},
+        "Cobertura de entrega en Medellín"
+      ],
+      [
+        "h4",
+        {},
+        "Medellín Centro y Sur"
+      ],
+      [
+        "h4",
+        {},
+        "Medellín Norte"
+      ],
+      [
+        "h4",
+        {},
+        "Área Metropolitana"
+      ],
+      [
+        "h2",
+        {},
+        "Cómo hacer tu pedido en Medellín"
+      ],
+      [
+        "h3",
+        {},
+        "Envía tu lista de productos"
+      ],
+      [
+        "h3",
+        {},
+        "Recibe cotización inmediata"
+      ],
+      [
+        "h3",
+        {},
+        "Confirma tu pedido"
+      ],
+      [
+        "h3",
+        {},
+        "Recibes en 24-48h"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Preguntas frecuentes sobre entregas en Medellín"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuál es el pedido mínimo para envío sin costo en Medellín?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Entregan los fines de semana en Medellín?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Puedo recoger directamente en bodega en Medellín?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Hay servicio técnico para máquinas en Medellín?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Qué formas de pago aceptan en Medellín?"
+      ],
+      [
+        "h2",
+        {},
+        "Haz tu pedido de insumos en Medellín ahora"
+      ]
+    ],
+    "links": [
+      [
+        {
+          "class": "visualmente-oculto",
+          "href": "#contenido",
+          "title": "Saltar al contenido"
+        },
+        "Saltar al contenido"
+      ],
+      [
+        {
+          "class": "cabecera-sitio__logo",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "class": "lead_whatsapp boton boton--acento boton--compacto",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cabecera",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsAppCotizar (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+          "title": "Coldelite Compacta 3 Máquina de helado soft"
+        },
+        "Coldelite Compacta 3Máquina de helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/",
+          "title": "Máquinas de helado soft De mesa o de piso"
+        },
+        "Máquinas de helado softDe mesa o de piso"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-artesanal/",
+          "title": "Mantecadoras Helado artesanal y gelato"
+        },
+        "MantecadorasHelado artesanal y gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-industrial/",
+          "title": "Máquinas industriales Pasteurizadoras y líneas"
+        },
+        "Máquinas industrialesPasteurizadoras y líneas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/",
+          "title": "Ver todas las máquinas de helado"
+        },
+        "Ver todas las máquinas de helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/mini-neo/",
+          "title": "Mini Neo Cafetera para casa"
+        },
+        "Mini NeoCafetera para casa"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/falcon/",
+          "title": "Falcon Comercial ligero, 220 V"
+        },
+        "FalconComercial ligero, 220 V"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/tank-2/",
+          "title": "Tank 2 Dos grupos, uso comercial"
+        },
+        "Tank 2Dos grupos, uso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/cruiser/",
+          "title": "Cruiser Uso comercial"
+        },
+        "CruiserUso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/sequoia-74wt/",
+          "title": "Sequoia 74WT Molino con báscula"
+        },
+        "Sequoia 74WTMolino con báscula"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/",
+          "title": "Ver las 10 cafeteras y molinos"
+        },
+        "Ver las 10 cafeteras y molinos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/amarena-fabbri/",
+          "title": "Amarena Fabbri Cerezas en almíbar"
+        },
+        "Amarena FabbriCerezas en almíbar"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/salsas-especiales/",
+          "title": "Salsas especiales Whisky, tiramisú, caramelo"
+        },
+        "Salsas especialesWhisky, tiramisú, caramelo"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/productos-quella/",
+          "title": "Quella Family Variegatos italianos"
+        },
+        "Quella FamilyVariegatos italianos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/",
+          "title": "Coberturas y salsas Para copa y veteado"
+        },
+        "Coberturas y salsasPara copa y veteado"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/variegatos-helado/",
+          "title": "Ver todos los variegatos"
+        },
+        "Ver todos los variegatos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/base-50-mec3/",
+          "title": "Base 50 MEC3 Base para helado artesanal"
+        },
+        "Base 50 MEC3Base para helado artesanal"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/neutralin-plus/",
+          "title": "Neutralin Plus Base para gelato"
+        },
+        "Neutralin PlusBase para gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/supergelmix/",
+          "title": "Supergelmix Base para helado soft"
+        },
+        "SupergelmixBase para helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-pistacho/",
+          "title": "Pasta de pistacho Pistacho siciliano"
+        },
+        "Pasta de pistachoPistacho siciliano"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "title": "Pasta de vainilla Vainilla bourbon"
+        },
+        "Pasta de vainillaVainilla bourbon"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/",
+          "title": "Ver todos los insumos"
+        },
+        "Ver todos los insumos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "itemprop": "item",
+          "href": "/",
+          "title": "Inicio"
+        },
+        "Inicio"
+      ],
+      [
+        {
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "hero",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "resumen",
+          "title": "Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)"
+        },
+        "Pide asesoría por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "class": "lead_whatsapp",
+          "title": "Consúltanos por WhatsApp (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "consultanos-por-whatsapp"
+        },
+        "Consúltanos por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "title": "Cotizar insumos para tu heladería en Medellín (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-2"
+        },
+        "Cotizar insumos para tu heladería en Medellín"
+      ],
+      [
+        {
+          "href": "tel:573192346788",
+          "class": "boton boton_2",
+          "title": "Llamar a Italgel"
+        },
+        "Llamar para pedido urgente"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-contacto",
+          "title": "Hacer otra pregunta por WhatsApp (abre WhatsApp)"
+        },
+        "Hacer otra pregunta (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "title": "Cotizar mi pedido - Medellín (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-3"
+        },
+        "Cotizar mi pedido - Medellín"
+      ],
+      [
+        {
+          "href": "tel:573192346788",
+          "class": "boton boton_2",
+          "title": "Llamar a Italgel"
+        },
+        "Llamar ahora"
+      ],
+      [
+        {
+          "class": "pie-sitio__marca",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "class": "lead_whatsapp",
+          "title": "WhatsApp +573192346788 (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "pie"
+        },
+        "WhatsApp +573192346788 (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "mailto:info@mec3.co",
+          "title": "info@mec3.co"
+        },
+        "info@mec3.co"
+      ],
+      [
+        {
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "href": "https://www.facebook.com/Mec3.Italgel",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Facebook (abre en una pestaña nueva)"
+        },
+        "Facebook"
+      ],
+      [
+        {
+          "href": "https://www.instagram.com/mec3colombia/",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Instagram (abre en una pestaña nueva)"
+        },
+        "Instagram"
+      ],
+      [
+        {
+          "href": "/nosotros/",
+          "title": "Nosotros"
+        },
+        "Nosotros"
+      ],
+      [
+        {
+          "href": "/legal/",
+          "title": "Aviso legal"
+        },
+        "Aviso legal"
+      ],
+      [
+        {
+          "href": "/contacto/#pqr",
+          "title": "PQR"
+        },
+        "PQR"
+      ],
+      [
+        {
+          "class": "lead_whatsapp flotante",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Insumos%20para%20helader%C3%ADa%20en%20Medell%C3%ADn",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "flotante",
+          "data-flotante": "",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "¿Te ayudamos a elegir tu equipo?Escríbenos por WhatsApp y cotiza con un asesor. (abre WhatsApp)"
+      ]
+    ],
+    "images": [
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "src": "/img/coldelite-compacta-1.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/mini-neo.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/falcon.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/cruiser.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/sequoia-74wt.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/base-50-mec3-empaque.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/supergelmix-mec3-helado-soft.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-pistacho-siciliano-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+        "srcset": "/img/catalogo/contacto-italgel-colombia-280.avif 280w, /img/catalogo/contacto-italgel-colombia-400.avif 400w, /img/catalogo/contacto-italgel-colombia-600.avif 600w, /img/catalogo/contacto-italgel-colombia-800.avif 800w, /img/contacto-italgel-colombia.avif 1080w",
+        "sizes": "(min-width: 88rem) 550px, (min-width: 60rem) 40vw, 92vw",
+        "alt": "Exhibición de productos para heladería en un stand de MEC3",
+        "title": "Productos para heladería de MEC3",
+        "width": "1080",
+        "height": "720",
+        "style": "max-width: min(100%, 1080px); aspect-ratio: 1080 / 720",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60",
+        "loading": "lazy"
+      }
+    ],
+    "ids": [
+      "contenido",
+      "titulo-portada"
+    ],
+    "main_text": "Inicio Insumos Medellín Insumos para heladería en MedellínTodo lo que necesitas para tu heladería en Medellín con stock permanente Cotizar por WhatsApp (abre WhatsApp) Asesoría técnica sin costo para clientes de Italgel. ¿Buscas proveedor de insumos para heladería en Medellín? En resumen Italgel entrega bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional en Medellín y el Valle de Aburrá (El Poblado, Laureles, Envigado, Sabaneta, Bello) en 24-48 horas. Más de 35 heladerías activas en Medellín confían en Italgel, con pedido mínimo de $200.000 COP para envío sin costo. Pide asesoría por WhatsApp (abre WhatsApp) Italgel te surte con entrega en 24-48 horas en El Poblado, Laureles, Envigado, Sabaneta, Bello y toda el área metropolitana. Stock permanente de bases MEC3, pastas concentradas, coberturas Quella y maquinaria profesional. 24-48h Tiempo de entrega en toda la zona metro de Medellín +35 Heladerías activas en Medellín confían en nosotros $200K Pedido mínimo para envío sin costo adicional Cobertura de entrega en Medellín Realizamos entregas rápidas en las siguientes zonas del Valle de Aburrá: Medellín Centro y Sur El Poblado Laureles - Estadio Belén Envigado Sabaneta Medellín Norte Bello Aranjuez Manrique Castilla Robledo Área Metropolitana Itagüí La Estrella Caldas Copacabana Girardota ¿Tu heladería está fuera de estas zonas? Consúltanos por WhatsApp (abre WhatsApp) para confirmar tiempos y costos de envío. Cómo hacer tu pedido en Medellín Proceso simple en 4 pasos: 1 Envía tu lista de productos Por WhatsApp o llamada nos indicas qué necesitas y en qué cantidades. 2 Recibe cotización inmediata Te enviamos precios, disponibilidad y tiempo de entrega. 3 Confirma tu pedido Apruebas la cotización y coordinamos entrega según tu preferencia horaria. 4 Recibes en 24-48h Entrega en tu heladería con contraentrega o transferencia previa. Cotizar insumos para tu heladería en Medellín Llamar para pedido urgente Preguntas frecuentes sobre entregas en Medellín ¿No está tu pregunta? Escríbenos por WhatsApp y un asesor de Italgel te responde con la referencia y el dato exacto. Hacer otra pregunta (abre WhatsApp) ¿Cuál es el pedido mínimo para envío sin costo en Medellín? El pedido mínimo es $200,000 COP para envío sin costo adicional en toda el área metropolitana de Medellín. Pedidos menores tienen recargo de $15,000 COP por transporte. ¿Entregan los fines de semana en Medellín? Entregas de lunes a viernes. Pedidos urgentes para sábado deben solicitarse antes del jueves al mediodía. No realizamos entregas domingos ni festivos. ¿Puedo recoger directamente en bodega en Medellín? Actualmente no tenemos punto de retiro en Medellín. Todas las ventas son con entrega programada. Nuestra bodega principal está en Bogotá. ¿Hay servicio técnico para máquinas en Medellín? Sí, contamos con técnico certificado en Medellín para instalación, capacitación y mantenimiento de maquinaria Coldelite, Valmar y vitrinas EasyBest. Visitas programadas con 48h de anticipación. ¿Qué formas de pago aceptan en Medellín? Transferencia bancaria, contraentrega (efectivo o datáfono), consignación. Para clientes frecuentes ofrecemos crédito a 15-30 días. Haz tu pedido de insumos en Medellín ahora Más de 35 heladerías en Medellín confían en nuestra puntualidad, calidad y asesoría técnica. Únete a ellas y optimiza tu producción con insumos profesionales MEC3. Cotizar mi pedido - Medellín Llamar ahora Horario de atención Medellín: Lunes a Viernes 8:00 AM - 6:00 PM | Sábados 9:00 AM - 1:00 PM"
+  },
+  "front_matter": "\nlayout: main\ntitle: \"Insumos para heladería en Medellín | Italgel\"\nkeyword: \"insumos para heladería en Medellín\"\nlast_modified_at: \"2026-09-07\"\ndescription: \"Insumos para heladería en Medellín: bases MEC3, pastas, coberturas y máquinas. Envíos a El Poblado, Envigado, Laureles y el área metropolitana.\"\nh1: \"Insumos para heladería en Medellín\"\nintro: Todo lo que necesitas para tu heladería en Medellín con stock permanente\nhero: \"img/hero-insumos-heladeria-medellin.avif\"\nalt: \"Exhibición de productos para heladería en un stand de MEC3\"\nhero_title: \"Productos para heladería de MEC3\"\npermalink: /insumos-heladeria-medellin/\nno_cta: true\nbreadcrumb:\n  - name: Inicio\n    url: /\n  - name: Insumos Medellín\n    url: /insumos-heladeria-medellin/\nbreadcrumb_include: true\nfaqs:\n  - question: \"¿Cuál es el pedido mínimo para envío sin costo en Medellín?\"\n    answer: \"El pedido mínimo es $200,000 COP para envío sin costo adicional en toda el área metropolitana de Medellín. Pedidos menores tienen recargo de $15,000 COP por transporte.\"\n  - question: \"¿Entregan los fines de semana en Medellín?\"\n    answer: \"Entregas de lunes a viernes. Pedidos urgentes para sábado deben solicitarse antes del jueves al mediodía. No realizamos entregas domingos ni festivos.\"\n  - question: \"¿Puedo recoger directamente en bodega en Medellín?\"\n    answer: \"Actualmente no tenemos punto de retiro en Medellín. Todas las ventas son con entrega programada. Nuestra bodega principal está en Bogotá.\"\n  - question: \"¿Hay servicio técnico para máquinas en Medellín?\"\n    answer: \"Sí, contamos con técnico certificado en Medellín para instalación, capacitación y mantenimiento de maquinaria Coldelite, Valmar y vitrinas EasyBest. Visitas programadas con 48h de anticipación.\"\n  - question: \"¿Qué formas de pago aceptan en Medellín?\"\n    answer: \"Transferencia bancaria, contraentrega (efectivo o datáfono), consignación. Para clientes frecuentes ofrecemos crédito a 15-30 días.\"\n",
+  "html_sha256": {
+    "404.html": "16e2d6a2adfcb946c7f49867dc1a2cc80c237086e7146a1d45350f3ddde4c7e7",
+    "index.html": "e65dd6f53498b7b3f6ed2c25d62b9a410581efa8d631916e9c6544e4c246e93d",
+    "author-admin/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "bases-helado-colombia/index.html": "b7b6607901055195f92633b2516c97caeb00c31c8c71830fa590bd5ca3cb2228",
+    "blog/index.html": "4fd5577dee6f7a128cc6dd1bb53e4ec921ed730cc4c605f462798488d8098113",
+    "cafes-de-colombia-expo/index.html": "567f70b9bddf7c726629c089f0cf7fd5782f7771448b20229059b07e2d475072",
+    "coberturas-salsas-helado/index.html": "e3cde44335ec49c1c5897bb9934e3ab52034f7a82435b5d2d422f09ac8c3b54e",
+    "contactenos/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "contacto/index.html": "6f1e10d95642991b5a21a5293bb4c69c71850418c528697a7f1b728050f7d1cf",
+    "equipos/index.html": "624e5dc77551413111652d4d328c547e5b110ab318059148f15763019c6f87d0",
+    "equipos-cafe/index.html": "40c35f3a6b210c88a539806fb1a9fd0f2b0f7af8291dffddb88d9d562ce903d1",
+    "granelas-decoracion/index.html": "170a0f13411ad75c5722f591640d4b0a9e3c1f9f301374a619ad3e4e4525f686",
+    "hello-world/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "insumos/index.html": "62356b8e7bea05752c535815936c48e3f5b6b2007d39614529d718d948686548",
+    "insumos-heladeria-barranquilla/index.html": "f9d5439dc8304d83d3feb545b00ece5f9130449aa34fbd44405611cf6fcd545c",
+    "insumos-heladeria-bucaramanga/index.html": "345d8cf245a06c164946290cf5e2a38e9f1be13718d6ec87919bbc1f3191cbc9",
+    "insumos-heladeria-cali/index.html": "fecefcafe1131c6368708ce0946a33936e626eb0305c6349cbb8e1c04dab514a",
+    "insumos-heladeria-medellin/index.html": "78462de8ed4862a7fc404d29d97772aacc63643a076b6e985dbe80c33fc5f73a",
+    "insumos-heladeria-medellín/index.html": "1d6191ca5b61c4978c1fe012ae5447ee30fabdbcf72e81b81ccb5d9af1f840f5",
+    "legal/index.html": "bf57b2912749481c295e8762a8df5018f368a427bbe0f7a28817296e6f85618d",
+    "maquinas-artesanales/index.html": "538e0824539cbdfba4c7887df0eb4be2fcef1e97037c6a41827588e43cacbf5c",
+    "maquinas-helado-artesanal/index.html": "986aa6693fb30c9d4222e1d8b31becff40665e28deba35aa68aa5756966b8f87",
+    "maquinas-helado-industrial/index.html": "9e72a378ec75dbbabe4869a9d403c1a4657d92773f3e7294811e334a8c19267c",
+    "maquinas-helado-soft/index.html": "2e23605e6c0e67c9ba8ca87ea65d82c2d613f9fd0f32ed582f360f30d97684ed",
+    "maquinas-soft/index.html": "7c5fd3b88278a86627711e4b1ae0546432bd7e6c97bae4db3501310367201736",
+    "nosotros/index.html": "ddaa5824ac20d1b26160421ea8869dbea395e8ce7ed540ee87ce8921fbb07bc9",
+    "pastas-sabores-helado/index.html": "85e321d3f19134ce23784f0a3791c022715d647bbe5e791d7a3f82fbc60c8e9e",
+    "productos-quella/index.html": "43f12de1700891833adcba6ec4f95973fa5585615e07b14c9e9b488ca265ec89",
+    "variegatos-helado/index.html": "f10c880cf3d0c69a8593cdc355c41a5277940d045367f2f44d1428c19a2def5f",
+    "vitrinas/index.html": "18e8ccda530c66c9bce53d567871edfca6796dd0eb77bb6b897b40e209d94dad",
+    "vitrinas-congeladores/index.html": "2549ea0412b75091d90c671e27016a4371fec78e573ce825dcd99f3b74f3bd4c",
+    "wp-includes/index.html": "b82bb3f42a4d4347afbd53103f85eb8a733dddd6594e5638031e91dd67e2429b",
+    "author/admin/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "bases-helado-colombia/base-50-mec3/index.html": "7e09d1f6df8cefd0375e7cbc5bb7bd83a7a8315fded53b178e5bd4684e519518",
+    "bases-helado-colombia/base-50-mec3-2kg/index.html": "216270dfc28c0587cb56fad9dda0af67e616e6ffba9742bf1eacc78d3fd43c80",
+    "bases-helado-colombia/bases-stevia/index.html": "f946b5793ad34d11e77a6973054c39373f4ec394bee04c56a4750c19be9a4bd0",
+    "bases-helado-colombia/neutralin-plus/index.html": "4af8123d5a760f0c8577ce464dadea86d579b22f5743ee81a0322f04fb1325bd",
+    "bases-helado-colombia/supergelmix/index.html": "16b7a9e72384d45a6358ed329d88a64695aa153c6f458165ad436331470b1685",
+    "blog/amarena-fabbri-heladeria-usos-dosificacion/index.html": "e8148f2f11db51dc3a5c77ece16f730795224e1c880a01396bf9bb3c6612d88a",
+    "blog/base-50-mec3-vs-supergelmix-comparativa/index.html": "9911e77c08f78832e3fab6abdf1260a05b5cadd749f5ad13f63c5c6883d87fb7",
+    "blog/como-abrir-una-heladeria-en-colombia/index.html": "551e80d65b84da1e2bdf66422a95040cf4806942326dbf828d8e609aa6f1113c",
+    "blog/como-calcular-overrun-helado-artesanal/index.html": "324354990f5fd1d063e74da7551190ba9b012a4ba57e0ade66b3657256dafd7c",
+    "blog/como-elegir-maquina-helado-negocio/index.html": "09f9f157cf5e944ff8319c436edd9d08268ac09553e72ddebb00473fda9a7566",
+    "blog/conservacion-bases-helado-mec3/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "blog/crema-de-whisky-para-helado-variegato/index.html": "ea2682956fb8780d92493091e0f3785a343e3678fbef0e43cac32bab23f59b0a",
+    "blog/emulsionantes-estabilizantes-helados-heladeria/index.html": "570e269fb31b96158f00f921215c615394f4db518822cfcf4b448434f90c5543",
+    "blog/helados-sin-azucar-heladeria-bases-stevia/index.html": "a2c4eb930bd94022afe24cf66d92e8f67a7a0cfacff89d661458b4cce90dda20",
+    "blog/pasta-de-vainilla-para-helado-tipos-dosificacion/index.html": "63e50d1ef4f83b5dae927df0b96ccfe9da05525a907d9ef66830e4d2d0ae951d",
+    "blog/pasta-pistacho-helado-guia-tecnica/index.html": "9af9070ea6dd8f7257b73cc488739721fc6c839dca42fb342e411b8c67207eb5",
+    "blog/pasteurizacion-mezcla-helado-correcta/index.html": "766a82a464a0207f0bb5d829f94a88df77365b8884e4f7e02b47911068368b3d",
+    "blog/proveedores-insumos-heladeria-colombia/index.html": "7822a49041e30d0574e18c2c189a684a5c148749fb8cd10f5c9a0d4a6bf0d180",
+    "blog/que-es-el-variegato-para-helado/index.html": "fc5f21b1d8b4f9006a2b5ba5f754705110d77e47e369ea4c8765e341a719a4b8",
+    "blog/que-es-gelato-vs-helado-diferencias/index.html": "6ef62e866f49a3cd5b4956ce369167bc9bc1652c73a07e0b7983093baf13a1fc",
+    "blog/que-es-un-sorbete-diferencias-helado-artesanal/index.html": "a1ae861844fed955c60b8e317a4b6374dcd823b8ea199d6b3a2bc625d5b39c8e",
+    "blog/que-son-las-granelas-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/rentabilidad-heladeria-colombia/index.html": "95440d9d36296a7ef995e40e9079d8916f6069ee09d9178cf100dd817567ac07",
+    "blog/tipo-de-toppings-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/tipos-de-toppings-para-helado/index.html": "b4eef5987cd1b69b7c249efa0ebde1d2d3003b4a96cb830294eb1e60ed7c83c9",
+    "blog/toppings-helado-mas-vendidos/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/toppings-para-helado-mas-rentables/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "coberturas-salsas-helado/amarena-fabbri/index.html": "8942084663f6e6b68e3e58cea1f2b5f1af4684af56a9aee108e0ea94722f404d",
+    "coberturas-salsas-helado/salsas-especiales/index.html": "3e055e0e77829c3d70a8a92642fd1023d89c3f1e5784bbcab5604121bf204038",
+    "contacts/sebastian-rios/index.html": "1e2e05df156c78f78b3d47ba97a122506f3889790a1fd63a5ca9260bc366d442",
+    "elementor-hf/footer/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "elementor-hf/header/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "equipos-cafe/cedar-63c/index.html": "3d88ac7a9811cbe64eb6666275b21bf50315962064b54e29ba6be07ebf077c96",
+    "equipos-cafe/cruiser/index.html": "a2bd8a904f2b06d2b6e06fb7816ce29377fdb8cd7d680ec304f9e2495df7975f",
+    "equipos-cafe/ebony-64/index.html": "66087af1aaf844701560f1f29a04ee32328cdbb1aacb04d8fb0ae7ad5ff1f527",
+    "equipos-cafe/falcon/index.html": "798b5a0fcefd6571c5ec6e2d12dd975db3a090e94ca12db8ee54f9e9f1f1cc23",
+    "equipos-cafe/mini-neo/index.html": "000fef18370630b9465d8a14df4c143223af81127c6567f658924cc26620ee59",
+    "equipos-cafe/oak-60/index.html": "e632527078c80979181a5de3091dc956f2ba22435297314815bf8a89383b9d16",
+    "equipos-cafe/sequoia-74wt/index.html": "503fa8244b9bea4dc698265971a204de1e440a56570bc603a152dcf596615855",
+    "equipos-cafe/swan/index.html": "d312ebab7edca62944d98b3f80544b69935ad02269c0568329dfd1efa1f2db3b",
+    "equipos-cafe/tank-1/index.html": "72049bd28d5f17ea97dbc5d594fbfb32714b1262e6cb1eafb6300f947afb0ff1",
+    "equipos-cafe/tank-2/index.html": "461bf7a74dfbe05f30afc91fa03c4a715ae9213c6e56afe62fbf44a91802ebab",
+    "insumos/bases-para-helado/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "italgel/blog/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "italgel/contacto/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "italgel/pastas-sabores-helado/pastas-fruta/index.html": "7e8936fa1fd6ea89794a8791a3bd221570db92eeaed2d06105094eef20b77661",
+    "maquinas-helado-soft/coldelite-compacta-3/index.html": "2b4a277f0829f031472c844571058ef12ead8d0815baed339e0cfef0929c8afc",
+    "pastas-sabores-helado/pasta-pistacho/index.html": "b1ccfeea698633a2b43e0c6d4b5441d1a8e347758d8d6c969fedcaf5761b3d2d",
+    "pastas-sabores-helado/pasta-vainilla/index.html": "b94d3599e404c896caa6622e0d91e64233ebd278803a24437d27d881e9da2247",
+    "pastas-sabores-helado/pastas-clasicas/index.html": "f54658263c69a32e600469da235afb6e4c424101053f1b9984b2dbd8d5cb5b38",
+    "pastas-sabores-helado/pastas-fruta/index.html": "87ea25badd79205e49e6541902a99e87b6b1dc2e86ae9117ffc1d1c8062a30f8",
+    "pastas-sabores-helado/pastas-premium/index.html": "b81f83dd71bf237bbc3c7e1b92f5ad60dce8ec74aacc4cbed18352d3e493d51c"
+  }
+}
