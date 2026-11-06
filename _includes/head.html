@@ -97,7 +97,11 @@
     en mobile.
   {%- endcomment -%}
   {%- assign _blog_hero = site.data.imagenes_blog.imagenes[page.hero] -%}
-  {%- if page.hero and _blog_hero and layout.mercato -%}
+  {%- assign _visible_hero_key = page.hero_visual | relative_url -%}
+  {%- assign _visible_hero = site.data.imagenes_catalogo.imagenes[_visible_hero_key] -%}
+  {%- if page.hero_visual and _visible_hero and layout.mercato -%}
+  <link rel="preload" as="image" fetchpriority="high" href="{{ _visible_hero.src | relative_url }}" imagesrcset="{% for v in _visible_hero.variants %}{{ v.src | relative_url }} {{ v.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}" imagesizes="{{ _visible_hero.sizes_hero | default: site.data.imagenes_catalogo.sizes.hero }}">
+  {%- elsif page.hero and _blog_hero and layout.mercato -%}
   <link rel="preload" as="image" fetchpriority="high" href="{{ _blog_hero.src | relative_url }}" imagesrcset="{% include mercato/blog-srcset.html imagen=_blog_hero %}" imagesizes="{{ _blog_hero.sizes.hero | default: site.data.imagenes_blog.sizes.hero }}">
   {%- elsif page.hero and _catalogo_hero and layout.mercato -%}
   <link rel="preload" as="image" fetchpriority="high" href="{{ _catalogo_hero.src | relative_url }}" imagesrcset="{% for v in _catalogo_hero.variants %}{{ v.src | relative_url }} {{ v.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}" imagesizes="{{ site.data.imagenes_catalogo.sizes.hero }}">

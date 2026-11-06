@@ -1,0 +1,21 @@
+{
+  "mode": "local",
+  "results": [
+    {
+      "route": "maquinas-helado-industrial/index.html",
+      "diferencias_protegidas": [],
+      "precarga_coincide": true
+    },
+    {
+      "route": "maquinas-helado-soft/index.html",
+      "diferencias_protegidas": [],
+      "precarga_coincide": true
+    },
+    {
+      "route": "variegatos-helado/index.html",
+      "diferencias_protegidas": [],
+      "precarga_coincide": true
+    }
+  ],
+  "otras_paginas_html_modificadas": []
+}

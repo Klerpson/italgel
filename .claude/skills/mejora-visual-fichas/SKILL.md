@@ -26,7 +26,7 @@ Antes de editar, obtener una referencia textual del archivo fuente y del HTML re
 
 Sí se permite añadir imágenes/GIF con alt nuevo descriptivo y dimensiones correctas, un pie breve si la escena requiere contexto y el texto funcional del control de movimiento. Eso no autoriza reescribir contenido, insertar nuevos encabezados o añadir párrafos de posicionamiento. No ocultar texto existente ni cambiar su orden de lectura para acomodar una imagen.
 
-No editar _config.yml, head, schema, sitemap, robots o redirecciones como parte de esta campaña. Si se detecta un problema de SEO, anotarlo por separado y continuar con lo visual que sea independiente. Si una modificación visual implica cambiar un elemento protegido, buscar una solución que lo conserve y dejar pendiente solo esa modificación si no existe una alternativa válida.
+No modificar _config.yml, metadatos del head, schema, sitemap, robots o redirecciones como parte de esta campaña. La precarga de imagen sí debe seguir al recurso visible y usar su mismo srcset/sizes cuando exista hero_visual, conservando intacta la imagen social: comprobar en red que no se descargue también la cabecera antigua y comparar todos los elementos SEO antes/después. Si se detecta un problema de SEO, anotarlo por separado y continuar con lo visual que sea independiente. Si una modificación visual implica cambiar un elemento protegido, buscar una solución que lo conserve y dejar pendiente solo esa modificación si no existe una alternativa válida.
 
 ## Punto de partida y orden
 
