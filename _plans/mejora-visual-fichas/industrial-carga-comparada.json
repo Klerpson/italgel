@@ -1,0 +1,68 @@
+{
+  "scope": "Recursos propios comprimidos en contextos limpios; no mide Core Web Vitals ni velocidad real de clientes. La comparación corresponde a la eliminación de la precarga duplicada con la misma calidad visual.",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "initial_before": 141163,
+      "initial_after": 127916,
+      "full_before": 960416,
+      "full_after": 947169,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "initial_before": 141163,
+      "initial_after": 127916,
+      "full_before": 964051,
+      "full_after": 950804,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "initial_before": 189358,
+      "initial_after": 167034,
+      "full_before": 1005843,
+      "full_after": 983519,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 960,
+      "dpr": 1,
+      "initial_before": 556835,
+      "initial_after": 543588,
+      "full_before": 1383516,
+      "full_after": 1370269,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "initial_before": 565912,
+      "initial_after": 543588,
+      "full_before": 1392593,
+      "full_after": 1370269,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "initial_before": 168881,
+      "initial_after": 146557,
+      "full_before": 1015752,
+      "full_after": 993428,
+      "gif_requested_initially": false
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "initial_before": 565912,
+      "initial_after": 543588,
+      "full_before": 1392593,
+      "full_after": 1370269,
+      "gif_requested_initially": false
+    }
+  ]
+}

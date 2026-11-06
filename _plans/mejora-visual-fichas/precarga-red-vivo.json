@@ -1,0 +1,59 @@
+{
+  "mode": "vivo",
+  "results": [
+    {
+      "route": "maquinas-helado-industrial",
+      "width": 390,
+      "src": "/img/catalogo/industrial-valmar-linea-800.avif",
+      "bytes": 176943,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    },
+    {
+      "route": "maquinas-helado-industrial",
+      "width": 1440,
+      "src": "/img/industrial-valmar-linea.avif",
+      "bytes": 543588,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    },
+    {
+      "route": "maquinas-helado-soft",
+      "width": 390,
+      "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+      "bytes": 160165,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    },
+    {
+      "route": "maquinas-helado-soft",
+      "width": 1440,
+      "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+      "bytes": 489161,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    },
+    {
+      "route": "variegatos-helado",
+      "width": 390,
+      "src": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+      "bytes": 156571,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    },
+    {
+      "route": "variegatos-helado",
+      "width": 1440,
+      "src": "/img/variegatos-vitrina-hero.avif",
+      "bytes": 1108173,
+      "oldRequested": false,
+      "selectedRequests": 1,
+      "pass": true
+    }
+  ]
+}
