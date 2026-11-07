@@ -1,0 +1,586 @@
+{
+  "results": [
+    {
+      "route": "/productos-quella/",
+      "href": "#contenido",
+      "status": 200,
+      "final": "https://italgel.com.co/productos-quella/#contenido",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/",
+      "status": 200,
+      "final": "https://italgel.com.co/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/bases-helado-colombia/base-50-mec3/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/base-50-mec3/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/bases-helado-colombia/neutralin-plus/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/neutralin-plus/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/bases-helado-colombia/supergelmix/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/supergelmix/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/blog/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=emulsionante+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=emulsionante+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=insumos+para+helader%C3%ADa",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=mantecadora+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=mantecadora+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/buscar/?q=toppings+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=toppings+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/coberturas-salsas-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/coberturas-salsas-helado/amarena-fabbri/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/amarena-fabbri/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/coberturas-salsas-helado/salsas-especiales/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/salsas-especiales/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/contacto/",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/contacto/#pqr",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/#pqr",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/cruiser/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/cruiser/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/falcon/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/falcon/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/mini-neo/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/mini-neo/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/sequoia-74wt/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/sequoia-74wt/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos-cafe/tank-2/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/tank-2/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/equipos/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/img/animaciones/aplicacion-chocolate-quella.gif",
+      "status": 200,
+      "final": "https://italgel.com.co/img/animaciones/aplicacion-chocolate-quella.gif",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/insumos-heladeria-barranquilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-barranquilla/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/insumos-heladeria-bucaramanga/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-bucaramanga/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/insumos-heladeria-cali/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-cali/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/insumos-heladeria-medellin/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-medellin/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/insumos/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/legal/",
+      "status": 200,
+      "final": "https://italgel.com.co/legal/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/maquinas-helado-artesanal/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-artesanal/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/maquinas-helado-industrial/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-industrial/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/maquinas-helado-soft/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/coldelite-compacta-3/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/nosotros/",
+      "status": 200,
+      "final": "https://italgel.com.co/nosotros/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/pastas-sabores-helado/pasta-pistacho/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-pistacho/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/pastas-sabores-helado/pasta-vainilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-vainilla/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/productos-quella/",
+      "status": 200,
+      "final": "https://italgel.com.co/productos-quella/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/variegatos-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/variegatos-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/productos-quella/",
+      "href": "/vitrinas-congeladores/",
+      "status": 200,
+      "final": "https://italgel.com.co/vitrinas-congeladores/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "#contenido",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-medellin/#contenido",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/",
+      "status": 200,
+      "final": "https://italgel.com.co/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/bases-helado-colombia/base-50-mec3/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/base-50-mec3/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/bases-helado-colombia/neutralin-plus/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/neutralin-plus/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/bases-helado-colombia/supergelmix/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/supergelmix/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/blog/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=emulsionante+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=emulsionante+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=insumos+para+helader%C3%ADa",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=mantecadora+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=mantecadora+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/buscar/?q=toppings+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=toppings+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/coberturas-salsas-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/coberturas-salsas-helado/amarena-fabbri/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/amarena-fabbri/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/coberturas-salsas-helado/salsas-especiales/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/salsas-especiales/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/contacto/",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/contacto/#pqr",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/#pqr",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/cruiser/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/cruiser/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/falcon/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/falcon/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/mini-neo/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/mini-neo/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/sequoia-74wt/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/sequoia-74wt/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos-cafe/tank-2/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/tank-2/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/equipos/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/insumos-heladeria-barranquilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-barranquilla/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/insumos-heladeria-bucaramanga/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-bucaramanga/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/insumos-heladeria-cali/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-cali/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/insumos-heladeria-medellin/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-medellin/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/insumos/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/legal/",
+      "status": 200,
+      "final": "https://italgel.com.co/legal/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/maquinas-helado-artesanal/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-artesanal/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/maquinas-helado-industrial/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-industrial/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/maquinas-helado-soft/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/coldelite-compacta-3/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/nosotros/",
+      "status": 200,
+      "final": "https://italgel.com.co/nosotros/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/pastas-sabores-helado/pasta-pistacho/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-pistacho/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/pastas-sabores-helado/pasta-vainilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-vainilla/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/productos-quella/",
+      "status": 200,
+      "final": "https://italgel.com.co/productos-quella/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/variegatos-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/variegatos-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/insumos-heladeria-medellin/",
+      "href": "/vitrinas-congeladores/",
+      "status": 200,
+      "final": "https://italgel.com.co/vitrinas-congeladores/",
+      "anchor": true
+    }
+  ],
+  "failures": []
+}

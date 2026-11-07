@@ -1,0 +1,30 @@
+{
+  "mode": "vivo",
+  "pages": [
+    {
+      "url": "insumos-heladeria-medellin/",
+      "differences": []
+    },
+    {
+      "url": "maquinas-helado-soft/",
+      "differences": []
+    },
+    {
+      "url": "variegatos-helado/",
+      "differences": []
+    },
+    {
+      "url": "maquinas-helado-industrial/",
+      "differences": []
+    },
+    {
+      "url": "vitrinas-congeladores/",
+      "differences": []
+    },
+    {
+      "url": "productos-quella/",
+      "differences": []
+    }
+  ],
+  "other_html_changed": []
+}

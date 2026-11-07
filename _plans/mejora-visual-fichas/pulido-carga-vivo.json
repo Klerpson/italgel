@@ -1,0 +1,13 @@
+{
+  "route": "productos-quella/",
+  "profile": "390 px, DPR 2, clean context, same-origin encoded bytes",
+  "before": {
+    "initial": 170392,
+    "full": 821250
+  },
+  "after": {
+    "initial": 189292,
+    "full": 1157456
+  },
+  "note": "Measurement snapshots, not Core Web Vitals. Two extra catalog photos and replacement GIF. Medellin adds no media assets; its final full transfer is 813309 bytes."
+}
