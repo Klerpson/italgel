@@ -1,0 +1,21 @@
+{
+  "conditions": "Recursos propios codificados, contextos limpios; no Core Web Vitals ni garantia de velocidad.",
+  "profiles": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "before_initial": 184173,
+      "after_initial": 195067,
+      "before_full": 226725,
+      "after_full": 966552
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "before_initial": 491093,
+      "after_initial": 501987,
+      "before_full": 533645,
+      "after_full": 1273472
+    }
+  ]
+}
