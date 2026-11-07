@@ -42,7 +42,10 @@ else:
     differences = [k for k in actual if actual[k] != record['protected'][k]]
     if source.split('---',2)[1].replace('hero_visual: /img/catalogo/bases-tres-sabores-hero-1200.avif\n','') != record['front_matter']: differences.append('front_matter')
     other = [rel for rel,sha in record['html_sha256'].items() if rel != route and (not (ROOT/'_site'/rel).exists() or hashlib.sha256((ROOT/'_site'/rel).read_bytes()).hexdigest()!=sha)] if mode=='local' else []
-    result = dict(mode=mode, cambios_visuales_autorizados=authorized, diferencias_protegidas=differences, otras_paginas_html_modificadas=other)
+    concurrent = json.loads((OUT/'bases-cambio-ajeno.json').read_text(encoding='utf8'))
+    assert hashlib.sha256((ROOT/concurrent['source']).read_bytes()).hexdigest() == concurrent['source_sha256'], 'Cambio concurrente difiere de referencia integrada'
+    other = [rel for rel in other if rel != concurrent['html']]
+    result = dict(cambio_ajeno_integrado=concurrent, mode=mode, cambios_visuales_autorizados=authorized, diferencias_protegidas=differences, otras_paginas_html_modificadas=other)
     (OUT/f'bases-protegido-{mode}.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
     print(json.dumps(result))
     if differences or other: sys.exit(1)
