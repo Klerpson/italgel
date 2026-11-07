@@ -1,0 +1,1301 @@
+{
+  "mode": "vivo",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 131022,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-300.avif",
+            "bytes": 12458
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 735701,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-300.avif",
+            "bytes": 12458
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+            "bytes": 22951
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-280.avif",
+            "bytes": 6757
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-280.avif",
+            "bytes": 9673
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-300.avif",
+          "width": 320,
+          "height": 320
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-280.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 248,
+          "height": 186
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-280.avif",
+          "width": 248,
+          "height": 310
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -7228.8125,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -6714.125,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -6225.828125,
+            "width": 288
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 137668,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 762841,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-400.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 318,
+          "height": 239
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -6551.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -6142.15625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5759.03125,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 170392,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 799901,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 291,
+          "height": 363
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 291,
+          "height": 363
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 400,
+          "height": 300
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 560,
+          "height": 700
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 30.71875,
+            "y": -5314.703125,
+            "width": 214.171875
+          },
+          {
+            "x": 276.890625,
+            "y": -5314.703125,
+            "width": 214.1875
+          },
+          {
+            "x": 523.078125,
+            "y": -5314.703125,
+            "width": 214.1875
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 960,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 444588,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1069761,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-400.avif",
+          "width": 406,
+          "height": 406
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 368,
+          "height": 460
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 368,
+          "height": 460
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 316,
+          "height": 237
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+          "width": 316,
+          "height": 395
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 38.40625,
+            "y": -3966.265625,
+            "width": 273.0625
+          },
+          {
+            "x": 343.46875,
+            "y": -3966.265625,
+            "width": 273.0625
+          },
+          {
+            "x": 648.53125,
+            "y": -3966.265625,
+            "width": 273.0625
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 477312,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1109512,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 400,
+          "height": 300
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 477,
+          "height": 596
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 512,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 960,
+            "y": -3783.46875,
+            "width": 416
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 170392,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 821250,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 318,
+          "height": 239
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -6551.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -6142.15625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5759.03125,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 477312,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1109512,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 400,
+          "height": 300
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 477,
+          "height": 596
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 512,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 960,
+            "y": -3783.46875,
+            "width": 416
+          }
+        ]
+      ],
+      "errors": []
+    }
+  ],
+  "accessible": [
+    {
+      "reduced": false,
+      "javaScript": false,
+      "initialGifRequests": 1,
+      "afterActivation": 1,
+      "pass": true
+    },
+    {
+      "reduced": true,
+      "javaScript": false,
+      "initialGifRequests": 0,
+      "afterActivation": 1,
+      "pass": true
+    }
+  ],
+  "regressions": [],
+  "failures": []
+}

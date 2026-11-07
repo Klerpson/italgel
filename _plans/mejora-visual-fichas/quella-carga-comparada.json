@@ -1,0 +1,21 @@
+{
+  "conditions": "Recursos propios codificados en contextos limpios. No Core Web Vitals; el GIF se reutiliza sin duplicar el archivo.",
+  "profiles": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "before_initial": 166732,
+      "after_initial": 170392,
+      "before_full": 252292,
+      "after_full": 821250
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "before_initial": 381670,
+      "after_initial": 477312,
+      "before_full": 462739,
+      "after_full": 1109512
+    }
+  ]
+}
