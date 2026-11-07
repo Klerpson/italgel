@@ -1,0 +1,5 @@
+{%- comment -%}
+  URL tel: con el numero de _config.yml (site.telefono, sin "+") en formato
+  internacional. numero="..." para otro numero de _config.yml (p. ej. un asesor).
+{%- endcomment -%}
+tel:+{{ include.numero | default: site.telefono | remove: '+' | strip -}}

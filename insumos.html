@@ -221,7 +221,7 @@ faqs:
       <div>
         <p><strong>Despacho:</strong> según la disponibilidad del inventario.</p>
         <p><strong>Cobertura:</strong> Bucaramanga, Floridablanca, Piedecuesta, Girón.</p>
-        <p><strong>Línea directa:</strong> <a href="tel:{{site.telefono}}" title="Llamar a Italgel">{{site.telefono}}</a></p>
+        <p><strong>Línea directa:</strong> {% include tel-enlace.html texto=site.telefono title="Llamar a Italgel" %}</p>
       </div>
     </article>
 
@@ -230,7 +230,7 @@ faqs:
       <div>
         <p><strong>Despacho:</strong> según la disponibilidad del inventario.</p>
         <p><strong>Cobertura:</strong> Pereira, Armenia, Manizales y municipios del Eje Cafetero.</p>
-        <p><strong>Línea directa:</strong> <a href="tel:{{site.telefono}}" title="Llamar a Italgel">{{site.telefono}}</a></p>
+        <p><strong>Línea directa:</strong> {% include tel-enlace.html texto=site.telefono title="Llamar a Italgel" %}</p>
       </div>
     </article>
 
@@ -239,7 +239,7 @@ faqs:
       <div>
         <p><strong>Despacho:</strong> según la disponibilidad del inventario.</p>
         <p><strong>Cobertura:</strong> Ibagué, Honda, Espinal, Melgar.</p>
-        <p><strong>Línea directa:</strong> <a href="tel:{{site.telefono}}" title="Llamar a Italgel">{{site.telefono}}</a></p>
+        <p><strong>Línea directa:</strong> {% include tel-enlace.html texto=site.telefono title="Llamar a Italgel" %}</p>
       </div>
     </article>
   </div>
@@ -263,11 +263,6 @@ faqs:
   </p>
   <div class="botones">
     {% include boton.html num="1" text="Solicitar asesoría por WhatsApp" %}
-    <a
-      href="tel:{{site.telefono}}"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-      class="boton boton_2" title="Llamar a Italgel">Llamar ahora</a
-    >
+    {% include tel-enlace.html clase="boton boton_2" texto="Llamar ahora" title="Llamar a Italgel" %}
   </div>
 </section>

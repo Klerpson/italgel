@@ -1,0 +1,11 @@
+{%- comment -%}
+  Enlace de correo (mailto:). Correo de _config.yml (site.email) o el que se pase.
+
+  Parametros:
+    texto   Texto del enlace. Por defecto el correo.
+    correo  Otro correo. Por defecto site.email.
+    clase   Clases del enlace.
+    title   title del enlace (opcional).
+{%- endcomment -%}
+{%- assign _correo = include.correo | default: site.email -%}
+<a href="mailto:{{ _correo }}"{% if include.clase %} class="{{ include.clase }}"{% endif %}{% if include.title %} title="{{ include.title }}"{% endif %}>{{ include.texto | default: _correo }}</a>

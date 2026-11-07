@@ -1,4 +1,5 @@
 # Tarjetas de contacto (NFC). Cada clave es el "slug" de la persona.
+# El celular (WhatsApp y llamadas) va en _config.yml > telefonos_asesores, con la misma clave.
 # Para agregar a alguien: nuevo bloque aquí + copiar contacts/sebastian-rios.html
 # y contacts/sebastian-rios.vcf cambiando el nombre del archivo, el permalink y "contacto:".
 sebastian-rios:
@@ -7,8 +8,6 @@ sebastian-rios:
   cargo: "Asesor comercial"
   empresa: "ItalGel SAS"
   email: "srios@mec3.co"
-  telefono: "+573166926111"
-  whatsapp: "573166926111"
   mensaje_whatsapp: "Hola Sebastián, te escribo desde tu tarjeta de Italgel."
   web: "https://italgel.com.co"
   calle: "Carrera 68H No. 75-33"

@@ -1,0 +1,12 @@
+{%- comment -%}
+  Enlace de llamada (tel:). Numero de _config.yml via tel-href.html.
+
+  Parametros:
+    texto       Contenido del enlace (texto o SVG capturado).
+    clase       Clases del enlace (ej. "boton boton_2").
+    numero      Otro numero de _config.yml. Por defecto site.telefono.
+    aria_label  Nombre accesible si el contenido es solo un icono.
+    location    data-location (opcional).
+    title       title del enlace (opcional).
+{%- endcomment -%}
+<a href="{% include tel-href.html numero=include.numero %}"{% if include.clase %} class="{{ include.clase }}"{% endif %}{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}{% if include.location %} data-location="{{ include.location }}"{% endif %}{% if include.title %} title="{{ include.title }}"{% endif %}>{{ include.texto }}</a>

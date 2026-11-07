@@ -31,6 +31,9 @@
     &.foto-fiel { background: transparent; img { mix-blend-mode: multiply; } }
   }
 
+  /* Imagen cuadrada que no pasa de su ancho real (432px) ni del contenedor */
+  .imagen-cuadrada { max-width: min(100%, 432px); aspect-ratio: 1; }
+
   /* GIF nativo: pausa visual y preferencia de movimiento reducido, sin JavaScript. */
   .demo-helado {
     inline-size: 100%; max-inline-size: 30rem; justify-self: center;
@@ -116,6 +119,9 @@
     strong { display: block; font-weight: 600; font-size: var(--text-sm); }
     small { display: block; font-size: 0.8125rem; color: var(--color-texto-suave); }
     &:hover { background: var(--color-papel); }
+    /* Producto de la página actual: barra lateral de 2px en el naranja de marca y nombre en su variante legible */
+    &[aria-current] { box-shadow: inset 2px 0 0 var(--color-marca); }
+    &[aria-current] strong { color: var(--color-marca-texto); }
   }
   .submenu > .enlace-flecha { margin-inline-start: 0.5rem; }
 

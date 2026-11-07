@@ -3,10 +3,12 @@
   Las respuestas del front matter no pasan por Liquid: el enlace a WhatsApp se
   escribe <a data-wa>texto</a> y aqui recibe el href wa.me de _config.yml, la
   clase lead_whatsapp y un data-location por pregunta. {{site.telefono}}
-  escrito en una respuesta se cambia por el numero real.
+  escrito en una respuesta se cambia por el numero real, y <a data-tel> recibe
+  el href tel: (tel-href.html).
 {%- endcomment -%}
 {%- capture _wa_faq_href -%}{% include wa-href.html %}{%- endcapture -%}
 {%- assign _tel_token = '{{site.telefono}}' -%}
+{%- capture _tel_faq_a -%}<a href="{% include tel-href.html %}" title="Llamar a Italgel">{%- endcapture -%}
 {% if include.faqs %}
 <script type="application/ld+json">
   {
@@ -39,7 +41,7 @@
         <summary class="faq-question">{{ faq.question }}</summary>
         <div class="faq-answer flow">
           {%- capture _wa_faq_a -%}<a href="{{ _wa_faq_href }}" class="lead_whatsapp" target="_blank" rel="noopener noreferrer" data-location="faq-{{ forloop.index }}">{%- endcapture %}
-          <p>{{ faq.answer | replace: _tel_token, site.telefono | replace: '<a data-wa>', _wa_faq_a }}</p>
+          <p>{{ faq.answer | replace: _tel_token, site.telefono | replace: '<a data-wa>', _wa_faq_a | replace: '<a data-tel>', _tel_faq_a }}</p>
         </div>
       </details>
       {% endfor %}

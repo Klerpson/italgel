@@ -7,6 +7,9 @@ logo: img/logo.avif
 social_image: img/contacto-italgel-colombia.jpg
 author: Sebastián Rios
 telefono: 573192346788
+# Celular (WhatsApp y llamadas) de cada asesor con tarjeta NFC, por slug de _data/contactos.yml.
+telefonos_asesores:
+  sebastian-rios: "573166926111"
 # Mensaje de WhatsApp: wa_mensaje + h1 (o titulo) de la pagina; en la portada
 # y paginas sin titulo, wa_mensaje + wa_asunto. Lo usan _includes/wa-mensaje.html
 # (body data-wa-message) y _includes/wa-href.html (href wa.me de los botones).

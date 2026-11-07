@@ -50,7 +50,7 @@ faqs:
   - question: "¿Puedo usar Pasta Bourbon para otros productos además de helado?"
     answer: "Absolutamente. Funciona en: natillas, cremas pasteleras, panacota, flan, cheesecake, macarons, crema chantilly. Dosificación similar: 60-80g por litro de preparación. El caviar visible eleva percepción de cualquier postre."
   - question: "¿Dónde comprar Pasta de Vainilla Bourbon MEC3 en Colombia?"
-    answer: 'Italgel distribuye Pasta Vainilla Bourbon auténtica con stock permanente. <a data-wa>Cotiza por WhatsApp</a> o llama <a href="tel:{{site.telefono}}" title="Llamar a Italgel">{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg.'
+    answer: 'Italgel distribuye Pasta Vainilla Bourbon auténtica con stock permanente. <a data-wa>Cotiza por WhatsApp</a> o llama <a data-tel>{{site.telefono}}</a>. Disponible en 500g, 1kg y 3kg.'
 ---
 
 
@@ -375,12 +375,7 @@ faqs:
 
     <div class="three_columns center">
       {% include boton.html num="1" text="Solicitar muestra de vainilla" %}
-      <a
-        href="tel:{{site.telefono}}"
-        rel="nofollow noopener noreferrer"
-        target="_blank"
-        class="boton boton_2" title="Llamar a Italgel">Llamar para cotización</a
-      >
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar para cotización" title="Llamar a Italgel" %}
     </div>
 
     <small

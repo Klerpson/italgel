@@ -12,7 +12,7 @@ N:{{ c.apellido }};{{ c.nombre }};;;
 FN:{{ c.nombre }} {{ c.apellido }}
 ORG:{{ c.empresa }}
 TITLE:{{ c.cargo }}
-TEL;TYPE=CELL,VOICE:{{ c.telefono }}
+TEL;TYPE=CELL,VOICE:+{{ site.telefonos_asesores[page.contacto] }}
 EMAIL;TYPE=INTERNET,WORK:{{ c.email }}
 URL:{{ c.web }}
 ADR;TYPE=WORK:;;{{ c.calle }};{{ c.ciudad }};;;{{ c.pais }}

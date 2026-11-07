@@ -232,8 +232,9 @@
   .menu__item { position: relative; display: flex; align-items: center; height: 100%; }
   .menu__categoria {
     display: flex; align-items: center; block-size: 100%; min-block-size: 2.75rem; font-size: var(--text-sm); text-decoration: none; color: var(--color-texto-suave); transition: color var(--transicion);
-    &:hover, &[aria-current] { color: var(--color-texto); }
-    &[aria-current] { text-decoration: underline; text-decoration-color: var(--color-marca); text-decoration-thickness: 2px; text-underline-offset: 0.45em; }
+    &:hover { color: var(--color-texto); }
+    /* Sección activa: texto naranja legible (5,5:1 sobre papel) y subrayado de 2px en el naranja de marca (3,3:1) */
+    &[aria-current] { color: var(--color-marca-texto); text-decoration: underline; text-decoration-color: var(--color-marca); text-decoration-thickness: 2px; text-underline-offset: 0.45em; }
   }
   /* Submenú de productos: solo con cursor en escritorio; abre con hover o con el foco del teclado */
   .submenu { display: none; } /* el resto del submenú (solo con cursor) va en componentes.css */

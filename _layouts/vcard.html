@@ -1,10 +1,11 @@
 {%- comment -%}
   Tarjeta de contacto para NFC. Pagina minima e independiente (sin nav, footer ni GTM)
   a proposito: carga rapida en el movil y no se indexa (noindex).
-  Datos en _data/contactos.yml; el .vcf lo genera contacts/<slug>.vcf con los mismos datos.
+  Datos en _data/contactos.yml (el celular, en _config.yml > telefonos_asesores); el .vcf lo genera contacts/<slug>.vcf con los mismos datos.
   Colores y logo: los de la marca (naranja #c37033, rosa, turquesa; img/logo.avif).
 {%- endcomment -%}
 {%- assign c = site.data.contactos[page.contacto] -%}
+{%- assign _tel = site.telefonos_asesores[page.contacto] -%}
 <!DOCTYPE html>
 <html lang="es-CO">
 <head>
@@ -49,12 +50,12 @@
     <p class="ayuda" id="ayuda-android" hidden>En Android, al terminar la descarga, ábrela y elige Contactos.</p>
 
     <div class="fila">
-      <a class="btn wa" href="https://wa.me/{{ c.whatsapp }}?text={{ c.mensaje_whatsapp | url_encode | replace: '+', '%20' }}" rel="noopener">Enviar WhatsApp</a>
-      <a class="btn sec" href="tel:{{ c.telefono }}">Llamar</a>
+      <a class="btn wa" href="{% include wa-href.html numero=_tel mensaje=c.mensaje_whatsapp %}" rel="noopener">Enviar WhatsApp</a>
+      {% include tel-enlace.html clase="btn sec" numero=_tel texto="Llamar" %}
     </div>
 
     <ul class="datos">
-      <li><span>Correo</span><a href="mailto:{{ c.email }}">{{ c.email }}</a></li>
+      <li><span>Correo</span>{% include correo-enlace.html correo=c.email %}</li>
       <li><span>Web</span><a href="{{ c.web }}">{{ c.web | remove: 'https://' }}</a></li>
       <li><span>Dirección</span>{{ c.calle }}, {{ c.ciudad }}</li>
     </ul>

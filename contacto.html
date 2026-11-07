@@ -48,12 +48,8 @@ hero_h: 720
         <div class="product-content flow">
           <h3>Teléfono y WhatsApp</h3>
           <p>
-            <a
-              href="tel:+57{{ site.telefono }}"
-              class="boton boton_2"
-              rel="nofollow noreferrer noopener"
-              target="_blank" title="Llamar a Italgel">+57 {{ site.telefono }}</a
-            >
+            {%- capture _tel_visible -%}+{{ site.telefono }}{%- endcapture %}
+            {% include tel-enlace.html clase="boton boton_2" texto=_tel_visible title="Llamar a Italgel" %}
           </p>
           {% include boton.html num="1" text="Escríbenos por WhatsApp" %}
         </div>
@@ -64,12 +60,7 @@ hero_h: 720
         <div class="product-content flow">
           <h3>Email</h3>
           <p>
-            <a
-              href="mailto:{{ site.email }}"
-              class="boton boton_2"
-              rel="nofollow noreferrer noopener"
-              target="_blank" title="Escribir un correo a Italgel">{{ site.email }}</a
-            >
+            {% include correo-enlace.html clase="boton boton_2" title="Escribir un correo a Italgel" %}
           </p>
           <p><small>Respuesta en menos de 24 horas hábiles</small></p>
         </div>
@@ -208,8 +199,7 @@ hero_h: 720
     </p>
     <div class="two_columns">
       {% include boton.html num="1" text="Cotizar por WhatsApp" %}
-      <a href="tel:+57{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar ahora</a
-      >
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar ahora" title="Llamar a Italgel" %}
     </div>
     <small
       ><i

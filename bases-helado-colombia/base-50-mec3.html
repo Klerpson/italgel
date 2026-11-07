@@ -45,7 +45,7 @@ faqs:
   - question: "¿Base 50 contiene gluten o es apta para celíacos?"
     answer: "Base 50 MEC3 es libre de gluten certificado (sin trazas). Apta para celíacos. Sin embargo, verifica que tus otros ingredientes (pastas, variegatos, coberturas) también sean sin gluten si quieres ofrecer helado 100% celíaco."
   - question: "¿Dónde comprar Base 50 MEC3 en Colombia con entrega rápida?"
-    answer: "Italgel distribuye Base 50 MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a data-wa>Cotiza aquí por WhatsApp</a> o llama al 573192346788."
+    answer: "Italgel distribuye Base 50 MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a data-wa>Cotiza aquí por WhatsApp</a> o llama al {{site.telefono}}."
 ---
 
   <section class="section center flow">
@@ -317,7 +317,7 @@ faqs:
 
     <div class="botones">
       {% include boton.html num="1" text="Solicitar muestra de Base 50" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2" title="Llamar a Italgel">Llamar para cotización</a>
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar para cotización" title="Llamar a Italgel" %}
     </div>
 
     <small><i>Muestra sujeta a disponibilidad. Costo de muestra descontado en primer pedido mayor de $200.000 COP. Soporte técnico incluido.</i></small>

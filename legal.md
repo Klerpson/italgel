@@ -12,6 +12,11 @@ hero_w: 1080
 hero_h: 720
 hero_s: img/italgel-colombia-distribuidor-heladerias-mobile.avif
 h1: "Aviso legal, privacidad y condiciones de venta de Italgel"
+breadcrumb:
+  - name: Inicio
+    url: /
+  - name: Aviso legal
+    url: /legal/
 ---
 
 ## Información de la empresa

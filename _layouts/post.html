@@ -73,7 +73,8 @@ layout: mercato
 
 {%- assign _miga = page.hero_title | default: page.h1 -%}
 {%- if _prod -%}{%- capture _cierre_def -%}Cotiza {{ _prod.cotizar }} con Italgel{%- endcapture -%}{%- else -%}{%- assign _cierre_def = "Cotiza tu máquina de helado, vitrina o insumos con Italgel" -%}{%- endif -%}
-{% include mercato/migas.html items=_blog.migas actual=_miga %}
+{%- comment -%} Páginas fuera del blog con este layout (p. ej. /legal/) traen su propio page.breadcrumb. {%- endcomment -%}
+{% if page.breadcrumb %}{% include mercato/migas.html %}{% else %}{% include mercato/migas.html items=_blog.migas actual=_miga %}{% endif %}
 
 <header class="articulo-cabecera {{ _familia }}" data-hero>
   <div class="wrapper articulo-cabecera__marco">

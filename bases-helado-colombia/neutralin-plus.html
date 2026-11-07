@@ -45,7 +45,7 @@ faqs:
   - question: "¿Puedo usar Neutralin Plus con ingredientes naturales?"
     answer: "Sí, Neutralin Plus está formulado específicamente para trabajar con ingredientes frescos y naturales (frutas, frutos secos, chocolates premium). Su formulación permite que los sabores naturales se expresen sin ser opacados por la base."
   - question: "¿Dónde comprar Neutralin Plus MEC3 en Colombia con entrega rápida?"
-    answer: "Italgel distribuye Neutralin Plus MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a data-wa>Cotiza aquí por WhatsApp</a> o llama al +573192346788."
+    answer: "Italgel distribuye Neutralin Plus MEC3 con stock permanente en Bogotá, Medellín y Cali. Envíos nacionales 24-48 horas en ciudades principales. <a data-wa>Cotiza aquí por WhatsApp</a> o llama al +{{site.telefono}}."
 ---
 
   <section class="section center flow">
@@ -262,7 +262,7 @@ faqs:
 
     <div class="flex center">
       {% include boton.html num="1" text="Solicitar muestra de Neutralin Plus" %}
-      <a href="tel:{{site.telefono}}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_2" title="Llamar a Italgel">Llamar para cotización</a>
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar para cotización" title="Llamar a Italgel" %}
     </div>
 
     <small><i>Muestra sujeta a disponibilidad. Costo de muestra descontado en primer pedido mayor de $200.000 COP. Soporte técnico incluido.</i></small>

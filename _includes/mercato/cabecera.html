@@ -15,9 +15,19 @@
     <div class="wrapper">
       <ul class="menu">
         {%- for item in site.data.navegacion.principal %}
+        {%- comment -%} Sección activa: la categoría exacta lleva aria-current="page". La categoría de la que cuelga
+          la página lleva "true": por prefijo de su URL (/blog/…, /equipos-cafe/…), por compartir carpeta con uno
+          de sus productos del menú (/bases-helado-colombia/… → Insumos, /coberturas-salsas-helado/… → Variegatos)
+          o por el campo `seccion` del front matter (páginas de ciudad de insumos). {%- endcomment -%}
         {%- assign _activo = "" -%}
-        {%- for prod in item.productos -%}{%- if page.url == prod.url -%}{%- assign _activo = "true" -%}{%- endif -%}{%- endfor -%}
-        {%- if page.url == item.url -%}{%- assign _activo = "page" -%}{%- endif %}
+        {%- assign _seg_pagina = page.url | split: "/" -%}
+        {%- assign _largo = item.url | size -%}
+        {%- assign _prefijo = page.url | slice: 0, _largo -%}
+        {%- if page.url == item.url -%}{%- assign _activo = "page" -%}
+        {%- elsif _prefijo == item.url or page.seccion == item.url -%}{%- assign _activo = "true" -%}
+        {%- else -%}
+          {%- for prod in item.productos -%}{%- assign _seg_prod = prod.url | split: "/" -%}{%- if _seg_pagina[1] and _seg_prod[1] == _seg_pagina[1] -%}{%- assign _activo = "true" -%}{%- endif -%}{%- endfor -%}
+        {%- endif %}
         <li class="menu__item">
           <a class="menu__categoria" href="{{ item.url | relative_url }}"{% if _activo != "" %} aria-current="{{ _activo }}"{% endif %} title="{{ item.titulo }}">{{ item.titulo }}</a>
           {%- if item.productos %}
@@ -29,7 +39,7 @@
                 {%- assign _menu_variante = site.data.imagenes_ingredientes.imagenes[prod.img].variants | first -%}
                 {%- assign _menu_img = _menu_variante.src -%}
               {%- endif %}
-              <li><a class="submenu__producto" href="{{ prod.url | relative_url }}" title="{{ prod.titulo }} {{ prod.meta }}"><img src="{{ _menu_img | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async"><span><strong>{{ prod.titulo }}</strong><small>{{ prod.meta }}</small></span></a></li>
+              <li><a class="submenu__producto" href="{{ prod.url | relative_url }}"{% if page.url == prod.url %} aria-current="page"{% endif %} title="{{ prod.titulo }} {{ prod.meta }}"><img src="{{ _menu_img | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async"><span><strong>{{ prod.titulo }}</strong><small>{{ prod.meta }}</small></span></a></li>
               {%- endfor %}
             </ul>
             <a class="enlace-flecha" href="{{ item.url | relative_url }}" title="{{ item.ver_mas }}">{{ item.ver_mas }}</a>

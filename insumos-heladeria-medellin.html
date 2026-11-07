@@ -10,6 +10,7 @@ hero: "img/hero-insumos-heladeria-medellin.avif"
 alt: "Exhibición de productos para heladería en un stand de MEC3"
 hero_title: "Productos para heladería de MEC3"
 permalink: /insumos-heladeria-medellin/
+seccion: /insumos/
 no_cta: true
 breadcrumb:
   - name: Inicio
@@ -61,7 +62,7 @@ faqs:
       <figcaption>Insumos MEC3 para heladería</figcaption>
     </figure>
     <figure>
-      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" style="max-width: min(100%, 432px); aspect-ratio: 1" loading="lazy" decoding="async">
+      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" class="imagen-cuadrada" loading="lazy" decoding="async">
       <figcaption>Crema Quella de MEC3</figcaption>
     </figure>
   </div>
@@ -164,7 +165,7 @@ faqs:
 
     <div class="botones">
       {% include boton.html num="1" text="Cotizar insumos para tu heladería en Medellín" %}
-      <a href="tel:{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar para pedido urgente</a>
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar para pedido urgente" title="Llamar a Italgel" %}
     </div>
   </section>
 
@@ -181,7 +182,7 @@ faqs:
 
     <div class="botones">
       {% include boton.html num="1" text="Cotizar mi pedido - Medellín" %}
-      <a href="tel:{{ site.telefono }}" class="boton boton_2" title="Llamar a Italgel">Llamar ahora</a>
+      {% include tel-enlace.html clase="boton boton_2" texto="Llamar ahora" title="Llamar a Italgel" %}
     </div>
 
     <small><i>Horario de atención Medellín: Lunes a Viernes 8:00 AM - 6:00 PM | Sábados 9:00 AM - 1:00 PM</i></small>

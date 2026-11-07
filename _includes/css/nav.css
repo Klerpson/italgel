@@ -411,6 +411,7 @@
   text-decoration: none;
   transition: all 0.2s ease;
 }
+.mobile-accordion-content .mobile-accordion-todos { font-weight: 700; }
 .mobile-accordion-content a:hover {
   color: var(--color-accion);
   background: color-mix(in srgb, var(--color-accion) 8%, transparent);
