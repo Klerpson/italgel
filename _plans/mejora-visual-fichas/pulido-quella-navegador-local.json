@@ -1,0 +1,1549 @@
+{
+  "mode": "local",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 290164,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/quella-familia-hero-300.avif",
+            "bytes": 12458
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-280.avif",
+            "bytes": 9673
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1105450,
+        "requests": 16,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/quella-familia-hero-300.avif",
+            "bytes": 12458
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-280.avif",
+            "bytes": 9673
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+            "bytes": 22951
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-280.avif",
+            "bytes": 6757
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-300.avif",
+          "width": 320,
+          "height": 320
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-280.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase-400.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-280.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-280.avif",
+          "width": 248,
+          "height": 310
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 248,
+          "height": 186
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -8051.8125,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -7118.34375,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -6237.65625,
+            "width": 288
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 301459,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1132590,
+        "requests": 16,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-400.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 318,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -7586.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -6670.875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5807.859375,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 338519,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1285334,
+        "requests": 16,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase.avif",
+            "bytes": 69397
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion.avif",
+            "bytes": 117040
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 560,
+          "height": 700
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase.avif",
+          "width": 645,
+          "height": 806
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "width": 645,
+          "height": 806
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 291,
+          "height": 363
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 291,
+          "height": 363
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 480,
+          "height": 360
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 30.71875,
+            "y": -7271.703125,
+            "width": 706.546875
+          },
+          {
+            "x": 30.71875,
+            "y": -6202.46875,
+            "width": 706.546875
+          },
+          {
+            "x": 30.71875,
+            "y": -5053.25,
+            "width": 706.546875
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 960,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 674483,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-280.avif",
+            "bytes": 9673
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1434861,
+        "requests": 34,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero-400.avif",
+            "bytes": 19104
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-280.avif",
+            "bytes": 9673
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+            "bytes": 35683
+          },
+          {
+            "url": "/img/catalogo/quella-family-textura-400.avif",
+            "bytes": 9870
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-400.avif",
+          "width": 406,
+          "height": 406
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-280.avif",
+          "width": 209,
+          "height": 261
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase-400.avif",
+          "width": 209,
+          "height": 261
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+          "width": 209,
+          "height": 261
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-400.avif",
+          "width": 368,
+          "height": 460
+        },
+        {
+          "src": "/img/catalogo/quella-family-textura-400.avif",
+          "width": 368,
+          "height": 460
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 316,
+          "height": 237
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 38.40625,
+            "y": -4052.265625,
+            "width": 273.0625
+          },
+          {
+            "x": 343.46875,
+            "y": -4052.265625,
+            "width": 273.0625
+          },
+          {
+            "x": 648.53125,
+            "y": -4052.265625,
+            "width": 273.0625
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 711856,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1493583,
+        "requests": 34,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-textura-400.avif",
+            "bytes": 14322
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase-400.avif",
+            "bytes": 25831
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+            "bytes": 44922
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-textura-400.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase-400.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 477,
+          "height": 358
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -3818.46875,
+            "width": 416
+          },
+          {
+            "x": 512,
+            "y": -3818.46875,
+            "width": 416
+          },
+          {
+            "x": 960,
+            "y": -3818.46875,
+            "width": 416
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 338519,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1306683,
+        "requests": 16,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase.avif",
+            "bytes": 69397
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion.avif",
+            "bytes": 117040
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 318,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -7586.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -6670.875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5807.859375,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 813218,
+        "requests": 30,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase.avif",
+            "bytes": 69397
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion.avif",
+            "bytes": 117040
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1594945,
+        "requests": 33,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/quella-pistacchio-envase.avif",
+            "bytes": 69397
+          },
+          {
+            "url": "/img/catalogo/quella-cobertura-aplicacion.avif",
+            "bytes": 117040
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/aplicacion-chocolate-quella.gif",
+            "bytes": 714825
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "width": 352,
+          "height": 440
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "width": 477,
+          "height": 358
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 53
+        },
+        {
+          "before": "/img/variegatos-quella-textura.avif",
+          "after": "/img/catalogo/quella-pistacchio-envase.avif",
+          "words": 52
+        },
+        {
+          "before": "/img/catalogo/quella-pistacchio-envase.avif",
+          "after": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "words": 44
+        },
+        {
+          "before": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 210
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/aplicacion-chocolate-quella.gif",
+          "words": 79
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -3818.46875,
+            "width": 416
+          },
+          {
+            "x": 512,
+            "y": -3818.46875,
+            "width": 416
+          },
+          {
+            "x": 960,
+            "y": -3818.46875,
+            "width": 416
+          }
+        ]
+      ],
+      "errors": []
+    }
+  ],
+  "accessible": [
+    {
+      "reduced": false,
+      "javaScript": false,
+      "initialGifRequests": 1,
+      "afterActivation": 1,
+      "pass": true
+    },
+    {
+      "reduced": true,
+      "javaScript": false,
+      "initialGifRequests": 0,
+      "afterActivation": 1,
+      "pass": true
+    }
+  ],
+  "regressions": [],
+  "failures": []
+}

@@ -61,10 +61,6 @@ faqs:
       {% include mercato/imagen-catalogo.html origen="/img/productos-mec3-italia-colombia.avif" alt="Bolsas, envases y botellas de insumos MEC3 para heladería" sizes="auto, (min-width: 60rem) 492px, 92vw" %}
       <figcaption>Insumos MEC3 para heladería</figcaption>
     </figure>
-    <figure>
-      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" class="imagen-cuadrada" loading="lazy" decoding="async">
-      <figcaption>Crema Quella de MEC3</figcaption>
-    </figure>
   </div>
 
   <!-- Zonas de entrega -->
@@ -121,7 +117,14 @@ faqs:
     <h2>Cómo hacer tu pedido en Medellín</h2>
     <p>Proceso simple en 4 pasos:</p>
 
-    <div class="four_columns">
+    <div class="muestras-visuales muestras-visuales--insumos rejilla" data-visual-nuevo>
+    <figure>
+      <img src="{{ '/img/crema-quella-helado-italgel.avif' | relative_url }}" alt="Envase de crema Quella de MEC3" width="432" height="432" class="imagen-cuadrada" loading="lazy" decoding="async">
+      <figcaption>Crema Quella de MEC3</figcaption>
+    </figure>
+    </div>
+
+    <div class="four_columns filas-pares">
       <article class="text_center flow">
         <div class="icons">
           <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">

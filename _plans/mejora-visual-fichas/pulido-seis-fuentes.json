@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-07",
+  "pack": {
+    "source": "https://santopresso.com/cdn/shop/files/1539033_1.jpg?v=1750523392&width=1024",
+    "page": "https://santopresso.com/products/mec3-quella%C2%AE-pistache-6kg",
+    "use": "Envase real de fabricante publicado por distribuidor. No se importan especificaciones, precio o disponibilidad.",
+    "processing": "Original 1024 cuadrado; recorte exterior 711x938, sin ampliar, centrado en lienzo blanco 800x1000; variantes 400 y 800, AVIF calidad 80."
+  },
+  "illustration": {
+    "author": "Monika Grabkowska",
+    "page": "https://unsplash.com/photos/a-scoop-of-ice-cream-with-nuts-on-it-7SQ67fUCeuk",
+    "source": "https://images.unsplash.com/photo-1701261919026-d6ce6cb9be0f?w=1600&q=90",
+    "license": "https://unsplash.com/license",
+    "processing": "Original 1600x2107, recorte central 1600x2000; variantes 400/800, AVIF calidad 80.",
+    "use": "Ejemplo ilustrativo, sin atribucion a producto Quella."
+  },
+  "gif": {
+    "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+    "poster": "/img/animaciones/aplicacion-chocolate-quella-poster.avif",
+    "width": 480,
+    "height": 360,
+    "frames": 8,
+    "duration_ms": 1600,
+    "bytes": 714825,
+    "alt": "AplicaciÃ³n de un hilo de chocolate sobre helado en una cubeta",
+    "caption": "AplicaciÃ³n de chocolate sobre helado. Escena ilustrativa; no corresponde a un producto Quella especÃ­fico.",
+    "control_label": "Reproducir la aplicaciÃ³n de chocolate sobre helado",
+    "source": {
+      "author": "ROMAN ODINTSOV",
+      "page": "https://www.pexels.com/video/close-up-view-of-person-drizzling-chocolate-syrup-on-ice-cream-5657101/",
+      "download": "https://videos.pexels.com/video-files/5657101/5657101-uhd_4096_2160_30fps.mp4?download=1",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "9cafc00a351f87603db567dbe9bf9fa637615073f3fb1d5f1422e12d2f24d6b6",
+      "actual_video_dimensions": [
+        2732,
+        1440
+      ]
+    },
+    "processing": {
+      "start_seconds": 14,
+      "seconds": 1.6,
+      "fps": 5,
+      "crop": "4:3 central sobre dimensiones reales del video",
+      "scale": "480:360",
+      "colors": 256,
+      "dither": "none",
+      "denoise": "hqdn3d=2:2:3:3"
+    },
+    "usage": "AplicaciÃ³n ilustrativa de cobertura sobre helado. No implica consumo final, marca, receta ni dosificaciÃ³n concretas. Sustituye la preparaciÃ³n de chocolate usada antes en el kit."
+  },
+  "assets": [
+    {
+      "path": "img/catalogo/quella-pistacchio-envase-400.avif",
+      "bytes": 25831,
+      "sha256": "a69bca27c032212be1b1c6f5bc70e8123c73ddc9c3ae5cf7f76bfea4608da516"
+    },
+    {
+      "path": "img/catalogo/quella-pistacchio-envase.avif",
+      "bytes": 69397,
+      "sha256": "60eb0b73d1e105d26af222f11be65e079f16ca6551c46fd72e8ea4b85dd4cdb9"
+    },
+    {
+      "path": "img/catalogo/quella-cobertura-aplicacion-400.avif",
+      "bytes": 44922,
+      "sha256": "8fd435270dffe792343cc645e1a1f59ebe619bd00732c0930f0f373c1342d703"
+    },
+    {
+      "path": "img/catalogo/quella-cobertura-aplicacion.avif",
+      "bytes": 117040,
+      "sha256": "c01a000c6593524757dabc7422cca997bd5e5e3af66097072f468fe8665bef36"
+    },
+    {
+      "path": "img/animaciones/aplicacion-chocolate-quella.gif",
+      "bytes": 714825,
+      "sha256": "0a728b5fd41d447e4f697a2c94f4624ca8ecea13b6ef40762128e343edbbc7f5"
+    },
+    {
+      "path": "img/animaciones/aplicacion-chocolate-quella-poster.avif",
+      "bytes": 13394,
+      "sha256": "49ba8a007ffa4f83e4df583a934bba925edabdda5eea235f3d51a5744d03eca9"
+    }
+  ]
+}

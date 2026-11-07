@@ -220,6 +220,11 @@
       @media (min-width: 48rem) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
 
+    /* Las fotos del catálogo Quella necesitan ancho suficiente también en tableta. */
+    .catalogo-quella {
+      @media (max-width: 59.99rem) { grid-template-columns: minmax(0, 1fr); }
+    }
+
     /* Familias con sus productos en una fila propia: la foto no alarga una columna del catálogo. */
     .catalogo-familias { display: grid; gap: var(--space-2xl); inline-size: 100%; }
     .familia-variegatos {

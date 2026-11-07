@@ -1,31 +1,35 @@
 {
-  "src": "/img/animaciones/preparacion-chocolate.gif",
-  "poster": "/img/animaciones/preparacion-chocolate-poster.avif",
-  "width": 400,
-  "height": 300,
-  "frames": 10,
-  "duration_ms": 2000,
-  "bytes": 565298,
-  "alt": "Manos mezclando chocolate en un recipiente de acero durante su preparación",
-  "caption": "Preparación de chocolate. Escena ilustrativa; no corresponde a un producto Quella específico.",
-  "control_label": "Reproducir la preparación de chocolate",
+  "src": "/img/animaciones/aplicacion-chocolate-quella.gif",
+  "poster": "/img/animaciones/aplicacion-chocolate-quella-poster.avif",
+  "width": 480,
+  "height": 360,
+  "frames": 8,
+  "duration_ms": 1600,
+  "bytes": 714825,
+  "alt": "Aplicación de un hilo de chocolate sobre helado en una cubeta",
+  "caption": "Aplicación de chocolate sobre helado. Escena ilustrativa; no corresponde a un producto Quella específico.",
+  "control_label": "Reproducir la aplicación de chocolate sobre helado",
   "source": {
-    "author": "Anna Tarazevich",
-    "page": "https://www.pexels.com/video/person-mixing-chocolate-in-a-bowl-6112841/",
-    "download": "https://videos.pexels.com/video-files/6112841/6112841-hd_1080_1928_25fps.mp4",
+    "author": "ROMAN ODINTSOV",
+    "page": "https://www.pexels.com/video/close-up-view-of-person-drizzling-chocolate-syrup-on-ice-cream-5657101/",
+    "download": "https://videos.pexels.com/video-files/5657101/5657101-uhd_4096_2160_30fps.mp4?download=1",
     "license": "Pexels License",
     "license_url": "https://www.pexels.com/license/",
-    "sha256": "b4302c7e4b65edbe6c5a3dd4de3000879b59cf634a35e91566bf6e4534fc35ae"
+    "sha256": "9cafc00a351f87603db567dbe9bf9fa637615073f3fb1d5f1422e12d2f24d6b6",
+    "actual_video_dimensions": [
+      2732,
+      1440
+    ]
   },
   "processing": {
-    "start_seconds": 2,
-    "seconds": 2,
+    "start_seconds": 14,
+    "seconds": 1.6,
     "fps": 5,
-    "crop": "720:540:0:500",
-    "scale": "400:300",
+    "crop": "4:3 central sobre dimensiones reales del video",
+    "scale": "480:360",
     "colors": 256,
-    "dither": "bayer, escala 3",
+    "dither": "none",
     "denoise": "hqdn3d=2:2:3:3"
   },
-  "usage": "Reutiliza el activo de preparación ya usado en Medellín. Apoyo de textura en el kit inicial; no representa fabricación ni instrucciones de uso de Quella."
+  "usage": "Aplicación ilustrativa de cobertura sobre helado. No implica consumo final, marca, receta ni dosificación concretas. Sustituye la preparación de chocolate usada antes en el kit."
 }

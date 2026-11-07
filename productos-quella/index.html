@@ -56,6 +56,10 @@ faqs:
   <div class="products-grid filas-locales catalogo-quella">
     <!-- Variegatos Clásicos -->
     <div class="product-category">
+      <figure class="flujo">
+        {% include mercato/imagen-catalogo.html origen="/img/variegatos-quella-textura.avif" alt="Vaso de helado con crema de caramelo y chocolate Quella" title="Variegatos Quella Family" contexto="body" %}
+        <figcaption data-visual-nuevo><small>Aplicación de crema de caramelo de la familia Quella.</small></figcaption>
+      </figure>
       <h3>Línea variegatos clásicos - Los imprescindibles</h3>
       <p>
         Los variegatos clásicos de Quella Family incluyen Caramello Salato
@@ -64,10 +68,15 @@ faqs:
         con estabilidad térmica superior, concentración de sabor real y sistema
         antioxidante avanzado. Presentaciones en cubetas de 3kg y 6kg.
       </p>
+
     </div>
 
     <!-- Variegatos Premium -->
     <div class="product-category">
+      <figure class="flujo" data-visual-nuevo>
+        {% include mercato/imagen-catalogo.html origen="/img/catalogo/quella-pistacchio-envase.avif" alt="Envase original de crema Quella Pistacchio de MEC3" contexto="card" %}
+        <figcaption><small>Envase Quella Pistacchio de MEC3.</small></figcaption>
+      </figure>
       <h3>Línea variegatos premium - Diferenciación gourmet</h3>
       <p>
         Variegatos premium como Pistachio (pistacho siciliano de Bronte) y
@@ -76,16 +85,22 @@ faqs:
         Estabilidad de 45+ días en congelación y sabor intenso sin necesidad de
         sobredosificar.
       </p>
+
     </div>
 
     <!-- Coberturas -->
     <div class="product-category">
+      <figure class="flujo" data-visual-nuevo>
+        {% include mercato/imagen-catalogo.html origen="/img/catalogo/quella-cobertura-aplicacion.avif" alt="Detalle de cobertura de chocolate con frutos secos sobre una paleta" contexto="card" %}
+        <figcaption><small>Ejemplo ilustrativo de cobertura de chocolate con frutos secos.</small></figcaption>
+      </figure>
       <h3>Coberturas termorreversibles Quella como Magic Chocolate</h3>
       <p>
         Coberturas como Magic Chocolate, que se solidifican al contacto con el
         helado y forman una capa crujiente por fuera. Presentaciones en
         botellas y cubetas de 1 kg y 3 kg.
       </p>
+
     </div>
   </div>
 
@@ -254,8 +269,7 @@ faqs:
 <section class="section">
   <h2>Kit inicial Quella Family recomendado</h2>
 
-  <article class="bg_grey_light flow">
-    <div class="columnas columnas--7-5 columnas--centro">
+  <article class="columnas columnas--7-5 columnas--centro bg_grey_light">
     <div class="flow">
       <h3>Inversión inicial para heladería artesanal (12-18 sabores)</h3>
 
@@ -268,13 +282,7 @@ faqs:
         <li>1 bolsa Croccantino 1kg</li>
       </ul>
 
-    </div>
-    <div style="inline-size: 100%; max-inline-size: 400px; justify-self: center" data-visual-nuevo>
-      {% include mercato/helado-animado.html demo=site.data.animacion_quella nuevo=true ancla="animacion-quella" activar_movimiento=true %}
-    </div>
-    </div>
-    <div class="columnas columnas--7-5 columnas--centro">
-    <div class="flow">
+
       <p><strong>Inversión total:</strong> ~$285.000 COP</p>
       <p>
         <strong>Rendimiento:</strong> ~90 litros de helado veteado + 50-60
@@ -293,7 +301,8 @@ faqs:
 
       {% include boton.html num="1" text="Cotizar kit Quella Family" location="cotizar-kit-quella-family" %}
     </div>
-    {% include mercato/imagen-catalogo.html origen="/img/variegatos-quella-textura.avif" alt="Vaso de helado con crema de caramelo y chocolate Quella" title="Variegatos Quella Family" contexto="body" %}
+    <div style="inline-size: 100%; max-inline-size: 480px; justify-self: center" data-visual-nuevo>
+      {% include mercato/helado-animado.html demo=site.data.animacion_quella nuevo=true ancla="animacion-quella" activar_movimiento=true %}
     </div>
   </article>
 </section>

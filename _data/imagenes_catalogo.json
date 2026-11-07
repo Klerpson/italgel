@@ -1998,6 +1998,36 @@
           "width": 800
         }
       ]
+    },
+    "/img/catalogo/quella-pistacchio-envase.avif": {
+      "src": "/img/catalogo/quella-pistacchio-envase.avif",
+      "width": 800,
+      "height": 1000,
+      "variants": [
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/quella-pistacchio-envase.avif",
+          "width": 800
+        }
+      ]
+    },
+    "/img/catalogo/quella-cobertura-aplicacion.avif": {
+      "src": "/img/catalogo/quella-cobertura-aplicacion.avif",
+      "width": 800,
+      "height": 1000,
+      "variants": [
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/quella-cobertura-aplicacion.avif",
+          "width": 800
+        }
+      ]
     }
   }
 }

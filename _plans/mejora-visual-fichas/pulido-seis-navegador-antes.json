@@ -1,0 +1,2328 @@
+{
+  "mode": "antes",
+  "results": [
+    {
+      "route": "insumos-heladeria-medellin",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 247945,
+        "requests": 12,
+        "images": [
+          {
+            "url": "/img/catalogo/contacto-italgel-colombia-800.avif",
+            "bytes": 52455
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+            "bytes": 34659
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 813243,
+        "requests": 13,
+        "images": [
+          {
+            "url": "/img/catalogo/contacto-italgel-colombia-800.avif",
+            "bytes": 52455
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+            "bytes": 34659
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/contacto-italgel-colombia-800.avif",
+          "width": 390,
+          "height": 260
+        },
+        {
+          "src": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "width": 358,
+          "height": 358
+        },
+        {
+          "src": "/img/crema-quella-helado-italgel.avif",
+          "width": 358,
+          "height": 358
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 318,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/contacto-italgel-colombia-600.avif",
+          "after": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "words": 119
+        },
+        {
+          "before": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "after": "/img/crema-quella-helado-italgel.avif",
+          "words": 0
+        },
+        {
+          "before": "/img/crema-quella-helado-italgel.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 335
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "insumos-heladeria-medellin",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 472348,
+        "requests": 27,
+        "images": [
+          {
+            "url": "/img/catalogo/contacto-italgel-colombia-600.avif",
+            "bytes": 35520
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+            "bytes": 34659
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1103228,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/contacto-italgel-colombia-600.avif",
+            "bytes": 35520
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+            "bytes": 34659
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/contacto-italgel-colombia-600.avif",
+          "width": 611,
+          "height": 407
+        },
+        {
+          "src": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "width": 432,
+          "height": 432
+        },
+        {
+          "src": "/img/crema-quella-helado-italgel.avif",
+          "width": 432,
+          "height": 432
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 400,
+          "height": 300
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/contacto-italgel-colombia-600.avif",
+          "after": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "words": 119
+        },
+        {
+          "before": "/img/catalogo/productos-mec3-italia-colombia-584.avif",
+          "after": "/img/crema-quella-helado-italgel.avif",
+          "words": 0
+        },
+        {
+          "before": "/img/crema-quella-helado-italgel.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 335
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "maquinas-helado-soft",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 160560,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+            "bytes": 41720
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 244357,
+        "requests": 15,
+        "images": [
+          {
+            "url": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+            "bytes": 41720
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+            "bytes": 12755
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif",
+            "bytes": 11654
+          },
+          {
+            "url": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+            "bytes": 24113
+          },
+          {
+            "url": "/img/animaciones/flujo-soft.gif",
+            "bytes": 20158
+          },
+          {
+            "url": "/img/maquina-soft-mesa-negocio.avif",
+            "bytes": 15117
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+          "width": 318,
+          "height": 318
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/animaciones/flujo-soft.gif",
+          "width": 358,
+          "height": 269
+        },
+        {
+          "src": "/img/maquina-soft-mesa-negocio.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+          "after": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "words": 250
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "after": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "words": 9
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "after": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "words": 23
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "after": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "words": 28
+        },
+        {
+          "before": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "after": "/img/animaciones/flujo-soft.gif",
+          "words": 36
+        },
+        {
+          "before": "/img/animaciones/flujo-soft.gif",
+          "after": "/img/maquina-soft-mesa-negocio.avif",
+          "words": 147
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "maquinas-helado-soft",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 475976,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+            "bytes": 41720
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+            "bytes": 8496
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 543306,
+        "requests": 33,
+        "images": [
+          {
+            "url": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+            "bytes": 41720
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+            "bytes": 8496
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+            "bytes": 7942
+          },
+          {
+            "url": "/img/animaciones/flujo-soft.gif",
+            "bytes": 20158
+          },
+          {
+            "url": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+            "bytes": 24113
+          },
+          {
+            "url": "/img/maquina-soft-mesa-negocio.avif",
+            "bytes": 15117
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "width": 563,
+          "height": 544
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "width": 416,
+          "height": 349
+        },
+        {
+          "src": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "width": 416,
+          "height": 349
+        },
+        {
+          "src": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "width": 416,
+          "height": 349
+        },
+        {
+          "src": "/img/animaciones/flujo-soft.gif",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "src": "/img/maquina-soft-mesa-negocio.avif",
+          "width": 560,
+          "height": 544
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/fabricantes/soft-mesa-piso.svg",
+          "after": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "words": 250
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "after": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "words": 9
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-301-bib-inox-600.avif",
+          "after": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "words": 23
+        },
+        {
+          "before": "/img/catalogo/fabricantes/iceteam-603-bib-600.avif",
+          "after": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "words": 28
+        },
+        {
+          "before": "/img/catalogo/fabricantes/pasmo-s121-gravity-600.avif",
+          "after": "/img/animaciones/flujo-soft.gif",
+          "words": 36
+        },
+        {
+          "before": "/img/animaciones/flujo-soft.gif",
+          "after": "/img/maquina-soft-mesa-negocio.avif",
+          "words": 147
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "variegatos-helado",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 157567,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+            "bytes": 36926
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 995602,
+        "requests": 18,
+        "images": [
+          {
+            "url": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+            "bytes": 36926
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/animaciones/capas-variegato.gif",
+            "bytes": 584104
+          },
+          {
+            "url": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+            "bytes": 34339
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          },
+          {
+            "url": "/img/tecnica-veteado-variegato-helado.avif",
+            "bytes": 28618
+          },
+          {
+            "url": "/img/veteado-variegato.avif",
+            "bytes": 35493
+          },
+          {
+            "url": "/img/catalogo/tecnica-variegato-584.avif",
+            "bytes": 39165
+          },
+          {
+            "url": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+            "bytes": 29690
+          },
+          {
+            "url": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+            "bytes": 42685
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "width": 390,
+          "height": 260
+        },
+        {
+          "src": "/img/animaciones/capas-variegato.gif",
+          "width": 318,
+          "height": 168
+        },
+        {
+          "src": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/crema-quella-helado-italgel.avif",
+          "width": 358,
+          "height": 358
+        },
+        {
+          "src": "/img/tecnica-veteado-variegato-helado.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/tecnica-variegato-584.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/veteado-variegato.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+          "width": 358,
+          "height": 272
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/variegatos-vitrina-hero.avif",
+          "after": "/img/animaciones/capas-variegato.gif",
+          "words": 166
+        },
+        {
+          "before": "/img/animaciones/capas-variegato.gif",
+          "after": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "words": 75
+        },
+        {
+          "before": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "after": "/img/crema-quella-helado-italgel.avif",
+          "words": 116
+        },
+        {
+          "before": "/img/crema-quella-helado-italgel.avif",
+          "after": "/img/tecnica-veteado-variegato-helado.avif",
+          "words": 335
+        },
+        {
+          "before": "/img/tecnica-veteado-variegato-helado.avif",
+          "after": "/img/catalogo/tecnica-variegato-584.avif",
+          "words": 51
+        },
+        {
+          "before": "/img/catalogo/tecnica-variegato-584.avif",
+          "after": "/img/veteado-variegato.avif",
+          "words": 50
+        },
+        {
+          "before": "/img/veteado-variegato.avif",
+          "after": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "words": 374
+        },
+        {
+          "before": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "after": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+          "words": 42
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "variegatos-helado",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 1082930,
+        "requests": 30,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+            "bytes": 36926
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/animaciones/capas-variegato.gif",
+            "bytes": 584104
+          },
+          {
+            "url": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+            "bytes": 34339
+          }
+        ],
+        "gifRequested": true
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1281055,
+        "requests": 36,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+            "bytes": 36926
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/animaciones/capas-variegato.gif",
+            "bytes": 584104
+          },
+          {
+            "url": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+            "bytes": 34339
+          },
+          {
+            "url": "/img/crema-quella-helado-italgel.avif",
+            "bytes": 43941
+          },
+          {
+            "url": "/img/tecnica-veteado-variegato-helado.avif",
+            "bytes": 28618
+          },
+          {
+            "url": "/img/catalogo/tecnica-variegato-584.avif",
+            "bytes": 39165
+          },
+          {
+            "url": "/img/veteado-variegato.avif",
+            "bytes": 35493
+          },
+          {
+            "url": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+            "bytes": 30420
+          },
+          {
+            "url": "/img/blog/optimizadas/variegato-whisky-helado-premium-600.avif",
+            "bytes": 20488
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/variegatos-vitrina-hero-800.avif",
+          "width": 611,
+          "height": 612
+        },
+        {
+          "src": "/img/animaciones/capas-variegato.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/crema-quella-helado-italgel.avif",
+          "width": 312,
+          "height": 312
+        },
+        {
+          "src": "/img/tecnica-veteado-variegato-helado.avif",
+          "width": 556,
+          "height": 377
+        },
+        {
+          "src": "/img/catalogo/tecnica-variegato-584.avif",
+          "width": 532,
+          "height": 361
+        },
+        {
+          "src": "/img/veteado-variegato.avif",
+          "width": 522,
+          "height": 354
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-whisky-helado-premium-600.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/optimizadas/variegato-para-helado-profesional-600.avif",
+          "width": 416,
+          "height": 316
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/variegatos-vitrina-hero.avif",
+          "after": "/img/animaciones/capas-variegato.gif",
+          "words": 166
+        },
+        {
+          "before": "/img/animaciones/capas-variegato.gif",
+          "after": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "words": 75
+        },
+        {
+          "before": "/img/catalogo/tecnica-veteado-variegato-584.avif",
+          "after": "/img/crema-quella-helado-italgel.avif",
+          "words": 116
+        },
+        {
+          "before": "/img/crema-quella-helado-italgel.avif",
+          "after": "/img/tecnica-veteado-variegato-helado.avif",
+          "words": 335
+        },
+        {
+          "before": "/img/tecnica-veteado-variegato-helado.avif",
+          "after": "/img/catalogo/tecnica-variegato-584.avif",
+          "words": 51
+        },
+        {
+          "before": "/img/catalogo/tecnica-variegato-584.avif",
+          "after": "/img/veteado-variegato.avif",
+          "words": 50
+        },
+        {
+          "before": "/img/veteado-variegato.avif",
+          "after": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "words": 374
+        },
+        {
+          "before": "/img/blog/optimizadas/variegato-whisky-helado-premium-800.avif",
+          "after": "/img/blog/optimizadas/variegato-para-helado-profesional-800.avif",
+          "words": 42
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "maquinas-helado-industrial",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 147303,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/industrial-valmar-linea-800.avif",
+            "bytes": 28006
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1012119,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/industrial-valmar-linea-800.avif",
+            "bytes": 28006
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/produccion-helado.avif",
+            "bytes": 30386
+          },
+          {
+            "url": "/img/animaciones/operacion-industrial.gif",
+            "bytes": 792323
+          },
+          {
+            "url": "/img/catalogo/produccion-helado-industrial-800.avif",
+            "bytes": 24162
+          },
+          {
+            "url": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+            "bytes": 17945
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/industrial-valmar-linea-800.avif",
+          "width": 390,
+          "height": 222
+        },
+        {
+          "src": "/img/produccion-helado.avif",
+          "width": 358,
+          "height": 448
+        },
+        {
+          "src": "/img/catalogo/produccion-helado-industrial-800.avif",
+          "width": 318,
+          "height": 169
+        },
+        {
+          "src": "/img/animaciones/operacion-industrial.gif",
+          "width": 358,
+          "height": 189
+        },
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+          "width": 358,
+          "height": 272
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/industrial-valmar-linea.avif",
+          "after": "/img/produccion-helado.avif",
+          "words": 259
+        },
+        {
+          "before": "/img/produccion-helado.avif",
+          "after": "/img/catalogo/produccion-helado-industrial-600.avif",
+          "words": 290
+        },
+        {
+          "before": "/img/catalogo/produccion-helado-industrial-600.avif",
+          "after": "/img/animaciones/operacion-industrial.gif",
+          "words": 88
+        },
+        {
+          "before": "/img/animaciones/operacion-industrial.gif",
+          "after": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+          "words": 188
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "maquinas-helado-industrial",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 544334,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/industrial-valmar-linea.avif",
+            "bytes": 87731
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/produccion-helado.avif",
+            "bytes": 30386
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1383657,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/industrial-valmar-linea.avif",
+            "bytes": 87731
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/produccion-helado.avif",
+            "bytes": 30386
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/animaciones/operacion-industrial.gif",
+            "bytes": 792323
+          },
+          {
+            "url": "/img/catalogo/produccion-helado-industrial-1080.avif",
+            "bytes": 34358
+          },
+          {
+            "url": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+            "bytes": 12642
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/industrial-valmar-linea.avif",
+          "width": 611,
+          "height": 622
+        },
+        {
+          "src": "/img/produccion-helado.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/catalogo/produccion-helado-industrial-1080.avif",
+          "width": 1080,
+          "height": 574
+        },
+        {
+          "src": "/img/animaciones/operacion-industrial.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-600.avif",
+          "width": 416,
+          "height": 316
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/industrial-valmar-linea.avif",
+          "after": "/img/produccion-helado.avif",
+          "words": 259
+        },
+        {
+          "before": "/img/produccion-helado.avif",
+          "after": "/img/catalogo/produccion-helado-industrial-600.avif",
+          "words": 290
+        },
+        {
+          "before": "/img/catalogo/produccion-helado-industrial-600.avif",
+          "after": "/img/animaciones/operacion-industrial.gif",
+          "words": 88
+        },
+        {
+          "before": "/img/animaciones/operacion-industrial.gif",
+          "after": "/img/blog/optimizadas/pasteurizacion-mezcla-helado-artesanal-800.avif",
+          "words": 188
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "vitrinas-congeladores",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 195067,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 966552,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/vitrina-helado.avif",
+            "bytes": 42552
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 390,
+          "height": 349
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 358,
+          "height": 243
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 318,
+          "height": 328
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 358,
+          "height": 189
+        },
+        {
+          "src": "/img/vitrina-helado.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 247
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 151
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 154
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "vitrinas-congeladores",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 544413,
+        "requests": 30,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1273472,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/vitrina-helado.avif",
+            "bytes": 42552
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 611,
+          "height": 546
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 584,
+          "height": 396
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 490,
+          "height": 505
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/vitrina-helado.avif",
+          "width": 560,
+          "height": 544
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 247
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 151
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 154
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "route": "productos-quella",
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 170392,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 821250,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 318,
+          "height": 239
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -6551.671875,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -6142.15625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -5759.03125,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "route": "productos-quella",
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 477312,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1109512,
+        "requests": 31,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-familia-hero.avif",
+            "bytes": 51828
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/animaciones/preparacion-chocolate.gif",
+            "bytes": 565298
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/animaciones/preparacion-chocolate.gif",
+          "width": 400,
+          "height": 300
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 477,
+          "height": 596
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-familia-hero.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/animaciones/preparacion-chocolate.gif",
+          "words": 41
+        },
+        {
+          "before": "/img/animaciones/preparacion-chocolate.gif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 38
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 512,
+            "y": -3783.46875,
+            "width": 416
+          },
+          {
+            "x": 960,
+            "y": -3783.46875,
+            "width": 416
+          }
+        ]
+      ],
+      "errors": []
+    }
+  ],
+  "accessible": [],
+  "regressions": [],
+  "failures": []
+}
