@@ -1,0 +1,28 @@
+{
+  "src": "/img/animaciones/batido-mezcla-bases.gif",
+  "poster": "/img/animaciones/batido-mezcla-bases-poster.avif",
+  "width": 480,
+  "height": 270,
+  "frames": 8,
+  "duration_ms": 1600,
+  "bytes": 604793,
+  "alt": "Batido manual de una mezcla láctea con varillas en un recipiente metálico",
+  "caption": "Batido de una mezcla láctea. Escena ilustrativa; no muestra una receta ni un producto MEC3 específico.",
+  "control_label": "Reproducir el batido de la mezcla",
+  "source": {
+    "author": "Адам Аушев",
+    "page": "https://www.pexels.com/video/a-person-is-whisking-a-bowl-of-milk-28520905/",
+    "download": "https://videos.pexels.com/video-files/28520905/12408401_1920_1080_25fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "sha256": "29038451a61fc66c1049a14cd8667a37e3fd76cb3519367d074eb85147071e47"
+  },
+  "processing": {
+    "start_seconds": 8,
+    "seconds": 1.6,
+    "fps": 5,
+    "scale": "480:270 lanczos",
+    "colors": 256,
+    "dither": "none",
+    "crop": "none"
+  }
+}

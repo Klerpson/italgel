@@ -1,0 +1,1869 @@
+{
+  "mode": "local",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 322090,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+            "bytes": 43022
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1050774,
+        "requests": 21,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+            "bytes": 43022
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-280.avif",
+            "bytes": 6546
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-280.avif",
+            "bytes": 13019
+          },
+          {
+            "url": "/img/catalogo/supergelmix-base-helado-soft-280.avif",
+            "bytes": 7102
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-280.avif",
+            "bytes": 9955
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-400.avif",
+            "bytes": 14791
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-400.avif",
+            "bytes": 16391
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-400.avif",
+            "bytes": 6463
+          },
+          {
+            "url": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+            "bytes": 15384
+          },
+          {
+            "url": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+            "bytes": 7818
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+            "bytes": 26422
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+          "width": 320,
+          "height": 320
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-280.avif",
+          "width": 248,
+          "height": 168
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 248,
+          "height": 140
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-280.avif",
+          "width": 248,
+          "height": 168
+        },
+        {
+          "src": "/img/catalogo/supergelmix-base-helado-soft-280.avif",
+          "width": 248,
+          "height": 168
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-280.avif",
+          "width": 248,
+          "height": 168
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-400.avif",
+          "width": 288,
+          "height": 242
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-400.avif",
+          "width": 288,
+          "height": 242
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-400.avif",
+          "width": 288,
+          "height": 242
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+          "width": 288,
+          "height": 192
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+          "width": 288,
+          "height": 192
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 288,
+          "height": 192
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 322090,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+            "bytes": 43022
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1073649,
+        "requests": 21,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+            "bytes": 43022
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+            "bytes": 9990
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+            "bytes": 22835
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+            "bytes": 10792
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+            "bytes": 15880
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-400.avif",
+            "bytes": 14791
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-400.avif",
+            "bytes": 16391
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-400.avif",
+            "bytes": 6463
+          },
+          {
+            "url": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+            "bytes": 15384
+          },
+          {
+            "url": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+            "bytes": 7818
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+            "bytes": 26422
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-400.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 318,
+          "height": 179
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-400.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-400.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-400.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 358,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 420985,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1158110,
+        "requests": 21,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+            "bytes": 9990
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+            "bytes": 22835
+          },
+          {
+            "url": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+            "bytes": 10792
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+            "bytes": 15880
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-280.avif",
+            "bytes": 9329
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-280.avif",
+            "bytes": 9929
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-280.avif",
+            "bytes": 3953
+          },
+          {
+            "url": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+            "bytes": 15384
+          },
+          {
+            "url": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+            "bytes": 7818
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+            "bytes": 26422
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+          "width": 291,
+          "height": 197
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 323,
+          "height": 181
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+          "width": 291,
+          "height": 197
+        },
+        {
+          "src": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+          "width": 291,
+          "height": 197
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+          "width": 291,
+          "height": 197
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-280.avif",
+          "width": 214,
+          "height": 180
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-280.avif",
+          "width": 214,
+          "height": 180
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-280.avif",
+          "width": 214,
+          "height": 180
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif",
+          "width": 337,
+          "height": 225
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif",
+          "width": 337,
+          "height": 225
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 337,
+          "height": 225
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 960,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 727905,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1480108,
+        "requests": 39,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+            "bytes": 9990
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+            "bytes": 22835
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+            "bytes": 10792
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+            "bytes": 15880
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-280.avif",
+            "bytes": 9329
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-280.avif",
+            "bytes": 3953
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-280.avif",
+            "bytes": 9929
+          },
+          {
+            "url": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+            "bytes": 25840
+          },
+          {
+            "url": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+            "bytes": 12440
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+            "bytes": 26422
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+          "width": 406,
+          "height": 406
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-400.avif",
+          "width": 368,
+          "height": 250
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-400.avif",
+          "width": 368,
+          "height": 250
+        },
+        {
+          "src": "/img/catalogo/supergelmix-base-helado-soft-400.avif",
+          "width": 368,
+          "height": 250
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-400.avif",
+          "width": 368,
+          "height": 250
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "width": 426,
+          "height": 284
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "width": 426,
+          "height": 284
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif",
+          "width": 426,
+          "height": 284
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 727905,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1528709,
+        "requests": 39,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+            "bytes": 16211
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+            "bytes": 41148
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/supergelmix-base-helado-soft.avif",
+            "bytes": 14349
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+            "bytes": 25134
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-280.avif",
+            "bytes": 9329
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-280.avif",
+            "bytes": 9929
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-280.avif",
+            "bytes": 3953
+          },
+          {
+            "url": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+            "bytes": 25840
+          },
+          {
+            "url": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+            "bytes": 12440
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+            "bytes": 37678
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "width": 480,
+          "height": 326
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/supergelmix-base-helado-soft.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "width": 514,
+          "height": 348
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-280.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "width": 416,
+          "height": 277
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 420985,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1270824,
+        "requests": 21,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+            "bytes": 141917
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+            "bytes": 16211
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+            "bytes": 41148
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/supergelmix-base-helado-soft.avif",
+            "bytes": 14349
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+            "bytes": 25134
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-492.avif",
+            "bytes": 24203
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-492.avif",
+            "bytes": 24067
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-492.avif",
+            "bytes": 9070
+          },
+          {
+            "url": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+            "bytes": 31317
+          },
+          {
+            "url": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+            "bytes": 14126
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+            "bytes": 45421
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-800.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 318,
+          "height": 179
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/supergelmix-base-helado-soft.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+          "width": 358,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 849035,
+        "requests": 28,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+            "bytes": 263047
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1698874,
+        "requests": 39,
+        "images": [
+          {
+            "url": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+            "bytes": 263047
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+            "bytes": 16211
+          },
+          {
+            "url": "/img/animaciones/batido-mezcla-bases.gif",
+            "bytes": 604793
+          },
+          {
+            "url": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+            "bytes": 41148
+          },
+          {
+            "url": "/img/supergelmix-base-helado-soft.avif",
+            "bytes": 14349
+          },
+          {
+            "url": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+            "bytes": 25134
+          },
+          {
+            "url": "/img/catalogo/bases-stevia-helado-492.avif",
+            "bytes": 24203
+          },
+          {
+            "url": "/img/catalogo/stevia-base-g-fruta-492.avif",
+            "bytes": 24067
+          },
+          {
+            "url": "/img/catalogo/yogo-greco-stevia-492.avif",
+            "bytes": 9070
+          },
+          {
+            "url": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+            "bytes": 31317
+          },
+          {
+            "url": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+            "bytes": 14126
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+            "bytes": 45421
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "width": 611,
+          "height": 611
+        },
+        {
+          "src": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "width": 480,
+          "height": 326
+        },
+        {
+          "src": "/img/animaciones/batido-mezcla-bases.gif",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/supergelmix-base-helado-soft.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "width": 514,
+          "height": 348
+        },
+        {
+          "src": "/img/catalogo/bases-stevia-helado-492.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "width": 256,
+          "height": 215
+        },
+        {
+          "src": "/img/blog/helados-sin-azucar-stevia-heladeria.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/emulsionantes-estabilizantes-helado-tecnica.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+          "width": 416,
+          "height": 277
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/bases-tres-sabores-hero-1200.avif",
+          "after": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "words": 271
+        },
+        {
+          "before": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+          "after": "/img/animaciones/batido-mezcla-bases.gif",
+          "words": 43
+        },
+        {
+          "before": "/img/animaciones/batido-mezcla-bases.gif",
+          "after": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+          "after": "/img/supergelmix-base-helado-soft.avif",
+          "words": 81
+        },
+        {
+          "before": "/img/supergelmix-base-helado-soft.avif",
+          "after": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "words": 70
+        },
+        {
+          "before": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+          "after": "/img/catalogo/bases-stevia-helado-492.avif",
+          "words": 31
+        },
+        {
+          "before": "/img/catalogo/bases-stevia-helado-492.avif",
+          "after": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/stevia-base-g-fruta-492.avif",
+          "after": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "words": 13
+        },
+        {
+          "before": "/img/catalogo/yogo-greco-stevia-492.avif",
+          "after": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "words": 393
+        },
+        {
+          "before": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+          "after": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "words": 33
+        },
+        {
+          "before": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 40
+        }
+      ],
+      "groups": [],
+      "errors": []
+    }
+  ],
+  "accessible": [
+    {
+      "reduced": false,
+      "javaScript": false,
+      "initialGifRequests": 1,
+      "afterActivation": 1,
+      "pass": true
+    },
+    {
+      "reduced": true,
+      "javaScript": false,
+      "initialGifRequests": 0,
+      "afterActivation": 1,
+      "pass": true
+    }
+  ],
+  "regressions": [],
+  "failures": []
+}

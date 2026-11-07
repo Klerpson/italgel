@@ -1,0 +1,1567 @@
+{
+  "protected": {
+    "title": "Bases para helado MEC3 en Colombia | Italgel",
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, minimal-ui"
+      },
+      {
+        "name": "description",
+        "content": "Bases para helado MEC3 en Colombia: Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería."
+      },
+      {
+        "name": "author",
+        "content": "Sebastián Rios"
+      },
+      {
+        "name": "theme-color",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "application-name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:locale",
+        "content": "es_CO"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "property": "og:title",
+        "content": "Bases para helado MEC3 en Colombia | Italgel"
+      },
+      {
+        "property": "og:description",
+        "content": "Bases para helado MEC3 en Colombia: Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería."
+      },
+      {
+        "property": "og:url",
+        "content": "https://italgel.com.co/bases-helado-colombia/"
+      },
+      {
+        "property": "og:site_name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:image",
+        "content": "https://italgel.com.co/img/catalogo/bases-helado-italgel-colombia-584.avif"
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://italgel.com.co/img/catalogo/bases-helado-italgel-colombia-584.avif"
+      },
+      {
+        "property": "og:image:width",
+        "content": "584"
+      },
+      {
+        "property": "og:image:height",
+        "content": "584"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "Helados de frutos rojos, coco y naranja elaborados con bases para helado"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Bases para helado MEC3 en Colombia | Italgel"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Bases para helado MEC3 en Colombia: Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería."
+      },
+      {
+        "name": "twitter:site",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://italgel.com.co/img/catalogo/bases-helado-italgel-colombia-584.avif"
+      }
+    ],
+    "seo_links": [
+      {
+        "rel": "canonical",
+        "href": "https://italgel.com.co/bases-helado-colombia/"
+      },
+      {
+        "rel": "alternate",
+        "type": "application/rss+xml",
+        "title": "Italgel | Insumos y Equipos para Heladería en Colombia",
+        "href": "https://italgel.com.co/feed.xml"
+      },
+      {
+        "rel": "sitemap",
+        "type": "application/xml",
+        "title": "Sitemap",
+        "href": "/sitemap.xml"
+      }
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://italgel.com.co/#organizacion",
+        "name": "Italgel Colombia",
+        "url": "https://italgel.com.co",
+        "logo": "https://italgel.com.co/img/logo.avif",
+        "description": "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida.",
+        "foundingDate": "2008",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        "serviceType": [
+          "Distribución de insumos para heladería",
+          "Asesoría técnica",
+          "Venta de máquinas profesionales"
+        ],
+        "award": "Distribuidor autorizado MEC3 - The Genuine Company",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "573192346788",
+          "contactType": "sales",
+          "email": "info@mec3.co",
+          "availableLanguage": [
+            "Spanish",
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.facebook.com/Mec3.Italgel",
+          "https://www.instagram.com/mec3colombia/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la diferencia entre Base 50 y Neutralin?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo usar Base 50 para helado soft?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Las bases MEC3 ya vienen pasteurizadas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo duran las bases sin abrir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Venden bases para helado de proteína en Colombia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Las bases MEC3 aportan proteínas lácteas en su formulación (Base Divina incluye leche en polvo y proteínas lácteas). Si buscas desarrollar un helado o soft alto en proteína, nuestro equipo técnico te asesora para ajustar la fórmula sobre Supergelmix (producción soft continua) o Base 50 (mantecadora artesanal), manteniendo overrun y textura estables."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde comprar bases para helado al por mayor en Colombia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. Cotiza aquí."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Bases para helado MEC3 en Colombia | Italgel",
+        "description": "Bases para helado MEC3 en Colombia: Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería.",
+        "url": "https://italgel.com.co/bases-helado-colombia/",
+        "dateModified": "2026-09-21",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "italgel.com.co",
+          "url": "https://italgel.com.co"
+        }
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        {
+          "id": "titulo-portada"
+        },
+        "Bases para helado MEC3: Base 50, Neutralin Plus y Supergelmix"
+      ],
+      [
+        "h2",
+        {},
+        "¿Por qué las bases MEC3 son la inversión más rentable para tu heladería?"
+      ],
+      [
+        "h3",
+        {},
+        "Overrun garantizado"
+      ],
+      [
+        "h3",
+        {},
+        "Calidad italiana constante"
+      ],
+      [
+        "h3",
+        {},
+        "Asesoría técnica incluida"
+      ],
+      [
+        "h2",
+        {},
+        "Bases para helado artesanal y comercial"
+      ],
+      [
+        "h3",
+        {},
+        "Base 50 MEC3 para helado artesanal con overrun de 50-60%"
+      ],
+      [
+        "h4",
+        {},
+        "Overrun y rendimiento de la Base 50 MEC3"
+      ],
+      [
+        "h3",
+        {},
+        "Neutralin Plus - Para helados ultra cremosos"
+      ],
+      [
+        "h4",
+        {},
+        "¿Cuándo usar Neutralin en lugar de Base 50?"
+      ],
+      [
+        "h3",
+        {},
+        "Supergelmix - Base para helado soft profesional"
+      ],
+      [
+        "h4",
+        {},
+        "¿Por qué Supergelmix es diferente?"
+      ],
+      [
+        "h3",
+        {},
+        "Base Divina - Premium para heladerías gourmet"
+      ],
+      [
+        "h4",
+        {},
+        "Ingredientes y textura de la Base Divina"
+      ],
+      [
+        "h2",
+        {},
+        "Bases para helado sin azúcar con Stevia"
+      ],
+      [
+        "h3",
+        {},
+        "Stevia Base G Crema"
+      ],
+      [
+        "h3",
+        {},
+        "Stevia Base G Fruta"
+      ],
+      [
+        "h3",
+        {},
+        "Yogo Greco Stevia"
+      ],
+      [
+        "h2",
+        {},
+        "¿Cuál es la mejor base para helado según tu negocio?"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Preguntas frecuentes sobre bases para helado"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuál es la diferencia entre Base 50 y Neutralin?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Puedo usar Base 50 para helado soft?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Las bases MEC3 ya vienen pasteurizadas?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuánto tiempo duran las bases sin abrir?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Venden bases para helado de proteína en Colombia?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Dónde comprar bases para helado al por mayor en Colombia?"
+      ],
+      [
+        "h2",
+        {},
+        "Solicita muestras y calcula tu inversión"
+      ],
+      [
+        "h2",
+        {
+          "id": "titulo-guias"
+        },
+        "Guías de Italgel para elegir y usar bases para helado"
+      ],
+      [
+        "h3",
+        {},
+        "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionales"
+      ],
+      [
+        "h3",
+        {},
+        "Emulsionante y estabilizante para helados: qué hace cada uno, cuáles se usan y cuánto llevan"
+      ],
+      [
+        "h3",
+        {},
+        "Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladería"
+      ],
+      [
+        "h2",
+        {
+          "id": "titulo-cierre",
+          "class": "medida"
+        },
+        "Cotiza por WhatsApp con un asesor técnico de Italgel"
+      ]
+    ],
+    "links": [
+      [
+        {
+          "class": "visualmente-oculto",
+          "href": "#contenido",
+          "title": "Saltar al contenido"
+        },
+        "Saltar al contenido"
+      ],
+      [
+        {
+          "class": "cabecera-sitio__logo",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento boton--compacto",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cabecera",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsAppCotizar (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+          "title": "Coldelite Compacta 3 Máquina de helado soft"
+        },
+        "Coldelite Compacta 3Máquina de helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/",
+          "title": "Máquinas de helado soft De mesa o de piso"
+        },
+        "Máquinas de helado softDe mesa o de piso"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-artesanal/",
+          "title": "Mantecadoras Helado artesanal y gelato"
+        },
+        "MantecadorasHelado artesanal y gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-industrial/",
+          "title": "Máquinas industriales Pasteurizadoras y líneas"
+        },
+        "Máquinas industrialesPasteurizadoras y líneas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/",
+          "title": "Ver todas las máquinas de helado"
+        },
+        "Ver todas las máquinas de helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/mini-neo/",
+          "title": "Mini Neo Cafetera para casa"
+        },
+        "Mini NeoCafetera para casa"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/falcon/",
+          "title": "Falcon Comercial ligero, 220 V"
+        },
+        "FalconComercial ligero, 220 V"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/tank-2/",
+          "title": "Tank 2 Dos grupos, uso comercial"
+        },
+        "Tank 2Dos grupos, uso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/cruiser/",
+          "title": "Cruiser Uso comercial"
+        },
+        "CruiserUso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/sequoia-74wt/",
+          "title": "Sequoia 74WT Molino con báscula"
+        },
+        "Sequoia 74WTMolino con báscula"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/",
+          "title": "Ver las 10 cafeteras y molinos"
+        },
+        "Ver las 10 cafeteras y molinos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/amarena-fabbri/",
+          "title": "Amarena Fabbri Cerezas en almíbar"
+        },
+        "Amarena FabbriCerezas en almíbar"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/salsas-especiales/",
+          "title": "Salsas especiales Whisky, tiramisú, caramelo"
+        },
+        "Salsas especialesWhisky, tiramisú, caramelo"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/productos-quella/",
+          "title": "Quella Family Variegatos italianos"
+        },
+        "Quella FamilyVariegatos italianos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/",
+          "title": "Coberturas y salsas Para copa y veteado"
+        },
+        "Coberturas y salsasPara copa y veteado"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/variegatos-helado/",
+          "title": "Ver todos los variegatos"
+        },
+        "Ver todos los variegatos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/insumos/",
+          "aria-current": "true",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/base-50-mec3/",
+          "title": "Base 50 MEC3 Base para helado artesanal"
+        },
+        "Base 50 MEC3Base para helado artesanal"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/neutralin-plus/",
+          "title": "Neutralin Plus Base para gelato"
+        },
+        "Neutralin PlusBase para gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/supergelmix/",
+          "title": "Supergelmix Base para helado soft"
+        },
+        "SupergelmixBase para helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-pistacho/",
+          "title": "Pasta de pistacho Pistacho siciliano"
+        },
+        "Pasta de pistachoPistacho siciliano"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "title": "Pasta de vainilla Vainilla bourbon"
+        },
+        "Pasta de vainillaVainilla bourbon"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/",
+          "title": "Ver todos los insumos"
+        },
+        "Ver todos los insumos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "class": "buscador-boton",
+          "href": "/buscar/",
+          "data-buscador-abrir": "",
+          "aria-keyshortcuts": "Control+K Meta+K /"
+        },
+        "Buscar"
+      ],
+      [
+        {
+          "itemprop": "item",
+          "href": "/",
+          "title": "Inicio"
+        },
+        "Inicio"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "hero",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "resumen",
+          "title": "Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)"
+        },
+        "Pide asesoría por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Cotizar Base 50 por WhatsApp (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-1"
+        },
+        "Cotizar Base 50 por WhatsApp"
+      ],
+      [
+        {
+          "href": "/bases-helado-colombia/base-50-mec3/",
+          "class": "boton boton_2",
+          "title": "Base 50 MEC3 de 2 kg: base para helado artesanal"
+        },
+        "Ver ficha técnica completa"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Consultar disponibilidad Neutralin (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-2"
+        },
+        "Consultar disponibilidad Neutralin"
+      ],
+      [
+        {
+          "href": "/bases-helado-colombia/neutralin-plus/",
+          "class": "boton boton_2",
+          "title": "Neutralin Plus MEC3: base para gelato cremoso"
+        },
+        "Ver Neutralin Plus"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Solicitar precio mayorista Supergelmix (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-3"
+        },
+        "Solicitar precio mayorista Supergelmix"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Consultar inversión Base Divina (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-4"
+        },
+        "Consultar inversión Base Divina"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Solicitar precios (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-5"
+        },
+        "Solicitar precios"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Solicitar precios (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-6"
+        },
+        "Solicitar precios"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Solicitar precios (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-7"
+        },
+        "Solicitar precios"
+      ],
+      [
+        {
+          "href": "/bases-helado-colombia/bases-stevia/",
+          "class": "boton boton_2",
+          "title": "Bases con stevia para helado sin azúcar"
+        },
+        "Ver todas las bases Stevia"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-contacto",
+          "title": "Hacer otra pregunta por WhatsApp (abre WhatsApp)"
+        },
+        "Hacer otra pregunta (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "class": "lead_whatsapp",
+          "title": "Escribir a Italgel por WhatsApp (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-6"
+        },
+        "Cotiza aquí"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "title": "Solicitar muestras de bases (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-8"
+        },
+        "Solicitar muestras de bases"
+      ],
+      [
+        {
+          "href": "tel:+573192346788",
+          "class": "boton boton_2",
+          "title": "Llamar a Italgel"
+        },
+        "Llamar a asesoría técnica"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/blog/",
+          "title": "Ver todas las guías del blog"
+        },
+        "Ver todas las guías"
+      ],
+      [
+        {
+          "class": "baldosa baldosa--foto baldosa--apaisada",
+          "href": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+          "title": "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionales: Helados sin azúcar para heladería: bases MEC3 con Stevia, dosificación, edulcorantes profesionales y cómo ofrecer helado light en Colombia."
+        },
+        "Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionalesHelados sin azúcar para heladería: bases MEC3 con Stevia, dosificación, edulcorantes profesionales y cómo ofrecer helado light en Colombia."
+      ],
+      [
+        {
+          "class": "baldosa baldosa--foto baldosa--apaisada",
+          "href": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+          "title": "Emulsionante y estabilizante para helados: qué hace cada uno, cuáles se usan y cuánto llevan: Qué es un emulsionante (emulsificante) y un estabilizante para helados, cuáles se usan, cuánto llevan y cómo elegir una mezcla en polvo para helado suave."
+        },
+        "Emulsionante y estabilizante para helados: qué hace cada uno, cuáles se usan y cuánto llevanQué es un emulsionante (emulsificante) y un estabilizante para helados, cuáles se usan, cuánto llevan y cómo elegir una mezcla en polvo para helado suave."
+      ],
+      [
+        {
+          "class": "baldosa baldosa--foto baldosa--apaisada",
+          "href": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+          "title": "Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladería: Base 50 MEC3 vs Supergelmix: qué es cada una según el fabricante, sus proporciones con leche o agua y para qué helado sirve cada base en tu heladería."
+        },
+        "Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladeríaBase 50 MEC3 vs Supergelmix: qué es cada una según el fabricante, sus proporciones con leche o agua y para qué helado sirve cada base en tu heladería."
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cierre",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "pie-sitio__marca",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "class": "lead_whatsapp",
+          "title": "WhatsApp +573192346788 (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "pie"
+        },
+        "WhatsApp +573192346788 (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "mailto:info@mec3.co",
+          "title": "info@mec3.co"
+        },
+        "info@mec3.co"
+      ],
+      [
+        {
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-medellin/",
+          "title": "Insumos para heladería en Medellín"
+        },
+        "Insumos para heladería en Medellín"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-cali/",
+          "title": "Insumos para heladería en Cali"
+        },
+        "Insumos para heladería en Cali"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-barranquilla/",
+          "title": "Insumos para heladería en Barranquilla"
+        },
+        "Insumos para heladería en Barranquilla"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-bucaramanga/",
+          "title": "Insumos para heladería en Bucaramanga"
+        },
+        "Insumos para heladería en Bucaramanga"
+      ],
+      [
+        {
+          "href": "https://www.facebook.com/Mec3.Italgel",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Facebook (abre en una pestaña nueva)"
+        },
+        "Facebook"
+      ],
+      [
+        {
+          "href": "https://www.instagram.com/mec3colombia/",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Instagram (abre en una pestaña nueva)"
+        },
+        "Instagram"
+      ],
+      [
+        {
+          "href": "/nosotros/",
+          "title": "Nosotros"
+        },
+        "Nosotros"
+      ],
+      [
+        {
+          "href": "/legal/",
+          "title": "Aviso legal"
+        },
+        "Aviso legal"
+      ],
+      [
+        {
+          "href": "/contacto/#pqr",
+          "title": "PQR"
+        },
+        "PQR"
+      ],
+      [
+        {
+          "class": "lead_whatsapp flotante",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "flotante",
+          "data-flotante": "",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "¿Te ayudamos a elegir tu equipo?Escríbenos por WhatsApp y cotiza con un asesor. (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+          "data-buscador-consulta": "máquina de helado soft"
+        },
+        "máquina de helado soft"
+      ],
+      [
+        {
+          "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+          "data-buscador-consulta": "insumos para heladería"
+        },
+        "insumos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/"
+        },
+        "Máquinas para hacer helado y equipos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/"
+        },
+        "Insumos para heladería: bases, pastas, variegatos y coberturas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/"
+        },
+        "Cafeteras espresso Hambach y molinos de café"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/buscar/",
+          "data-buscador-todos": "/buscar/",
+          "hidden": ""
+        },
+        "Ver todos los resultados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/contacto/"
+        },
+        "Contacto Italgel: cotiza máquinas, cafeteras e insumos"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/vitrinas-congeladores/"
+        },
+        "Vitrinas para helado artesanal EasyBest"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/blog/"
+        },
+        "Blog de heladería profesional en Colombia"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-sin-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Bases%20para%20helado%20MEC3%3A%20Base%2050%2C%20Neutralin%20Plus%20y%20Supergelmix",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ]
+    ],
+    "images": [
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "src": "/img/coldelite-compacta-1.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/mini-neo.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/falcon.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/cruiser.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/sequoia-74wt.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/base-50-mec3-empaque.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/supergelmix-mec3-helado-soft.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-pistacho-siciliano-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/bases-helado-italgel-colombia-584.avif",
+        "srcset": "/img/catalogo/bases-helado-italgel-colombia-280.avif 280w, /img/catalogo/bases-helado-italgel-colombia-400.avif 400w, /img/catalogo/bases-helado-italgel-colombia-584.avif 584w",
+        "sizes": "(min-width: 88rem) 550px, (min-width: 60rem) 40vw, 92vw",
+        "alt": "Helados de frutos rojos, coco y naranja elaborados con bases para helado",
+        "title": "Bases para helado MEC3",
+        "width": "584",
+        "height": "584",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 584",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/base-50-mec3-helado-profesional-584.avif",
+        "srcset": "/img/catalogo/base-50-mec3-helado-profesional-280.avif 280w, /img/catalogo/base-50-mec3-helado-profesional-400.avif 400w, /img/catalogo/base-50-mec3-helado-profesional-584.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Base 50 MEC3 para helado artesanal en bolsa de 2kg",
+        "title": "Base 50 MEC3",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/neutralin-plus-helado-cremoso-584.avif",
+        "srcset": "/img/catalogo/neutralin-plus-helado-cremoso-280.avif 280w, /img/catalogo/neutralin-plus-helado-cremoso-400.avif 400w, /img/catalogo/neutralin-plus-helado-cremoso-584.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Neutralin Plus para gelato italiano ultra cremoso",
+        "title": "Neutralin Plus",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/supergelmix-base-helado-soft.avif",
+        "srcset": "/img/catalogo/supergelmix-base-helado-soft-280.avif 280w, /img/catalogo/supergelmix-base-helado-soft-400.avif 400w, /img/supergelmix-base-helado-soft.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Supergelmix base para helado soft de alto rendimiento",
+        "title": "Supergelmix",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/base-divina-helado-gourmet-584.avif",
+        "srcset": "/img/catalogo/base-divina-helado-gourmet-280.avif 280w, /img/catalogo/base-divina-helado-gourmet-400.avif 400w, /img/catalogo/base-divina-helado-gourmet-584.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Base Divina para helado gourmet de alta gama",
+        "title": "Base Divina",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/bases-stevia-helado-492.avif",
+        "srcset": "/img/catalogo/bases-stevia-helado-280.avif 280w, /img/catalogo/bases-stevia-helado-400.avif 400w, /img/catalogo/bases-stevia-helado-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Stevia Base G Crema para helado sin azúcar",
+        "title": "Stevia Base G Crema",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/stevia-base-g-fruta-492.avif",
+        "srcset": "/img/catalogo/stevia-base-g-fruta-280.avif 280w, /img/catalogo/stevia-base-g-fruta-400.avif 400w, /img/catalogo/stevia-base-g-fruta-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Stevia Base G Fruta para sorbetes sin azúcar",
+        "title": "Stevia Base G Fruta",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/yogo-greco-stevia-492.avif",
+        "srcset": "/img/catalogo/yogo-greco-stevia-280.avif 280w, /img/catalogo/yogo-greco-stevia-400.avif 400w, /img/catalogo/yogo-greco-stevia-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Helado suave presentado en la ficha Yogomec Greco G de MEC3",
+        "title": "Helado suave presentado en la ficha Yogomec Greco G de MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif",
+        "srcset": "/img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-400.avif 400w, /img/blog/optimizadas/helados-sin-azucar-stevia-heladeria-600.avif 600w, /img/blog/helados-sin-azucar-stevia-heladeria.avif 1080w",
+        "sizes": "auto, (min-width: 88rem) 432px, (min-width: 60rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "alt": "Helado artesanal sin azúcar con base Stevia MEC3 en vitrina de heladería colombiana con etiqueta de producto saludable",
+        "title": "Helado artesanal sin azúcar con base Stevia MEC3 en vitrina de heladería colombiana con etiqueta de producto saludable",
+        "width": "1080",
+        "height": "720",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif",
+        "srcset": "/img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-400.avif 400w, /img/blog/optimizadas/emulsionantes-estabilizantes-helado-tecnica-600.avif 600w, /img/blog/emulsionantes-estabilizantes-helado-tecnica.avif 1080w",
+        "sizes": "auto, (min-width: 88rem) 432px, (min-width: 60rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "alt": "Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea",
+        "title": "Proceso técnico de producción de helado artesanal mostrando la incorporación correcta de emulsionantes y estabilizantes en base láctea",
+        "width": "1080",
+        "height": "720",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+        "srcset": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-400.avif 400w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif 600w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif 800w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif 920w",
+        "sizes": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw",
+        "alt": "Envases de Base 50 MEC3 y Supergelmix junto a helados preparados con cada base",
+        "title": "Envases de Base 50 MEC3 y Supergelmix junto a helados preparados con cada base",
+        "width": "920",
+        "height": "420",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60",
+        "loading": "lazy"
+      }
+    ],
+    "ids": [
+      "contenido",
+      "titulo-portada",
+      "titulo-guias",
+      "cotizar",
+      "titulo-cierre",
+      "buscador",
+      "buscador-q",
+      "buscador-datos"
+    ],
+    "main_text": "Inicio Bases para helado Bases para helado MEC3: Base 50, Neutralin Plus y SupergelmixBases MEC3 formuladas para overrun óptimo según tu tipo de helado Cotizar por WhatsApp (abre WhatsApp) Asesoría técnica sin costo para clientes de Italgel. En resumen Italgel distribuye bases para helado MEC3 (Base 50, Neutralin Plus, Supergelmix, Divina) formuladas con overrun de 25% a 100% según el tipo de helado que produzcas, lo que reduce el costo por porción frente a bases genéricas. Todas vienen pre-pasteurizadas y con 40 años de formulación italiana. Pide asesoría por WhatsApp (abre WhatsApp) ¿Por qué las bases MEC3 son la inversión más rentable para tu heladería? Una base de helado no es solo polvo que mezclas con agua. Es la diferencia entre producir 8 o 12 litros con el mismo kilo de materia prima. Las bases MEC3 están formuladas científicamente para lograr el overrun ideal según tu tipo de helado, reduciendo tu costo por porción frente a bases genéricas. Overrun garantizado 25-100% según tipo de helado. Más volumen = menos costo por porción. Calidad italiana constante Formulación MEC3 perfeccionada durante 40 años en Italia. Asesoría técnica incluida Te enseñamos a calcular rendimientos y optimizar recetas. Bases para helado artesanal y comercial Cada base MEC3 está diseñada para un tipo específico de producción: gelato italiano tradicional, helado comercial de volumen o soft. Son las bases para gelato y helado más usadas por heladerías profesionales en Colombia. Identifica cuál necesitas según tu modelo de negocio: Base 50 MEC3 para helado artesanal con overrun de 50-60% Ideal para: Heladerías artesanales que buscan equilibrio entre calidad y rendimiento. Overrun y rendimiento de la Base 50 MEC3 Overrun óptimo: 50-60% (producción balanceada) Rendimiento: 1 kg de base = 4-5 litros de helado terminado Textura: Cremosa, cuerpo medio Aplicaciones: Gelato italiano, helado artesanal premium Precio por litro de helado producido: Consulta según volumen de compra. Cotizar Base 50 por WhatsApp Ver ficha técnica completa Neutralin Plus - Para helados ultra cremosos Ideal para: Heladerías que buscan textura premium y menor overrun. ¿Cuándo usar Neutralin en lugar de Base 50? Cuando priorizas cremosidad sobre rendimiento Para gelato italiano tradicional (overrun 25-40%) Cuando usas ingredientes naturales de alta calidad Diferencia clave vs Base 50: Neutralin produce menos volumen pero con textura más densa y sabor más concentrado. Es la elección de maestros heladeros que venden por calidad, no por precio. Consultar disponibilidad Neutralin Ver Neutralin Plus Supergelmix - Base para helado soft profesional Ideal para: Puntos de helado suave, franquicias, alto volumen. ¿Por qué Supergelmix es diferente? Overrun 60-80%: Máximo rendimiento manteniendo calidad Estabilidad térmica: Resiste cambios de temperatura sin cristalizar Compatibilidad: Funciona en cualquier máquina de soft (Taylor, Valmar, Coldelite) Cálculo de rentabilidad: Con Supergelmix, 1 kg de base produce hasta 8 litros de helado soft. Si vendes cada cono a $5,000 COP (porción de 120ml), un kilo de base te genera $333,000 COP en ventas. Solicitar precio mayorista Supergelmix Base Divina - Premium para heladerías gourmet Ideal para: Heladerías de lujo, hoteles 5 estrellas, restaurantes fine dining. Ingredientes y textura de la Base Divina Formulación con ingredientes nobles (leche descremada en polvo, proteínas lácteas) Cuerpo denso, resistencia al derretimiento superior Perfecta para combinaciones con ingredientes costosos (pistacho, avellana, frutas exóticas) Público objetivo: Si tu helado se vende a más de $8,000 COP la bola, Base Divina justifica su inversión. Consultar inversión Base Divina Bases para helado sin azúcar con Stevia El mercado de helados saludables crece 18% anual en Colombia. Estas bases te permiten ofrecer opciones para diabéticos y consumidores health-conscious sin sacrificar sabor: Stevia Base G Crema Para helados cremosos sin azúcar. Endulzado con Stevia + eritritol. Solicitar precios Stevia Base G Fruta Para sorbetes y helados de fruta sin azúcar añadida. Solicitar precios Yogo Greco Stevia Base para helado de yogurt griego sin azúcar. Tendencia 2025. Solicitar precios Ver todas las bases Stevia ¿Cuál es la mejor base para helado según tu negocio? Usa esta tabla para identificar rápidamente cuál base se adapta a tu modelo de heladería: Base MEC3 Overrun Rendimiento Ideal para Precio/Litro Base 50 50-60% 1kg = 4-5L Gelato artesanal Medio Neutralin Plus 25-40% 1kg = 3-4L Gelato premium Alto Supergelmix 60-80% 1kg = 6-8L Helado soft Bajo Base Divina 30-45% 1kg = 3.5-4.5L Heladería gourmet Premium Nota importante: El \"precio por litro\" se refiere al costo de la base dividido entre los litros de helado que produce, no al precio de venta. Una base más cara puede resultar más económica si produce mayor volumen. Preguntas frecuentes sobre bases para helado ¿No está tu pregunta? Escríbenos por WhatsApp y un asesor de Italgel te responde con la referencia y el dato exacto. Hacer otra pregunta (abre WhatsApp) ¿Cuál es la diferencia entre Base 50 y Neutralin? Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin. ¿Puedo usar Base 50 para helado soft? No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua. ¿Las bases MEC3 ya vienen pasteurizadas? Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación. ¿Cuánto tiempo duran las bases sin abrir? En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad. ¿Venden bases para helado de proteína en Colombia? Las bases MEC3 aportan proteínas lácteas en su formulación (Base Divina incluye leche en polvo y proteínas lácteas). Si buscas desarrollar un helado o soft alto en proteína, nuestro equipo técnico te asesora para ajustar la fórmula sobre Supergelmix (producción soft continua) o Base 50 (mantecadora artesanal), manteniendo overrun y textura estables. ¿Dónde comprar bases para helado al por mayor en Colombia? Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. Cotiza aquí. Solicita muestras y calcula tu inversión No tomes decisiones a ciegas. Te enviamos muestras de las bases que te interesen y te asesoramos para calcular el costo real por litro de helado producido según tu volumen de compra. Solicitar muestras de bases Llamar a asesoría técnica Muestras disponibles de Base 50, Neutralin y Supergelmix. Envío gratis en pedidos mayores de $200,000 COP. Guías de Italgel para elegir y usar bases para helado Ver todas las guías Helados sin azúcar para heladería artesanal: guía de bases con Stevia y edulcorantes profesionalesHelados sin azúcar para heladería: bases MEC3 con Stevia, dosificación, edulcorantes profesionales y cómo ofrecer helado light en Colombia. Emulsionante y estabilizante para helados: qué hace cada uno, cuáles se usan y cuánto llevanQué es un emulsionante (emulsificante) y un estabilizante para helados, cuáles se usan, cuánto llevan y cómo elegir una mezcla en polvo para helado suave. Base 50 MEC3 vs Supergelmix: cuál es la diferencia y cuál necesita tu heladeríaBase 50 MEC3 vs Supergelmix: qué es cada una según el fabricante, sus proporciones con leche o agua y para qué helado sirve cada base en tu heladería. Cotiza por WhatsApp con un asesor técnico de Italgel Cuéntanos qué vendes, cuánto produces y en qué ciudad está tu negocio. Te respondemos con la referencia que te sirve, su precio y la disponibilidad del inventario. Escribes por WhatsApp Cuéntanos qué necesitas y en qué ciudad está tu negocio. Recibes la cotización Con la referencia, el precio y la disponibilidad del inventario. Despachamos tu pedido Los equipos los instala la red de técnicos aliados de Italgel. Cotizar por WhatsApp (abre WhatsApp)"
+  },
+  "front_matter": "\nlayout: categories\ntitle: \"Bases para helado MEC3 en Colombia | Italgel\"\nkeyword: \"bases para helado\"\nlast_modified_at: \"2026-09-21\"\ndescription: \"Bases para helado MEC3 en Colombia: Base 50, Neutralin Plus, Supergelmix y bases con stevia. Asesoría técnica para elegir la base de tu heladería.\"\nh1: \"Bases para helado MEC3: Base 50, Neutralin Plus y Supergelmix\"\nintro: Bases MEC3 formuladas para overrun óptimo según tu tipo de helado\nhero: \"img/bases-helado-italgel-colombia.avif\"\nalt: \"Helados de frutos rojos, coco y naranja elaborados con bases para helado\"\nhero_title: \"Bases para helado MEC3\"\nhero_s: img/bases-helado-italgel-colombia-mobile.avif\nbreadcrumb:\n  - name: Inicio\n    url: /\n  - name: Bases para helado\n    url: /bases-helado-colombia/\nfaqs:\n  - question: \"¿Cuál es la diferencia entre Base 50 y Neutralin?\"\n    answer: \"Base 50 produce más volumen (overrun 50-60%) mientras que Neutralin prioriza cremosidad (overrun 25-40%). Si vendes por volumen, usa Base 50. Si vendes por calidad premium, usa Neutralin.\"\n  - question: \"¿Puedo usar Base 50 para helado soft?\"\n    answer: \"No es recomendable. Base 50 está formulada para mantecadoras batch (artesanales), no para máquinas de soft serve. Para helado soft, usa Supergelmix que está diseñado específicamente para ese tipo de producción continua.\"\n  - question: \"¿Las bases MEC3 ya vienen pasteurizadas?\"\n    answer: \"Sí, todas las bases MEC3 están pre-pasteurizadas. Solo debes mezclar con agua fría/tibia según instrucciones, agregar pastas de sabor, y llevar a la mantecadora. Esto ahorra tiempo y elimina riesgos de contaminación.\"\n  - question: \"¿Cuánto tiempo duran las bases sin abrir?\"\n    answer: \"En lugar seco y fresco: 12-18 meses. Una vez abierto el paquete, recomendamos uso dentro de 3-6 meses. Almacena siempre en recipiente hermético para evitar absorción de humedad.\"\n  - question: \"¿Venden bases para helado de proteína en Colombia?\"\n    answer: \"Las bases MEC3 aportan proteínas lácteas en su formulación (Base Divina incluye leche en polvo y proteínas lácteas). Si buscas desarrollar un helado o soft alto en proteína, nuestro equipo técnico te asesora para ajustar la fórmula sobre Supergelmix (producción soft continua) o Base 50 (mantecadora artesanal), manteniendo overrun y textura estables.\"\n  - question: \"¿Dónde comprar bases para helado al por mayor en Colombia?\"\n    answer: 'Italgel es distribuidor autorizado MEC3 en Colombia con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga. Ofrecemos precios mayoristas desde 5kg. <a data-wa>Cotiza aquí</a>.'\n",
+  "html_sha256": {
+    "404.html": "a9339676ca609c21d482e6aaf032251e49159eaabe79945806855f2c596852d5",
+    "index.html": "65f7d1774d9658dd4f55d5b619440429e7cadbe7f951655de42ea3e89076114b",
+    "author-admin/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "bases-helado-colombia/index.html": "0774cf8c7d7a1a4e2757b1e99bd8eb9bb76aeaf1f9c0ad56218c614dcdab5bb8",
+    "blog/index.html": "e31d9ccfa31f192be3cd976132484f12db3cc6e8f714126f04f78040c81c48bd",
+    "buscar/index.html": "5454bfdaa72b05c0c8d7261cfa95f91feba8e38be1b6178c16882bb3460964d8",
+    "cafes-de-colombia-expo/index.html": "520c0d66ecb2c0c29f0776a9c108f977d333611a8af7b80aacabc47b17c20c64",
+    "coberturas-salsas-helado/index.html": "8e396ab3e802ea5264fb7894ca170fe764d801b701f807df9b3094ec80f6858b",
+    "contactenos/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "contacto/index.html": "b34bd3dda5d757aeb7739ee66cbf90cb77e4c74cce8c9f0323735a9c407a7e1c",
+    "equipos/index.html": "c2c6216398b945c4a9e29ff4a51ed4a63b50ae52650cbb6258914935184c74d2",
+    "equipos-cafe/index.html": "d4fda327e4352ff0dd2a439f394d8eff95272d148227aa36ab177e729171f6d0",
+    "granelas-decoracion/index.html": "170a0f13411ad75c5722f591640d4b0a9e3c1f9f301374a619ad3e4e4525f686",
+    "hello-world/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "insumos/index.html": "9b623fec1cccd408a8d98ca71302429f35db2a7680d33437183468cbc7282156",
+    "insumos-heladeria-barranquilla/index.html": "9fdc41c8fb9b87f489c5ff5de10fda525a396de8f9ffdf22527bfe29d64abbf4",
+    "insumos-heladeria-bucaramanga/index.html": "9e5a2d4e72617202700f923abf64d38e1b8083eb1abf7d44d6f59de485f7f223",
+    "insumos-heladeria-cali/index.html": "04cf8cdef30f0c727a9a7eed4cf29d5a8facc3fbe034a614f7b8287a92d43739",
+    "insumos-heladeria-medellin/index.html": "92aef3137dc4631001eaa4c804828406e9c3a192c59031e236e8811eecdbc915",
+    "insumos-heladeria-medellín/index.html": "1d6191ca5b61c4978c1fe012ae5447ee30fabdbcf72e81b81ccb5d9af1f840f5",
+    "legal/index.html": "05d6a8c793f427c0f1f9648bf164019f0cf1edd709f84939ba1c0958731ac0e8",
+    "maquinas-artesanales/index.html": "538e0824539cbdfba4c7887df0eb4be2fcef1e97037c6a41827588e43cacbf5c",
+    "maquinas-helado-artesanal/index.html": "42ceff3f52f14b072b97699cd3561ad4b20c9c1008e98067b39725f4d37bb856",
+    "maquinas-helado-industrial/index.html": "87e9c72e41d51a65854bb39257523b368d57f8853a8e9ea0d399acf8965dcaea",
+    "maquinas-helado-soft/index.html": "4ad1c2d329f0103974857371d97add90a1b9f5979288c1c899651562388a3735",
+    "maquinas-soft/index.html": "7c5fd3b88278a86627711e4b1ae0546432bd7e6c97bae4db3501310367201736",
+    "nosotros/index.html": "cb665ccce84c6dd8e3019c55eb696947c23cc2ecd1d128c49c3287fab9ff4a37",
+    "pastas-sabores-helado/index.html": "d11a6949517479ee3b39eac5c269b8c400d69751c832fb187f1b86e157c4c41e",
+    "productos-quella/index.html": "6d98fa0db9b7d02938582932b04092383bc708864dc522895a1bf7abc73e7b09",
+    "variegatos-helado/index.html": "02d2f411204baf8536dae7070d9763b8acb70b65892b59d0faf9c9509e225e5f",
+    "vitrinas/index.html": "18e8ccda530c66c9bce53d567871edfca6796dd0eb77bb6b897b40e209d94dad",
+    "vitrinas-congeladores/index.html": "4f73b879bfc3dff3ff67adb5e6e16ecadf7eae3bc7f5d3c5dc326abec38aeb4c",
+    "wp-includes/index.html": "b82bb3f42a4d4347afbd53103f85eb8a733dddd6594e5638031e91dd67e2429b",
+    "author/admin/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "bases-helado-colombia/base-50-mec3/index.html": "23e645e8d7700b7c1b7f8a47b6e94bce1abb2d15c18e66c2ecb69c650d967f2a",
+    "bases-helado-colombia/base-50-mec3-2kg/index.html": "216270dfc28c0587cb56fad9dda0af67e616e6ffba9742bf1eacc78d3fd43c80",
+    "bases-helado-colombia/bases-stevia/index.html": "8c4f60f82145fbb9d08bd4e9a1e71d5a1609abb90014c143c0dc2782e40d3b2b",
+    "bases-helado-colombia/neutralin-plus/index.html": "43ab1c959a482c545c6ed6b93200910b4597cf88dbb47df1bb0912d7051edd6c",
+    "bases-helado-colombia/supergelmix/index.html": "c9191053572bfaa43a6ec35e9a283a88c751b33a4800e6c197a3167876993ca6",
+    "blog/amarena-fabbri-heladeria-usos-dosificacion/index.html": "29001ee8420a7e2e8f153f13f852ed610b3df8843f32f93444e474f0bc059365",
+    "blog/base-50-mec3-vs-supergelmix-comparativa/index.html": "9e360a2dee3e8ece01e1a2e19b9036e02482a35e470db3678ac0d0db3120284b",
+    "blog/como-abrir-una-heladeria-en-colombia/index.html": "5d038ab1df8ed7383ec201e37a067a90b0676fea3d19bfed4f2d79ea59a431bb",
+    "blog/como-calcular-overrun-helado-artesanal/index.html": "622833d16cce762b7fd2fb5ddb3c42e03c3667e96855db9ed5170295d95884f5",
+    "blog/como-elegir-maquina-helado-negocio/index.html": "09f9f157cf5e944ff8319c436edd9d08268ac09553e72ddebb00473fda9a7566",
+    "blog/conservacion-bases-helado-mec3/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "blog/crema-de-whisky-para-helado-variegato/index.html": "9f9e6a966bba5d5c95ac988021dd5c5e05c4ab98bb095c2e92f8f9da1906c7eb",
+    "blog/emulsionantes-estabilizantes-helados-heladeria/index.html": "41166b97526f86db2692074116e630a3ff2f9e851b588a4f891779bc1693cb9a",
+    "blog/helados-sin-azucar-heladeria-bases-stevia/index.html": "ed9018cdd1d103ae83efc428cb65bb7455ba1aaaca09f7e4de4f2f190401d6c2",
+    "blog/pasta-de-vainilla-para-helado-tipos-dosificacion/index.html": "84fc7d4b3eadffdab6b2b567815e78878b09ae41d7bc5651d46b3b53450d9327",
+    "blog/pasta-pistacho-helado-guia-tecnica/index.html": "75692d1f45becc57c7e8b4b1b6a870f9be3627ac4b2d8a097adc31167819c1b4",
+    "blog/pasteurizacion-mezcla-helado-correcta/index.html": "a0398e3a652a04aec2e8afa571ab3d8d1870143b155d4fc1bac8bfeb26eec631",
+    "blog/proveedores-insumos-heladeria-colombia/index.html": "7822a49041e30d0574e18c2c189a684a5c148749fb8cd10f5c9a0d4a6bf0d180",
+    "blog/que-es-el-variegato-para-helado/index.html": "01817cdb84afa610ee22f7d57cd26cdc691d0226d89bb268f8ceb4e1ab911c22",
+    "blog/que-es-gelato-vs-helado-diferencias/index.html": "b75cfac46fe0835de0f7b799778490ef5c0d6caa27cd5b2e42d2c8d4f2605d8b",
+    "blog/que-es-un-sorbete-diferencias-helado-artesanal/index.html": "ef350fdd0f7a59fb4a83a1671f7df36bdf4809474156b4ae69a29c1035a4b575",
+    "blog/que-son-las-granelas-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/rentabilidad-heladeria-colombia/index.html": "9118319e76639c8ae0803bef7bbec9d0d551a1a2b1b2aabcced8e68197470d70",
+    "blog/tipo-de-toppings-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/tipos-de-toppings-para-helado/index.html": "40c0f403600f1d1033026fb934aab6f8017a1445a1a04c893d070a00c5d539d1",
+    "blog/toppings-helado-mas-vendidos/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/toppings-para-helado-mas-rentables/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "coberturas-salsas-helado/amarena-fabbri/index.html": "731cee1d29da39326c2e1f6b282c43b141b03d8a4dd54d33c5d375469a7eab24",
+    "coberturas-salsas-helado/salsas-especiales/index.html": "d8eab98895678b4a781e6cc2ee4cf3675e75bb1191e11fa3b85623da0822f124",
+    "contacts/sebastian-rios/index.html": "0f16922cc7549512ad0bec559a5fc71da79a565b0f6a89171818b58efc717e63",
+    "elementor-hf/footer/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "elementor-hf/header/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "equipos-cafe/cedar-63c/index.html": "41b15c992de1624d64df13bf643f8e6cda66f0090fb322073e5b67cace5d62e7",
+    "equipos-cafe/cruiser/index.html": "ecc8a9f10bc8d7183e0ef69b4a2285499a0780d71681141c929da7d85506f733",
+    "equipos-cafe/ebony-64/index.html": "76c6ea74971dbd556d656c0fcb5dbcda72cb14297d8f392d76461171ccd2f377",
+    "equipos-cafe/falcon/index.html": "ef63647db9d6d36f01d8a9b5af42b78d256fe79859f03c39da412c94647a2e6f",
+    "equipos-cafe/mini-neo/index.html": "7a5aea390c29ca56ab73946df9ba1de35afac5d324aaebb39cf658df898dce76",
+    "equipos-cafe/oak-60/index.html": "5047291dd045ff2d83acd42aba37940db9f0ff0c6e7afbbf73ee49a69d3ee952",
+    "equipos-cafe/sequoia-74wt/index.html": "ddba781c701b051a002116d1b61c162494054f5b02f1f314378d638ac37bc895",
+    "equipos-cafe/swan/index.html": "7fd8caba96f7f5f5fbd26a908a69854d90462d4d60255f89fc90869e9ce71be1",
+    "equipos-cafe/tank-1/index.html": "1420f210f6cf3c712dfff3e1805372352b0830a12921e0839ae605e9344bb0ce",
+    "equipos-cafe/tank-2/index.html": "f72616b0daa071a8d49618eb9751660fb599e7ccf6bed648b02c0e162833cb3a",
+    "insumos/bases-para-helado/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "italgel/blog/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "italgel/contacto/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "italgel/pastas-sabores-helado/pastas-fruta/index.html": "7e8936fa1fd6ea89794a8791a3bd221570db92eeaed2d06105094eef20b77661",
+    "maquinas-helado-soft/coldelite-compacta-3/index.html": "ed3c43ff00bcb1a2c37f3b6436bb9c757d73b16d2fa749ea02a3d6b1abd225f3",
+    "pastas-sabores-helado/pasta-pistacho/index.html": "ffe2afee77c4394f2a59f8587ea528b2199c069953cf8e4b60101636471d5ce5",
+    "pastas-sabores-helado/pasta-vainilla/index.html": "ff4326f26e718b475a226e8472a26fb73fd11c71e8b1b2488825ab2419ea567d",
+    "pastas-sabores-helado/pastas-clasicas/index.html": "038218b83f5b210c4fcd80b7c83885ede29d81799b77f27d20c90b6453ecf175",
+    "pastas-sabores-helado/pastas-fruta/index.html": "8f0fae7f5565f2e4573fab7a4e808ffa89abad07221f8ce49788d12e25f22df8",
+    "pastas-sabores-helado/pastas-premium/index.html": "b321a43223b9e9d6ad7bd4db460cfbab10529b49ff86639d149f47bbd7714dae"
+  }
+}
