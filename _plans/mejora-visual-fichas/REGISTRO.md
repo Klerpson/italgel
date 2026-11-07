@@ -2,14 +2,14 @@
 
 | URL | Estado | Fecha | Intervención | Peso de medios | SEO/contenido |
 |---|---|---|---|---|---|
-| /insumos-heladeria-medellin/ | Corrección comercial publicada y verificada en vivo | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
+| /insumos-heladeria-medellin/ | Versión anterior verificada; pulido local validado, despliegue pendiente | 2026-11-05 | Fotos de empaques MEC3/Quella y GIF ilustrativo de preparación de chocolate | Fotos: 34.659 + 43.941 bytes; GIF: 565.298 bytes; alternativa fija: 10.449 bytes | Comparaciones local/pública sin diferencias protegidas frente al remoto actualizado; otras páginas HTML sin cambios |
 | /maquinas-helado-soft/ | Publicado y verificado en vivo | 2026-11-05 | Fotografías reales conservadas; catálogo y servicio técnico en filas equilibradas; esquema GIF de mezcla → equipo → servicio | GIF: 20.158 bytes; alternativa SVG: 2.214 bytes | Comparaciones local/pública sin diferencias protegidas; otras páginas HTML sin cambios |
 | /variegatos-helado/ | Publicado y verificado en vivo | 2026-11-05 | Envase Quella y GIF ilustrativo de trabajo por capas; familias del catálogo en columnas equilibradas | GIF: 584.104 bytes; fotograma: 9.498 bytes; foto de envase existente: 43.941 bytes | Comparaciones local/pública sin cambios de contenido/SEO; HTML de otras páginas sin cambios |
 
 | /maquinas-helado-industrial/ | Publicado y verificado en vivo | 2026-11-06 | Cabecera real Valmar, GIF de manejo del producto y ajuste de precarga | GIF: 792.323 bytes; fotograma: 6.334 bytes; cabecera: hasta 87.731 bytes | Comparación protegida pública correcta; precarga y red verificadas |
 | /vitrinas-congeladores/ | Publicado y verificado en vivo | 2026-11-07 | Cabecera real July, vista EasyBox, tarjetas equilibradas y GIF al cierre de comparativa | GIF: 686.507 bytes; fotograma: 6.818 bytes; fotos: hasta 60.428 y 42.426 bytes | Comparaciones local/pública sin diferencias protegidas; otros HTML sin cambios; 41 destinos internos correctos |
 
-| /productos-quella/ | Publicado y verificado en vivo | 2026-11-07 | Envase oficial en cabecera, tres fotos de catálogo y GIF propio de aplicación en el kit | Cabecera: 12.458/19.104/51.828 bytes; GIF: 714.825 bytes; poster: 13.394 bytes; fotos nuevas hasta 69.397/117.040 bytes | Comparación protegida pública correcta; otros HTML sin cambios; 41 destinos internos correctos |
+| /productos-quella/ | Pulido local validado; despliegue pendiente | 2026-11-07 | Envase oficial en cabecera, tres fotos de catálogo y GIF propio de aplicación en el kit | Cabecera: 12.458/19.104/51.828 bytes; GIF: 714.825 bytes; poster: 13.394 bytes; fotos nuevas hasta 69.397/117.040 bytes | Comparación protegida pública correcta; otros HTML sin cambios; 41 destinos internos correctos |
 
 ## Piloto Medellín
 
@@ -202,3 +202,6 @@ Quella: tres fotos en las tarjetas del catálogo, dos adicionales y una traslada
 Medellín: se detectaron dos fotos seguidas en móvil; se conserva la foto MEC3 en introducción y se traslada el mismo envase Quella al proceso de pedido. Sin añadir activos. Cuatro pasos en dos filas desde 768 y una columna móvil.
 
 Validación local: Jekyll correcto; comparación protegida de seis fichas sin diferencias y ningún otro HTML modificado. Quella: siete combinaciones de pantalla/densidad y dos modos sin JS correctos; GIF no solicitado al abrir en esos siete perfiles, movimiento reducido y activación manual correctos. Medellín: cuatro anchos 320/390/768/1440 correctos; medios separados por texto, sin imágenes rotas ni desbordamientos. Recorridos completos de ambas versiones finales inspeccionados en móvil/escritorio. Pendiente publicación y repetición pública; no se declara mejora de Core Web Vitals.
+
+
+Publicación del pulido: commit 91f9ff9de3c36b6e25ad23132ce92619b58252ab enviado a main. Workflow 42398846848: build correcto; primer despliegue agotó 600 segundos en syncing_files. Reintento de deploy agotó otros 600 segundos con estado vacío, ambos cancelados por actions/deploy-pages. La URL pública conserva la versión anterior, comprobado también sin caché. Se inicia una compilación nueva con un SHA diferente, sin cambiar configuración ni implementación visual. No se marca verificado en vivo ni se comienza Bases hasta cerrar. Scripts de revisión pública preparados; aún no ejecutados contra el pulido publicado.
