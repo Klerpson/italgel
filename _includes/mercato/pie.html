@@ -16,6 +16,11 @@
         {%- endfor %}
       </ul>
     </nav>
+    <ul role="list" aria-label="Insumos para heladería por ciudad">
+      {%- for item in site.data.navegacion.ciudades %}
+      <li><a href="{{ item.url | relative_url }}" title="{{ item.titulo }}">{{ item.titulo }}</a></li>
+      {%- endfor %}
+    </ul>
     <ul role="list">
       {%- for red in site.redes %}
       <li><a href="{{ red.url }}" rel="me noopener" target="_blank" title="Italgel en {{ red.nombre }} (abre en una pestaña nueva)">{{ red.nombre }}</a></li>

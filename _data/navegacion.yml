@@ -96,6 +96,16 @@ principal:
     url: /blog/
   - titulo: Contacto
     url: /contacto/
+# Pie: páginas de insumos por ciudad (enlazado interno, 2026-11-07).
+ciudades:
+  - titulo: Insumos para heladería en Medellín
+    url: /insumos-heladeria-medellin/
+  - titulo: Insumos para heladería en Cali
+    url: /insumos-heladeria-cali/
+  - titulo: Insumos para heladería en Barranquilla
+    url: /insumos-heladeria-barranquilla/
+  - titulo: Insumos para heladería en Bucaramanga
+    url: /insumos-heladeria-bucaramanga/
 legal:
   - titulo: Nosotros
     url: /nosotros/
