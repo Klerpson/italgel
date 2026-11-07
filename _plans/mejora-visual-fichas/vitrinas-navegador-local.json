@@ -1,0 +1,1298 @@
+{
+  "mode": "local",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 291311,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1028098,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+            "bytes": 13896
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox-400.avif",
+            "bytes": 20314
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-280.avif",
+            "bytes": 16070
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+          "width": 320,
+          "height": 286
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+          "width": 288,
+          "height": 195
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 288,
+          "height": 152
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox-400.avif",
+          "width": 248,
+          "height": 256
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-280.avif",
+          "width": 248,
+          "height": 310
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -3830.359375,
+            "width": 288
+          },
+          {
+            "x": 16,
+            "y": -2982.9375,
+            "width": 288
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 305207,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+            "bytes": 13896
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1037456,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+            "bytes": 13896
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox-400.avif",
+            "bytes": 20314
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-400.avif",
+            "bytes": 25428
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+          "width": 390,
+          "height": 349
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+          "width": 358,
+          "height": 243
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 358,
+          "height": 189
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox-400.avif",
+          "width": 318,
+          "height": 328
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-400.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -3309.140625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -2566.890625,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 337147,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+            "bytes": 13896
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1091508,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+            "bytes": 13896
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-400.avif",
+            "bytes": 25428
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 768,
+          "height": 687
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-400.avif",
+          "width": 321,
+          "height": 218
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 645,
+          "height": 665
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-400.avif",
+          "width": 291,
+          "height": 363
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 30.71875,
+            "y": -1983.078125,
+            "width": 706.546875
+          },
+          {
+            "x": 30.71875,
+            "y": -1442.671875,
+            "width": 706.546875
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 960,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 622633,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1354882,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+            "bytes": 19030
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox-400.avif",
+            "bytes": 20314
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-400.avif",
+            "bytes": 25428
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+          "width": 406,
+          "height": 364
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 406,
+          "height": 276
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox-400.avif",
+          "width": 321,
+          "height": 331
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-400.avif",
+          "width": 368,
+          "height": 460
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 38.40625,
+            "y": -1517.125,
+            "width": 425.59375
+          },
+          {
+            "x": 496,
+            "y": -1517.125,
+            "width": 425.59375
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 654573,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1426058,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/vitrina-helado.avif",
+            "bytes": 42552
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 611,
+          "height": 546
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 584,
+          "height": 396
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 490,
+          "height": 505
+        },
+        {
+          "src": "/img/vitrina-helado.avif",
+          "width": 560,
+          "height": 544
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -1426.21875,
+            "width": 640
+          },
+          {
+            "x": 736,
+            "y": -1426.21875,
+            "width": 640
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 347653,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1119138,
+        "requests": 14,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+            "bytes": 50970
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/vitrina-helado.avif",
+            "bytes": 42552
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 390,
+          "height": 349
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 358,
+          "height": 243
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 358,
+          "height": 189
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 318,
+          "height": 328
+        },
+        {
+          "src": "/img/vitrina-helado.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 16,
+            "y": -3309.140625,
+            "width": 358
+          },
+          {
+            "x": 16,
+            "y": -2566.890625,
+            "width": 358
+          }
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 664031,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero.avif",
+            "bytes": 60428
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 1435516,
+        "requests": 32,
+        "images": [
+          {
+            "url": "/img/catalogo/vitrinas-easybest-hero.avif",
+            "bytes": 60428
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+            "bytes": 24402
+          },
+          {
+            "url": "/img/animaciones/servicio-cubeta.gif",
+            "bytes": 686507
+          },
+          {
+            "url": "/img/catalogo/easybest-easybox.avif",
+            "bytes": 42426
+          },
+          {
+            "url": "/img/vitrina-helado.avif",
+            "bytes": 42552
+          }
+        ],
+        "gifRequested": true
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "width": 611,
+          "height": 546
+        },
+        {
+          "src": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "width": 584,
+          "height": 396
+        },
+        {
+          "src": "/img/animaciones/servicio-cubeta.gif",
+          "width": 480,
+          "height": 254
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 490,
+          "height": 505
+        },
+        {
+          "src": "/img/vitrina-helado.avif",
+          "width": 560,
+          "height": 544
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "after": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "words": 115
+        },
+        {
+          "before": "/img/catalogo/vitrina-helado-exhibicion-584.avif",
+          "after": "/img/animaciones/servicio-cubeta.gif",
+          "words": 170
+        },
+        {
+          "before": "/img/animaciones/servicio-cubeta.gif",
+          "after": "/img/catalogo/easybest-easybox.avif",
+          "words": 77
+        },
+        {
+          "before": "/img/catalogo/easybest-easybox.avif",
+          "after": "/img/vitrina-helado.avif",
+          "words": 305
+        }
+      ],
+      "groups": [
+        [
+          {
+            "x": 64,
+            "y": -1426.21875,
+            "width": 640
+          },
+          {
+            "x": 736,
+            "y": -1426.21875,
+            "width": 640
+          }
+        ]
+      ],
+      "errors": []
+    }
+  ],
+  "accessible": [
+    {
+      "reduced": false,
+      "javaScript": false,
+      "initialGifRequests": 1,
+      "afterActivation": 1,
+      "pass": true
+    },
+    {
+      "reduced": true,
+      "javaScript": false,
+      "initialGifRequests": 0,
+      "afterActivation": 1,
+      "pass": true
+    }
+  ],
+  "regressions": [],
+  "failures": []
+}

@@ -1945,6 +1945,40 @@
       ],
       "encuadre": "ambiente",
       "sizes_hero": "(min-width: 60rem) 1100px, 100vw"
+    },
+    "/img/catalogo/vitrinas-easybest-hero.avif": {
+      "src": "/img/catalogo/vitrinas-easybest-hero.avif",
+      "width": 894,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero-800.avif",
+          "width": 800
+        },
+        {
+          "src": "/img/catalogo/vitrinas-easybest-hero.avif",
+          "width": 894
+        }
+      ]
+    },
+    "/img/catalogo/easybest-easybox.avif": {
+      "src": "/img/catalogo/easybest-easybox.avif",
+      "width": 773,
+      "height": 797,
+      "variants": [
+        {
+          "src": "/img/catalogo/easybest-easybox-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/easybest-easybox.avif",
+          "width": 773
+        }
+      ]
     }
   }
 }

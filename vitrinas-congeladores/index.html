@@ -7,6 +7,7 @@ description: "Vitrinas para helado artesanal de 8 a 24 bandejas, de -16°C a -18
 h1: "Vitrinas para helado artesanal EasyBest en Colombia"
 intro: La primera impresión visual de tu vitrina determina si un cliente compra 1 bola o 3 bolas
 hero: img/vitrinas-congeladores.avif
+hero_visual: /img/catalogo/vitrinas-easybest-hero.avif
 alt: "Vitrinas para helado refrigeradas, de exhibición en heladerías"
 hero_title: "Vitrinas y congeladores"
 breadcrumb:
@@ -60,7 +61,7 @@ faqs:
     </article>
     
     <h4>Los 4 factores que convierten una vitrina en máquina de vender:</h4>
-    <div class="four_columns">
+    <div class="two_columns filas-pares">
       <article class="text_center flow">
         <div class="icons">
           <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
@@ -101,14 +102,19 @@ faqs:
         <p>Bandejas escalonadas con ángulo 15-20° hacia el cliente. El helado de la parte posterior se ve igual de bien que el frontal. Vitrinas planas: solo se ven bien las 2 primeras filas.</p>
       </article>
     </div>
+    <div class="columnas">
+      {% include mercato/helado-animado.html demo=site.data.animacion_vitrinas nuevo=true ancla="animacion-vitrinas" activar_movimiento=true %}
+    </div>
   </section>
 
   <!-- Catálogo por capacidad -->
   <section class="wrapper center">
     <h2 class="text_center">Catálogo de vitrinas según capacidad de tu heladería</h2>
 
-    <div class="products-grid">
+    <div class="flow catalogo-vitrinas">
       <div class="product-category">
+        <div class="columnas columnas--7-5 columnas--centro">
+        <div class="flow">
         <h3>Serie compacta — EasyBest EasyBox 8</h3>
         <p>Para espacios reducidos sin comprometer presentación. Formato pozzetti tradicional italiano, 8 cubetas · 115×71×125cm.</p>
         <ul>
@@ -120,7 +126,14 @@ faqs:
         </ul>
         <p><small>Inversión aproximada: consultar disponibilidad</small></p>
         {% include boton.html num="2" text="Cotizar EasyBox 8" location="cotizar-easybox-8" %}
+        </div>
+        <div class="foto-fiel" data-visual-nuevo>
+          {% include mercato/imagen-catalogo.html origen="/img/catalogo/easybest-easybox.avif" alt="Vista de la familia EasyBest EasyBox con cubetas pozzetti y tapas individuales" contexto="body" %}
+        </div>
+        </div>
       </div>
+
+      <div class="two_columns">
 
       <div class="product-category">
         <h3>Serie estándar — EasyBest July 12 de 12 bandejas</h3>
@@ -150,6 +163,7 @@ faqs:
         <p><small>Inversión aproximada: consultar disponibilidad</small></p>
         {% include boton.html num="2" text="Cotizar July 18" location="cotizar-july-18" %}
       </div>
+      </div>
     </div>
 
     <p class="text_center">{% include boton.html num="1" text="Solicitar estudio de viabilidad sin costo" %}</p>
@@ -159,7 +173,8 @@ faqs:
   <section class="wrapper flow center">
     <h2 class="text_center">Comparativa: ¿qué capacidad de vitrina necesitas según tu oferta de sabores?</h2>
     
-    <table>
+    <p class="tabla-ayuda" id="ayuda-tabla-vitrinas" data-visual-nuevo>Desliza la tabla para ver todas las columnas. También puedes enfocarla y usar las flechas del teclado.</p>
+    <table tabindex="0" aria-label="Comparativa de capacidades de vitrinas" aria-describedby="ayuda-tabla-vitrinas">
       <thead>
         <tr>
           <th>Modelo</th>

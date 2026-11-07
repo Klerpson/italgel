@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "image": "https://product.hstatic.net/200000079049/product/july12-_-july18-_-july20_59f20d4f286b4565b7e7726ea8255871.jpg",
+    "page": "https://www.unitedvision.com.vn/products/professional-gelato-showcase-july-12-easybest",
+    "identity": "La misma fotografía de familia July se encuentra en la ficha técnica del fabricante EasyBest. No se utiliza como foto diferenciada de July 18.",
+    "manufacturer_sheet": "https://todoequipos.net/index.php?download_id=760&product_id=1275&route=product%2Fdownload",
+    "sha256": "67ac2ef6ffcf1665a7234001b6640848d77a95013d4dab0477b7824ba3b83f0f"
+  },
+  "easybox": {
+    "image": "https://product.hstatic.net/200000079049/product/easybox6_easybox8_3a604499a2564565a59aa22f8135bd58.jpg",
+    "page": "https://www.unitedvision.com.vn/products/gelato-easy-box-8-easybest",
+    "identity": "Fotografía comercial de la familia EasyBox 6/8; no se redibuja ni se atribuyen accesorios o medidas a partir de ella.",
+    "sha256": "a1ff616dc27135f559487fee54914ef5a44024b204a71f21b6e0dde65540cb8f"
+  },
+  "processing": "Recorte de margen blanco exterior con 35 px de resguardo; AVIF calidad 78. No se amplía la fuente. Se conserva la imagen social original. Se elimina únicamente el fondo blanco exterior conectado a los bordes, conservando blancos interiores y detalles del equipo. AVIF con alfa; no se usa mezcla CSS para simular transparencia.",
+  "gif": {
+    "src": "/img/animaciones/servicio-cubeta.gif",
+    "poster": "/img/animaciones/servicio-cubeta-poster.avif",
+    "width": 480,
+    "height": 254,
+    "frames": 12,
+    "duration_ms": 2000,
+    "bytes": 686507,
+    "alt": "Espátula sirviendo helado desde una cubeta de acero inoxidable",
+    "caption": "Manejo del helado en cubeta. Escena ilustrativa; no muestra un modelo EasyBest específico.",
+    "control_label": "Reproducir la escena de manejo en cubeta",
+    "source": {
+      "platform": "Pexels",
+      "author": "ROMAN ODINTSOV",
+      "page": "https://www.pexels.com/video/person-scooping-gelato-5660586/",
+      "download": "https://videos.pexels.com/video-files/5660586/5660586-uhd_4096_2160_30fps.mp4?download=1",
+      "license": "https://www.pexels.com/license/",
+      "sha256": "ae7efc836f2b2ba10a59d3527f30a77120c85aa0ff1308b3c77c9a1b27db937d"
+    },
+    "processing": {
+      "start_seconds": 0,
+      "seconds": 2,
+      "fps": 6,
+      "width": 480,
+      "colors": 256,
+      "dither": "none",
+      "denoise": "hqdn3d=2:2:3:3"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "src": "/img/animaciones/servicio-cubeta.gif",
+  "poster": "/img/animaciones/servicio-cubeta-poster.avif",
+  "width": 480,
+  "height": 254,
+  "frames": 12,
+  "duration_ms": 2000,
+  "bytes": 686507,
+  "alt": "Espátula sirviendo helado desde una cubeta de acero inoxidable",
+  "caption": "Manejo del helado en cubeta. Escena ilustrativa; no muestra un modelo EasyBest específico.",
+  "control_label": "Reproducir la escena de manejo en cubeta",
+  "source": {
+    "platform": "Pexels",
+    "author": "ROMAN ODINTSOV",
+    "page": "https://www.pexels.com/video/person-scooping-gelato-5660586/",
+    "download": "https://videos.pexels.com/video-files/5660586/5660586-uhd_4096_2160_30fps.mp4?download=1",
+    "license": "https://www.pexels.com/license/",
+    "sha256": "ae7efc836f2b2ba10a59d3527f30a77120c85aa0ff1308b3c77c9a1b27db937d"
+  },
+  "processing": {
+    "start_seconds": 0,
+    "seconds": 2,
+    "fps": 6,
+    "width": 480,
+    "colors": 256,
+    "dither": "none",
+    "denoise": "hqdn3d=2:2:3:3"
+  }
+}
