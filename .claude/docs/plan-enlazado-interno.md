@@ -1,39 +1,39 @@
-# Plan de enlazado interno ó ItalGel
+# Plan de enlazado interno ‚Äî ItalGel
 
-Objetivo: distribuir autoridad, mejorar UX y SEO mediante enlaces internos entre **posts**, **p·ginas de productos** y **p·ginas principales** de la tienda.
+Objetivo: distribuir autoridad, mejorar UX y SEO mediante enlaces internos entre **posts**, **p√°ginas de productos** y **p√°ginas principales** de la tienda.
 
 ---
 
 ## 0. Convenciones de enlaces (SEO y accesibilidad)
 
-Al aÒadir enlaces en el contenido (Markdown o HTML) hay que cumplir:
+Al a√±adir enlaces en el contenido (Markdown o HTML) hay que cumplir:
 
 - **URLs internas**: Usar Liquid para que la URL sea correcta con aseurl:
-  - En Markdown: [texto]({{ "/ruta/" | relative_url }} "TÌtulo descriptivo")
-  - En HTML/Liquid: <a href="{{ '/ruta/' | relative_url }}" title="TÌtulo descriptivo">texto</a>
-- **Atributo 	itle**: Incluir en todos los enlaces un 	itle descriptivo (quÈ encontrar· el usuario y, si aplica, menciÛn de ItalGel / Colombia). Mejora SEO y accesibilidad.
-- **Enlaces externos** (p. ej. WhatsApp): AÒadir 	arget="_blank" y el="noopener noreferrer". En Kramdown: [texto](https://... "TÌtulo"){: target="_blank" rel="noopener noreferrer" }.
-- **Texto del enlace**: Descriptivo (evitar "clic aquÌ"). Preferir anclas que describan el destino (ej. "bases para helado en Bogot·", "m·quinas para heladerÌa artesanal").
-- **Im·genes**: Usar elative_url en src cuando se use Liquid, y lt descriptivo siempre.
+  - En Markdown: [texto]({{ "/ruta/" | relative_url }} "T√≠tulo descriptivo")
+  - En HTML/Liquid: <a href="{{ '/ruta/' | relative_url }}" title="T√≠tulo descriptivo">texto</a>
+- **Atributo 	itle**: Incluir en todos los enlaces un 	itle descriptivo (qu√© encontrar√° el usuario y, si aplica, menci√≥n de ItalGel / Colombia). Mejora SEO y accesibilidad.
+- **Enlaces externos** (p. ej. WhatsApp): A√±adir 	arget="_blank" y el="noopener noreferrer". En Kramdown: [texto](https://... "T√≠tulo"){: target="_blank" rel="noopener noreferrer" }.
+- **Texto del enlace**: Descriptivo (evitar "clic aqu√≠"). Preferir anclas que describan el destino (ej. "bases para helado en Bogot√°", "m√°quinas para helader√≠a artesanal").
+- **Im√°genes**: Usar elative_url en src cuando se use Liquid, y lt descriptivo siempre.
 
 ---
 
 ## 1. Inventario de URLs
 
-### 1.1 P·ginas principales (hub / corporativas)
+### 1.1 P√°ginas principales (hub / corporativas)
 
-| URL | TÌtulo / rol |
+| URL | T√≠tulo / rol |
 |-----|----------------|
 | / | Inicio |
 | /blog/ | Blog (hub de contenido) |
-| /insumos/ | Cat·logo de insumos |
-| /equipos/ | M·quinas y equipos |
+| /insumos/ | Cat√°logo de insumos |
+| /equipos/ | M√°quinas y equipos |
 | /contacto/ | Contacto |
 | /nosotros/ | Nosotros |
 
-### 1.2 P·ginas de productos (por tema)
+### 1.2 P√°ginas de productos (por tema)
 
-**M·quinas para helado**
+**M√°quinas para helado**
 
 | URL | Enlazar desde |
 |-----|----------------|
@@ -51,7 +51,7 @@ Al aÒadir enlaces en el contenido (Markdown o HTML) hay que cumplir:
 
 | URL | Enlazar desde |
 |-----|----------------|
-| /bases-helado-colombia/ | Blog, m·quinas, equipos |
+| /bases-helado-colombia/ | Blog, m√°quinas, equipos |
 | /pastas-sabores-helado/ | Blog, bases, equipos |
 | /variegatos-helado/ | Blog, bases, toppings |
 | /granelas-decoracion/ | Blog, toppings, variegatos |
@@ -59,14 +59,14 @@ Al aÒadir enlaces en el contenido (Markdown o HTML) hay que cumplir:
 
 ### 1.3 Posts del blog
 
-| URL | Tema principal | Productos y p·ginas a enlazar |
+| URL | Tema principal | Productos y p√°ginas a enlazar |
 |-----|----------------|-------------------------------|
 | /blog/como-calcular-overrun-helado-artesanal/ | Overrun | /bases-helado-colombia/, /maquinas-helado-artesanal/ |
 | /blog/que-es-gelato-vs-helado-diferencias/ | Gelato vs Helado | /bases-helado-colombia/, /pastas-sabores-helado/ |
 | /blog/toppings-para-helado-mas-rentables/ | Toppings | /granelas-decoracion/, /coberturas-salsas-helado/ |
-| /blog/pasteurizacion-mezcla-helado-correcta/ | PasteurizaciÛn | /bases-helado-colombia/, /maquinas-helado-artesanal/ |
+| /blog/pasteurizacion-mezcla-helado-correcta/ | Pasteurizaci√≥n | /bases-helado-colombia/, /maquinas-helado-artesanal/ |
 | /blog/rentabilidad-heladeria-colombia/ | Rentabilidad | /equipos/, /insumos/ |
-| /blog/como-abrir-una-heladeria-en-colombia/ | Abrir heladerÌa | /equipos/, /insumos/, /contacto/ |
+| /blog/como-abrir-una-heladeria-en-colombia/ | Abrir helader√≠a | /equipos/, /insumos/, /contacto/ |
 
 ---
 
@@ -74,29 +74,29 @@ Al aÒadir enlaces en el contenido (Markdown o HTML) hay que cumplir:
 
 ### 2.1 Desde el sitio hacia el blog
 
-- **Inicio**: enlace a "Blog" (ya en nav) y opcionalmente 1ñ2 posts destacados o "⁄ltimos artÌculos".
-- **Equipos / Insumos**: en la intro o al final, bloque "Lee en el blog" con posts relacionados (tÈcnicas, recetas, rentabilidad).
-- **Cada p·gina de producto**: al menos 1 enlace contextual a un post relacionado (si existe) + "M·s en el blog" ? /blog/.
+- **Inicio**: enlace a "Blog" (ya en nav) y opcionalmente 1‚Äì2 posts destacados o "√öltimos art√≠culos".
+- **Equipos / Insumos**: en la intro o al final, bloque "Lee en el blog" con posts relacionados (t√©cnicas, recetas, rentabilidad).
+- **Cada p√°gina de producto**: al menos 1 enlace contextual a un post relacionado (si existe) + "M√°s en el blog" ? /blog/.
 
 ### 2.2 Desde el blog hacia productos y principales
 
-- **Cada post**: mÌnimo 2ñ3 enlaces internos a productos o p·ginas principales (no solo "contacto").
-- **Anchor text**: variado y descriptivo (ej. "bases para helado artesanal en Colombia", "m·quinas para heladerÌa profesional").
-- **Al final del post**: CTA a contacto/WhatsApp y, si aplica, a la p·gina de producto principal del tema.
+- **Cada post**: m√≠nimo 2‚Äì3 enlaces internos a productos o p√°ginas principales (no solo "contacto").
+- **Anchor text**: variado y descriptivo (ej. "bases para helado artesanal en Colombia", "m√°quinas para helader√≠a profesional").
+- **Al final del post**: CTA a contacto/WhatsApp y, si aplica, a la p√°gina de producto principal del tema.
 
-### 2.3 Entre productos (misma categorÌa o complementarios)
+### 2.3 Entre productos (misma categor√≠a o complementarios)
 
-- **M·quinas**: en m·quinas artesanales enlazar a industriales, soft, vitrinas.
+- **M√°quinas**: en m√°quinas artesanales enlazar a industriales, soft, vitrinas.
 - **Insumos**: en bases enlazar a pastas, variegatos; en toppings enlazar a granelas, coberturas.
-- **Equipos**: en vitrinas enlazar a m·quinas; en m·quinas enlazar a vitrinas.
+- **Equipos**: en vitrinas enlazar a m√°quinas; en m√°quinas enlazar a vitrinas.
 
 ### 2.4 Hub ? productos
 
-- **Equipos** (/equipos/): ya enlaza a productos vÌa datos. Revisar que cada url sea la URL real del producto.
-- **Insumos** (/insumos/): ya enlaza a productos vÌa datos. Revisar que cada url sea la URL real del producto.
-- AÒadir en la p·gina, si no existe, un p·rrafo con enlace a "Blog" y a "Contacto".
+- **Equipos** (/equipos/): ya enlaza a productos v√≠a datos. Revisar que cada url sea la URL real del producto.
+- **Insumos** (/insumos/): ya enlaza a productos v√≠a datos. Revisar que cada url sea la URL real del producto.
+- A√±adir en la p√°gina, si no existe, un p√°rrafo con enlace a "Blog" y a "Contacto".
 
-### 2.5 P·ginas principales entre sÌ
+### 2.5 P√°ginas principales entre s√≠
 
 - **Nosotros**: enlace a equipos, insumos, blog, contacto.
 - **Contacto**: enlace a equipos, insumos, blog.
@@ -104,73 +104,73 @@ Al aÒadir enlaces en el contenido (Markdown o HTML) hay que cumplir:
 
 ---
 
-## 3. Matriz de enlaces por tipo de p·gina
+## 3. Matriz de enlaces por tipo de p√°gina
 
-### 3.1 Posts ? DÛnde enlazar (mÌnimo recomendado)
+### 3.1 Posts ? D√≥nde enlazar (m√≠nimo recomendado)
 
-| Post | Productos a enlazar | Otras p·ginas |
+| Post | Productos a enlazar | Otras p√°ginas |
 |------|---------------------|----------------|
-| CÛmo calcular overrun | bases-helado-colombia, maquinas-helado-artesanal | equipos, blog, contacto |
+| C√≥mo calcular overrun | bases-helado-colombia, maquinas-helado-artesanal | equipos, blog, contacto |
 | Gelato vs Helado | bases-helado-colombia, pastas-sabores-helado | insumos, blog, contacto |
 | Toppings rentables | granelas-decoracion, coberturas-salsas-helado | insumos, blog, contacto |
-| PasteurizaciÛn | bases-helado-colombia, maquinas-helado-artesanal | equipos, blog, contacto |
-| Rentabilidad heladerÌa | equipos, insumos | blog, contacto |
-| Abrir heladerÌa | equipos, insumos | blog, contacto |
+| Pasteurizaci√≥n | bases-helado-colombia, maquinas-helado-artesanal | equipos, blog, contacto |
+| Rentabilidad helader√≠a | equipos, insumos | blog, contacto |
+| Abrir helader√≠a | equipos, insumos | blog, contacto |
 
-### 3.2 Productos ? DÛnde enlazar (mÌnimo recomendado)
+### 3.2 Productos ? D√≥nde enlazar (m√≠nimo recomendado)
 
-- **Todas**: Inicio (/), Cat·logo correspondiente (/equipos/ o /insumos/), Contacto (o CTA).
-- **Por tema**: ver tabla de 1.2; adem·s cada producto enlaza a 1ñ2 productos relacionados y, si hay post, al post.
+- **Todas**: Inicio (/), Cat√°logo correspondiente (/equipos/ o /insumos/), Contacto (o CTA).
+- **Por tema**: ver tabla de 1.2; adem√°s cada producto enlaza a 1‚Äì2 productos relacionados y, si hay post, al post.
 
-### 3.3 Principales ? DÛnde enlazar
+### 3.3 Principales ? D√≥nde enlazar
 
 - **Inicio**: Blog, Equipos, Insumos, Contacto.
-- **Equipos**: Blog (bloque "Lee m·s"), cada producto vÌa datos, Contacto.
-- **Insumos**: Blog (bloque "Lee m·s"), cada producto vÌa datos, Contacto.
+- **Equipos**: Blog (bloque "Lee m√°s"), cada producto v√≠a datos, Contacto.
+- **Insumos**: Blog (bloque "Lee m√°s"), cada producto v√≠a datos, Contacto.
 - **Blog**: Equipos, Insumos, Contacto.
 
 ---
 
-## 4. ImplementaciÛn tÈcnica (Jekyll)
+## 4. Implementaci√≥n t√©cnica (Jekyll)
 
 ### 4.1 Posts
 
 - Mantener en el contenido del post enlaces manuales en el cuerpo del texto (Markdown) a productos y a /equipos/, /insumos/, /blog/, /contacto/.
-- El layout post.html ya muestra "ArtÌculos relacionados" por category; asegurar que cada post tenga category (singular) coherente para que ese bloque sea ˙til.
-- Opcional: en post.html, aÒadir secciÛn "Productos relacionados" que lea desde front matter, por ejemplo:
+- El layout post.html ya muestra "Art√≠culos relacionados" por category; asegurar que cada post tenga category (singular) coherente para que ese bloque sea √∫til.
+- Opcional: en post.html, a√±adir secci√≥n "Productos relacionados" que lea desde front matter, por ejemplo:
   - elated_products: [bases-helado-colombia, maquinas-helado-artesanal]
   - y se generen enlaces a /bases-helado-colombia/, etc.
 
 ### 4.2 Productos
 
-- En cada p·gina de producto, en el HTML de contenido, aÒadir un bloque tipo "Productos relacionados" o "Lee en el blog" con enlaces a 1ñ2 productos y 0ñ1 post, ya sea con include parametrizado o con variables en front matter (ej. elated_products, elated_posts).
+- En cada p√°gina de producto, en el HTML de contenido, a√±adir un bloque tipo "Productos relacionados" o "Lee en el blog" con enlaces a 1‚Äì2 productos y 0‚Äì1 post, ya sea con include parametrizado o con variables en front matter (ej. elated_products, elated_posts).
 
 ### 4.3 Hubs (Equipos / Insumos)
 
 - Comprobar que los datos usen URLs correctas (ej. url: /maquinas-helado-artesanal/).
-- AÒadir secciÛn "ArtÌculos del blog" con enlaces a los 3ñ5 ˙ltimos posts o a posts con tag/categorÌa relacionada.
+- A√±adir secci√≥n "Art√≠culos del blog" con enlaces a los 3‚Äì5 √∫ltimos posts o a posts con tag/categor√≠a relacionada.
 
-### 4.4 NavegaciÛn
+### 4.4 Navegaci√≥n
 
-- El men˙ (
+- El men√∫ (
 av.html) ya enlaza a Blog, Equipos, Insumos, Contacto, Nosotros. Mantener y no duplicar enlaces en el mismo bloque.
 
 ---
 
 ## 5. Checklist por nuevo contenido
 
-- [ ] **Nuevo post**: AÒadir 2ñ3 enlaces a productos/p·ginas principales en el cuerpo; revisar category para "ArtÌculos relacionados".
-- [ ] **Nueva p·gina de producto**: AÒadir enlaces a Inicio, Cat·logo correspondiente, 1ñ2 productos relacionados, 0ñ1 post relacionado, Contacto/CTA.
-- [ ] **Nueva p·gina principal**: Enlazar a Blog, Equipos, Insumos, Contacto y a la secciÛn que corresponda.
+- [ ] **Nuevo post**: A√±adir 2‚Äì3 enlaces a productos/p√°ginas principales en el cuerpo; revisar category para "Art√≠culos relacionados".
+- [ ] **Nueva p√°gina de producto**: A√±adir enlaces a Inicio, Cat√°logo correspondiente, 1‚Äì2 productos relacionados, 0‚Äì1 post relacionado, Contacto/CTA.
+- [ ] **Nueva p√°gina principal**: Enlazar a Blog, Equipos, Insumos, Contacto y a la secci√≥n que corresponda.
 
 ---
 
 ## 6. Resumen de prioridades
 
 1. **Alta**: Posts con enlaces a productos y a /equipos/, /insumos/ y /contacto/.
-2. **Alta**: Productos con enlace a hub correspondiente y a 1ñ2 productos relacionados.
-3. **Media**: Bloque "Blog" / "ArtÌculos relacionados" en Equipos, Insumos y en productos clave.
-4. **Media**: Coherencia de category en posts para el bloque "ArtÌculos relacionados" del layout.
+2. **Alta**: Productos con enlace a hub correspondiente y a 1‚Äì2 productos relacionados.
+3. **Media**: Bloque "Blog" / "Art√≠culos relacionados" en Equipos, Insumos y en productos clave.
+4. **Media**: Coherencia de category en posts para el bloque "Art√≠culos relacionados" del layout.
 5. **Baja**: Enlaces desde Nosotros / FAQ a productos y blog.
 
-Documento de referencia. Para aplicar enlaces concretos en cada post o producto, usar este plan como guÌa y editar el contenido o el front matter seg˙n la tabla correspondiente.
+Documento de referencia. Para aplicar enlaces concretos en cada post o producto, usar este plan como gu√≠a y editar el contenido o el front matter seg√∫n la tabla correspondiente.

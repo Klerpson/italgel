@@ -123,7 +123,7 @@ El dinero para abrir una heladería en Colombia depende del modelo, y se calcula
 Los insumos de una heladería artesanal se agrupan en cuatro familias, y la cantidad del primer mes depende del volumen que proyectes vender:
 
 - **Bases:** [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) como Base 50 o Neutralin Plus para gelato y cremas, y Supergelmix para helados de fruta.
-- **Pastas de sabor:** vainilla, chocolate, fresa y arequipe cubren los sabores clásicos; [pasta de vainilla bourbon]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) y [pasta de pistacho]({{ '/pastas-sabores-helado/pasta-pistacho/' | relative_url }}) suman sabores de carta premium.
+- **Pastas de sabor:** vainilla, chocolate, fresa y arequipe cubren los [sabores clásicos]({{ '/pastas-sabores-helado/pastas-clasicas/' | relative_url }} "Pastas clásicas para helado MEC3"); [pasta de vainilla bourbon]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) y [pasta de pistacho]({{ '/pastas-sabores-helado/pasta-pistacho/' | relative_url }}) suman sabores de carta premium.
 - **Variegatos:** [variegatos para vetear el helado]({{ '/variegatos-helado/' | relative_url }}) de fruta, chocolate o caramelo.
 - **Coberturas y salsas:** para copas y conos.
 

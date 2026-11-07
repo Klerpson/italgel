@@ -36,7 +36,7 @@ faq:
     a: "Porque una salsa común no está formulada para el congelador: se cristaliza y endurece a la temperatura de la vitrina. Un variegato tiene una fórmula pensada para mantenerse maleable dentro del helado congelado."
 ---
 
-**En resumen:** Un variegato para helado es una salsa formulada para seguir blanda dentro del helado congelado, que se vierte entre capas al envasarlo y forma vetas de color y sabor. La palabra es italiana y describe algo de varios colores dispuestos en franjas. Se diferencia de un topping, que va encima al servir, y de una salsa común, que se endurece en el congelador. Italgel distribuye variegatos Quella y MEC3 para heladería.
+**En resumen:** Un variegato para helado es una [salsa formulada para seguir blanda]({{ '/variegatos-helado/diferencia-entre-variegato-y-salsa/' | relative_url }} "Diferencia entre variegato y salsa para helado") dentro del helado congelado, que se vierte entre capas al envasarlo y forma vetas de color y sabor. La palabra es italiana y describe algo de varios colores dispuestos en franjas. Se diferencia de un topping, que va encima al servir, y de una salsa común, que se endurece en el congelador. Italgel distribuye variegatos Quella y MEC3 para heladería.
 
 ---
 
@@ -101,6 +101,6 @@ Para calcular si te conviene, divide el precio del envase entre los litros de he
 
 ## Dónde comprar variegatos para helado en Colombia
 
-Italgel distribuye variegatos italianos Quella y MEC3 para heladería, junto con las coberturas y salsas Quella y Fabbri. El catálogo completo, con los sabores disponibles, está en la página de [variegatos para helado]({{ '/variegatos-helado/' | relative_url }}).
+Italgel distribuye variegatos italianos [Quella]({{ '/productos-quella/' | relative_url }} "Productos Quella para heladería") y MEC3 para heladería, junto con las coberturas y salsas Quella y Fabbri. El catálogo completo, con los sabores disponibles, está en la página de [variegatos para helado]({{ '/variegatos-helado/' | relative_url }}).
 
 Para que la veta luzca, el variegato necesita una base estable: las [bases para helado MEC3]({{ '/bases-helado-colombia/' | relative_url }}) traen el sistema de estabilizantes en la fórmula.

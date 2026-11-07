@@ -1,0 +1,34 @@
+{%- comment -%}
+  Banda "Guías del blog" de una categoría (_plans/estrategia/05-BANDAS-CATEGORIAS-FICHAS.md §4).
+  Lista los posts cuyo `producto` (clave de _data/blog.yml) apunta a esta categoría o a una página
+  que cuelga de ella. Enlaza la categoría con sus guías; cada guía enlaza de vuelta con su caja de
+  producto. Sin guías para la categoría, no pinta nada.
+{%- endcomment -%}
+{%- assign _claves = "" | split: "" -%}
+{%- assign _corto = "" -%}
+{%- for _p in site.data.blog.productos -%}
+  {%- assign _u = _p[1].url -%}
+  {%- if _u and _u != "/" and page.url contains _u -%}
+    {%- assign _claves = _claves | push: _p[0] -%}
+    {%- if _corto == "" -%}{%- assign _corto = _p[1].corto -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if _claves.size > 0 -%}
+{%- assign _guias = "" | split: "" -%}
+{%- for p in site.posts -%}{%- if _claves contains p.producto -%}{%- assign _guias = _guias | push: p -%}{%- endif -%}{%- endfor -%}
+{%- if _guias.size > 0 %}
+<section class="banda banda--papel" aria-labelledby="titulo-guias" data-pagefind-ignore>
+  <div class="wrapper">
+    <div class="encabezado">
+      <h2 id="titulo-guias">Guías de Italgel para elegir y usar {{ _corto }}</h2>
+      <a class="enlace-flecha" href="{{ '/blog/' | relative_url }}" title="Ver todas las guías del blog">Ver todas las guías</a>
+    </div>
+    <div class="rejilla rejilla--ancha rejilla--fija">
+      {%- for p in _guias limit: 3 %}
+      {% include mercato/baldosa.html url=p.url img=p.hero alt=p.alt titulo=p.h1 meta=p.description clase="baldosa--foto baldosa--apaisada" ancho=p.hero_w alto=p.hero_h %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+{%- endif -%}

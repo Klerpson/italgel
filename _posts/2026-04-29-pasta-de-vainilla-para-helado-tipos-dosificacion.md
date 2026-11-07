@@ -109,4 +109,4 @@ La vainilla es el sabor que más se combina en una heladería: sirve de base par
 
 Para calcular el costo de la pasta por kilo de mezcla, multiplica el precio del kilo de pasta por la dosis en kilos: con 25 g por kilo (0,025 kg), es el precio del kilo de pasta dividido entre 40.
 
-La [pasta de vainilla MEC3]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) se consigue con Italgel en Colombia, con entregas en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga; para otras ciudades, se consulta el envío.
+La [pasta de vainilla MEC3]({{ '/pastas-sabores-helado/pasta-vainilla/' | relative_url }}) se consigue con Italgel en Colombia, con entregas en Bogotá, [Medellín]({{ '/insumos-heladeria-medellin/' | relative_url }} "Insumos para heladería en Medellín"), [Cali]({{ '/insumos-heladeria-cali/' | relative_url }} "Insumos para heladería en Cali"), [Barranquilla]({{ '/insumos-heladeria-barranquilla/' | relative_url }} "Insumos para heladería en Barranquilla") y [Bucaramanga]({{ '/insumos-heladeria-bucaramanga/' | relative_url }} "Insumos para heladería en Bucaramanga"); para otras ciudades, se consulta el envío.

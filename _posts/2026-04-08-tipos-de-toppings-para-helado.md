@@ -130,4 +130,4 @@ Para empezar bastan cinco: granela de chocolate, granela de almendra, salsa de c
 
 Italgel no vende toppings sueltos ni granelas. Distribuye las salsas y coberturas con las que se arman los toppings de una heladería: coberturas y salsas Quella y Fabbri en su línea de [coberturas y salsas para helado]({{ '/coberturas-salsas-helado/' | relative_url }}), con la línea Quella y Fiordi en presentaciones mayoristas de cubeta de 5 kg y 3 kg, y los [variegatos para helado]({{ '/variegatos-helado/' | relative_url }}) para el veteado dentro de la cubeta.
 
-Italgel entrega en Bogotá, Medellín, Cali, Barranquilla y Bucaramanga; para otras ciudades, consulta el envío.
+Italgel entrega en Bogotá, [Medellín]({{ '/insumos-heladeria-medellin/' | relative_url }} "Insumos para heladería en Medellín"), [Cali]({{ '/insumos-heladeria-cali/' | relative_url }} "Insumos para heladería en Cali"), [Barranquilla]({{ '/insumos-heladeria-barranquilla/' | relative_url }} "Insumos para heladería en Barranquilla") y [Bucaramanga]({{ '/insumos-heladeria-bucaramanga/' | relative_url }} "Insumos para heladería en Bucaramanga"); para otras ciudades, consulta el envío.

@@ -63,7 +63,7 @@ El gelato lleva menos grasa láctea que el helado de estilo americano: usa más 
 
 Esa diferencia explica algo que los heladeros conocen por experiencia: los sabores de fruta se expresan mejor en gelato, y los de chocolate, café y frutos secos se expresan mejor en un helado con más grasa. Muchos compuestos aromáticos de la fruta se perciben mejor en una mezcla con menos grasa, mientras que los del chocolate y los frutos secos son solubles en grasa y la grasa los transporta.
 
-En la práctica, un gelato de limón sale brillante y fresco, y un helado de pistacho o de avellana gana profundidad con más grasa.
+En la práctica, un gelato de limón sale brillante y fresco, y un helado de pistacho o de [avellana]({{ '/pastas-sabores-helado/pastas-premium/' | relative_url }} "Pastas premium para helado: avellana y pistacho") gana profundidad con más grasa.
 
 ## Temperatura de servicio: el gelato se sirve menos frío
 

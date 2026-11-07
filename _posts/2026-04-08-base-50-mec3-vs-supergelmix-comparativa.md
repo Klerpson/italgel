@@ -69,7 +69,7 @@ La presentación y la ficha que maneja Italgel están en la [página de Base 50 
 
 Supergelmix es la base que conviene cuando vas a producir sabores de fruta con agua, sin leche. Su ficha la ubica entre las bases para fruta de MEC3 y la describe como una base que da estructura estable, cremosa y aireada.
 
-La proporción del fabricante es 50 g de Supergelmix, 300 g de azúcar, 1 litro de agua y 100 g de pasta de fruta. Se puede preparar en frío o en caliente. Como no lleva derivados lácteos añadidos, sirve para una línea de fruta sin leche, siempre que la pasta que uses tampoco los tenga.
+La proporción del fabricante es 50 g de Supergelmix, 300 g de azúcar, 1 litro de agua y 100 g de [pasta de fruta]({{ '/pastas-sabores-helado/pastas-fruta/' | relative_url }} "Pastas de fruta para heladería"). Se puede preparar en frío o en caliente. Como no lleva derivados lácteos añadidos, sirve para una línea de fruta sin leche, siempre que la pasta que uses tampoco los tenga.
 
 Si no tienes claro cuál de las dos necesita tu carta, {% include wa-enlace.html text="cuéntale a un asesor de Italgel qué sabores vas a producir" location="post-medio" %} y te dice qué base pedir.
 
