@@ -102,9 +102,6 @@ faqs:
         <p>Bandejas escalonadas con ángulo 15-20° hacia el cliente. El helado de la parte posterior se ve igual de bien que el frontal. Vitrinas planas: solo se ven bien las 2 primeras filas.</p>
       </article>
     </div>
-    <div class="columnas">
-      {% include mercato/helado-animado.html demo=site.data.animacion_vitrinas nuevo=true ancla="animacion-vitrinas" activar_movimiento=true %}
-    </div>
   </section>
 
   <!-- Catálogo por capacidad -->
@@ -217,6 +214,9 @@ faqs:
     </table>
 
     <p><small><i>* Consumo energético calculado con tarifa promedio Bogotá $350 COP/kWh, operación 12 horas/día, 26 días/mes.</i></small></p>
+    <div class="columnas">
+      {% include mercato/helado-animado.html demo=site.data.animacion_vitrinas nuevo=true ancla="animacion-vitrinas" activar_movimiento=true %}
+    </div>
   </section>
 
   <!-- Mantenimiento -->

@@ -25,7 +25,7 @@ const before=process.argv.includes('antes'),mode=before?'antes':process.argv.inc
   if(!before){
    if(layout.groups.length!==1||layout.groups.some(g=>g.length!==2||g.some(c=>c.width<=0)||(test.width>=960&&g.some(c=>Math.abs(c.y-g[0].y)>1))))errors.push('Componentes desalineados');
    const t=p.locator('table');await t.focus();for(let n=0;n<12;n++)await p.keyboard.press('ArrowRight');await p.waitForTimeout(200);
-   const scroll=await t.evaluate(t=>({left:t.scrollLeft,width:t.clientWidth,scroll:t.scrollWidth}));if(scroll.scroll>scroll.width+1&&scroll.left<10)errors.push('Tabla no accesible con teclado');
+   const scroll=await t.evaluate(t=>({left:t.scrollLeft,width:t.clientWidth,scroll:t.scrollWidth}));if(scroll.scroll>scroll.width+1&&scroll.left<10)errors.push('Tabla no accesible con teclado');await t.evaluate(t=>{t.scrollLeft=0});
    if(test.width<768&&!await p.locator('.tabla-ayuda').isVisible())errors.push('Falta indicación móvil de tabla');
    if(!await p.locator('.demo-helado__animada').isVisible()||await p.locator('.demo-helado__estatica').isVisible())errors.push('GIF/fotograma visibles incorrectamente');
    await p.locator('.flotante').evaluate(e=>{e.removeAttribute('data-oculto');e.classList.add('es-invitando')});await p.waitForTimeout(300);
