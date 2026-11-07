@@ -1979,6 +1979,25 @@
           "width": 773
         }
       ]
+    },
+    "/img/catalogo/quella-familia-hero.avif": {
+      "src": "/img/catalogo/quella-familia-hero.avif",
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "src": "/img/catalogo/quella-familia-hero-300.avif",
+          "width": 300
+        },
+        {
+          "src": "/img/catalogo/quella-familia-hero-400.avif",
+          "width": 400
+        },
+        {
+          "src": "/img/catalogo/quella-familia-hero.avif",
+          "width": 800
+        }
+      ]
     }
   }
 }

@@ -9,6 +9,7 @@ intro: Variegatos y coberturas italianas Quella para heladería artesanal en Col
 
 # Imagen hero
 hero: img/quella-family-variegatos.avif
+hero_visual: /img/catalogo/quella-familia-hero.avif
 alt: Productos Quella Family - variegatos y coberturas italianas para helado artesanal distribuidos por Italgel Colombia
 hero_title: "Quella Family"
 
@@ -52,7 +53,7 @@ faqs:
 <section class="wrapper center">
   <h2 class="text_center">Catálogo Quella Family por línea de producto</h2>
 
-  <div class="products-grid">
+  <div class="products-grid filas-locales catalogo-quella">
     <!-- Variegatos Clásicos -->
     <div class="product-category">
       <h3>Línea variegatos clásicos - Los imprescindibles</h3>
@@ -139,7 +140,8 @@ faqs:
 <section class="center flow wrapper">
   <h2 class="text_center">Comparativa: Quella Family vs marcas económicas</h2>
 
-  <table>
+  <p class="tabla-ayuda" id="ayuda-tabla-quella" data-visual-nuevo>Desliza la tabla para ver todas las columnas. También puedes enfocarla y usar las flechas del teclado.</p>
+  <table tabindex="0" aria-label="Comparativa de Quella Family" aria-describedby="ayuda-tabla-quella">
     <thead>
       <tr>
         <th>Característica</th>
@@ -252,7 +254,8 @@ faqs:
 <section class="section">
   <h2>Kit inicial Quella Family recomendado</h2>
 
-  <article class="flex bg_grey_light">
+  <article class="bg_grey_light flow">
+    <div class="columnas columnas--7-5 columnas--centro">
     <div class="flow">
       <h3>Inversión inicial para heladería artesanal (12-18 sabores)</h3>
 
@@ -265,6 +268,13 @@ faqs:
         <li>1 bolsa Croccantino 1kg</li>
       </ul>
 
+    </div>
+    <div style="inline-size: 100%; max-inline-size: 400px; justify-self: center" data-visual-nuevo>
+      {% include mercato/helado-animado.html demo=site.data.animacion_quella nuevo=true ancla="animacion-quella" activar_movimiento=true %}
+    </div>
+    </div>
+    <div class="columnas columnas--7-5 columnas--centro">
+    <div class="flow">
       <p><strong>Inversión total:</strong> ~$285.000 COP</p>
       <p>
         <strong>Rendimiento:</strong> ~90 litros de helado veteado + 50-60
@@ -284,6 +294,7 @@ faqs:
       {% include boton.html num="1" text="Cotizar kit Quella Family" location="cotizar-kit-quella-family" %}
     </div>
     {% include mercato/imagen-catalogo.html origen="/img/variegatos-quella-textura.avif" alt="Vaso de helado con crema de caramelo y chocolate Quella" title="Variegatos Quella Family" contexto="body" %}
+    </div>
   </article>
 </section>
 

@@ -1,0 +1,284 @@
+{
+  "mode": "antes",
+  "results": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 166732,
+        "requests": 10,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-family-variegatos-584.avif",
+            "bytes": 48805
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 252292,
+        "requests": 13,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-family-variegatos-584.avif",
+            "bytes": 48805
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          }
+        ],
+        "gifRequested": false
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-family-variegatos-584.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 318,
+          "height": 398
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-family-variegatos-584.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 79
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 381670,
+        "requests": 22,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-family-variegatos-584.avif",
+            "bytes": 48805
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 462739,
+        "requests": 25,
+        "images": [
+          {
+            "url": "/img/catalogo/quella-family-variegatos-584.avif",
+            "bytes": 48805
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/quella-family-textura.avif",
+            "bytes": 12484
+          },
+          {
+            "url": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+            "bytes": 54418
+          }
+        ],
+        "gifRequested": false
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/catalogo/quella-family-variegatos-584.avif",
+          "width": 584,
+          "height": 584
+        },
+        {
+          "src": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/quella-family-textura.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/variegatos-quella-textura.avif",
+          "width": 560,
+          "height": 544
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/catalogo/quella-family-variegatos-584.avif",
+          "after": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "words": 359
+        },
+        {
+          "before": "/img/catalogo/variegatos-quella-family-textura-560.avif",
+          "after": "/img/quella-family-textura.avif",
+          "words": 187
+        },
+        {
+          "before": "/img/quella-family-textura.avif",
+          "after": "/img/variegatos-quella-textura.avif",
+          "words": 79
+        }
+      ],
+      "groups": [],
+      "errors": []
+    }
+  ],
+  "accessible": [],
+  "regressions": [],
+  "failures": []
+}
