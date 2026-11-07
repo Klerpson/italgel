@@ -1,0 +1,15 @@
+{
+  "cambio_ajeno_integrado": {
+    "commit": "cb18a16fbe88fe7d2bbfb0551132eb632816b141",
+    "source": "_posts/2026-04-08-que-es-el-variegato-para-helado.md",
+    "source_sha256": "a514ea00f52ff84fae8a56760351fe12cc791b039a7564e98a41eca9f9d81b17",
+    "html": "blog/que-es-el-variegato-para-helado/index.html",
+    "reason": "Concurrent remote change removes a broken link; preserved by rebase. Not part of visual campaign."
+  },
+  "mode": "vivo",
+  "cambios_visuales_autorizados": [
+    "Solo recurso visible/dimensiones de cabecera; alt/title conservados"
+  ],
+  "diferencias_protegidas": [],
+  "otras_paginas_html_modificadas": []
+}

@@ -11,7 +11,7 @@
 
 | /productos-quella/ | Pulido publicado y verificado en vivo | 2026-11-07 | Envase oficial en cabecera, tres fotos de catálogo y GIF propio de aplicación en el kit | Cabecera: 12.458/19.104/51.828 bytes; GIF: 714.825 bytes; poster: 13.394 bytes; fotos nuevas hasta 69.397/117.040 bytes | Comparación protegida pública correcta; otros HTML sin cambios; 41 destinos internos correctos |
 
-| /bases-helado-colombia/ | Validado local; publicación en curso | 2026-11-07 | Cabecera ilustrativa continua, GIF dentro de Neutralin, filas de tres y tabla accesible | Hero AVIF 43.022/141.917/263.047 bytes; GIF 604.793; poster 14.587 | Comparación local protegida correcta; otros HTML sin cambios |
+| /bases-helado-colombia/ | Publicado y verificado en vivo | 2026-11-07 | Cabecera ilustrativa continua, GIF dentro de Neutralin, filas de tres y tabla accesible | Hero AVIF 43.022/141.917/263.047 bytes; GIF 604.793; poster 14.587 | Comparación local protegida correcta; otros HTML sin cambios |
 
 ## Piloto Medellín
 
@@ -226,3 +226,8 @@ Build Jekyll correcto; comparación local sin diferencias protegidas salvo recur
 
 
 Sincronización antes de publicar: se detectó cb18a16fbe88fe7d2bbfb0551132eb632816b141 de Julian Franco, que retira un enlace 404 de _posts/2026-04-08-que-es-el-variegato-para-helado.md. Se integró por rebase sin conflicto. El segundo build confirmó únicamente ese HTML ajeno esperado además de Bases; bases-cambio-ajeno.json registra SHA del commit y hash exacto de fuente para distinguirlo de modificaciones de esta campaña. La referencia antes no se sobrescribe. El comprobador verifica la fuente concurrente y declara explícitamente esta excepción; ningún otro HTML cambia.
+
+
+**Cierre Bases: publicado y verificado en vivo.** Commit funcional ec45223 más integración/registro 55475b6219506f44179dc765be505f346b685932; workflow 42402446699 build y deploy correctos. Comparación protegida pública sin diferencias salvo recurso/dimensiones de cabecera autorizado, imagen social y alt/title intactos. Se preservó el cambio ajeno cb18a16, registrado por separado. Siete perfiles públicos y dos modos sin JS correctos; precarga coincide con imagen visible y no solicita collage anterior. GIF ausente de carga inicial en los siete perfiles; movimiento reducido usa poster y permite activación voluntaria. Tres capturas públicas separadas con hashes distintos confirman movimiento real; 318x179 visibles sobre fuente480x270, sin ampliación. Secuencia completa y recorrido público entero en móvil/escritorio inspeccionados, incluidas fronteras, GIF dentro de explicación, catálogo Stevia, tabla restablecida tras teclado, FAQs y cierre. Los 46 destinos internos comprobados responden200 y sus anclas existen.
+
+Transferencia pública propia390/DPR2: 262.985 bytes iniciales y 1.112.824 al recorrer todo, frente a150.636/395.682 antes. Incrementos112.349/717.142 declarados: cabecera más detallada, GIF y poster; no se afirma mejora de Core Web Vitals. Las ocho fotos de contenido conservan su distribución con texto intercalado; se sustituye una cabecera y se suma un GIF. Calidad prioritaria, AVIF responsive, carga diferida de animación y cero CSS/JS nuevos. Capturas/video/ensayos exclusivamente temporales y eliminados al terminar; adjuntos de Camilo conservados. Fuentes, prompt completo de image_gen, proceso y hashes en bases-fuentes.json.

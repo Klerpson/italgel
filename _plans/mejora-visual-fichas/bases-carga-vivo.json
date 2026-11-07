@@ -1,0 +1,16 @@
+{
+  "profile": "390px DPR2, clean browser, own encoded bytes",
+  "before": {
+    "initial": 150636,
+    "full": 395682
+  },
+  "after": {
+    "initial": 262985,
+    "full": 1112824
+  },
+  "delta": {
+    "initial": 112349,
+    "full": 717142
+  },
+  "note": "More detailed hero, GIF and poster added; no CWV improvement claimed."
+}

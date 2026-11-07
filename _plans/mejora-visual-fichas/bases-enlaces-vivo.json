@@ -1,0 +1,327 @@
+{
+  "results": [
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "#contenido",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/#contenido",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/",
+      "status": 200,
+      "final": "https://italgel.com.co/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/bases-helado-colombia/base-50-mec3/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/base-50-mec3/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/bases-helado-colombia/bases-stevia/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/bases-stevia/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/bases-helado-colombia/neutralin-plus/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/neutralin-plus/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/bases-helado-colombia/supergelmix/",
+      "status": 200,
+      "final": "https://italgel.com.co/bases-helado-colombia/supergelmix/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/blog/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/blog/base-50-mec3-vs-supergelmix-comparativa/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/base-50-mec3-vs-supergelmix-comparativa/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/blog/emulsionantes-estabilizantes-helados-heladeria/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/emulsionantes-estabilizantes-helados-heladeria/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/blog/helados-sin-azucar-heladeria-bases-stevia/",
+      "status": 200,
+      "final": "https://italgel.com.co/blog/helados-sin-azucar-heladeria-bases-stevia/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=emulsionante+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=emulsionante+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=insumos+para+helader%C3%ADa",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helado+soft",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=m%C3%A1quina+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=m%C3%A1quina+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=mantecadora+de+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=mantecadora+de+helados",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/buscar/?q=toppings+para+helados",
+      "status": 200,
+      "final": "https://italgel.com.co/buscar/?q=toppings+para+helados",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/coberturas-salsas-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/coberturas-salsas-helado/amarena-fabbri/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/amarena-fabbri/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/coberturas-salsas-helado/salsas-especiales/",
+      "status": 200,
+      "final": "https://italgel.com.co/coberturas-salsas-helado/salsas-especiales/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/contacto/",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/contacto/#pqr",
+      "status": 200,
+      "final": "https://italgel.com.co/contacto/#pqr",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/cruiser/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/cruiser/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/falcon/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/falcon/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/mini-neo/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/mini-neo/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/sequoia-74wt/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/sequoia-74wt/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos-cafe/tank-2/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos-cafe/tank-2/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/equipos/",
+      "status": 200,
+      "final": "https://italgel.com.co/equipos/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/img/animaciones/batido-mezcla-bases.gif",
+      "status": 200,
+      "final": "https://italgel.com.co/img/animaciones/batido-mezcla-bases.gif",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/insumos-heladeria-barranquilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-barranquilla/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/insumos-heladeria-bucaramanga/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-bucaramanga/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/insumos-heladeria-cali/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-cali/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/insumos-heladeria-medellin/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos-heladeria-medellin/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/insumos/",
+      "status": 200,
+      "final": "https://italgel.com.co/insumos/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/legal/",
+      "status": 200,
+      "final": "https://italgel.com.co/legal/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/maquinas-helado-artesanal/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-artesanal/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/maquinas-helado-industrial/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-industrial/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/maquinas-helado-soft/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+      "status": 200,
+      "final": "https://italgel.com.co/maquinas-helado-soft/coldelite-compacta-3/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/nosotros/",
+      "status": 200,
+      "final": "https://italgel.com.co/nosotros/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/pastas-sabores-helado/pasta-pistacho/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-pistacho/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/pastas-sabores-helado/pasta-vainilla/",
+      "status": 200,
+      "final": "https://italgel.com.co/pastas-sabores-helado/pasta-vainilla/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/productos-quella/",
+      "status": 200,
+      "final": "https://italgel.com.co/productos-quella/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/variegatos-helado/",
+      "status": 200,
+      "final": "https://italgel.com.co/variegatos-helado/",
+      "anchor": true
+    },
+    {
+      "route": "/bases-helado-colombia/",
+      "href": "/vitrinas-congeladores/",
+      "status": 200,
+      "final": "https://italgel.com.co/vitrinas-congeladores/",
+      "anchor": true
+    }
+  ],
+  "failures": []
+}
