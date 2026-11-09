@@ -55,7 +55,7 @@ Italgel lo distribuye en Colombia dentro de su línea de [salsas especiales para
 
 ## Tres formas de usar el variegato de whisky en tu heladería
 
-### 1. Veteado en la mantecadora
+### 1. Veteado de whisky en la mantecadora
 
 Es el uso principal del variegato. El procedimiento:
 

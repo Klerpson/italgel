@@ -32,7 +32,7 @@ donde faltan datos concretos se deja marcado [CONFIRMAR CON GURCOFF] en vez
 de rellenar con números inventados.
 -->
 
-## El problema: dos años sin un proveedor confiable
+## Dos años sin un proveedor de máquinas soft confiable
 
 [Heladería GurCoff](https://gurcoff.com) opera en San Agustín y Pitalito, Huila, dos destinos con fuerte movimiento de turismo gastronómico. Antes de trabajar con Italgel, su fundador describe así el problema:
 
@@ -42,7 +42,7 @@ de rellenar con números inventados.
 
 No era un problema de conseguir [una máquina soft]({{ '/maquinas-helado-soft/' | relative_url }}). Era conseguir un proveedor que respondiera cuando algo fallaba, y que enseñara a usar el equipo correctamente — algo que la mayoría de vendedores de maquinaria no ofrece una vez cerrada la venta.
 
-## Qué cambió con la asesoría técnica
+## Qué cambió con la asesoría técnica en uso y mantenimiento
 
 Según el mismo testimonio, lo que resolvió el problema no fue solo el equipo: fue el acompañamiento.
 
@@ -56,11 +56,11 @@ En la práctica, esto significa:
 
 [CONFIRMAR CON GURCOFF antes de publicar: si hay una cifra concreta de tiempo de inactividad evitado, litros producidos, o ahorro en mantenimiento que se pueda citar con exactitud, agregarla aquí. No se incluye ninguna cifra sin confirmar.]
 
-## Por qué esto importa para otras heladerías
+## Por qué el soporte posventa importa al elegir proveedor de heladería
 
 El problema que describe GurCoff es común: conseguir el equipo es la parte fácil. Conseguir un proveedor que responda después de la venta es lo que separa una heladería que opera sin interrupciones de una que pierde días de producción por un equipo mal usado o sin soporte.
 
-## Preguntas frecuentes
+## Preguntas frecuentes sobre el caso de éxito con máquinas soft
 
 ### ¿Qué problema tenía Heladería GurCoff antes de trabajar con Italgel?
 

@@ -99,7 +99,7 @@ No necesitas una hoja de cálculo compleja para saber si estás ganando o perdie
 
 5. **Revisa rotación.** Si un topping dura más de 60 días abierto y su vida útil es menor a 90 días, reduce tamaño de presentación o elimínalo.
 
-## Error común: sobre-dosificación y cómo evitarlo
+## Error común: sobredosificar salsas y granelas
 
 El error más frecuente no es el precio de compra del topping. Es servir **el doble de lo debido**. Una cucharada extra de granela son 8-10g adicionales que no cobras pero que te cuestan **$80-$140 COP**. Multiplicado por 80 servicios diarios: **$6.400-$11.200 COP diarios** que regalas. Son **$192.000-$336.000 COP al mes** en un solo topping.
 
@@ -111,7 +111,7 @@ El error más frecuente no es el precio de compra del topping. Es servir **el do
 
 Estandarizar porciones recupera la inversión en dosificadores en menos de 15 días solo con la reducción de merma.
 
-## Preguntas frecuentes
+## Preguntas frecuentes sobre el costo de los toppings
 
 {% include faqs.html %}
 

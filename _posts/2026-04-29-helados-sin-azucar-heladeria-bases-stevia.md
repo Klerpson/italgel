@@ -53,7 +53,7 @@ El azúcar en el helado cumple más funciones que endulzar. Si se quita sin refo
 - **Da cuerpo y textura.** El azúcar disuelto aporta cuerpo a la mezcla y ayuda a que el helado salga cremoso de la mantecadora.
 - **Influye en la conservación.** El azúcar reduce el agua disponible en la mezcla, y quitarlo cambia cómo se comporta el helado en la vitrina.
 
-### Qué pasa si solo quitas el azúcar
+### Qué le pasa al helado si solo quitas el azúcar
 
 Sin reformular la mezcla, el resultado suele ser un helado más duro, con cristales de hielo más grandes y una textura que cambia de la primera a la última bola de la cubeta. Ese defecto viene de la formulación, y una base pensada para trabajar sin azúcar añadida lo evita.
 

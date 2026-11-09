@@ -38,7 +38,7 @@ Cuando ves dos mantecadoras una al lado de la otra, la duda es inevitable. Una c
 
 Esa misma duda ha llevado a cientos de heladeros en Colombia a tomar la decisión equivocada. No porque la máquina asiática sea mala —en los primeros meses funciona perfectamente— sino porque el verdadero costo de una mantecadora no está en el precio de compra. Está en lo que pasa después del año 1, del año 3 y del año 5. Este artículo desglosa los números reales que ninguna ficha técnica muestra, para que puedas tomar una decisión informada basada en datos concretos del mercado colombiano.
 
-## Diferencia de precio inicial: el mito del "ahorro"
+## Precio de una mantecadora italiana frente a una china: el mito del "ahorro"
 
 Comparar el precio de compra sin contexto es como comparar el costo de un hotel solo por la tarifa de la noche: ignoras los gastos que vendrán después. Así se distribuyen los precios en Colombia para equipos de capacidad media (12-18 kg/batch):
 
@@ -87,7 +87,7 @@ Las mantecadoras italianas incorporan sistemas de control de overrun por computa
 
 Para entender en detalle cómo medir y controlar este factor, lee nuestra guía completa sobre [cómo calcular el overrun del helado artesanal](/blog/como-calcular-overrun-helado-artesanal/).
 
-## Soporte técnico y repuestos en Colombia
+## Soporte técnico y repuestos de mantecadoras en Colombia
 
 Este es el factor diferenciador más importante. Una mantecadora italiana detenida por una avería significa días perdidos de producción, clientes insatisfechos e ingresos que no regresan. El soporte técnico local no es un lujo: es una necesidad operativa.
 
@@ -117,7 +117,7 @@ Ser justos: no todo es negativo en las máquinas asiáticas. Hay escenarios dond
 
 En cualquier otro escenario —operación continua de 8+ horas diarias, heladería establecida, proyección a largo plazo— la mantecadora italiana es la decisión económicamente correcta.
 
-## Preguntas frecuentes
+## Preguntas frecuentes sobre mantecadoras italianas y chinas
 
 ### ¿Cuánto cuesta una mantecadora italiana en Colombia?
 
@@ -135,7 +135,7 @@ Para empezar, la mejor relación inversión-beneficio es una mantecadora italian
 
 Sí, para negocios de bajo volumen o temporada. Su principal desventaja no es la calidad inicial (funcionan bien los primeros meses), sino la falta de soporte técnico local, repuestos difíciles de conseguir y sobrecostos energéticos. Para operación continua de 8+ horas diarias, no son recomendables.
 
-## La decisión correcta según tu modelo de negocio
+## Qué mantecadora conviene según tu modelo de heladería
 
 No existe una máquina universalmente correcta para todas las heladerías. Existe la máquina correcta para tu modelo de negocio específico.
 

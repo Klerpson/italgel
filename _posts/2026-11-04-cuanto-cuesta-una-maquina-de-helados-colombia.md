@@ -17,7 +17,7 @@ hero_h: 396
 alt: "Máquina de helado suave de piso con tres palancas para servir dos sabores y el twist"
 faq:
   - q: "¿Cuánto cuesta una máquina de helado suave en Colombia?"
-    a: "El precio de una máquina de helado suave depende de si es de mesa o de piso, de cuántos sabores sirve y de los litros por hora que produce. [dato: rango de precio de las máquinas de helado suave de mesa y de piso que confirme Italgel]. Italgel cotiza cada modelo por WhatsApp según el negocio."
+    a: "El precio de una máquina de helado suave depende de si es de mesa o de piso, de cuántos sabores sirve y de los litros por hora que produce. Italgel cotiza cada modelo por WhatsApp según el negocio."
   - q: "¿Qué máquina de helados conviene para empezar un negocio?"
     a: "Depende del helado que vas a vender. Para servir copas y conos en una cafetería con poco espacio, Italgel ofrece máquinas de helado suave de mesa como la Coldelite 301 BIB. Para gelato artesanal con varios sabores en vitrina, una mantecadora como la Stargel 4 o la Snowy 7M."
   - q: "¿Las máquinas de helado de piso funcionan a 110 V?"
@@ -34,12 +34,12 @@ El precio de una máquina de helados cambia sobre todo con el tipo de equipo, po
 
 | Tipo de máquina | Para qué negocio | Capacidad que publica Italgel | Precio |
 |---|---|---|---|
-| Helado suave de mesa: Coldelite 301 BIB | Cafeterías y negocios con espacio limitado | 1 sabor + twist, 18–30 L/h | [dato: rango de precio de la Coldelite 301 BIB que confirme Italgel] |
-| Helado suave de mesa: Pasmo S121 | Heladerías con poco espacio y alto volumen | 2 sabores + twist, 20–50 L/h | [dato: rango de precio de la Pasmo S121 que confirme Italgel] |
-| Helado suave de piso: Coldelite 603 BIB | Heladerías urbanas, centros comerciales y franquicias | 2 sabores + twist, 28–60 L/h | [dato: rango de precio de la Coldelite 603 BIB que confirme Italgel] |
-| Mantecadora para gelato: Stargel 4 | Heladerías artesanales boutique | 2–5 L por tanda, 10–30 L/h, overrun 20–50 % | [dato: rango de precio de la Stargel 4 que confirme Italgel] |
-| Mantecadora para gelato: Snowy 7M | Gelaterías artesanales con carta amplia | 1,5–7 L por tanda, 10–42 L/h, overrun 20–70 % | [dato: rango de precio de la Snowy 7M que confirme Italgel] |
-| Línea industrial Valmar: Pastomaster 200 RTX + Turbomatic | Producción mayorista y distribución | Pasteurizadora de 200 L por tanda; mantecadora continua de 150–300 L/h | [dato: rango de inversión de una línea industrial Valmar que confirme Italgel] |
+| Helado suave de mesa: Coldelite 301 BIB | Cafeterías y negocios con espacio limitado | 1 sabor + twist, 18–30 L/h | Cotízala por WhatsApp con Italgel |
+| Helado suave de mesa: Pasmo S121 | Heladerías con poco espacio y alto volumen | 2 sabores + twist, 20–50 L/h | Cotízala por WhatsApp con Italgel |
+| Helado suave de piso: Coldelite 603 BIB | Heladerías urbanas, centros comerciales y franquicias | 2 sabores + twist, 28–60 L/h | Cotízala por WhatsApp con Italgel |
+| Mantecadora para gelato: Stargel 4 | Heladerías artesanales boutique | 2–5 L por tanda, 10–30 L/h, overrun 20–50 % | Cotízala por WhatsApp con Italgel |
+| Mantecadora para gelato: Snowy 7M | Gelaterías artesanales con carta amplia | 1,5–7 L por tanda, 10–42 L/h, overrun 20–70 % | Cotízala por WhatsApp con Italgel |
+| Línea industrial Valmar: Pastomaster 200 RTX + Turbomatic | Producción mayorista y distribución | Pasteurizadora de 200 L por tanda; mantecadora continua de 150–300 L/h | Cotízala por WhatsApp con Italgel |
 
 Las fichas completas están en las páginas de [máquinas de helado suave](/maquinas-helado-soft/), [mantecadoras para gelato](/maquinas-helado-artesanal/) y [máquinas industriales](/maquinas-helado-industrial/).
 
@@ -80,9 +80,9 @@ Si dudas entre las dos, {% include wa-enlace.html text="cuéntale a un asesor de
 El presupuesto de una máquina de helados incluye otros costos que dependen del tipo de equipo:
 
 - **Instalación eléctrica:** las máquinas de piso requieren 220 V trifásico, según Italgel. Las líneas industriales necesitan además instalación trifásica, plomería de agua y drenajes.
-- **Vitrina:** solo si vendes gelato artesanal por tandas. [dato: rango de precio de las vitrinas EasyBest que confirme Italgel].
-- **Insumos iniciales:** base para helado suave o bases y pastas para gelato. [dato: costo del stock inicial de insumos que confirme Italgel].
-- **Mantenimiento:** Italgel trabaja con una red de técnicos aliados que llevan más de 10 años con la empresa en distintas ciudades de Colombia. [dato: costo del mantenimiento preventivo por tipo de máquina que confirme Italgel].
+- **Vitrina:** solo si vendes gelato artesanal por tandas.
+- **Insumos iniciales:** base para helado suave o bases y pastas para gelato.
+- **Mantenimiento:** Italgel trabaja con una red de técnicos aliados que llevan más de 10 años con la empresa en distintas ciudades de Colombia.
 
 Para ver cómo encajan estos costos en el presupuesto completo de un negocio, consulta la guía para [abrir una heladería en Colombia](/blog/como-abrir-una-heladeria-en-colombia/).
 

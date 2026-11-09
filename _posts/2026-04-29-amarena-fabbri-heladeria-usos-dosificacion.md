@@ -50,7 +50,7 @@ La historia de la marca empieza en 1905, cuando Gennaro Fabbri abrió la destile
 
 La Amarena Fabbri se usa de tres formas en heladería: como veteado dentro del helado, como decoración de copa y como salsa de acabado con su almíbar.
 
-### Veteado en la mantecadora
+### Veteado de amarena en la mantecadora
 
 El helado de fiordilatte con amarena es un clásico de la gelatería italiana. El procedimiento:
 
@@ -63,7 +63,7 @@ La cantidad se ajusta según cuánta cereza quieras ver en cada bola. Pide a Ita
 
 **En capas:** también se puede aplicar la amarena entre capas de helado en la cubeta. Así queda una franja horizontal en el corte en lugar de vetas sueltas.
 
-### Decoración de copa
+### Cerezas para decorar copas de helado
 
 Una o dos cerezas enteras sobre la copa terminada son la presentación clásica. Tres combinaciones habituales:
 

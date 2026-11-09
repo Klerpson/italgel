@@ -35,13 +35,13 @@ Demanda que se está perdiendo (Ubersuggest Colombia, volumen mensual, dificulta
 **Acciones**
 1. **Tú, en GSC:** "Solicitar indexación" para `/equipos-cafe/` y las 10 fichas. La API no lo permite y la Indexing API de Google no aplica a este tipo de página. IndexNow (workflow `indexar-clientes`, italgel ya está en `sitios.txt`) solo avisa a Bing y Yandex.
 2. Enlaces en el cuerpo, con la keyword de destino, desde las páginas que Google rastrea a diario: home, `/equipos/` y `/nosotros/`. Hoy Swan, Tank 1 y los molinos Cedar, Ebony y Oak tienen entre 4 y 6 enlaces entrantes; las demás fichas, 57.
-3. Un enlace externo real a `/equipos-cafe/`, si existe: la página de distribuidores de Hambach o el listado de expositores de Cafés de Colombia Expo. `[dato]`: confirmar con el dueño que existen.
+3. Un enlace externo real a `/equipos-cafe/`, si existe: la página de distribuidores de Hambach o el listado de expositores de Cafés de Colombia Expo. `PENDIENTE`: confirmar con el dueño que existen.
 
 ## 3. Schema: reseñas 4,9/200 sin fuente y fichas sin `offers`
 
 **3.1 Valoración 4,9 con 200 reseñas.** [_includes/trust-signals.html](../../_includes/trust-signals.html) publica un `AggregateRating` sobre la propia empresa. La cifra 200 coincide con el "+200 heladerías" que ya se retiró por no estar confirmado ([mensaje-propietario-datos.md](mensaje-propietario-datos.md) §8). Google lo detectó como "Fragmentos de reseñas" en `/equipos/` y en la ficha Coldelite (rastreos del 27 y 29 oct, antes de la migración a Mercato). En el build actual solo lo lleva `/cafes-de-colombia-expo/`, que usa el layout `default`. Las reseñas que una empresa publica sobre sí misma van contra las directrices de datos estructurados de Google, y además el dato no está confirmado. **Acción:** quitar ese JSON-LD.
 
-**3.2 `Product` sin `offers`.** La ficha Coldelite Compacta 3 da el error "Debe especificarse offers, review o aggregateRating", y el resto de fichas de [_layouts/producto.html](../../_layouts/producto.html) tiene el mismo esquema. Sin ese campo, las fichas no pueden salir con fragmento de producto. La única salida honesta es un precio publicado ("desde $[dato]") para generar `offers`. Ya está pedido al dueño (precios de máquinas); mientras no llegue, el error se queda y no penaliza.
+**3.2 `Product` sin `offers`.** La ficha Coldelite Compacta 3 da el error "Debe especificarse offers, review o aggregateRating", y el resto de fichas de [_layouts/producto.html](../../_layouts/producto.html) tiene el mismo esquema. Sin ese campo, las fichas no pueden salir con fragmento de producto. La única salida honesta es un precio publicado ("desde $PENDIENTE") para generar `offers`. Ya está pedido al dueño (precios de máquinas); mientras no llegue, el error se queda y no penaliza.
 
 ## 4. `/equipos/` recibe 20.255 impresiones de "máquina de helados" en la posición 9,6
 
@@ -59,7 +59,7 @@ Google eligió `/equipos/` para la consulta principal del negocio, pero la tiene
 
 **Acciones** (página mía, layout `contenido`)
 1. Title: "Máquinas de helado para negocio en Colombia | Italgel" (54 caracteres). La description mantiene "máquinas para hacer helado".
-2. H1 con "máquinas de helado para negocio". H2 que respondan "¿Qué máquina de helados de crema necesita tu negocio?" y "¿Cuánto cuesta una máquina de helados para negocio en Colombia?", este último con rango de precio `[dato]` o, si el dueño no lo publica, con lo que define el precio (capacidad, litros/hora, marca) y el CTA de cotización.
+2. H1 con "máquinas de helado para negocio". H2 que respondan "¿Qué máquina de helados de crema necesita tu negocio?" y "¿Cuánto cuesta una máquina de helados para negocio en Colombia?", este último con rango de precio `PENDIENTE` o, si el dueño no lo publica, con lo que define el precio (capacidad, litros/hora, marca) y el CTA de cotización.
 3. Desde el blog, enlazar a `/equipos/` con el texto "máquinas de helado para negocio".
 
 ## 5. `/maquinas-helado-soft/` le quita a `/equipos/` las consultas de precio
@@ -109,7 +109,7 @@ Google eligió `/equipos/` para la consulta principal del negocio, pero la tiene
 
 ## 9. Pendientes técnicos menores
 
-- `/cafes-de-colombia-expo/`: no tiene enlaces internos, tiene 3 enlaces wa.me sin `data-location`, no tiene `keyword` y lleva el `AggregateRating`. `[dato]`: fecha del evento. Si ya pasó, se pone `noindex` o se convierte en página de cafeteras.
+- `/cafes-de-colombia-expo/`: no tiene enlaces internos, tiene 3 enlaces wa.me sin `data-location`, no tiene `keyword` y lleva el `AggregateRating`. `PENDIENTE`: fecha del evento. Si ya pasó, se pone `noindex` o se convierte en página de cafeteras.
 - URL inexistentes que reciben impresiones: `/co/blog/emulsionantes-…/`, `/blog/como-calcular-overrun-helado-artesanal-guide/` y `/cobertura-salsas-helado/` dan 404, con 1-2 impresiones cada una. Solo se justifica un `redirect_from` en `/cobertura-salsas-helado/` (error de escritura plausible).
 - Deuda CSS heredada (reglas del proyecto, no posicionamiento): 13 archivos CSS sin `@layer` (`boton.css`, `cafe.css`, `cards.css`, `header.css`, `nav.css`, `pages.css`, etc.), 30 atributos `style=` y 62 clases o variables sin uso, según `auditoria.py`.
 

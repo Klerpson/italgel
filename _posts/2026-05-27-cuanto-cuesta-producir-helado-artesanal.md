@@ -165,7 +165,7 @@ Sí. Aunque el kilo de Base 50 MEC3 cuesta más que una base genérica, el costo
 
 Una heladería artesanal bien establecida que vende 80-120 porciones diarias a $5.000 COP puede generar ingresos brutos de $12 a $18 millones COP mensuales. Después de costos de insumos, personal, arriendo y servicios, la utilidad neta estimada es de $4 a $8 millones COP mensuales.
 
-## El costo real no es el precio del insumo
+## Costo real del helado: rendimiento por litro, no precio del insumo
 
 El error más común entre heladeros artesanales es confundir el precio por kilo de una base con su costo real por litro producido. Una base que cuesta $32.000 COP/kg y rinde 7 L por kilo tiene un costo de $4.571 COP por litro. Una base de $18.000 COP/kg que rinde 4.2 L por kilo tiene un costo de $4.285 COP por litro. La diferencia es de solo $286 COP por litro — el precio de un transpote en TransMilenio.
 

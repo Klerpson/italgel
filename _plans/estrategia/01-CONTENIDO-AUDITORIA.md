@@ -42,7 +42,7 @@ Fuentes:
 - `[confirmar]` el horario de atención. El pie heredado dice L–V de 8:00 a 17:00; el cierre heredado dice L–V de 8:00 a 18:00.
 - `[confirmar]` el sello de marca por categoría: soft = Coldelite; mantecadoras = Coldelite y Valmar; industrial = Valmar.
 - `[confirmar]` si `mantecadora-valmar-gelato.avif` es una foto real o un render.
-- `[dato]` rangos de precio reales de las máquinas: hay unas 1600 impresiones al año de consultas "…precio" sin respuesta.
+- `PENDIENTE` rangos de precio reales de las máquinas: hay unas 1600 impresiones al año de consultas "…precio" sin respuesta.
 
 ## Para lotes siguientes (datos de GSC)
 

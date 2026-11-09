@@ -100,7 +100,7 @@ Por cada post: consultas de GSC → una pregunta por H2 → primera frase citabl
 - **emulsionantes:** separar "emulsionante" y "estabilizante" en H2 propios (las dos consultas suman 6199 impresiones). Dosis de las fichas técnicas MEC3 con enlace. Sección nueva: "Cómo elegir una mezcla en polvo para helado suave en Colombia" (unas 310 impresiones sin respuesta).
 - **toppings:** decidir si se fusionan los dos posts con un 301 y se reorienta el CTA a coberturas y variegatos (Italgel no vende toppings).
 - **sorbete:** reescribir el title y la description para el CTR (0,2 % en la posición 7,6). Definición citable en la primera frase.
-- **rentabilidad:** las consultas "cuánto gana una heladería al mes" están en las posiciones 10–14 sin respuesta. Necesita cifras reales de clientes (`[dato]`; el caso Gurcoff en borrador puede darlas).
+- **rentabilidad:** las consultas "cuánto gana una heladería al mes" están en las posiciones 10–14 sin respuesta. Necesita cifras reales de clientes (`PENDIENTE`; el caso Gurcoff en borrador puede darlas).
 - **overrun:** calculadora en HTML primero. Fórmula real, ejemplo resuelto en el HTML, `<output>` que se recalcula. Es la candidata a interacción firma del blog, por `jurado-animaciones`.
 - **como-abrir:** está en las posiciones 1,5–4,8; se cambia por secciones y se mide antes de extender. Requisitos con fuente oficial: Invima, Cámara de Comercio, uso de suelo, Bomberos. Los enlaces se verifican antes de publicar.
 - **pasteurización y gelato:** sección "gelato frente a mantecado" (42 impresiones, posición 8,1, sin respuesta).
@@ -122,11 +122,11 @@ Por cada post: consultas de GSC → una pregunta por H2 → primera frase citabl
 
 ## Datos que hay que pedir al cliente
 
-- `[dato]` Nombre, cargo y años de experiencia del técnico que firma o revisa los posts. Confirmar también el "más de 15 años" del autor actual.
-- `[dato]` 2–3 frases textuales del técnico sobre overrun, elección de máquina y errores al abrir una heladería.
-- `[dato]` Rangos de precio publicables de las máquinas soft y las mantecadoras.
-- `[dato]` Cifras de los borradores: consumo en kWh, vida útil, costo de mantenimiento, garantía de 12 meses y técnicos en Bogotá, Medellín y Cali con respuesta en 24–48 h.
-- `[dato]` Una cifra real de ventas o margen de un cliente (Gurcoff u otro) para el post de rentabilidad.
+- `PENDIENTE` Nombre, cargo y años de experiencia del técnico que firma o revisa los posts. Confirmar también el "más de 15 años" del autor actual.
+- `PENDIENTE` 2–3 frases textuales del técnico sobre overrun, elección de máquina y errores al abrir una heladería.
+- `PENDIENTE` Rangos de precio publicables de las máquinas soft y las mantecadoras.
+- `PENDIENTE` Cifras de los borradores: consumo en kWh, vida útil, costo de mantenimiento, garantía de 12 meses y técnicos en Bogotá, Medellín y Cali con respuesta en 24–48 h.
+- `PENDIENTE` Una cifra real de ventas o margen de un cliente (Gurcoff u otro) para el post de rentabilidad.
 
 ## Pendientes técnicos encontrados
 
