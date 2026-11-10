@@ -12,7 +12,11 @@ layout: null
     {% else %}
       <url>
         <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | default: site.time | date_to_xmlschema }}{% endif %}</lastmod>
+        {%- comment %} lastmod solo con fecha real: site.time le decía a Google y a Bing que la página cambió en cada build {% endcomment %}
+        {%- assign lastmod_pagina = page.last_modified_at | default: page.date %}
+        {%- if lastmod_pagina %}
+        <lastmod>{{ lastmod_pagina | date_to_xmlschema }}</lastmod>
+        {%- endif %}
         <changefreq>monthly</changefreq>
         <priority>{% if page.url == "/" %}1.0{% else %}0.8{% endif %}</priority>
         {% assign img = page.hero | default: page.jpg | default: page.webp %}
