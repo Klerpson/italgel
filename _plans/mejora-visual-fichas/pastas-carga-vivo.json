@@ -1,0 +1,16 @@
+{
+  "profile": "390px DPR2, clean context, same-origin encoded bytes",
+  "before": {
+    "initial": 191911,
+    "full": 687279
+  },
+  "after": {
+    "initial": 317544,
+    "full": 1378210
+  },
+  "delta": {
+    "initial": 125633,
+    "full": 690931
+  },
+  "note": "Detailed hero and GIF/poster increase transfer; no CWV improvement claimed. Reused GIF adds no duplicate file and may benefit from cache across pages."
+}
