@@ -8,6 +8,7 @@ h1: "Pastas para helado concentradas: pistacho, vainilla, fruta y frutos secos"
 cierre_titulo: "Cotiza pastas para helado al por mayor"
 intro: Pastas italianas MEC3 con concentración real de frutos secos, cacao y especias
 hero: "img/pastas-helado-italgel-colombia.avif"
+hero_visual: /img/catalogo/pastas-tres-sabores-hero-1200.avif
 alt: "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas"
 hero_title: "Pastas para helado MEC3"
 hero_s: img/pastas-helado-italgel-colombia-mobile.avif
@@ -143,7 +144,8 @@ faqs:
   <!-- Tabla comparativa frutos secos -->
   <h3>Comparativa de pastas de frutos secos</h3>
   <div>
-    <table>
+    <p class="tabla-ayuda" id="ayuda-tabla-frutos-secos" data-visual-nuevo>Desliza la tabla para ver todas las columnas. También puedes enfocarla y usar las flechas del teclado.</p>
+    <table tabindex="0" aria-label="Comparativa de pastas de frutos secos" aria-describedby="ayuda-tabla-frutos-secos">
       <thead>
         <tr>
           <th>Pasta</th>
@@ -188,7 +190,7 @@ faqs:
     pedidos y tienen rotación rápida:
   </p>
 
-  <div class="three_columns">
+  <div class="three_columns filas-locales">
     <article class="product-card">
       <div class="product-img principal">
         {% include mercato/imagen-catalogo.html origen="/img/pasta-vainilla-bourbon-helado.avif" alt="Helado de vainilla de la ficha Vanilla Bourbon de MEC3" title="Pasta de vainilla MEC3" contexto="body" %}
@@ -296,7 +298,7 @@ faqs:
     sabor y color natural de la fruta sin necesidad de pulpa fresca:
   </p>
 
-  <div class="three_columns">
+  <div class="three_columns filas-locales">
     <article class="product-card">
       <div class="product-img pink">
         {% include mercato/imagen-catalogo.html origen="/img/pasta-arandano-helado-sorbet.avif" alt="Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor" title="Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor" contexto="body" %}
@@ -399,7 +401,8 @@ faqs:
   </p>
 
   <div>
-    <table>
+    <p class="tabla-ayuda" id="ayuda-tabla-pastas" data-visual-nuevo>Desliza la tabla para ver todas las columnas. También puedes enfocarla y usar las flechas del teclado.</p>
+    <table tabindex="0" aria-label="Dosificación de pastas para helado" aria-describedby="ayuda-tabla-pastas">
       <thead>
         <tr>
           <th>Tipo de pasta</th>
@@ -442,11 +445,16 @@ faqs:
     </table>
   </div>
 
+  <div class="columnas columnas--7-5 columnas--centro">
   <p>
     <strong>Pro tip:</strong>
     <i>Siempre empieza con dosis baja, prueba, y aumenta gradualmente</i>. Es
     más fácil agregar pasta que diluir un sabor demasiado intenso.
   </p>
+   <div data-visual-nuevo style="inline-size:100%;max-inline-size:400px;justify-self:center">
+    {% include mercato/helado-animado.html demo=site.data.animacion_pastas ancla="animacion-pastas" nuevo=true activar_movimiento=true %}
+   </div>
+  </div>
 </section>
 
 <!-- FAQ -->

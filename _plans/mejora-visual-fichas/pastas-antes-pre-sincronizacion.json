@@ -1,0 +1,1780 @@
+{
+  "protected": {
+    "title": "Pastas para helado: pistacho, vainilla y almendra | Italgel",
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, minimal-ui"
+      },
+      {
+        "name": "description",
+        "content": "Pastas para helado MEC3: Pistacho, Vainilla Bourbon, Almendras, Chocolate. Concentración 1:20. Sabor auténtico italiano. Precio mayorista Colombia."
+      },
+      {
+        "name": "author",
+        "content": "Sebastián Rios"
+      },
+      {
+        "name": "theme-color",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "application-name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:locale",
+        "content": "es_CO"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "property": "og:title",
+        "content": "Pastas para helado: pistacho, vainilla y almendra | Italgel"
+      },
+      {
+        "property": "og:description",
+        "content": "Pastas para helado MEC3: Pistacho, Vainilla Bourbon, Almendras, Chocolate. Concentración 1:20. Sabor auténtico italiano. Precio mayorista Colombia."
+      },
+      {
+        "property": "og:url",
+        "content": "https://italgel.com.co/pastas-sabores-helado/"
+      },
+      {
+        "property": "og:site_name",
+        "content": "italgel.com.co"
+      },
+      {
+        "property": "og:image",
+        "content": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif"
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif"
+      },
+      {
+        "property": "og:image:width",
+        "content": "584"
+      },
+      {
+        "property": "og:image:height",
+        "content": "584"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Pastas para helado: pistacho, vainilla y almendra | Italgel"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Pastas para helado MEC3: Pistacho, Vainilla Bourbon, Almendras, Chocolate. Concentración 1:20. Sabor auténtico italiano. Precio mayorista Colombia."
+      },
+      {
+        "name": "twitter:site",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@pollito_web"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://italgel.com.co/img/pastas-helado-italgel-colombia.avif"
+      }
+    ],
+    "seo_links": [
+      {
+        "rel": "canonical",
+        "href": "https://italgel.com.co/pastas-sabores-helado/"
+      },
+      {
+        "rel": "alternate",
+        "type": "application/rss+xml",
+        "title": "Italgel | Insumos y Equipos para Heladería en Colombia",
+        "href": "https://italgel.com.co/feed.xml"
+      },
+      {
+        "rel": "sitemap",
+        "type": "application/xml",
+        "title": "Sitemap",
+        "href": "/sitemap.xml"
+      }
+    ],
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://italgel.com.co/#organizacion",
+        "name": "Italgel Colombia",
+        "url": "https://italgel.com.co",
+        "logo": "https://italgel.com.co/img/logo.avif",
+        "description": "Distribuidor autorizado MEC3 en Colombia: bases, pastas, coberturas, variegatos y máquinas profesionales para heladería artesanal e industrial. Asesoría técnica incluida.",
+        "foundingDate": "2008",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        "serviceType": [
+          "Distribución de insumos para heladería",
+          "Asesoría técnica",
+          "Venta de máquinas profesionales"
+        ],
+        "award": "Distribuidor autorizado MEC3 - The Genuine Company",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "573192346788",
+          "contactType": "sales",
+          "email": "info@mec3.co",
+          "availableLanguage": [
+            "Spanish",
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.facebook.com/Mec3.Italgel",
+          "https://www.instagram.com/mec3colombia/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la diferencia entre pasta y extracto de vainilla?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo combinar varias pastas en un mismo helado?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Las pastas de fruta reemplazan la fruta natural?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto dura una pasta abierta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde comprar pasta de pistacho para helado en Colombia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. Cotiza aquí."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Pastas para helado: pistacho, vainilla y almendra | Italgel",
+        "description": "Pastas para helado MEC3: Pistacho, Vainilla Bourbon, Almendras, Chocolate. Concentración 1:20. Sabor auténtico italiano. Precio mayorista Colombia.",
+        "url": "https://italgel.com.co/pastas-sabores-helado/",
+        "dateModified": "2026-09-21",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "italgel.com.co",
+          "url": "https://italgel.com.co"
+        }
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        {
+          "id": "titulo-portada"
+        },
+        "Pastas para helado concentradas: pistacho, vainilla, fruta y frutos secos"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Catálogo de pastas por categoría"
+      ],
+      [
+        "h3",
+        {},
+        "Pastas premium de frutos secos - Las más pedidas"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta de Pistacho - El rey del gelato italiano"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta de Avellana Selection - Sabor Piemonte auténtico"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta de Almendras (Almonds) - Versatilidad máxima"
+      ],
+      [
+        "h3",
+        {},
+        "Comparativa de pastas de frutos secos"
+      ],
+      [
+        "h3",
+        {},
+        "Pastas clásicas - Sabores esenciales"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Vainilla Bourbon"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Chocolate"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Fresa"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Caramelo"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Stracciatella"
+      ],
+      [
+        "h4",
+        {},
+        "Pasta Chocolate Blanco"
+      ],
+      [
+        "h3",
+        {},
+        "Pastas de fruta - Frescura natural"
+      ],
+      [
+        "h4",
+        {},
+        "Arándano Azul"
+      ],
+      [
+        "h4",
+        {},
+        "Coco"
+      ],
+      [
+        "h4",
+        {},
+        "Frutos del Bosque"
+      ],
+      [
+        "h4",
+        {},
+        "Limón Siciliano"
+      ],
+      [
+        "h4",
+        {},
+        "Mandarina"
+      ],
+      [
+        "h4",
+        {},
+        "Dragon Summer (Pitaya)"
+      ],
+      [
+        "h2",
+        {},
+        "Guía de dosificación de pastas para helado"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Preguntas frecuentes sobre pastas para helado"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuál es la diferencia entre pasta y extracto de vainilla?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Puedo combinar varias pastas en un mismo helado?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Las pastas de fruta reemplazan la fruta natural?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Cuánto dura una pasta abierta?"
+      ],
+      [
+        "h3",
+        {},
+        "¿Dónde comprar pasta de pistacho para helado en Colombia?"
+      ],
+      [
+        "h2",
+        {
+          "class": "text_center"
+        },
+        "Solicita muestras de pasta de pistacho, vainilla y frutos secos"
+      ],
+      [
+        "h2",
+        {
+          "id": "titulo-guias"
+        },
+        "Guías de Italgel para elegir y usar pastas para helado"
+      ],
+      [
+        "h3",
+        {},
+        "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferente"
+      ],
+      [
+        "h3",
+        {},
+        "Pasta de pistacho para helado: dosificación correcta, marcas y por qué es el sabor más rentable"
+      ],
+      [
+        "h2",
+        {
+          "id": "titulo-cierre",
+          "class": "medida"
+        },
+        "Cotiza pastas para helado al por mayor"
+      ]
+    ],
+    "links": [
+      [
+        {
+          "class": "visualmente-oculto",
+          "href": "#contenido",
+          "title": "Saltar al contenido"
+        },
+        "Saltar al contenido"
+      ],
+      [
+        {
+          "class": "cabecera-sitio__logo",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento boton--compacto",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cabecera",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsAppCotizar (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/coldelite-compacta-3/",
+          "title": "Coldelite Compacta 3 Máquina de helado soft"
+        },
+        "Coldelite Compacta 3Máquina de helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-soft/",
+          "title": "Máquinas de helado soft De mesa o de piso"
+        },
+        "Máquinas de helado softDe mesa o de piso"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-artesanal/",
+          "title": "Mantecadoras Helado artesanal y gelato"
+        },
+        "MantecadorasHelado artesanal y gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/maquinas-helado-industrial/",
+          "title": "Máquinas industriales Pasteurizadoras y líneas"
+        },
+        "Máquinas industrialesPasteurizadoras y líneas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/",
+          "title": "Ver todas las máquinas de helado"
+        },
+        "Ver todas las máquinas de helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/mini-neo/",
+          "title": "Mini Neo Cafetera para casa"
+        },
+        "Mini NeoCafetera para casa"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/falcon/",
+          "title": "Falcon Comercial ligero, 220 V"
+        },
+        "FalconComercial ligero, 220 V"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/tank-2/",
+          "title": "Tank 2 Dos grupos, uso comercial"
+        },
+        "Tank 2Dos grupos, uso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/cruiser/",
+          "title": "Cruiser Uso comercial"
+        },
+        "CruiserUso comercial"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/equipos-cafe/sequoia-74wt/",
+          "title": "Sequoia 74WT Molino con báscula"
+        },
+        "Sequoia 74WTMolino con báscula"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/",
+          "title": "Ver las 10 cafeteras y molinos"
+        },
+        "Ver las 10 cafeteras y molinos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/amarena-fabbri/",
+          "title": "Amarena Fabbri Cerezas en almíbar"
+        },
+        "Amarena FabbriCerezas en almíbar"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/salsas-especiales/",
+          "title": "Salsas especiales Whisky, tiramisú, caramelo"
+        },
+        "Salsas especialesWhisky, tiramisú, caramelo"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/productos-quella/",
+          "title": "Quella Family Variegatos italianos"
+        },
+        "Quella FamilyVariegatos italianos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/coberturas-salsas-helado/",
+          "title": "Coberturas y salsas Para copa y veteado"
+        },
+        "Coberturas y salsasPara copa y veteado"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/variegatos-helado/",
+          "title": "Ver todos los variegatos"
+        },
+        "Ver todos los variegatos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/insumos/",
+          "aria-current": "true",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/base-50-mec3/",
+          "title": "Base 50 MEC3 Base para helado artesanal"
+        },
+        "Base 50 MEC3Base para helado artesanal"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/neutralin-plus/",
+          "title": "Neutralin Plus Base para gelato"
+        },
+        "Neutralin PlusBase para gelato"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/bases-helado-colombia/supergelmix/",
+          "title": "Supergelmix Base para helado soft"
+        },
+        "SupergelmixBase para helado soft"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-pistacho/",
+          "title": "Pasta de pistacho Pistacho siciliano"
+        },
+        "Pasta de pistachoPistacho siciliano"
+      ],
+      [
+        {
+          "class": "submenu__producto",
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "title": "Pasta de vainilla Vainilla bourbon"
+        },
+        "Pasta de vainillaVainilla bourbon"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/",
+          "title": "Ver todos los insumos"
+        },
+        "Ver todos los insumos"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "class": "menu__categoria",
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "class": "buscador-boton",
+          "href": "/buscar/",
+          "data-buscador-abrir": "",
+          "aria-keyshortcuts": "Control+K Meta+K /"
+        },
+        "Buscar"
+      ],
+      [
+        {
+          "itemprop": "item",
+          "href": "/",
+          "title": "Inicio"
+        },
+        "Inicio"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "hero",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "resumen",
+          "title": "Pedir asesoría a Italgel por WhatsApp (abre WhatsApp)"
+        },
+        "Pide asesoría por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Cotizar Pasta Pistacho (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-1"
+        },
+        "Cotizar Pasta Pistacho"
+      ],
+      [
+        {
+          "href": "/pastas-sabores-helado/pasta-pistacho/",
+          "class": "boton boton_2",
+          "title": "Pasta de pistacho siciliano para helado"
+        },
+        "Ver ficha técnica"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio Pasta Avellana (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-2"
+        },
+        "Ver precio Pasta Avellana"
+      ],
+      [
+        {
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "title": "Pasta de vainilla bourbon para helado"
+        },
+        "Pasta Vainilla"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Consultar disponibilidad de pastas (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-3"
+        },
+        "Consultar disponibilidad de pastas"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-4"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "/pastas-sabores-helado/pasta-vainilla/",
+          "class": "boton boton_2",
+          "title": "Pasta de vainilla bourbon para helado"
+        },
+        "Ver ficha técnica"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-5"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-6"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-7"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-8"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-9"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "/pastas-sabores-helado/pastas-clasicas/",
+          "class": "boton boton_2",
+          "title": "Pastas clásicas para helado: vainilla y chocolate"
+        },
+        "Ver todas las pastas clásicas"
+      ],
+      [
+        {
+          "href": "https://www.pexels.com/photo/blueberries-on-white-surface-12716480/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "Alina Vilchenko"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-10"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-11"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-12"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://www.pexels.com/photo/sliced-lemon-on-white-table-7214594/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "Hanna Pad"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-13"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://pixnio.com/flora-plants/fruits/mandarin-oranges-fruit-pictures/mandarin-fruit-on-white-background",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "Paolo Neo"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-14"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "https://unsplash.com/photos/a-dragon-fruit-cut-in-half-on-a-white-background-IbRkYrIgrWo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "Bermix Studio"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Ver precio (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-15"
+        },
+        "Ver precio"
+      ],
+      [
+        {
+          "href": "/pastas-sabores-helado/pastas-fruta/",
+          "class": "boton boton_2",
+          "title": "Pastas de fruta para helado: coco, limón y pitaya"
+        },
+        "Ver todas las pastas de fruta"
+      ],
+      [
+        {
+          "class": "lead_whatsapp enlace-flecha",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-contacto",
+          "title": "Hacer otra pregunta por WhatsApp (abre WhatsApp)"
+        },
+        "Hacer otra pregunta (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "class": "lead_whatsapp",
+          "title": "Escribir a Italgel por WhatsApp (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "faq-5"
+        },
+        "Cotiza aquí"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "title": "Solicitar muestras de pastas (abre WhatsApp)",
+          "class": "lead_whatsapp boton boton_1",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "boton-16"
+        },
+        "Solicitar muestras de pastas"
+      ],
+      [
+        {
+          "href": "/bases-helado-colombia/",
+          "class": "boton boton_2",
+          "title": "Bases para helado MEC3 en Colombia"
+        },
+        "Ver bases compatibles"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/blog/",
+          "title": "Ver todas las guías del blog"
+        },
+        "Ver todas las guías"
+      ],
+      [
+        {
+          "class": "baldosa baldosa--foto baldosa--apaisada",
+          "href": "/blog/pasta-de-vainilla-para-helado-tipos-dosificacion/",
+          "title": "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferente: Pasta de vainilla para helado: diferencias con el extracto y la esencia, tipos según el origen y la dosificación de las pastas MEC3 Bourbon y Madagascar."
+        },
+        "Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferentePasta de vainilla para helado: diferencias con el extracto y la esencia, tipos según el origen y la dosificación de las pastas MEC3 Bourbon y Madagascar."
+      ],
+      [
+        {
+          "class": "baldosa baldosa--foto baldosa--apaisada",
+          "href": "/blog/pasta-pistacho-helado-guia-tecnica/",
+          "title": "Pasta de pistacho para helado: dosificación correcta, marcas y por qué es el sabor más rentable: Qué es la pasta de pistacho para helado, cómo dosificarla según la ficha de MEC3, cómo reconocer una pasta pura y dónde comprarla en Colombia."
+        },
+        "Pasta de pistacho para helado: dosificación correcta, marcas y por qué es el sabor más rentableQué es la pasta de pistacho para helado, cómo dosificarla según la ficha de MEC3, cómo reconocer una pasta pura y dónde comprarla en Colombia."
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "cierre",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "class": "pie-sitio__marca",
+          "href": "/",
+          "title": "Italgel, ir al inicio"
+        },
+        "Italgel"
+      ],
+      [
+        {
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "class": "lead_whatsapp",
+          "title": "WhatsApp +573192346788 (abre WhatsApp)",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "pie"
+        },
+        "WhatsApp +573192346788 (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "mailto:info@mec3.co",
+          "title": "info@mec3.co"
+        },
+        "info@mec3.co"
+      ],
+      [
+        {
+          "href": "/equipos/",
+          "title": "Máquinas de helado"
+        },
+        "Máquinas de helado"
+      ],
+      [
+        {
+          "href": "/vitrinas-congeladores/",
+          "title": "Vitrinas para helado"
+        },
+        "Vitrinas para helado"
+      ],
+      [
+        {
+          "href": "/equipos-cafe/",
+          "title": "Cafeteras Hambach"
+        },
+        "Cafeteras Hambach"
+      ],
+      [
+        {
+          "href": "/variegatos-helado/",
+          "title": "Variegatos"
+        },
+        "Variegatos"
+      ],
+      [
+        {
+          "href": "/insumos/",
+          "title": "Insumos"
+        },
+        "Insumos"
+      ],
+      [
+        {
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        "Blog"
+      ],
+      [
+        {
+          "href": "/contacto/",
+          "title": "Contacto"
+        },
+        "Contacto"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-medellin/",
+          "title": "Insumos para heladería en Medellín"
+        },
+        "Insumos para heladería en Medellín"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-cali/",
+          "title": "Insumos para heladería en Cali"
+        },
+        "Insumos para heladería en Cali"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-barranquilla/",
+          "title": "Insumos para heladería en Barranquilla"
+        },
+        "Insumos para heladería en Barranquilla"
+      ],
+      [
+        {
+          "href": "/insumos-heladeria-bucaramanga/",
+          "title": "Insumos para heladería en Bucaramanga"
+        },
+        "Insumos para heladería en Bucaramanga"
+      ],
+      [
+        {
+          "href": "https://www.facebook.com/Mec3.Italgel",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Facebook (abre en una pestaña nueva)"
+        },
+        "Facebook"
+      ],
+      [
+        {
+          "href": "https://www.instagram.com/mec3colombia/",
+          "rel": "me noopener",
+          "target": "_blank",
+          "title": "Italgel en Instagram (abre en una pestaña nueva)"
+        },
+        "Instagram"
+      ],
+      [
+        {
+          "href": "/nosotros/",
+          "title": "Nosotros"
+        },
+        "Nosotros"
+      ],
+      [
+        {
+          "href": "/legal/",
+          "title": "Aviso legal"
+        },
+        "Aviso legal"
+      ],
+      [
+        {
+          "href": "/contacto/#pqr",
+          "title": "PQR"
+        },
+        "PQR"
+      ],
+      [
+        {
+          "class": "lead_whatsapp flotante",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "flotante",
+          "data-flotante": "",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "¿Te ayudamos a elegir tu equipo?Escríbenos por WhatsApp y cotiza con un asesor. (abre WhatsApp)"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helado+soft",
+          "data-buscador-consulta": "máquina de helado soft"
+        },
+        "máquina de helado soft"
+      ],
+      [
+        {
+          "href": "/buscar/?q=insumos+para+helader%C3%ADa",
+          "data-buscador-consulta": "insumos para heladería"
+        },
+        "insumos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos/"
+        },
+        "Máquinas para hacer helado y equipos para heladería"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/insumos/"
+        },
+        "Insumos para heladería: bases, pastas, variegatos y coberturas"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/equipos-cafe/"
+        },
+        "Cafeteras espresso Hambach y molinos de café"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/buscar/",
+          "data-buscador-todos": "/buscar/",
+          "hidden": ""
+        },
+        "Ver todos los resultados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=m%C3%A1quina+de+helados",
+          "data-buscador-consulta": "máquina de helados"
+        },
+        "máquina de helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=toppings+para+helados",
+          "data-buscador-consulta": "toppings para helados"
+        },
+        "toppings para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=emulsionante+para+helados",
+          "data-buscador-consulta": "emulsionante para helados"
+        },
+        "emulsionante para helados"
+      ],
+      [
+        {
+          "href": "/buscar/?q=mantecadora+de+helados",
+          "data-buscador-consulta": "mantecadora de helados"
+        },
+        "mantecadora de helados"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/contacto/"
+        },
+        "Contacto Italgel: cotiza máquinas, cafeteras e insumos"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/vitrinas-congeladores/"
+        },
+        "Vitrinas para helado artesanal EasyBest"
+      ],
+      [
+        {
+          "class": "enlace-flecha",
+          "href": "/blog/"
+        },
+        "Blog de heladería profesional en Colombia"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-sin-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ],
+      [
+        {
+          "data-pagefind-ignore": "",
+          "class": "lead_whatsapp boton boton--acento",
+          "href": "https://wa.me/573192346788?text=%C2%A1Hola%21%20Soy%20due%C3%B1o%20o%20encargado%20de%20una%20helader%C3%ADa%20y%20quiero%20cotizar%20Pastas%20para%20helado%20concentradas%3A%20pistacho%2C%20vainilla%2C%20fruta%20y%20frutos%20secos",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "data-location": "buscador-resultados",
+          "title": "Cotizar por WhatsApp (abre WhatsApp)"
+        },
+        "Cotizar por WhatsApp (abre WhatsApp)"
+      ]
+    ],
+    "images": [
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "src": "/img/coldelite-compacta-1.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/mini-neo.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/falcon.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/tank-2.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/cruiser.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/cafe/sequoia-74wt.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/fiordiamarena-variegato-cerezas.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/salted-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/variegatos-quella-textura.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-160.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/base-50-mec3-empaque.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/neutralin-plus-mec3-gelato.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/supergelmix-mec3-helado-soft.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-pistacho-siciliano-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-vainilla-bourbon-mec3.avif",
+        "alt": "",
+        "width": "56",
+        "height": "56",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pastas-helado-italgel-colombia.avif",
+        "srcset": "/img/catalogo/pastas-helado-italgel-colombia-280.avif 280w, /img/catalogo/pastas-helado-italgel-colombia-400.avif 400w, /img/pastas-helado-italgel-colombia.avif 584w",
+        "sizes": "(min-width: 88rem) 550px, (min-width: 60rem) 40vw, 92vw",
+        "alt": "Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas",
+        "title": "Pastas para helado MEC3",
+        "width": "584",
+        "height": "584",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 584",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+        "srcset": "/img/catalogo/pasta-pistacho-mec3-helado-280.avif 280w, /img/catalogo/pasta-pistacho-mec3-helado-400.avif 400w, /img/catalogo/pasta-pistacho-mec3-helado-560.avif 560w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Pasta concentrada de pistacho siciliano para gelato",
+        "title": "Pasta de pistacho MEC3",
+        "width": "560",
+        "height": "700",
+        "style": "max-width: min(100%, 560px); aspect-ratio: 560 / 700",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-avellana-selection-helado.avif",
+        "srcset": "/img/catalogo/pasta-avellana-selection-helado-280.avif 280w, /img/catalogo/pasta-avellana-selection-helado-400.avif 400w, /img/pasta-avellana-selection-helado.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Pasta de avellana Piemonte para helado artesanal",
+        "title": "Pasta de avellana MEC3",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/pasta-almendras-helado-artesanal.avif",
+        "srcset": "/img/catalogo/pasta-almendras-helado-artesanal-280.avif 280w, /img/catalogo/pasta-almendras-helado-artesanal-400.avif 400w, /img/pasta-almendras-helado-artesanal.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Pasta concentrada de almendras para helado",
+        "title": "Pasta de almendra MEC3",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/vainilla-492.avif",
+        "srcset": "/img/catalogo/ingredientes/vainilla-160.avif 160w, /img/catalogo/ingredientes/vainilla-280.avif 280w, /img/catalogo/ingredientes/vainilla-400.avif 400w, /img/catalogo/ingredientes/vainilla-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Helado de vainilla de la ficha Vanilla Bourbon de MEC3",
+        "title": "Pasta de vainilla MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+        "srcset": "/img/catalogo/ingredientes-2/chocolate-160.avif 160w, /img/catalogo/ingredientes-2/chocolate-280.avif 280w, /img/catalogo/ingredientes-2/chocolate-400.avif 400w, /img/catalogo/ingredientes-2/chocolate-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Textura de helado de chocolate publicada por MEC3",
+        "title": "Textura de helado de chocolate publicada por MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/fiordifragola-variegato-fresa.avif",
+        "srcset": "/img/catalogo/fiordifragola-variegato-fresa-280.avif 280w, /img/catalogo/fiordifragola-variegato-fresa-400.avif 400w, /img/fiordifragola-variegato-fresa.avif 584w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Helado con fresa, imagen ilustrativa del sabor",
+        "title": "Imagen ilustrativa de helado con fresa",
+        "width": "584",
+        "height": "396",
+        "style": "max-width: min(100%, 584px); aspect-ratio: 584 / 396",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/caramelo-492.avif",
+        "srcset": "/img/catalogo/ingredientes/caramelo-160.avif 160w, /img/catalogo/ingredientes/caramelo-280.avif 280w, /img/catalogo/ingredientes/caramelo-400.avif 400w, /img/catalogo/ingredientes/caramelo-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Presentación de helado de la ficha Pasta Caramel de MEC3",
+        "title": "Pasta de caramelo MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+        "srcset": "/img/catalogo/ingredientes-2/stracciatella-160.avif 160w, /img/catalogo/ingredientes-2/stracciatella-280.avif 280w, /img/catalogo/ingredientes-2/stracciatella-400.avif 400w, /img/catalogo/ingredientes-2/stracciatella-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Helado con cobertura de stracciatella publicado por MEC3",
+        "title": "Helado con cobertura de stracciatella publicado por MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/blanco-540.avif",
+        "srcset": "/img/catalogo/ingredientes-2/blanco-160.avif 160w, /img/catalogo/ingredientes-2/blanco-280.avif 280w, /img/catalogo/ingredientes-2/blanco-400.avif 400w, /img/catalogo/ingredientes-2/blanco-540.avif 540w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "title": "Presentación de helado sabor chocolate blanco publicada por MEC3",
+        "width": "540",
+        "height": "540",
+        "style": "max-width: min(100%, 540px); aspect-ratio: 540 / 540",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+        "srcset": "/img/catalogo/ingredientes-2/arandano-stock-160.avif 160w, /img/catalogo/ingredientes-2/arandano-stock-280.avif 280w, /img/catalogo/ingredientes-2/arandano-stock-400.avif 400w, /img/catalogo/ingredientes-2/arandano-stock-600.avif 600w, /img/catalogo/ingredientes-2/arandano-stock-800.avif 800w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "title": "Arándanos frescos sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": "800",
+        "height": "800",
+        "style": "max-width: min(100%, 800px); aspect-ratio: 800 / 800",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/coco-492.avif",
+        "srcset": "/img/catalogo/ingredientes/coco-160.avif 160w, /img/catalogo/ingredientes/coco-280.avif 280w, /img/catalogo/ingredientes/coco-400.avif 400w, /img/catalogo/ingredientes/coco-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Presentación de helado de coco publicada por MEC3",
+        "title": "Pasta de coco MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes/bosque-492.avif",
+        "srcset": "/img/catalogo/ingredientes/bosque-160.avif 160w, /img/catalogo/ingredientes/bosque-280.avif 280w, /img/catalogo/ingredientes/bosque-400.avif 400w, /img/catalogo/ingredientes/bosque-492.avif 492w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Presentación de helado de frutos del bosque publicada por MEC3",
+        "title": "Pasta de frutos del bosque MEC3",
+        "width": "492",
+        "height": "492",
+        "style": "max-width: min(100%, 492px); aspect-ratio: 492 / 492",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+        "srcset": "/img/catalogo/ingredientes-2/limon-stock-160.avif 160w, /img/catalogo/ingredientes-2/limon-stock-280.avif 280w, /img/catalogo/ingredientes-2/limon-stock-400.avif 400w, /img/catalogo/ingredientes-2/limon-stock-600.avif 600w, /img/catalogo/ingredientes-2/limon-stock-800.avif 800w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "title": "Limón cortado sobre superficie clara; imagen ilustrativa del sabor",
+        "width": "800",
+        "height": "800",
+        "style": "max-width: min(100%, 800px); aspect-ratio: 800 / 800",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+        "srcset": "/img/catalogo/ingredientes-2/mandarina-stock-160.avif 160w, /img/catalogo/ingredientes-2/mandarina-stock-280.avif 280w, /img/catalogo/ingredientes-2/mandarina-stock-400.avif 400w, /img/catalogo/ingredientes-2/mandarina-stock-600.avif 600w, /img/catalogo/ingredientes-2/mandarina-stock-800.avif 800w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "title": "Mandarina sobre fondo blanco; imagen ilustrativa del sabor",
+        "width": "800",
+        "height": "800",
+        "style": "max-width: min(100%, 800px); aspect-ratio: 800 / 800",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+        "srcset": "/img/catalogo/ingredientes-2/pitaya-stock-160.avif 160w, /img/catalogo/ingredientes-2/pitaya-stock-280.avif 280w, /img/catalogo/ingredientes-2/pitaya-stock-400.avif 400w, /img/catalogo/ingredientes-2/pitaya-stock-600.avif 600w, /img/catalogo/ingredientes-2/pitaya-stock-800.avif 800w",
+        "sizes": "auto, (min-width: 88rem) 600px, (min-width: 60rem) 44vw, 92vw",
+        "alt": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "title": "Fruta del dragón entera y cortada; imagen ilustrativa del sabor pitaya",
+        "width": "800",
+        "height": "800",
+        "style": "max-width: min(100%, 800px); aspect-ratio: 800 / 800",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+        "srcset": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-400.avif 400w, /img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif 600w, /img/blog/pasta-vainilla-helado-artesanal.avif 1080w",
+        "sizes": "auto, (min-width: 88rem) 432px, (min-width: 60rem) 30vw, (min-width: 44rem) 44vw, 92vw",
+        "alt": "Pasta de vainilla para helado Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina",
+        "title": "Pasta de vainilla para helado Bourbon Madagascar con semillas visibles junto a helado artesanal de vainilla en vitrina",
+        "width": "1080",
+        "height": "720",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+        "srcset": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-400.avif 400w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-600.avif 600w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif 800w, /img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif 920w",
+        "sizes": "(min-width: 88rem) 630.857px, (min-width: 60rem) 43.810vw, (min-width: 44rem) 64.254vw, 134.349vw",
+        "alt": "Pasta de pistacho para helado de pistacho siciliano, verde intenso, junto a helado de pistacho artesanal en vitrina",
+        "title": "Pasta de pistacho para helado de pistacho siciliano, verde intenso, junto a helado de pistacho artesanal en vitrina",
+        "width": "920",
+        "height": "420",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "src": "/img/logo-nav.avif",
+        "alt": "",
+        "width": "60",
+        "height": "60",
+        "loading": "lazy"
+      }
+    ],
+    "ids": [
+      "contenido",
+      "titulo-portada",
+      "titulo-guias",
+      "cotizar",
+      "titulo-cierre",
+      "buscador",
+      "buscador-q",
+      "buscador-datos"
+    ],
+    "main_text": "Inicio Pastas para helado Pastas para helado concentradas: pistacho, vainilla, fruta y frutos secosPastas italianas MEC3 con concentración real de frutos secos, cacao y especias Cotizar por WhatsApp (abre WhatsApp) Asesoría técnica sin costo para clientes de Italgel. En resumen Italgel distribuye pastas concentradas MEC3 (Pistacho, Vainilla Bourbon, Almendras, Chocolate) con concentración real de fruto seco, cacao o vainilla, no extracto ni saborizante. Sin abrir duran 18-24 meses; abiertas y refrigeradas, entre 6 y 12 meses (las de frutos secos, hasta 6 meses por oxidación). Pide asesoría por WhatsApp (abre WhatsApp) Catálogo de pastas por categoría Organizamos las pastas según su uso principal. Identifica cuál necesitas según el tipo de helado que produces: Pastas premium de frutos secos - Las más pedidas Estas pastas contienen concentración real del fruto seco (pistacho, avellana, almendras). Son las que marcan la diferencia en una heladería artesanal de calidad. Pasta de Pistacho - El rey del gelato italiano Concentración: 40% pistacho tostado siciliano Dosificación: 80-100g por litro de mezcla Color: Verde natural (sin colorantes artificiales) Rendimiento: 1kg de pasta = 12-15 litros de helado ¿Por qué cuesta más? El pistacho siciliano es uno de los frutos secos más caros del mundo (US$25-35/kg). Una pasta concentrada al 40% requiere casi medio kilo de pistacho puro. Cotizar Pasta Pistacho Ver ficha técnica Pasta de Avellana Selection - Sabor Piemonte auténtico Origen: Avellanas de Piemonte (Italia), las mejores del mundo Concentración: 35% avellana tostada Sabor: Intenso, dulce natural, notas de caramelo Uso popular: Helado Gianduia (avellana + chocolate) Dato técnico: La pasta de avellana oxida rápidamente. MEC3 la protege con antioxidantes naturales (vitamina E) para mantener sabor hasta 18 meses. Ver precio Pasta Avellana Pasta de Almendras (Almonds) - Versatilidad máxima Aplicaciones: Helado de almendra, turrón, amaretto Concentración: 30% almendra española Compatible con: Bases neutras y bases de crema Tip de maestro heladero: Combina Pasta Almendras (60g/L) + Pasta Vainilla (30g/L) para un sabor similar al turrón de Jijona. Consultar disponibilidad de pastas Comparativa de pastas de frutos secos Pasta Concentración Dosificación Rendimiento Nivel de precio Pistacho 40% 80-100g/L 1kg = 10-12L Alto Avellana 35% 70-90g/L 1kg = 11-14L Medio-Alto Almendras 30% 60-80g/L 1kg = 12-16L Medio Pastas clásicas - Sabores esenciales Todo helador necesita estas pastas en stock permanente. Son los sabores más pedidos y tienen rotación rápida: Pasta Vainilla Bourbon Vainilla real de Madagascar. No es extracto, es pasta concentrada con semillas visibles. Dosificación: 40-60g/L. Ver precio Ver ficha técnica Pasta Chocolate Cacao 55% mínimo. Sabor intenso, cremosidad natural. Compatible con cualquier base. Dosificación: 80-100g/L. Ver precio Pasta Fresa Concentrado de fresa natural. Sin colorantes artificiales. Sabor ácido-dulce equilibrado. Dosificación: 50-70g/L. Ver precio Pasta Caramelo Sabor a dulce de leche caramelizado. Muy popular en Colombia. Dosificación: 60-80g/L. Ver precio Pasta Stracciatella Chips de chocolate belga. Se añade al final del mantecado para crear las escamas características. Dosificación: 40-60g/L. Ver precio Pasta Chocolate Blanco Cacao blanco + vainilla. Sabor dulce, cremoso. Ideal para combinaciones con frutos rojos. Dosificación: 70-90g/L. Ver precio Ver todas las pastas clásicas Pastas de fruta - Frescura natural Para sorbetes, helados de fruta y sabores frescos. Estas pastas mantienen el sabor y color natural de la fruta sin necesidad de pulpa fresca: Arándano Azul Imagen ilustrativa del sabor. Foto: Alina Vilchenko. Concentrado de arándanos silvestres. Color azul natural. Antioxidantes. Dosificación: 60-80g/L. Ver precio Coco Coco rallado concentrado. Sabor cremoso tropical. Muy vendido en costa colombiana. Dosificación: 70-90g/L. Ver precio Frutos del Bosque Mezcla de frambuesa, mora, arándano. Sabor balanceado. Dosificación: 60-80g/L. Ver precio Limón Siciliano Imagen ilustrativa del sabor. Foto: Hanna Pad. Aceites esenciales de limón de Sicilia. Ácido cítrico natural. Refrescante. Dosificación: 40-60g/L. Ver precio Mandarina Imagen ilustrativa del sabor. Foto: Paolo Neo. Dulzura cítrica suave. Muy popular en niños. Color naranja natural. Dosificación: 50-70g/L. Ver precio Dragon Summer (Pitaya) Imagen ilustrativa del sabor. Foto: Bermix Studio. Sabor exótico de pitaya/fruta del dragón. Tendencia 2025. Color fucsia intenso. Dosificación: 60-80g/L. Ver precio Ver todas las pastas de fruta Guía de dosificación de pastas para helado La dosis correcta marca la diferencia entre un sabor insípido y uno demasiado intenso. Usa esta tabla como referencia inicial y ajusta según tu preferencia: Tipo de pasta Dosis baja (g/L) Dosis media (g/L) Dosis alta (g/L) Nota Frutos secos 60g 80g 100g Ajusta según intensidad deseada Vainilla 40g 50g 60g Más de 60g puede amargar Chocolate 70g 90g 110g Chocolate oscuro usa dosis alta Frutas 50g 65g 80g Frutas ácidas: dosis media Pro tip: Siempre empieza con dosis baja, prueba, y aumenta gradualmente. Es más fácil agregar pasta que diluir un sabor demasiado intenso. Preguntas frecuentes sobre pastas para helado ¿No está tu pregunta? Escríbenos por WhatsApp y un asesor de Italgel te responde con la referencia y el dato exacto. Hacer otra pregunta (abre WhatsApp) ¿Cuál es la diferencia entre pasta y extracto de vainilla? La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto. ¿Puedo combinar varias pastas en un mismo helado? Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor. ¿Las pastas de fruta reemplazan la fruta natural? Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural. ¿Cuánto dura una pasta abierta? Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas. ¿Dónde comprar pasta de pistacho para helado en Colombia? Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. Cotiza aquí. Solicita muestras de pasta de pistacho, vainilla y frutos secos No tomes decisiones basadas en precios únicamente. El sabor es lo que hace que tus clientes regresen. Te enviamos muestras de las pastas que te interesen para que compruebes la calidad MEC3. Solicitar muestras de pastas Ver bases compatibles Muestras disponibles de Pistacho, Vainilla, Avellana y Chocolate. Envío incluido en pedidos mayores de $300,000 COP. Guías de Italgel para elegir y usar pastas para helado Ver todas las guías Pasta de vainilla para helado: tipos, dosificación y por qué la vainilla Bourbon Madagascar es diferentePasta de vainilla para helado: diferencias con el extracto y la esencia, tipos según el origen y la dosificación de las pastas MEC3 Bourbon y Madagascar. Pasta de pistacho para helado: dosificación correcta, marcas y por qué es el sabor más rentableQué es la pasta de pistacho para helado, cómo dosificarla según la ficha de MEC3, cómo reconocer una pasta pura y dónde comprarla en Colombia. Cotiza pastas para helado al por mayor Cuéntanos qué vendes, cuánto produces y en qué ciudad está tu negocio. Te respondemos con la referencia que te sirve, su precio y la disponibilidad del inventario. Escribes por WhatsApp Cuéntanos qué necesitas y en qué ciudad está tu negocio. Recibes la cotización Con la referencia, el precio y la disponibilidad del inventario. Despachamos tu pedido Los equipos los instala la red de técnicos aliados de Italgel. Cotizar por WhatsApp (abre WhatsApp)"
+  },
+  "front_matter": "\nlayout: categories\ntitle: \"Pastas para helado: pistacho, vainilla y almendra | Italgel\"\nkeyword: \"pastas para helado\"\nlast_modified_at: \"2026-09-21\"\ndescription: \"Pastas para helado MEC3: Pistacho, Vainilla Bourbon, Almendras, Chocolate. Concentración 1:20. Sabor auténtico italiano. Precio mayorista Colombia.\"\nh1: \"Pastas para helado concentradas: pistacho, vainilla, fruta y frutos secos\"\ncierre_titulo: \"Cotiza pastas para helado al por mayor\"\nintro: Pastas italianas MEC3 con concentración real de frutos secos, cacao y especias\nhero: \"img/pastas-helado-italgel-colombia.avif\"\nalt: \"Helados de pistacho, chocolate blanco y avellana preparados con pastas para helado concentradas\"\nhero_title: \"Pastas para helado MEC3\"\nhero_s: img/pastas-helado-italgel-colombia-mobile.avif\nbreadcrumb:\n  - name: Inicio\n    url: /\n  - name: Pastas para helado\n    url: /pastas-sabores-helado/\nbreadcrumb_include: true\nfaqs:\n  - question: \"¿Cuál es la diferencia entre pasta y extracto de vainilla?\"\n    answer: \"La pasta de vainilla contiene las semillas (caviar) de la vaina, proporcionando sabor más complejo y puntos negros visibles. El extracto es líquido, más sutil, y no deja semillas. Para helado artesanal premium, usa pasta. Para helado industrial económico, extracto.\"\n  - question: \"¿Puedo combinar varias pastas en un mismo helado?\"\n    answer: \"Sí, es muy común. Ejemplo: Gianduja = Pasta Avellana (60g/L) + Pasta Chocolate (40g/L). Stracciatella = Helado de vainilla + Pasta Stracciatella al final. La regla es que la suma total de pastas no supere 120g/L para evitar saturación de sabor.\"\n  - question: \"¿Las pastas de fruta reemplazan la fruta natural?\"\n    answer: \"Depende del objetivo. Para sabor concentrado y color estable, la pasta es superior. Para textura con trozos de fruta, combina: Base + Pasta de fruta (50g/L) + Fruta troceada fresca (100-150g/L). La pasta intensifica el sabor de la fruta natural.\"\n  - question: \"¿Cuánto dura una pasta abierta?\"\n    answer: \"Sin abrir: 18-24 meses. Abierta y refrigerada: 6-12 meses. Siempre cierra herméticamente después de usar. Las pastas de frutos secos (pistacho, avellana) son las que más rápido oxidan, consúmelas dentro de 6 meses una vez abiertas.\"\n  - question: \"¿Dónde comprar pasta de pistacho para helado en Colombia?\"\n    answer: 'Italgel distribuye pastas MEC3 con entregas en Bogotá, Medellín, Cali y principales ciudades. Ofrecemos precios mayoristas desde 1kg. <a data-wa>Cotiza aquí</a>.'\n",
+  "html_sha256": {
+    "404.html": "af4dac2edfcd9451b9a5b4774e799576cce6782511a822148d4e1c6bc1d4387c",
+    "index.html": "6dc6555437ce0d484f2df99ae33df43cef01a76baf358f5e78461ca4231da75a",
+    "author-admin/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "bases-helado-colombia/index.html": "8fba33e3f9614ab581f51d2fd1ee9932cc08f850e4fab49d6899dba53bf90963",
+    "blog/index.html": "99128dede9e861f8fac17a3d37a4abd1777ce7aeed3086d34657dcf95f72afc3",
+    "buscar/index.html": "ba75d9d39ff1a5db2982afc76f8d639251889a2d569ab55f67fbb0d21fe5751c",
+    "cafes-de-colombia-expo/index.html": "38919caed87f3e638f15aaebb59014d4d65806e3c8d0b701547654038538db05",
+    "coberturas-salsas-helado/index.html": "2b36ad6c7ae8fb0a002bf91dfc11b52429a3c2f5f23130d6d265506f09bedb94",
+    "contactenos/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "contacto/index.html": "4204e7913c938f96a28dee1373ebd748bd2d532527beeaffa69873957f6e6a1f",
+    "equipos/index.html": "0b43a6533a113bfcd6f43281cdc8e66f1aa2d369151a8e5c0ff0ab9b0c85e396",
+    "equipos-cafe/index.html": "8877972dd32a176b86c231857612106394d8ba8321d1c100e4b1b920b951577b",
+    "granelas-decoracion/index.html": "170a0f13411ad75c5722f591640d4b0a9e3c1f9f301374a619ad3e4e4525f686",
+    "hello-world/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "insumos/index.html": "5859ee9f2d9b2aa34e35c8b7b244a86abe9df720bf065bee77c31d12996908ea",
+    "insumos-heladeria-barranquilla/index.html": "a6b01e34fad263b42dcbf2ba98472529b360dd0be909288207967b8af6b65254",
+    "insumos-heladeria-bucaramanga/index.html": "77c643ded1c9e7aea9af10cf3b5ca60593d1fa965fe45617d6c0063f2051630d",
+    "insumos-heladeria-cali/index.html": "5894a7624d056549dc5a86cf8cccd733e556cfe5f89f86ff097368c484741956",
+    "insumos-heladeria-medellin/index.html": "f80f7c34d29bc986d86fda59270da9ec9e011bf88aa82cb2faba7b946a91ae5d",
+    "insumos-heladeria-medellín/index.html": "1d6191ca5b61c4978c1fe012ae5447ee30fabdbcf72e81b81ccb5d9af1f840f5",
+    "legal/index.html": "7655583f2679de4e9824e6ceeef4486fc3affa99ac3e8139703e3789de46da50",
+    "maquinas-artesanales/index.html": "538e0824539cbdfba4c7887df0eb4be2fcef1e97037c6a41827588e43cacbf5c",
+    "maquinas-helado-artesanal/index.html": "5293ba85ead00d39a8d20dd6eb5b9062eb970dab770cb0fc968172c16cbfa520",
+    "maquinas-helado-industrial/index.html": "92c7e400f87acdf6dad7c484da63efc17f1a2eca82ac36b4cb3bca85b2800c34",
+    "maquinas-helado-soft/index.html": "31b14192cb9591d1824a70030b088f121466d2f74e1c1ba4f4447d29973bd82f",
+    "maquinas-soft/index.html": "7c5fd3b88278a86627711e4b1ae0546432bd7e6c97bae4db3501310367201736",
+    "nosotros/index.html": "83fead5167cafa92dd7e7f069020b5408e3c816be69d00be0276d8ab706ffdf7",
+    "pastas-sabores-helado/index.html": "44ccb752aa59ce846dc40f82b594287a27be94071556d30490781a038190239b",
+    "productos-quella/index.html": "56d93c74333220cd4a30bf15d19f1f96f6e8125207ce69121b80a4092786b2e1",
+    "variegatos-helado/index.html": "ba21a617066d73204bacdd307b1fcc12bbc84d07f0e55715a966f401884e668d",
+    "vitrinas/index.html": "18e8ccda530c66c9bce53d567871edfca6796dd0eb77bb6b897b40e209d94dad",
+    "vitrinas-congeladores/index.html": "93d4de330c07074fbef0385d4a3c1a46934bc346f1212a4351032a2a4be51714",
+    "wp-includes/index.html": "b82bb3f42a4d4347afbd53103f85eb8a733dddd6594e5638031e91dd67e2429b",
+    "author/admin/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "bases-helado-colombia/base-50-mec3/index.html": "86fbb74c39d2c85e0f43c74ca620045f81a206c8d1c1e81d2e6dd36ce40411a0",
+    "bases-helado-colombia/base-50-mec3-2kg/index.html": "216270dfc28c0587cb56fad9dda0af67e616e6ffba9742bf1eacc78d3fd43c80",
+    "bases-helado-colombia/bases-stevia/index.html": "38175f17b6cce221610ff6bf8c64b73868eb05d536b38fad01f25011f1980e0b",
+    "bases-helado-colombia/neutralin-plus/index.html": "29a172ef3f9988f3a555a0d4027a13e560700d33f355ae127678dddccdbb61a8",
+    "bases-helado-colombia/supergelmix/index.html": "00e18b0cd052ac79e0cb92de66940d497a83be76951ec08118a5ce0fba559e92",
+    "blog/amarena-fabbri-heladeria-usos-dosificacion/index.html": "0f7f5ff62a4942d2daa2df987e2480660e0214a986d77b73d3f53d44c55206f2",
+    "blog/base-50-mec3-vs-supergelmix-comparativa/index.html": "49b2713a7dd36f10d9d8e17eb85f15c10ad67c886136d11a0b550bf3c6fd1dca",
+    "blog/como-abrir-una-heladeria-en-colombia/index.html": "309195df9878efc03266a25074d28bc70a628f85fc1921d1d2a3c4c21ea6241f",
+    "blog/como-calcular-overrun-helado-artesanal/index.html": "c9ef6abf5215957b4f0c603b8cd6088c79628e220d6fe897c82bd77a73cbd6a4",
+    "blog/como-elegir-maquina-helado-negocio/index.html": "09f9f157cf5e944ff8319c436edd9d08268ac09553e72ddebb00473fda9a7566",
+    "blog/conservacion-bases-helado-mec3/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "blog/crema-de-whisky-para-helado-variegato/index.html": "74b6b0cf06b0cea1c6e89bd1e39ee232775972e2ad4d07c10ca09403e229eec1",
+    "blog/emulsionantes-estabilizantes-helados-heladeria/index.html": "1b86440aef5fb35ff9aed04c1c9affcee218779c06701e052ed3a7b52d4b1afe",
+    "blog/helados-sin-azucar-heladeria-bases-stevia/index.html": "12f9ae512283fde3ef01b439781d8fe08b3c0f05fddb1b1185afaeb56ba143c8",
+    "blog/pasta-de-vainilla-para-helado-tipos-dosificacion/index.html": "50f36bf089494fd915733a5f1cea2d0742dcc04ddaa9ad57f00bde50213cd4b8",
+    "blog/pasta-pistacho-helado-guia-tecnica/index.html": "ddf1a338b430ab16f9c73290ae265352ba81bd76557b1e25528323f20a3f4757",
+    "blog/pasteurizacion-mezcla-helado-correcta/index.html": "04c9bfe210888a8424dc25b7966f8c33b254b376440cdfc7559cfcaa3876ee66",
+    "blog/proveedores-insumos-heladeria-colombia/index.html": "7822a49041e30d0574e18c2c189a684a5c148749fb8cd10f5c9a0d4a6bf0d180",
+    "blog/que-es-el-variegato-para-helado/index.html": "db1e9aa8a1041911763ca0cf71d5d32f609f181d5442348856f7173446865ead",
+    "blog/que-es-gelato-vs-helado-diferencias/index.html": "6a8887d9c1304ace8ead3c24668ac34cbb1bd241ffb7a99984ba939e5ba06f01",
+    "blog/que-es-un-sorbete-diferencias-helado-artesanal/index.html": "015c438d8a453e9765386e617130f7a7ee46aaf3f6d88047f866cd08b97b3d9e",
+    "blog/que-son-las-granelas-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/rentabilidad-heladeria-colombia/index.html": "d379d9025c1407194065d894e38e05484d4bc4d4e1e8b2c2a9134ce28c915443",
+    "blog/tipo-de-toppings-para-helado/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/tipos-de-toppings-para-helado/index.html": "732f3230b199012a8d5bf229436e5cf7186b57a0a32692fe6da6c80b35469084",
+    "blog/toppings-helado-mas-vendidos/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "blog/toppings-para-helado-mas-rentables/index.html": "a250df8cef9c6560e92cf60e12b53a2999247596e7a361be1125adc3239a2b71",
+    "coberturas-salsas-helado/amarena-fabbri/index.html": "acd04d6fb10dcd72c6b23d68c55db17981b36b0b365f127f3fc1435edf2cfa37",
+    "coberturas-salsas-helado/salsas-especiales/index.html": "3d186f0a7a9b3bde6d0bf5d4c7fcd388796677800008f12e11a3a4f6def498d2",
+    "contacts/sebastian-rios/index.html": "0f16922cc7549512ad0bec559a5fc71da79a565b0f6a89171818b58efc717e63",
+    "elementor-hf/footer/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "elementor-hf/header/index.html": "c64307c128a9d0d328e8c71418ad5cb2d64eb551eaa9ac1a69bfce4d40c3852f",
+    "equipos-cafe/cedar-63c/index.html": "bbe7a9ebc1b28d42b06224241bb550df2b350eaeff7272a50fa3124bc45ffcfb",
+    "equipos-cafe/cruiser/index.html": "d2e98182f46c5cde912606b40f914b162ad77e7ff60adac2a97f81b59fd621bf",
+    "equipos-cafe/ebony-64/index.html": "5bcb31103e4815462abc63d7d783b7a081d42e6f3451989a89fe0cc1f2f0f416",
+    "equipos-cafe/falcon/index.html": "3197c16b8d44422c6f790aaaafc682656daa3c92594f122bc633bcfe0e840b22",
+    "equipos-cafe/mini-neo/index.html": "465ff1b8992450530448e3ec094252cad1b0e9d3f72e824fb88b1a42e8e2f18a",
+    "equipos-cafe/oak-60/index.html": "c13e90c38ab45e40b776d7a9b855d349f427a92564664e7e2e317d9aa711899d",
+    "equipos-cafe/sequoia-74wt/index.html": "7773d860f50d823e8bcc0fc5daedf89e3690f6dd12ca1ffb11795272df95608c",
+    "equipos-cafe/swan/index.html": "0fd6d59d7f3c35d400aadc1d047cd1e5aea2c9cf2818aaa62c23cfd50b05dd87",
+    "equipos-cafe/tank-1/index.html": "d432e4a22b216de1e5baa47a3fb7430ff46d2e3ec6be54d9f1cd3dd0fdf097a8",
+    "equipos-cafe/tank-2/index.html": "d4d6457857891a38f9e081c06c159d46dcbf5d65e505fdcef1d5fbb3ae4e3e48",
+    "insumos/bases-para-helado/index.html": "64f36a149e8b04c00792379fdc50db78a48665bedfaa3dcffc74c8f6443755d7",
+    "italgel/blog/index.html": "ca2a0cba57aa5d403d2b0d03d7d1c93e12fdf7bf61fa7f0bdc4fdda62b81f2e5",
+    "italgel/contacto/index.html": "5b7051ab1673eb8021b64367e022e65c471f33c1dff0623466b075c2134310c6",
+    "italgel/pastas-sabores-helado/pastas-fruta/index.html": "7e8936fa1fd6ea89794a8791a3bd221570db92eeaed2d06105094eef20b77661",
+    "maquinas-helado-soft/coldelite-compacta-3/index.html": "4e8f5871c6fdef7efb83ec77c261afaeb7435fbb1c6103e738cf3caf0222f4c8",
+    "pastas-sabores-helado/pasta-pistacho/index.html": "30685477bb880112114339410c999bf8efdc122532d68e1d7df277aa8f37c40a",
+    "pastas-sabores-helado/pasta-vainilla/index.html": "670b6a2844f022288ca6dc8792fbc7c852e10971ad62999bd2d3e0e57e31a16a",
+    "pastas-sabores-helado/pastas-clasicas/index.html": "957f30420846fa9668e7524147441eaa9b421e9060a8467b46fe6c58ba62af0b",
+    "pastas-sabores-helado/pastas-fruta/index.html": "9d08d486948088db1a1b892fdfaefe4c1f652835dc2918e5d992696276bfd813",
+    "pastas-sabores-helado/pastas-premium/index.html": "3b6dd95577b5adb53e481d50584df332a62100000474cc91231850c1c46a59e5"
+  }
+}

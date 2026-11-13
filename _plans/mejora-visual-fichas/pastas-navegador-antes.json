@@ -1,0 +1,732 @@
+{
+  "mode": "antes",
+  "results": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 191911,
+        "requests": 11,
+        "images": [
+          {
+            "url": "/img/pastas-helado-italgel-colombia.avif",
+            "bytes": 33475
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+            "bytes": 36536
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 687279,
+        "requests": 27,
+        "images": [
+          {
+            "url": "/img/pastas-helado-italgel-colombia.avif",
+            "bytes": 33475
+          },
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+            "bytes": 36536
+          },
+          {
+            "url": "/img/pasta-avellana-selection-helado.avif",
+            "bytes": 13253
+          },
+          {
+            "url": "/img/pasta-almendras-helado-artesanal.avif",
+            "bytes": 10721
+          },
+          {
+            "url": "/img/catalogo/ingredientes/vainilla-492.avif",
+            "bytes": 24237
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+            "bytes": 44972
+          },
+          {
+            "url": "/img/fiordifragola-variegato-fresa.avif",
+            "bytes": 24187
+          },
+          {
+            "url": "/img/catalogo/ingredientes/caramelo-492.avif",
+            "bytes": 19479
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+            "bytes": 33528
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/blanco-540.avif",
+            "bytes": 28451
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/arandano-stock-800.avif",
+            "bytes": 59325
+          },
+          {
+            "url": "/img/catalogo/ingredientes/coco-492.avif",
+            "bytes": 8455
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-492.avif",
+            "bytes": 18100
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/limon-stock-800.avif",
+            "bytes": 35332
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/mandarina-stock-800.avif",
+            "bytes": 57386
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/pitaya-stock-800.avif",
+            "bytes": 40988
+          },
+          {
+            "url": "/img/blog/pasta-vainilla-helado-artesanal.avif",
+            "bytes": 31533
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+            "bytes": 45421
+          }
+        ],
+        "gifRequested": false
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/pastas-helado-italgel-colombia.avif",
+          "width": 390,
+          "height": 390
+        },
+        {
+          "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "width": 318,
+          "height": 398
+        },
+        {
+          "src": "/img/pasta-avellana-selection-helado.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/pasta-almendras-helado-artesanal.avif",
+          "width": 318,
+          "height": 216
+        },
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/fiordifragola-variegato-fresa.avif",
+          "width": 358,
+          "height": 243
+        },
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes/coco-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-492.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-800.avif",
+          "width": 358,
+          "height": 301
+        },
+        {
+          "src": "/img/blog/pasta-vainilla-helado-artesanal.avif",
+          "width": 358,
+          "height": 239
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-920.avif",
+          "width": 358,
+          "height": 239
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/pastas-helado-italgel-colombia.avif",
+          "after": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "words": 172
+        },
+        {
+          "before": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "after": "/img/pasta-avellana-selection-helado.avif",
+          "words": 57
+        },
+        {
+          "before": "/img/pasta-avellana-selection-helado.avif",
+          "after": "/img/pasta-almendras-helado-artesanal.avif",
+          "words": 45
+        },
+        {
+          "before": "/img/pasta-almendras-helado-artesanal.avif",
+          "after": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "words": 28
+        },
+        {
+          "before": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "after": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "words": 18
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "after": "/img/fiordifragola-variegato-fresa.avif",
+          "words": 15
+        },
+        {
+          "before": "/img/fiordifragola-variegato-fresa.avif",
+          "after": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "after": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "after": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "words": 19
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "after": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+          "words": 48
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+          "after": "/img/catalogo/ingredientes/coco-492.avif",
+          "words": 19
+        },
+        {
+          "before": "/img/catalogo/ingredientes/coco-492.avif",
+          "after": "/img/catalogo/ingredientes/bosque-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes/bosque-492.avif",
+          "after": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+          "words": 12
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+          "after": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+          "words": 21
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+          "after": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+          "words": 20
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+          "after": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "words": 373
+        },
+        {
+          "before": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 42
+        }
+      ],
+      "groups": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": 200,
+      "initial": {
+        "sameOriginEncodedBytes": 473456,
+        "requests": 29,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/pastas-helado-italgel-colombia.avif",
+            "bytes": 33475
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-avellana-selection-helado.avif",
+            "bytes": 13253
+          },
+          {
+            "url": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+            "bytes": 36536
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          }
+        ],
+        "gifRequested": false
+      },
+      "full": {
+        "sameOriginEncodedBytes": 777274,
+        "requests": 45,
+        "images": [
+          {
+            "url": "/img/logo-nav.avif",
+            "bytes": 3384
+          },
+          {
+            "url": "/img/pastas-helado-italgel-colombia.avif",
+            "bytes": 33475
+          },
+          {
+            "url": "/img/coldelite-compacta-1.avif",
+            "bytes": 4900
+          },
+          {
+            "url": "/img/catalogo/fabricantes/iceteam-603-bib-160.avif",
+            "bytes": 1818
+          },
+          {
+            "url": "/img/catalogo/fabricantes/valmar-sweety-60-quick-160.avif",
+            "bytes": 1627
+          },
+          {
+            "url": "/img/catalogo/fabricantes/coldelite-compacta-vario-12-160.avif",
+            "bytes": 2091
+          },
+          {
+            "url": "/img/cafe/tank-2.avif",
+            "bytes": 23624
+          },
+          {
+            "url": "/img/cafe/falcon.avif",
+            "bytes": 14167
+          },
+          {
+            "url": "/img/cafe/mini-neo.avif",
+            "bytes": 15658
+          },
+          {
+            "url": "/img/cafe/cruiser.avif",
+            "bytes": 19852
+          },
+          {
+            "url": "/img/cafe/sequoia-74wt.avif",
+            "bytes": 9898
+          },
+          {
+            "url": "/img/catalogo/ingredientes/salted-160.avif",
+            "bytes": 3330
+          },
+          {
+            "url": "/img/fiordiamarena-variegato-cerezas.avif",
+            "bytes": 11929
+          },
+          {
+            "url": "/img/variegatos-quella-textura.avif",
+            "bytes": 18658
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-160.avif",
+            "bytes": 3574
+          },
+          {
+            "url": "/img/base-50-mec3-empaque.avif",
+            "bytes": 32518
+          },
+          {
+            "url": "/img/pasta-avellana-selection-helado.avif",
+            "bytes": 13253
+          },
+          {
+            "url": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+            "bytes": 36536
+          },
+          {
+            "url": "/img/neutralin-plus-mec3-gelato.avif",
+            "bytes": 38900
+          },
+          {
+            "url": "/img/supergelmix-mec3-helado-soft.avif",
+            "bytes": 41626
+          },
+          {
+            "url": "/img/pasta-vainilla-bourbon-mec3.avif",
+            "bytes": 24122
+          },
+          {
+            "url": "/img/pasta-pistacho-siciliano-mec3.avif",
+            "bytes": 38628
+          },
+          {
+            "url": "/img/pasta-almendras-helado-artesanal.avif",
+            "bytes": 10721
+          },
+          {
+            "url": "/img/catalogo/ingredientes/vainilla-400.avif",
+            "bytes": 16511
+          },
+          {
+            "url": "/img/catalogo/ingredientes/caramelo-400.avif",
+            "bytes": 14112
+          },
+          {
+            "url": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+            "bytes": 15448
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+            "bytes": 32056
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+            "bytes": 22939
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/blanco-400.avif",
+            "bytes": 15434
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+            "bytes": 19595
+          },
+          {
+            "url": "/img/catalogo/ingredientes/bosque-400.avif",
+            "bytes": 12802
+          },
+          {
+            "url": "/img/catalogo/ingredientes/coco-400.avif",
+            "bytes": 6232
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+            "bytes": 11729
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+            "bytes": 12674
+          },
+          {
+            "url": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+            "bytes": 14661
+          },
+          {
+            "url": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+            "bytes": 37678
+          },
+          {
+            "url": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+            "bytes": 22598
+          }
+        ],
+        "gifRequested": false
+      },
+      "overflow": false,
+      "broken": [],
+      "images": [
+        {
+          "src": "/img/pastas-helado-italgel-colombia.avif",
+          "width": 584,
+          "height": 584
+        },
+        {
+          "src": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "width": 560,
+          "height": 544
+        },
+        {
+          "src": "/img/pasta-avellana-selection-helado.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/pasta-almendras-helado-artesanal.avif",
+          "width": 563,
+          "height": 382
+        },
+        {
+          "src": "/img/catalogo/ingredientes/vainilla-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/chocolate-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/fiordifragola-variegato-fresa-400.avif",
+          "width": 304,
+          "height": 206
+        },
+        {
+          "src": "/img/catalogo/ingredientes/caramelo-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/stracciatella-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/blanco-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/arandano-stock-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes/coco-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes/bosque-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/limon-stock-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/mandarina-stock-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/catalogo/ingredientes-2/pitaya-stock-400.avif",
+          "width": 304,
+          "height": 255
+        },
+        {
+          "src": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "width": 416,
+          "height": 277
+        },
+        {
+          "src": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "width": 416,
+          "height": 277
+        }
+      ],
+      "between": [
+        {
+          "before": "/img/pastas-helado-italgel-colombia.avif",
+          "after": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "words": 172
+        },
+        {
+          "before": "/img/catalogo/pasta-pistacho-mec3-helado-560.avif",
+          "after": "/img/pasta-avellana-selection-helado.avif",
+          "words": 57
+        },
+        {
+          "before": "/img/pasta-avellana-selection-helado.avif",
+          "after": "/img/pasta-almendras-helado-artesanal.avif",
+          "words": 45
+        },
+        {
+          "before": "/img/pasta-almendras-helado-artesanal.avif",
+          "after": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "words": 28
+        },
+        {
+          "before": "/img/catalogo/ingredientes/vainilla-492.avif",
+          "after": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "words": 18
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/chocolate-492.avif",
+          "after": "/img/fiordifragola-variegato-fresa.avif",
+          "words": 15
+        },
+        {
+          "before": "/img/fiordifragola-variegato-fresa.avif",
+          "after": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes/caramelo-492.avif",
+          "after": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/stracciatella-492.avif",
+          "after": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "words": 19
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/blanco-540.avif",
+          "after": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+          "words": 48
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/arandano-stock-600.avif",
+          "after": "/img/catalogo/ingredientes/coco-492.avif",
+          "words": 19
+        },
+        {
+          "before": "/img/catalogo/ingredientes/coco-492.avif",
+          "after": "/img/catalogo/ingredientes/bosque-492.avif",
+          "words": 14
+        },
+        {
+          "before": "/img/catalogo/ingredientes/bosque-492.avif",
+          "after": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+          "words": 12
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/limon-stock-600.avif",
+          "after": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+          "words": 21
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/mandarina-stock-600.avif",
+          "after": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+          "words": 20
+        },
+        {
+          "before": "/img/catalogo/ingredientes-2/pitaya-stock-600.avif",
+          "after": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "words": 373
+        },
+        {
+          "before": "/img/blog/optimizadas/pasta-vainilla-helado-artesanal-600.avif",
+          "after": "/img/blog/optimizadas/base-50-mec3-vs-supergelmix-comparativa-800.avif",
+          "words": 42
+        }
+      ],
+      "groups": [],
+      "errors": []
+    }
+  ],
+  "accessible": [],
+  "regressions": [],
+  "failures": []
+}

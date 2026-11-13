@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-13",
+  "hero": {
+    "tool": "image_gen built-in",
+    "prompt": "Create a premium square editorial food photograph for a professional gelato ingredients website. One continuous still life, not a collage: three small handmade ceramic tasting bowls on a warm light stone worktop, each holding artisanal gelato. Pistachio gelato in muted natural green with a few real pistachios, ivory white-chocolate gelato with two small white chocolate pieces, and light hazelnut gelato with a few hazelnuts. Bowls composed as a loose compact triangle, close elevated three-quarter view, all three flavors clearly visible, generous natural gelato folds and delicate texture. Soft side daylight, tactile ceramics, elegant restrained styling, realistic appetizing fine detail. Fill the square composition, no blank panels, no lettering, no logos, no packaging, no people, no equipment models. Illustrative food photography only, not evidence of results of any specific manufacturer or recipe. Keep colors natural, avoid artificial bright green and plastic-looking surfaces.",
+    "usage": "Escena ilustrativa de sabores. No representa envases, equipos, receta ni resultado real de MEC3. Alt/title e imagen social originales conservados.",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "processing": "AVIF calidad78, 400/800/1200px, sin ampliación."
+  },
+  "gif": {
+    "src": "/img/animaciones/preparacion-chocolate.gif",
+    "poster": "/img/animaciones/preparacion-chocolate-poster.avif",
+    "width": 400,
+    "height": 300,
+    "frames": 10,
+    "duration_ms": 2000,
+    "bytes": 565298,
+    "alt": "Manos mezclando chocolate en un recipiente de acero durante su preparación",
+    "caption": "Mezclado de chocolate. Escena ilustrativa; no muestra una receta, una dosificación ni un producto MEC3 específicos.",
+    "control_label": "Reproducir la preparación de chocolate",
+    "source": {
+      "author": "Anna Tarazevich",
+      "page": "https://www.pexels.com/video/person-mixing-chocolate-in-a-bowl-6112841/",
+      "download": "https://videos.pexels.com/video-files/6112841/6112841-hd_1080_1928_25fps.mp4",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "b4302c7e4b65edbe6c5a3dd4de3000879b59cf634a35e91566bf6e4534fc35ae"
+    },
+    "processing": {
+      "start_seconds": 2,
+      "seconds": 2,
+      "fps": 5,
+      "crop": "720:540:0:500",
+      "scale": "400:300",
+      "colors": 256,
+      "dither": "bayer, escala 3",
+      "denoise": "hqdn3d=2:2:3:3"
+    },
+    "usage": "Apoyo visual de incorporación y mezclado de un ingrediente, junto a la guía de dosis. No demuestra medidas o fórmulas. Reutiliza el activo de Medellín para aprovechar caché sin duplicar archivos.",
+    "license_checked": "2026-11-13, Pexels source and license public pages"
+  },
+  "assets": [
+    {
+      "path": "img/catalogo/pastas-tres-sabores-hero-1200.avif",
+      "bytes": 288640,
+      "sha256": "cdd7fa7a94efe399fbc244bdee58aa377c77dcacf25d5e2b28fc2e7570f7e763"
+    },
+    {
+      "path": "img/catalogo/pastas-tres-sabores-hero-400.avif",
+      "bytes": 46555,
+      "sha256": "993b8f11a974822b7816468fc1a6bbf7fe423b6629bb9ac919f83819a53c4f9b"
+    },
+    {
+      "path": "img/catalogo/pastas-tres-sabores-hero-800.avif",
+      "bytes": 158455,
+      "sha256": "d48271595db73adb0d4d2720ac22425ebc37d7c89d04f69dd87c77d7dcef10b1"
+    },
+    {
+      "path": "img/animaciones/preparacion-chocolate.gif",
+      "bytes": 565298,
+      "sha256": "0c01a80138d79f1df81f22fe81c0df3d73c3fcbbce7da97dffd545c89021e8ac"
+    },
+    {
+      "path": "img/animaciones/preparacion-chocolate-poster.avif",
+      "bytes": 10449,
+      "sha256": "227e5e157f72f80f1f512fcb0f6e4621eea44be92cf6fd5e8bc3d4fdd9537896"
+    }
+  ]
+}
