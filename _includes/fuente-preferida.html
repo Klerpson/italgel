@@ -1,6 +1,13 @@
+{%- comment -%}
+  Botón "fuente preferida en Google" en la firma del artículo (deeplink oficial, sin JS
+  de terceros). Cuenta en Noticias destacadas, Modo IA y AI Overviews.
+  Contorno (.boton--contorno): el sólido es WhatsApp. ↗ porque abre Google en otra pestaña.
+  El clic lo mide GA4 como clic saliente (link_url); data-location lo distingue si se
+  crea un activador en GTM. Params: include.marca, include.lang.
+{%- endcomment -%}
 {%- assign fp_host = site.url | remove: 'https://' | remove: 'http://' | remove: '/' -%}
 <p>
-  <a class="enlace-flecha" href="https://www.google.com/preferences/source?q={{ fp_host }}" rel="noopener" target="_blank" title="{% if include.lang == "en" %}Add {{ include.marca }} as a preferred source on Google (opens Google){% else %}Añade a {{ include.marca }} como fuente preferida en Google (abre Google){% endif %}">
-    {%- if include.lang == "en" -%}Add {{ include.marca }} as a preferred source on Google{%- else -%}Añade a {{ include.marca }} como fuente preferida en Google{%- endif -%}
+  <a class="boton boton--contorno" href="https://www.google.com/preferences/source?q={{ fp_host }}" rel="noopener" target="_blank" data-location="post-fuente-preferida" title="{% if include.lang == "en" %}Add {{ include.marca }} as a preferred source on Google (opens Google){% else %}Añade a {{ include.marca }} como fuente preferida en Google (abre Google){% endif %}">
+    {%- if include.lang == "en" -%}Add {{ include.marca }} as a preferred source on Google{%- else -%}Añade a {{ include.marca }} como fuente preferida en Google{%- endif %} <span aria-hidden="true">↗</span>
   </a>
 </p>

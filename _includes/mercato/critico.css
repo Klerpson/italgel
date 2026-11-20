@@ -199,6 +199,12 @@
       box-shadow: inset 0 -2px 0 rgb(6 48 26 / 0.16);
     }
     &.boton--compacto { min-height: 2.625rem; padding: 0.625rem 1.125rem; }
+    /* Contorno: acciones secundarias, nunca la conversión (fuente preferida en la firma del
+       artículo). El texto largo pasa a varias líneas en móvil en vez de desbordar. */
+    &.boton--contorno {
+      color: var(--color-verde); border: 1.5px solid currentColor; white-space: normal; line-height: 1.35;
+      &:hover { background-color: var(--color-papel); }
+    }
     .boton__corto { display: none; }
     @media (max-width: 26rem) {
       &.boton--compacto { padding-inline: 1rem; }
