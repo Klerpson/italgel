@@ -73,8 +73,12 @@
 
   /* Firma del equipo al final del texto */
   .firma {
-    display: flex; gap: var(--space-md); align-items: start;
+    display: flex; flex-wrap: wrap; gap: var(--space-md); align-items: start;
     margin-block-start: var(--space-2xl);
     img { flex: none; inline-size: 4rem; block-size: 4rem; padding: 0.5rem; object-fit: contain; background: var(--color-papel); border-radius: 50%; }
+    /* El texto ocupa el resto de la fila; el botón de fuente preferida baja a una fila
+       entera (en la columna del texto, a 320 px partía en 4 líneas). */
+    > div { flex: 1 1 0; min-inline-size: 0; }
+    > p { flex-basis: 100%; }
   }
 }
