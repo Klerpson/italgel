@@ -17,6 +17,12 @@ wa_mensaje: "¡Hola! Soy dueño o encargado de una heladería y quiero cotizar"
 wa_asunto: "insumos o equipos"
 email: info@mec3.co
 direccion: "Carrera 68H No. 75 - 33, Bogotá, Colombia"
+# Coordenadas del local según su ficha de Google Maps (schema LocalBusiness).
+lat: "4.683618"
+lng: "-74.084585"
+# Mapa de Google Maps de la sede (ficha "Italgel Colombia S.A.S."), centrado en el local a nivel de calle.
+# Lo pinta _includes/mercato/mapa.html.
+mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5!2d-74.084585!3d4.683618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b79157826df%3A0x7bf9771f62c13d07!2sItalgel%20Colombia%20S.A.S.!5e0!3m2!1ses-419!2sco!4v1795003891832!5m2!1ses-419!2sco"
 nit: "9006898237"
 redes:
   - nombre: Facebook

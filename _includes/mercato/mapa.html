@@ -1,0 +1,9 @@
+{%- comment -%}
+  Mapa de Google Maps de la sede. La URL sale de _config.yml (mapa); sin ella no pinta nada.
+  Uso: {% include mercato/mapa.html %}
+{%- endcomment -%}
+{%- if site.mapa -%}
+<div class="mapa">
+  <iframe src="{{ site.mapa }}" title="Mapa de Italgel Colombia: {{ site.direccion }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{%- endif -%}
